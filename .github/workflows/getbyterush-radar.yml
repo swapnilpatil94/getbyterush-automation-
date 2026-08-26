@@ -1,0 +1,43 @@
+name: GetByteRush News Radar
+
+on:
+  workflow_dispatch:
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run News Radar
+        run: |
+          python scripts/radar.py
+
+      - name: Show collected stories
+        run: |
+          python - <<'PY'
+          import json
+
+          with open("data/raw_stories.json") as f:
+              data = json.load(f)
+
+          print("")
+          print("=" * 70)
+          print("GETBYTERUSH NEWS RADAR")
+          print("=" * 70)
+          print("Stories:", data["count"])
+          print("")
+
+          for i, story in enumerate(data["stories"][:20], 1):
+              print(f"{i}. {story['title']}")
+              print(f"   Source: {story['source']}")
+              print(f"   URL: {story['url']}")
+              print("")
+          PY
