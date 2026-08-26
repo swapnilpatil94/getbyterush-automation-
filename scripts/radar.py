@@ -4,6 +4,7 @@ import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 
 
 FEEDS = [
@@ -31,6 +32,10 @@ FEEDS = [
 
 
 def clean(text):
+    """
+    Remove HTML and normalize whitespace.
+    """
+
     text = text or ""
 
     text = re.sub(
@@ -48,17 +53,72 @@ def clean(text):
     return text.strip()
 
 
+def extract_date(element):
+    """
+    Extract publication/update date from RSS or Atom entries.
+
+    Supports:
+    - pubDate
+    - published
+    - updated
+    - date
+    - namespaced versions
+    """
+
+    possible_tags = [
+        "pubDate",
+        "published",
+        "updated",
+        "date",
+    ]
+
+    # Standard RSS / Atom
+    for tag in possible_tags:
+
+        child = element.find(tag)
+
+        if child is not None and child.text:
+
+            return child.text.strip()
+
+    # Namespaced / Dublin Core / other feed formats
+    for child in list(element):
+
+        tag = child.tag.lower()
+
+        if any(
+            keyword in tag
+            for keyword in [
+                "pubdate",
+                "published",
+                "updated",
+                "date",
+            ]
+        ):
+
+            if child.text:
+
+                return child.text.strip()
+
+    return ""
+
+
 def fetch_feed(feed):
-    print(f"Fetching: {feed['name']}")
+
+    print(
+        f"Fetching: {feed['name']}"
+    )
 
     request = urllib.request.Request(
         feed["url"],
         headers={
-            "User-Agent": "GetByteRush-News-Radar/1.0"
+            "User-Agent":
+                "GetByteRush-News-Radar/1.0"
         }
     )
 
     try:
+
         with urllib.request.urlopen(
             request,
             timeout=20
@@ -70,11 +130,13 @@ def fetch_feed(feed):
 
         stories = []
 
-        # --------------------------------
+        # ============================================================
         # RSS
-        # --------------------------------
+        # ============================================================
 
-        for item in root.findall(".//item"):
+        for item in root.findall(
+            ".//item"
+        ):
 
             title = item.findtext(
                 "title",
@@ -91,29 +153,40 @@ def fetch_feed(feed):
                 ""
             )
 
-            pub_date = item.findtext(
-                "pubDate",
-                ""
+            published = extract_date(
+                item
             )
 
             if title:
 
-                stories.append({
-                    "source": feed["name"],
-                    "title": clean(title),
-                    "url": link,
-                    "description": clean(description),
-                    "published": pub_date
-                })
+                stories.append(
+                    {
+                        "source":
+                            feed["name"],
 
-        # --------------------------------
-        # Atom
-        # --------------------------------
+                        "title":
+                            clean(title),
+
+                        "url":
+                            link.strip(),
+
+                        "description":
+                            clean(description),
+
+                        "published":
+                            published
+                    }
+                )
+
+        # ============================================================
+        # ATOM
+        # ============================================================
 
         if not stories:
 
             namespaces = {
-                "atom": "http://www.w3.org/2005/Atom"
+                "atom":
+                    "http://www.w3.org/2005/Atom"
             }
 
             for entry in root.findall(
@@ -133,10 +206,8 @@ def fetch_feed(feed):
                     namespaces
                 )
 
-                published = entry.findtext(
-                    "atom:published",
-                    "",
-                    namespaces
+                published = extract_date(
+                    entry
                 )
 
                 link_element = entry.find(
@@ -155,13 +226,24 @@ def fetch_feed(feed):
 
                 if title:
 
-                    stories.append({
-                        "source": feed["name"],
-                        "title": clean(title),
-                        "url": link,
-                        "description": clean(summary),
-                        "published": published
-                    })
+                    stories.append(
+                        {
+                            "source":
+                                feed["name"],
+
+                            "title":
+                                clean(title),
+
+                            "url":
+                                link.strip(),
+
+                            "description":
+                                clean(summary),
+
+                            "published":
+                                published
+                        }
+                    )
 
         print(
             f"  ✓ {len(stories)} stories"
@@ -172,8 +254,8 @@ def fetch_feed(feed):
     except Exception as error:
 
         print(
-            f"  ⚠ Skipping {feed['name']}: "
-            f"{error}"
+            f"  ⚠ Skipping "
+            f"{feed['name']}: {error}"
         )
 
         return []
@@ -185,7 +267,10 @@ def deduplicate(stories):
 
     for story in stories:
 
-        url = story.get("url", "").strip()
+        url = story.get(
+            "url",
+            ""
+        ).strip()
 
         title = story.get(
             "title",
@@ -201,7 +286,98 @@ def deduplicate(stories):
 
             unique[key] = story
 
-    return list(unique.values())
+    return list(
+        unique.values()
+    )
+
+
+def parse_date(value):
+
+    if not value:
+
+        return None
+
+    # RSS dates
+    try:
+
+        return parsedate_to_datetime(
+            value
+        ).astimezone(
+            timezone.utc
+        )
+
+    except Exception:
+        pass
+
+    # ISO dates
+    try:
+
+        return datetime.fromisoformat(
+            value.replace(
+                "Z",
+                "+00:00"
+            )
+        ).astimezone(
+            timezone.utc
+        )
+
+    except Exception:
+        pass
+
+    return None
+
+
+def freshness_score(story):
+
+    published = parse_date(
+        story.get(
+            "published",
+            ""
+        )
+    )
+
+    if not published:
+
+        return 0
+
+    now = datetime.now(
+        timezone.utc
+    )
+
+    age_hours = (
+        now - published
+    ).total_seconds() / 3600
+
+    # Ignore future/malformed dates
+    if age_hours < -1:
+
+        return 0
+
+    # ============================================================
+    # FRESHNESS SCALE
+    # ============================================================
+
+    if age_hours <= 6:
+
+        return 10
+
+    if age_hours <= 12:
+
+        return 9
+
+    if age_hours <= 24:
+
+        return 8
+
+    if age_hours <= 48:
+
+        return 6
+
+    if age_hours <= 72:
+
+        return 5
+
+    return 0
 
 
 def main():
@@ -214,21 +390,23 @@ def main():
 
     all_stories = []
 
-    # --------------------------------
-    # Fetch sources
-    # --------------------------------
+    # ============================================================
+    # FETCH
+    # ============================================================
 
     for feed in FEEDS:
 
-        stories = fetch_feed(feed)
+        stories = fetch_feed(
+            feed
+        )
 
         all_stories.extend(
             stories
         )
 
-    # --------------------------------
-    # Deduplicate
-    # --------------------------------
+    # ============================================================
+    # DEDUPLICATE
+    # ============================================================
 
     stories = deduplicate(
         all_stories
@@ -240,27 +418,43 @@ def main():
         f"{len(stories)}"
     )
 
-    # --------------------------------
-    # Create output directory
-    # --------------------------------
+    # ============================================================
+    # CREATE DATA DIRECTORY
+    # ============================================================
 
     os.makedirs(
         "data",
         exist_ok=True
     )
 
-    # --------------------------------
-    # Save results
-    # --------------------------------
+    # ============================================================
+    # ADD FRESHNESS INFORMATION
+    # ============================================================
+
+    for story in stories:
+
+        story[
+            "freshness_score"
+        ] = freshness_score(
+            story
+        )
+
+    # ============================================================
+    # SAVE RAW STORIES
+    # ============================================================
 
     result = {
-        "generated_at": datetime.now(
-            timezone.utc
-        ).isoformat(),
 
-        "count": len(stories),
+        "generated_at":
+            datetime.now(
+                timezone.utc
+            ).isoformat(),
 
-        "stories": stories
+        "count":
+            len(stories),
+
+        "stories":
+            stories
     }
 
     output_path = (
@@ -285,18 +479,43 @@ def main():
         f"Saved: {output_path}"
     )
 
-    # --------------------------------
-    # Preview
-    # --------------------------------
+    # ============================================================
+    # SHOW RECENT STORIES
+    # ============================================================
+
+    recent = [
+        story
+        for story in stories
+        if story.get(
+            "freshness_score",
+            0
+        ) > 0
+    ]
+
+    recent.sort(
+        key=lambda story:
+            story.get(
+                "freshness_score",
+                0
+            ),
+        reverse=True
+    )
 
     print("")
     print("=" * 70)
-    print("TOP RAW STORIES")
+    print("RECENT STORIES")
     print("=" * 70)
+    print("")
+
+    print(
+        f"Stories in last 72h: "
+        f"{len(recent)}"
+    )
+
     print("")
 
     for index, story in enumerate(
-        stories[:20],
+        recent[:30],
         1
     ):
 
@@ -308,6 +527,16 @@ def main():
         print(
             f"   Source: "
             f"{story['source']}"
+        )
+
+        print(
+            f"   Published: "
+            f"{story.get('published', 'N/A')}"
+        )
+
+        print(
+            f"   Freshness: "
+            f"{story.get('freshness_score', 0)}"
         )
 
         print(
