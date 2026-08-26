@@ -18,7 +18,7 @@ jobs:
 
       - name: Install Gemini SDK
         run: |
-          pip install -q google-genai
+          pip install -q -U google-genai
 
       - name: Test Gemini
         env:
@@ -32,9 +32,9 @@ jobs:
               api_key=os.environ["GEMINI_API_KEY"]
           )
 
-          response = client.models.generate_content(
-              model="gemini-2.5-flash",
-              contents="""
+          interaction = client.interactions.create(
+              model="gemini-3.6-flash",
+              input="""
               You are the AI editor for GetByteRush.
 
               Reply with exactly:
@@ -45,5 +45,5 @@ jobs:
               """
           )
 
-          print(response.text)
+          print(interaction.output_text)
           PY
