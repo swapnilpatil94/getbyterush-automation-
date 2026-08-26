@@ -1,0 +1,49 @@
+name: Gemini Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-gemini:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Gemini SDK
+        run: |
+          pip install -q google-genai
+
+      - name: Test Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          from google import genai
+
+          client = genai.Client(
+              api_key=os.environ["GEMINI_API_KEY"]
+          )
+
+          response = client.models.generate_content(
+              model="gemini-2.5-flash",
+              contents="""
+              You are the AI editor for GetByteRush.
+
+              Reply with exactly:
+
+              GETBYTERUSH GEMINI TEST PASSED
+
+              Nothing else.
+              """
+          )
+
+          print(response.text)
+          PY
