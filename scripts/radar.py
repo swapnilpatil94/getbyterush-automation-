@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -29,7 +30,27 @@ FEEDS = [
 ]
 
 
+def clean(text):
+    text = text or ""
+
+    text = re.sub(
+        r"<[^>]+>",
+        " ",
+        text
+    )
+
+    text = re.sub(
+        r"\s+",
+        " ",
+        text
+    )
+
+    return text.strip()
+
+
 def fetch_feed(feed):
+    print(f"Fetching: {feed['name']}")
+
     request = urllib.request.Request(
         feed["url"],
         headers={
@@ -38,21 +59,45 @@ def fetch_feed(feed):
     )
 
     try:
-        with urllib.request.urlopen(request, timeout=20) as response:
+        with urllib.request.urlopen(
+            request,
+            timeout=20
+        ) as response:
+
             data = response.read()
 
         root = ET.fromstring(data)
 
         stories = []
 
+        # --------------------------------
         # RSS
+        # --------------------------------
+
         for item in root.findall(".//item"):
-            title = item.findtext("title", "")
-            link = item.findtext("link", "")
-            description = item.findtext("description", "")
-            pub_date = item.findtext("pubDate", "")
+
+            title = item.findtext(
+                "title",
+                ""
+            )
+
+            link = item.findtext(
+                "link",
+                ""
+            )
+
+            description = item.findtext(
+                "description",
+                ""
+            )
+
+            pub_date = item.findtext(
+                "pubDate",
+                ""
+            )
 
             if title:
+
                 stories.append({
                     "source": feed["name"],
                     "title": clean(title),
@@ -61,13 +106,21 @@ def fetch_feed(feed):
                     "published": pub_date
                 })
 
+        # --------------------------------
         # Atom
+        # --------------------------------
+
         if not stories:
+
             namespaces = {
                 "atom": "http://www.w3.org/2005/Atom"
             }
 
-            for entry in root.findall("atom:entry", namespaces):
+            for entry in root.findall(
+                "atom:entry",
+                namespaces
+            ):
+
                 title = entry.findtext(
                     "atom:title",
                     "",
@@ -94,9 +147,14 @@ def fetch_feed(feed):
                 link = ""
 
                 if link_element is not None:
-                    link = link_element.attrib.get("href", "")
+
+                    link = link_element.attrib.get(
+                        "href",
+                        ""
+                    )
 
                 if title:
+
                     stories.append({
                         "source": feed["name"],
                         "title": clean(title),
@@ -105,65 +163,116 @@ def fetch_feed(feed):
                         "published": published
                     })
 
+        print(
+            f"  ✓ {len(stories)} stories"
+        )
+
         return stories
 
     except Exception as error:
-        print(f"WARNING: {feed['name']} failed: {error}")
+
+        print(
+            f"  ⚠ Skipping {feed['name']}: "
+            f"{error}"
+        )
+
         return []
 
 
-def clean(text):
-    text = text or ""
+def deduplicate(stories):
 
-    text = re.sub(
-        r"<[^>]+>",
-        " ",
-        text
-    )
+    unique = {}
 
-    text = re.sub(
-        r"\s+",
-        " ",
-        text
-    )
+    for story in stories:
 
-    return text.strip()
+        url = story.get("url", "").strip()
+
+        title = story.get(
+            "title",
+            ""
+        ).strip().lower()
+
+        key = url or title
+
+        if not key:
+            continue
+
+        if key not in unique:
+
+            unique[key] = story
+
+    return list(unique.values())
 
 
 def main():
+
+    print("")
+    print("=" * 70)
+    print("GETBYTERUSH NEWS RADAR")
+    print("=" * 70)
+    print("")
+
     all_stories = []
 
+    # --------------------------------
+    # Fetch sources
+    # --------------------------------
+
     for feed in FEEDS:
-        print(f"Fetching: {feed['name']}")
 
         stories = fetch_feed(feed)
 
-        all_stories.extend(stories)
+        all_stories.extend(
+            stories
+        )
 
-    # Remove duplicate URLs
-    unique = {}
+    # --------------------------------
+    # Deduplicate
+    # --------------------------------
 
-    for story in all_stories:
-        key = story["url"] or story["title"].lower()
+    stories = deduplicate(
+        all_stories
+    )
 
-        if key not in unique:
-            unique[key] = story
+    print("")
+    print(
+        f"Total unique stories: "
+        f"{len(stories)}"
+    )
 
-    stories = list(unique.values())
+    # --------------------------------
+    # Create output directory
+    # --------------------------------
+
+    os.makedirs(
+        "data",
+        exist_ok=True
+    )
+
+    # --------------------------------
+    # Save results
+    # --------------------------------
 
     result = {
         "generated_at": datetime.now(
             timezone.utc
         ).isoformat(),
+
         "count": len(stories),
+
         "stories": stories
     }
 
+    output_path = (
+        "data/raw_stories.json"
+    )
+
     with open(
-        "data/raw_stories.json",
+        output_path,
         "w",
         encoding="utf-8"
     ) as file:
+
         json.dump(
             result,
             file,
@@ -171,10 +280,44 @@ def main():
             ensure_ascii=False
         )
 
+    print("")
     print(
-        f"\nCollected {len(stories)} stories."
+        f"Saved: {output_path}"
     )
+
+    # --------------------------------
+    # Preview
+    # --------------------------------
+
+    print("")
+    print("=" * 70)
+    print("TOP RAW STORIES")
+    print("=" * 70)
+    print("")
+
+    for index, story in enumerate(
+        stories[:20],
+        1
+    ):
+
+        print(
+            f"{index}. "
+            f"{story['title']}"
+        )
+
+        print(
+            f"   Source: "
+            f"{story['source']}"
+        )
+
+        print(
+            f"   URL: "
+            f"{story['url']}"
+        )
+
+        print("")
 
 
 if __name__ == "__main__":
+
     main()
