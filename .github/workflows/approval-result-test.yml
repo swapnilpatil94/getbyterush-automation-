@@ -1,0 +1,49 @@
+name: Approval Result Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_id:
+        description: "Approved GetByteRush post"
+        required: true
+        type: string
+
+      decision:
+        description: "Approval decision"
+        required: true
+        type: choice
+        options:
+          - approved
+          - rejected
+
+permissions:
+  actions: read
+
+jobs:
+  result:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Show approval result
+        run: |
+          echo "================================"
+          echo "GETBYTERUSH APPROVAL RECEIVED"
+          echo "================================"
+
+          echo "Post ID:"
+          echo "${{ inputs.post_id }}"
+
+          echo ""
+
+          echo "Decision:"
+          echo "${{ inputs.decision }}"
+
+          echo ""
+
+          if [ "${{ inputs.decision }}" = "approved" ]; then
+            echo "✅ APPROVED"
+            echo "Next step would be Instagram publishing."
+          else
+            echo "❌ REJECTED"
+            echo "Nothing will be published."
+          fi
