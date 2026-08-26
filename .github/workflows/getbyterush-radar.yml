@@ -19,6 +19,10 @@ jobs:
       - name: Run News Radar
         run: |
           python scripts/radar.py
+      
+      - name: Filter stories
+        run: |
+          python scripts/filter_stories.py
 
       - name: Show collected stories
         run: |
