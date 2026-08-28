@@ -1,7 +1,6 @@
 name: GetByteRush Render Existing Editorial
 
 on:
-  # Renderer verification is manual/scheduled/push-driven; editorial scheduling lives in editorial.yml.
   workflow_dispatch:
     inputs:
       source:
@@ -15,7 +14,6 @@ on:
         default: false
         type: boolean
   schedule:
-    # Run 30 minutes after each editorial cycle.
     - cron: "30 2,6,10,14,18,22 * * *"
   push:
     paths:
@@ -47,7 +45,9 @@ jobs:
           python - <<'PY'
           import json, os
           from pathlib import Path
-          requested=os.environ.get("REQUESTED_SOURCE","auto").strip(); selected=Path("data/selected_story.json"); selected.parent.mkdir(parents=True,exist_ok=True)
+          requested=os.environ.get("REQUESTED_SOURCE","auto").strip()
+          selected=Path("data/selected_story.json")
+          selected.parent.mkdir(parents=True,exist_ok=True)
           def load(path):
               try: data=json.loads(path.read_text(encoding="utf-8"))
               except Exception: return None
@@ -65,11 +65,15 @@ jobs:
                   if not packages: raise SystemExit("No reusable editorial package found")
                   packages.sort(key=lambda x:(x[0],x[1]),reverse=True); _,_,source,data=packages[0]
           selected.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
-          print(f"RENDER_SOURCE={source}"); print(f"RENDER_STORY={data.get('story_title','(untitled)')}"); print(f"RENDER_SLIDES={len(data.get('slides',[]))}"); print("GEMINI_CALL=0")
+          print(f"RENDER_SOURCE={source}")
+          print(f"RENDER_STORY={data.get('story_title','(untitled)')}")
+          print(f"RENDER_SLIDES={len(data.get('slides',[]))}")
+          print("GEMINI_CALL=0")
           PY
       - name: Setup Python
         uses: actions/setup-python@v5
-        with: {python-version: "3.11"}
+        with:
+          python-version: "3.11"
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -82,55 +86,87 @@ jobs:
       - name: Clean old outputs
         if: ${{ inputs.clean_old_outputs == true }}
         run: python scripts/topic_memory.py cleanup
+      - name: Snapshot existing post packages
+        shell: bash
+        run: |
+          set -euo pipefail
+          find output/posts -mindepth 1 -maxdepth 1 -type d -print 2>/dev/null | sort > /tmp/gbr-before-posts.txt || true
+          echo "Existing packages: $(wc -l < /tmp/gbr-before-posts.txt | tr -d ' ')"
       - name: Render saved editorial only
-        env: {PYTHONPATH: scripts}
+        env:
+          PYTHONPATH: scripts
         run: |
           echo "Gemini is intentionally NOT called in this workflow."
           python scripts/carousel_production.py
+      - name: Identify newly rendered package
+        shell: bash
+        run: |
+          set -euo pipefail
+          find output/posts -mindepth 1 -maxdepth 1 -type d -print 2>/dev/null | sort > /tmp/gbr-after-posts.txt || true
+          NEW_PACKAGE=$(comm -13 /tmp/gbr-before-posts.txt /tmp/gbr-after-posts.txt | head -n 1)
+          if [ -z "$NEW_PACKAGE" ]; then
+            echo "ERROR: renderer did not create a new post package"
+            exit 1
+          fi
+          COUNT=$(comm -13 /tmp/gbr-before-posts.txt /tmp/gbr-after-posts.txt | wc -l | tr -d ' ')
+          if [ "$COUNT" -ne 1 ]; then
+            echo "ERROR: expected exactly one new package, found $COUNT"
+            comm -13 /tmp/gbr-before-posts.txt /tmp/gbr-after-posts.txt
+            exit 1
+          fi
+          echo "NEW_POST_PACKAGE=$NEW_PACKAGE" >> "$GITHUB_ENV"
+          echo "✓ New package: $NEW_PACKAGE"
       - name: Validate selected render package
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
-          import json
+          import json, os
           from pathlib import Path
-          selected=json.loads(Path("data/selected_story.json").read_text(encoding="utf-8")); expected=len(selected.get("slides",[])); title=selected.get("story_title","")
+          selected=json.loads(Path("data/selected_story.json").read_text(encoding="utf-8"))
+          expected=len(selected.get("slides",[]))
           if not 5<=expected<=9: raise SystemExit(f"Unexpected editorial slide count: {expected}")
-          candidates=[]
-          for p in Path("output/posts").glob("**/post.json"):
-              try: post=json.loads(p.read_text(encoding="utf-8"))
-              except Exception: continue
-              if post.get("story_title")!=title: continue
-              slides=sorted(p.parent.glob("slides/*.png"))
-              if len(slides)==expected: candidates.append((p.stat().st_mtime,p,slides))
-          if not candidates: raise SystemExit(f"No rendered package found for: {title}")
-          candidates.sort(key=lambda x:x[0],reverse=True); _,post_path,slides=candidates[0]
+          package=Path(os.environ["NEW_POST_PACKAGE"])
+          post_path=package / "post.json"
+          if not post_path.exists(): raise SystemExit(f"Missing post.json: {package}")
+          slides=sorted((package / "slides").glob("*.png"))
+          if len(slides)!=expected: raise SystemExit(f"Expected {expected} slides, found {len(slides)}")
           for slide in slides:
               raw=slide.read_bytes()
               if len(raw)<24 or raw[:8]!=b"\x89PNG\r\n\x1a\n": raise SystemExit(f"Invalid PNG: {slide}")
               w=int.from_bytes(raw[16:20],"big"); h=int.from_bytes(raw[20:24],"big")
               if (w,h)!=(1080,1350): raise SystemExit(f"Invalid dimensions: {slide}={w}x{h}")
-          print(f"✓ Selected package: {post_path.parent}"); print(f"✓ Slides: {len(slides)}"); print("✓ Dimensions: 1080x1350"); print("✓ Gemini calls: 0")
+          print(f"✓ Selected package: {package}")
+          print(f"✓ Slides: {len(slides)}")
+          print("✓ Dimensions: 1080x1350")
+          print("✓ Gemini calls: 0")
           PY
       - name: List generated output
         if: always()
-        run: find output/posts -type f | sort || true
+        run: find "${NEW_POST_PACKAGE:-output/posts}" -type f | sort || true
       - name: Upload Carousel Package
         if: success()
         uses: actions/upload-artifact@v4
         with:
           name: getbyterush-render-only-${{ github.run_number }}
           path: |
-            output/**
+            ${{ env.NEW_POST_PACKAGE }}/**
             data/selected_story.json
-          if-no-files-found: warn
+          if-no-files-found: error
           retention-days: 7
-      - name: Commit rendered output
+      - name: Commit only the new rendered package
         if: success()
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/posts/ data/selected_story.json
-          if git diff --cached --quiet; then echo "No rendered changes to commit."; else git commit -m "chore: render saved GetByteRush editorial"; git push origin HEAD:main; fi
-
-# Verification touch: re-run renderer against the saved editorial package; Gemini remains disabled.
+          git reset -- output/posts/ || true
+          git reset -- data/selected_story.json || true
+          git add "$NEW_POST_PACKAGE"
+          if git diff --cached --quiet; then
+            echo "ERROR: new package produced no git changes"
+            exit 1
+          fi
+          echo "Committing only: $NEW_POST_PACKAGE"
+          git commit -m "chore: render GetByteRush editorial package"
+          git push origin HEAD:main
