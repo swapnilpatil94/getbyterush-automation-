@@ -47,7 +47,16 @@ def theme_for(story):
     return "authority"
 def role(s,i,total):
     x=cl(first(s.get("role"),s.get("scene_role"))).lower()
-    return x or ("interrupt" if i==1 else "payoff" if i==total else "pattern_interrupt" if i==3 else "reveal" if i==total-1 else "proof")
+    if x:return x
+    if i==1:return "interrupt"
+    if i==2:return "open_loop"
+    if i==3:return "proof"
+    if i==4:return "escalation"
+    if i==5 and total>=6:return "pattern_interrupt"
+    if i==6 and total>=7:return "reveal"
+    if i==7 and total>=8:return "implication"
+    if i==total:return "payoff"
+    return "proof"
 def content(s):
     h=punch(first(s.get("headline"),s.get("title"),s.get("hook"),s.get("text")),10,78)
     b=support(first(s.get("body"),s.get("supporting_text"),s.get("copy"),s.get("description")),170)
@@ -96,7 +105,7 @@ def labels(s):
 def markup(s,story,t,evi,i,total):
     h,b,v,c=content(s);r=role(s,i,total);src,_=source(story,s);ev=Path(evi).resolve().as_uri() if evi else ""
     if r=="interrupt" or i==1:return f'<div class="hero"><span class="kicker">GETBYTERUSH / {esc(category(story) or "TECH • AI • INTERNET")}</span><div class="rule"></div><h1>{esc(h)}</h1><p>{esc(b)}</p><span class="index">{i:02d}</span></div>'
-    if r=="pattern_interrupt":return f'<div class="pattern"><small>03 / PATTERN INTERRUPT</small><strong>{esc(punch(first(h,b),7,58))}</strong></div>'
+    if r=="pattern_interrupt":return f'<div class="pattern"><small>05 / PATTERN INTERRUPT</small><strong>{esc(punch(first(h,b),7,58))}</strong></div>'
     if v in {"metric","number","stat"} or re.search(r"\b\d+(?:\.\d+)?\s*(?:x|%|ms|GB|TB)\b",h,re.I):return f'<div class="hero"><span class="kicker">THE SIGNAL</span><h1 style="font-size:68px">{esc(h)}</h1></div><div class="metric"><div class="value">{esc(metric(s))}</div><div class="line"></div><div class="caption">{esc(b or h)}</div></div>'
     if v in {"comparison","versus","compare"}:return f'<div class="hero"><span class="kicker">THE SHIFT</span><h1 style="font-size:70px">{esc(h)}</h1></div><div class="compare"><div class="card"><small>BEFORE</small><strong>GPU-FIRST</strong></div><div class="vs">VS</div><div class="card"><small>NOW</small><strong>HYBRID AI</strong></div></div>'
     if v in {"diagram","flow","process","architecture"} or any(x in c.lower() for x in ("diagram","flow","architecture")):
