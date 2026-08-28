@@ -9,7 +9,6 @@ on:
 permissions:
   contents: write
 
-# Never let two editorial runs race against the same topic memory/output.
 concurrency:
   group: getbyterush-editorial-production
   cancel-in-progress: false
@@ -19,112 +18,71 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ---------------------------------------------------------
-      # 1. Checkout repository
-      # ---------------------------------------------------------
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # ---------------------------------------------------------
-      # 2. Setup Python
-      # ---------------------------------------------------------
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # ---------------------------------------------------------
-      # 3. Install Python dependencies
-      # ---------------------------------------------------------
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
-
           if [ -f requirements-editorial.txt ]; then
             pip install -r requirements-editorial.txt
           fi
 
-      # ---------------------------------------------------------
-      # 4. Install Playwright
-      # ---------------------------------------------------------
       - name: Install Playwright
         run: |
           python -m playwright install --with-deps chromium
 
-      # ---------------------------------------------------------
-      # 5. Clean generated packages older than 7 days
-      # ---------------------------------------------------------
       - name: Cleanup old generated output
         run: |
           python scripts/topic_memory.py cleanup
 
-      # ---------------------------------------------------------
-      # 6. Run News Radar
-      # ---------------------------------------------------------
       - name: Run News Radar
         run: |
           python scripts/radar.py
 
-      # ---------------------------------------------------------
-      # 7. Run Pre-filter
-      # ---------------------------------------------------------
       - name: Run Pre-filter
         run: |
           python scripts/filter_stories.py
 
-      # ---------------------------------------------------------
-      # 8. Remove recently used topics BEFORE Gemini
-      #    This prevents wasted Gemini calls on duplicates.
-      # ---------------------------------------------------------
       - name: Apply topic memory
         run: |
           python scripts/topic_memory.py prepare
 
-      # ---------------------------------------------------------
-      # 9. Run Gemini Editorial Engine
-      # ---------------------------------------------------------
       - name: Run Gemini Editorial Engine
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python scripts/editorial_engine.py
 
-      # ---------------------------------------------------------
-      # 10. Generate Carousel
-      # ---------------------------------------------------------
-      - name: Generate Carousel
+      - name: Generate Production Carousel
         run: |
-          python scripts/carousel_generator.py
+          python scripts/carousel_production.py
 
-      # ---------------------------------------------------------
-      # 11. Record selected topic ONLY after carousel succeeds
-      # ---------------------------------------------------------
       - name: Record successful topic
         run: |
           python scripts/topic_memory.py record
 
-      # ---------------------------------------------------------
-      # 12. Show generated files
-      # ---------------------------------------------------------
       - name: List generated output
         if: always()
         run: |
           echo "========================================"
           echo "GETBYTERUSH GENERATED OUTPUT"
           echo "========================================"
-
           if [ -d "output" ]; then
             find output -type f | sort
           else
             echo "No output directory found."
           fi
-
           echo "========================================"
           echo "TOPIC MEMORY"
           echo "========================================"
@@ -132,9 +90,6 @@ jobs:
             cat state/topic_memory.json
           fi
 
-      # ---------------------------------------------------------
-      # 13. Upload carousel package
-      # ---------------------------------------------------------
       - name: Upload Carousel Package
         if: success()
         uses: actions/upload-artifact@v4
@@ -148,21 +103,15 @@ jobs:
           if-no-files-found: warn
           retention-days: 7
 
-      # ---------------------------------------------------------
-      # 14. Commit generated carousel + topic memory + cleanup
-      # ---------------------------------------------------------
       - name: Commit generated production state
         if: success()
         run: |
           echo "========================================"
           echo "COMMITTING GETBYTERUSH PRODUCTION STATE"
           echo "========================================"
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add output/posts/ state/topic_memory.json
-
           if git diff --cached --quiet; then
             echo "No repository changes to commit."
           else
@@ -171,9 +120,6 @@ jobs:
             echo "✓ Generated carousel, topic memory and cleanup committed."
           fi
 
-      # ---------------------------------------------------------
-      # 15. Upload debug files if something fails
-      # ---------------------------------------------------------
       - name: Upload debug data
         if: failure()
         uses: actions/upload-artifact@v4
