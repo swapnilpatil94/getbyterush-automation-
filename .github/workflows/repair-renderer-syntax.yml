@@ -25,8 +25,8 @@ jobs:
           from pathlib import Path
           p = Path('scripts/carousel_generator.py')
           s = p.read_text(encoding='utf-8')
-          old = "return f'<div class=\"hero-head\"><div class=\"kicker\">HOW IT WORKS</div><h1 class=\"compact\" data-qa=\"headline\">{esc_h}</h1></div><div class=\"diagram'>{\"\".join(nodes)}</div>'"
-          new = "return f'<div class=\"hero-head\"><div class=\"kicker\">HOW IT WORKS</div><h1 class=\"compact\" data-qa=\"headline\">{esc_h}</h1></div><div class=\"diagram\">{\"\".join(nodes)}</div>'"
+          old = "return f'<div class=\"hero-head\"><div class=\"kicker\">HOW IT WORKS</div><h1 class=\"compact\" data-qa=\"headline\">{esc_h}</h1></div><div class=\"diagram'>{{\"\".join(nodes)}}</div>'"
+          new = "return f'<div class=\"hero-head\"><div class=\"kicker\">HOW IT WORKS</div><h1 class=\"compact\" data-qa=\"headline\">{esc_h}</h1></div><div class=\"diagram\">{{\"\".join(nodes)}}</div>'"
           if old not in s:
               raise SystemExit('Expected renderer syntax defect was not found; refusing to modify the file.')
           p.write_text(s.replace(old, new, 1), encoding='utf-8')
@@ -43,3 +43,6 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m 'fix: repair renderer diagram markup'
           git push origin HEAD:main
+
+      - name: Repair complete
+        run: echo 'Renderer syntax repair complete; Gemini/editorial untouched.'
