@@ -1,0 +1,177 @@
+{
+  "selected": true,
+  "rank": 1,
+  "format": "product_story",
+  "story_title": "NVIDIA Ships Vera: Its First Custom CPU Built Specifically for AI Agents",
+  "why_this_story": "While public attention remains focused on GPU FLOPs, agentic AI has introduced a massive software bottleneck: code execution, tool orchestration, and sandbox management run on CPUs. NVIDIA building and shipping its first custom CPU specifically to unlock AI agents represents a major paradigm shift in AI infrastructure.",
+  "viral_angle": "NVIDIA dominates GPUs, so why is VP Ian Buck hand-delivering custom CPUs to OpenAI, Anthropic, AWS, and SpaceX?",
+  "story_sentence": "Everyone thinks AI runs purely on GPUs, but agentic AI relies heavily on Python code execution and tool calling—forcing NVIDIA to build its first custom CPU.",
+  "story_arc": "Hook → Setup → Tension → Reveal → Consequence → Payoff",
+  "score": {
+    "freshness": 8,
+    "importance": 9,
+    "curiosity": 9,
+    "surprise": 8,
+    "story_tension": 9,
+    "shareability": 8,
+    "saveability": 8,
+    "visual_potential": 9,
+    "discussion": 8,
+    "brand_fit": 10,
+    "total": 86
+  },
+  "source_story": {
+    "title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/"
+  },
+  "slides": [
+    {
+      "number": 1,
+      "kicker": "HARDWARE SHIFT",
+      "headline": "Why is NVIDIA hand-delivering CPUs to OpenAI and Anthropic?",
+      "body": "NVIDIA commands the GPU market. Yet VP Ian Buck just personally hand-delivered a brand-new chip to OpenAI, Anthropic, AWS, and SpaceXAI. And it is not a GPU.",
+      "visual_type": "evidence",
+      "visual_concept": "Editorial snapshot of NVIDIA VP Ian Buck delivering Vera CPU servers to partner offices in Seattle and San Francisco.",
+      "asset_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "asset_requirement": "Official screenshot of NVIDIA blog header showing Ian Buck delivering Vera CPU server.",
+      "source_label": "NVIDIA Blog (Aug 27, 2026)",
+      "swipe_reason": "Swipe to see why GPUs alone can no longer handle agentic AI."
+    },
+    {
+      "number": 2,
+      "kicker": "THE PROBLEM",
+      "headline": "The hidden bottleneck inside AI agents",
+      "body": "Traditional chatbots just generated text on a GPU. But AI agents do work: they run Python scripts, compile code, execute tools, and manage long-context retrieval sandboxes. That isn't GPU work—it's CPU work.",
+      "visual_type": "typography",
+      "visual_concept": "Side-by-side comparison typography: Chatbot Workloads (GPU text generation) vs. Agentic Workloads (CPU code execution & tool orchestration).",
+      "asset_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "asset_requirement": "Text diagram highlighting the breakdown of Agentic AI tasks requiring CPU processing.",
+      "source_label": "getByteRush Analysis",
+      "swipe_reason": "Swipe to see what happens when server CPUs get overwhelmed."
+    },
+    {
+      "number": 3,
+      "kicker": "INFRASTRUCTURE CRISIS",
+      "headline": "GPUs are sitting idle waiting for code to run",
+      "body": "When an agent solves a complex task, it generates code and waits for execution. Standard server CPUs were never built for thousands of real-time agent sandboxes running simultaneously, causing severe execution bottlenecks.",
+      "visual_type": "diagram",
+      "visual_concept": "Clean architectural diagram showing an AI agent workflow stalling during CPU code execution while GPU sits idle.",
+      "asset_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "asset_requirement": "Diagram illustration of GPU to CPU handoff bottleneck in agentic tasks.",
+      "source_label": "NVIDIA Infrastructure Insights",
+      "swipe_reason": "Swipe to see NVIDIA's radical hardware solution."
+    },
+    {
+      "number": 4,
+      "kicker": "THE REVEAL",
+      "headline": "Meet Vera: NVIDIA's custom CPU for agentic AI",
+      "body": "NVIDIA built Vera from scratch to solve this exact bottleneck. Shipping now at scale, Vera packs 88 custom Olympus cores and 1.2 TB/s memory bandwidth to execute agentic workloads up to 1.8x faster per core.",
+      "visual_type": "metric",
+      "visual_concept": "High-impact visual metrics card featuring Vera specs: 88 Olympus Cores | 1.2 TB/s Memory Bandwidth | 1.8x Per-Core Agent Speedup.",
+      "asset_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "asset_requirement": "Capture NVIDIA Vera CPU key specifications list from official blog post.",
+      "source_label": "NVIDIA Blog / Technical Specs",
+      "swipe_reason": "Swipe to see who is buying these chips at hyperscale."
+    },
+    {
+      "number": 5,
+      "kicker": "HYPERSCALE DEPLOYMENT",
+      "headline": "Oracle is deploying hundreds of thousands of Vera CPUs",
+      "body": "Oracle Cloud Infrastructure (OCI) revealed plans to deploy hundreds of thousands of Vera CPUs starting in 2026. Meanwhile, AWS, Anthropic, OpenAI, and SpaceXAI are integrating Vera directly into their agent training and execution stacks.",
+      "visual_type": "quote",
+      "visual_concept": "Quote card featuring OCI Product Management Lead Karan Batta on why OCI is ordering Vera CPUs at massive scale.",
+      "asset_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "asset_requirement": "Excerpt screenshot of Karan Batta quote from NVIDIA announcement.",
+      "source_label": "Oracle Cloud Infrastructure Statement",
+      "swipe_reason": "Swipe for the getByteRush takeaway on the future of AI hardware."
+    },
+    {
+      "number": 6,
+      "kicker": "GETBYTERUSH TAKE",
+      "headline": "The 'CPU Moment' in the AI data center",
+      "body": "The era of relying purely on GPU clusters is over. As AI shifts from answering questions to taking autonomous actions, custom CPUs like Vera are becoming the essential orchestration engine of the agentic internet.",
+      "visual_type": "final",
+      "visual_concept": "Dual-engine diagram showing GPU (Reasoning & Generation) + Vera CPU (Code Execution & Orchestration) forming the modern AI Factory.",
+      "asset_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "asset_requirement": "Graphic illustrating modern dual-processor AI factory architecture.",
+      "source_label": "getByteRush Editorial",
+      "swipe_reason": "Save this post to track how agentic hardware evolves."
+    }
+  ],
+  "caption": "NVIDIA dominated the AI era with GPUs—now it's building CPUs.\n\nVP Ian Buck has personally delivered the first NVIDIA Vera CPU servers to OpenAI, Anthropic, AWS, Oracle, and SpaceXAI.\n\nHere is why this matters: AI agents don't just talk. They run Python code, call APIs, manage sandboxes, and perform long-context retrievals. That work doesn't run on GPUs—it requires intensive CPU orchestration.\n\nWithout specialized CPU hardware, high-end GPUs sit idle waiting for code execution to finish. Vera is built specifically for this bottleneck, featuring 88 custom Olympus cores and 1.2 TB/s of memory bandwidth.\n\nOracle Cloud (OCI) has already committed to deploying hundreds of thousands of Vera chips beginning in 2026.\n\nAs AI transitions from answering questions to executing autonomous work, the CPU is making a massive comeback.\n\nWhat do you think? Will custom AI CPUs replace traditional x86 server chips in data centers?",
+  "share_trigger": "Send this to anyone building or following AI infrastructure—the hardware paradigm just shifted.",
+  "save_reason": "Save this break-down to reference NVIDIA Vera CPU specs and why CPUs are critical for agentic AI.",
+  "pinned_comment": "Do you think traditional CPU makers (Intel/AMD) can compete with custom AI-agent CPUs like Vera in the data center?",
+  "follow_cta": "Follow @getByteRush for tested, explained, and real tech & AI insights.",
+  "alt_text": "Carousel breakdown of NVIDIA Vera, NVIDIA's first custom CPU engineered specifically for AI agent workloads.",
+  "hashtags": [
+    "#NVIDIA",
+    "#VeraCPU",
+    "#AIAgents",
+    "#AIHardware",
+    "#TechNews",
+    "#GetByteRush"
+  ],
+  "fact_check": [
+    {
+      "claim": "NVIDIA began shipping Vera CPUs to AWS, Oracle, Anthropic, OpenAI, and SpaceXAI.",
+      "classification": "FACT",
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "source_name": "NVIDIA Blog"
+    },
+    {
+      "claim": "Vera features 88 custom Olympus cores and 1.2TB/s memory bandwidth with up to 1.8x faster per-core agentic performance.",
+      "classification": "FACT",
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "source_name": "NVIDIA Blog"
+    },
+    {
+      "claim": "Oracle Cloud Infrastructure plans to deploy hundreds of thousands of Vera CPUs beginning in 2026.",
+      "classification": "FACT",
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "source_name": "NVIDIA Blog"
+    },
+    {
+      "claim": "Agentic AI workflows will permanently shift server CPU market share away from traditional x86 suppliers toward custom ARM/Olympus architectures.",
+      "classification": "SPECULATION",
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "source_name": "getByteRush Analysis"
+    }
+  ],
+  "sources": [
+    {
+      "name": "NVIDIA Official Blog - Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/"
+    }
+  ],
+  "visual_production_notes": "Use official photographs from the NVIDIA blog release showing Ian Buck hand-delivering servers. Maintain clean dark-mode typography (1080x1350 resolution) matching getByteRush brand guidelines. Emphasize metrics using bold neon highlight callouts.",
+  "generated_at": "2026-08-28T12:10:28.612124+00:00",
+  "model": "gemini-3.6-flash",
+  "candidate_count": 80,
+  "design": {
+    "template": "receipts",
+    "emotional_mode": "receipts",
+    "background_mode": "theme-driven",
+    "accent_color": "#12352B",
+    "renderer": "getbyterush-carousel-generator-v2"
+  },
+  "post_id": "nvidia-ships-vera-its-first-custom-cpu-built-specifically-for-ai-agents-2026-08-28T121028-0000",
+  "status": "pending_approval",
+  "created_at": "2026-08-28T12:10:28+00:00",
+  "retention_days": 7,
+  "delete_after": "2026-09-04T12:10:28+00:00",
+  "package": {
+    "slides_dir": "slides",
+    "html_dir": "html",
+    "evidence_dir": "evidence",
+    "slide_count": 6,
+    "template": "receipts",
+    "theme": "receipts"
+  },
+  "instagram": {
+    "published": false,
+    "media_id": null,
+    "permalink": null
+  }
+}

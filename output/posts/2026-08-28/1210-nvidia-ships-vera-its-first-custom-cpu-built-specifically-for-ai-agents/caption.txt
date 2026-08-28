@@ -1,0 +1,13 @@
+NVIDIA dominated the AI era with GPUs—now it's building CPUs.
+
+VP Ian Buck has personally delivered the first NVIDIA Vera CPU servers to OpenAI, Anthropic, AWS, Oracle, and SpaceXAI.
+
+Here is why this matters: AI agents don't just talk. They run Python code, call APIs, manage sandboxes, and perform long-context retrievals. That work doesn't run on GPUs—it requires intensive CPU orchestration.
+
+Without specialized CPU hardware, high-end GPUs sit idle waiting for code execution to finish. Vera is built specifically for this bottleneck, featuring 88 custom Olympus cores and 1.2 TB/s of memory bandwidth.
+
+Oracle Cloud (OCI) has already committed to deploying hundreds of thousands of Vera chips beginning in 2026.
+
+As AI transitions from answering questions to executing autonomous work, the CPU is making a massive comeback.
+
+What do you think? Will custom AI CPUs replace traditional x86 server chips in data centers?

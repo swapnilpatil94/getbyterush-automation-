@@ -1,4 +1,25 @@
 {
   "version": 1,
-  "topics": []
+  "topics": [
+    {
+      "title": "NVIDIA Ships Vera: Its First Custom CPU Built Specifically for AI Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "nvidia ships vera its first custom cpu built specifically for ai agents",
+      "tokens": [
+        "agents",
+        "built",
+        "cpu",
+        "custom",
+        "first",
+        "for",
+        "its",
+        "nvidia",
+        "ships",
+        "specifically",
+        "vera"
+      ],
+      "recorded_at": "2026-08-28T12:12:34.260710+00:00"
+    }
+  ]
 }
