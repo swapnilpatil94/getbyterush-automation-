@@ -2,13 +2,19 @@ name: GetByteRush Render Existing Editorial
 
 on:
   workflow_dispatch:
+    inputs:
+      source:
+        description: "Editorial package to render (auto = newest)"
+        required: false
+        default: "auto"
+        type: string
 
 permissions:
   contents: write
 
 concurrency:
   group: getbyterush-render-existing
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   render-existing:
@@ -22,41 +28,66 @@ jobs:
 
       - name: Find reusable editorial package
         shell: bash
+        env:
+          REQUESTED_SOURCE: ${{ inputs.source }}
         run: |
           set -euo pipefail
 
           python - <<'PY'
-          import json
+          import json, os
           from pathlib import Path
 
+          requested = os.environ.get("REQUESTED_SOURCE", "auto").strip()
           selected = Path("data/selected_story.json")
-          if selected.exists() and selected.stat().st_size > 0:
-              data = json.loads(selected.read_text(encoding="utf-8"))
-              if data.get("selected"):
-                  print("✓ Found data/selected_story.json")
-                  print("✓ Gemini will NOT be called")
-                  raise SystemExit(0)
 
-          candidates = []
-          for p in Path("output/posts").glob("**/post.json"):
+          def usable(path):
               try:
-                  data = json.loads(p.read_text(encoding="utf-8"))
-                  if data.get("selected", True) and data.get("slides"):
-                      created = data.get("created_at", "")
-                      candidates.append((created, p, data))
+                  data = json.loads(path.read_text(encoding="utf-8"))
+                  return bool(data.get("selected")) and bool(data.get("slides"))
               except Exception:
-                  continue
+                  return False
 
-          if not candidates:
+          # Explicit source can be a repository path to post.json or selected_story.json.
+          if requested not in ("", "auto"):
+              source = Path(requested)
+              if not source.exists() or not usable(source):
+                  raise SystemExit(f"Requested editorial package is missing or invalid: {source}")
+              data = json.loads(source.read_text(encoding="utf-8"))
+              selected.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+              print(f"✓ Reusing requested editorial: {source}")
+              print(f"✓ Story: {data.get('story_title', '(untitled)')}")
+              print("✓ Gemini will NOT be called")
+              raise SystemExit(0)
+
+          # Prefer selected_story.json when present and valid.
+          if selected.exists() and selected.stat().st_size > 0 and usable(selected):
+              print("✓ Found data/selected_story.json")
+              print("✓ Gemini will NOT be called")
+              raise SystemExit(0)
+
+          # Otherwise reuse the newest committed post.json package.
+          packages = []
+          for path in Path("output/posts").glob("**/post.json"):
+              if not usable(path):
+                  continue
+              data = json.loads(path.read_text(encoding="utf-8"))
+              created = data.get("created_at", "")
+              try:
+                  key = (created, path.stat().st_mtime)
+              except OSError:
+                  key = (created, 0)
+              packages.append((key, path, data))
+
+          if not packages:
               raise SystemExit("No reusable editorial package found in output/posts/**/post.json")
 
-          candidates.sort(key=lambda item: item[0], reverse=True)
-          _, package_path, data = candidates[0]
+          packages.sort(key=lambda x: x[0], reverse=True)
+          _, source, data = packages[0]
           selected.parent.mkdir(parents=True, exist_ok=True)
           selected.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-          print("✓ Reusing latest saved editorial package:", package_path)
-          print("✓ Story:", data.get("story_title", "(untitled)"))
+          print(f"✓ Reusing latest saved editorial package: {source}")
+          print(f"✓ Story: {data.get('story_title', '(untitled)')}")
           print("✓ Gemini will NOT be called")
           PY
 
@@ -75,7 +106,37 @@ jobs:
         run: python -m playwright install --with-deps chromium
 
       - name: Render saved editorial
+        env:
+          PYTHONPATH: scripts
         run: python scripts/carousel_production.py
+
+      - name: Validate generated dimensions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+
+          root = Path("output/posts")
+          pngs = sorted(root.glob("**/slides/*.png"))
+          if not pngs:
+              raise SystemExit("No PNG slides were generated.")
+
+          bad = []
+          for p in pngs:
+              try:
+                  with Image.open(p) as im:
+                      if im.size != (1080, 1350):
+                          bad.append((str(p), im.size))
+              except Exception as exc:
+                  bad.append((str(p), str(exc)))
+
+          if bad:
+              raise SystemExit(f"Invalid slide dimensions/files: {bad[:10]}")
+
+          print(f"✓ {len(pngs)} PNG slide(s) are exactly 1080x1350")
+          PY
 
       - name: List generated output
         if: always()
@@ -83,7 +144,7 @@ jobs:
           echo "========================================"
           echo "RENDER-ONLY OUTPUT"
           echo "========================================"
-          if [ -d output ]; then find output/posts -type f | sort; fi
+          find output/posts -type f | sort || true
 
       - name: Upload Carousel Package
         if: success()
