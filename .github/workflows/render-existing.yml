@@ -4,14 +4,14 @@ on:
   workflow_dispatch:
     inputs:
       source:
-        description: "Editorial package path (auto = newest)"
+        description: "Editorial package path (auto = selected/latest)"
         required: false
         default: "auto"
         type: string
       clean_old_outputs:
         description: "Delete generated packages older than 7 days before rendering"
         required: false
-        default: true
+        default: false
         type: boolean
 
 permissions:
@@ -57,35 +57,33 @@ jobs:
               data = load(source)
               if not data:
                   raise SystemExit(f"Requested editorial package is missing or invalid: {source}")
-              selected.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-              print(f"RENDER_SOURCE={source}")
-              print(f"RENDER_STORY={data.get('story_title', '(untitled)')}")
-              print("GEMINI_CALL=0")
-              raise SystemExit(0)
+          else:
+              data = load(selected) if selected.exists() else None
+              source = selected if data else None
 
-          data = load(selected) if selected.exists() else None
-          if data:
-              print("RENDER_SOURCE=data/selected_story.json")
-              print(f"RENDER_STORY={data.get('story_title', '(untitled)')}")
-              print("GEMINI_CALL=0")
-              raise SystemExit(0)
-
-          packages = []
-          for path in Path("output/posts").glob("**/post.json"):
-              data = load(path)
               if not data:
-                  continue
-              created = data.get("created_at", "")
-              packages.append((created, path, data))
+                  packages = []
+                  for path in Path("output/posts").glob("**/post.json"):
+                      item = load(path)
+                      if not item:
+                          continue
+                      try:
+                          stamp = item.get("created_at", "")
+                          mtime = path.stat().st_mtime
+                      except OSError:
+                          stamp, mtime = "", 0
+                      packages.append((stamp, mtime, path, item))
 
-          if not packages:
-              raise SystemExit("No reusable editorial package found in output/posts/**/post.json")
+                  if not packages:
+                      raise SystemExit("No reusable editorial package found in output/posts/**/post.json")
 
-          packages.sort(key=lambda x: x[0], reverse=True)
-          _, source, data = packages[0]
+                  packages.sort(key=lambda x: (x[0], x[1]), reverse=True)
+                  _, _, source, data = packages[0]
+
           selected.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
           print(f"RENDER_SOURCE={source}")
           print(f"RENDER_STORY={data.get('story_title', '(untitled)')}")
+          print(f"RENDER_SLIDES={len(data.get('slides', []))}")
           print("GEMINI_CALL=0")
           PY
 
@@ -100,7 +98,7 @@ jobs:
           if [ -f requirements-editorial.txt ]; then pip install -r requirements-editorial.txt; fi
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Install Playwright
+      - name: Install Playwright Chromium
         run: python -m playwright install --with-deps chromium
 
       - name: Clean old outputs
@@ -114,55 +112,73 @@ jobs:
           echo "Gemini is intentionally NOT called in this workflow."
           python scripts/carousel_production.py
 
-      - name: Validate generated package
+      - name: Validate latest render only
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
           import json
+          import re
           from pathlib import Path
 
           selected = Path("data/selected_story.json")
-          if not selected.exists():
-              raise SystemExit("Missing data/selected_story.json after render source resolution.")
-
           data = json.loads(selected.read_text(encoding="utf-8"))
           expected = len(data.get("slides", []))
-          if expected < 5 or expected > 9:
+          if not 5 <= expected <= 9:
               raise SystemExit(f"Unexpected editorial slide count: {expected}")
 
-          packages = []
-          for p in Path("output/posts").glob("**/post.json"):
+          slug = re.sub(r"[^a-z0-9]+", "-", str(data.get("story_title", "getbyterush-post")).lower()).strip("-")[:80]
+          matching = []
+          for p in Path("output/posts").glob(f"**/*-{slug}/post.json"):
               try:
                   post = json.loads(p.read_text(encoding="utf-8"))
               except Exception:
                   continue
-              if post.get("selected") and post.get("production_ready"):
-                  packages.append((post.get("created_at", ""), p, post))
+              if post.get("story_title") == data.get("story_title"):
+                  matching.append((post.get("created_at", ""), p, post))
 
-          if not packages:
-              raise SystemExit("No production-ready generated package found.")
+          if not matching:
+              # Fallback to newest generated package with matching source title.
+              for p in Path("output/posts").glob("**/post.json"):
+                  try:
+                      post = json.loads(p.read_text(encoding="utf-8"))
+                  except Exception:
+                      continue
+                  if post.get("story_title") == data.get("story_title"):
+                      matching.append((post.get("created_at", ""), p, post))
 
-          packages.sort(key=lambda x: x[0], reverse=True)
-          _, package_path, post = packages[0]
-          slide_paths = sorted(package_path.parent.glob("slides/*.png"))
+          if not matching:
+              raise SystemExit("No rendered package found for the selected editorial story.")
 
-          if len(slide_paths) != expected:
-              raise SystemExit(
-                  f"Slide count mismatch: editorial={expected}, rendered={len(slide_paths)}"
-              )
+          matching.sort(key=lambda x: x[0], reverse=True)
+          _, package_path, post = matching[0]
+          slides = sorted(package_path.parent.glob("slides/*.png"))
+          if len(slides) != expected:
+              raise SystemExit(f"Slide count mismatch: editorial={expected}, rendered={len(slides)}")
 
-          print(f"✓ Production-ready: {package_path.parent}")
-          print(f"✓ Slides: {len(slide_paths)}")
+          bad = []
+          for slide in slides:
+              raw = slide.read_bytes()
+              if len(raw) < 24 or raw[:8] != b"\x89PNG\r\n\x1a\n":
+                  bad.append(str(slide))
+                  continue
+              width = int.from_bytes(raw[16:20], "big")
+              height = int.from_bytes(raw[20:24], "big")
+              if (width, height) != (1080, 1350):
+                  bad.append(f"{slide}={width}x{height}")
+
+          if bad:
+              raise SystemExit(f"Invalid latest render dimensions: {bad[:10]}")
+
+          print(f"✓ Latest package validated: {package_path.parent}")
+          print(f"✓ Slides: {len(slides)}")
+          print("✓ Dimensions: 1080x1350")
           print("✓ Gemini calls: 0")
           PY
 
       - name: List generated output
         if: always()
         run: |
-          echo "========================================"
-          echo "GETBYTERUSH RENDER-ONLY OUTPUT"
-          echo "========================================"
           find output/posts -type f | sort || true
 
       - name: Upload Carousel Package
