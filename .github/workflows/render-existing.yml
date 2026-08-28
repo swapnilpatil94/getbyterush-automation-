@@ -20,17 +20,43 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Verify saved editorial
+      - name: Find reusable editorial package
+        shell: bash
         run: |
-          test -s data/selected_story.json
+          set -euo pipefail
+
           python - <<'PY'
           import json
           from pathlib import Path
-          p = Path("data/selected_story.json")
-          data = json.loads(p.read_text(encoding="utf-8"))
-          if not data.get("selected"):
-              raise SystemExit("Saved editorial is not a selected story")
-          print("✓ Reusing saved editorial:", data.get("story_title", "(untitled)"))
+
+          selected = Path("data/selected_story.json")
+          if selected.exists() and selected.stat().st_size > 0:
+              data = json.loads(selected.read_text(encoding="utf-8"))
+              if data.get("selected"):
+                  print("✓ Found data/selected_story.json")
+                  print("✓ Gemini will NOT be called")
+                  raise SystemExit(0)
+
+          candidates = []
+          for p in Path("output/posts").glob("**/post.json"):
+              try:
+                  data = json.loads(p.read_text(encoding="utf-8"))
+                  if data.get("selected", True) and data.get("slides"):
+                      created = data.get("created_at", "")
+                      candidates.append((created, p, data))
+              except Exception:
+                  continue
+
+          if not candidates:
+              raise SystemExit("No reusable editorial package found in output/posts/**/post.json")
+
+          candidates.sort(key=lambda item: item[0], reverse=True)
+          _, package_path, data = candidates[0]
+          selected.parent.mkdir(parents=True, exist_ok=True)
+          selected.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+          print("✓ Reusing latest saved editorial package:", package_path)
+          print("✓ Story:", data.get("story_title", "(untitled)"))
           print("✓ Gemini will NOT be called")
           PY
 
@@ -57,13 +83,13 @@ jobs:
           echo "========================================"
           echo "RENDER-ONLY OUTPUT"
           echo "========================================"
-          find output -type f | sort 2>/dev/null || true
+          if [ -d output ]; then find output/posts -type f | sort; fi
 
       - name: Upload Carousel Package
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: getbyterush-render-${{ github.run_number }}
+          name: getbyterush-render-only-${{ github.run_number }}
           path: |
             output/**
             data/selected_story.json
@@ -75,10 +101,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/posts/
+          git add output/posts/ data/selected_story.json
           if git diff --cached --quiet; then
-            echo "No output changes to commit."
+            echo "No rendered changes to commit."
           else
-            git commit -m "chore: render GetByteRush carousel"
+            git commit -m "chore: render saved GetByteRush editorial"
             git push origin HEAD:main
+            echo "✓ Rendered package committed."
           fi
