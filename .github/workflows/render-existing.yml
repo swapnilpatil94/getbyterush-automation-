@@ -17,7 +17,7 @@ on:
     - cron: "30 2,6,10,14,18,22 * * *"
   push:
     paths:
-      - "scripts/carousel_generator.py"
+      - "scripts/carousel_renderer_v2.py"
       - "scripts/carousel_production.py"
       - ".github/workflows/render-existing.yml"
 
@@ -87,7 +87,7 @@ jobs:
         run: python -m playwright install --with-deps chromium
 
       - name: Compile renderer before running it
-        run: python -m py_compile scripts/carousel_generator.py scripts/carousel_production.py
+        run: python -m py_compile scripts/carousel_renderer_v2.py scripts/carousel_production.py
 
       - name: Clean old outputs
         if: ${{ inputs.clean_old_outputs == true }}
@@ -133,7 +133,7 @@ jobs:
         run: |
           set -euo pipefail
           python - <<'PY'
-          import json, os
+          import json, os, re
           from pathlib import Path
           selected=json.loads(Path("data/selected_story.json").read_text(encoding="utf-8"))
           expected=len(selected.get("slides",[]))
@@ -148,9 +148,20 @@ jobs:
               if len(raw)<24 or raw[:8]!=b"\x89PNG\r\n\x1a\n": raise SystemExit(f"Invalid PNG: {slide}")
               w=int.from_bytes(raw[16:20],"big"); h=int.from_bytes(raw[20:24],"big")
               if (w,h)!=(1080,1350): raise SystemExit(f"Invalid dimensions: {slide}={w}x{h}")
+          html_dir=package / "html"
+          leak=re.compile(r"callout graphic|visual concept|visual direction|design direction|layout instruction|INPUT|PROCESS|OUTCOME",re.I)
+          for path in sorted(html_dir.glob("*.html")):
+              text=path.read_text(encoding="utf-8")
+              visible=re.sub(r"<[^>]+>"," ",text)
+              if leak.search(visible): raise SystemExit(f"Internal/template text leaked: {path}")
+          evidence=list((package / "evidence").glob("*.png"))
+          for image in evidence:
+              raw=image.read_bytes()
+              if len(raw)<24 or raw[:8]!=b"\x89PNG\r\n\x1a\n": raise SystemExit(f"Invalid evidence PNG: {image}")
           print(f"✓ Selected package: {package}")
           print(f"✓ Slides: {len(slides)}")
           print("✓ Dimensions: 1080x1350")
+          print("✓ Internal design-text leak check passed")
           print("✓ Gemini calls: 0")
           PY
 
@@ -187,5 +198,5 @@ jobs:
             exit 1
           fi
           echo "Committing only: $NEW_POST_PACKAGE"
-          git commit -m "chore: render GetByteRush editorial package"
+          git commit -m "chore: render GetByteRush editorial package v2"
           git push origin HEAD:main
