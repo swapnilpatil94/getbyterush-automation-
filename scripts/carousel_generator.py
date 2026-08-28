@@ -106,8 +106,23 @@ def slug(value):
 def infer_template(story):
     design = story.get("design") if isinstance(story.get("design"), dict) else {}
     explicit = clean(first(story.get("template"), design.get("template"))).lower()
-    if explicit in THEME_BY_TEMPLATE:
+    category = clean(first(
+        story.get("content_type"),
+        story.get("story_type"),
+        story.get("category"),
+        story.get("type"),
+    ))
+
+    # Generic "story" is not a strong enough design decision for
+    # technical stories. Prefer the explainer system so hardware,
+    # infrastructure and model stories communicate mechanism/clarity.
+    if explicit in THEME_BY_TEMPLATE and explicit != "story":
         return explicit
+
+    technical_categories = {"TECH_NEWS", "MODEL_UPDATE", "AI_AGENTS"}
+    if category in technical_categories:
+        return "breakdown"
+
     for slide in story.get("slides", []):
         visual = clean(first(slide.get("visual_type"), slide.get("layout"))).lower()
         if visual in {"metric", "number", "stat"}:
@@ -118,20 +133,33 @@ def infer_template(story):
             return "timeline"
         if visual in {"evidence", "screenshot", "receipt"}:
             return "receipts"
-    category = clean(first(story.get("content_type"), story.get("story_type"), story.get("category"), story.get("type")))
-    return TEMPLATE_BY_CATEGORY.get(category, "story")
 
+    return TEMPLATE_BY_CATEGORY.get(category, "story")
 
 def infer_theme(story, template):
     design = story.get("design") if isinstance(story.get("design"), dict) else {}
     raw = clean(first(story.get("emotional_mode"), design.get("emotional_mode"))).lower()
-    name = ALIASES.get(raw, raw) if raw else THEME_BY_TEMPLATE.get(template, "brand")
+    category = clean(first(
+        story.get("content_type"),
+        story.get("story_type"),
+        story.get("category"),
+        story.get("type"),
+    ))
+
+    # Technical stories use the clarity palette unless the editorial
+    # payload explicitly identifies a genuine investigation/fact-check.
+    investigation = raw in {"investigation", "receipts", "fact_check", "fact-check"}
+    technical = category in {"TECH_NEWS", "MODEL_UPDATE", "AI_AGENTS"}
+    if technical and not investigation:
+        name = "explainer"
+    else:
+        name = ALIASES.get(raw, raw) if raw else THEME_BY_TEMPLATE.get(template, "brand")
+
     if story.get("emergency_mode") is True:
         name = "urgency"
     if name not in THEMES:
         name = THEME_BY_TEMPLATE.get(template, "brand")
     return name, THEMES[name]
-
 
 def slide_role(slide, index, total):
     explicit = clean(first(slide.get("role"), slide.get("scene_role"))).lower()
