@@ -17,7 +17,7 @@ on:
     - cron: "30 2,6,10,14,18,22 * * *"
   push:
     paths:
-      - "scripts/carousel_renderer_v2.py"
+      - "scripts/carousel_generator.py"
       - "scripts/carousel_production.py"
       - ".github/workflows/render-existing.yml"
 
@@ -87,7 +87,7 @@ jobs:
         run: python -m playwright install --with-deps chromium
 
       - name: Compile renderer before running it
-        run: python -m py_compile scripts/carousel_renderer_v2.py scripts/carousel_production.py
+        run: python -m py_compile scripts/carousel_generator.py scripts/carousel_production.py
 
       - name: Clean old outputs
         if: ${{ inputs.clean_old_outputs == true }}
@@ -198,5 +198,5 @@ jobs:
             exit 1
           fi
           echo "Committing only: $NEW_POST_PACKAGE"
-          git commit -m "chore: render GetByteRush editorial package v2"
+          git commit -m "chore: render GetByteRush editorial package v4"
           git push origin HEAD:main
