@@ -368,7 +368,7 @@ def visual_markup(slide, story, theme, evidence, index, total):
             nodes.append(f'<div class="node"><small>STEP {i+1:02d}</small><b>{esc(clean(label, 75))}</b></div>')
             if i < min(2, len(labels)-1):
                 nodes.append('<div class="arrow">→</div>')
-        return f'<div class="hero-head"><div class="kicker">HOW IT WORKS</div><h1 class="compact" data-qa="headline">{esc_h}</h1></div><div class="diagram'>{"".join(nodes)}</div>'
+        return f'<div class="hero-head"><div class="kicker">HOW IT WORKS</div><h1 class="compact" data-qa="headline">{esc_h}</h1></div><div class="diagram">{"".join(nodes)}</div>'
 
     if current_role == "payoff":
         return f'<div class="hero-head"><div class="kicker">THE TAKEAWAY</div></div><div class="payoff"><div class="payoff-line"></div><strong>{esc_h}</strong><p>{esc_b}</p><div class="signature">GETBYTERUSH / TESTED • EXPLAINED • REAL</div></div>'
