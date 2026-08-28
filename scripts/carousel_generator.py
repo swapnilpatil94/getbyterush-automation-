@@ -6,15 +6,18 @@ Input:
     data/selected_story.json
 
 Output:
-    output/posts/<slug>/
-        slide-01.png ... slide-NN.png
-        slide-01.html ... slide-NN.html
+    output/posts/YYYY-MM-DD/HHMM-topic-slug/
+        slides/
+            01.png ... NN.png
+        html/
+            01.html ... NN.html
+        evidence/
+            source.png (when source screenshot succeeds)
         caption.txt
         hashtags.txt
         pinned-comment.txt
         alt-text.txt
         post.json
-        evidence.png (when source screenshot succeeds)
 
 Requires:
     playwright
@@ -23,6 +26,7 @@ Requires:
 import html
 import json
 import re
+from datetime import datetime, timedelta
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
@@ -34,6 +38,7 @@ from playwright.sync_api import sync_playwright
 
 INPUT = Path("data/selected_story.json")
 OUTPUT_ROOT = Path("output/posts")
+RETENTION_DAYS = 7
 
 
 # ============================================================
@@ -1085,7 +1090,9 @@ def render_html_files(
         path = (
             out_dir
             /
-            f"slide-{number:02d}.html"
+            "html"
+            /
+            f"{number:02d}.html"
         )
 
         content = slide_html(
@@ -1132,13 +1139,17 @@ def render_pngs(
             html_path = (
                 out_dir
                 /
-                f"slide-{i:02d}.html"
+                "html"
+                /
+                f"{i:02d}.html"
             )
 
             png_path = (
                 out_dir
                 /
-                f"slide-{i:02d}.png"
+                "slides"
+                /
+                f"{i:02d}.png"
             )
 
             if not html_path.exists():
@@ -1195,7 +1206,16 @@ def render_pngs(
 def write_metadata(
     story,
     out_dir,
+    created_at,
+    retention_days=RETENTION_DAYS,
 ):
+    """
+    Write all publish-ready metadata into the post package.
+
+    The original story payload is preserved and augmented with
+    lifecycle/publishing metadata so Telegram/Instagram steps
+    can consume the same package later.
+    """
 
     (out_dir / "caption.txt").write_text(
         story.get(
@@ -1228,8 +1248,7 @@ def write_metadata(
 
     (
         out_dir
-        /
-        "hashtags.txt"
+        / "hashtags.txt"
     ).write_text(
         hashtags_text,
         encoding="utf-8",
@@ -1237,8 +1256,7 @@ def write_metadata(
 
     (
         out_dir
-        /
-        "pinned-comment.txt"
+        / "pinned-comment.txt"
     ).write_text(
         story.get(
             "pinned_comment",
@@ -1249,8 +1267,7 @@ def write_metadata(
 
     (
         out_dir
-        /
-        "alt-text.txt"
+        / "alt-text.txt"
     ).write_text(
         story.get(
             "alt_text",
@@ -1259,13 +1276,54 @@ def write_metadata(
         encoding="utf-8",
     )
 
+    try:
+        created_dt = datetime.fromisoformat(
+            created_at
+        )
+        delete_after = (
+            created_dt
+            + timedelta(days=retention_days)
+        ).isoformat()
+    except Exception:
+        delete_after = ""
+
+    # Preserve the complete editorial story while adding
+    # lifecycle fields required by the future approval/publish
+    # pipeline.
+    package = dict(story)
+
+    package.update(
+        {
+            "post_id": (
+                f"{slugify(story.get('story_title', 'getbyterush-post'))}"
+                f"-{created_at.replace(':', '').replace('+', '-')}"
+            ),
+            "status": "pending_approval",
+            "created_at": created_at,
+            "retention_days": retention_days,
+            "delete_after": delete_after,
+            "package": {
+                "slides_dir": "slides",
+                "html_dir": "html",
+                "evidence_dir": "evidence",
+                "slide_count": len(
+                    story.get("slides", [])
+                ),
+            },
+            "instagram": {
+                "published": False,
+                "media_id": None,
+                "permalink": None,
+            },
+        }
+    )
+
     (
         out_dir
-        /
-        "post.json"
+        / "post.json"
     ).write_text(
         json.dumps(
-            story,
+            package,
             indent=2,
             ensure_ascii=False,
         ),
@@ -1329,6 +1387,23 @@ def main():
 
     # ========================================================
     # OUTPUT DIRECTORY
+    #
+    # Every generated post gets an isolated package:
+    #
+    # output/posts/
+    #   YYYY-MM-DD/
+    #     HHMM-topic-slug/
+    #       slides/
+    #       html/
+    #       evidence/
+    #       post.json
+    #       caption.txt
+    #       hashtags.txt
+    #       pinned-comment.txt
+    #       alt-text.txt
+    #
+    # This makes Telegram approval, Instagram publishing and
+    # retention cleanup deterministic.
     # ========================================================
 
     title = story.get(
@@ -1336,13 +1411,54 @@ def main():
         "GetByteRush Post",
     )
 
-    out_dir = (
-        OUTPUT_ROOT
-        /
-        slugify(title)
+    created_dt = datetime.now().astimezone()
+    created_at = created_dt.isoformat(
+        timespec="seconds"
     )
 
-    out_dir.mkdir(
+    date_dir = (
+        OUTPUT_ROOT
+        /
+        created_dt.strftime("%Y-%m-%d")
+    )
+
+    package_name = (
+        f"{created_dt.strftime('%H%M')}-"
+        f"{slugify(title)}"
+    )
+
+    out_dir = (
+        date_dir
+        /
+        package_name
+    )
+
+    # Avoid accidental collision if two runs happen during
+    # the same minute for the same story.
+    if out_dir.exists():
+        suffix = created_dt.strftime("%S")
+        out_dir = (
+            date_dir
+            /
+            f"{created_dt.strftime('%H%M%S')}-"
+            f"{slugify(title)}"
+        )
+
+    slides_dir = out_dir / "slides"
+    html_dir = out_dir / "html"
+    evidence_dir = out_dir / "evidence"
+
+    slides_dir.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    html_dir.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    evidence_dir.mkdir(
         parents=True,
         exist_ok=True,
     )
@@ -1366,9 +1482,9 @@ def main():
     # ========================================================
 
     evidence_path = (
-        out_dir
+        evidence_dir
         /
-        "evidence.png"
+        "source.png"
     ).resolve()
 
     has_evidence = capture_evidence(
@@ -1415,6 +1531,7 @@ def main():
     write_metadata(
         story,
         out_dir,
+        created_at,
     )
 
     # ========================================================
