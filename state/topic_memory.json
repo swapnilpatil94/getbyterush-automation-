@@ -2,6 +2,24 @@
   "version": 1,
   "topics": [
     {
+      "title": "Why Amazon is building NVIDIA tech inside its own AI chips",
+      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "why amazon is building nvidia tech inside its own ai chips",
+      "tokens": [
+        "amazon",
+        "building",
+        "chips",
+        "inside",
+        "its",
+        "nvidia",
+        "own",
+        "tech",
+        "why"
+      ],
+      "recorded_at": "2026-08-28T12:18:16.124931+00:00"
+    },
+    {
       "title": "NVIDIA Ships Vera: Its First Custom CPU Built Specifically for AI Agents",
       "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
       "source": "NVIDIA Blog",

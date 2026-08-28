@@ -1,0 +1,62 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page { size: 1080px 1350px; margin: 0; }
+* { box-sizing: border-box; }
+html, body { width:1080px; height:1350px; margin:0; padding:0; overflow:hidden; }
+body { font-family:"Inter Tight", Inter, Arial, Helvetica, sans-serif; }
+.slide { position:relative; width:1080px; height:1350px; padding:78px; overflow:hidden; }
+.meta { position:absolute; top:42px; left:78px; right:78px; display:flex; justify-content:space-between; font:700 17px/1.1 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1.2px; text-transform:uppercase; }
+.kicker { display:inline-block; padding:9px 13px 8px; border:1.5px solid var(--accent); color:var(--accent); font:800 17px/1 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1.5px; text-transform:uppercase; }
+.rule { width:88px; height:4px; background:var(--accent); margin:48px 0 26px; }
+h1 { margin:0; font-weight:900; letter-spacing:-3.2px; line-height:.94; }
+.headline { font-size:78px; max-width:900px; }
+.headline.tight { font-size:62px; letter-spacing:-2.2px; }
+.headline.huge { font-size:134px; line-height:.78; letter-spacing:-8px; }
+.body { margin-top:28px; max-width:810px; font-size:31px; line-height:1.15; font-weight:550; }
+.micro { font:700 16px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1px; text-transform:uppercase; }
+.footer { position:absolute; left:78px; right:78px; bottom:46px; display:flex; justify-content:space-between; gap:28px; align-items:end; }
+.source { max-width:680px; font:600 14px/1.25 ui-monospace,SFMono-Regular,Menlo,monospace; text-transform:uppercase; opacity:.68; }
+.brand { font-size:15px; font-weight:900; letter-spacing:1.8px; text-transform:uppercase; white-space:nowrap; }
+.number { margin-top:48px; font-size:280px; line-height:.72; letter-spacing:-18px; font-weight:950; color:var(--accent); }
+.number-label { margin-top:44px; max-width:820px; font-size:39px; line-height:1.03; font-weight:850; }
+.cardgrid { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:52px; }
+.card { background:var(--surface); border-top:5px solid var(--accent); padding:30px; min-height:225px; }
+.card .value { font-size:55px; line-height:.9; font-weight:950; }
+.card .label { margin-top:20px; font-size:24px; line-height:1.06; font-weight:760; }
+.diagram { margin-top:58px; display:grid; grid-template-columns:1fr 76px 1fr 76px 1fr; align-items:center; gap:12px; }
+.node { min-height:180px; padding:25px; background:var(--surface); border:2px solid var(--accent); display:flex; flex-direction:column; justify-content:center; }
+.node .t { font:800 15px/1.1 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1px; text-transform:uppercase; opacity:.72; }
+.node .v { margin-top:12px; font-size:28px; line-height:1; font-weight:900; }
+.arrow { text-align:center; font-size:42px; font-weight:900; color:var(--accent); }
+.evidence { position:absolute; left:78px; right:78px; top:300px; bottom:154px; border:1.5px solid var(--accent); background:var(--surface); display:flex; align-items:center; justify-content:center; padding:20px; overflow:hidden; }
+.evidence img { display:block; max-width:100%; max-height:100%; width:auto; height:auto; object-fit:contain; }
+.evidence-tag { position:absolute; left:92px; top:275px; z-index:2; padding:7px 11px; background:var(--accent); color:var(--bg); font:900 14px/1 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1px; text-transform:uppercase; }
+.quote { margin-top:54px; max-width:870px; padding-left:30px; border-left:7px solid var(--accent); font-size:51px; line-height:1.01; font-weight:900; letter-spacing:-2px; }
+.timeline { margin-top:56px; padding-left:38px; border-left:5px solid var(--accent); }
+.timeline-item { margin-bottom:30px; position:relative; }
+.timeline-item:before { content:""; position:absolute; left:-52px; top:2px; width:18px; height:18px; border:5px solid var(--accent); background:var(--bg); }
+.timeline-date { font:900 17px/1 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1px; color:var(--accent); text-transform:uppercase; }
+.timeline-text { margin-top:7px; font-size:31px; line-height:1.05; font-weight:800; }
+.compare { margin-top:56px; display:grid; grid-template-columns:1fr 90px 1fr; align-items:stretch; gap:18px; }
+.compare-card { background:var(--surface); border:2px solid var(--accent); padding:30px; min-height:280px; }
+.compare-label { font:900 16px/1 ui-monospace,SFMono-Regular,Menlo,monospace; text-transform:uppercase; letter-spacing:1px; opacity:.72; }
+.compare-copy { margin-top:28px; font-size:34px; line-height:1; font-weight:900; }
+.vs { align-self:center; text-align:center; font-size:34px; font-weight:950; color:var(--accent); }
+.pattern { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; padding:78px; }
+.pattern .big { font-size:150px; line-height:.78; letter-spacing:-9px; font-weight:950; text-transform:uppercase; color:var(--bg); text-align:center; }
+.payoff { margin-top:44px; max-width:860px; font-size:42px; line-height:1.05; font-weight:820; }
+.payoff strong { font-weight:950; }
+.dark { color:var(--fg); }
+.light { color:var(--fg); }
+.grain { position:absolute; inset:0; opacity:.025; pointer-events:none; background-image:radial-gradient(#000 .7px, transparent .8px); background-size:5px 5px; }
+.dark .grain { opacity:.05; background-image:radial-gradient(#fff .7px, transparent .8px); }
+
+:root{--bg:#F4EFE4;--fg:#12352B;--accent:#527A91;--signal:#D7D9D5;--surface:#E8EBE8;}</style></head><body><section class="slide light">
+<div class="grain"></div>
+<div class="meta"><span>GETBYTERUSH / breakdown</span><span>02 / 06</span></div>
+<div class="rule"></div>
+<div class="kicker">THE BOTTLENECK</div>
+<h1 class="headline tight">Traditional AI chips waste 25% of their space on memory control.</h1>
+
+<div class="diagram"><div class="node"><div class="t">INPUT</div><div class="v">USER / WORKLOAD</div></div><div class="arrow">→</div><div class="node"><div class="t">SYSTEM</div><div class="v">Exploded structural breakdown of a standard XPU compute die illustrating the memory controller footprint taking up silicon real estate.</div></div><div class="arrow">→</div><div class="node"><div class="t">OUTPUT</div><div class="v">In standard HBM architectures, the memory controller sits directly on the primary XPU compute die. That means a quarter of the most expensive silicon in the world isn&#x27;t processing AI—it&#x27;s just managing memory traffic.</div></div></div>
+<div class="footer"><div class="source">SOURCE / Source: NVIDIA Technical Specifications</div><div class="brand">TESTED • EXPLAINED • REAL</div></div>
+</section></body></html>
