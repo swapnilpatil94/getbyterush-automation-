@@ -1,0 +1,22 @@
+Why is Amazon putting NVIDIA tech inside its custom AI chips? 🧩
+
+For years, big cloud providers built proprietary silicon (like AWS Trainium) to escape NVIDIA’s high GPU costs.
+
+But as AI models scale past trillions of parameters, physical hardware constraints hit a wall: standard memory controllers consume up to 25% of the primary compute die space.
+
+NVIDIA's answer is NVHBM—moving the memory controller off the compute die and directly into the 3D HBM base stack.
+
+The results:
+⚡ +30% Memory Bandwidth vs HBM4E
+🔋 15% Lower HBM Power Consumption
+📐 25% More Compute Space freed on the XPU
+
+Recognizing the leap, Amazon’s Annapurna Labs announced it will integrate NVHBM and NVLink Fusion starting with Trainium4—allowing AWS custom chips and NVIDIA GPUs to co-exist in shared rack architectures.
+
+Even in the intense custom chip war, physics and efficiency win out.
+
+What do you think of hyperscalers sharing rack infrastructure? Drop your take below 👇
+
+—
+getByteRush | TECH • AI • INTERNET
+TESTED • EXPLAINED • REAL
