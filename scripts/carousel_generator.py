@@ -29,19 +29,13 @@ def clean(value):
     if isinstance(value, dict): return ""
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
-
 def esc(value): return html.escape(clean(value), quote=True)
-
-
 def first(*values):
     for value in values:
         value = clean(value)
         if value: return value
     return ""
-
-
 def words(text): return re.findall(r"\b[\w’'-]+\b", clean(text))
-
 
 def punch(text, max_words=8, max_chars=66):
     text = clean(text)
@@ -53,26 +47,18 @@ def punch(text, max_words=8, max_chars=66):
     if len(out) > max_chars: out = out[:max_chars].rsplit(" ", 1)[0]
     return out.rstrip(" ,.;:") + "…"
 
-
 def support(text, max_chars=118):
     text = clean(text)
     if not text or LEAK.search(text): return ""
     if len(text) <= max_chars: return text
     return text[:max_chars].rsplit(" ", 1)[0].rstrip(" ,.;:") + "…"
 
-
 def source(story, slide):
     src = story.get("source_story") if isinstance(story.get("source_story"), dict) else {}
-    label = first(slide.get("source_label"), src.get("source"), story.get("source"), "Source")
-    url = first(slide.get("asset_url"), slide.get("source_url"), src.get("url"), story.get("source_url"))
-    return label[:100], url
-
+    return first(slide.get("source_label"), src.get("source"), story.get("source"), "Source")[:100], first(slide.get("asset_url"), slide.get("source_url"), src.get("url"), story.get("source_url"))
 
 def theme(story): return "signal" if any(x in first(story.get("visual_production_notes"), story.get("emotional_mode")).lower() for x in ("red", "tension", "urgent", "conflict")) else "editorial"
-
-
 def palette(name): return {"bg": CREAM, "fg": INK, "accent": RED, "secondary": FOREST} if name == "signal" else {"bg": CREAM, "fg": INK, "accent": FOREST, "secondary": RED}
-
 
 def role(slide, i, total):
     explicit = first(slide.get("role"), slide.get("scene_role")).lower().replace(" ", "_")
@@ -86,13 +72,12 @@ def role(slide, i, total):
     if vt in {"diagram", "flow", "process", "architecture"}: return "diagram"
     return "editorial"
 
-
 def content(slide):
     return punch(first(slide.get("headline"), slide.get("title"), slide.get("hook"), slide.get("text")), 9, 70), support(first(slide.get("body"), slide.get("supporting_text"), slide.get("copy"), slide.get("description")), 125)
 
-
-def extract_numbers(text): return re.findall(r"[+−-]?\d+(?:\.\d+)?\s*(?:x|%|ms|GB|TB|PB|M|B|K)?", clean(text), re.I)
-
+def extract_numbers(text):
+    # Ignore embedded product/version numbers such as HBM4E; accept only meaningful metric units.
+    return re.findall(r"(?<![A-Za-z])[+−-]?\d+(?:\.\d+)?\s*(?:x|%|ms|GB|TB|PB|M|B|K)(?![A-Za-z])", clean(text), re.I)
 
 def metric_points(slide, headline, body):
     raw = slide.get("data_points") or slide.get("stats") or slide.get("metrics") or []
@@ -105,21 +90,23 @@ def metric_points(slide, headline, body):
     if out: return out[:3]
     full = headline + " " + body
     nums = extract_numbers(full)
-    if not nums: return []
-    lower = full.lower()
-    labels = []
-    for n in nums[:3]:
-        pos = lower.find(n.lower().replace("−", "-"))
-        window = lower[max(0, pos-70):pos+100] if pos >= 0 else lower
+    unique = []
+    seen = set()
+    for n in nums:
+        norm = re.sub(r"\s+", "", n).replace("−", "-")
+        if norm not in seen:
+            seen.add(norm); unique.append(n)
+    lower = full.lower(); points = []
+    for n in unique[:3]:
+        pos = lower.find(n.lower().replace("−", "-")); window = lower[max(0, pos-80):pos+110] if pos >= 0 else lower
         if "bandwidth" in window: lab = "BANDWIDTH"
         elif "power" in window: lab = "POWER"
         elif "die" in window or "compute space" in window or "space" in window: lab = "COMPUTE SPACE"
         elif "latency" in window: lab = "LATENCY"
         elif "memory" in window: lab = "MEMORY"
         else: lab = "KEY RESULT"
-        labels.append((n, lab, ""))
-    return labels
-
+        points.append((n, lab, ""))
+    return points
 
 def capture(url, destination):
     if not url or not urlparse(url).scheme: return None
@@ -128,20 +115,14 @@ def capture(url, destination):
         with sync_playwright() as pw:
             browser = pw.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
             page = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
-            page.goto(url, wait_until="domcontentloaded", timeout=30000)
-            page.wait_for_timeout(900)
-            page.screenshot(path=str(destination), full_page=False)
-            browser.close()
+            page.goto(url, wait_until="domcontentloaded", timeout=30000); page.wait_for_timeout(900); page.screenshot(path=str(destination), full_page=False); browser.close()
         return destination if destination.exists() else None
     except Exception as exc:
         print("WARNING: evidence capture failed:", exc); return None
 
-
 def image_data_uri(path):
     if not path or not Path(path).exists(): return ""
-    raw = Path(path).read_bytes()
-    return "data:image/png;base64," + base64.b64encode(raw).decode("ascii")
-
+    return "data:image/png;base64," + base64.b64encode(Path(path).read_bytes()).decode("ascii")
 
 def css(p):
     return f"""
@@ -154,33 +135,20 @@ def css(p):
 .payoff-wrap{{position:absolute;left:58px;right:58px;top:420px;bottom:98px;background:{INK};color:{CREAM};padding:60px 52px;overflow:hidden}}.payoff-wrap:after{{content:"→";position:absolute;right:-8px;bottom:-72px;font:950 280px/.7 Arial;color:{RED};opacity:.85}}.payoff-wrap .accent{{width:150px;height:6px;background:{LIME};margin-bottom:30px}}.payoff-wrap strong{{display:block;max-width:820px;font-size:78px;line-height:.83;letter-spacing:-4.5px;font-weight:950}}.payoff-wrap p{{margin-top:24px;max-width:650px;font-size:19px;line-height:1.18;opacity:.7}}.signature{{position:absolute;left:52px;bottom:30px;font:900 10px/1 ui-monospace,monospace;letter-spacing:1.5px;text-transform:uppercase;color:{GOLD}}}
 """
 
-
 def html_for(slide, story, p, evidence_uri, i, total):
     headline, body = content(slide); r = role(slide, i, total); label = first(slide.get("kicker"), r.replace("_", " "), "GETBYTERUSH"); source_label, _ = source(story, slide)
-    if r == "hook":
-        return f'''<div class="hook-grid"><div class="hook-red"><div class="micro">01 / {esc(label)}</div><div class="big">{esc(punch(headline, 7, 54))}</div></div><div class="hook-black"><div class="micro">GETBYTERUSH / TECH • AI • INTERNET</div><div class="symbol">↗</div><div class="small">{esc(support(body, 75))}</div></div></div>'''
-    if r == "evidence" and evidence_uri:
-        return f'''<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:64px;max-width:900px">{esc(headline)}</h1></div><div class="evidence-wrap"><div class="evidence-frame"><span class="evidence-tag">VERIFIED EVIDENCE</span><img src="{evidence_uri}" alt="Verified source evidence"></div><div class="evidence-caption"><span>{esc(source_label)}</span><span>{i:02d} / {total:02d}</span></div></div>'''
+    if r == "hook": return f'''<div class="hook-grid"><div class="hook-red"><div class="micro">01 / {esc(label)}</div><div class="big">{esc(punch(headline, 7, 54))}</div></div><div class="hook-black"><div class="micro">GETBYTERUSH / TECH • AI • INTERNET</div><div class="symbol">↗</div><div class="small">{esc(support(body, 75))}</div></div></div>'''
+    if r == "evidence" and evidence_uri: return f'''<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:64px;max-width:900px">{esc(headline)}</h1></div><div class="evidence-wrap"><div class="evidence-frame"><span class="evidence-tag">VERIFIED EVIDENCE</span><img src="{evidence_uri}" alt="Verified source evidence"></div><div class="evidence-caption"><span>{esc(source_label)}</span><span>{i:02d} / {total:02d}</span></div></div>'''
     if r == "metrics":
-        pts = metric_points(slide, headline, body)
-        cards = []
-        for idx, (value, lab, desc) in enumerate(pts[:3]):
-            cards.append(f'<div class="metric"><div class="value">{esc(value)}</div><div class="label">{esc(lab)}</div><div class="desc">{esc(desc)}</div></div>')
-        if cards:
-            return f'''<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:60px;max-width:900px">{esc(headline)}</h1></div><div class="metric-row">{"".join(cards)}</div>'''
+        pts = metric_points(slide, headline, body); cards = [f'<div class="metric"><div class="value">{esc(v)}</div><div class="label">{esc(l)}</div><div class="desc">{esc(d)}</div></div>' for v,l,d in pts[:3]]
+        if cards: return f'''<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:60px;max-width:900px">{esc(headline)}</h1></div><div class="metric-row">{"".join(cards)}</div>'''
         return f'''<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:62px;max-width:900px">{esc(headline)}</h1></div><div class="statement-band"><div class="accent"></div><strong>{esc(punch(body, 11, 98))}</strong></div>'''
     if r == "diagram":
-        nums = extract_numbers(headline + " " + body); stat = nums[0] if nums else ""
-        left = first(slide.get("diagram_left"), slide.get("left_label"), "THE BOTTLENECK"); right = first(slide.get("diagram_right"), slide.get("right_label"), "THE SHIFT")
-        left_copy = support(first(slide.get("diagram_left_body"), slide.get("left_body")), 75); right_copy = support(first(slide.get("diagram_right_body"), slide.get("right_body")), 75)
+        nums = extract_numbers(headline + " " + body); stat = nums[0] if nums else ""; left = first(slide.get("diagram_left"), slide.get("left_label"), "THE BOTTLENECK"); right = first(slide.get("diagram_right"), slide.get("right_label"), "THE SHIFT"); left_copy = support(first(slide.get("diagram_left_body"), slide.get("left_body")), 75); right_copy = support(first(slide.get("diagram_right_body"), slide.get("right_body")), 75)
         return f'''<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:62px;max-width:900px">{esc(headline)}</h1><p class="sub">{esc(body)}</p></div><div class="split"><div class="block light"><div class="label">{esc(left)}</div><div class="num">01</div><strong>{esc(punch(left_copy or body, 7, 46))}</strong><p>{esc(left_copy)}</p></div><div class="block forest"><div class="label">{esc(right)}</div><div class="num">02</div><strong>{esc(punch(right_copy or headline, 7, 46))}</strong><p>{esc(right_copy or (stat + " is the key signal." if stat else body))}</p></div></div>'''
-    if r == "statement":
-        signal = i == 5
-        return f'''<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:64px;max-width:900px">{esc(headline)}</h1></div><div class="statement-band {"signal" if signal else ""}"><div class="accent"></div><strong>{esc(punch(body or headline, 10, 94))}</strong><p>{esc(source_label)}</p></div>'''
-    if r == "payoff":
-        return f'''<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:68px;max-width:900px">{esc(headline)}</h1></div><div class="payoff-wrap"><div class="accent"></div><strong>{esc(punch(headline, 9, 86))}</strong><p>{esc(body)}</p><div class="signature">GETBYTERUSH / TESTED • EXPLAINED • REAL</div></div>'''
+    if r == "statement": return f'''<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:64px;max-width:900px">{esc(headline)}</h1></div><div class="statement-band {"signal" if i == 5 else ""}"><div class="accent"></div><strong>{esc(punch(body or headline, 10, 94))}</strong><p>{esc(source_label)}</p></div>'''
+    if r == "payoff": return f'''<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:68px;max-width:900px">{esc(headline)}</h1></div><div class="payoff-wrap"><div class="accent"></div><strong>{esc(punch(headline, 9, 86))}</strong><p>{esc(body)}</p><div class="signature">GETBYTERUSH / TESTED • EXPLAINED • REAL</div></div>'''
     return f'''<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:68px;max-width:900px">{esc(headline)}</h1></div><div class="split"><div class="block dark"><div class="label">{esc(label)}</div><div class="num">{i:02d}</div><strong>{esc(punch(headline, 7, 48))}</strong><p>{esc(support(body, 85))}</p></div><div class="block signal"><div class="label">THE TAKEAWAY</div><strong>{esc(punch(body or headline, 8, 48))}</strong><p>{esc(source_label)}</p></div></div>'''
-
 
 def render_story(story, out_dir):
     slides = story.get("slides") or []; out_dir.mkdir(parents=True, exist_ok=True); evidence_path = None
@@ -189,19 +157,13 @@ def render_story(story, out_dir):
             _, url = source(story, slide)
             if url: evidence_path = capture(url, out_dir / "evidence" / "source.png")
             break
-    p = palette(theme(story)); styles = css(p); html_dir = out_dir / "html"; png_dir = out_dir / "slides"; html_dir.mkdir(exist_ok=True); png_dir.mkdir(exist_ok=True)
-    evidence_uri = image_data_uri(evidence_path)
+    p = palette(theme(story)); styles = css(p); html_dir = out_dir / "html"; png_dir = out_dir / "slides"; html_dir.mkdir(exist_ok=True); png_dir.mkdir(exist_ok=True); evidence_uri = image_data_uri(evidence_path)
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"]); page = browser.new_page(viewport={"width": W, "height": H}, device_scale_factor=1); total = len(slides)
         for i, slide in enumerate(slides, 1):
-            body_html = html_for(slide, story, p, evidence_uri, i, total); source_label, _ = source(story, slide)
-            page_html = f'''<!doctype html><html><head><meta charset="utf-8"><style>{styles}</style></head><body><main class="slide"><div class="top"><span>GETBYTERUSH</span><span>TECH • AI • INTERNET</span><span class="page">{i:02d} / {total:02d}</span></div>{body_html}<div class="foot"><span>{esc(source_label)}</span><span>TESTED • EXPLAINED • REAL</span></div></main></body></html>'''
-            (html_dir / f"{i:02d}.html").write_text(page_html, encoding="utf-8"); page.set_content(page_html, wait_until="load"); page.screenshot(path=str(png_dir / f"{i:02d}.png"), full_page=False); print(f"✓ slide-{i:02d}.png")
+            body_html = html_for(slide, story, p, evidence_uri, i, total); source_label, _ = source(story, slide); page_html = f'''<!doctype html><html><head><meta charset="utf-8"><style>{styles}</style></head><body><main class="slide"><div class="top"><span>GETBYTERUSH</span><span>TECH • AI • INTERNET</span><span class="page">{i:02d} / {total:02d}</span></div>{body_html}<div class="foot"><span>{esc(source_label)}</span><span>TESTED • EXPLAINED • REAL</span></div></main></body></html>'''; (html_dir / f"{i:02d}.html").write_text(page_html, encoding="utf-8"); page.set_content(page_html, wait_until="load"); page.screenshot(path=str(png_dir / f"{i:02d}.png"), full_page=False); print(f"✓ slide-{i:02d}.png")
         browser.close()
-    (out_dir / "post.json").write_text(json.dumps(story, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    title = clean(story.get("story_title", "GetByteRush")); why = clean(story.get("why_this_story", ""))
-    (out_dir / "caption.txt").write_text(f"{title}\n\n{why}\n\n#GetByteRush #AI #Technology #Internet\n", encoding="utf-8"); (out_dir / "hashtags.txt").write_text("#GetByteRush #AI #Technology #Internet #TechNews #ArtificialIntelligence\n", encoding="utf-8"); (out_dir / "alt-text.txt").write_text(f"GetByteRush editorial carousel about {title}.", encoding="utf-8"); (out_dir / "pinned-comment.txt").write_text(first(story.get("pinned_comment"), "What changes next?"), encoding="utf-8")
-
+    (out_dir / "post.json").write_text(json.dumps(story, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"); title = clean(story.get("story_title", "GetByteRush")); why = clean(story.get("why_this_story", "")); (out_dir / "caption.txt").write_text(f"{title}\n\n{why}\n\n#GetByteRush #AI #Technology #Internet\n", encoding="utf-8"); (out_dir / "hashtags.txt").write_text("#GetByteRush #AI #Technology #Internet #TechNews #ArtificialIntelligence\n", encoding="utf-8"); (out_dir / "alt-text.txt").write_text(f"GetByteRush editorial carousel about {title}.", encoding="utf-8"); (out_dir / "pinned-comment.txt").write_text(first(story.get("pinned_comment"), "What changes next?"), encoding="utf-8")
 
 def cleanup():
     cutoff = datetime.now() - timedelta(days=RETENTION_DAYS)
@@ -217,13 +179,10 @@ def cleanup():
             if not any(day.iterdir()): day.rmdir()
         except OSError: pass
 
-
 def main():
     if not INPUT.exists(): raise SystemExit("Missing data/selected_story.json")
     story = json.loads(INPUT.read_text(encoding="utf-8"))
     if not story.get("selected") or not isinstance(story.get("slides"), list) or not story["slides"]: raise SystemExit("selected_story.json is not a valid selected editorial package")
-    now = datetime.now(); title_slug = re.sub(r"[^a-z0-9]+", "-", clean(story.get("story_title", "getbyterush-post")).lower()).strip("-")[:90]; package = ROOT / now.strftime("%Y-%m-%d") / f"{now.strftime('%H%M%S')}-{title_slug}"; cleanup()
-    print("=" * 72); print("GETBYTERUSH EDITORIAL POSTER RENDERER V4.1"); print("=" * 72); print(f"Theme:  {theme(story)}"); print(f"Slides: {len(story['slides'])}"); print("Gemini: 0"); render_story(story, package); print(f"✓ Output: {package}"); print("✓ Ready for visual QA")
-
+    now = datetime.now(); title_slug = re.sub(r"[^a-z0-9]+", "-", clean(story.get("story_title", "getbyterush-post")).lower()).strip("-")[:90]; package = ROOT / now.strftime("%Y-%m-%d") / f"{now.strftime('%H%M%S')}-{title_slug}"; cleanup(); print("=" * 72); print("GETBYTERUSH EDITORIAL POSTER RENDERER V4.2"); print("=" * 72); print(f"Theme:  {theme(story)}"); print(f"Slides: {len(story['slides'])}"); print("Gemini: 0"); render_story(story, package); print(f"✓ Output: {package}"); print("✓ Ready for visual QA")
 
 if __name__ == "__main__": main()
