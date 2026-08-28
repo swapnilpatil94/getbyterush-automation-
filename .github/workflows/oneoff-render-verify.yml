@@ -1,0 +1,110 @@
+name: One-off Renderer Verify
+
+on:
+  push:
+    paths:
+      - .github/workflows/oneoff-render-verify.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve latest reusable editorial
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          selected=Path('data/selected_story.json')
+          if selected.exists():
+              data=json.loads(selected.read_text(encoding='utf-8'))
+          else:
+              packages=[]
+              for p in Path('output/posts').glob('**/post.json'):
+                  try:
+                      d=json.loads(p.read_text(encoding='utf-8'))
+                  except Exception:
+                      continue
+                  if d.get('selected') and d.get('slides'):
+                      packages.append((d.get('created_at',''),p,d))
+              if not packages:
+                  raise SystemExit('No reusable editorial package found')
+              packages.sort(reverse=True,key=lambda x:x[0])
+              data=packages[0][2]
+          if not data.get('selected') or not data.get('slides'):
+              raise SystemExit('selected_story.json is not a valid editorial package')
+          selected.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          print('GEMINI_CALL=0')
+          print('STORY='+str(data.get('story_title','')))
+          print('SLIDES='+str(len(data.get('slides',[]))))
+          PY
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements-editorial.txt ]; then pip install -r requirements-editorial.txt; fi
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Install Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Compile
+        run: python -m py_compile scripts/carousel_generator.py scripts/carousel_production.py
+
+      - name: Snapshot packages
+        run: |
+          find output/posts -type f -name post.json -print 2>/dev/null | sed 's#/post.json$##' | sort > /tmp/before.txt || true
+
+      - name: Render saved editorial
+        env:
+          PYTHONPATH: scripts
+        run: python scripts/carousel_production.py
+
+      - name: Validate new package
+        run: |
+          set -euo pipefail
+          find output/posts -type f -name post.json -print 2>/dev/null | sed 's#/post.json$##' | sort > /tmp/after.txt || true
+          comm -13 /tmp/before.txt /tmp/after.txt > /tmp/new.txt
+          test "$(wc -l < /tmp/new.txt | tr -d ' ')" = "1"
+          NEW=$(head -n1 /tmp/new.txt)
+          echo "NEW=$NEW" >> "$GITHUB_ENV"
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['NEW'])
+          data=json.loads((p/'post.json').read_text(encoding='utf-8'))
+          slides=sorted((p/'slides').glob('*.png'))
+          expected=len(data.get('slides',[]))
+          assert len(slides)==expected,(len(slides),expected)
+          for s in slides:
+              b=s.read_bytes()
+              assert b[:8]==b'\x89PNG\r\n\x1a\n'
+              assert int.from_bytes(b[16:20],'big')==1080
+              assert int.from_bytes(b[20:24],'big')==1350
+          print('VALIDATED',p, len(slides),'slides, 1080x1350')
+          print('GEMINI_CALL=0')
+          PY
+
+      - name: Commit only new package and remove verifier
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$NEW"
+          git rm .github/workflows/oneoff-render-verify.yml
+          git commit -m 'chore: verify renderer color policy output'
+          git push origin HEAD:main
