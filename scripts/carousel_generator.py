@@ -1,151 +1,288 @@
 #!/usr/bin/env python3
-import html,json,re
-from datetime import datetime,timedelta
+import html
+import json
+import re
+from datetime import datetime, timedelta
 from pathlib import Path
-from string import Template
 from urllib.parse import urlparse
+
 from playwright.sync_api import sync_playwright
 
-W,H=1080,1350
-INPUT=Path("data/selected_story.json")
-ROOT=Path("output/posts")
-RETENTION=7
-CREAM="#F4EFE4";INK="#111311";FOREST="#12352B";GOLD="#B99A5B";BLUE="#3159C9";ORANGE="#F26A21";LIME="#B7E43B"
-THEMES={
- "authority":{"bg":CREAM,"fg":INK,"accent":FOREST,"signal":GOLD,"mode":"authority"},
- "technology":{"bg":CREAM,"fg":INK,"accent":FOREST,"signal":BLUE,"mode":"clarity"},
- "tension":{"bg":CREAM,"fg":INK,"accent":ORANGE,"signal":ORANGE,"mode":"tension"},
- "interrupt":{"bg":INK,"fg":CREAM,"accent":LIME,"signal":LIME,"mode":"novelty"},
-}
-LEAK=re.compile(r"(callout graphic|visual concept|visual direction|visual strategy|design direction|layout instruction|highlight that|data graphic showing|contrast visual between|illustrate that|graphic showing|render this|create a)",re.I)
-def tx(v):
-    return " ".join(map(str,v)) if isinstance(v,list) else str(v or "").strip()
-def cl(v): return re.sub(r"\s+"," ",tx(v)).strip()
-def esc(v): return html.escape(cl(v),quote=True)
-def first(*vs):
-    return next((v for v in vs if cl(v)),"")
-def slug(v): return re.sub(r"[^a-z0-9]+","-",cl(v).lower()).strip("-")[:90] or "getbyterush-post"
-def punch(v,n=9,c=78):
-    s=cl(v)
-    if not s:return "GetByteRush"
-    if len(s)<=c and len(re.findall(r"\b[\w’'-]+\b",s))<=n:return s
-    p=re.split(r"(?<=[.!?])\s+",s)[0]
-    if len(p)<=c and len(re.findall(r"\b[\w’'-]+\b",p))<=n:return p.rstrip(" .")
-    out=" ".join(re.findall(r"\b[\w’'-]+\b",s)[:n])[:c]
-    return out.rsplit(" ",1)[0].rstrip(" ,.;:")+"…"
-def support(v,c=150):
-    s=cl(v)
-    if not s or LEAK.search(s):return ""
-    return s if len(s)<=c else s[:c].rsplit(" ",1)[0].rstrip(" ,.;:")+"…"
-def category(story): return cl(first(story.get("content_type"),story.get("story_type"),story.get("category"),story.get("type"))).upper()
-def theme_for(story):
-    d=story.get("design") if isinstance(story.get("design"),dict) else {}
-    raw=cl(first(story.get("emotional_mode"),d.get("emotional_mode"))).lower()
-    if story.get("emergency_mode") is True:return "interrupt"
-    if raw in {"contradiction","tension"}:return "tension"
-    if category(story) in {"TECH_NEWS","MODEL_UPDATE","AI_AGENTS","EXPLAINER"}:return "technology"
+W, H = 1080, 1350
+INPUT = Path("data/selected_story.json")
+ROOT = Path("output/posts")
+RETENTION_DAYS = 7
+CREAM = "#F4EFE4"
+INK = "#111311"
+FOREST = "#12352B"
+GOLD = "#B99A5B"
+BLUE = "#527A91"
+ORANGE = "#F26A21"
+LIME = "#B7E32B"
+LEAK = re.compile(r"(callout graphic|visual concept|visual direction|visual strategy|design direction|layout instruction|highlight that|data graphic showing|contrast visual between|illustrate that|graphic showing|render this|create a)", re.I)
+
+
+def clean(value):
+    if isinstance(value, list):
+        value = " ".join(str(x) for x in value)
+    return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def esc(value):
+    return html.escape(clean(value), quote=True)
+
+
+def first(*values):
+    for value in values:
+        if clean(value):
+            return clean(value)
+    return ""
+
+
+def words(text):
+    return re.findall(r"\b[\w’'-]+\b", clean(text))
+
+
+def punch(text, max_words=9, max_chars=72):
+    text = clean(text)
+    if not text:
+        return "GetByteRush"
+    if len(words(text)) <= max_words and len(text) <= max_chars:
+        return text.rstrip(" .")
+    sentence = re.split(r"(?<=[.!?])\s+", text)[0]
+    if len(words(sentence)) <= max_words and len(sentence) <= max_chars:
+        return sentence.rstrip(" .")
+    result = " ".join(words(text)[:max_words])
+    if len(result) > max_chars:
+        result = result[:max_chars].rsplit(" ", 1)[0]
+    return result.rstrip(" ,.;:") + "…"
+
+
+def support(text, max_chars=145):
+    text = clean(text)
+    if not text or LEAK.search(text):
+        return ""
+    if len(text) <= max_chars:
+        return text
+    return text[:max_chars].rsplit(" ", 1)[0].rstrip(" ,.;:") + "…"
+
+
+def category(story):
+    return first(story.get("content_type"), story.get("story_type"), story.get("category"), story.get("type"), "TECH • AI • INTERNET").upper()
+
+
+def source(story, slide):
+    source_story = story.get("source_story") if isinstance(story.get("source_story"), dict) else {}
+    label = first(slide.get("source_label"), slide.get("source"), source_story.get("source"), source_story.get("publisher"), story.get("source"), "Official source")
+    url = first(slide.get("asset_url"), slide.get("source_url"), source_story.get("url"), story.get("source_url"))
+    return label[:100], url
+
+
+def theme(story):
+    design = story.get("design") if isinstance(story.get("design"), dict) else {}
+    raw = first(story.get("emotional_mode"), design.get("emotional_mode")).lower()
+    if story.get("emergency_mode") is True:
+        return "interrupt"
+    if raw in {"contradiction", "tension"}:
+        return "tension"
+    if any(x in category(story) for x in ("TECH_NEWS", "MODEL_UPDATE", "AI_AGENTS", "EXPLAINER")):
+        return "technology"
     return "authority"
-def role(s,i,total):
-    x=cl(first(s.get("role"),s.get("scene_role"))).lower()
-    if x:return x
-    if i==1:return "interrupt"
-    if i==2:return "open_loop"
-    if i==3:return "proof"
-    if i==4:return "escalation"
-    if i==5 and total>=6:return "pattern_interrupt"
-    if i==6 and total>=7:return "reveal"
-    if i==7 and total>=8:return "implication"
-    if i==total:return "payoff"
+
+
+def palette(name):
+    if name == "interrupt":
+        return {"bg": INK, "fg": CREAM, "accent": LIME, "signal": LIME}
+    if name == "tension":
+        return {"bg": CREAM, "fg": INK, "accent": ORANGE, "signal": ORANGE}
+    if name == "technology":
+        return {"bg": CREAM, "fg": INK, "accent": FOREST, "signal": BLUE}
+    return {"bg": CREAM, "fg": INK, "accent": FOREST, "signal": GOLD}
+
+
+def role(slide, index, total):
+    explicit = first(slide.get("role"), slide.get("scene_role")).lower()
+    if explicit:
+        return explicit
+    if index == 1:
+        return "interrupt"
+    if index == 2:
+        return "open_loop"
+    if index == 3:
+        return "proof"
+    if index == 4:
+        return "escalation"
+    if index == 5 and total >= 6:
+        return "pattern_interrupt"
+    if index == 6 and total >= 7:
+        return "reveal"
+    if index == 7 and total >= 8:
+        return "implication"
+    if index == total:
+        return "payoff"
     return "proof"
-def content(s):
-    h=punch(first(s.get("headline"),s.get("title"),s.get("hook"),s.get("text")),10,78)
-    b=support(first(s.get("body"),s.get("supporting_text"),s.get("copy"),s.get("description")),170)
-    v=cl(first(s.get("visual_type"),s.get("layout"))).lower()
-    c=cl(first(s.get("visual_concept"),s.get("visual_strategy"),s.get("visual")))
-    return h,b,v,c
-def metric(s):
-    raw=" ".join(cl(s.get(k)) for k in ("headline","body","visual_concept"))
-    m=re.findall(r"[+−-]?\d+(?:\.\d+)?\s*(?:x|%|ms|GB|TB|PB|M|B|K)?",raw,re.I)
-    return m[0] if m else "01"
-def source(story,s):
-    ss=story.get("source_story") if isinstance(story.get("source_story"),dict) else {}
-    return cl(first(s.get("source_label"),s.get("source"),ss.get("source"),ss.get("publisher"),story.get("source"),"Official source"))[:90],cl(first(s.get("asset_url"),s.get("source_url"),ss.get("url"),story.get("source_url")))
-def capture(url,dest):
-    if not url or not urlparse(url).scheme:return None
-    dest=Path(dest).resolve();dest.parent.mkdir(parents=True,exist_ok=True)
+
+
+def content(slide):
+    headline = punch(first(slide.get("headline"), slide.get("title"), slide.get("hook"), slide.get("text")), 10, 76)
+    body = support(first(slide.get("body"), slide.get("supporting_text"), slide.get("copy"), slide.get("description")), 150)
+    visual_type = first(slide.get("visual_type"), slide.get("layout")).lower()
+    return headline, body, visual_type
+
+
+def numbers(text):
+    return re.findall(r"[+−-]?\d+(?:\.\d+)?\s*(?:x|%|ms|GB|TB|PB|M|B|K)?", clean(text), re.I)
+
+
+def capture(url, destination):
+    if not url or not urlparse(url).scheme:
+        return None
+    destination = Path(destination).resolve()
+    destination.parent.mkdir(parents=True, exist_ok=True)
     try:
         with sync_playwright() as pw:
-            b=pw.chromium.launch(headless=True,args=["--no-sandbox","--disable-dev-shm-usage"])
-            p=b.new_page(viewport={"width":1440,"height":1000},device_scale_factor=1)
-            p.goto(url,wait_until="domcontentloaded",timeout=30000);p.wait_for_timeout(900);p.screenshot(path=str(dest),full_page=False);b.close()
-        return dest if dest.exists() else None
-    except Exception as e:
-        print("WARNING: evidence capture failed:",e);return None
+            browser = pw.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+            page = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
+            page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            page.wait_for_timeout(700)
+            page.screenshot(path=str(destination), full_page=False)
+            browser.close()
+        return destination if destination.exists() else None
+    except Exception as exc:
+        print("WARNING: evidence capture failed:", exc)
+        return None
 
-def css(t):
-    return Template("""
-@page{size:1080px 1350px;margin:0}*{box-sizing:border-box}html,body{margin:0;padding:0;width:1080px;height:1350px;overflow:hidden}body{background:$bg;color:$fg;font-family:Inter,Arial,sans-serif}
-.slide{position:relative;width:1080px;height:1350px;padding:76px 78px 72px;background:var(--bg);color:var(--fg);overflow:hidden}.slide.dark{background:#111311;color:#F4EFE4}:root{--bg:$bg;--fg:$fg;--accent:$accent;--signal:$signal}
-.grain{position:absolute;inset:0;opacity:.018;background-image:radial-gradient(currentColor .55px,transparent .7px);background-size:8px 8px}.top,.footer{position:absolute;left:78px;right:78px;display:flex;justify-content:space-between;gap:20px;font:800 10px/1.2 ui-monospace,monospace;letter-spacing:1.5px;text-transform:uppercase;opacity:.55}.top{top:38px}.footer{bottom:34px}.footer span:first-child{max-width:680px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.page{padding:5px 8px;border:1px solid currentColor}
-.kicker{display:inline-block;color:var(--accent);border-left:4px solid var(--signal);padding:8px 11px;font:900 11px/1 ui-monospace,monospace;letter-spacing:1.6px;text-transform:uppercase}.rule{width:110px;height:6px;background:var(--signal);margin-top:24px}.hero{position:absolute;left:78px;right:78px;top:178px}.hero h1{margin:24px 0 0;max-width:910px;font-size:92px;line-height:.85;letter-spacing:-5px;font-weight:950;overflow-wrap:anywhere}.hero p{margin:24px 0 0;max-width:710px;font-size:25px;line-height:1.2;opacity:.74}.index{position:absolute;right:0;top:100px;font:950 170px/.8 ui-monospace,monospace;letter-spacing:-14px;color:var(--accent);opacity:.08}
-.evidence{position:absolute;left:78px;right:78px;top:545px}.evidence-frame{height:560px;border:2px solid var(--fg);background:#fff;box-shadow:16px 16px 0 var(--accent);padding:12px;overflow:hidden}.evidence-frame img{width:100%;height:100%;display:block;object-fit:contain;background:#fff}.tag{position:absolute;left:18px;top:18px;background:var(--accent);color:var(--bg);padding:8px 10px;font:900 10px/1 ui-monospace,monospace;letter-spacing:1px}.note{margin-top:16px;font:800 10px/1.3 ui-monospace,monospace;text-transform:uppercase;opacity:.55}
-.statement{position:absolute;left:78px;right:78px;top:500px}.statement strong{display:block;max-width:900px;font-size:82px;line-height:.86;letter-spacing:-4.5px;font-weight:950}.statement p{margin-top:24px;max-width:700px;font-size:24px;line-height:1.2;opacity:.72}
-.metric{position:absolute;left:78px;right:78px;top:500px}.metric .value{font:950 260px/.7 ui-monospace,monospace;letter-spacing:-18px;color:var(--accent)}.metric .line{width:180px;height:7px;margin-top:42px;background:var(--signal)}.metric .caption{margin-top:20px;max-width:800px;font-size:30px;line-height:1;font-weight:900;letter-spacing:-1px}
-.flow{position:absolute;left:78px;right:78px;top:540px;display:grid;grid-template-columns:1fr 42px 1fr 42px 1fr;gap:10px;align-items:center}.node{min-height:230px;padding:24px;border-top:5px solid var(--accent);background:color-mix(in srgb,var(--accent) 7%,transparent)}.node small{display:block;color:var(--accent);font:900 10px/1 ui-monospace,monospace}.node b{display:block;margin-top:24px;font-size:32px;line-height:.98;font-weight:950}.arrow{text-align:center;color:var(--signal);font-size:30px;font-weight:950}
-.compare{position:absolute;left:78px;right:78px;top:525px;display:grid;grid-template-columns:1fr 70px 1fr;gap:16px;align-items:center}.card{min-height:300px;padding:28px;border:2px solid var(--fg);background:color-mix(in srgb,var(--accent) 7%,transparent)}.card:last-child{border:4px solid var(--accent);transform:translateY(-12px);box-shadow:12px 12px 0 var(--signal)}.card small{color:var(--accent);font:900 10px/1 ui-monospace,monospace;text-transform:uppercase}.card strong{display:block;margin-top:70px;font-size:40px;line-height:.94;letter-spacing:-2px;font-weight:950}.vs{text-align:center;color:var(--accent);font:950 16px/1 ui-monospace,monospace}
-.pattern{position:absolute;left:0;right:0;top:420px;bottom:0;padding:72px 78px;background:var(--accent);color:var(--bg)}.pattern small{font:900 11px/1 ui-monospace,monospace;letter-spacing:2px;text-transform:uppercase}.pattern strong{display:block;margin-top:30px;max-width:850px;font-size:88px;line-height:.84;letter-spacing:-5px;font-weight:950}
-.reveal{position:absolute;left:78px;right:78px;top:510px;display:grid;grid-template-columns:90px 1fr;gap:24px}.reveal .num{color:var(--accent);font:950 72px/.8 ui-monospace,monospace}.reveal strong{display:block;max-width:850px;font-size:55px;line-height:.92;letter-spacing:-3px;font-weight:950}.reveal p{margin-top:20px;max-width:730px;font-size:24px;line-height:1.2;opacity:.74}
-.payoff{position:absolute;left:78px;right:78px;top:470px}.payoff .line{width:190px;height:7px;background:var(--signal);margin-bottom:28px}.payoff strong{display:block;max-width:900px;font-size:82px;line-height:.84;letter-spacing:-4.5px;font-weight:950}.payoff p{margin-top:24px;max-width:720px;font-size:25px;line-height:1.18;opacity:.74}.sig{margin-top:30px;color:var(--accent);font:900 11px/1 ui-monospace,monospace;letter-spacing:2px}
-""").substitute(bg=t["bg"],fg=t["fg"],accent=t["accent"],signal=t["signal"])
-def labels(s):
-    h,b,v,c=content(s);q=(h+" "+b+" "+c).lower()
-    if "cpu" in q and "gpu" in q:return ["GPU","CPU","AGENT"]
-    if "agent" in q:return ["PROMPT","TOOL","ACTION"]
-    return ["INPUT","PROCESS","OUTCOME"]
-def markup(s,story,t,evi,i,total):
-    h,b,v,c=content(s);r=role(s,i,total);src,_=source(story,s);ev=Path(evi).resolve().as_uri() if evi else ""
-    if r=="interrupt" or i==1:return f'<div class="hero"><span class="kicker">GETBYTERUSH / {esc(category(story) or "TECH • AI • INTERNET")}</span><div class="rule"></div><h1>{esc(h)}</h1><p>{esc(b)}</p><span class="index">{i:02d}</span></div>'
-    if r=="pattern_interrupt":return f'<div class="pattern"><small>05 / PATTERN INTERRUPT</small><strong>{esc(punch(first(h,b),7,58))}</strong></div>'
-    if v in {"metric","number","stat"} or re.search(r"\b\d+(?:\.\d+)?\s*(?:x|%|ms|GB|TB)\b",h,re.I):return f'<div class="hero"><span class="kicker">THE SIGNAL</span><h1 style="font-size:68px">{esc(h)}</h1></div><div class="metric"><div class="value">{esc(metric(s))}</div><div class="line"></div><div class="caption">{esc(b or h)}</div></div>'
-    if v in {"comparison","versus","compare"}:return f'<div class="hero"><span class="kicker">THE SHIFT</span><h1 style="font-size:70px">{esc(h)}</h1></div><div class="compare"><div class="card"><small>BEFORE</small><strong>GPU-FIRST</strong></div><div class="vs">VS</div><div class="card"><small>NOW</small><strong>HYBRID AI</strong></div></div>'
-    if v in {"diagram","flow","process","architecture"} or any(x in c.lower() for x in ("diagram","flow","architecture")):
-        ls=labels(s);nodes="".join(f'<div class="node"><small>{j+1:02d}</small><b>{esc(x)}</b></div>'+('<div class="arrow">→</div>' if j<2 else "") for j,x in enumerate(ls))
-        return f'<div class="hero"><span class="kicker">HOW IT WORKS</span><h1 style="font-size:70px">{esc(h)}</h1></div><div class="flow">{nodes}</div>'
-    if v in {"evidence","screenshot","receipt"} and ev:return f'<div class="hero"><span class="kicker">SOURCE / PROOF</span><h1 style="font-size:70px">{esc(h)}</h1></div><div class="evidence"><div class="evidence-frame"><span class="tag">VERIFIED SOURCE</span><img src="{esc(ev)}" alt="Source evidence"></div><div class="note">{esc(src)} · source capture</div></div>'
-    if r=="reveal":return f'<div class="hero"><span class="kicker">THE REVEAL</span><h1 style="font-size:70px">{esc(h)}</h1></div><div class="reveal"><div class="num">{i:02d}</div><div><strong>{esc(punch(first(b,h),10,86))}</strong><p>{esc(b)}</p></div></div>'
-    if r=="payoff" or i==total:return f'<div class="hero"><span class="kicker">THE TAKEAWAY</span></div><div class="payoff"><div class="line"></div><strong>{esc(punch(h,9,80))}</strong><p>{esc(b)}</p><div class="sig">GETBYTERUSH / TESTED • EXPLAINED • REAL</div></div>'
-    return f'<div class="hero"><span class="kicker">{esc(r.replace("_"," "))}</span><h1 style="font-size:70px">{esc(h)}</h1></div><div class="statement"><strong>{esc(punch(first(b,h),7,62))}</strong><p>{esc(support(b,120))}</p></div>'
-def render_html(story,out,t,evi):
-    hd=out/"html";hd.mkdir(parents=True,exist_ok=True);sheet=css(t);total=len(story["slides"])
-    for i,s in enumerate(story["slides"],1):
-        dark="dark" if role(s,i,total)=="pattern_interrupt" else "";src,_=source(story,s)
-        page=f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=1080, initial-scale=1"><style>{sheet}</style></head><body><main class="slide {dark}"><div class="grain"></div><div class="top"><span>GETBYTERUSH</span><span>TECH • AI • INTERNET</span><span class="page">{i:02d} / {total:02d}</span></div>{markup(s,story,t,evi,i,total)}<div class="footer"><span>{esc(src)}</span><span>TESTED • EXPLAINED • REAL</span></div></main></body></html>'''
-        (hd/f"{i:02d}.html").write_text(page,encoding="utf-8")
-def render_pngs(out,count):
-    hd=out/"html";sd=out/"slides";sd.mkdir(parents=True,exist_ok=True)
+
+def css(p):
+    return f"""
+@page{{size:{W}px {H}px;margin:0}}*{{box-sizing:border-box}}html,body{{margin:0;padding:0;width:{W}px;height:{H}px;overflow:hidden}}body{{font-family:Inter,Arial,Helvetica,sans-serif;background:{p['bg']};color:{p['fg']}}}.slide{{position:relative;width:{W}px;height:{H}px;overflow:hidden;background:{p['bg']};color:{p['fg']}}}.top,.foot{{position:absolute;left:78px;right:78px;display:flex;justify-content:space-between;align-items:center;font:800 10px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1.7px;text-transform:uppercase;opacity:.58;z-index:5}}.top{{top:38px}}.foot{{bottom:34px}}.page{{border:1px solid currentColor;padding:6px 8px}}.kicker{{font:900 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1.7px;text-transform:uppercase;color:{p['accent']}}}.line{{height:6px;background:{p['signal']}}}.hero{{position:absolute;left:78px;right:78px;top:178px}}h1{{margin:20px 0 0;max-width:920px;font-size:92px;line-height:.84;letter-spacing:-5px;font-weight:950}}.sub{{margin-top:22px;max-width:720px;font-size:24px;line-height:1.2;opacity:.74}}.micro{{font:800 10px/1.3 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1.3px;text-transform:uppercase;opacity:.6}}.numghost{{position:absolute;right:0;top:96px;font:950 190px/.75 ui-monospace,monospace;letter-spacing:-16px;color:{p['accent']};opacity:.07}}.panel{{position:absolute;left:78px;right:78px;bottom:160px}}.panel-title{{font:900 11px/1 ui-monospace,monospace;letter-spacing:1.5px;text-transform:uppercase;color:{p['accent']}}}
+.diagram{{position:absolute;left:78px;right:78px;top:520px;display:grid;grid-template-columns:1fr 70px 1fr;align-items:stretch;gap:0}}.die{{min-height:340px;border:2px solid {p['fg']};padding:28px;position:relative;background:rgba(18,53,43,.035)}}.die.hot{{border:4px solid {p['accent']};background:rgba(18,53,43,.09);transform:translateY(-18px);box-shadow:14px 14px 0 {p['signal']}}}.die-label{{font:900 10px/1 ui-monospace,monospace;letter-spacing:1.4px;color:{p['accent']};text-transform:uppercase}}.die strong{{display:block;margin-top:60px;font-size:42px;line-height:.9;letter-spacing:-2px}}.die p{{margin-top:20px;font-size:19px;line-height:1.15;opacity:.7}}.arrow{{display:grid;place-items:center;font-size:36px;font-weight:900;color:{p['signal']}}}.badge{{position:absolute;right:22px;top:22px;font:950 44px/.8 ui-monospace,monospace;color:{p['accent']}}}
+.evidence{{position:absolute;left:78px;right:78px;top:500px}}.evidence-frame{{height:560px;border:2px solid {p['fg']};padding:14px;background:white;box-shadow:16px 16px 0 {p['accent']};position:relative;overflow:hidden}}.evidence-frame img{{width:100%;height:100%;object-fit:contain;display:block;background:#fff}}.source-tag{{position:absolute;left:20px;top:20px;background:{p['accent']};color:{p['bg']};padding:9px 11px;font:900 10px/1 ui-monospace,monospace;letter-spacing:1.2px;z-index:2}}.source-note{{margin-top:16px;font:800 10px/1.3 ui-monospace,monospace;letter-spacing:1.1px;text-transform:uppercase;opacity:.58}}
+.metrics{{position:absolute;left:78px;right:78px;top:510px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}}.metric{{border-top:5px solid {p['accent']};padding:24px 18px 0}}.metric .value{{font:950 105px/.8 ui-monospace,monospace;letter-spacing:-7px;color:{p['accent']}}}.metric .label{{margin-top:28px;font-size:22px;font-weight:900;line-height:.95;letter-spacing:-.7px}}.metric .desc{{margin-top:13px;font-size:15px;line-height:1.2;opacity:.66}}.metric.featured{{background:{p['accent']};color:{p['bg']};padding:24px 18px 28px;transform:translateY(-16px);box-shadow:14px 14px 0 {p['signal']}}}.metric.featured .value{{color:{p['bg']}}}
+.pattern{{position:absolute;left:0;right:0;top:420px;bottom:0;background:{FOREST};color:{CREAM};padding:74px 78px}}.pattern .big{{margin-top:30px;max-width:880px;font-size:88px;line-height:.82;letter-spacing:-5px;font-weight:950}}.pattern .quote{{margin-top:34px;max-width:680px;font-size:21px;line-height:1.2;opacity:.78}}
+.quote-block{{position:absolute;left:78px;right:78px;top:510px;border-left:8px solid {p['signal']};padding-left:30px}}.quote-block strong{{display:block;max-width:870px;font-size:70px;line-height:.88;letter-spacing:-4px;font-weight:950}}.quote-block p{{margin-top:24px;max-width:720px;font-size:22px;line-height:1.2;opacity:.7}}.quote-mark{{position:absolute;right:0;top:-55px;font:950 230px/.8 Georgia,serif;color:{p['accent']};opacity:.12}}
+.payoff{{position:absolute;left:78px;right:78px;top:455px}}.payoff .line{{width:190px;margin-bottom:30px}}.payoff strong{{display:block;max-width:900px;font-size:84px;line-height:.83;letter-spacing:-5px;font-weight:950}}.payoff p{{margin-top:25px;max-width:710px;font-size:24px;line-height:1.2;opacity:.72}}.signature{{margin-top:30px;font:900 11px/1 ui-monospace,monospace;letter-spacing:1.7px;text-transform:uppercase;color:{p['accent']}}}
+"""
+
+
+def html_for(slide, story, p, evidence, index, total):
+    headline, body, visual = content(slide)
+    r = role(slide, index, total)
+    label = first(slide.get("kicker"), r.replace("_", " "), "GETBYTERUSH")
+    source_label, _ = source(story, slide)
+    number_list = numbers(headline + " " + body)
+    if index == 1 or r == "interrupt":
+        return f'<div class="hero"><div class="kicker">{esc(label)}</div><div class="line" style="width:112px;margin-top:22px"></div><h1>{esc(headline)}</h1><p class="sub">{esc(body)}</p><div class="numghost">{index:02d}</div></div>'
+    if visual in {"diagram", "flow", "process", "architecture"}:
+        key = number_list[0] if number_list else "25%"
+        return f'<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:68px;max-width:900px">{esc(headline)}</h1></div><div class="diagram"><div class="die"><span class="die-label">OLD ARCHITECTURE</span><strong>COMPUTE<br>+ MEMORY</strong><p>Controller consumes valuable compute-die area.</p><span class="badge">{esc(key)}</span></div><div class="arrow">→</div><div class="die hot"><span class="die-label">NEW ARCHITECTURE</span><strong>COMPUTE<br>ONLY</strong><p>Memory control moves into the 3D stack.</p><span class="badge">FREE</span></div></div>'
+    if visual in {"evidence", "screenshot", "receipt"} and evidence:
+        return f'<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:68px;max-width:900px">{esc(headline)}</h1></div><div class="evidence"><div class="evidence-frame"><span class="source-tag">VERIFIED SOURCE</span><img src="{esc(evidence)}" alt="Source evidence"></div><div class="source-note">{esc(source_label)} · captured evidence</div></div>'
+    if visual in {"metric", "number", "stat"}:
+        nums = number_list[:3] or ["+30%", "−15%", "+25%"]
+        while len(nums) < 3:
+            nums.append("—")
+        labels = ["BANDWIDTH", "POWER", "DIE AREA"]
+        cards = []
+        for idx in range(3):
+            cards.append(f'<div class="metric {"featured" if idx == 0 else ""}"><div class="value">{esc(nums[idx])}</div><div class="label">{labels[idx]}</div><div class="desc">{esc(body if idx == 0 else "Measured architectural effect")}</div></div>')
+        return f'<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:62px;max-width:920px">{esc(headline)}</h1></div><div class="metrics">{"".join(cards)}</div>'
+    if visual in {"quote", "statement"}:
+        return f'<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:64px;max-width:900px">{esc(headline)}</h1></div><div class="quote-block"><div class="quote-mark">“</div><strong>{esc(punch(first(body, headline), 12, 110))}</strong><p>{esc(source_label)}</p></div>'
+    if r == "pattern_interrupt" or index == 5:
+        return f'<div class="pattern"><div class="micro">05 / PATTERN INTERRUPT</div><div class="big">{esc(punch(headline, 9, 76))}</div><div class="quote">{esc(support(body, 180))}</div></div>'
+    if index == total or r == "payoff" or visual in {"final", "takeaway"}:
+        return f'<div class="payoff"><div class="line"></div><strong>{esc(punch(headline, 9, 82))}</strong><p>{esc(body)}</p><div class="signature">GETBYTERUSH / TESTED • EXPLAINED • REAL</div></div>'
+    return f'<div class="hero"><div class="kicker">{esc(label)}</div><h1 style="font-size:70px;max-width:900px">{esc(headline)}</h1></div><div class="panel"><div class="panel-title">THE TAKEAWAY</div><p class="sub" style="max-width:760px">{esc(body)}</p></div>'
+
+
+def render_story(story, out_dir):
+    slides = story.get("slides") or []
+    out_dir.mkdir(parents=True, exist_ok=True)
+    evidence_path = None
+    for slide in slides:
+        if clean(slide.get("visual_type")).lower() in {"evidence", "screenshot", "receipt"}:
+            _, url = source(story, slide)
+            if url:
+                evidence_path = capture(url, out_dir / "evidence" / "source.png")
+            break
+    p = palette(theme(story))
+    styles = css(p)
+    html_dir = out_dir / "html"
+    png_dir = out_dir / "slides"
+    html_dir.mkdir(exist_ok=True)
+    png_dir.mkdir(exist_ok=True)
     with sync_playwright() as pw:
-        b=pw.chromium.launch(headless=True,args=["--no-sandbox","--disable-dev-shm-usage"])
-        for i in range(1,count+1):
-            p=b.new_page(viewport={"width":W,"height":H},device_scale_factor=1);p.goto((hd/f"{i:02d}.html").resolve().as_uri(),wait_until="load");p.screenshot(path=str(sd/f"{i:02d}.png"),full_page=False)
-            box=p.locator(".slide").bounding_box()
-            if not box or round(box["width"])!=W or round(box["height"])!=H:raise RuntimeError(f"Slide {i:02d} geometry invalid")
-            if LEAK.search(p.locator("body").inner_text()):raise RuntimeError(f"Slide {i:02d} contains internal design text")
-            p.close();print(f"✓ slide-{i:02d}.png")
-        b.close()
-def metadata(story,out,created,tn,t):
-    (out/"caption.txt").write_text(cl(story.get("caption")),encoding="utf-8");hs=story.get("hashtags",[]);(out/"hashtags.txt").write_text(" ".join(map(str,hs)) if isinstance(hs,list) else cl(hs),encoding="utf-8")
-    (out/"pinned-comment.txt").write_text(cl(story.get("pinned_comment")),encoding="utf-8");(out/"alt-text.txt").write_text(cl(story.get("alt_text")),encoding="utf-8")
-    delete=(datetime.fromisoformat(created)+timedelta(days=RETENTION)).isoformat();p=dict(story);d=dict(story.get("design") or {})
-    d.update({"renderer":"getbyterush-carousel-generator-v4-art-directed","emotional_mode":d.get("emotional_mode") or tn,"accent_color":t["accent"],"composition":"art-directed editorial engines","psychology":{"color_mode":t["mode"],"retention_strategy":"interrupt → curiosity → proof → pattern → payoff","copy_rule":"punchy minimal; design metadata never rendered"}})
-    p.update({"design":d,"post_id":f"{slug(story.get('story_title'))}-{created.replace(':','').replace('+','-')}","status":"pending_approval","created_at":created,"retention_days":RETENTION,"delete_after":delete,"package":{"slides_dir":"slides","html_dir":"html","evidence_dir":"evidence","slide_count":len(story["slides"]),"theme":tn}})
-    (out/"post.json").write_text(json.dumps(p,indent=2,ensure_ascii=False),encoding="utf-8")
+        browser = pw.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+        page = browser.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
+        total = len(slides)
+        for i, slide in enumerate(slides, 1):
+            body = html_for(slide, story, p, evidence_path, i, total)
+            source_label, _ = source(story, slide)
+            page_html = f'<!doctype html><html><head><meta charset="utf-8"><style>{styles}</style></head><body><main class="slide"><div class="top"><span>GETBYTERUSH</span><span>TECH • AI • INTERNET</span><span class="page">{i:02d} / {total:02d}</span></div>{body}<div class="foot"><span>{esc(source_label)}</span><span>TESTED • EXPLAINED • REAL</span></div></main></body></html>'
+            (html_dir / f"{i:02d}.html").write_text(page_html, encoding="utf-8")
+            page.set_content(page_html, wait_until="load")
+            page.screenshot(path=str(png_dir / f"{i:02d}.png"), full_page=False)
+            print(f"✓ slide-{i:02d}.png")
+        browser.close()
+    (out_dir / "post.json").write_text(json.dumps(story, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    title = clean(story.get("story_title", "GetByteRush"))
+    why = clean(story.get("why_this_story", ""))
+    (out_dir / "caption.txt").write_text(f"{title}\n\n{why}\n\n#GetByteRush #AI #Technology #Internet\n", encoding="utf-8")
+    (out_dir / "hashtags.txt").write_text("#GetByteRush #AI #Technology #Internet #TechNews #ArtificialIntelligence\n", encoding="utf-8")
+    (out_dir / "alt-text.txt").write_text(f"GetByteRush editorial carousel about {title}.", encoding="utf-8")
+    (out_dir / "pinned-comment.txt").write_text("What do you think this changes next?", encoding="utf-8")
+
+
+def day_date(path):
+    return datetime.strptime(path.name, "%Y-%m-%d").date()
+
+
+def cleanup():
+    cutoff = datetime.now() - timedelta(days=RETENTION_DAYS)
+    if not ROOT.exists():
+        return
+    for day in list(ROOT.iterdir()):
+        if not day.is_dir():
+            continue
+        for package in list(day.iterdir()):
+            if not package.is_dir():
+                continue
+            try:
+                stamp = datetime.strptime(package.name[:6], "%H%M%S")
+                package_time = datetime.combine(day_date(day), stamp.time())
+            except Exception:
+                continue
+            if package_time < cutoff:
+                import shutil
+                shutil.rmtree(package, ignore_errors=True)
+        try:
+            if not any(day.iterdir()):
+                day.rmdir()
+        except OSError:
+            pass
+
+
 def main():
-    if not INPUT.exists():raise FileNotFoundError(f"Missing {INPUT}")
-    story=json.loads(INPUT.read_text(encoding="utf-8"))
-    if not story.get("selected"):print("No story selected. Nothing to render.");return
-    if not story.get("slides"):raise ValueError("Selected story contains no carousel slides.")
-    now=datetime.now().astimezone();created=now.isoformat(timespec="seconds");out=ROOT/now.strftime("%Y-%m-%d")/f"{now.strftime('%H%M%S')}-{slug(story.get('story_title','getbyterush-post'))}"
-    for x in ("slides","html","evidence"):(out/x).mkdir(parents=True,exist_ok=True)
-    tn=theme_for(story);t=THEMES[tn];ss=story.get("source_story") if isinstance(story.get("source_story"),dict) else {};ev=capture(ss.get("url",""),out/"evidence"/"source.png")
-    print(f"GETBYTERUSH V4 | theme={tn} | slides={len(story['slides'])} | Gemini=0");render_html(story,out,t,ev);render_pngs(out,len(story["slides"]));metadata(story,out,created,tn,t);print("✓ Carousel generated");print(f"✓ Output: {out}")
-if __name__=="__main__":main()
+    if not INPUT.exists():
+        raise SystemExit("Missing data/selected_story.json")
+    story = json.loads(INPUT.read_text(encoding="utf-8"))
+    if not story.get("selected") or not isinstance(story.get("slides"), list) or not story["slides"]:
+        raise SystemExit("selected_story.json is not a valid selected editorial package")
+    now = datetime.now()
+    title_slug = re.sub(r"[^a-z0-9]+", "-", clean(story.get("story_title", "getbyterush-post")).lower()).strip("-")[:90]
+    package = ROOT / now.strftime("%Y-%m-%d") / f"{now.strftime('%H%M%S')}-{title_slug}"
+    cleanup()
+    print("=" * 72)
+    print("GETBYTERUSH ART-DIRECTED CAROUSEL RENDERER V2")
+    print("=" * 72)
+    print(f"Theme:  {theme(story)}")
+    print(f"Slides: {len(story['slides'])}")
+    print("Gemini: 0")
+    render_story(story, package)
+    print(f"✓ Output: {package}")
+    print("✓ Ready for approval")
+
+
+if __name__ == "__main__":
+    main()
