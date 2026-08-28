@@ -1,0 +1,45 @@
+name: Repair renderer syntax
+
+on:
+  push:
+    paths:
+      - '.github/workflows/repair-renderer-syntax.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Repair exact renderer syntax defect
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/carousel_generator.py')
+          s = p.read_text(encoding='utf-8')
+          old = "return f'<div class=\"hero-head\"><div class=\"kicker\">HOW IT WORKS</div><h1 class=\"compact\" data-qa=\"headline\">{esc_h}</h1></div><div class=\"diagram'>{\"\".join(nodes)}</div>'"
+          new = "return f'<div class=\"hero-head\"><div class=\"kicker\">HOW IT WORKS</div><h1 class=\"compact\" data-qa=\"headline\">{esc_h}</h1></div><div class=\"diagram\">{\"\".join(nodes)}</div>'"
+          if old not in s:
+              raise SystemExit('Expected renderer syntax defect was not found; refusing to modify the file.')
+          p.write_text(s.replace(old, new, 1), encoding='utf-8')
+          PY
+          python -m py_compile scripts/carousel_generator.py
+
+      - name: Commit renderer repair
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/carousel_generator.py
+          git diff --cached --quiet && exit 0
+          git commit -m 'fix: repair renderer diagram markup'
+          git push origin HEAD:main
