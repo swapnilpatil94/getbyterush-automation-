@@ -1,6 +1,7 @@
 name: GetByteRush Render Existing Editorial
 
 on:
+  # Renderer verification is manual/push-driven; production scheduling lives in editorial.yml.
   workflow_dispatch:
     inputs:
       source:
