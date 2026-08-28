@@ -3,7 +3,6 @@ name: GetByteRush Editorial Production
 on:
   workflow_dispatch:
   schedule:
-    # Six production windows per day. GitHub uses UTC.
     - cron: "0 2,6,10,14,18,22 * * *"
 
 permissions:
@@ -31,46 +30,34 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-          if [ -f requirements-editorial.txt ]; then
-            pip install -r requirements-editorial.txt
-          fi
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          if [ -f requirements-editorial.txt ]; then pip install -r requirements-editorial.txt; fi
 
       - name: Install Playwright
-        run: |
-          python -m playwright install --with-deps chromium
+        run: python -m playwright install --with-deps chromium
 
       - name: Cleanup old generated output
-        run: |
-          python scripts/topic_memory.py cleanup
+        run: python scripts/topic_memory.py cleanup
 
       - name: Run News Radar
-        run: |
-          python scripts/radar.py
+        run: python scripts/radar.py
 
       - name: Run Pre-filter
-        run: |
-          python scripts/filter_stories.py
+        run: python scripts/filter_stories.py
 
       - name: Apply topic memory
-        run: |
-          python scripts/topic_memory.py prepare
+        run: python scripts/topic_memory.py prepare
 
       - name: Run Gemini Editorial Engine
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          python scripts/editorial_engine.py
+        run: python scripts/editorial_engine.py
 
       - name: Generate Production Carousel
-        run: |
-          python scripts/carousel_production.py
+        run: python scripts/carousel_production.py
 
       - name: Record successful topic
-        run: |
-          python scripts/topic_memory.py record
+        run: python scripts/topic_memory.py record
 
       - name: List generated output
         if: always()
@@ -78,17 +65,11 @@ jobs:
           echo "========================================"
           echo "GETBYTERUSH GENERATED OUTPUT"
           echo "========================================"
-          if [ -d "output" ]; then
-            find output -type f | sort
-          else
-            echo "No output directory found."
-          fi
+          if [ -d "output" ]; then find output -type f | sort; else echo "No output directory found."; fi
           echo "========================================"
           echo "TOPIC MEMORY"
           echo "========================================"
-          if [ -f "state/topic_memory.json" ]; then
-            cat state/topic_memory.json
-          fi
+          if [ -f "state/topic_memory.json" ]; then cat state/topic_memory.json; fi
 
       - name: Upload Carousel Package
         if: success()
@@ -106,18 +87,14 @@ jobs:
       - name: Commit generated production state
         if: success()
         run: |
-          echo "========================================"
-          echo "COMMITTING GETBYTERUSH PRODUCTION STATE"
-          echo "========================================"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/posts/ state/topic_memory.json
+          git add output/posts/ data/selected_story.json data/editorial_queue.json state/topic_memory.json
           if git diff --cached --quiet; then
             echo "No repository changes to commit."
           else
             git commit -m "chore: generate GetByteRush editorial package"
             git push origin HEAD:main
-            echo "✓ Generated carousel, topic memory and cleanup committed."
           fi
 
       - name: Upload debug data
