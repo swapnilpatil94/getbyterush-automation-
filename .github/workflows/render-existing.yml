@@ -50,7 +50,9 @@ jobs:
                   data = json.loads(path.read_text(encoding="utf-8"))
               except Exception:
                   return None
-              return data if data.get("selected") and data.get("slides") else None
+              if not data.get("selected") or not isinstance(data.get("slides"), list) or not data.get("slides"):
+                  return None
+              return data
 
           if requested and requested != "auto":
               source = Path(requested)
@@ -60,23 +62,15 @@ jobs:
           else:
               data = load(selected) if selected.exists() else None
               source = selected if data else None
-
               if not data:
                   packages = []
                   for path in Path("output/posts").glob("**/post.json"):
                       item = load(path)
                       if not item:
                           continue
-                      try:
-                          stamp = item.get("created_at", "")
-                          mtime = path.stat().st_mtime
-                      except OSError:
-                          stamp, mtime = "", 0
-                      packages.append((stamp, mtime, path, item))
-
+                      packages.append((item.get("created_at", ""), path.stat().st_mtime, path, item))
                   if not packages:
                       raise SystemExit("No reusable editorial package found in output/posts/**/post.json")
-
                   packages.sort(key=lambda x: (x[0], x[1]), reverse=True)
                   _, _, source, data = packages[0]
 
@@ -112,8 +106,10 @@ jobs:
           echo "Gemini is intentionally NOT called in this workflow."
           python scripts/carousel_production.py
 
-      - name: Validate latest render only
+      - name: Validate selected render package
         shell: bash
+        env:
+          STORY_TITLE: ${{ '' }}
         run: |
           set -euo pipefail
           python - <<'PY'
@@ -121,56 +117,40 @@ jobs:
           import re
           from pathlib import Path
 
-          selected = Path("data/selected_story.json")
-          data = json.loads(selected.read_text(encoding="utf-8"))
-          expected = len(data.get("slides", []))
+          selected = json.loads(Path("data/selected_story.json").read_text(encoding="utf-8"))
+          expected = len(selected.get("slides", []))
+          story_title = selected.get("story_title", "")
           if not 5 <= expected <= 9:
               raise SystemExit(f"Unexpected editorial slide count: {expected}")
 
-          slug = re.sub(r"[^a-z0-9]+", "-", str(data.get("story_title", "getbyterush-post")).lower()).strip("-")[:80]
-          matching = []
-          for p in Path("output/posts").glob(f"**/*-{slug}/post.json"):
+          candidates = []
+          for p in Path("output/posts").glob("**/post.json"):
               try:
                   post = json.loads(p.read_text(encoding="utf-8"))
               except Exception:
                   continue
-              if post.get("story_title") == data.get("story_title"):
-                  matching.append((post.get("created_at", ""), p, post))
+              if post.get("story_title") != story_title:
+                  continue
+              slides = sorted(p.parent.glob("slides/*.png"))
+              if len(slides) == expected:
+                  candidates.append((p.stat().st_mtime, p, slides))
 
-          if not matching:
-              # Fallback to newest generated package with matching source title.
-              for p in Path("output/posts").glob("**/post.json"):
-                  try:
-                      post = json.loads(p.read_text(encoding="utf-8"))
-                  except Exception:
-                      continue
-                  if post.get("story_title") == data.get("story_title"):
-                      matching.append((post.get("created_at", ""), p, post))
+          if not candidates:
+              raise SystemExit(f"No rendered package found for: {story_title}")
 
-          if not matching:
-              raise SystemExit("No rendered package found for the selected editorial story.")
+          candidates.sort(key=lambda x: x[0], reverse=True)
+          _, post_path, slides = candidates[0]
 
-          matching.sort(key=lambda x: x[0], reverse=True)
-          _, package_path, post = matching[0]
-          slides = sorted(package_path.parent.glob("slides/*.png"))
-          if len(slides) != expected:
-              raise SystemExit(f"Slide count mismatch: editorial={expected}, rendered={len(slides)}")
-
-          bad = []
           for slide in slides:
               raw = slide.read_bytes()
               if len(raw) < 24 or raw[:8] != b"\x89PNG\r\n\x1a\n":
-                  bad.append(str(slide))
-                  continue
-              width = int.from_bytes(raw[16:20], "big")
-              height = int.from_bytes(raw[20:24], "big")
-              if (width, height) != (1080, 1350):
-                  bad.append(f"{slide}={width}x{height}")
+                  raise SystemExit(f"Invalid PNG: {slide}")
+              w = int.from_bytes(raw[16:20], "big")
+              h = int.from_bytes(raw[20:24], "big")
+              if (w, h) != (1080, 1350):
+                  raise SystemExit(f"Invalid dimensions: {slide}={w}x{h}")
 
-          if bad:
-              raise SystemExit(f"Invalid latest render dimensions: {bad[:10]}")
-
-          print(f"✓ Latest package validated: {package_path.parent}")
+          print(f"✓ Selected package: {post_path.parent}")
           print(f"✓ Slides: {len(slides)}")
           print("✓ Dimensions: 1080x1350")
           print("✓ Gemini calls: 0")
