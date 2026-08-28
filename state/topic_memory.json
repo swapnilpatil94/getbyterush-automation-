@@ -1,6 +1,39 @@
 {
-  "version": 1,
+  "version": 2,
   "topics": [
+    {
+      "title": "NVIDIA's 30x Breakthrough for AI Agents",
+      "source_title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "nvidia s 30x breakthrough for ai agents",
+      "normalized_source_title": "up to 30x more work per watt nvidia vera rubin nvl72 sets a new efficiency standard for ai agents",
+      "tokens": [
+        "30x",
+        "agents",
+        "breakthrough",
+        "for",
+        "nvidia"
+      ],
+      "source_tokens": [
+        "30x",
+        "agents",
+        "efficiency",
+        "for",
+        "more",
+        "new",
+        "nvidia",
+        "nvl72",
+        "per",
+        "rubin",
+        "sets",
+        "standard",
+        "vera",
+        "watt",
+        "work"
+      ],
+      "recorded_at": "2026-08-28T23:16:26.464296+00:00"
+    },
     {
       "title": "Why Amazon is building NVIDIA tech inside its own AI chips",
       "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
