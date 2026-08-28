@@ -16,6 +16,7 @@ on:
   push:
     paths:
       - "scripts/carousel_generator.py"
+      - ".github/workflows/render-existing.yml"
 
 permissions:
   contents: write
@@ -32,7 +33,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Resolve reusable editorial package
         shell: bash
         env:
@@ -42,59 +42,46 @@ jobs:
           python - <<'PY'
           import json, os
           from pathlib import Path
-          requested = os.environ.get("REQUESTED_SOURCE", "auto").strip()
-          selected = Path("data/selected_story.json")
-          selected.parent.mkdir(parents=True, exist_ok=True)
+          requested=os.environ.get("REQUESTED_SOURCE","auto").strip(); selected=Path("data/selected_story.json"); selected.parent.mkdir(parents=True,exist_ok=True)
           def load(path):
-              try: data = json.loads(path.read_text(encoding="utf-8"))
+              try: data=json.loads(path.read_text(encoding="utf-8"))
               except Exception: return None
-              if not data.get("selected") or not isinstance(data.get("slides"), list) or not data.get("slides"): return None
-              return data
-          if requested and requested != "auto":
-              source = Path(requested); data = load(source)
+              return data if data.get("selected") and isinstance(data.get("slides"),list) and data.get("slides") else None
+          if requested and requested!="auto":
+              source=Path(requested); data=load(source)
               if not data: raise SystemExit(f"Requested editorial package is missing or invalid: {source}")
           else:
-              data = load(selected) if selected.exists() else None; source = selected if data else None
+              data=load(selected) if selected.exists() else None; source=selected if data else None
               if not data:
-                  packages = []
+                  packages=[]
                   for path in Path("output/posts").glob("**/post.json"):
-                      item = load(path)
-                      if item: packages.append((item.get("created_at", ""), path.stat().st_mtime, path, item))
-                  if not packages: raise SystemExit("No reusable editorial package found in output/posts/**/post.json")
-                  packages.sort(key=lambda x: (x[0], x[1]), reverse=True)
-                  _, _, source, data = packages[0]
-          selected.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-          print(f"RENDER_SOURCE={source}"); print(f"RENDER_STORY={data.get('story_title', '(untitled)')}"); print(f"RENDER_SLIDES={len(data.get('slides', []))}"); print("GEMINI_CALL=0")
+                      item=load(path)
+                      if item: packages.append((item.get("created_at",""),path.stat().st_mtime,path,item))
+                  if not packages: raise SystemExit("No reusable editorial package found")
+                  packages.sort(key=lambda x:(x[0],x[1]),reverse=True); _,_,source,data=packages[0]
+          selected.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
+          print(f"RENDER_SOURCE={source}"); print(f"RENDER_STORY={data.get('story_title','(untitled)')}"); print(f"RENDER_SLIDES={len(data.get('slides',[]))}"); print("GEMINI_CALL=0")
           PY
-
       - name: Setup Python
         uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
+        with: {python-version: "3.11"}
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements-editorial.txt ]; then pip install -r requirements-editorial.txt; fi
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
       - name: Install Playwright Chromium
         run: python -m playwright install --with-deps chromium
-
       - name: Compile renderer before running it
         run: python -m py_compile scripts/carousel_generator.py scripts/carousel_production.py
-
       - name: Clean old outputs
         if: ${{ inputs.clean_old_outputs == true }}
         run: python scripts/topic_memory.py cleanup
-
       - name: Render saved editorial only
-        env:
-          PYTHONPATH: scripts
+        env: {PYTHONPATH: scripts}
         run: |
           echo "Gemini is intentionally NOT called in this workflow."
           python scripts/carousel_production.py
-
       - name: Validate selected render package
         shell: bash
         run: |
@@ -102,30 +89,27 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          selected = json.loads(Path("data/selected_story.json").read_text(encoding="utf-8"))
-          expected = len(selected.get("slides", [])); story_title = selected.get("story_title", "")
-          if not 5 <= expected <= 9: raise SystemExit(f"Unexpected editorial slide count: {expected}")
+          selected=json.loads(Path("data/selected_story.json").read_text(encoding="utf-8")); expected=len(selected.get("slides",[])); title=selected.get("story_title","")
+          if not 5<=expected<=9: raise SystemExit(f"Unexpected editorial slide count: {expected}")
           candidates=[]
           for p in Path("output/posts").glob("**/post.json"):
               try: post=json.loads(p.read_text(encoding="utf-8"))
               except Exception: continue
-              if post.get("story_title") != story_title: continue
+              if post.get("story_title")!=title: continue
               slides=sorted(p.parent.glob("slides/*.png"))
               if len(slides)==expected: candidates.append((p.stat().st_mtime,p,slides))
-          if not candidates: raise SystemExit(f"No rendered package found for: {story_title}")
-          candidates.sort(key=lambda x:x[0], reverse=True); _, post_path, slides=candidates[0]
+          if not candidates: raise SystemExit(f"No rendered package found for: {title}")
+          candidates.sort(key=lambda x:x[0],reverse=True); _,post_path,slides=candidates[0]
           for slide in slides:
               raw=slide.read_bytes()
-              if len(raw)<24 or raw[:8] != b"\x89PNG\r\n\x1a\n": raise SystemExit(f"Invalid PNG: {slide}")
+              if len(raw)<24 or raw[:8]!=b"\x89PNG\r\n\x1a\n": raise SystemExit(f"Invalid PNG: {slide}")
               w=int.from_bytes(raw[16:20],"big"); h=int.from_bytes(raw[20:24],"big")
               if (w,h)!=(1080,1350): raise SystemExit(f"Invalid dimensions: {slide}={w}x{h}")
           print(f"✓ Selected package: {post_path.parent}"); print(f"✓ Slides: {len(slides)}"); print("✓ Dimensions: 1080x1350"); print("✓ Gemini calls: 0")
           PY
-
       - name: List generated output
         if: always()
         run: find output/posts -type f | sort || true
-
       - name: Upload Carousel Package
         if: success()
         uses: actions/upload-artifact@v4
@@ -136,11 +120,10 @@ jobs:
             data/selected_story.json
           if-no-files-found: warn
           retention-days: 7
-
       - name: Commit rendered output
         if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/posts/ data/selected_story.json
-          if git diff --cached --quiet; then echo "No rendered changes to commit."; else git commit -m "chore: render saved GetByteRush editorial"; git push origin HEAD:main; echo "✓ Rendered package committed."; fi
+          if git diff --cached --quiet; then echo "No rendered changes to commit."; else git commit -m "chore: render saved GetByteRush editorial"; git push origin HEAD:main; fi
