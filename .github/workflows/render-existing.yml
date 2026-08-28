@@ -1,7 +1,7 @@
 name: GetByteRush Render Existing Editorial
 
 on:
-  # Renderer verification is manual/push-driven; production scheduling lives in editorial.yml.
+  # Renderer verification is manual/scheduled/push-driven; editorial scheduling lives in editorial.yml.
   workflow_dispatch:
     inputs:
       source:
@@ -14,9 +14,13 @@ on:
         required: false
         default: false
         type: boolean
+  schedule:
+    # Run 30 minutes after each editorial cycle.
+    - cron: "30 2,6,10,14,18,22 * * *"
   push:
     paths:
       - "scripts/carousel_generator.py"
+      - "scripts/carousel_production.py"
       - ".github/workflows/render-existing.yml"
 
 permissions:
