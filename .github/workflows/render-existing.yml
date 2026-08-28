@@ -90,7 +90,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          find output/posts -mindepth 1 -maxdepth 1 -type d -print 2>/dev/null | sort > /tmp/gbr-before-posts.txt || true
+          mkdir -p /tmp/gbr
+          find output/posts -type f -name post.json -print 2>/dev/null | sed 's#/post.json$##' | sort > /tmp/gbr-before-posts.txt || true
           echo "Existing packages: $(wc -l < /tmp/gbr-before-posts.txt | tr -d ' ')"
       - name: Render saved editorial only
         env:
@@ -102,10 +103,14 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          find output/posts -mindepth 1 -maxdepth 1 -type d -print 2>/dev/null | sort > /tmp/gbr-after-posts.txt || true
+          find output/posts -type f -name post.json -print 2>/dev/null | sed 's#/post.json$##' | sort > /tmp/gbr-after-posts.txt || true
           NEW_PACKAGE=$(comm -13 /tmp/gbr-before-posts.txt /tmp/gbr-after-posts.txt | head -n 1)
           if [ -z "$NEW_PACKAGE" ]; then
             echo "ERROR: renderer did not create a new post package"
+            echo "Existing packages:"
+            cat /tmp/gbr-before-posts.txt || true
+            echo "Current packages:"
+            cat /tmp/gbr-after-posts.txt || true
             exit 1
           fi
           COUNT=$(comm -13 /tmp/gbr-before-posts.txt /tmp/gbr-after-posts.txt | wc -l | tr -d ' ')
