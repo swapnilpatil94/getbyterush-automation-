@@ -2,27 +2,34 @@ name: GetByteRush Editorial Production
 
 on:
   workflow_dispatch:
+  schedule:
+    # Six production windows per day. GitHub uses UTC.
+    - cron: "0 2,6,10,14,18,22 * * *"
 
 permissions:
   contents: write
+
+# Never let two editorial runs race against the same topic memory/output.
+concurrency:
+  group: getbyterush-editorial-production
+  cancel-in-progress: false
 
 jobs:
   editorial-production:
     runs-on: ubuntu-latest
 
     steps:
-
       # ---------------------------------------------------------
       # 1. Checkout repository
       # ---------------------------------------------------------
-
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       # ---------------------------------------------------------
       # 2. Setup Python
       # ---------------------------------------------------------
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -31,7 +38,6 @@ jobs:
       # ---------------------------------------------------------
       # 3. Install Python dependencies
       # ---------------------------------------------------------
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -47,31 +53,42 @@ jobs:
       # ---------------------------------------------------------
       # 4. Install Playwright
       # ---------------------------------------------------------
-
       - name: Install Playwright
         run: |
           python -m playwright install --with-deps chromium
 
       # ---------------------------------------------------------
-      # 5. Run News Radar
+      # 5. Clean generated packages older than 7 days
       # ---------------------------------------------------------
+      - name: Cleanup old generated output
+        run: |
+          python scripts/topic_memory.py cleanup
 
+      # ---------------------------------------------------------
+      # 6. Run News Radar
+      # ---------------------------------------------------------
       - name: Run News Radar
         run: |
           python scripts/radar.py
 
       # ---------------------------------------------------------
-      # 6. Run Pre-filter
+      # 7. Run Pre-filter
       # ---------------------------------------------------------
-
       - name: Run Pre-filter
         run: |
           python scripts/filter_stories.py
 
       # ---------------------------------------------------------
-      # 7. Run Gemini Editorial Engine
+      # 8. Remove recently used topics BEFORE Gemini
+      #    This prevents wasted Gemini calls on duplicates.
       # ---------------------------------------------------------
+      - name: Apply topic memory
+        run: |
+          python scripts/topic_memory.py prepare
 
+      # ---------------------------------------------------------
+      # 9. Run Gemini Editorial Engine
+      # ---------------------------------------------------------
       - name: Run Gemini Editorial Engine
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -79,17 +96,22 @@ jobs:
           python scripts/editorial_engine.py
 
       # ---------------------------------------------------------
-      # 8. Generate Carousel
+      # 10. Generate Carousel
       # ---------------------------------------------------------
-
       - name: Generate Carousel
         run: |
           python scripts/carousel_generator.py
 
       # ---------------------------------------------------------
-      # 9. Show generated files
+      # 11. Record selected topic ONLY after carousel succeeds
       # ---------------------------------------------------------
+      - name: Record successful topic
+        run: |
+          python scripts/topic_memory.py record
 
+      # ---------------------------------------------------------
+      # 12. Show generated files
+      # ---------------------------------------------------------
       - name: List generated output
         if: always()
         run: |
@@ -103,10 +125,16 @@ jobs:
             echo "No output directory found."
           fi
 
-      # ---------------------------------------------------------
-      # 10. Upload carousel package
-      # ---------------------------------------------------------
+          echo "========================================"
+          echo "TOPIC MEMORY"
+          echo "========================================"
+          if [ -f "state/topic_memory.json" ]; then
+            cat state/topic_memory.json
+          fi
 
+      # ---------------------------------------------------------
+      # 13. Upload carousel package
+      # ---------------------------------------------------------
       - name: Upload Carousel Package
         if: success()
         uses: actions/upload-artifact@v4
@@ -116,38 +144,36 @@ jobs:
             output/**
             data/selected_story.json
             data/editorial_queue.json
+            state/topic_memory.json
           if-no-files-found: warn
           retention-days: 7
 
-
       # ---------------------------------------------------------
-      # 11. Commit generated carousel to repository
+      # 14. Commit generated carousel + topic memory + cleanup
       # ---------------------------------------------------------
-
-      - name: Commit generated carousel
+      - name: Commit generated production state
         if: success()
         run: |
           echo "========================================"
-          echo "COMMITTING GETBYTERUSH GENERATED OUTPUT"
+          echo "COMMITTING GETBYTERUSH PRODUCTION STATE"
           echo "========================================"
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add output/posts/
+          git add output/posts/ state/topic_memory.json
 
           if git diff --cached --quiet; then
-            echo "No new carousel files to commit."
+            echo "No repository changes to commit."
           else
-            git commit -m "chore: generate GetByteRush carousel"
-            git push
-            echo "✓ Generated carousel committed and pushed."
+            git commit -m "chore: generate GetByteRush editorial package"
+            git push origin HEAD:main
+            echo "✓ Generated carousel, topic memory and cleanup committed."
           fi
 
       # ---------------------------------------------------------
-      # 11. Upload debug files if something fails
+      # 15. Upload debug files if something fails
       # ---------------------------------------------------------
-
       - name: Upload debug data
         if: failure()
         uses: actions/upload-artifact@v4
@@ -156,5 +182,6 @@ jobs:
           path: |
             data/**
             output/**
+            state/**
           if-no-files-found: warn
           retention-days: 3
