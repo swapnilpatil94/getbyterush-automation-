@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Production wrapper for the GetByteRush art-directed carousel renderer."""
 
-# V2 visual benchmark: editorial poster / asymmetric magazine composition.
-import carousel_renderer_v2 as renderer
+# V3 visual benchmark: reference-inspired editorial poster composition.
+import carousel_renderer_v3 as renderer
 
 
 if __name__ == "__main__":
