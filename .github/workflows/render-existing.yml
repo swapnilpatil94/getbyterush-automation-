@@ -26,7 +26,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Find reusable editorial package
+      - name: Resolve reusable editorial package
         shell: bash
         env:
           REQUESTED_SOURCE: ${{ inputs.source }}
@@ -39,56 +39,53 @@ jobs:
 
           requested = os.environ.get("REQUESTED_SOURCE", "auto").strip()
           selected = Path("data/selected_story.json")
+          selected.parent.mkdir(parents=True, exist_ok=True)
 
-          def usable(path):
+          def load(path):
               try:
                   data = json.loads(path.read_text(encoding="utf-8"))
-                  return bool(data.get("selected")) and bool(data.get("slides"))
+                  if data.get("selected") and data.get("slides"):
+                      return data
               except Exception:
-                  return False
+                  pass
+              return None
 
-          # Explicit source can be a repository path to post.json or selected_story.json.
-          if requested not in ("", "auto"):
+          if requested and requested != "auto":
               source = Path(requested)
-              if not source.exists() or not usable(source):
+              data = load(source)
+              if not data:
                   raise SystemExit(f"Requested editorial package is missing or invalid: {source}")
-              data = json.loads(source.read_text(encoding="utf-8"))
               selected.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-              print(f"✓ Reusing requested editorial: {source}")
-              print(f"✓ Story: {data.get('story_title', '(untitled)')}")
-              print("✓ Gemini will NOT be called")
+              print(f"RENDER_SOURCE={source}")
+              print(f"RENDER_STORY={data.get('story_title', '(untitled)')}")
+              print("GEMINI_CALL=0")
               raise SystemExit(0)
 
-          # Prefer selected_story.json when present and valid.
-          if selected.exists() and selected.stat().st_size > 0 and usable(selected):
-              print("✓ Found data/selected_story.json")
-              print("✓ Gemini will NOT be called")
-              raise SystemExit(0)
+          if selected.exists():
+              data = load(selected)
+              if data:
+                  print("RENDER_SOURCE=data/selected_story.json")
+                  print(f"RENDER_STORY={data.get('story_title', '(untitled)')}")
+                  print("GEMINI_CALL=0")
+                  raise SystemExit(0)
 
-          # Otherwise reuse the newest committed post.json package.
           packages = []
           for path in Path("output/posts").glob("**/post.json"):
-              if not usable(path):
+              data = load(path)
+              if not data:
                   continue
-              data = json.loads(path.read_text(encoding="utf-8"))
               created = data.get("created_at", "")
-              try:
-                  key = (created, path.stat().st_mtime)
-              except OSError:
-                  key = (created, 0)
-              packages.append((key, path, data))
+              packages.append((created, path, data))
 
           if not packages:
               raise SystemExit("No reusable editorial package found in output/posts/**/post.json")
 
           packages.sort(key=lambda x: x[0], reverse=True)
           _, source, data = packages[0]
-          selected.parent.mkdir(parents=True, exist_ok=True)
           selected.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
-          print(f"✓ Reusing latest saved editorial package: {source}")
-          print(f"✓ Story: {data.get('story_title', '(untitled)')}")
-          print("✓ Gemini will NOT be called")
+          print(f"RENDER_SOURCE={source}")
+          print(f"RENDER_STORY={data.get('story_title', '(untitled)')}")
+          print("GEMINI_CALL=0")
           PY
 
       - name: Setup Python
@@ -105,10 +102,12 @@ jobs:
       - name: Install Playwright
         run: python -m playwright install --with-deps chromium
 
-      - name: Render saved editorial
+      - name: Render saved editorial only
         env:
           PYTHONPATH: scripts
-        run: python scripts/carousel_production.py
+        run: |
+          echo "Gemini is intentionally NOT called in this workflow."
+          python scripts/carousel_production.py
 
       - name: Validate generated dimensions
         shell: bash
