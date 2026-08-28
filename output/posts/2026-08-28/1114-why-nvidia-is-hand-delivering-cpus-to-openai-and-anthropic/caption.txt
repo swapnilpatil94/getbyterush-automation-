@@ -1,0 +1,14 @@
+Why is NVIDIA hand-delivering CPUs to OpenAI, Anthropic, and AWS?
+
+For the past three years, the AI narrative revolved around one thing: GPUs. But as models evolve from answering simple questions to acting autonomously—running code, managing sandboxes, and executing multi-step workflows—a new bottleneck has emerged: the CPU.
+
+NVIDIA's VP of Hyperscale Ian Buck recently hand-delivered the first production units of Vera—NVIDIA’s first custom CPU purpose-built for agentic AI.
+
+Here’s what’s changing:
+• Every Python code generation, tool call, and agent orchestration runs on the CPU, not the GPU.
+• Vera packs 88 custom Olympus cores with 1.2TB/s memory bandwidth to sustain continuous agent workloads.
+• Oracle Cloud Infrastructure is deploying hundreds of thousands of Vera CPUs, alongside adoption by AWS, Anthropic, SpaceXAI, and OpenAI.
+
+AI compute is no longer just about raw matrix math—it's about how fast your system can orchestrate autonomous work.
+
+Follow @getByteRush for clear, evidence-backed breakdowns of tech, AI, and the modern web.

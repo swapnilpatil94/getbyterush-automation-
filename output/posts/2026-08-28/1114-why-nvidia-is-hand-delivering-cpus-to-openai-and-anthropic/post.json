@@ -1,0 +1,169 @@
+{
+  "selected": true,
+  "rank": 1,
+  "format": "ai_agent_story",
+  "story_title": "Why NVIDIA Is Hand-Delivering CPUs to OpenAI and Anthropic",
+  "why_this_story": "NVIDIA is known for GPUs, but as AI shifts from answering questions to executing code and managing autonomous workflows, traditional CPUs have become the hidden bottleneck. NVIDIA built its first custom CPU specifically for AI agents and hand-delivered physical servers to top AI labs.",
+  "viral_angle": "Everyone thinks AI runs entirely on GPUs, but autonomous agents are forcing NVIDIA to build custom CPUs to execute code and run sandboxes.",
+  "story_sentence": "Everyone thinks GPUs power the entire AI revolution, but as models shift from answering questions to executing real-world code, traditional CPUs are choking—forcing NVIDIA to ship its first purpose-built agentic CPU.",
+  "story_arc": "Hook (The paradox of NVIDIA delivering CPUs) → Setup (AI shifting from answering to acting) → Tension (The hidden CPU bottleneck in agentic sandboxes) → Reveal (Introducing Vera: 88 custom Olympus cores) → Consequence (Hyperscale deployments across AWS, OCI, and top labs) → Payoff (The new architecture of the AI factory)",
+  "score": {
+    "freshness": 8,
+    "importance": 9,
+    "curiosity": 9,
+    "surprise": 9,
+    "story_tension": 8,
+    "shareability": 8,
+    "saveability": 8,
+    "visual_potential": 9,
+    "discussion": 8,
+    "brand_fit": 10,
+    "total": 86
+  },
+  "source_story": {
+    "title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/"
+  },
+  "slides": [
+    {
+      "number": 1,
+      "kicker": "THE AI HARDWARE SHIFT",
+      "headline": "Why is NVIDIA hand-delivering CPUs to OpenAI?",
+      "body": "GPUs dominate the AI hype, but NVIDIA's VP of Hyperscale just hand-delivered a brand-new custom CPU server straight to OpenAI, Anthropic, and AWS.",
+      "visual_type": "evidence",
+      "visual_concept": "NVIDIA VP Ian Buck holding a screwdriver and unboxing the Vera CPU server at OpenAI HQ.",
+      "asset_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "asset_requirement": "Official photograph of Ian Buck hand-delivering the NVIDIA Vera CPU server.",
+      "source_label": "Source: NVIDIA Blog (Aug 27, 2026)",
+      "swipe_reason": "Find out why GPUs alone can no longer handle modern AI workflows."
+    },
+    {
+      "number": 2,
+      "kicker": "THE SETUP",
+      "headline": "AI is shifting from answering to acting.",
+      "body": "When you ask a chat model a simple question, GPUs process tokens in memory. But modern autonomous agents don't just reply—they create sandboxes, query databases, and generate executable Python code.",
+      "visual_type": "typography",
+      "visual_concept": "Contrast visual between Chat AI (GPU Token Generation) vs Agentic AI (CPU Tool Execution & Sandboxing).",
+      "asset_url": "",
+      "asset_requirement": "Diagram comparing Chat LLMs vs Autonomous Agent execution stacks.",
+      "source_label": "Source: getByteRush Editorial Analysis",
+      "swipe_reason": "See where current cloud infrastructure fails under agentic load."
+    },
+    {
+      "number": 3,
+      "kicker": "THE HIDDEN BOTTLENECK",
+      "headline": "Every tool call is CPU work.",
+      "body": "GPUs excel at massive matrix math, but every Python execution, orchestration layer, and long-context retrieval operation hits the CPU. Legacy core-density CPUs were never built for constant, concurrent agentic loads.",
+      "visual_type": "metric",
+      "visual_concept": "Data graphic showing context growth, tool calls, and CPU load spikes during agentic coding sessions.",
+      "asset_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "asset_requirement": "Breakdown of agentic tasks hitting CPU vs GPU.",
+      "source_label": "Source: NVIDIA Technical Blog",
+      "swipe_reason": "Swipe to see what NVIDIA built to solve the CPU bottleneck."
+    },
+    {
+      "number": 4,
+      "kicker": "THE REVEAL",
+      "headline": "Meet Vera: NVIDIA's first custom CPU.",
+      "body": "Designed from the ground up for agentic AI, Vera features 88 custom Olympus cores and 1.2TB/s memory bandwidth, delivering 1.8x faster per-core performance on real-world agentic workloads.",
+      "visual_type": "comparison",
+      "visual_concept": "Key hardware specifications of the NVIDIA Vera CPU motherboard.",
+      "asset_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "asset_requirement": "Official spec sheet callouts for Vera: 88 Olympus cores, 1.2TB/s memory bandwidth.",
+      "source_label": "Source: NVIDIA Official Release",
+      "swipe_reason": "See which major cloud providers are deploying hundreds of thousands of Vera CPUs."
+    },
+    {
+      "number": 5,
+      "kicker": "THE ROLLOUT",
+      "headline": "Hyperscalers are betting big on agentic hardware.",
+      "body": "Oracle Cloud Infrastructure (OCI) plans to deploy hundreds of thousands of Vera CPUs starting in 2026, while AWS, Anthropic, OpenAI, and SpaceXAI are integrating Vera into their core training and simulation pipelines.",
+      "visual_type": "quote",
+      "visual_concept": "Quote card from Karan Batta (OCI) highlighting the necessity of sustained high-throughput reasoning workloads.",
+      "asset_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "asset_requirement": "Official quote graphic from Oracle Cloud Infrastructure and AWS handoff photos.",
+      "source_label": "Source: NVIDIA Blog & Partner Statements",
+      "swipe_reason": "Swipe for the key takeaway on where AI infrastructure is heading."
+    },
+    {
+      "number": 6,
+      "kicker": "THE PAYOFF",
+      "headline": "The AI factory is being completely rewritten.",
+      "body": "The future of AI hardware isn't just about faster GPUs. As agents run longer reasoning loops and spawn sub-agents, high-bandwidth CPUs built for orchestration are now as vital as raw compute.",
+      "visual_type": "final",
+      "visual_concept": "Architectural overview showing Vera CPU paired with Vera Rubin GPU via NVLink-C2C.",
+      "asset_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "asset_requirement": "System diagram of Vera CPU + Rubin GPU unified rack architecture.",
+      "source_label": "Source: getByteRush Explainer",
+      "swipe_reason": "Save this carousel to keep track of the evolving AI chip stack."
+    }
+  ],
+  "caption": "Why is NVIDIA hand-delivering CPUs to OpenAI, Anthropic, and AWS?\n\nFor the past three years, the AI narrative revolved around one thing: GPUs. But as models evolve from answering simple questions to acting autonomously—running code, managing sandboxes, and executing multi-step workflows—a new bottleneck has emerged: the CPU.\n\nNVIDIA's VP of Hyperscale Ian Buck recently hand-delivered the first production units of Vera—NVIDIA’s first custom CPU purpose-built for agentic AI.\n\nHere’s what’s changing:\n• Every Python code generation, tool call, and agent orchestration runs on the CPU, not the GPU.\n• Vera packs 88 custom Olympus cores with 1.2TB/s memory bandwidth to sustain continuous agent workloads.\n• Oracle Cloud Infrastructure is deploying hundreds of thousands of Vera CPUs, alongside adoption by AWS, Anthropic, SpaceXAI, and OpenAI.\n\nAI compute is no longer just about raw matrix math—it's about how fast your system can orchestrate autonomous work.\n\nFollow @getByteRush for clear, evidence-backed breakdowns of tech, AI, and the modern web.",
+  "share_trigger": "Send this to someone who still thinks AI infrastructure is only about GPUs.",
+  "save_reason": "Save this post for a clear reference on the hardware requirements of autonomous AI agents.",
+  "pinned_comment": "Will CPUs become the main bottleneck as multi-agent systems take over software engineering? Let us know below.",
+  "follow_cta": "Follow @getByteRush for tested, explained, and real AI tech updates.",
+  "alt_text": "Carousel explaining NVIDIA's launch and hand-delivery of its first custom CPU named Vera, designed specifically to accelerate autonomous AI agent workloads.",
+  "hashtags": [
+    "AI",
+    "NVIDIA",
+    "TechNews",
+    "Hardware",
+    "AIAgents",
+    "Semiconductors",
+    "GetByteRush"
+  ],
+  "fact_check": [
+    {
+      "claim": "NVIDIA is shipping its first custom CPU, Vera, designed specifically for agentic AI.",
+      "classification": "FACT",
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "source_name": "NVIDIA Blog"
+    },
+    {
+      "claim": "Vera features 88 custom Olympus cores and 1.2TB/s memory bandwidth.",
+      "classification": "FACT",
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "source_name": "NVIDIA Blog"
+    },
+    {
+      "claim": "Ian Buck hand-delivered Vera CPU systems to AWS, Oracle Cloud Infrastructure, Anthropic, OpenAI, and SpaceXAI.",
+      "classification": "FACT",
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "source_name": "NVIDIA Blog"
+    },
+    {
+      "claim": "Oracle Cloud Infrastructure plans to deploy hundreds of thousands of NVIDIA Vera CPUs beginning in 2026.",
+      "classification": "FACT",
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "source_name": "NVIDIA Blog"
+    }
+  ],
+  "sources": [
+    {
+      "name": "NVIDIA Blog - Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/"
+    }
+  ],
+  "visual_production_notes": "Use high-resolution photos from the official NVIDIA blog post showing Ian Buck hand-delivering Vera CPU servers to partner offices. Maintain a high-contrast dark tech aesthetic with clean typography highlighting core specs (88 Olympus Cores, 1.2TB/s bandwidth).",
+  "generated_at": "2026-08-28T11:14:31.584613+00:00",
+  "model": "gemini-3.6-flash",
+  "candidate_count": 80,
+  "post_id": "why-nvidia-is-hand-delivering-cpus-to-openai-and-anthropic-2026-08-28T111431-0000",
+  "status": "pending_approval",
+  "created_at": "2026-08-28T11:14:31+00:00",
+  "retention_days": 7,
+  "delete_after": "2026-09-04T11:14:31+00:00",
+  "package": {
+    "slides_dir": "slides",
+    "html_dir": "html",
+    "evidence_dir": "evidence",
+    "slide_count": 6
+  },
+  "instagram": {
+    "published": false,
+    "media_id": null,
+    "permalink": null
+  }
+}
