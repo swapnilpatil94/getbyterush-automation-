@@ -1,0 +1,64 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=1080, initial-scale=1"><style>
+@page { size: 1080px 1350px; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; width:1080px; height:1350px; overflow:hidden; }
+body { background:#F4EFE4; color:#111311; font-family: Inter, Arial, Helvetica, sans-serif; }
+.slide { position:relative; width:1080px; height:1350px; overflow:hidden; padding:78px; background:#F4EFE4; color:#111311; }
+.slide.dark { background:#111311; color:#F4EFE4; }
+.grain { position:absolute; inset:0; pointer-events:none; opacity:.028; background-image:radial-gradient(currentColor .55px, transparent .7px); background-size:7px 7px; }
+.top { position:absolute; top:38px; left:78px; right:78px; display:flex; justify-content:space-between; font:800 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1.6px; opacity:.58; text-transform:uppercase; }
+.kicker { display:inline-block; margin-top:46px; padding:8px 11px; border:1px solid #12352B; color:#12352B; font:900 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1px; text-transform:uppercase; max-width:720px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.rule { width:84px; height:5px; background:#12352B; margin-top:22px; }
+h1 { margin:20px 0 0; max-width:900px; font-size:72px; line-height:.92; letter-spacing:-3.5px; font-weight:900; overflow-wrap:anywhere; }
+h1.hero { font-size:104px; line-height:.82; letter-spacing:-6px; max-width:920px; }
+h1.compact { font-size:56px; line-height:.94; letter-spacing:-2.6px; }
+.body { margin-top:20px; max-width:760px; font-size:24px; line-height:1.22; font-weight:550; opacity:.82; overflow-wrap:anywhere; }
+.footer { position:absolute; left:78px; right:78px; bottom:38px; display:flex; justify-content:space-between; gap:20px; font:700 11px/1.25 ui-monospace,SFMono-Regular,Menlo,monospace; text-transform:uppercase; opacity:.56; }
+.footer .source { max-width:720px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.metric { position:absolute; left:78px; right:78px; top:545px; }
+.metric-value { font-size:245px; line-height:.72; letter-spacing:-15px; font-weight:950; color:#12352B; }
+.metric-line { width:120px; height:7px; margin-top:46px; background:#B99A5B; }
+.metric-caption { margin-top:22px; max-width:800px; font-size:30px; line-height:1.02; font-weight:900; }
+.evidence { position:absolute; left:78px; right:78px; top:365px; height:690px; padding:14px; background:#151715; border:2px solid #111311; box-shadow:16px 16px 0 #12352B; overflow:hidden; }
+.evidence img { display:block; width:100%; height:100%; object-fit:contain; object-position:center; background:white; }
+.ev-label { position:absolute; z-index:2; left:14px; top:14px; max-width:470px; padding:8px 10px; background:#12352B; color:#F4EFE4; font:900 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:1px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.compare { position:absolute; left:78px; right:78px; top:560px; display:grid; grid-template-columns:1fr 68px 1fr; gap:14px; align-items:center; }
+.compare-card { min-height:280px; padding:28px; background:#E9E2D5; border:2px solid #111311; display:flex; flex-direction:column; justify-content:space-between; }
+.compare-card small { font:900 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace; color:#12352B; }
+.compare-card strong { font-size:39px; line-height:.98; font-weight:950; letter-spacing:-2px; overflow-wrap:anywhere; }
+.vs { font:950 20px/1 ui-monospace,SFMono-Regular,Menlo,monospace; color:#12352B; text-align:center; }
+.diagram { position:absolute; left:78px; right:78px; top:565px; display:grid; grid-template-columns:1fr 44px 1fr 44px 1fr; gap:8px; align-items:center; }
+.node { min-height:220px; padding:24px; border:2px solid #111311; background:#E9E2D5; }
+.node small { display:block; color:#12352B; font:900 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace; }
+.node b { display:block; margin-top:20px; font-size:24px; line-height:1.02; overflow-wrap:anywhere; }
+.arrow { color:#B99A5B; font-size:30px; text-align:center; font-weight:900; }
+.timeline { position:absolute; left:78px; right:78px; top:575px; display:flex; align-items:center; gap:12px; }
+.time-node { min-width:160px; padding:18px; border:2px solid #111311; display:flex; flex-direction:column; gap:10px; }
+.time-node b { font-size:38px; line-height:.8; color:#12352B; }
+.time-node span { font:900 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace; }
+.timeline i { height:3px; flex:1; background:#B99A5B; }
+.timeline-copy { position:absolute; left:0; top:145px; max-width:850px; font-size:27px; line-height:1.1; font-weight:850; overflow-wrap:anywhere; }
+.quote { position:absolute; left:78px; right:78px; top:555px; border-top:6px solid #12352B; padding:28px 8px; }
+.quote-mark { font-size:84px; line-height:.45; color:#12352B; }
+.quote blockquote { margin:30px 0 20px; max-width:860px; font-size:48px; line-height:1.02; letter-spacing:-2px; font-weight:900; overflow-wrap:anywhere; }
+.quote small { font:900 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace; color:#12352B; text-transform:uppercase; }
+.pattern { position:absolute; left:0; right:0; top:440px; bottom:0; padding:74px 78px; background:#12352B; color:#F4EFE4; }
+.pattern-tag { font:900 13px/1 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:2px; }
+.pattern-big { margin-top:28px; max-width:850px; font-size:76px; line-height:.9; font-weight:950; letter-spacing:-4px; overflow-wrap:anywhere; }
+.reveal { position:absolute; left:78px; right:78px; top:555px; display:grid; grid-template-columns:130px 1fr; gap:28px; align-items:start; }
+.reveal-num { font:950 72px/.8 ui-monospace,SFMono-Regular,Menlo,monospace; color:#12352B; }
+.reveal strong { font-size:50px; line-height:.98; letter-spacing:-2px; font-weight:950; overflow-wrap:anywhere; }
+.reveal p { grid-column:2; margin:18px 0 0; max-width:760px; font-size:25px; line-height:1.18; opacity:.8; overflow-wrap:anywhere; }
+.editorial-object { position:absolute; left:78px; right:78px; top:555px; display:grid; grid-template-columns:90px 14px 1fr; gap:18px; align-items:start; }
+.object-index { font:950 58px/.9 ui-monospace,SFMono-Regular,Menlo,monospace; color:#12352B; }
+.object-rule { width:4px; min-height:150px; background:#B99A5B; }
+.editorial-object strong { font-size:48px; line-height:.98; letter-spacing:-2px; font-weight:950; overflow-wrap:anywhere; }
+.editorial-object p { grid-column:3; margin:18px 0 0; max-width:760px; font-size:25px; line-height:1.18; opacity:.8; overflow-wrap:anywhere; }
+.payoff { position:absolute; left:78px; right:78px; top:520px; }
+.payoff-rule { width:150px; height:7px; background:#12352B; margin-bottom:28px; }
+.payoff strong { display:block; max-width:850px; font-size:64px; line-height:.94; letter-spacing:-3px; font-weight:950; overflow-wrap:anywhere; }
+.payoff p { max-width:760px; margin-top:22px; font-size:25px; line-height:1.18; opacity:.8; overflow-wrap:anywhere; }
+.dark { background:#111311 !important; color:#F4EFE4 !important; }
+.dark .kicker { color:#12352B; border-color:#12352B; }
+.dark .footer,.dark .top { color:#F4EFE4; }
+</style></head><body><section class="slide"><div class="grain"></div><div class="top"><span>GETBYTERUSH / proof</span><span>04 / 06</span></div><div class="kicker">REAL-WORLD BENCHMARKS</div><div class="rule"></div><h1 class="">30% higher bandwidth. 15% lower power. 25% more compute space.</h1><div class="metric"><div class="metric-value">30%</div><div class="metric-line"></div><div class="metric-caption">Three clean analytical stat cards highlighting +30% Bandwidth, -15% Power, and +25% Die Area Reclaimed.</div></div><div class="footer"><div class="source">SOURCE / Source: NVIDIA Architecture Benchmarks (Aug 2026)</div><div>TESTED • EXPLAINED • REAL</div></div></section></body></html>
