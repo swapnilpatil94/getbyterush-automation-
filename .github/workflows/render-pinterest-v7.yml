@@ -1,4 +1,4 @@
-name: GetByteRush Pinterest Editorial Renderer V7
+name: GetByteRush Pinterest Editorial Renderer V8
 
 on:
   workflow_dispatch:
@@ -24,31 +24,25 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install Playwright
         run: |
           python -m pip install --upgrade pip
           pip install playwright
           python -m playwright install --with-deps chromium
-
-      - name: Compile V7 renderer
+      - name: Compile V8 renderer
         run: python -m py_compile scripts/carousel_art_renderer.py
-
       - name: Snapshot packages
         run: |
           mkdir -p /tmp/gbr
           find output/posts -type f -name post.json -print 2>/dev/null | sed 's#/post.json$##' | sort > /tmp/gbr-before.txt || true
-
       - name: Render existing editorial — Gemini OFF
         run: |
           echo "GEMINI_CALL=0"
           python scripts/carousel_art_renderer.py
-
       - name: Identify new package
         id: package
         shell: bash
@@ -59,7 +53,6 @@ jobs:
           test "${#NEW[@]}" -eq 1
           echo "NEW_POST_PACKAGE=${NEW[0]}" >> "$GITHUB_OUTPUT"
           echo "New package: ${NEW[0]}"
-
       - name: Visual and structural QA
         env:
           NEW_POST_PACKAGE: ${{ steps.package.outputs.NEW_POST_PACKAGE }}
@@ -71,28 +64,26 @@ jobs:
           selected=json.loads(Path('data/selected_story.json').read_text())
           expected=len(selected['slides'])
           imgs=sorted((p/'slides').glob('*.png'))
-          assert len(imgs)==expected, (len(imgs),expected)
+          assert len(imgs)==expected,(len(imgs),expected)
           for f in imgs:
-              b=f.read_bytes(); assert b[:8]==b'\x89PNG\r\n\x1a\n', f
-              assert int.from_bytes(b[16:20],'big')==1080 and int.from_bytes(b[20:24],'big')==1350, f
+              b=f.read_bytes(); assert b[:8]==b'\x89PNG\r\n\x1a\n',f
+              assert int.from_bytes(b[16:20],'big')==1080 and int.from_bytes(b[20:24],'big')==1350,f
           leak=re.compile(r'visual[_ ]concept|visual[_ ]direction|callout graphic|design direction|layout instruction',re.I)
           for f in (p/'html').glob('*.html'):
               text=re.sub(r'<[^>]+>',' ',f.read_text())
-              assert not leak.search(text), f
+              assert not leak.search(text),f
           post=json.loads((p/'post.json').read_text())
           assert post.get('gemini_calls')==0
-          assert post.get('renderer')=='getbyterush-pinterest-editorial-v7'
-          print(f'QA PASS: {len(imgs)} slides, 1080x1350, Gemini=0')
+          assert post.get('renderer')=='getbyterush-pinterest-editorial-v8',post.get('renderer')
+          print(f'QA PASS: {len(imgs)} slides, 1080x1350, Gemini=0, renderer=v8')
           PY
-
       - name: Upload package
         uses: actions/upload-artifact@v4
         with:
-          name: getbyterush-pinterest-v7-${{ github.run_number }}
+          name: getbyterush-pinterest-v8-${{ github.run_number }}
           path: ${{ steps.package.outputs.NEW_POST_PACKAGE }}/**
           if-no-files-found: error
           retention-days: 7
-
       - name: Commit only new package
         env:
           NEW_POST_PACKAGE: ${{ steps.package.outputs.NEW_POST_PACKAGE }}
@@ -103,5 +94,5 @@ jobs:
           git reset -- output/posts/ data/selected_story.json || true
           git add "$NEW_POST_PACKAGE"
           test -n "$(git diff --cached --name-only)"
-          git commit -m "chore: render GetByteRush Pinterest editorial v7"
+          git commit -m "chore: render GetByteRush Pinterest editorial v8"
           git push origin HEAD:main
