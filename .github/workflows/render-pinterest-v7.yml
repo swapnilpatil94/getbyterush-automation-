@@ -76,8 +76,8 @@ jobs:
               assert not leak.search(visible),f
           post=json.loads((p/'post.json').read_text())
           assert post.get('gemini_calls')==0
-          assert post.get('renderer')=='getbyterush-pinterest-editorial-v14',post.get('renderer')
-          print(f'QA PASS: {len(imgs)} slides, 1080x1350, Gemini=0, renderer=v14-compatible')
+          assert post.get('renderer')=='getbyterush-pinterest-editorial-v15',post.get('renderer')
+          print(f'QA PASS: {len(imgs)} slides, 1080x1350, Gemini=0, renderer=v15')
           PY
       - name: Upload package
         uses: actions/upload-artifact@v4
