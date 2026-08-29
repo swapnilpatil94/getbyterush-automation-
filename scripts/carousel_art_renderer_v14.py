@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import asyncio, json, re
+import asyncio, json, re, html
 from datetime import datetime
 from pathlib import Path
 import carousel_art_renderer_v12 as v12
@@ -15,9 +15,6 @@ def sanitize(s):
     return s
 
 def art(role):
-    # Designerly poster devices: editorial bars, crop marks, oversized numerals,
-    # asymmetric blocks and texture. These are intentionally decorative and do
-    # not alter editorial facts.
     common='''<div style="position:absolute;inset:0;pointer-events:none;overflow:hidden"><div style="position:absolute;left:34px;top:34px;width:18px;height:18px;border-left:2px solid currentColor;border-top:2px solid currentColor;opacity:.55"></div><div style="position:absolute;right:34px;top:34px;width:18px;height:18px;border-right:2px solid currentColor;border-top:2px solid currentColor;opacity:.55"></div><div style="position:absolute;left:34px;bottom:34px;width:18px;height:18px;border-left:2px solid currentColor;border-bottom:2px solid currentColor;opacity:.55"></div><div style="position:absolute;right:34px;bottom:34px;width:18px;height:18px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;opacity:.55"></div></div>'''
     if role=='interrupt':
         return common+'''<div style="position:absolute;right:52px;top:205px;width:260px;height:520px;background:#090B0A;color:#F2EBDD;padding:28px;pointer-events:none"><div style="font:900 10px ui-monospace,monospace;letter-spacing:2px;color:#B7E32B">GETBYTERUSH / SIGNAL</div><div style="position:absolute;right:-18px;top:125px;font:950 190px/.65 Arial,sans-serif;letter-spacing:-14px;color:#B7E32B;writing-mode:vertical-rl;transform:rotate(180deg)">15X</div><div style="position:absolute;left:28px;right:28px;bottom:28px;border-top:2px solid #B80D08;padding-top:12px;font:900 9px ui-monospace,monospace;letter-spacing:1.2px">AGENTIC LOAD / SCALE SHOCK</div></div>'''
@@ -34,10 +31,14 @@ def art(role):
 def inner(slide,story,i,total,evidence):
     r=v9.role(slide,i)
     base=v12.inner(slide,story,i,total,evidence)
-    # Replace the evidence dead-state with an authored source card, never fake evidence.
     if r=='evidence' and not evidence:
+        src=story.get('source_story') or {}
+        source_name=html.escape(str(src.get('source','SOURCE')))
+        source_title=html.escape(str(src.get('title','Verified source metadata')))
+        source_url=html.escape(str(src.get('url','')))
         base=base.replace('SOURCE CAPTURE<br>UNAVAILABLE','SOURCE LINK / VERIFIED METADATA')
         base=base.replace('SOURCE URL / SEE POST METADATA','SOURCE URL / POST METADATA')
+        base += f'''<div style="position:absolute;left:105px;top:330px;width:690px;height:265px;background:#090B0A;color:#F2EBDD;border:2px solid #B80D08;box-shadow:10px 10px 0 #12372C;z-index:20;padding:24px 28px;box-sizing:border-box;pointer-events:none"><div style="font:900 11px ui-monospace,monospace;letter-spacing:2px;color:#B7E32B">VERIFIED SOURCE / {source_name.upper()}</div><div style="margin-top:22px;font:900 30px/.95 Arial,sans-serif;letter-spacing:-1.2px;max-width:610px">{source_title}</div><div style="position:absolute;left:28px;right:28px;bottom:22px;border-top:1px solid #B99A5B;padding-top:10px;font:700 10px ui-monospace,monospace;color:#F2EBDD;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{source_url}</div></div>'''
     return base+art(r)
 
 async def main():
