@@ -37,6 +37,26 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Normalize production renderer CSS signature
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p=Path("scripts/carousel_production.py")
+          s=p.read_text(encoding="utf-8")
+          old="def css(p):"
+          new="def css(p=None):"
+          if old in s:
+              s=s.replace(old,new,1)
+              p.write_text(s,encoding="utf-8")
+              print("✓ Normalized css(p) -> css(p=None)")
+          elif "def css(p=None):" in s:
+              print("✓ CSS signature already normalized")
+          else:
+              raise SystemExit("Production renderer css() definition not found")
+          PY
+
       - name: Resolve reusable editorial package
         shell: bash
         env:
