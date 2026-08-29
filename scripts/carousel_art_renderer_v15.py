@@ -2,11 +2,16 @@
 """GetByteRush V15: final art-direction density pass over V14.
 Keeps the editorial/Gemini output unchanged; only adjusts the renderer composition.
 """
+import asyncio
 import carousel_art_renderer_v14 as v14
+
+# Preserve V14 before replacing the module-global function. This avoids
+# the recursive self-call that broke the first V15 Action run.
+_BASE_ART = v14.art
 
 
 def art(role):
-    base = v14.art(role)
+    base = _BASE_ART(role)
     if role == 'interrupt':
         return base + '''<div style="position:absolute;left:52px;right:52px;bottom:86px;height:300px;overflow:hidden;pointer-events:none;z-index:3">
           <div style="position:absolute;left:-10px;bottom:-105px;font:950 360px/.72 Arial,sans-serif;letter-spacing:-24px;color:rgba(9,11,10,.12)">35X</div>
@@ -19,9 +24,10 @@ def art(role):
     return base
 
 
-v14.art = art
+# v14.main resolves `art` from v14.main.__globals__, so inject the V15
+# wrapper there without replacing v14.art itself.
 v14.main.__globals__['art'] = art
 
+
 if __name__ == '__main__':
-    import asyncio
     asyncio.run(v14.main())
