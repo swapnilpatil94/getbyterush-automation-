@@ -10,13 +10,25 @@ import carousel_art_renderer_v9 as v9
 W,H=v11.W,v11.H
 DATA,OUT=v11.DATA,v11.OUT
 
+# Renderer-internal labels must never leak into published artwork.
+RENDERER_LABELS = {
+    'INPUT': 'CONTEXT',
+    'PROCESS': 'FLOW',
+    'OUTCOME': 'PAYOFF',
+}
+
+def sanitize_renderer_labels(html):
+    for src, dst in RENDERER_LABELS.items():
+        html = re.sub(rf'\\b{src}\\b', dst, html, flags=re.I)
+    return html
+
 def inner(slide, story, i, total, evidence):
     html=v11.inner(slide,story,i,total,evidence)
     if v9.role(slide,i)=='evidence' and not evidence:
         html=html.replace('PRIMARY SOURCE','SOURCE STATUS')
         html=html.replace('NVIDIA<br>RESEARCH','SOURCE CAPTURE<br>UNAVAILABLE')
         html=html.replace('SOURCE URL IN EDITORIAL','SOURCE URL / SEE POST METADATA')
-    return html
+    return sanitize_renderer_labels(html)
 
 async def main():
     story=json.loads(DATA.read_text())
