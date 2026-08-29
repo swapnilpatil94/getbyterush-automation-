@@ -1,0 +1,79 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page{size:1080px 1350px;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;width:1080px;height:1350px;overflow:hidden}
+body{font-family:Inter,Arial,Helvetica,sans-serif;background:#F2EBDD;color:#0B0D0C}
+.slide{position:relative;width:1080px;height:1350px;overflow:hidden;background:#F2EBDD;color:#0B0D0C}
+.top,.foot{position:absolute;left:54px;right:54px;z-index:50;display:flex;justify-content:space-between;align-items:center;font:800 10px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1.6px;text-transform:uppercase}
+.top{top:30px}.foot{bottom:27px;opacity:.58}
+.page{border:1px solid currentColor;padding:7px 9px}
+.kicker,.micro{font:900 10px/1.15 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1.7px;text-transform:uppercase}
+.kicker{color:#B70C07}.micro{opacity:.68}
+.hero{position:absolute;left:54px;right:54px;top:120px;z-index:10}
+.hero h1{margin:13px 0 0;max-width:900px;font-size:74px;line-height:.84;letter-spacing:-4px;font-weight:950}
+.hero .sub{margin:18px 0 0;max-width:680px;font-size:18px;line-height:1.18;opacity:.68}
+.hero-tight{top:126px}
+
+.hook-canvas{position:absolute;inset:0;background:#F2EBDD}
+.hook-red{position:absolute;left:54px;top:292px;width:670px;height:840px;background:#B70C07;color:#F2EBDD;padding:38px 34px;overflow:hidden}
+.hook-red:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 47px,rgba(242,235,221,.07) 48px),repeating-linear-gradient(90deg,transparent 0 47px,rgba(242,235,221,.07) 48px)}
+.hook-red .inner{position:relative;z-index:2}
+.hook-red .eyebrow{font:900 11px/1 ui-monospace,monospace;letter-spacing:2px}
+.hook-red strong{display:block;margin-top:48px;max-width:570px;font-size:78px;line-height:.82;letter-spacing:-5px;font-weight:950}
+.hook-red .bottom{position:absolute;left:34px;right:34px;bottom:30px;border-top:1px solid rgba(242,235,221,.55);padding-top:13px;font:800 9px/1.2 ui-monospace,monospace;letter-spacing:1.1px}
+.hook-black{position:absolute;right:54px;top:292px;width:250px;height:840px;background:#0B0D0C;color:#F2EBDD;padding:25px;overflow:hidden}
+.hook-black:after{content:"15×";position:absolute;right:-24px;bottom:65px;font:950 150px/.7 Arial,sans-serif;letter-spacing:-12px;color:#B70C07;transform:rotate(-90deg);opacity:.95}
+.hook-black p{position:absolute;left:25px;right:25px;bottom:32px;font-size:17px;line-height:1.03;font-weight:900}
+
+.open-canvas{position:absolute;left:54px;right:54px;top:330px;bottom:105px}
+.open-left{position:absolute;left:0;top:0;width:58%;height:100%;border:2px solid #0B0D0C;padding:30px;overflow:hidden}
+.open-left:before{content:"CONTEXT";position:absolute;right:-6px;bottom:-35px;font:950 180px/.7 Arial;letter-spacing:-12px;opacity:.045}
+.open-left .bigline{font-size:55px;line-height:.86;letter-spacing:-3px;font-weight:950;max-width:500px}
+.open-left .arrow{position:absolute;right:42px;bottom:42px;font:950 120px/.6 Arial;color:#B70C07}
+.open-right{position:absolute;right:0;top:45px;width:38%;height:92%;background:#12382E;color:#F2EBDD;padding:30px;overflow:hidden}
+.open-right:before{content:"01";position:absolute;right:10px;top:0;font:950 120px/.8 ui-monospace,monospace;opacity:.1}
+.open-right .label{font:900 10px/1 ui-monospace,monospace;letter-spacing:1.4px}
+.open-right strong{display:block;margin-top:72px;font-size:48px;line-height:.86;letter-spacing:-2.5px;font-weight:950}
+.open-right p{margin-top:22px;font-size:15px;line-height:1.2;opacity:.72}
+
+.evidence-canvas{position:absolute;left:54px;right:54px;top:320px;bottom:102px}
+.evidence-frame{position:absolute;left:0;right:115px;top:0;height:690px;background:white;border:2px solid #0B0D0C;padding:10px;overflow:hidden;box-shadow:20px 20px 0 #B70C07}
+.evidence-frame img{width:100%;height:100%;display:block;object-fit:contain;background:white}
+.evidence-tag{position:absolute;left:18px;top:18px;background:#B70C07;color:#F2EBDD;padding:9px 12px;font:900 10px/1 ui-monospace,monospace;letter-spacing:1.2px;z-index:3}
+.evidence-side{position:absolute;right:0;top:75px;width:100px;font:900 9px/1.2 ui-monospace,monospace;letter-spacing:1px;text-transform:uppercase;writing-mode:vertical-rl;transform:rotate(180deg)}
+.evidence-note{position:absolute;left:0;bottom:0;max-width:690px;font-size:19px;line-height:1.05;font-weight:900}
+
+.reveal-canvas{position:absolute;inset:0;background:#0B0D0C;color:#F2EBDD;overflow:hidden}
+.reveal-canvas:before{content:"30×";position:absolute;right:-15px;top:250px;font:950 330px/.65 Arial;letter-spacing:-24px;color:#B7E32B;opacity:.9}
+.reveal-inner{position:absolute;left:54px;right:54px;top:270px;z-index:2}
+.reveal-inner .eyebrow{font:900 11px/1 ui-monospace,monospace;letter-spacing:2px;color:#B7E32B}
+.reveal-inner strong{display:block;margin-top:40px;max-width:670px;font-size:100px;line-height:.78;letter-spacing:-6px;font-weight:950}
+.reveal-inner p{margin-top:34px;max-width:560px;font-size:18px;line-height:1.18;opacity:.68}
+.reveal-corner{position:absolute;left:54px;bottom:70px;border-top:2px solid #B7E32B;width:210px;padding-top:10px;font:800 10px/1.2 ui-monospace,monospace;letter-spacing:1px}
+
+.interrupt-canvas{position:absolute;inset:0;background:#B70C07;color:#F2EBDD;overflow:hidden}
+.interrupt-canvas:before{content:"35×";position:absolute;right:-35px;bottom:85px;font:950 330px/.65 Arial;letter-spacing:-25px;color:#0B0D0C;opacity:.22}
+.interrupt-grid{position:absolute;left:54px;right:54px;top:155px;bottom:70px;border-top:2px solid rgba(242,235,221,.55);border-bottom:2px solid rgba(242,235,221,.55)}
+.interrupt-grid .count{position:absolute;top:20px;right:0;font:900 11px/1 ui-monospace,monospace;letter-spacing:1.5px}
+.interrupt-grid strong{position:absolute;left:0;top:150px;max-width:820px;font-size:110px;line-height:.76;letter-spacing:-7px;font-weight:950}
+.interrupt-grid p{position:absolute;left:0;bottom:18px;max-width:520px;font-size:17px;line-height:1.18;opacity:.76}
+
+.arch-canvas{position:absolute;left:54px;right:54px;top:315px;bottom:105px}
+.arch-line{position:absolute;left:0;right:0;top:180px;height:2px;background:#0B0D0C;opacity:.35}
+.arch-node{position:absolute;width:250px;min-height:190px;padding:22px;background:#F2EBDD;border:2px solid #0B0D0C}
+.arch-node.dark{background:#12382E;color:#F2EBDD;border-color:#12382E}
+.arch-node.red{background:#B70C07;color:#F2EBDD;border-color:#B70C07}
+.arch-node.n1{left:0;top:0}.arch-node.n2{left:305px;top:135px}.arch-node.n3{right:0;top:0}
+.arch-node .label{font:900 9px/1 ui-monospace,monospace;letter-spacing:1.3px;text-transform:uppercase;opacity:.7}
+.arch-node strong{display:block;margin-top:34px;font-size:31px;line-height:.9;letter-spacing:-1.5px;font-weight:950}
+.arch-arrow{position:absolute;font:950 70px/.5 Arial;color:#B70C07}
+.arch-arrow.a1{left:247px;top:110px}.arch-arrow.a2{right:240px;top:110px}
+.arch-note{position:absolute;left:0;bottom:0;max-width:720px;font-size:17px;line-height:1.18;opacity:.7}
+
+.payoff-canvas{position:absolute;left:54px;right:54px;top:300px;bottom:100px;background:#0B0D0C;color:#F2EBDD;padding:54px;overflow:hidden}
+.payoff-canvas:before{content:"→";position:absolute;right:-30px;bottom:-80px;font:950 300px/.6 Arial;color:#B70C07;opacity:.85}
+.payoff-canvas .eyebrow{font:900 11px/1 ui-monospace,monospace;letter-spacing:2px;color:#B7E32B}
+.payoff-canvas strong{display:block;margin-top:46px;max-width:800px;font-size:86px;line-height:.79;letter-spacing:-5px;font-weight:950}
+.payoff-canvas p{margin-top:26px;max-width:650px;font-size:18px;line-height:1.18;opacity:.7}
+.payoff-sign{position:absolute;left:54px;bottom:32px;font:900 9px/1 ui-monospace,monospace;letter-spacing:1.5px;color:#C8A45A}
+</style></head><body><main class="slide"><div class="top"><span>GETBYTERUSH</span><span>TECH • AI • INTERNET</span><span class="page">06 / 07</span></div><div class="hero hero-tight"><div class="kicker">SYSTEM ARCHITECTURE</div><h1>CODESIGNED FOR LONG CONTEXT</h1></div><div class="arch-canvas"><div class="arch-line"></div><div class="arch-node n1"><div class="label">CONTEXT</div><strong>Long context</strong></div><div class="arch-arrow a1">→</div><div class="arch-node n2 dark"><div class="label">CACHE / LINK</div><strong>NVLink + KV-cache</strong></div><div class="arch-arrow a2">→</div><div class="arch-node n3 red"><div class="label">ACTIVE WORK</div><strong>Reasoning stays fast</strong></div><div class="arch-note">Vera Rubin achieves this via 6th-gen NVLink, NVFP4 quantization, and distributed KV-caching—offloading inactive context to…</div></div><div class="foot"><span>NVIDIA Vera Rubin Architecture</span><span>TESTED • EXPLAINED • REAL</span></div></main></body></html>
