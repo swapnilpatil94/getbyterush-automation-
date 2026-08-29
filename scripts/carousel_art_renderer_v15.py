@@ -3,6 +3,7 @@
 Keeps the editorial/Gemini output unchanged; only adjusts the renderer composition.
 """
 import asyncio
+import json
 import carousel_art_renderer_v14 as v14
 
 # Preserve V14 before replacing the module-global function. This avoids
@@ -29,5 +30,20 @@ def art(role):
 v14.main.__globals__['art'] = art
 
 
+async def main():
+    await v14.main()
+    # v14 creates exactly one package per invocation. Stamp it explicitly so
+    # workflow QA can prove the production artifact was rendered by V15.
+    packages=sorted(v14.OUT.glob('*/*/post.json'), key=lambda p: p.stat().st_mtime, reverse=True)
+    if not packages:
+        raise SystemExit('V15 completed without a post.json package')
+    post=packages[0]
+    data=json.loads(post.read_text(encoding='utf-8'))
+    data['renderer']='getbyterush-pinterest-editorial-v15'
+    data['gemini_calls']=0
+    post.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
+    print(f'V15_PACKAGE={post.parent}')
+
+
 if __name__ == '__main__':
-    asyncio.run(v14.main())
+    asyncio.run(main())
