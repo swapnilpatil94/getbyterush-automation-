@@ -17,8 +17,12 @@ on:
     - cron: "30 2,6,10,14,18,22 * * *"
   push:
     paths:
-      - "scripts/carousel_generator.py"
-      - "scripts/carousel_production.py"
+      - "scripts/carousel_art_renderer_v15.py"
+      - "scripts/carousel_art_renderer_v14.py"
+      - "scripts/carousel_art_renderer_v12.py"
+      - "scripts/carousel_art_renderer_v11.py"
+      - "scripts/carousel_art_renderer_v10.py"
+      - "scripts/carousel_art_renderer_v9.py"
       - ".github/workflows/render-existing.yml"
 
 permissions:
@@ -37,28 +41,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Normalize production renderer CSS signature
-        shell: bash
-        run: |
-          set -euo pipefail
-          python - <<'PY'
-          from pathlib import Path
-          p=Path("scripts/carousel_production.py")
-          s=p.read_text(encoding="utf-8")
-          old="def css(p):"
-          new="def css(p=None):"
-          if old in s:
-              s=s.replace(old,new,1)
-              p.write_text(s,encoding="utf-8")
-              print("✓ Normalized css(p) -> css(p=None)")
-          elif "def css(p=None):" in s:
-              print("✓ CSS signature already normalized")
-          else:
-              raise SystemExit("Production renderer css() definition not found")
-          PY
-
       - name: Resolve reusable editorial package
-        shell: bash
         env:
           REQUESTED_SOURCE: ${{ inputs.source }}
         run: |
@@ -102,12 +85,22 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements-editorial.txt ]; then pip install -r requirements-editorial.txt; fi
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          python -m pip install pillow
 
       - name: Install Playwright Chromium
         run: python -m playwright install --with-deps chromium
 
-      - name: Compile renderer before running it
-        run: python -m py_compile scripts/carousel_generator.py scripts/carousel_production.py
+      - name: Compile V15 renderer chain
+        env:
+          PYTHONPATH: scripts
+        run: |
+          python -m py_compile \
+            scripts/carousel_art_renderer_v9.py \
+            scripts/carousel_art_renderer_v10.py \
+            scripts/carousel_art_renderer_v11.py \
+            scripts/carousel_art_renderer_v12.py \
+            scripts/carousel_art_renderer_v14.py \
+            scripts/carousel_art_renderer_v15.py
 
       - name: Clean old outputs
         if: ${{ inputs.clean_old_outputs == true }}
@@ -121,12 +114,14 @@ jobs:
           find output/posts -type f -name post.json -print 2>/dev/null | sed 's#/post.json$##' | sort > /tmp/gbr-before-posts.txt || true
           echo "Existing packages: $(wc -l < /tmp/gbr-before-posts.txt | tr -d ' ')"
 
-      - name: Render saved editorial only
+      - name: Render saved editorial with V15 only
         env:
           PYTHONPATH: scripts
         run: |
+          set -euo pipefail
           echo "Gemini is intentionally NOT called in this workflow."
-          python scripts/carousel_production.py
+          echo "Renderer: carousel_art_renderer_v15.py"
+          python scripts/carousel_art_renderer_v15.py
 
       - name: Identify newly rendered package
         shell: bash
@@ -161,6 +156,11 @@ jobs:
           package=Path(os.environ["NEW_POST_PACKAGE"])
           post_path=package / "post.json"
           if not post_path.exists(): raise SystemExit(f"Missing post.json: {package}")
+          meta=json.loads(post_path.read_text(encoding="utf-8"))
+          if meta.get("renderer") != "getbyterush-pinterest-editorial-v15":
+              raise SystemExit(f"Wrong renderer in post.json: {meta.get('renderer')}")
+          if meta.get("gemini_calls") != 0:
+              raise SystemExit(f"Unexpected Gemini calls: {meta.get('gemini_calls')}")
           slides=sorted((package / "slides").glob("*.png"))
           if len(slides)!=expected: raise SystemExit(f"Expected {expected} slides, found {len(slides)}")
           for slide in slides:
@@ -169,7 +169,7 @@ jobs:
               w=int.from_bytes(raw[16:20],"big"); h=int.from_bytes(raw[20:24],"big")
               if (w,h)!=(1080,1350): raise SystemExit(f"Invalid dimensions: {slide}={w}x{h}")
           html_dir=package / "html"
-          leak=re.compile(r"callout graphic|visual concept|visual direction|design direction|layout instruction|INPUT|PROCESS|OUTCOME",re.I)
+          leak=re.compile(r"callout graphic|visual concept|visual direction|design direction|layout instruction|\bINPUT\b|\bPROCESS\b|\bOUTCOME\b",re.I)
           for path in sorted(html_dir.glob("*.html")):
               text=path.read_text(encoding="utf-8")
               visible=re.sub(r"<[^>]+>"," ",text)
@@ -180,6 +180,7 @@ jobs:
               if len(raw)<24 or raw[:8]!=b"\x89PNG\r\n\x1a\n": raise SystemExit(f"Invalid evidence PNG: {image}")
           print(f"✓ Selected package: {package}")
           print(f"✓ Slides: {len(slides)}")
+          print("✓ Renderer: V15")
           print("✓ Dimensions: 1080x1350")
           print("✓ Internal design-text leak check passed")
           print("✓ Gemini calls: 0")
@@ -195,7 +196,7 @@ jobs:
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: getbyterush-render-only-${{ github.run_number }}
+          name: getbyterush-render-v15-${{ github.run_number }}
           path: |
             ${{ steps.identify_package.outputs.NEW_POST_PACKAGE }}/**
             data/selected_story.json
@@ -218,5 +219,5 @@ jobs:
             exit 1
           fi
           echo "Committing only: $NEW_POST_PACKAGE"
-          git commit -m "chore: render GetByteRush editorial package v4"
+          git commit -m "chore: render GetByteRush Pinterest editorial v15"
           git push origin HEAD:main
