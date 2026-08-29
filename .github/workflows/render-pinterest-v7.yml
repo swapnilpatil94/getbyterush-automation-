@@ -22,10 +22,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with: {fetch-depth: 0}
+        with:
+          fetch-depth: 0
       - name: Setup Python
         uses: actions/setup-python@v5
-        with: {python-version: "3.11"}
+        with:
+          python-version: "3.11"
       - name: Install Playwright + QA dependencies
         run: |
           python -m pip install --upgrade pip
@@ -50,7 +52,8 @@ jobs:
           test "${#NEW[@]}" -eq 1
           echo "NEW_POST_PACKAGE=${NEW[0]}" >> "$GITHUB_OUTPUT"
       - name: Visual and structural QA
-        env: {NEW_POST_PACKAGE: ${{ steps.package.outputs.NEW_POST_PACKAGE }}}
+        env:
+          NEW_POST_PACKAGE: ${{ steps.package.outputs.NEW_POST_PACKAGE }}
         run: |
           python - <<'PY'
           import os,re,json
@@ -61,7 +64,9 @@ jobs:
           imgs=sorted((p/'slides').glob('*.png'))
           assert len(imgs)==len(selected['slides'])
           for f in imgs:
-              im=Image.open(f); assert im.size==(1080,1350); im.verify()
+              im=Image.open(f)
+              assert im.size==(1080,1350)
+              im.verify()
           leak=re.compile(r'\b(?:visual[_ ]concept|visual[_ ]direction|callout graphic|design direction|layout instruction|INPUT|PROCESS|OUTCOME)\b',re.I)
           for f in (p/'html').glob('*.html'):
               assert not leak.search(re.sub(r'<[^>]+>',' ',f.read_text())),f
@@ -78,7 +83,8 @@ jobs:
           if-no-files-found: error
           retention-days: 7
       - name: Commit only new package
-        env: {NEW_POST_PACKAGE: ${{ steps.package.outputs.NEW_POST_PACKAGE }}}
+        env:
+          NEW_POST_PACKAGE: ${{ steps.package.outputs.NEW_POST_PACKAGE }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
