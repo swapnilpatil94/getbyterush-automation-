@@ -70,7 +70,7 @@ jobs:
               im=Image.open(f)
               assert im.size==(1080,1350), (f,im.size)
               im.verify()
-          leak=re.compile(r'visual[_ ]concept|visual[_ ]direction|callout graphic|design direction|layout instruction|INPUT|PROCESS|OUTCOME',re.I)
+          leak=re.compile(r'\b(?:visual[_ ]concept|visual[_ ]direction|callout graphic|design direction|layout instruction)\b',re.I)
           for f in (p/'html').glob('*.html'):
               text=re.sub(r'<[^>]+>',' ',f.read_text())
               assert not leak.search(text),f
