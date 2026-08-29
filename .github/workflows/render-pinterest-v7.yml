@@ -1,4 +1,4 @@
-name: GetByteRush Pinterest Editorial Renderer V12
+name: GetByteRush Pinterest Editorial Renderer V13
 
 on:
   workflow_dispatch:
@@ -6,6 +6,7 @@ on:
     - cron: "30 2,6,10,14,18,22 * * *"
   push:
     paths:
+      - "scripts/carousel_art_renderer_v13.py"
       - "scripts/carousel_art_renderer_v12.py"
       - "scripts/carousel_art_renderer_v11.py"
       - ".github/workflows/render-pinterest-v7.yml"
@@ -34,8 +35,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install playwright pillow
           python -m playwright install --with-deps chromium
-      - name: Compile V12 renderer
-        run: python -m py_compile scripts/carousel_art_renderer_v9.py scripts/carousel_art_renderer_v10.py scripts/carousel_art_renderer_v11.py scripts/carousel_art_renderer_v12.py
+      - name: Compile V13 renderer
+        run: python -m py_compile scripts/carousel_art_renderer_v9.py scripts/carousel_art_renderer_v10.py scripts/carousel_art_renderer_v11.py scripts/carousel_art_renderer_v12.py scripts/carousel_art_renderer_v13.py
       - name: Snapshot packages
         run: |
           mkdir -p /tmp/gbr
@@ -43,7 +44,7 @@ jobs:
       - name: Render existing editorial — Gemini OFF
         run: |
           echo "GEMINI_CALL=0"
-          python scripts/carousel_art_renderer_v12.py
+          python scripts/carousel_art_renderer_v13.py
       - name: Identify new package
         id: package
         shell: bash
@@ -77,13 +78,13 @@ jobs:
               assert not leak.search(text),f
           post=json.loads((p/'post.json').read_text())
           assert post.get('gemini_calls')==0
-          assert post.get('renderer')=='getbyterush-pinterest-editorial-v12',post.get('renderer')
-          print(f'QA PASS: {len(imgs)} slides, 1080x1350, Gemini=0, renderer=v12')
+          assert post.get('renderer')=='getbyterush-pinterest-editorial-v13',post.get('renderer')
+          print(f'QA PASS: {len(imgs)} slides, 1080x1350, Gemini=0, renderer=v13')
           PY
       - name: Upload package
         uses: actions/upload-artifact@v4
         with:
-          name: getbyterush-pinterest-v12-${{ github.run_number }}
+          name: getbyterush-pinterest-v13-${{ github.run_number }}
           path: ${{ steps.package.outputs.NEW_POST_PACKAGE }}/**
           if-no-files-found: error
           retention-days: 7
@@ -97,5 +98,5 @@ jobs:
           git reset -- output/posts/ data/selected_story.json || true
           git add "$NEW_POST_PACKAGE"
           test -n "$(git diff --cached --name-only)"
-          git commit -m "chore: render GetByteRush Pinterest editorial v12"
+          git commit -m "chore: render GetByteRush Pinterest editorial v13"
           git push origin HEAD:main
