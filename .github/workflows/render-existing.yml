@@ -209,6 +209,11 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git reset -- output/posts/ || true
           git reset -- data/selected_story.json || true
+          # The resolve step above rewrites this tracked file (often with
+          # only formatting differences), which is deliberately excluded
+          # from the commit above — but a dirty tracked file blocks `git
+          # rebase` if the push below needs to retry, so discard it here.
+          git checkout -- data/selected_story.json || true
           git add "$NEW_POST_PACKAGE"
           if git diff --cached --quiet; then
             echo "ERROR: new package produced no git changes"

@@ -98,6 +98,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git reset -- output/posts/ data/selected_story.json || true
+          # Defensive: a dirty tracked file (data/selected_story.json isn't
+          # written by this workflow, but keep this symmetric with
+          # render-existing.yml) would block `git rebase` if the push below
+          # needs to retry.
+          git checkout -- data/selected_story.json || true
           git add "$NEW_POST_PACKAGE"
           test -n "$(git diff --cached --name-only)"
           git commit -m "chore: render GetByteRush Pinterest editorial v16"
