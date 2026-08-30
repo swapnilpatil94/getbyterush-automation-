@@ -14,6 +14,7 @@ everything visual is new.
 """
 import asyncio
 import json
+import os
 import re
 from datetime import datetime
 from pathlib import Path
@@ -23,13 +24,41 @@ from playwright.async_api import async_playwright
 
 W, H = v9.W, v9.H
 ROOT = v9.ROOT
-DATA = v9.DATA
-OUT = v9.OUT
+# GBR_INPUT lets renderer-only test fixtures be rendered without touching
+# data/selected_story.json — the file the production editorial pipeline
+# writes to. Never set in production workflows.
+DATA = Path(os.environ['GBR_INPUT']) if os.environ.get('GBR_INPUT') else v9.DATA
+OUT = Path(os.environ['GBR_OUT']) if os.environ.get('GBR_OUT') else v9.OUT
 FONT_DIR = ROOT / 'assets/fonts'
 FONT_ORIGIN = 'https://gbr-assets.internal'
 
 clean, esc, words, punch, support = v9.clean, v9.esc, v9.words, v9.punch, v9.support
-metric, domain, source_url, source_label, capture = v9.metric, v9.domain, v9.source_url, v9.source_label, v9.capture
+domain, source_url, source_label, capture = v9.domain, v9.source_url, v9.source_label, v9.capture
+
+# v9.metric()'s regex requires a trailing \b after the matched char, which
+# silently fails for '%' followed by a space ('%' isn't a word character,
+# so no boundary exists between "%" and " ") — matching only ever worked
+# for X/x metrics by accident, since letters are word characters. Real
+# editorial content uses '%' constantly, so this is fixed locally rather
+# than carried forward.
+_METRIC_RE = re.compile(r'\b\d+(?:\.\d+)?\s*(?:[xX](?![a-zA-Z])|%)')
+
+
+def metric(text):
+    m = _METRIC_RE.search(clean(text))
+    return m.group(0).replace(' ', '') if m else ''
+
+
+def metrics_all(text, limit=3):
+    seen, out = [], []
+    for mo in _METRIC_RE.finditer(clean(text)):
+        v = mo.group(0).replace(' ', '')
+        if v.upper() not in seen:
+            seen.append(v.upper())
+            out.append(v)
+        if len(out) >= limit:
+            break
+    return out
 
 CREAM = '#F3EBDD'
 INK = '#0B0D0C'
@@ -282,6 +311,84 @@ def comp_process(slide, story, i, total, evidence):
     return bg, fg, body
 
 
+def comparison_sides(slide):
+    h = clean(slide.get('headline'))
+    m = re.search(r'(.+?)\s+(?:vs\.?|versus)\s+(.+)', h, re.I)
+    if m:
+        a_label, b_label = punch(m.group(1), 3, 22), punch(m.group(2), 3, 22)
+    else:
+        a_label, b_label = 'Before', 'After'
+    a_val = support(slide.get('context') or slide.get('body'), 14, 105)
+    b_val = support(slide.get('implication') or slide.get('body'), 14, 105)
+    return (a_label, a_val), (b_label, b_val)
+
+
+def comp_comparison(slide, story, i, total, evidence):
+    bg, fg = bg_of(slide, dark_default=False)
+    accent = accent_of(slide, RED)
+    h = punch(slide.get('headline'), 8, 58)
+    b = support(slide.get('body'), 16, 120)
+    k = esc(slide.get('kicker') or 'Comparison')
+    (a_label, a_val), (b_label, b_val) = comparison_sides(slide)
+    hsize = scale(h, [(20, 72), (30, 60), (999, 48)])
+    gap = 16
+    half = (W - 2*M - gap) // 2
+    top = 430
+    card_h = 470
+    body = f'''
+    <div style="position:absolute;left:{M}px;right:{M}px;top:140px;color:{fg}">
+      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
+      <div class="serif" style="margin-top:16px;font:900 {hsize}px/.92 'Fraunces';letter-spacing:-.03em;max-width:900px;text-wrap:balance">{esc(h)}</div>
+    </div>
+    <div style="position:absolute;left:{M}px;top:{top}px;width:{half}px;min-height:{card_h}px;background:{INK};color:{CREAM};padding:30px">
+      <div class="mono" style="font:700 10px/1 'IBM Plex Mono';letter-spacing:.16em;opacity:.6">{esc(a_label).upper()}</div>
+      <div class="serif" style="margin-top:22px;font:700 30px/1.18 'Fraunces';text-wrap:balance">{esc(a_val)}</div>
+    </div>
+    <div style="position:absolute;right:{M}px;top:{top}px;width:{half}px;min-height:{card_h}px;background:{accent};color:{CREAM};padding:30px">
+      <div class="mono" style="font:700 10px/1 'IBM Plex Mono';letter-spacing:.16em;opacity:.75">{esc(b_label).upper()}</div>
+      <div class="serif" style="margin-top:22px;font:700 30px/1.18 'Fraunces';text-wrap:balance">{esc(b_val)}</div>
+    </div>
+    <div style="position:absolute;left:50%;top:{top - 26}px;transform:translateX(-50%);width:52px;height:52px;border-radius:50%;background:{fg};color:{bg};display:flex;align-items:center;justify-content:center;font:900 12px/1 'IBM Plex Mono';letter-spacing:.04em">VS</div>
+    <div style="position:absolute;left:{M}px;top:{top + card_h + 40}px;width:780px;color:{fg}">
+      <div style="font:700 18px/1.32 'Archivo';opacity:.85">{esc(b)}</div>
+    </div>'''
+    return bg, fg, body
+
+
+def comp_datablock(slide, story, i, total, evidence):
+    bg, fg = bg_of(slide, dark_default=True)
+    accent = accent_of(slide, LIME)
+    h = punch(slide.get('headline'), 9, 66)
+    b = support(slide.get('body'), 18, 140)
+    k = esc(slide.get('kicker') or 'By The Numbers')
+    hsize = scale(h, [(24, 58), (36, 48), (999, 40)])
+    pool = ' '.join(clean(slide.get(f) or '') for f in ('headline', 'body', 'context', 'implication'))
+    nums = metrics_all(pool, limit=3)
+    if len(nums) < 2:
+        return comp_metric(slide, story, i, total, evidence)
+    labels = ['PRIMARY', 'SECONDARY', 'TERTIARY'][:len(nums)]
+    gap = 40
+    col_w = (W - 2*M - (len(nums) - 1) * gap) // len(nums)
+    size = 130 if len(nums) == 3 else 168
+    cols = ''
+    for j, (lab, val) in enumerate(zip(labels, nums)):
+        x = M + j * (col_w + gap)
+        cols += f'''<div style="position:absolute;left:{x}px;top:560px;width:{col_w}px">
+          <div class="mono" style="font:600 10px/1 'IBM Plex Mono';letter-spacing:.14em;color:{accent}">{lab}</div>
+          <div class="serif" style="margin-top:16px;font:900 {size}px/.78 'Fraunces';letter-spacing:-.03em;text-transform:uppercase">{esc(val)}</div>
+        </div>'''
+    body = f'''
+    <div style="position:absolute;left:{M}px;right:{M}px;top:150px;color:{fg}">
+      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
+      <div class="serif" style="margin-top:20px;font:900 {hsize}px/1 'Fraunces';letter-spacing:-.02em;max-width:820px;text-wrap:balance">{esc(h)}</div>
+    </div>
+    {cols}
+    <div style="position:absolute;left:{M}px;top:920px;width:780px;border-top:1px solid {fg}33;padding-top:18px;color:{fg}">
+      <div style="font:600 18px/1.32 'Archivo';opacity:.8">{esc(b)}</div>
+    </div>'''
+    return bg, fg, body
+
+
 def comp_payoff(slide, story, i, total, evidence):
     bg, fg = bg_of(slide, dark_default=False)
     accent = accent_of(slide, GOLD)
@@ -306,11 +413,48 @@ COMPOSERS = {
     'hook': comp_hook, 'open': comp_context, 'evidence': comp_evidence,
     'reveal': comp_metric, 'interrupt': comp_statement,
     'architecture': comp_process, 'payoff': comp_payoff,
+    'comparison': comp_comparison, 'data': comp_datablock,
 }
+
+# Content-type signal (visual_type, set by the editorial engine per slide)
+# takes priority over the story-arc role for interior slides — a
+# "comparison" slide should render as a comparison regardless of which
+# story beat it happens to fall on. The role-based canon and the
+# positional cycle exist only as fallbacks for content that doesn't carry
+# a recognized visual_type.
+VISUAL_TYPE_MAP = {
+    'comparison': 'comparison', 'versus': 'comparison', 'vs': 'comparison',
+    'metric': 'reveal', 'stat': 'reveal', 'number': 'reveal', 'shock-number': 'reveal', 'reveal': 'reveal',
+    'data': 'data', 'stats': 'data', 'statistics': 'data', 'datapoints': 'data',
+    'evidence': 'evidence', 'screenshot': 'evidence', 'product': 'evidence',
+    'diagram': 'architecture', 'flow': 'architecture', 'process': 'architecture', 'mechanism': 'architecture',
+    'typography': 'interrupt', 'quote': 'interrupt', 'insight': 'interrupt', 'statement': 'interrupt',
+    'final': 'payoff',
+}
+
+# Positional variety net: only used when neither visual_type nor role
+# gives a signal, so unrecognized content still varies slide-to-slide
+# instead of collapsing onto one family. Never includes hook/payoff —
+# those are reserved for the carousel's structural bookends.
+POSITION_CYCLE = ['open', 'evidence', 'reveal', 'interrupt', 'architecture', 'comparison', 'data']
+
+
+def select_role(slide, i, total):
+    if i == 0:
+        return 'hook'
+    if i == total - 1:
+        return 'payoff'
+    vt = clean(slide.get('visual_type')).lower()
+    if vt in VISUAL_TYPE_MAP:
+        return VISUAL_TYPE_MAP[vt]
+    r = canon_role(slide, i)
+    if r in COMPOSERS and r not in ('hook', 'payoff'):
+        return r
+    return POSITION_CYCLE[i % len(POSITION_CYCLE)]
 
 
 def render(slide, story, i, total, evidence):
-    r = canon_role(slide, i)
+    r = select_role(slide, i, total)
     fn = COMPOSERS.get(r, comp_statement)
     return fn(slide, story, i, total, evidence)
 
@@ -341,8 +485,7 @@ async def main():
         await page.route(f'{FONT_ORIGIN}/**', _fulfill_font)
         for i, slide in enumerate(slides):
             evidence = None
-            r = canon_role(slide, i)
-            if r == 'evidence':
+            if select_role(slide, i, len(slides)) == 'evidence':
                 target = ed / f'{i+1:02d}.png'
                 evidence = await capture(page, source_url(story, slide), target)
             bg, fg, inner_html = render(slide, story, i, len(slides), evidence)
