@@ -33,7 +33,43 @@ FONT_DIR = ROOT / 'assets/fonts'
 FONT_ORIGIN = 'https://gbr-assets.internal'
 
 clean, esc, words, punch, support = v9.clean, v9.esc, v9.words, v9.punch, v9.support
-domain, source_url, source_label, capture = v9.domain, v9.source_url, v9.source_label, v9.capture
+domain, source_url, source_label = v9.domain, v9.source_url, v9.source_label
+
+# v9.capture()'s consent-banner CSS only matches selectors containing the
+# literal substring "cookie" or "consent" — the major consent-management
+# platforms (OneTrust, Cookiebot, Quantcast/TCF, TrustArc, Osano, Didomi,
+# CookieYes) name their containers after the vendor instead, so none of
+# them matched. Confirmed by direct capture: NVIDIA's OneTrust banner
+# rendered directly on top of the "evidence" screenshot, covering roughly
+# half the image, with none of the existing selectors touching it.
+_CONSENT_HIDE_CSS = '''
+[id*=cookie],[class*=cookie],[id*=consent],[class*=consent],
+[aria-label*=cookie i],[aria-label*=consent i],
+#onetrust-banner-sdk,#onetrust-consent-sdk,#onetrust-pc-sdk,.onetrust-pc-dark-filter,
+#CybotCookiebotDialog,#CybotCookiebotDialogBodyUnderlay,
+.qc-cmp2-container,#qc-cmp2-container,
+#truste-consent-track,.truste_box_overlay,#trustarc-banner-overlay,
+.osano-cm-window,.osano-cm-dialog,
+#didomi-host,.didomi-popup-open,.didomi-popup-container,
+#cookie-law-info-bar,.cli-modal-backdrop,
+#termly-code-snippet-support,
+.gdpr-banner,.cc-banner,.cc-window
+{display:none!important}
+'''
+
+
+async def capture(page, url, target):
+    if not url:
+        return None
+    try:
+        await page.goto(url, wait_until='domcontentloaded', timeout=30000)
+        await page.wait_for_timeout(1000)
+        await page.add_style_tag(content=_CONSENT_HIDE_CSS)
+        await page.screenshot(path=str(target))
+        return target.as_posix()
+    except Exception as exc:
+        print('Evidence capture skipped:', exc)
+        return None
 
 # v9.metric()'s regex requires a trailing \b after the matched char, which
 # silently fails for '%' followed by a space ('%' isn't a word character,
@@ -82,12 +118,28 @@ def canon_role(slide, i):
     }.get(r, ROLE_DEFAULT[i % len(ROLE_DEFAULT)])
 
 
-def accent_of(slide, fallback):
-    c = clean(slide.get('accent_color'))
-    return c if re.fullmatch(r'#[0-9a-fA-F]{6}', c) else fallback
+def _hex(v):
+    c = clean(v)
+    return c if re.fullmatch(r'#[0-9a-fA-F]{6}', c) else None
+
+
+def accent_of(slide, story, fallback):
+    # Per-slide accent_color wins (intentional per-slide variation); the
+    # story-level design.accent_color is the carousel's own mood when a
+    # slide doesn't specify one — read before falling back to a hardcoded
+    # brand default, so a story's own art direction actually has a say.
+    return (_hex(slide.get('accent_color'))
+            or _hex((story.get('design') or {}).get('accent_color'))
+            or fallback)
 
 
 def bg_of(slide, dark_default):
+    # Deliberately per-slide only, not story-level like accent_of: several
+    # families pair a dark accent (FOREST) with an assumed light
+    # background for contrast, so a blanket story-wide override risks
+    # silently producing near-illegible dark-on-dark text. Per-slide
+    # background_mode already gives full art-direction control, and the
+    # real editorial engine already sets it on every slide.
     mode = clean(slide.get('background_mode')).lower()
     if mode == 'black':
         return INK, CREAM
@@ -151,7 +203,7 @@ def doc(inner_html, bg, fg, i, total):
 
 def comp_hook(slide, story, i, total, evidence):
     bg, fg = bg_of(slide, dark_default=True)
-    accent = accent_of(slide, LIME)
+    accent = accent_of(slide, story, LIME)
     h = punch(slide.get('headline'), 9, 70)
     b = support(slide.get('body'), 16, 130)
     k = esc(slide.get('kicker') or 'getByteRush / Signal')
@@ -173,7 +225,7 @@ def comp_hook(slide, story, i, total, evidence):
 
 def comp_context(slide, story, i, total, evidence):
     bg, fg = bg_of(slide, dark_default=False)
-    accent = accent_of(slide, FOREST)
+    accent = accent_of(slide, story, FOREST)
     h = punch(slide.get('headline'), 8, 60)
     b = support(slide.get('body'), 20, 160)
     k = esc(slide.get('kicker') or 'Context')
@@ -202,14 +254,48 @@ def comp_context(slide, story, i, total, evidence):
     return bg, fg, body
 
 
+def comp_evidence_photo(slide, story, i, total, evidence, accent, h, b, k):
+    # Photo-on-top, solid-caption-block-bottom: only reachable when a real
+    # image was captured and the editorial engine explicitly tagged this
+    # slide as photographic content, not a page screenshot. A gradient
+    # scrim over object-fit:cover was tried first and rejected — verified
+    # by direct render, not assumed: the underlying page's own body text
+    # showed through and visibly clashed with the overlaid headline
+    # whenever combined content ran long, because a gradient's opacity at
+    # any given point is fixed while headline+body length isn't. A solid
+    # panel sized by its own padding is legible regardless of content
+    # length, the same principle that fixed comp_process's collision bug.
+    dom = esc(domain(source_url(story, slide)))
+    # Starts below the masthead's hairline rule (76px) rather than true
+    # top:0 — verified by render that a literal edge-to-edge photo paints
+    # over the masthead entirely (later DOM = on top) and, separately,
+    # risks cream masthead text landing on a bright photo region with no
+    # guaranteed contrast. Insetting keeps the masthead on the plain
+    # background color on every slide, the "one publication" thread this
+    # design system depends on for cohesion across composition families.
+    photo_top, photo_h = 92, 700
+    return INK, CREAM, f'''
+    <div style="position:absolute;left:0;right:0;top:{photo_top}px;height:{photo_h}px;overflow:hidden">
+      <img src="{asset_url(evidence)}" style="width:100%;height:100%;object-fit:cover;filter:saturate(1.08)">
+    </div>
+    <div style="position:absolute;left:{M - 10}px;top:{photo_top + 16}px;background:{accent};color:{INK};padding:8px 12px;font:700 9px/1 'IBM Plex Mono';letter-spacing:.12em" class="mono">{k}</div>
+    <div style="position:absolute;left:0;right:0;top:{photo_top + photo_h}px;bottom:0;background:{INK};color:{CREAM};padding:36px {M}px 0">
+      <div class="serif" style="font:900 {scale(h,[(20,52),(30,44),(999,36)])}px/1 'Fraunces';letter-spacing:-.02em;max-width:820px;text-wrap:balance">{esc(h)}</div>
+      <div style="margin-top:16px;max-width:600px;font:600 16px/1.3 'Archivo';opacity:.82">{esc(b)}</div>
+      <div class="mono" style="margin-top:16px;font:500 10px/1 'IBM Plex Mono';letter-spacing:.1em;opacity:.55">{dom}</div>
+    </div>'''
+
+
 def comp_evidence(slide, story, i, total, evidence):
     bg, fg = bg_of(slide, dark_default=False)
-    accent = accent_of(slide, FOREST)
+    accent = accent_of(slide, story, FOREST)
     h = punch(slide.get('headline'), 8, 58)
     b = support(slide.get('body'), 18, 140)
     k = esc(slide.get('kicker') or 'Evidence')
     dom = esc(domain(source_url(story, slide)))
     hsize = scale(h, [(20, 68), (30, 58), (999, 48)])
+    if evidence and clean(slide.get('visual_type')).lower() in ('photo', 'photographic'):
+        return comp_evidence_photo(slide, story, i, total, evidence, accent, h, b, k)
     head = f'''
     <div style="position:absolute;left:{M}px;right:{M}px;top:140px;color:{fg}">
       <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
@@ -217,8 +303,9 @@ def comp_evidence(slide, story, i, total, evidence):
     </div>'''
     if evidence:
         card = f'''
-        <div style="position:absolute;left:{M}px;top:344px;width:820px;height:576px;background:#fff;border:1px solid rgba(11,13,12,.14);box-shadow:16px 20px 0 {accent}22;transform:rotate(-.5deg)">
-          <img src="file://{evidence}" style="width:100%;height:100%;object-fit:contain;display:block">
+        <div style="position:absolute;left:{M}px;top:344px;width:820px;height:576px;background:#fff;border:1px solid rgba(11,13,12,.14);box-shadow:16px 20px 0 {accent}22;transform:rotate(-.5deg);overflow:hidden">
+          <img src="{asset_url(evidence)}" style="width:100%;height:100%;object-fit:contain;display:block;filter:grayscale(.8) contrast(1.1)">
+          <div style="position:absolute;inset:0;background:{accent};mix-blend-mode:multiply;opacity:.3;pointer-events:none"></div>
         </div>
         <div class="mono" style="position:absolute;left:{M + 24}px;top:322px;background:{accent};color:{CREAM};padding:8px 12px;font:700 9px/1 'IBM Plex Mono';letter-spacing:.12em">Source — Verified</div>'''
     else:
@@ -240,7 +327,7 @@ def comp_evidence(slide, story, i, total, evidence):
 
 def comp_metric(slide, story, i, total, evidence):
     bg, fg = bg_of(slide, dark_default=True)
-    accent = accent_of(slide, LIME)
+    accent = accent_of(slide, story, LIME)
     h = punch(slide.get('headline'), 8, 58)
     b = support(slide.get('body'), 14, 110)
     k = esc(slide.get('kicker') or 'The Breakthrough')
@@ -261,7 +348,7 @@ def comp_metric(slide, story, i, total, evidence):
 
 def comp_statement(slide, story, i, total, evidence):
     bg, fg = bg_of(slide, dark_default=True)
-    accent = accent_of(slide, GOLD)
+    accent = accent_of(slide, story, GOLD)
     h = punch(slide.get('headline'), 10, 80)
     b = support(slide.get('body'), 16, 120)
     k = esc(slide.get('kicker') or 'Pattern Interrupt')
@@ -279,7 +366,7 @@ def comp_statement(slide, story, i, total, evidence):
 
 def comp_process(slide, story, i, total, evidence):
     bg, fg = bg_of(slide, dark_default=False)
-    accent = accent_of(slide, FOREST)
+    accent = accent_of(slide, story, FOREST)
     h = punch(slide.get('headline'), 8, 58)
     b = support(slide.get('body'), 18, 140)
     k = esc(slide.get('kicker') or 'Mechanism')
@@ -325,7 +412,7 @@ def comparison_sides(slide):
 
 def comp_comparison(slide, story, i, total, evidence):
     bg, fg = bg_of(slide, dark_default=False)
-    accent = accent_of(slide, RED)
+    accent = accent_of(slide, story, RED)
     h = punch(slide.get('headline'), 8, 58)
     b = support(slide.get('body'), 16, 120)
     k = esc(slide.get('kicker') or 'Comparison')
@@ -357,7 +444,7 @@ def comp_comparison(slide, story, i, total, evidence):
 
 def comp_datablock(slide, story, i, total, evidence):
     bg, fg = bg_of(slide, dark_default=True)
-    accent = accent_of(slide, LIME)
+    accent = accent_of(slide, story, LIME)
     h = punch(slide.get('headline'), 9, 66)
     b = support(slide.get('body'), 18, 140)
     k = esc(slide.get('kicker') or 'By The Numbers')
@@ -391,7 +478,7 @@ def comp_datablock(slide, story, i, total, evidence):
 
 def comp_payoff(slide, story, i, total, evidence):
     bg, fg = bg_of(slide, dark_default=False)
-    accent = accent_of(slide, GOLD)
+    accent = accent_of(slide, story, GOLD)
     h = punch(slide.get('headline'), 9, 66)
     b = support(slide.get('body'), 18, 140)
     k = esc(slide.get('kicker') or 'The Bottom Line')
@@ -427,6 +514,7 @@ VISUAL_TYPE_MAP = {
     'metric': 'reveal', 'stat': 'reveal', 'number': 'reveal', 'shock-number': 'reveal', 'reveal': 'reveal',
     'data': 'data', 'stats': 'data', 'statistics': 'data', 'datapoints': 'data',
     'evidence': 'evidence', 'screenshot': 'evidence', 'product': 'evidence',
+    'photo': 'evidence', 'photographic': 'evidence',
     'diagram': 'architecture', 'flow': 'architecture', 'process': 'architecture', 'mechanism': 'architecture',
     'typography': 'interrupt', 'quote': 'interrupt', 'insight': 'interrupt', 'statement': 'interrupt',
     'final': 'payoff',
@@ -468,6 +556,32 @@ async def _fulfill_font(route):
         await route.abort()
 
 
+# Chromium refuses to load file:// resources from a page.set_content()
+# document ("Not allowed to load local resource") — that origin has no
+# real scheme, so local-file access is blocked outright, silently, with
+# no visible error in the rendered screenshot. Every evidence image
+# (`<img src="{asset_url(evidence)}">`) would fail to display even when
+# capture succeeded — confirmed via direct reproduction, and via prior
+# CI packages that DO contain a captured evidence/source.png the render
+# never actually showed. Routed the same way fonts already are instead.
+ASSET_ORIGIN = 'https://gbr-local-asset.internal'
+
+
+def asset_url(path):
+    from urllib.parse import quote
+    return f'{ASSET_ORIGIN}/{quote(str(Path(path).resolve()), safe="")}'
+
+
+async def _fulfill_asset(route):
+    from urllib.parse import unquote
+    local_path = unquote(route.request.url[len(ASSET_ORIGIN) + 1:])
+    p = Path(local_path)
+    if p.exists():
+        await route.fulfill(path=str(p))
+    else:
+        await route.abort()
+
+
 async def main():
     story = json.loads(DATA.read_text())
     slides = story.get('slides') or []
@@ -483,6 +597,7 @@ async def main():
         browser = await pw.chromium.launch()
         page = await browser.new_page(viewport={'width': W, 'height': H}, device_scale_factor=1)
         await page.route(f'{FONT_ORIGIN}/**', _fulfill_font)
+        await page.route(f'{ASSET_ORIGIN}/**', _fulfill_asset)
         for i, slide in enumerate(slides):
             evidence = None
             if select_role(slide, i, len(slides)) == 'evidence':
