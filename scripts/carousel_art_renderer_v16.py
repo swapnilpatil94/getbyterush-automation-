@@ -123,13 +123,49 @@ def _hex(v):
     return c if re.fullmatch(r'#[0-9a-fA-F]{6}', c) else None
 
 
+# design.primary_psychology / design.emotional_mode carry the editorial
+# engine's own read on the story's psychological angle — previously
+# parsed nowhere. Keyword buckets rather than an exact-value dict, since
+# the real vocabulary Gemini uses isn't fully known and a substring match
+# degrades gracefully (no effect) on any value that isn't recognized,
+# rather than silently no-op'ing on anything not spelled exactly right.
+_PSYCH_ACCENT_BUCKETS = [
+    (('shock', 'scale', 'fear', 'urgency', 'threat', 'danger', 'risk', 'loss', 'crisis'), RED),
+    (('trust', 'credibility', 'authority', 'proof', 'verified', 'reliability'), FOREST),
+    (('curiosity', 'mystery', 'surprise', 'intrigue', 'secret', 'novelty'), LIME),
+    (('money', 'status', 'wealth', 'prestige', 'exclusiv', 'luxury', 'power'), GOLD),
+]
+_PSYCH_INTENSITY_WORDS = ('shock', 'scale', 'fear', 'urgency', 'threat', 'danger', 'crisis', 'surprise')
+
+
+def _psych_text(story):
+    d = story.get('design') or {}
+    return f"{d.get('primary_psychology', '')} {d.get('emotional_mode', '')}".lower()
+
+
+def psychology_accent(story):
+    text = _psych_text(story)
+    for words_, color in _PSYCH_ACCENT_BUCKETS:
+        if any(w in text for w in words_):
+            return color
+    return None
+
+
+def psychology_intense(story):
+    text = _psych_text(story)
+    return any(w in text for w in _PSYCH_INTENSITY_WORDS)
+
+
 def accent_of(slide, story, fallback):
-    # Per-slide accent_color wins (intentional per-slide variation); the
-    # story-level design.accent_color is the carousel's own mood when a
-    # slide doesn't specify one — read before falling back to a hardcoded
-    # brand default, so a story's own art direction actually has a say.
+    # Per-slide accent_color wins (intentional per-slide variation); then
+    # story-level design.accent_color (the carousel's own stated mood);
+    # then a color inferred from the story's own psychology signal when
+    # neither gave an explicit one — closer to what the editorial engine
+    # actually intended than jumping straight to a hardcoded brand
+    # default. The hardcoded fallback is the last resort, not the norm.
     return (_hex(slide.get('accent_color'))
             or _hex((story.get('design') or {}).get('accent_color'))
+            or psychology_accent(story)
             or fallback)
 
 
@@ -208,8 +244,13 @@ def comp_hook(slide, story, i, total, evidence):
     b = support(slide.get('body'), 16, 130)
     k = esc(slide.get('kicker') or 'getByteRush / Signal')
     m = esc(metric(slide.get('headline') or slide.get('body')))
-    hsize = scale(h, [(14, 128), (20, 106), (28, 90), (40, 74), (999, 60)])
-    mark = (f'<div class="serif" style="position:absolute;right:-70px;top:600px;font:900 {560 if len(m)<=3 else 440}px/.7 \'Fraunces\';letter-spacing:-.05em;color:{accent}">{m}</div>'
+    # A "shock/scale/urgency" story earns a more dramatic hook than a
+    # "trust/curiosity" one — the psychology signal affecting weight, not
+    # just color, is the actual design decision it should be driving.
+    bump = 1.08 if psychology_intense(story) else 1.0
+    hsize = round(scale(h, [(14, 128), (20, 106), (28, 90), (40, 74), (999, 60)]) * bump)
+    msize = round((560 if len(m) <= 3 else 440) * bump)
+    mark = (f'<div class="serif" style="position:absolute;right:-70px;top:600px;font:900 {msize}px/.7 \'Fraunces\';letter-spacing:-.05em;color:{accent}">{m}</div>'
             if m else
             f'<div class="serif" style="position:absolute;right:-40px;top:640px;font:900 460px/.7 \'Fraunces\';color:{accent}">&rarr;</div>')
     body = f'''
@@ -303,22 +344,22 @@ def comp_evidence(slide, story, i, total, evidence):
     </div>'''
     if evidence:
         card = f'''
-        <div style="position:absolute;left:{M}px;top:344px;width:820px;height:576px;background:#fff;border:1px solid rgba(11,13,12,.14);box-shadow:16px 20px 0 {accent}22;transform:rotate(-.5deg);overflow:hidden">
+        <div style="position:absolute;left:{M}px;top:320px;width:820px;height:660px;background:#fff;border:1px solid rgba(11,13,12,.14);box-shadow:16px 20px 0 {accent}22;transform:rotate(-.5deg);overflow:hidden">
           <img src="{asset_url(evidence)}" style="width:100%;height:100%;object-fit:contain;display:block;filter:grayscale(.8) contrast(1.1)">
           <div style="position:absolute;inset:0;background:{accent};mix-blend-mode:multiply;opacity:.3;pointer-events:none"></div>
         </div>
-        <div class="mono" style="position:absolute;left:{M + 24}px;top:322px;background:{accent};color:{CREAM};padding:8px 12px;font:700 9px/1 'IBM Plex Mono';letter-spacing:.12em">Source — Verified</div>'''
+        <div class="mono" style="position:absolute;left:{M + 24}px;top:298px;background:{accent};color:{CREAM};padding:8px 12px;font:700 9px/1 'IBM Plex Mono';letter-spacing:.12em">Source — Verified</div>'''
     else:
         src = story.get('source_story') or {}
         title = esc(src.get('title') or slide.get('context') or 'Verified source metadata')
         card = f'''
-        <div style="position:absolute;left:{M}px;top:344px;width:820px;height:576px;background:{INK};color:{CREAM};padding:44px">
+        <div style="position:absolute;left:{M}px;top:320px;width:820px;height:660px;background:{INK};color:{CREAM};padding:48px">
           <div class="mono" style="font:600 10px/1 'IBM Plex Mono';letter-spacing:.16em;color:{accent}">{esc(src.get('source') or 'Primary Source')}</div>
-          <div class="serif" style="margin-top:36px;font:600 34px/1.2 'Fraunces';font-style:italic;max-width:700px">&ldquo;{title}&rdquo;</div>
-          <div class="mono" style="position:absolute;left:44px;right:44px;bottom:36px;border-top:1px solid rgba(243,235,221,.25);padding-top:14px;font:500 11px/1.3 'IBM Plex Mono';opacity:.7;word-break:break-all">{esc(src.get('url') or dom)}</div>
+          <div class="serif" style="margin-top:40px;font:600 38px/1.24 'Fraunces';font-style:italic;max-width:700px">&ldquo;{title}&rdquo;</div>
+          <div class="mono" style="position:absolute;left:48px;right:48px;bottom:40px;border-top:1px solid rgba(243,235,221,.25);padding-top:14px;font:500 11px/1.3 'IBM Plex Mono';opacity:.7;word-break:break-all">{esc(src.get('url') or dom)}</div>
         </div>'''
     caption = f'''
-    <div style="position:absolute;left:{M}px;top:944px;width:760px;color:{fg}">
+    <div style="position:absolute;left:{M}px;top:1010px;width:760px;color:{fg}">
       <div style="font:700 18px/1.3 'Archivo'">{esc(b)}</div>
       <div class="mono" style="margin-top:14px;font:500 10px/1 'IBM Plex Mono';letter-spacing:.1em;opacity:.55">{dom}</div>
     </div>'''
@@ -379,20 +420,21 @@ def comp_process(slide, story, i, total, evidence):
       <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
       <div class="serif" style="margin-top:20px;font:900 {hsize}px/.92 'Fraunces';letter-spacing:-.03em;max-width:880px;text-wrap:balance">{esc(h)}</div>
     </div>
-    <div style="position:absolute;left:{M}px;top:600px;width:{lane_w}px;color:{fg}">
+    <div style="position:absolute;left:{M}px;top:460px;width:{lane_w}px;color:{fg}">
       <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.14em;color:{accent}">01 / From</div>
       <div class="serif" style="margin-top:14px;font:700 32px/1.1 'Fraunces';text-wrap:balance">{esc(frm)}</div>
     </div>
-    <div style="position:absolute;right:{M}px;top:600px;width:{lane_w}px;text-align:right;color:{fg}">
+    <div style="position:absolute;right:{M}px;top:460px;width:{lane_w}px;text-align:right;color:{fg}">
       <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.14em;color:{accent}">02 / To</div>
       <div class="serif" style="margin-top:14px;font:700 32px/1.1 'Fraunces';text-wrap:balance">{esc(to)}</div>
     </div>
-    <svg viewBox="0 0 {W-2*M} 40" width="{W-2*M}" height="40" style="position:absolute;left:{M}px;top:820px">
+    <svg viewBox="0 0 {W-2*M} 40" width="{W-2*M}" height="40" style="position:absolute;left:{M}px;top:660px">
       <line x1="0" y1="20" x2="{W-2*M-40}" y2="20" stroke="{accent}" stroke-width="2" opacity=".5"/>
       <polygon points="{W-2*M-40},10 {W-2*M},20 {W-2*M-40},30" fill="{accent}" opacity=".85"/>
       <circle cx="0" cy="20" r="7" fill="{bg}" stroke="{accent}" stroke-width="2"/>
     </svg>
-    <div style="position:absolute;left:{M}px;top:900px;width:780px;border-top:1px solid {fg}33;padding-top:18px;color:{fg}">
+    <div class="serif" style="position:absolute;right:-30px;top:730px;font:900 340px/.7 'Fraunces';color:{accent};opacity:.07">&rarr;</div>
+    <div style="position:absolute;left:{M}px;top:1060px;width:780px;border-top:1px solid {fg}33;padding-top:18px;color:{fg}">
       <div style="font:600 18px/1.32 'Archivo';opacity:.82">{esc(b)}</div>
     </div>'''
     return bg, fg, body
@@ -421,7 +463,7 @@ def comp_comparison(slide, story, i, total, evidence):
     gap = 16
     half = (W - 2*M - gap) // 2
     top = 430
-    card_h = 470
+    card_h = 560
     body = f'''
     <div style="position:absolute;left:{M}px;right:{M}px;top:140px;color:{fg}">
       <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
@@ -460,7 +502,7 @@ def comp_datablock(slide, story, i, total, evidence):
     cols = ''
     for j, (lab, val) in enumerate(zip(labels, nums)):
         x = M + j * (col_w + gap)
-        cols += f'''<div style="position:absolute;left:{x}px;top:560px;width:{col_w}px">
+        cols += f'''<div style="position:absolute;left:{x}px;top:620px;width:{col_w}px">
           <div class="mono" style="font:600 10px/1 'IBM Plex Mono';letter-spacing:.14em;color:{accent}">{lab}</div>
           <div class="serif" style="margin-top:16px;font:900 {size}px/.78 'Fraunces';letter-spacing:-.03em;text-transform:uppercase">{esc(val)}</div>
         </div>'''
@@ -470,10 +512,35 @@ def comp_datablock(slide, story, i, total, evidence):
       <div class="serif" style="margin-top:20px;font:900 {hsize}px/1 'Fraunces';letter-spacing:-.02em;max-width:820px;text-wrap:balance">{esc(h)}</div>
     </div>
     {cols}
-    <div style="position:absolute;left:{M}px;top:920px;width:780px;border-top:1px solid {fg}33;padding-top:18px;color:{fg}">
+    <div style="position:absolute;left:{M}px;top:1080px;width:780px;border-top:1px solid {fg}33;padding-top:18px;color:{fg}">
       <div style="font:600 18px/1.32 'Archivo';opacity:.8">{esc(b)}</div>
     </div>'''
     return bg, fg, body
+
+
+# Renderer-owned CTA copy — never generated by touching Gemini/editorial,
+# just a small curated set the renderer itself picks from, deterministically
+# per story (stable across re-renders of the same story) so it reads as an
+# editorial sign-off rather than a generic "follow for more" ad line.
+_CTA_LINES = [
+    'Save this before you need it again.',
+    'Send this to the person who needs to see it.',
+    'We test the stuff everyone else just explains.',
+    'Follow along — we go deeper than the headline.',
+    'This is the version worth remembering.',
+]
+
+
+def cta_line(story):
+    # zlib.crc32, not the builtin hash() — Python randomizes str hash()
+    # per-process (PYTHONHASHSEED) unless explicitly disabled, so the
+    # "same story picks the same line" guarantee would silently break
+    # between separate CI runs (e.g. render-existing.yml and
+    # render-pinterest-v7.yml both rendering the same story) despite
+    # looking deterministic in any single local test.
+    import zlib
+    key = clean(story.get('story_title') or story.get('story_sentence') or '')
+    return _CTA_LINES[zlib.crc32(key.encode('utf-8')) % len(_CTA_LINES)] if key else _CTA_LINES[0]
 
 
 def comp_payoff(slide, story, i, total, evidence):
@@ -492,6 +559,7 @@ def comp_payoff(slide, story, i, total, evidence):
     <div class="serif" style="position:absolute;right:-40px;top:560px;font:900 460px/.7 'Fraunces';color:{fg};opacity:.06">&rarr;</div>
     <div style="position:absolute;left:{M}px;top:900px;color:{fg}">
       <div class="serif" style="font:600 64px/1 'Fraunces';font-style:italic;color:{accent}">getByteRush<span style="color:{fg}">.</span></div>
+      <div class="mono" style="margin-top:18px;font:600 11px/1.3 'IBM Plex Mono';letter-spacing:.06em;opacity:.6;text-transform:none">{esc(cta_line(story))}</div>
     </div>'''
     return bg, fg, body
 
