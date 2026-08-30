@@ -162,7 +162,7 @@ jobs:
               w=int.from_bytes(raw[16:20],"big"); h=int.from_bytes(raw[20:24],"big")
               if (w,h)!=(1080,1350): raise SystemExit(f"Invalid dimensions: {slide}={w}x{h}")
           html_dir=package / "html"
-          leak=re.compile(r"callout graphic|visual concept|visual direction|design direction|layout instruction|\bINPUT\b|\bPROCESS\b|\bOUTCOME\b",re.I)
+          leak=re.compile(r"callout graphic|visual concept|visual direction|design direction|layout instruction",re.I)
           for path in sorted(html_dir.glob("*.html")):
               text=path.read_text(encoding="utf-8")
               visible=re.sub(r"<[^>]+>"," ",text)

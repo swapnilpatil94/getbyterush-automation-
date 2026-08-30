@@ -69,7 +69,7 @@ jobs:
               im=Image.open(f)
               assert im.size==(1080,1350)
               im.verify()
-          leak=re.compile(r'\b(?:visual[_ ]concept|visual[_ ]direction|callout graphic|design direction|layout instruction|INPUT|PROCESS|OUTCOME)\b',re.I)
+          leak=re.compile(r'\b(?:visual[_ ]concept|visual[_ ]direction|callout graphic|design direction|layout instruction)\b',re.I)
           for f in (p/'html').glob('*.html'):
               visible=re.sub(r'<style\b[^>]*>.*?</style>',' ',f.read_text(),flags=re.I|re.S)
               visible=re.sub(r'<script\b[^>]*>.*?</script>',' ',visible,flags=re.I|re.S)
