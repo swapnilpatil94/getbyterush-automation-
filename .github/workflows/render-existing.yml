@@ -17,12 +17,9 @@ on:
     - cron: "30 2,6,10,14,18,22 * * *"
   push:
     paths:
-      - "scripts/carousel_art_renderer_v15.py"
-      - "scripts/carousel_art_renderer_v14.py"
-      - "scripts/carousel_art_renderer_v12.py"
-      - "scripts/carousel_art_renderer_v11.py"
-      - "scripts/carousel_art_renderer_v10.py"
+      - "scripts/carousel_art_renderer_v16.py"
       - "scripts/carousel_art_renderer_v9.py"
+      - "assets/fonts/**"
       - ".github/workflows/render-existing.yml"
 
 permissions:
@@ -90,17 +87,13 @@ jobs:
       - name: Install Playwright Chromium
         run: python -m playwright install --with-deps chromium
 
-      - name: Compile V15 renderer chain
+      - name: Compile V16 renderer
         env:
           PYTHONPATH: scripts
         run: |
           python -m py_compile \
             scripts/carousel_art_renderer_v9.py \
-            scripts/carousel_art_renderer_v10.py \
-            scripts/carousel_art_renderer_v11.py \
-            scripts/carousel_art_renderer_v12.py \
-            scripts/carousel_art_renderer_v14.py \
-            scripts/carousel_art_renderer_v15.py
+            scripts/carousel_art_renderer_v16.py
 
       - name: Clean old outputs
         if: ${{ inputs.clean_old_outputs == true }}
@@ -114,14 +107,14 @@ jobs:
           find output/posts -type f -name post.json -print 2>/dev/null | sed 's#/post.json$##' | sort > /tmp/gbr-before-posts.txt || true
           echo "Existing packages: $(wc -l < /tmp/gbr-before-posts.txt | tr -d ' ')"
 
-      - name: Render saved editorial with V15 only
+      - name: Render saved editorial with V16 only
         env:
           PYTHONPATH: scripts
         run: |
           set -euo pipefail
           echo "Gemini is intentionally NOT called in this workflow."
-          echo "Renderer: carousel_art_renderer_v15.py"
-          python scripts/carousel_art_renderer_v15.py
+          echo "Renderer: carousel_art_renderer_v16.py"
+          python scripts/carousel_art_renderer_v16.py
 
       - name: Identify newly rendered package
         shell: bash
@@ -157,7 +150,7 @@ jobs:
           post_path=package / "post.json"
           if not post_path.exists(): raise SystemExit(f"Missing post.json: {package}")
           meta=json.loads(post_path.read_text(encoding="utf-8"))
-          if meta.get("renderer") != "getbyterush-pinterest-editorial-v15":
+          if meta.get("renderer") != "getbyterush-pinterest-editorial-v16":
               raise SystemExit(f"Wrong renderer in post.json: {meta.get('renderer')}")
           if meta.get("gemini_calls") != 0:
               raise SystemExit(f"Unexpected Gemini calls: {meta.get('gemini_calls')}")
@@ -180,7 +173,7 @@ jobs:
               if len(raw)<24 or raw[:8]!=b"\x89PNG\r\n\x1a\n": raise SystemExit(f"Invalid evidence PNG: {image}")
           print(f"✓ Selected package: {package}")
           print(f"✓ Slides: {len(slides)}")
-          print("✓ Renderer: V15")
+          print("✓ Renderer: V16")
           print("✓ Dimensions: 1080x1350")
           print("✓ Internal design-text leak check passed")
           print("✓ Gemini calls: 0")
@@ -196,7 +189,7 @@ jobs:
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: getbyterush-render-v15-${{ github.run_number }}
+          name: getbyterush-render-v16-${{ github.run_number }}
           path: |
             ${{ steps.identify_package.outputs.NEW_POST_PACKAGE }}/**
             data/selected_story.json
@@ -219,5 +212,5 @@ jobs:
             exit 1
           fi
           echo "Committing only: $NEW_POST_PACKAGE"
-          git commit -m "chore: render GetByteRush Pinterest editorial v15"
+          git commit -m "chore: render GetByteRush Pinterest editorial v16"
           git push origin HEAD:main
