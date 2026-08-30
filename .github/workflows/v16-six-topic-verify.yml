@@ -1,0 +1,72 @@
+name: V16 Six Topic Visual Verification
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-v16:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install playwright pillow
+          python -m playwright install chromium
+
+      - name: Locate six fixtures
+        run: |
+          echo 'Fixture candidates:'
+          find . -type f \( -name '*.json' -o -name '*.py' \) | grep -Ei 'fixture|fixtures|test' | head -100 || true
+
+      - name: Render six fixtures with V16 only
+        run: |
+          set -euo pipefail
+          mkdir -p verify-output
+          python scripts/render_all.py --help || true
+          python scripts/render_all.py --all --renderer scripts/carousel_art_renderer_v16.py --output-dir verify-output
+
+      - name: Validate rendered PNG dimensions and QA
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          root = Path('verify-output')
+          pngs = sorted(root.rglob('*.png'))
+          print(f'PNG_COUNT={len(pngs)}')
+          if not pngs:
+              raise SystemExit('No PNGs were rendered')
+          bad=[]
+          for p in pngs:
+              with Image.open(p) as im:
+                  if im.size != (1080,1350): bad.append((str(p), im.size))
+          if bad:
+              print('BAD_DIMENSIONS=', bad)
+              raise SystemExit(1)
+          print('ALL_PNG_DIMENSIONS=1080x1350')
+          PY
+
+      - name: Upload six-topic verification artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: getbyterush-v16-six-topic-verification
+          path: verify-output/
+          if-no-files-found: error
+          retention-days: 7
