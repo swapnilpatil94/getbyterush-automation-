@@ -216,4 +216,22 @@ jobs:
           fi
           echo "Committing only: $NEW_POST_PACKAGE"
           git commit -m "chore: render GetByteRush Pinterest editorial v16"
-          git push origin HEAD:main
+          # Checkout is pinned to the commit that triggered this run, not the
+          # live tip of main — even serialized behind render-pinterest-v7.yml
+          # via the shared concurrency group, that other job may have
+          # advanced main while this one was rendering. Retry against the
+          # latest tip rather than assume a plain push will fast-forward.
+          # The new commit only adds a fresh, uniquely-named package
+          # directory, so rebasing it onto a newer main is always
+          # conflict-free.
+          attempt=1
+          until git push origin HEAD:main; do
+            if [ "$attempt" -ge 5 ]; then
+              echo "::error::Failed to push after $attempt attempts"
+              exit 1
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto latest origin/main and retrying"
+            git fetch origin main
+            git rebase origin/main
+            attempt=$((attempt + 1))
+          done
