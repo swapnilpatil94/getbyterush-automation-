@@ -26,8 +26,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: getbyterush-render-existing
-  cancel-in-progress: true
+  # Shared with render-pinterest-v7.yml: both workflows commit and push to
+  # main, so they must never run at the same time — a second run must queue
+  # behind the first, not race its push or get cancelled mid-render.
+  group: getbyterush-production-render
+  cancel-in-progress: false
 
 jobs:
   render-existing:
