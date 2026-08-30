@@ -1,0 +1,111 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "primitive": "hook",
+      "explicit_signal": true,
+      "accent": "#B7E32B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "GETBYTERUSH / HARDWARE",
+      "headline": "15X MORE TOKENS",
+      "body": "AI agents don't chat. They research, execute code, and spawn sub-agents—consuming 15x more tokens than standard…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "metric_value": "15X",
+      "metric_size": 605,
+      "source_label": "OpenRouter Data / NVIDIA"
+    },
+    {
+      "number": 2,
+      "primitive": "process_flow",
+      "explicit_signal": true,
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE BOTTLENECK",
+      "headline": "CONTEXT IS EATING THE DATA CENTER",
+      "body": "In agentic coding and research sessions, context accumulates across every step. Every tool call and sub-agent…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "process": [
+        "Agentic workflows extend context windows up",
+        "Standard GPU clusters waste energy recomputing"
+      ]
+    },
+    {
+      "number": 3,
+      "primitive": "annotated_screenshot",
+      "explicit_signal": true,
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "BENCHMARK EVIDENCE",
+      "headline": "REAL-WORLD AGENTIC TRAJECTORIES",
+      "body": "Using SemiAnalysis AgentX benchmarks on recorded real-world coding sessions, NVIDIA tested DeepSeek V4 Pro under actual…",
+      "psychology_intense": true,
+      "needs_evidence": true,
+      "annotation": null,
+      "badge_text": "Source — Verified"
+    },
+    {
+      "number": 4,
+      "primitive": "giant_metric",
+      "explicit_signal": true,
+      "accent": "#B7E32B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "THE BREAKTHROUGH",
+      "headline": "30X THROUGHPUT PER MEGAWATT",
+      "body": "The new Vera Rubin NVL72 platform doubles that leap—delivering up to 30x higher throughput per megawatt…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "metric_value": "30X",
+      "metric_is_word": false
+    },
+    {
+      "number": 5,
+      "primitive": "statement",
+      "explicit_signal": true,
+      "accent": "#B99A5B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "ECONOMIC IMPACT",
+      "headline": "35X LOWER TOKEN COST",
+      "body": "For power-constrained AI factories, throughput per megawatt determines total revenue—and a 35x reduction in token cost…",
+      "psychology_intense": true,
+      "needs_evidence": false
+    },
+    {
+      "number": 6,
+      "primitive": "process_flow",
+      "explicit_signal": true,
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "SYSTEM ARCHITECTURE",
+      "headline": "CODESIGNED FOR LONG CONTEXT",
+      "body": "Vera Rubin achieves this via 6th-gen NVLink, NVFP4 quantization, and distributed KV-caching—offloading inactive context to keep…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "process": [
+        "A 7-chip architecture including Vera CPU",
+        "Single-chip acceleration is dead; full-stack"
+      ]
+    },
+    {
+      "number": 7,
+      "primitive": "payoff",
+      "explicit_signal": true,
+      "accent": "#B99A5B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE BOTTOM LINE",
+      "headline": "THE ERA OF ALWAYS-ON AGENTS",
+      "body": "Inference is no longer about answering single prompts. The future belongs to AI factories optimized to…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "cta": "Follow along — we go deeper than the headline."
+    }
+  ]
+}
