@@ -220,7 +220,7 @@ jobs:
             exit 1
           fi
           echo "Committing only: $NEW_POST_PACKAGE"
-          git commit -m "chore: render GetByteRush Pinterest editorial v16"
+          git commit -m "chore: render GetByteRush existing editorial v16"
           # Checkout is pinned to the commit that triggered this run, not the
           # live tip of main — even serialized behind render-pinterest-v7.yml
           # via the shared concurrency group, that other job may have
