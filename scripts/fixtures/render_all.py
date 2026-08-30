@@ -14,15 +14,16 @@ ROOT = FIXTURES.parents[1]
 OUT = Path('/tmp/gbr-fixtures-out')
 
 sys.path.insert(0, str(ROOT / 'scripts'))
-import carousel_art_renderer_v16 as v16  # noqa: E402
+import graphics_director as gd  # noqa: E402
 
 
 def report_selection(name, data):
     total = len(data['slides'])
+    carousel = gd.direct(data)
     rows = []
     for i, s in enumerate(data['slides']):
-        role = v16.select_role(s, i, total)
-        rows.append(f"  {i+1:02d} vt={s.get('visual_type') or '-':12s} -> {role}")
+        prim = carousel['slides'][i]['primitive']
+        rows.append(f"  {i+1:02d} vt={s.get('visual_type') or '-':12s} -> {prim}")
     print(f"{name} ({total} slides):")
     print('\n'.join(rows))
 

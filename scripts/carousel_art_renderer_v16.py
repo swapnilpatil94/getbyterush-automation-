@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
-"""GetByteRush V16 — editorial visual system rewrite.
+"""GetByteRush V16 — renderer / executor.
 
-This is a full replacement of the V9-V15 render chain, not another layer on
-top of it. V9-V15 applied one fixed pixel-template per pipeline stage and
-stacked decorative overlays from file to file; this file instead selects one
-of seven genuinely distinct composition families per slide, driven by the
-editorial JSON's own `role` / `visual_type` / `background_mode` /
-`accent_color` fields, with real typography (Fraunces / Archivo / IBM Plex
-Mono) instead of Arial.
+Architecture: EDITORIAL -> GRAPHICS DIRECTOR -> V16 (this file) -> QA.
 
-Only text utilities and the evidence-capture routine are reused from V9 —
-everything visual is new.
+This file no longer decides what a slide should look like. It reads the
+CarouselSpec produced once per story by graphics_director.direct(story) —
+zero API calls, pure Python over the existing editorial JSON — and
+executes each slide's spec by calling the matching primitive from
+visual_primitives.py. What changed and why lives in graphics_director.py's
+docstring and design/design-principles.md; this file is I/O, font/asset
+routing, evidence capture, and wiring a spec to a primitive call.
 """
 import asyncio
 import json
@@ -18,8 +17,11 @@ import os
 import re
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import quote, unquote
 
 import carousel_art_renderer_v9 as v9
+import graphics_director as gd
+import visual_primitives as vp
 from playwright.async_api import async_playwright
 
 W, H = v9.W, v9.H
@@ -31,9 +33,10 @@ DATA = Path(os.environ['GBR_INPUT']) if os.environ.get('GBR_INPUT') else v9.DATA
 OUT = Path(os.environ['GBR_OUT']) if os.environ.get('GBR_OUT') else v9.OUT
 FONT_DIR = ROOT / 'assets/fonts'
 FONT_ORIGIN = 'https://gbr-assets.internal'
+ASSET_ORIGIN = 'https://gbr-local-asset.internal'
+M = vp.M
 
-clean, esc, words, punch, support = v9.clean, v9.esc, v9.words, v9.punch, v9.support
-domain, source_url, source_label = v9.domain, v9.source_url, v9.source_label
+clean, source_url, source_label, domain = v9.clean, v9.source_url, v9.source_label, v9.domain
 
 # v9.capture()'s consent-banner CSS only matches selectors containing the
 # literal substring "cookie" or "consent" — the major consent-management
@@ -70,126 +73,6 @@ async def capture(page, url, target):
     except Exception as exc:
         print('Evidence capture skipped:', exc)
         return None
-
-# v9.metric()'s regex requires a trailing \b after the matched char, which
-# silently fails for '%' followed by a space ('%' isn't a word character,
-# so no boundary exists between "%" and " ") — matching only ever worked
-# for X/x metrics by accident, since letters are word characters. Real
-# editorial content uses '%' constantly, so this is fixed locally rather
-# than carried forward.
-_METRIC_RE = re.compile(r'\b\d+(?:\.\d+)?\s*(?:[xX](?![a-zA-Z])|%)')
-
-
-def metric(text):
-    m = _METRIC_RE.search(clean(text))
-    return m.group(0).replace(' ', '') if m else ''
-
-
-def metrics_all(text, limit=3):
-    seen, out = [], []
-    for mo in _METRIC_RE.finditer(clean(text)):
-        v = mo.group(0).replace(' ', '')
-        if v.upper() not in seen:
-            seen.append(v.upper())
-            out.append(v)
-        if len(out) >= limit:
-            break
-    return out
-
-CREAM = '#F3EBDD'
-INK = '#0B0D0C'
-FOREST = '#12352B'
-GOLD = '#C9A45C'
-RED = '#B70C07'
-BLUE = '#426A78'
-LIME = '#B7E32B'
-
-M = 64  # safe margin, per design system
-
-ROLE_DEFAULT = ['hook', 'open', 'evidence', 'reveal', 'interrupt', 'architecture', 'payoff']
-
-
-def canon_role(slide, i):
-    r = clean(slide.get('role')).lower().replace(' ', '_')
-    return {
-        'interrupt': 'hook', 'open_loop': 'open', 'proof': 'evidence',
-        'escalation': 'reveal', 'pattern_interrupt': 'interrupt',
-        'implication': 'architecture', 'payoff': 'payoff',
-    }.get(r, ROLE_DEFAULT[i % len(ROLE_DEFAULT)])
-
-
-def _hex(v):
-    c = clean(v)
-    return c if re.fullmatch(r'#[0-9a-fA-F]{6}', c) else None
-
-
-# design.primary_psychology / design.emotional_mode carry the editorial
-# engine's own read on the story's psychological angle — previously
-# parsed nowhere. Keyword buckets rather than an exact-value dict, since
-# the real vocabulary Gemini uses isn't fully known and a substring match
-# degrades gracefully (no effect) on any value that isn't recognized,
-# rather than silently no-op'ing on anything not spelled exactly right.
-_PSYCH_ACCENT_BUCKETS = [
-    (('shock', 'scale', 'fear', 'urgency', 'threat', 'danger', 'risk', 'loss', 'crisis'), RED),
-    (('trust', 'credibility', 'authority', 'proof', 'verified', 'reliability'), FOREST),
-    (('curiosity', 'mystery', 'surprise', 'intrigue', 'secret', 'novelty'), LIME),
-    (('money', 'status', 'wealth', 'prestige', 'exclusiv', 'luxury', 'power'), GOLD),
-]
-_PSYCH_INTENSITY_WORDS = ('shock', 'scale', 'fear', 'urgency', 'threat', 'danger', 'crisis', 'surprise')
-
-
-def _psych_text(story):
-    d = story.get('design') or {}
-    return f"{d.get('primary_psychology', '')} {d.get('emotional_mode', '')}".lower()
-
-
-def psychology_accent(story):
-    text = _psych_text(story)
-    for words_, color in _PSYCH_ACCENT_BUCKETS:
-        if any(w in text for w in words_):
-            return color
-    return None
-
-
-def psychology_intense(story):
-    text = _psych_text(story)
-    return any(w in text for w in _PSYCH_INTENSITY_WORDS)
-
-
-def accent_of(slide, story, fallback):
-    # Per-slide accent_color wins (intentional per-slide variation); then
-    # story-level design.accent_color (the carousel's own stated mood);
-    # then a color inferred from the story's own psychology signal when
-    # neither gave an explicit one — closer to what the editorial engine
-    # actually intended than jumping straight to a hardcoded brand
-    # default. The hardcoded fallback is the last resort, not the norm.
-    return (_hex(slide.get('accent_color'))
-            or _hex((story.get('design') or {}).get('accent_color'))
-            or psychology_accent(story)
-            or fallback)
-
-
-def bg_of(slide, dark_default):
-    # Deliberately per-slide only, not story-level like accent_of: several
-    # families pair a dark accent (FOREST) with an assumed light
-    # background for contrast, so a blanket story-wide override risks
-    # silently producing near-illegible dark-on-dark text. Per-slide
-    # background_mode already gives full art-direction control, and the
-    # real editorial engine already sets it on every slide.
-    mode = clean(slide.get('background_mode')).lower()
-    if mode == 'black':
-        return INK, CREAM
-    if mode == 'cream':
-        return CREAM, INK
-    return (INK, CREAM) if dark_default else (CREAM, INK)
-
-
-def scale(text, table):
-    n = len(clean(text))
-    for limit, size in table:
-        if n <= limit:
-            return size
-    return table[-1][1]
 
 
 FONT_CSS = f'''
@@ -233,386 +116,101 @@ def doc(inner_html, bg, fg, i, total):
     return f'''<!doctype html><style>{BASE}.s{{background:{bg};color:{fg}}}</style><div class="s">{masthead(i,total,fg)}{inner_html}{foot(fg)}</div>'''
 
 
+def asset_url(path):
+    return f'{ASSET_ORIGIN}/{quote(str(Path(path).resolve()), safe="")}'
+
+
 # ---------------------------------------------------------------------------
-# Composition families
+# Executor: spec -> primitive call. This is the only place that reads a
+# SlideSpec dict; every primitive function itself takes plain typed values,
+# not the spec, so visual_primitives.py stays free of any editorial-JSON
+# or spec-schema coupling.
 # ---------------------------------------------------------------------------
 
-def comp_hook(slide, story, i, total, evidence):
-    bg, fg = bg_of(slide, dark_default=True)
-    accent = accent_of(slide, story, LIME)
-    h = punch(slide.get('headline'), 9, 70)
-    b = support(slide.get('body'), 16, 130)
-    k = esc(slide.get('kicker') or 'getByteRush / Signal')
-    m = esc(metric(slide.get('headline') or slide.get('body')))
-    # A "shock/scale/urgency" story earns a more dramatic hook than a
-    # "trust/curiosity" one — the psychology signal affecting weight, not
-    # just color, is the actual design decision it should be driving.
-    bump = 1.08 if psychology_intense(story) else 1.0
-    hsize = round(scale(h, [(14, 128), (20, 106), (28, 90), (40, 74), (999, 60)]) * bump)
-    msize = round((560 if len(m) <= 3 else 440) * bump)
-    mark = (f'<div class="serif" style="position:absolute;right:-70px;top:600px;font:900 {msize}px/.7 \'Fraunces\';letter-spacing:-.05em;color:{accent}">{m}</div>'
-            if m else
-            f'<div class="serif" style="position:absolute;right:-40px;top:640px;font:900 460px/.7 \'Fraunces\';color:{accent}">&rarr;</div>')
-    body = f'''
-    <div style="position:absolute;left:{M}px;right:340px;top:150px;color:{fg}">
-      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
-      <div class="serif" style="margin-top:26px;font:900 {hsize}px/.86 'Fraunces';letter-spacing:-.035em;text-wrap:balance">{esc(h)}</div>
-      <div style="margin-top:34px;max-width:440px;font:600 19px/1.32 'Archivo';opacity:.86">{esc(b)}</div>
-    </div>
-    {mark}
-    <div style="position:absolute;left:{M}px;bottom:118px;font:600 10px/1 'IBM Plex Mono';letter-spacing:.1em;opacity:.6" class="mono">{esc(source_label(slide))}</div>'''
-    return bg, fg, body
+def assemble(spec, evidence):
+    prim = spec['primitive']
+    accent, bg, fg = spec['accent'], spec['bg'], spec['fg']
+    kicker, headline, body = spec['kicker'], spec['headline'], spec['body']
 
+    if prim == 'hook':
+        hsize = round(gd.scale(headline, [(14, 128), (20, 106), (28, 90), (40, 74), (999, 60)]) * (1.08 if spec['psychology_intense'] else 1.0))
+        html = vp.hook(kicker, headline, hsize, body, accent, fg, spec['metric_value'], spec['metric_size'], spec['source_label'])
+        return bg, fg, html
 
-def comp_context(slide, story, i, total, evidence):
-    bg, fg = bg_of(slide, dark_default=False)
-    accent = accent_of(slide, story, FOREST)
-    h = punch(slide.get('headline'), 8, 60)
-    b = support(slide.get('body'), 20, 160)
-    k = esc(slide.get('kicker') or 'Context')
-    imp = support(slide.get('implication') or '', 14, 105)
-    hsize = scale(h, [(20, 82), (30, 68), (999, 56)])
-    pts = [(40, 210), (280, 150), (520, 90), (760, 20)]
-    path = ' '.join(f'{"M" if j == 0 else "L"}{x},{y}' for j, (x, y) in enumerate(pts))
-    nodes = ''.join(
-        f'<circle cx="{x}" cy="{y}" r="{10 if j == len(pts) - 1 else 6}" fill="{accent if j == len(pts) - 1 else "none"}" stroke="{accent}" stroke-width="2"/>'
-        for j, (x, y) in enumerate(pts)
-    )
-    body = f'''
-    <div style="position:absolute;left:{M}px;right:{M}px;top:140px;color:{fg}">
-      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
-      <div class="serif" style="margin-top:20px;font:900 {hsize}px/.9 'Fraunces';letter-spacing:-.03em;max-width:820px;text-wrap:balance">{esc(h)}</div>
-      <div style="margin-top:30px;max-width:560px;font:600 19px/1.34 'Archivo';opacity:.82">{esc(b)}</div>
-    </div>
-    <svg viewBox="0 0 800 240" width="{W - 2*M}" height="264" style="position:absolute;left:{M}px;top:480px;overflow:visible">
-      <path d="{path}" fill="none" stroke="{accent}" stroke-width="2" opacity=".55"/>
-      {nodes}
-    </svg>
-    <div style="position:absolute;left:{M}px;top:800px;width:700px;border-top:2px solid {accent};padding-top:18px;color:{fg}">
-      <div class="mono" style="font:600 9px/1 'IBM Plex Mono';letter-spacing:.14em;opacity:.6">Why it matters</div>
-      <div style="margin-top:12px;font:700 24px/1.3 'Archivo'">{esc(imp)}</div>
-    </div>'''
-    return bg, fg, body
+    if prim == 'payoff':
+        hsize = gd.scale(headline, [(18, 92), (28, 78), (40, 64), (999, 52)])
+        html = vp.payoff(kicker, headline, hsize, body, accent, fg, spec['cta'])
+        return bg, fg, html
 
+    if prim == 'statement':
+        hsize = gd.scale(headline, [(18, 100), (28, 84), (40, 68), (999, 54)])
+        html = vp.statement(kicker, headline, hsize, body, accent, fg)
+        return bg, fg, html
 
-def comp_evidence_photo(slide, story, i, total, evidence, accent, h, b, k):
-    # Photo-on-top, solid-caption-block-bottom: only reachable when a real
-    # image was captured and the editorial engine explicitly tagged this
-    # slide as photographic content, not a page screenshot. A gradient
-    # scrim over object-fit:cover was tried first and rejected — verified
-    # by direct render, not assumed: the underlying page's own body text
-    # showed through and visibly clashed with the overlaid headline
-    # whenever combined content ran long, because a gradient's opacity at
-    # any given point is fixed while headline+body length isn't. A solid
-    # panel sized by its own padding is legible regardless of content
-    # length, the same principle that fixed comp_process's collision bug.
-    dom = esc(domain(source_url(story, slide)))
-    # Starts below the masthead's hairline rule (76px) rather than true
-    # top:0 — verified by render that a literal edge-to-edge photo paints
-    # over the masthead entirely (later DOM = on top) and, separately,
-    # risks cream masthead text landing on a bright photo region with no
-    # guaranteed contrast. Insetting keeps the masthead on the plain
-    # background color on every slide, the "one publication" thread this
-    # design system depends on for cohesion across composition families.
-    photo_top, photo_h = 92, 700
-    return INK, CREAM, f'''
-    <div style="position:absolute;left:0;right:0;top:{photo_top}px;height:{photo_h}px;overflow:hidden">
-      <img src="{asset_url(evidence)}" style="width:100%;height:100%;object-fit:cover;filter:saturate(1.08)">
-    </div>
-    <div style="position:absolute;left:{M - 10}px;top:{photo_top + 16}px;background:{accent};color:{INK};padding:8px 12px;font:700 9px/1 'IBM Plex Mono';letter-spacing:.12em" class="mono">{k}</div>
-    <div style="position:absolute;left:0;right:0;top:{photo_top + photo_h}px;bottom:0;background:{INK};color:{CREAM};padding:36px {M}px 0">
-      <div class="serif" style="font:900 {scale(h,[(20,52),(30,44),(999,36)])}px/1 'Fraunces';letter-spacing:-.02em;max-width:820px;text-wrap:balance">{esc(h)}</div>
-      <div style="margin-top:16px;max-width:600px;font:600 16px/1.3 'Archivo';opacity:.82">{esc(b)}</div>
-      <div class="mono" style="margin-top:16px;font:500 10px/1 'IBM Plex Mono';letter-spacing:.1em;opacity:.55">{dom}</div>
-    </div>'''
+    if prim == 'giant_metric':
+        header = vp.header_block(kicker, headline, gd.scale(headline, [(24, 56), (36, 46), (999, 38)]), accent, fg, body, top=800, max_w=760, body_max_w=620)
+        hero = vp.giant_metric(spec['metric_value'], spec['metric_is_word'], accent, top=160 if not spec['metric_is_word'] else 300)
+        return bg, fg, hero + header
 
+    if prim == 'data_bars':
+        header = vp.header_block(kicker, headline, gd.scale(headline, [(24, 58), (36, 48), (999, 40)]), accent, fg, top=150, max_w=820)
+        hero = vp.data_bars(spec['bars'], accent, fg, top=620)
+        footer_line = f'<div style="position:absolute;left:{M}px;top:1080px;width:780px;border-top:1px solid {fg}33;padding-top:18px;color:{fg}"><div style="font:600 18px/1.32 \'Archivo\';opacity:.8">{vp.esc(body)}</div></div>'
+        return bg, fg, header + hero + footer_line
 
-def comp_evidence(slide, story, i, total, evidence):
-    bg, fg = bg_of(slide, dark_default=False)
-    accent = accent_of(slide, story, FOREST)
-    h = punch(slide.get('headline'), 8, 58)
-    b = support(slide.get('body'), 18, 140)
-    k = esc(slide.get('kicker') or 'Evidence')
-    dom = esc(domain(source_url(story, slide)))
-    hsize = scale(h, [(20, 68), (30, 58), (999, 48)])
-    if evidence and clean(slide.get('visual_type')).lower() in ('photo', 'photographic'):
-        return comp_evidence_photo(slide, story, i, total, evidence, accent, h, b, k)
-    head = f'''
-    <div style="position:absolute;left:{M}px;right:{M}px;top:140px;color:{fg}">
-      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
-      <div class="serif" style="margin-top:16px;font:900 {hsize}px/.92 'Fraunces';letter-spacing:-.03em;max-width:900px;text-wrap:balance">{esc(h)}</div>
-    </div>'''
-    if evidence:
-        card = f'''
-        <div style="position:absolute;left:{M}px;top:320px;width:820px;height:660px;background:#fff;border:1px solid rgba(11,13,12,.14);box-shadow:16px 20px 0 {accent}22;transform:rotate(-.5deg);overflow:hidden">
-          <img src="{asset_url(evidence)}" style="width:100%;height:100%;object-fit:contain;display:block;filter:grayscale(.8) contrast(1.1)">
-          <div style="position:absolute;inset:0;background:{accent};mix-blend-mode:multiply;opacity:.3;pointer-events:none"></div>
-        </div>
-        <div class="mono" style="position:absolute;left:{M + 24}px;top:298px;background:{accent};color:{CREAM};padding:8px 12px;font:700 9px/1 'IBM Plex Mono';letter-spacing:.12em">Source — Verified</div>'''
-    else:
-        src = story.get('source_story') or {}
-        title = esc(src.get('title') or slide.get('context') or 'Verified source metadata')
-        card = f'''
-        <div style="position:absolute;left:{M}px;top:320px;width:820px;height:660px;background:{INK};color:{CREAM};padding:48px">
-          <div class="mono" style="font:600 10px/1 'IBM Plex Mono';letter-spacing:.16em;color:{accent}">{esc(src.get('source') or 'Primary Source')}</div>
-          <div class="serif" style="margin-top:40px;font:600 38px/1.24 'Fraunces';font-style:italic;max-width:700px">&ldquo;{title}&rdquo;</div>
-          <div class="mono" style="position:absolute;left:48px;right:48px;bottom:40px;border-top:1px solid rgba(243,235,221,.25);padding-top:14px;font:500 11px/1.3 'IBM Plex Mono';opacity:.7;word-break:break-all">{esc(src.get('url') or dom)}</div>
+    if prim == 'comparison_split':
+        header = vp.header_block(kicker, headline, gd.scale(headline, [(20, 72), (30, 60), (999, 48)]), accent, fg, top=140, max_w=900)
+        a_label, a_val, b_label, b_val = spec['sides']
+        hero = vp.comparison_split(a_label, a_val, b_label, b_val, accent, fg, bg)
+        verdict = f'<div style="position:absolute;left:{M}px;top:1030px;width:780px;color:{fg}"><div style="font:700 18px/1.32 \'Archivo\';opacity:.85">{vp.esc(body)}</div></div>'
+        return bg, fg, header + hero + verdict
+
+    if prim == 'before_after':
+        header = vp.header_block(kicker, headline, gd.scale(headline, [(20, 72), (30, 60), (999, 48)]), accent, fg, top=140, max_w=900)
+        a_label, a_val, b_label, b_val = spec['sides']
+        hero = vp.before_after(a_label, a_val, b_label, b_val, accent, fg, bg)
+        verdict = f'<div style="position:absolute;left:{M}px;top:1030px;width:780px;color:{fg}"><div style="font:700 18px/1.32 \'Archivo\';opacity:.85">{vp.esc(body)}</div></div>'
+        return bg, fg, header + hero + verdict
+
+    if prim == 'timeline':
+        header = vp.header_block(kicker, headline, gd.scale(headline, [(20, 74), (30, 62), (999, 50)]), accent, fg, body, top=140, max_w=880, body_max_w=700)
+        hero = vp.timeline(spec['timeline_points'], accent, fg, top=740)
+        return bg, fg, header + hero
+
+    if prim == 'process_flow':
+        header = vp.header_block(kicker, headline, gd.scale(headline, [(20, 74), (30, 62), (999, 50)]), accent, fg, top=140, max_w=880)
+        frm, to = spec['process']
+        hero = vp.process_flow(frm, to, accent, fg, bg, top=460)
+        footer_line = f'<div style="position:absolute;left:{M}px;top:1060px;width:780px;border-top:1px solid {fg}33;padding-top:18px;color:{fg}"><div style="font:600 18px/1.32 \'Archivo\';opacity:.82">{vp.esc(body)}</div></div>'
+        return bg, fg, header + hero + footer_line
+
+    if prim == 'annotated_screenshot':
+        hsize = gd.scale(headline, [(20, 68), (30, 58), (999, 48)])
+        header = vp.header_block(kicker, headline, hsize, accent, fg, top=140, max_w=900)
+        if evidence:
+            hero = vp.annotated_screenshot(asset_url(evidence), accent, spec['badge_text'], spec.get('annotation'), top=320)
+            caption_top = 1010
+        else:
+            src = spec.get('_source_story') or {}
+            title = src.get('title') or spec.get('_context') or 'Verified source metadata'
+            hero = vp.citation_card(src.get('source') or 'Primary Source', title, src.get('url') or spec.get('_domain', ''), accent, top=320)
+            caption_top = 1010
+        dom = spec.get('_domain', '')
+        caption = f'''<div style="position:absolute;left:{M}px;top:{caption_top}px;width:760px;color:{fg}">
+          <div style="font:700 18px/1.3 'Archivo'">{vp.esc(body)}</div>
+          <div class="mono" style="margin-top:14px;font:500 10px/1 'IBM Plex Mono';letter-spacing:.1em;opacity:.55">{vp.esc(dom)}</div>
         </div>'''
-    caption = f'''
-    <div style="position:absolute;left:{M}px;top:1010px;width:760px;color:{fg}">
-      <div style="font:700 18px/1.3 'Archivo'">{esc(b)}</div>
-      <div class="mono" style="margin-top:14px;font:500 10px/1 'IBM Plex Mono';letter-spacing:.1em;opacity:.55">{dom}</div>
-    </div>'''
-    return bg, fg, head + card + caption
+        return bg, fg, header + hero + caption
 
+    if prim == 'visual_quote':
+        html = vp.visual_quote(kicker, spec['quote_text'], spec['quote_source'], accent, fg)
+        return bg, fg, html
 
-def comp_metric(slide, story, i, total, evidence):
-    bg, fg = bg_of(slide, dark_default=True)
-    accent = accent_of(slide, story, LIME)
-    h = punch(slide.get('headline'), 8, 58)
-    b = support(slide.get('body'), 14, 110)
-    k = esc(slide.get('kicker') or 'The Breakthrough')
-    m = esc(metric(slide.get('headline') or slide.get('body')))
-    big = m or esc(punch(slide.get('headline'), 2, 16))
-    msize = (700 if len(big) <= 3 else 560) if m else scale(big, [(8, 220), (14, 160), (999, 120)])
-    body = f'''
-    <div style="position:absolute;left:0;right:0;top:{160 if m else 300}px;text-align:center;color:{accent};overflow:visible">
-      <div class="serif" style="font:900 {msize}px/.74 'Fraunces';letter-spacing:-.06em;text-transform:uppercase">{big}</div>
-    </div>
-    <div style="position:absolute;left:{M}px;right:{M}px;top:800px;color:{fg}">
-      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
-      <div class="serif" style="margin-top:20px;font:900 {scale(h,[(24,56),(36,46),(999,38)])}px/1.02 'Fraunces';letter-spacing:-.02em;max-width:760px;text-wrap:balance">{esc(h)}</div>
-      <div style="margin-top:20px;max-width:620px;font:600 17px/1.32 'Archivo';opacity:.78">{esc(b)}</div>
-    </div>'''
-    return bg, fg, body
-
-
-def comp_statement(slide, story, i, total, evidence):
-    bg, fg = bg_of(slide, dark_default=True)
-    accent = accent_of(slide, story, GOLD)
-    h = punch(slide.get('headline'), 10, 80)
-    b = support(slide.get('body'), 16, 120)
-    k = esc(slide.get('kicker') or 'Pattern Interrupt')
-    hsize = scale(h, [(18, 100), (28, 84), (40, 68), (999, 54)])
-    body = f'''
-    <div style="position:absolute;left:0;right:0;top:0;bottom:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:{fg};padding:0 {M}px">
-      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.2em;color:{accent}">{k}</div>
-      <div style="margin-top:30px;width:120px;height:2px;background:{accent}"></div>
-      <div class="serif" style="margin-top:34px;font:900 {hsize}px/.94 'Fraunces';letter-spacing:-.03em;max-width:820px;text-wrap:balance">{esc(h)}</div>
-      <div style="margin-top:30px;width:120px;height:2px;background:{accent}"></div>
-      <div style="margin-top:34px;max-width:520px;font:600 18px/1.36 'Archivo';opacity:.75">{esc(b)}</div>
-    </div>'''
-    return bg, fg, body
-
-
-def comp_process(slide, story, i, total, evidence):
-    bg, fg = bg_of(slide, dark_default=False)
-    accent = accent_of(slide, story, FOREST)
-    h = punch(slide.get('headline'), 8, 58)
-    b = support(slide.get('body'), 18, 140)
-    k = esc(slide.get('kicker') or 'Mechanism')
-    frm = punch(slide.get('context') or 'Before', 6, 46)
-    to = punch(slide.get('implication') or 'After', 6, 46)
-    hsize = scale(h, [(20, 74), (30, 62), (999, 50)])
-    lane_w = (W - 2*M - 112) // 2
-    body = f'''
-    <div style="position:absolute;left:{M}px;right:{M}px;top:140px;color:{fg}">
-      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
-      <div class="serif" style="margin-top:20px;font:900 {hsize}px/.92 'Fraunces';letter-spacing:-.03em;max-width:880px;text-wrap:balance">{esc(h)}</div>
-    </div>
-    <div style="position:absolute;left:{M}px;top:460px;width:{lane_w}px;color:{fg}">
-      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.14em;color:{accent}">01 / From</div>
-      <div class="serif" style="margin-top:14px;font:700 32px/1.1 'Fraunces';text-wrap:balance">{esc(frm)}</div>
-    </div>
-    <div style="position:absolute;right:{M}px;top:460px;width:{lane_w}px;text-align:right;color:{fg}">
-      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.14em;color:{accent}">02 / To</div>
-      <div class="serif" style="margin-top:14px;font:700 32px/1.1 'Fraunces';text-wrap:balance">{esc(to)}</div>
-    </div>
-    <svg viewBox="0 0 {W-2*M} 40" width="{W-2*M}" height="40" style="position:absolute;left:{M}px;top:660px">
-      <line x1="0" y1="20" x2="{W-2*M-40}" y2="20" stroke="{accent}" stroke-width="2" opacity=".5"/>
-      <polygon points="{W-2*M-40},10 {W-2*M},20 {W-2*M-40},30" fill="{accent}" opacity=".85"/>
-      <circle cx="0" cy="20" r="7" fill="{bg}" stroke="{accent}" stroke-width="2"/>
-    </svg>
-    <div class="serif" style="position:absolute;right:-30px;top:730px;font:900 340px/.7 'Fraunces';color:{accent};opacity:.07">&rarr;</div>
-    <div style="position:absolute;left:{M}px;top:1060px;width:780px;border-top:1px solid {fg}33;padding-top:18px;color:{fg}">
-      <div style="font:600 18px/1.32 'Archivo';opacity:.82">{esc(b)}</div>
-    </div>'''
-    return bg, fg, body
-
-
-def comparison_sides(slide):
-    h = clean(slide.get('headline'))
-    m = re.search(r'(.+?)\s+(?:vs\.?|versus)\s+(.+)', h, re.I)
-    if m:
-        a_label, b_label = punch(m.group(1), 3, 22), punch(m.group(2), 3, 22)
-    else:
-        a_label, b_label = 'Before', 'After'
-    a_val = support(slide.get('context') or slide.get('body'), 14, 105)
-    b_val = support(slide.get('implication') or slide.get('body'), 14, 105)
-    return (a_label, a_val), (b_label, b_val)
-
-
-def comp_comparison(slide, story, i, total, evidence):
-    bg, fg = bg_of(slide, dark_default=False)
-    accent = accent_of(slide, story, RED)
-    h = punch(slide.get('headline'), 8, 58)
-    b = support(slide.get('body'), 16, 120)
-    k = esc(slide.get('kicker') or 'Comparison')
-    (a_label, a_val), (b_label, b_val) = comparison_sides(slide)
-    hsize = scale(h, [(20, 72), (30, 60), (999, 48)])
-    gap = 16
-    half = (W - 2*M - gap) // 2
-    top = 430
-    card_h = 560
-    body = f'''
-    <div style="position:absolute;left:{M}px;right:{M}px;top:140px;color:{fg}">
-      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
-      <div class="serif" style="margin-top:16px;font:900 {hsize}px/.92 'Fraunces';letter-spacing:-.03em;max-width:900px;text-wrap:balance">{esc(h)}</div>
-    </div>
-    <div style="position:absolute;left:{M}px;top:{top}px;width:{half}px;min-height:{card_h}px;background:{INK};color:{CREAM};padding:30px">
-      <div class="mono" style="font:700 10px/1 'IBM Plex Mono';letter-spacing:.16em;opacity:.6">{esc(a_label).upper()}</div>
-      <div class="serif" style="margin-top:22px;font:700 30px/1.18 'Fraunces';text-wrap:balance">{esc(a_val)}</div>
-    </div>
-    <div style="position:absolute;right:{M}px;top:{top}px;width:{half}px;min-height:{card_h}px;background:{accent};color:{CREAM};padding:30px">
-      <div class="mono" style="font:700 10px/1 'IBM Plex Mono';letter-spacing:.16em;opacity:.75">{esc(b_label).upper()}</div>
-      <div class="serif" style="margin-top:22px;font:700 30px/1.18 'Fraunces';text-wrap:balance">{esc(b_val)}</div>
-    </div>
-    <div style="position:absolute;left:50%;top:{top - 26}px;transform:translateX(-50%);width:52px;height:52px;border-radius:50%;background:{fg};color:{bg};display:flex;align-items:center;justify-content:center;font:900 12px/1 'IBM Plex Mono';letter-spacing:.04em">VS</div>
-    <div style="position:absolute;left:{M}px;top:{top + card_h + 40}px;width:780px;color:{fg}">
-      <div style="font:700 18px/1.32 'Archivo';opacity:.85">{esc(b)}</div>
-    </div>'''
-    return bg, fg, body
-
-
-def comp_datablock(slide, story, i, total, evidence):
-    bg, fg = bg_of(slide, dark_default=True)
-    accent = accent_of(slide, story, LIME)
-    h = punch(slide.get('headline'), 9, 66)
-    b = support(slide.get('body'), 18, 140)
-    k = esc(slide.get('kicker') or 'By The Numbers')
-    hsize = scale(h, [(24, 58), (36, 48), (999, 40)])
-    pool = ' '.join(clean(slide.get(f) or '') for f in ('headline', 'body', 'context', 'implication'))
-    nums = metrics_all(pool, limit=3)
-    if len(nums) < 2:
-        return comp_metric(slide, story, i, total, evidence)
-    labels = ['PRIMARY', 'SECONDARY', 'TERTIARY'][:len(nums)]
-    gap = 40
-    col_w = (W - 2*M - (len(nums) - 1) * gap) // len(nums)
-    size = 130 if len(nums) == 3 else 168
-    cols = ''
-    for j, (lab, val) in enumerate(zip(labels, nums)):
-        x = M + j * (col_w + gap)
-        cols += f'''<div style="position:absolute;left:{x}px;top:620px;width:{col_w}px">
-          <div class="mono" style="font:600 10px/1 'IBM Plex Mono';letter-spacing:.14em;color:{accent}">{lab}</div>
-          <div class="serif" style="margin-top:16px;font:900 {size}px/.78 'Fraunces';letter-spacing:-.03em;text-transform:uppercase">{esc(val)}</div>
-        </div>'''
-    body = f'''
-    <div style="position:absolute;left:{M}px;right:{M}px;top:150px;color:{fg}">
-      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
-      <div class="serif" style="margin-top:20px;font:900 {hsize}px/1 'Fraunces';letter-spacing:-.02em;max-width:820px;text-wrap:balance">{esc(h)}</div>
-    </div>
-    {cols}
-    <div style="position:absolute;left:{M}px;top:1080px;width:780px;border-top:1px solid {fg}33;padding-top:18px;color:{fg}">
-      <div style="font:600 18px/1.32 'Archivo';opacity:.8">{esc(b)}</div>
-    </div>'''
-    return bg, fg, body
-
-
-# Renderer-owned CTA copy — never generated by touching Gemini/editorial,
-# just a small curated set the renderer itself picks from, deterministically
-# per story (stable across re-renders of the same story) so it reads as an
-# editorial sign-off rather than a generic "follow for more" ad line.
-_CTA_LINES = [
-    'Save this before you need it again.',
-    'Send this to the person who needs to see it.',
-    'We test the stuff everyone else just explains.',
-    'Follow along — we go deeper than the headline.',
-    'This is the version worth remembering.',
-]
-
-
-def cta_line(story):
-    # zlib.crc32, not the builtin hash() — Python randomizes str hash()
-    # per-process (PYTHONHASHSEED) unless explicitly disabled, so the
-    # "same story picks the same line" guarantee would silently break
-    # between separate CI runs (e.g. render-existing.yml and
-    # render-pinterest-v7.yml both rendering the same story) despite
-    # looking deterministic in any single local test.
-    import zlib
-    key = clean(story.get('story_title') or story.get('story_sentence') or '')
-    return _CTA_LINES[zlib.crc32(key.encode('utf-8')) % len(_CTA_LINES)] if key else _CTA_LINES[0]
-
-
-def comp_payoff(slide, story, i, total, evidence):
-    bg, fg = bg_of(slide, dark_default=False)
-    accent = accent_of(slide, story, GOLD)
-    h = punch(slide.get('headline'), 9, 66)
-    b = support(slide.get('body'), 18, 140)
-    k = esc(slide.get('kicker') or 'The Bottom Line')
-    hsize = scale(h, [(18, 92), (28, 78), (40, 64), (999, 52)])
-    body = f'''
-    <div style="position:absolute;left:{M}px;right:{M}px;top:190px;color:{fg}">
-      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{k}</div>
-      <div class="serif" style="margin-top:24px;font:900 {hsize}px/.94 'Fraunces';letter-spacing:-.03em;max-width:840px;text-wrap:balance">{esc(h)}</div>
-      <div style="margin-top:28px;max-width:600px;font:600 18px/1.36 'Archivo';opacity:.8">{esc(b)}</div>
-    </div>
-    <div class="serif" style="position:absolute;right:-40px;top:560px;font:900 460px/.7 'Fraunces';color:{fg};opacity:.06">&rarr;</div>
-    <div style="position:absolute;left:{M}px;top:900px;color:{fg}">
-      <div class="serif" style="font:600 64px/1 'Fraunces';font-style:italic;color:{accent}">getByteRush<span style="color:{fg}">.</span></div>
-      <div class="mono" style="margin-top:18px;font:600 11px/1.3 'IBM Plex Mono';letter-spacing:.06em;opacity:.6;text-transform:none">{esc(cta_line(story))}</div>
-    </div>'''
-    return bg, fg, body
-
-
-COMPOSERS = {
-    'hook': comp_hook, 'open': comp_context, 'evidence': comp_evidence,
-    'reveal': comp_metric, 'interrupt': comp_statement,
-    'architecture': comp_process, 'payoff': comp_payoff,
-    'comparison': comp_comparison, 'data': comp_datablock,
-}
-
-# Content-type signal (visual_type, set by the editorial engine per slide)
-# takes priority over the story-arc role for interior slides — a
-# "comparison" slide should render as a comparison regardless of which
-# story beat it happens to fall on. The role-based canon and the
-# positional cycle exist only as fallbacks for content that doesn't carry
-# a recognized visual_type.
-VISUAL_TYPE_MAP = {
-    'comparison': 'comparison', 'versus': 'comparison', 'vs': 'comparison',
-    'metric': 'reveal', 'stat': 'reveal', 'number': 'reveal', 'shock-number': 'reveal', 'reveal': 'reveal',
-    'data': 'data', 'stats': 'data', 'statistics': 'data', 'datapoints': 'data',
-    'evidence': 'evidence', 'screenshot': 'evidence', 'product': 'evidence',
-    'photo': 'evidence', 'photographic': 'evidence',
-    'diagram': 'architecture', 'flow': 'architecture', 'process': 'architecture', 'mechanism': 'architecture',
-    'typography': 'interrupt', 'quote': 'interrupt', 'insight': 'interrupt', 'statement': 'interrupt',
-    'final': 'payoff',
-}
-
-# Positional variety net: only used when neither visual_type nor role
-# gives a signal, so unrecognized content still varies slide-to-slide
-# instead of collapsing onto one family. Never includes hook/payoff —
-# those are reserved for the carousel's structural bookends.
-POSITION_CYCLE = ['open', 'evidence', 'reveal', 'interrupt', 'architecture', 'comparison', 'data']
-
-
-def select_role(slide, i, total):
-    if i == 0:
-        return 'hook'
-    if i == total - 1:
-        return 'payoff'
-    vt = clean(slide.get('visual_type')).lower()
-    if vt in VISUAL_TYPE_MAP:
-        return VISUAL_TYPE_MAP[vt]
-    r = canon_role(slide, i)
-    if r in COMPOSERS and r not in ('hook', 'payoff'):
-        return r
-    return POSITION_CYCLE[i % len(POSITION_CYCLE)]
-
-
-def render(slide, story, i, total, evidence):
-    r = select_role(slide, i, total)
-    fn = COMPOSERS.get(r, comp_statement)
-    return fn(slide, story, i, total, evidence)
+    # Should be unreachable — every primitive name graphics_director can
+    # emit is handled above — but fail into the calm reset rather than a
+    # KeyError if a future primitive name isn't wired up here yet.
+    hsize = gd.scale(headline, [(18, 100), (28, 84), (40, 68), (999, 54)])
+    return bg, fg, vp.statement(kicker, headline, hsize, body, accent, fg)
 
 
 async def _fulfill_font(route):
@@ -624,24 +222,7 @@ async def _fulfill_font(route):
         await route.abort()
 
 
-# Chromium refuses to load file:// resources from a page.set_content()
-# document ("Not allowed to load local resource") — that origin has no
-# real scheme, so local-file access is blocked outright, silently, with
-# no visible error in the rendered screenshot. Every evidence image
-# (`<img src="{asset_url(evidence)}">`) would fail to display even when
-# capture succeeded — confirmed via direct reproduction, and via prior
-# CI packages that DO contain a captured evidence/source.png the render
-# never actually showed. Routed the same way fonts already are instead.
-ASSET_ORIGIN = 'https://gbr-local-asset.internal'
-
-
-def asset_url(path):
-    from urllib.parse import quote
-    return f'{ASSET_ORIGIN}/{quote(str(Path(path).resolve()), safe="")}'
-
-
 async def _fulfill_asset(route):
-    from urllib.parse import unquote
     local_path = unquote(route.request.url[len(ASSET_ORIGIN) + 1:])
     p = Path(local_path)
     if p.exists():
@@ -655,34 +236,49 @@ async def main():
     slides = story.get('slides') or []
     if not story.get('selected') or not slides:
         raise SystemExit('No selected editorial')
+
+    carousel = gd.direct(story)
+    specs = carousel['slides']
+
     now = datetime.now().astimezone()
     slug = re.sub(r'[^a-z0-9]+', '-', clean(story.get('story_title', 'post')).lower()).strip('-')[:72]
     pkg = OUT / now.strftime('%Y-%m-%d') / (now.strftime('%H%M%S') + '-' + slug)
     sd, hd, ed = pkg / 'slides', pkg / 'html', pkg / 'evidence'
     for p in (sd, hd, ed):
         p.mkdir(parents=True, exist_ok=True)
+
     async with async_playwright() as pw:
         browser = await pw.chromium.launch()
         page = await browser.new_page(viewport={'width': W, 'height': H}, device_scale_factor=1)
         await page.route(f'{FONT_ORIGIN}/**', _fulfill_font)
         await page.route(f'{ASSET_ORIGIN}/**', _fulfill_asset)
         for i, slide in enumerate(slides):
+            spec = specs[i]
             evidence = None
-            if select_role(slide, i, len(slides)) == 'evidence':
+            if spec.get('needs_evidence'):
                 target = ed / f'{i+1:02d}.png'
                 evidence = await capture(page, source_url(story, slide), target)
-            bg, fg, inner_html = render(slide, story, i, len(slides), evidence)
+                src = story.get('source_story') or {}
+                spec['_source_story'] = src
+                spec['_context'] = slide.get('context')
+                spec['_domain'] = domain(source_url(story, slide))
+            bg, fg, inner_html = assemble(spec, evidence)
             html_text = doc(inner_html, bg, fg, i + 1, len(slides))
             (hd / f'{i+1:02d}.html').write_text(html_text)
             await page.set_content(html_text, wait_until='load')
             await page.evaluate('document.fonts.ready')
             await page.screenshot(path=str(sd / f'{i+1:02d}.png'), full_page=False)
         await browser.close()
+
     out = dict(story)
     out['renderer'] = 'getbyterush-pinterest-editorial-v16'
     out['gemini_calls'] = 0
     out['rendered_at'] = datetime.now().astimezone().isoformat()
     (pkg / 'post.json').write_text(json.dumps(out, ensure_ascii=False, indent=2))
+    (pkg / 'design_spec.json').write_text(json.dumps(
+        {'slides': [{k: v for k, v in s.items() if not k.startswith('_')} for s in specs]},
+        ensure_ascii=False, indent=2,
+    ))
     for name, value in [('caption.txt', story.get('caption', '')), ('alt-text.txt', story.get('alt_text', '')),
                          ('hashtags.txt', ' '.join(story.get('hashtags', []) or [])),
                          ('pinned-comment.txt', story.get('pinned_comment', ''))]:
@@ -690,6 +286,7 @@ async def main():
     print(f'RENDERED={pkg}')
     print('GEMINI_CALL=0')
     print('SLIDES=', len(slides))
+    print('PRIMITIVES=', [s['primitive'] for s in specs])
 
 
 if __name__ == '__main__':
