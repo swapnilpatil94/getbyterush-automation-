@@ -2,9 +2,9 @@
   "content_id": "260831132132-from-assistance-to-e-1699c0",
   "story_title": "From Assistance to Execution: How Enterprises Put AI to Work",
   "source_url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "status": "APPROVED",
   "created_at": "2026-08-31T13:21:32.861891+00:00",
-  "updated_at": "2026-08-31T13:21:37.379442+00:00",
+  "updated_at": "2026-08-31T13:27:28.103507+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -35,6 +35,11 @@
       "status": "AWAITING_TELEGRAM_APPROVAL",
       "at": "2026-08-31T13:21:37.379458+00:00",
       "note": ""
+    },
+    {
+      "status": "APPROVED",
+      "at": "2026-08-31T13:27:28.103523+00:00",
+      "note": "approved via Telegram"
     }
   ],
   "attempts": {
