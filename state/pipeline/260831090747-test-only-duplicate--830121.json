@@ -2,9 +2,9 @@
   "content_id": "260831090747-test-only-duplicate--830121",
   "story_title": "[TEST ONLY — duplicate-click test] V17 grammar stress test — every remaining path",
   "source_url": "https://example.com/dup-click-test",
-  "status": "QA_PASSED",
+  "status": "APPROVED",
   "created_at": "2026-08-31T09:07:47.376333+00:00",
-  "updated_at": "2026-08-31T09:08:46.190301+00:00",
+  "updated_at": "2026-08-31T09:09:36.332372+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -15,6 +15,11 @@
       "status": "QA_PASSED",
       "at": "2026-08-31T09:08:46.190313+00:00",
       "note": "regenerated, attempts={'visual': 0, 'different_approach': 0}"
+    },
+    {
+      "status": "APPROVED",
+      "at": "2026-08-31T09:09:36.332388+00:00",
+      "note": "approved via Telegram"
     }
   ],
   "attempts": {
