@@ -200,6 +200,17 @@ def score_candidate(story, now=None):
     if is_evergreen and information_value >= 6:
         strong_signals.append("EXPLAINABLE")
 
+    # Reel-readiness flags — not wired into any Reel automation (none
+    # exists yet), just preserved on every candidate per the brief so a
+    # future Reel pipeline can filter on them without re-deriving from
+    # scratch. Faceless/screen-recording/real-demo content is what Reels
+    # should favor over a carousel read aloud.
+    mobile_demo_possible = any(p in text for p in ("app store", "play store", "ios app", "android app", "mobile app"))
+    website_demo_possible = bucket == "PRODUCT_TOOL" or any(p in text for p in ("website", "web app", "dashboard", "browser extension"))
+    product_demo_possible = bucket == "PRODUCT_TOOL" or mobile_demo_possible or website_demo_possible
+    screen_recording_possible = is_experiment or product_demo_possible
+    visual_demo_possible = visual_potential >= 6 or is_experiment or product_demo_possible
+
     return {
         "content_type": bucket,
         "score": total,
@@ -217,6 +228,11 @@ def score_candidate(story, now=None):
         "evidence_available": evidence_available,
         "evergreen": is_evergreen,
         "experiment_possible": is_experiment,
+        "screen_recording_possible": screen_recording_possible,
+        "product_demo_possible": product_demo_possible,
+        "mobile_demo_possible": mobile_demo_possible,
+        "website_demo_possible": website_demo_possible,
+        "visual_demo_possible": visual_demo_possible,
         "timeliness": timeliness,
         "novelty": novelty,
         "visual_potential": visual_potential,

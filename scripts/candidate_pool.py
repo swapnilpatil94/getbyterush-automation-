@@ -86,6 +86,13 @@ def _entry_from_story(story, content_id):
         "information_value": scored["information_value"],
         "credibility": scored["credibility"],
         "experiment_possible": scored["experiment_possible"],
+        "reel_readiness": {
+            "screen_recording_possible": scored["screen_recording_possible"],
+            "product_demo_possible": scored["product_demo_possible"],
+            "mobile_demo_possible": scored["mobile_demo_possible"],
+            "website_demo_possible": scored["website_demo_possible"],
+            "visual_demo_possible": scored["visual_demo_possible"],
+        },
         "status": STATUS_POOLED,
         "score": scored["score"],
         "raw": story,
