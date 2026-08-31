@@ -1,0 +1,34 @@
+name: Send Make.com Sample Payload (One-off Setup Helper)
+
+# Not part of the publishing pipeline — sends one representative
+# {"caption": ..., "images": [...]} payload to the Make.com webhook so
+# its "Listening for data" step can learn the JSON structure, which the
+# Instagram module's field mapper needs before caption/images can be
+# mapped from the Webhooks module. Bypasses content_state entirely: this
+# never claims a real publish happened, never touches any content_id.
+# Safe to delete once the Make.com scenario's field mapping is fixed.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  send-sample:
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST a representative sample payload
+        env:
+          MAKE_COM_WEBHOOK_URL: ${{ secrets.MAKE_COM_WEBHOOK_URL }}
+        run: |
+          curl -sS -X POST "$MAKE_COM_WEBHOOK_URL" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "caption": "Sample caption for Make.com schema detection — GetByteRush",
+              "images": [
+                "https://raw.githubusercontent.com/swapnilpatil94/getbyterush-automation-/main/output/posts/2026-08-31/084857-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/01.png",
+                "https://raw.githubusercontent.com/swapnilpatil94/getbyterush-automation-/main/output/posts/2026-08-31/084857-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/02.png"
+              ]
+            }'
+          echo
