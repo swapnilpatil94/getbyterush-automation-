@@ -1,0 +1,63 @@
+{
+  "content_id": "260831094641-test-only-jpeg-fix-c-f5a667",
+  "story_title": "[TEST ONLY — JPEG fix confirmation] Klarna Cut 700 Support Roles With One AI Deployment",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-08-31/095021-test-only-jpeg-fix-confirmation-klarna-cut-700-support-roles-with-one-ai/slides/01.jpg",
+    "output/posts/2026-08-31/095021-test-only-jpeg-fix-confirmation-klarna-cut-700-support-roles-with-one-ai/slides/02.jpg",
+    "output/posts/2026-08-31/095021-test-only-jpeg-fix-confirmation-klarna-cut-700-support-roles-with-one-ai/slides/03.jpg",
+    "output/posts/2026-08-31/095021-test-only-jpeg-fix-confirmation-klarna-cut-700-support-roles-with-one-ai/slides/04.jpg",
+    "output/posts/2026-08-31/095021-test-only-jpeg-fix-confirmation-klarna-cut-700-support-roles-with-one-ai/slides/05.jpg"
+  ],
+  "slide_count": 5,
+  "caption": "This is a real, non-empty test caption confirming the JPEG output format fix works end-to-end with Make.com. Safe to delete — GetByteRush test post.",
+  "pinned_comment": "fixture",
+  "alt_text_overall": "5-slide carousel: Klarna Cut 700 Support Roles With One AI Deployment",
+  "alt_text_per_slide": [
+    "Slide 1: 700 JOBS. ONE ALGORITHM.. Klarna’s AI assistant now handles the workload of 700 full-time agents. — shown as one large highlighted number or word.",
+    "Slide 2: THE UPDATE THAT CONFIRMED IT WASN’T A FLUKE.. A year after the first headlines, Klarna published performance numbers instead of predictions. — shown as pinned reference facts.",
+    "Slide 3: THE NUMBERS BEHIND THE CUT.. Support costs dropped 27%, resolution time fell 3x, and customer satisfaction held at 65% — within two points of the human baseline. — shown as a grid of cells showing the proportion as filled versus empty cells.",
+    "Slide 4: BEFORE AI VS AFTER AI.. The support org didn’t shrink evenly — it inverted. — shown as a side-by-side comparison.",
+    "Slide 5: THE CASE STUDY EVERY CFO IS READING.. Klarna didn’t automate support. It replaced the org chart. — shown as a closing statement with the GetByteRush signature."
+  ],
+  "hashtags": [
+    "GetByteRush",
+    "Test"
+  ],
+  "cta": "We test the stuff everyone else just explains.",
+  "seo": {
+    "primary_keyword": "TEST ONLY",
+    "secondary_keywords": [
+      "GetByteRush",
+      "JPEG",
+      "Klarna Cut",
+      "Support Roles With",
+      "One AI Deployment",
+      "Klarna Q3 Investor"
+    ],
+    "search_phrases": [
+      "what is TEST ONLY",
+      "TEST ONLY vs JPEG",
+      "TEST ONLY GetByteRush",
+      "TEST ONLY JPEG"
+    ],
+    "entities": [
+      "TEST ONLY",
+      "JPEG",
+      "Klarna Cut",
+      "Support Roles With",
+      "One AI Deployment",
+      "Klarna Q3 Investor"
+    ]
+  },
+  "source_attribution": {
+    "title": "Klarna Q3 Investor Update: AI Assistant Performance",
+    "source": "Klarna Press Room",
+    "url": "https://klarna.com/press/ai-assistant-q3",
+    "sources": [
+      "https://klarna.com/press/ai-assistant-q3"
+    ],
+    "fact_check": []
+  }
+}

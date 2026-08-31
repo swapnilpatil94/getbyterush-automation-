@@ -1,0 +1,127 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "singular_object",
+      "variant": "metric_texture",
+      "primitive": "singular_object:metric_texture",
+      "accent": "#B7E32B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "GETBYTERUSH / BUSINESS",
+      "headline": "700 JOBS. ONE ALGORITHM",
+      "body": "Klarna’s AI assistant now handles the workload of 700 full-time agents.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "numeral",
+        "unit texture"
+      ],
+      "density": "sparse",
+      "headline_optional": true,
+      "metric_value": "700"
+    },
+    {
+      "number": 2,
+      "grammar": "evidence_board",
+      "variant": "single_citation",
+      "primitive": "evidence_board:single_citation",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE ANNOUNCEMENT",
+      "headline": "THE UPDATE THAT CONFIRMED IT WASN’T A FLUKE",
+      "body": "A year after the first headlines, Klarna published performance numbers instead of predictions.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "source name",
+        "quoted claim"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "source_label_full": "KLARNA PRESS ROOM",
+      "quote_text": "A year after the first headlines, Klarna published performance numbers instead of predictions."
+    },
+    {
+      "number": 3,
+      "grammar": "proportional_field",
+      "variant": "bar_split",
+      "primitive": "proportional_field:bar_split",
+      "accent": "#B7E32B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "THE PERFORMANCE DATA",
+      "headline": "THE NUMBERS BEHIND THE CUT",
+      "body": "Support costs dropped 27%, resolution time fell 3x, and customer satisfaction held at 65% — within…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "fill numeral",
+        "seam",
+        "labels"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "pct": 27,
+      "label_hi": "Share",
+      "label_lo": "Remaining"
+    },
+    {
+      "number": 4,
+      "grammar": "comparison",
+      "variant": "matrix",
+      "primitive": "comparison:matrix",
+      "accent": "#B70C07",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE SHIFT",
+      "headline": "BEFORE AI VS AFTER AI",
+      "body": "The support org didn’t shrink evenly — it inverted.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "row values",
+        "winning column",
+        "labels"
+      ],
+      "density": "dense",
+      "headline_optional": true,
+      "a_label": "BEFORE AI",
+      "b_label": "AFTER AI",
+      "rows": [
+        [
+          "01",
+          "700 agents",
+          "AI assistant"
+        ],
+        [
+          "02",
+          "11-minute average resolution",
+          "2-minute average resolution"
+        ]
+      ]
+    },
+    {
+      "number": 5,
+      "grammar": "payoff",
+      "variant": "payoff",
+      "primitive": "payoff",
+      "accent": "#C9A45C",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE BOTTOM LINE",
+      "headline": "THE CASE STUDY EVERY CFO IS READING",
+      "body": "Klarna didn’t automate support. It replaced the org chart.",
+      "cta": "We test the stuff everyone else just explains.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "signature",
+        "CTA"
+      ],
+      "density": "sparse",
+      "headline_optional": false
+    }
+  ]
+}
