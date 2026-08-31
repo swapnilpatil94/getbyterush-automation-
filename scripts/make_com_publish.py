@@ -59,9 +59,18 @@ def publish(content_id):
         rel = os.path.relpath(local_path, start=os.getcwd()).replace(os.sep, "/")
         return f"https://raw.githubusercontent.com/{repo}/main/{rel}"
 
+    # Make.com's native "Instagram for Business — Create a carousel post"
+    # module requires each Files item as an object with exactly these
+    # three keys (confirmed via Make.com's own community docs after a
+    # live "Array of objects expected in parameter 'files'" validation
+    # error) — a plain array of URL strings, which is what this sent
+    # before, isn't a shape that module accepts at all.
     payload = {
         "caption": package.get("caption", ""),
-        "images": [public_url(p) for p in package["images"][:10]],
+        "images": [
+            {"media_type": "IMAGE", "image_url": public_url(p), "video_url": ""}
+            for p in package["images"][:10]
+        ],
     }
 
     cs.transition(content_id, "PUBLISHING", note="Make.com webhook")

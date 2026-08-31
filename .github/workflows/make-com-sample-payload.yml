@@ -27,8 +27,8 @@ jobs:
             -d '{
               "caption": "Sample caption for Make.com schema detection — GetByteRush",
               "images": [
-                "https://raw.githubusercontent.com/swapnilpatil94/getbyterush-automation-/main/output/posts/2026-08-31/084857-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/01.png",
-                "https://raw.githubusercontent.com/swapnilpatil94/getbyterush-automation-/main/output/posts/2026-08-31/084857-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/02.png"
+                {"media_type": "IMAGE", "image_url": "https://raw.githubusercontent.com/swapnilpatil94/getbyterush-automation-/main/output/posts/2026-08-31/095021-test-only-jpeg-fix-confirmation-klarna-cut-700-support-roles-with-one-ai/slides/01.jpg", "video_url": ""},
+                {"media_type": "IMAGE", "image_url": "https://raw.githubusercontent.com/swapnilpatil94/getbyterush-automation-/main/output/posts/2026-08-31/095021-test-only-jpeg-fix-confirmation-klarna-cut-700-support-roles-with-one-ai/slides/02.jpg", "video_url": ""}
               ]
             }'
           echo
