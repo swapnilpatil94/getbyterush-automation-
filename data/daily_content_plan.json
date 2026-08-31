@@ -1,7 +1,7 @@
 {
   "date": "2026-08-31",
   "target": 2,
-  "selected_count": 2,
+  "selected_count": 3,
   "quality_floor": 50,
   "no_quality_post": false,
   "posts": [
@@ -34,6 +34,28 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260831112446-how-netomi-scales-en-85ad55"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-dc07c2b809f21a76",
+      "topic": "Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk",
+      "category": "EVERGREEN_VALUE",
+      "score": 62,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/forecasting-misuse",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
-  ]
+  ],
+  "slots": {
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-dc07c2b809f21a76",
+      "label": "Maximum push"
+    }
+  }
 }
