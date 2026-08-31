@@ -2,9 +2,9 @@
   "content_id": "260831112406-ai-agents-take-over--42caf9",
   "story_title": "AI Agents Take Over Food Distribution",
   "source_url": "https://openai.com/index/choco",
-  "status": "APPROVED",
+  "status": "PUBLISHING",
   "created_at": "2026-08-31T11:24:06.189365+00:00",
-  "updated_at": "2026-08-31T11:35:22.042745+00:00",
+  "updated_at": "2026-08-31T11:41:13.371215+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -40,6 +40,11 @@
       "status": "APPROVED",
       "at": "2026-08-31T11:35:22.042761+00:00",
       "note": "approved via Telegram"
+    },
+    {
+      "status": "PUBLISHING",
+      "at": "2026-08-31T11:41:13.371231+00:00",
+      "note": "Make.com webhook"
     }
   ],
   "attempts": {
@@ -49,6 +54,9 @@
   "avoid_grammars": [],
   "rejections": [],
   "package_path": "output/posts/2026-08-31/112406-ai-agents-take-over-food-distribution",
-  "publish": {},
+  "publish": {
+    "make_com_accepted": true,
+    "note": "accepted by Make.com — NOT confirmed published, verify on Instagram"
+  },
   "story_path": "data/pipeline/260831112406-ai-agents-take-over--42caf9.json"
 }
