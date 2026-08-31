@@ -1,7 +1,7 @@
 {
   "date": "2026-08-31",
   "target": 2,
-  "selected_count": 6,
+  "selected_count": 7,
   "quality_floor": 50,
   "no_quality_post": false,
   "posts": [
@@ -96,12 +96,28 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260831141004-designing-ai-agents--9f0f79"
+    },
+    {
+      "rank": 7,
+      "slot": "night",
+      "content_id": "cand-b65d7c7c6af7de67",
+      "topic": "New funding to build towards AGI",
+      "category": "EVERGREEN_VALUE",
+      "score": 61,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/march-funding-updates",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260831145925-openai-raises-40b-at-b46fe9"
     }
   ],
   "slots": {
     "night": {
       "status": "SELECTED",
-      "content_id": "cand-fe3e604578612cb9",
+      "content_id": "cand-b65d7c7c6af7de67",
       "label": "Maximum push"
     },
     "morning": {

@@ -1,0 +1,165 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "singular_object",
+      "variant": "metric_texture",
+      "primitive": "singular_object:metric_texture",
+      "accent": "#B7E32B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "OPENAI / VALUATION",
+      "headline": "$300 BILLION",
+      "body": "OpenAI just closed the largest single funding round in tech history.",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "numeral",
+        "unit texture"
+      ],
+      "density": "sparse",
+      "headline_optional": true,
+      "metric_value": "300 BILLION"
+    },
+    {
+      "number": 2,
+      "grammar": "singular_object",
+      "variant": "metric_texture",
+      "primitive": "singular_object:metric_texture",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE CAPITAL",
+      "headline": "$40 Billion in fresh funding",
+      "body": "This single capital injection is larger than the entire venture capital pool of most nations.",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "numeral",
+        "unit texture"
+      ],
+      "density": "sparse",
+      "headline_optional": true,
+      "metric_value": "40 Billion"
+    },
+    {
+      "number": 3,
+      "grammar": "evidence_board",
+      "variant": "single_citation",
+      "primitive": "evidence_board:single_citation",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "USER BASE",
+      "headline": "500 Million weekly ChatGPT users",
+      "body": "OpenAI confirmed half a billion people now actively use ChatGPT every single week.",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "source name",
+        "quoted claim"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "source_label_full": "SOURCE / OPENAI INDEX",
+      "quote_text": "OpenAI confirmed half a billion people now actively use ChatGPT every single week."
+    },
+    {
+      "number": 4,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#B99A5B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE REALITY",
+      "headline": "Why do they need $40B",
+      "body": "Pushing frontiers toward AGI requires scaling compute infrastructure, custom silicon, and gigawatt-scale data centers.",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Analysis of compute requirements for frontier AI models.",
+        "After",
+        "The cost of frontier AI research has priced out almost every standard tech company."
+      ]
+    },
+    {
+      "number": 5,
+      "grammar": "quote",
+      "variant": "pull_quote",
+      "primitive": "quote:pull_quote",
+      "accent": "#B7E32B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "FIELD NOTE",
+      "headline": "THE NEW MOAT IS CAPITAL",
+      "body": "Algorithms are open-sourced. Models are benchmarked. But $40B in raw compute infrastructure cannot be duplicated overnight.",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "quote text",
+        "source"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "quote_text": "Algorithms are open-sourced. Models are benchmarked. But $40B in raw compute infrastructure cannot be duplicated overnight.",
+      "quote_source": "FIELD NOTE / GETBYTERUSH"
+    },
+    {
+      "number": 6,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "SO WHAT?",
+      "headline": "What this means for the AI industry",
+      "body": "Startups will increasingly rely on fine-tuning and application layers. Building foundational models from scratch is now…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Industry takeaway on foundational model dynamics.",
+        "After",
+        "The barrier to entry for base model training is at an all-time high."
+      ]
+    },
+    {
+      "number": 7,
+      "grammar": "payoff",
+      "variant": "payoff",
+      "primitive": "payoff",
+      "accent": "#B7E32B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "THE VERDICT",
+      "headline": "AGI isn't just software. It's macroeconomics",
+      "body": "At a $300B valuation, OpenAI is no longer operating like a traditional software startup—it's building public-scale…",
+      "cta": "Send this to the person who needs to see it.",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "signature",
+        "CTA"
+      ],
+      "density": "sparse",
+      "headline_optional": false
+    }
+  ]
+}

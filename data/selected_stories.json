@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Designing AI agents to resist prompt injection",
-      "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "description": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
-      "published": "Wed, 11 Mar 2026 11:30:00 GMT",
+      "title": "New funding to build towards AGI",
+      "url": "https://openai.com/index/march-funding-updates",
+      "description": "Today we’re announcing new funding—$40B at a $300B post-money valuation, which enables us to push the frontiers of AI research even further, scale our compute infrastructure, and deliver increasingly powerful tools for the 500 million people who use ChatGPT every week.",
+      "published": "Mon, 31 Mar 2025 15:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 18,
-      "impact_score": 4,
+      "impact_score": 9,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 22,
-      "content_id": "cand-fe3e604578612cb9",
+      "pre_filter_score": 27,
+      "content_id": "cand-b65d7c7c6af7de67",
       "selection_meta": {
-        "rank": 6,
+        "rank": 7,
         "total": null,
         "slot": "night",
         "slot_label": "Maximum push",
         "category": "EVERGREEN_VALUE",
-        "quality_score": 62,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
+        "quality_score": 61,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
         "source": "OpenAI News"
       }
     }

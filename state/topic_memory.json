@@ -2,6 +2,29 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Raises $40B at a $300B Valuation",
+      "source_title": "New funding to build towards AGI",
+      "url": "https://openai.com/index/march-funding-updates",
+      "source": "OpenAI News",
+      "normalized_title": "openai raises 40b at a 300b valuation",
+      "normalized_source_title": "new funding to build towards agi",
+      "tokens": [
+        "300b",
+        "40b",
+        "openai",
+        "raises",
+        "valuation"
+      ],
+      "source_tokens": [
+        "agi",
+        "build",
+        "funding",
+        "new",
+        "towards"
+      ],
+      "recorded_at": "2026-08-31T14:59:25.631493+00:00"
+    },
+    {
       "title": "Designing AI Agents to Resist Prompt Injection",
       "source_title": "Designing AI agents to resist prompt injection",
       "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
