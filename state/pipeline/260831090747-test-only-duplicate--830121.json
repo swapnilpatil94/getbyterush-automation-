@@ -2,9 +2,9 @@
   "content_id": "260831090747-test-only-duplicate--830121",
   "story_title": "[TEST ONLY — duplicate-click test] V17 grammar stress test — every remaining path",
   "source_url": "https://example.com/dup-click-test",
-  "status": "APPROVED",
+  "status": "FAILED",
   "created_at": "2026-08-31T09:07:47.376333+00:00",
-  "updated_at": "2026-08-31T09:09:36.332372+00:00",
+  "updated_at": "2026-08-31T09:15:42.992994+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -20,6 +20,16 @@
       "status": "APPROVED",
       "at": "2026-08-31T09:09:36.332388+00:00",
       "note": "approved via Telegram"
+    },
+    {
+      "status": "PUBLISHING",
+      "at": "2026-08-31T09:15:42.715160+00:00",
+      "note": "Make.com webhook"
+    },
+    {
+      "status": "FAILED",
+      "at": "2026-08-31T09:15:42.993010+00:00",
+      "note": "Make.com webhook HTTP 410: There is no scenario listening for this webhook."
     }
   ],
   "attempts": {
