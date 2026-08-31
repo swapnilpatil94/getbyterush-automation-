@@ -10,8 +10,8 @@
     "updated_at": "2026-08-31T05:37:00.619187+00:00"
   },
   "260831075007-test-only-webhook-fl-e8a182": {
-    "status": "DISCOVERED",
+    "status": "QA_PASSED",
     "story_title": "[TEST ONLY — webhook flow test] V17 grammar stress test — every remaining path",
-    "updated_at": "2026-08-31T07:50:07.055443+00:00"
+    "updated_at": "2026-08-31T07:51:22.297294+00:00"
   }
 }
