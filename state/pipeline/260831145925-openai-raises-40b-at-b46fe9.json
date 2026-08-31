@@ -2,9 +2,9 @@
   "content_id": "260831145925-openai-raises-40b-at-b46fe9",
   "story_title": "OpenAI Raises $40B at a $300B Valuation",
   "source_url": "https://openai.com/index/march-funding-updates",
-  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "status": "APPROVED",
   "created_at": "2026-08-31T14:59:25.659004+00:00",
-  "updated_at": "2026-08-31T14:59:31.324935+00:00",
+  "updated_at": "2026-08-31T15:00:18.662651+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -35,6 +35,11 @@
       "status": "AWAITING_TELEGRAM_APPROVAL",
       "at": "2026-08-31T14:59:31.324949+00:00",
       "note": ""
+    },
+    {
+      "status": "APPROVED",
+      "at": "2026-08-31T15:00:18.662668+00:00",
+      "note": "approved via Telegram"
     }
   ],
   "attempts": {
