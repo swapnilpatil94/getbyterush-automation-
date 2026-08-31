@@ -49,7 +49,7 @@ def eligible_candidates(pool_entries, recent_memory):
     eligible = []
     seen_within_pool = []
     for entry in pool_entries:
-        if entry.get("status") == cp.STATUS_SELECTED:
+        if entry.get("status") in (cp.STATUS_SELECTED, cp.STATUS_EDITORIAL_REJECTED):
             continue
         if _topic_blocked(entry, recent_memory):
             continue

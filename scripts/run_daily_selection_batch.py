@@ -89,12 +89,18 @@ def _generate_one(pool_content_id, story, plan):
     editorial = _run([sys.executable, "scripts/editorial_engine.py"])
     if editorial.returncode != 0:
         _update_post(plan, pool_content_id, editorial_status="FAILED")
+        # Gemini rejected it (e.g. scored below editorial_engine.py's own
+        # production threshold even after its internal repair retry) —
+        # don't let the next slot immediately re-pick and re-spend a
+        # Gemini call on the same likely-rejected candidate today.
+        cp.mark_editorial_rejected([pool_content_id])
         print(f"EDITORIAL_FAILED for {pool_content_id}.")
         return 1, _load_plan()
 
     selected = json.loads(SELECTED_STORY_PATH.read_text(encoding="utf-8"))
     if not selected.get("selected"):
         _update_post(plan, pool_content_id, editorial_status="REJECTED_BY_EDITORIAL")
+        cp.mark_editorial_rejected([pool_content_id])
         print(f"Editorial engine did not select {pool_content_id} despite being pre-picked.")
         return 1, _load_plan()
 

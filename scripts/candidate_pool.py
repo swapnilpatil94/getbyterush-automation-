@@ -32,6 +32,7 @@ EVERGREEN_RETENTION_DAYS = 45
 STATUS_POOLED = "POOLED"
 STATUS_SELECTED = "SELECTED"
 STATUS_EXPIRED = "EXPIRED"
+STATUS_EDITORIAL_REJECTED = "EDITORIAL_REJECTED"
 
 
 def _now():
@@ -151,6 +152,23 @@ def mark_selected(content_ids):
         if entry["content_id"] in ids:
             entry["status"] = STATUS_SELECTED
             entry["selected_at"] = _now().isoformat()
+    save_pool(pool)
+
+
+def mark_editorial_rejected(content_ids):
+    """A candidate Gemini itself rejected (validation failure, or scored
+    below editorial_engine.py's own production threshold) shouldn't be
+    immediately re-picked by the next slot/run — its deterministic
+    pre-filter score said it looked fine, but Gemini's deeper read (full
+    source text, real narrative judgment) disagreed, which is real
+    signal. Distinct from STATUS_SELECTED so it's clear in the pool why
+    this entry stopped being offered."""
+    pool = load_pool()
+    ids = set(content_ids)
+    for entry in pool["candidates"]:
+        if entry["content_id"] in ids:
+            entry["status"] = STATUS_EDITORIAL_REJECTED
+            entry["rejected_at"] = _now().isoformat()
     save_pool(pool)
 
 
