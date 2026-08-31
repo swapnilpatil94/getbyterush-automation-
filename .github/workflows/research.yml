@@ -1,0 +1,66 @@
+name: GetByteRush Research
+
+# Discovery only — separated from selection/generation per the production
+# architecture: research runs often so nothing fresh is missed, selection
+# and carousel generation run once a day so the Gemini call and the
+# Telegram review queue stay to one candidate a day, not six.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: getbyterush-production
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements-editorial.txt ]; then pip install -r requirements-editorial.txt; fi
+
+      - name: Run News Radar
+        run: python scripts/radar.py
+
+      - name: Run Pre-filter
+        run: python scripts/filter_stories.py
+
+      - name: Show collected stories
+        run: |
+          python - <<'PY'
+          import json
+          data = json.loads(open("data/candidates.json").read())
+          stories = data.get("stories", [])
+          print(f"Candidates after filtering: {len(stories)}")
+          for s in stories[:10]:
+              print(" -", s.get("title", ""))
+          PY
+
+      - name: Commit research state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw_stories.json data/candidates.json
+          if git diff --cached --quiet; then
+            echo "No research changes to commit."
+          else
+            git commit -m "chore: refresh GetByteRush research candidates"
+            git push origin HEAD:main
+          fi

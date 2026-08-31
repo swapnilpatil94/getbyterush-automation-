@@ -1,5 +1,13 @@
 name: Telegram Listener
 
+# Polls for callback_query (button taps) and plain-text messages (optional
+# rejection notes), drives the content_state machine, and dispatches
+# regenerate-visual.yml / refetch-evidence.yml / publish-instagram.yml —
+# see scripts/telegram_review_listener.py. Shares the getbyterush-production
+# concurrency group because a callback can commit to state/pipeline/ at
+# the same time a render workflow is committing output/ — both must
+# serialize through the same git push queue.
+
 on:
   workflow_dispatch:
 
@@ -11,7 +19,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: telegram-listener
+  group: getbyterush-production
   cancel-in-progress: false
 
 jobs:
@@ -24,27 +32,24 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Check Telegram approvals
+      - name: Check Telegram approvals / rejections / notes
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          PYTHONPATH: scripts
         run: |
-          python3 scripts/telegram_listener.py
+          python3 scripts/telegram_review_listener.py
 
-      - name: Save Telegram offset
+      - name: Save Telegram offset + pipeline state
         run: |
-          if git diff --quiet -- state/telegram_offset.txt; then
-            echo "No Telegram offset changes."
-            exit 0
-          fi
-
           git config user.name "GetByteRush Bot"
           git config user.email "getbyterush-bot@users.noreply.github.com"
-
-          git add state/telegram_offset.txt
-
-          git commit -m "chore: update telegram update offset"
-
-          git push
+          git add state/telegram_offset.txt state/pipeline/
+          if git diff --cached --quiet; then
+            echo "No listener state changes."
+            exit 0
+          fi
+          git commit -m "chore: update telegram review state"
+          git push origin HEAD:main

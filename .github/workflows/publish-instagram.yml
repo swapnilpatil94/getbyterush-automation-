@@ -1,0 +1,64 @@
+name: GetByteRush Publish to Instagram
+
+# ABSOLUTE RULE: this workflow only runs when dispatched by
+# telegram_review_listener.py after an explicit ✅ APPROVE & POST tap —
+# there is no schedule trigger, no auto-publish-after-QA path, and no
+# other caller. instagram_publish.py additionally refuses to publish
+# anything whose content_state status isn't APPROVED, and is idempotent —
+# calling it again for an already-PUBLISHED content_id does nothing.
+#
+# Requires INSTAGRAM_ACCESS_TOKEN and INSTAGRAM_ACCOUNT_ID secrets, which
+# do not exist yet as of this workflow's creation — see the production
+# report for what they are and how to create them. Until they're added,
+# this job fails cleanly at the credential check with a clear message; it
+# never fakes a publish.
+
+on:
+  workflow_dispatch:
+    inputs:
+      content_id:
+        description: "content_id to publish (must be APPROVED)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: getbyterush-production
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Publish to Instagram (idempotent — no-ops if already PUBLISHED)
+        env:
+          PYTHONPATH: scripts
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/instagram_publish.py "${{ inputs.content_id }}"
+
+      - name: Commit publish state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/pipeline/
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "chore: record Instagram publish result for ${{ inputs.content_id }}"
+            git push origin HEAD:main
+          fi

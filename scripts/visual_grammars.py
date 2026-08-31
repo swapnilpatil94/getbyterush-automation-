@@ -215,7 +215,13 @@ def _psych_words(story):
 STOP_GRAMMARS = {'confrontation', 'proportional_field', 'accumulation_trail', 'comparison', 'singular_object'}
 
 
-def select(slide, story, is_first, is_last, has_evidence_url):
+def select(slide, story, is_first, is_last, has_evidence_url, avoid=()):
+    """avoid: iterable of (grammar, variant) tuples to skip when a better
+    candidate exists — used only by the rejection-regeneration path
+    (VISUAL / DIFFERENT_APPROACH) to force a materially different
+    composition on re-render. Empty by default, so ordinary rendering is
+    byte-for-byte the same selection as before this parameter existed."""
+    avoid = set(avoid)
     vt = gd.clean(slide.get('visual_type')).lower()
     role = gd._canon_role(slide)
     pool = ' '.join(gd.clean(slide.get(f) or '') for f in ('headline', 'body', 'context', 'implication'))
@@ -304,7 +310,14 @@ def select(slide, story, is_first, is_last, has_evidence_url):
     candidates.append(('singular_object', 'statement', {'metric_value': None}))
 
     if is_first:
-        stop_candidates = [c for c in candidates if c[0] in STOP_GRAMMARS]
-        return (stop_candidates or candidates)[0]
+        candidates = [c for c in candidates if c[0] in STOP_GRAMMARS] or candidates
+
+    if avoid:
+        not_avoided = [c for c in candidates if (c[0], c[1]) not in avoid]
+        # If every real candidate is avoided, the content genuinely only
+        # supports one treatment — returning it anyway (rather than an
+        # empty result) is honest: there was nothing materially different
+        # available, not a bug to hide.
+        candidates = not_avoided or candidates
 
     return candidates[0]

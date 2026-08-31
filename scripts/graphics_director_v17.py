@@ -66,7 +66,7 @@ def _ab_labels(headline):
     return 'Before', 'After'
 
 
-def _slide_spec(slide, story, i, total, evidence_url):
+def _slide_spec(slide, story, i, total, evidence_url, avoid_grammars=None):
     is_first, is_last = i == 0, i == total - 1
 
     if is_last:
@@ -81,7 +81,8 @@ def _slide_spec(slide, story, i, total, evidence_url):
             'needs_evidence': False, 'focal_sequence': ['signature', 'CTA'], 'density': 'sparse', 'headline_optional': False,
         }
 
-    grammar, variant, payload = vg.select(slide, story, is_first, is_last, bool(evidence_url))
+    avoid = (avoid_grammars or {}).get(i, ())
+    grammar, variant, payload = vg.select(slide, story, is_first, is_last, bool(evidence_url), avoid=avoid)
 
     dark_default = grammar in DARK_DEFAULT_GRAMMARS or is_first
     bg, fg = gd.bg_of(slide, dark_default)
@@ -141,15 +142,20 @@ def _slide_spec(slide, story, i, total, evidence_url):
     return spec
 
 
-def direct(story, evidence_urls=None):
+def direct(story, evidence_urls=None, avoid_grammars=None):
     """evidence_urls: optional {slide_index: url} so the director knows
     whether a real screenshot is actually capturable before choosing the
     evidence_screenshot grammar over evidence_board — zero network calls
-    here, the renderer does the actual capture."""
+    here, the renderer does the actual capture.
+
+    avoid_grammars: optional {slide_index: [(grammar, variant), ...]} —
+    used only when re-rendering after a VISUAL or DIFFERENT_APPROACH
+    Telegram rejection, to force a materially different composition per
+    slide. None/empty by default, so ordinary rendering is unaffected."""
     slides = story.get('slides') or []
     total = len(slides)
     evidence_urls = evidence_urls or {}
-    specs = [_slide_spec(s, story, i, total, evidence_urls.get(i)) for i, s in enumerate(slides)]
+    specs = [_slide_spec(s, story, i, total, evidence_urls.get(i), avoid_grammars) for i, s in enumerate(slides)]
 
     # Whole-carousel rhythm pass: two consecutive slides landing on the
     # exact same (grammar, variant) reads as a repeated composition — but

@@ -1,0 +1,68 @@
+name: GetByteRush Regenerate Visual
+
+# VISUAL / DIFFERENT_APPROACH rejection path. Dispatched by
+# telegram_review_listener.py with content_id. Re-renders through V17
+# with a materially different grammar/composition per slide (zero Gemini
+# calls — the editorial content is reused unchanged) and sends a fresh
+# Telegram review card. Max 3 attempts is enforced in content_state.py,
+# not here — content_state already moved the record to
+# HOLD_FOR_HUMAN_REVIEW before this dispatches if the cap was hit.
+
+on:
+  workflow_dispatch:
+    inputs:
+      content_id:
+        description: "content_id to regenerate"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: getbyterush-production
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements-editorial.txt ]; then pip install -r requirements-editorial.txt; fi
+          python -m playwright install --with-deps chromium
+
+      - name: Regenerate with a materially different composition
+        env:
+          PYTHONPATH: scripts
+        run: python scripts/regenerate_visual.py "${{ inputs.content_id }}"
+
+      - name: Send updated Telegram review card
+        env:
+          PYTHONPATH: scripts
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/telegram_review.py "${{ inputs.content_id }}"
+
+      - name: Commit regenerated output + state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/posts/ state/pipeline/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: regenerate GetByteRush visual for ${{ inputs.content_id }}"
+            git push origin HEAD:main
+          fi
