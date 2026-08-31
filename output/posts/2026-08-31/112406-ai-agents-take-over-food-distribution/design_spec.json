@@ -1,0 +1,175 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "GETBYTERUSH / FIELD NOTE",
+      "headline": "AI IS NOW MOVING REAL FOOD",
+      "body": "Forget basic chatbots. Autonomous AI agents are officially taking control of real-world food supply chains.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "AI deployment in physical supply chains.",
+        "After",
+        "AI agents are transitioning into physical operations."
+      ]
+    },
+    {
+      "number": 2,
+      "grammar": "evidence_board",
+      "variant": "single_citation",
+      "primitive": "evidence_board:single_citation",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE BOTTLENECK",
+      "headline": "thousands of unstructured orders every single night",
+      "body": "Food distributors receive thousands of late-night orders via voice notes, handwritten notes, and messaging apps. Manual…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "source name",
+        "quoted claim"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "source_label_full": "SOURCE: OPENAI / CHOCO CASE STUDY",
+      "quote_text": "Food distributors receive thousands of late-night orders via voice notes, handwritten notes, and messaging apps. Manual processing was slow, costly, and prone to error."
+    },
+    {
+      "number": 3,
+      "grammar": "singular_object",
+      "variant": "statement",
+      "primitive": "singular_object:statement",
+      "accent": "#2D8C7A",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "SYSTEM ARCHITECTURE",
+      "headline": "HOW THE AI AGENT PROCESSES ORDERS IN SECONDS",
+      "body": "Using OpenAI APIs, Choco's AI agents parse unstructured messages, map inventory items, correct unit errors, and…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "headline"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "source_label_full": "SOURCE: OPENAI / CHOCO IMPLEMENTATION",
+      "quote_text": "Using OpenAI APIs, Choco's AI agents parse unstructured messages, map inventory items, correct unit errors, and insert orders directly into ERP systems automatically."
+    },
+    {
+      "number": 4,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "SCALE & SPEED",
+      "headline": "FROM HOURS OF MANUAL WORK TO INSTANT EXECUTION",
+      "body": "Distributors using the automated workflow drastically reduced order processing times, cutting operational error rates while…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Performance metrics resulting from AI integration.",
+        "After",
+        "Operational efficiency scales non-linearly with autonomous agents."
+      ]
+    },
+    {
+      "number": 5,
+      "grammar": "quote",
+      "variant": "pull_quote",
+      "primitive": "quote:pull_quote",
+      "accent": "#BFDCCF",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "FIELD OBSERVATION",
+      "headline": "THIS IS NOT A TEST. IT IS IN ACTIVE",
+      "body": "This is no longer a sandbox demo. AI agents are actively orchestrating critical daily supply chains…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "quote text",
+        "source"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "quote_text": "This is no longer a sandbox demo. AI agents are actively orchestrating critical daily supply chains for thousands of restaurants and suppliers.",
+      "quote_source": "GETBYTERUSH VERIFIED"
+    },
+    {
+      "number": 6,
+      "grammar": "sequential_system",
+      "variant": "chain_vertical",
+      "primitive": "sequential_system:chain_vertical",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "SO WHAT?",
+      "headline": "THE BLUEPRINT FOR LEGACY INDUSTRY AUTOMATION",
+      "body": "Food distribution is just the start. Any industry reliant on unstructured communication—logistics, manufacturing, wholesale—is…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "widest node",
+        "chain",
+        "first node"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "steps": [
+        "Food distribution is just the start",
+        "logistics, manufacturing, wholesale",
+        "is moving to autonomous agentic"
+      ],
+      "weights": [
+        0.62,
+        0.62,
+        0.62
+      ]
+    },
+    {
+      "number": 7,
+      "grammar": "payoff",
+      "variant": "payoff",
+      "primitive": "payoff",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE BOTTOM LINE",
+      "headline": "AI AGENTS AREN'T TAKING JOBS. THEY'RE TAKING FRICTION",
+      "body": "The biggest AI transformations aren't flashy public chatbots. They are invisible agent systems solving messy, behind-the-scenes…",
+      "cta": "Send this to the person who needs to see it.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "signature",
+        "CTA"
+      ],
+      "density": "sparse",
+      "headline_optional": false
+    }
+  ]
+}

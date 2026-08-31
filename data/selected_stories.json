@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-31",
+  "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "Choco automates food distribution with AI agents",
+      "url": "https://openai.com/index/choco",
+      "description": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
+      "published": "Mon, 27 Apr 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 18,
+      "impact_score": 7,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 25,
+      "content_id": "cand-d6510a3e2bd30886",
+      "selection_meta": {
+        "rank": 1,
+        "total": 2,
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 64,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 64/100)",
+        "source": "OpenAI News"
+      }
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Netomi’s lessons for scaling agentic systems into the enterprise",
+      "url": "https://openai.com/index/netomi",
+      "description": "How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows.",
+      "published": "Thu, 08 Jan 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 19,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 24,
+      "content_id": "cand-c97612ff192134e8",
+      "selection_meta": {
+        "rank": 2,
+        "total": 2,
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 63,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 63/100)",
+        "source": "OpenAI News"
+      }
+    }
+  ]
+}

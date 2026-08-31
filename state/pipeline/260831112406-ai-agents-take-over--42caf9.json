@@ -1,0 +1,49 @@
+{
+  "content_id": "260831112406-ai-agents-take-over--42caf9",
+  "story_title": "AI Agents Take Over Food Distribution",
+  "source_url": "https://openai.com/index/choco",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-08-31T11:24:06.189365+00:00",
+  "updated_at": "2026-08-31T11:24:10.311917+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-08-31T11:24:06.189373+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-08-31T11:24:06.190290+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-08-31T11:24:06.190653+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-08-31T11:24:06.190936+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-08-31T11:24:07.226020+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-08-31T11:24:10.311931+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-08-31/112406-ai-agents-take-over-food-distribution",
+  "publish": {},
+  "story_path": "data/pipeline/260831112406-ai-agents-take-over--42caf9.json"
+}

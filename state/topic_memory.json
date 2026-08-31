@@ -2,6 +2,60 @@
   "version": 2,
   "topics": [
     {
+      "title": "How Netomi Scales Enterprise AI Agents with OpenAI Architecture",
+      "source_title": "Netomi’s lessons for scaling agentic systems into the enterprise",
+      "url": "https://openai.com/index/netomi",
+      "source": "OpenAI News",
+      "normalized_title": "how netomi scales enterprise ai agents with openai architecture",
+      "normalized_source_title": "netomi s lessons for scaling agentic systems into the enterprise",
+      "tokens": [
+        "agents",
+        "architecture",
+        "enterprise",
+        "how",
+        "netomi",
+        "openai",
+        "scales",
+        "with"
+      ],
+      "source_tokens": [
+        "agentic",
+        "enterprise",
+        "for",
+        "into",
+        "lessons",
+        "netomi",
+        "scaling",
+        "systems",
+        "the"
+      ],
+      "recorded_at": "2026-08-31T11:24:46.522755+00:00"
+    },
+    {
+      "title": "AI Agents Take Over Food Distribution",
+      "source_title": "Choco automates food distribution with AI agents",
+      "url": "https://openai.com/index/choco",
+      "source": "OpenAI News",
+      "normalized_title": "ai agents take over food distribution",
+      "normalized_source_title": "choco automates food distribution with ai agents",
+      "tokens": [
+        "agents",
+        "distribution",
+        "food",
+        "over",
+        "take"
+      ],
+      "source_tokens": [
+        "agents",
+        "automates",
+        "choco",
+        "distribution",
+        "food",
+        "with"
+      ],
+      "recorded_at": "2026-08-31T11:24:06.160397+00:00"
+    },
+    {
       "title": "NVIDIA Puts Groq 3 LPX in Production, Reaching 3,400 Tokens/Sec for Long-Context AI Agents",
       "source_title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
       "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",

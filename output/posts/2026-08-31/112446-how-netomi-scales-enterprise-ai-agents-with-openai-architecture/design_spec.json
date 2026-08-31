@@ -1,0 +1,175 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "ENTERPRISE AI / AGENT ARCHITECTURE",
+      "headline": "HOW AI AGENTS ACTUALLY SCALE",
+      "body": "Netomi automates millions of enterprise customer interactions. Here is how they built multi-step AI agents that…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Enterprise deployment of autonomous agents.",
+        "After",
+        "Single-prompt systems are obsolete for critical business operations."
+      ]
+    },
+    {
+      "number": 2,
+      "grammar": "singular_object",
+      "variant": "statement",
+      "primitive": "singular_object:statement",
+      "accent": "#2D8C7A",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "THE BOTTLENECK",
+      "headline": "THE SINGLE-PROMPT LIMIT",
+      "body": "Standard LLM implementations attempt to solve complex multi-step tasks in one shot. In enterprise workflows, a…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "headline"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "sides": [
+        "Before",
+        "Failure modes in autonomous customer service agents.",
+        "After",
+        "Linear prompting cannot handle non-deterministic business logic."
+      ]
+    },
+    {
+      "number": 3,
+      "grammar": "evidence_board",
+      "variant": "single_citation",
+      "primitive": "evidence_board:single_citation",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE BLUEPRINT",
+      "headline": "CONCURRENCY + REASONING",
+      "body": "Netomi orchestrates multi-step workflows by pairing advanced OpenAI models with concurrent execution pathways, validating actions…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "source name",
+        "quoted claim"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "source_label_full": "SOURCE / OPENAI ARCHITECTURE REPORT",
+      "quote_text": "Netomi orchestrates multi-step workflows by pairing advanced OpenAI models with concurrent execution pathways, validating actions before execution."
+    },
+    {
+      "number": 4,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "GOVERNANCE LAYER",
+      "headline": "ZERO UNCHECKED ACTIONS",
+      "body": "Every automated action passes real-time policy checks. If confidence scores fall below threshold, the agent seamlessly…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Risk management in enterprise autonomous workflows.",
+        "After",
+        "Autonomous systems must integrate graceful degradation paths."
+      ]
+    },
+    {
+      "number": 5,
+      "grammar": "quote",
+      "variant": "pull_quote",
+      "primitive": "quote:pull_quote",
+      "accent": "#BFDCCF",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "CORE RULE",
+      "headline": "PREDICTABILITY OVER SPEED",
+      "body": "In enterprise agentic systems, deterministic system guardrails around LLMs matter more than raw speed or speculative…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "quote text",
+        "source"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "quote_text": "In enterprise agentic systems, deterministic system guardrails around LLMs matter more than raw speed or speculative intelligence.",
+      "quote_source": "GETBYTERUSH OBSERVATION"
+    },
+    {
+      "number": 6,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "SO WHAT?",
+      "headline": "THE NEW AI STACK",
+      "body": "Building production AI isn't just about prompt engineering. It requires building robust traditional software wrappers to…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Shift in developer roles from pure prompting to hybrid agent system design.",
+        "After",
+        "Developers must focus on state management, governance, and evaluation frameworks."
+      ]
+    },
+    {
+      "number": 7,
+      "grammar": "payoff",
+      "variant": "payoff",
+      "primitive": "payoff",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "VERDICT",
+      "headline": "AGENTS ARE SOFTWARE SYSTEMS",
+      "body": "The future of enterprise AI isn't standalone autonomous models. It is disciplined software architecture giving models…",
+      "cta": "Send this to the person who needs to see it.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "signature",
+        "CTA"
+      ],
+      "density": "sparse",
+      "headline_optional": false
+    }
+  ]
+}

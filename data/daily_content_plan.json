@@ -1,0 +1,39 @@
+{
+  "date": "2026-08-31",
+  "target": 2,
+  "selected_count": 2,
+  "quality_floor": 50,
+  "no_quality_post": false,
+  "posts": [
+    {
+      "rank": 1,
+      "content_id": "cand-d6510a3e2bd30886",
+      "topic": "Choco automates food distribution with AI agents",
+      "category": "EVERGREEN_VALUE",
+      "score": 64,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 64/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/choco",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260831112406-ai-agents-take-over--42caf9"
+    },
+    {
+      "rank": 2,
+      "content_id": "cand-c97612ff192134e8",
+      "topic": "Netomi’s lessons for scaling agentic systems into the enterprise",
+      "category": "EVERGREEN_VALUE",
+      "score": 63,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 63/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/netomi",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260831112446-how-netomi-scales-en-85ad55"
+    }
+  ]
+}
