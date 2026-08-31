@@ -55,12 +55,4 @@ jobs:
 
       - name: Commit re-rendered output + state
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/posts/ state/pipeline/
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "chore: refetch evidence for ${{ inputs.content_id }}"
-            git push origin HEAD:main
-          fi
+          ./scripts/git_commit_push.sh "chore: refetch evidence for ${{ inputs.content_id }}" output/posts/ state/pipeline/

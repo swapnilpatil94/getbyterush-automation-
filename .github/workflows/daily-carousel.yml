@@ -85,15 +85,7 @@ jobs:
       - name: Commit generated production state
         if: always()
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/posts/ data/selected_story.json data/editorial_queue.json data/pipeline/ state/topic_memory.json state/pipeline/
-          if git diff --cached --quiet; then
-            echo "No repository changes to commit."
-          else
-            git commit -m "chore: generate GetByteRush daily carousel (V17)"
-            git push origin HEAD:main
-          fi
+          ./scripts/git_commit_push.sh "chore: generate GetByteRush daily carousel (V17)" output/posts/ data/selected_story.json data/editorial_queue.json data/pipeline/ state/topic_memory.json state/pipeline/
 
       - name: Upload debug data
         if: failure()
