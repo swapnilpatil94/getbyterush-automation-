@@ -2,9 +2,9 @@
   "content_id": "260831112446-how-netomi-scales-en-85ad55",
   "story_title": "How Netomi Scales Enterprise AI Agents with OpenAI Architecture",
   "source_url": "https://openai.com/index/netomi",
-  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "status": "APPROVED",
   "created_at": "2026-08-31T11:24:46.549713+00:00",
-  "updated_at": "2026-08-31T11:24:50.027407+00:00",
+  "updated_at": "2026-08-31T11:54:59.046321+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -35,6 +35,11 @@
       "status": "AWAITING_TELEGRAM_APPROVAL",
       "at": "2026-08-31T11:24:50.027421+00:00",
       "note": ""
+    },
+    {
+      "status": "APPROVED",
+      "at": "2026-08-31T11:54:59.046339+00:00",
+      "note": "approved via Telegram"
     }
   ],
   "attempts": {
