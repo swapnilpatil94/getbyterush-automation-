@@ -1,10 +1,106 @@
 # GetByteRush Information-Design Principles
 
-Reference for the Graphics Director (`scripts/graphics_director.py`). These
-are the actual rules it applies, not aspirational writing — every rule here
-maps to a concrete decision in code. Extracted from the supplied Pinterest
-references as *principles*, not layouts to copy: none of these prescribe a
-specific composition, all of them prescribe how to choose one.
+Reference for the Graphics Director. V17 (`scripts/graphics_director_v17.py`
++ `scripts/visual_grammars.py`) is the current system; V16
+(`scripts/graphics_director.py`) remains in the repo and still runs, but the
+sections below describe what V17 actually does. Every rule here maps to a
+concrete decision in code, not aspirational writing.
+
+## V17: information → form, not text → type → decoration
+
+The V16 system asked "which composition family fits this content?" and
+picked from a fixed menu — which produced correct typography sitting on top
+of a lot of empty canvas, not designed graphics. V17 asks a different
+question per slide, in this order:
+
+1. What is the ONE idea a viewer should get in under 2 seconds?
+2. What is the information *relationship* here — progression, proportion,
+   accumulation, comparison, contradiction, chronology, evidence, or a
+   single isolated fact?
+3. What concrete object or diagram IS that relationship, before any
+   typography gets involved?
+4. Only then: headline, body, kicker, accent.
+
+**The mandatory self-check, for every non-cover, non-quote, non-reset
+slide: remove the headline and body. Does the remaining graphic still
+communicate something?** A dot-grid with 92 of 100 cells filled still says
+"92%" with no caption. A numeral alone with an arrow says nothing — that
+gap is exactly what V17 replaces. `headline_optional` in each slide's spec
+records whether a given grammar/variant passes this test by construction;
+`quote` and the plain `statement` reset are the two intentional exceptions
+(design-principles for typographic beats, below, still apply to them).
+
+## The 8 visual grammars
+
+Selected deterministically in `visual_grammars.select()` from the same
+free-text editorial fields V16 used (headline/body/context/implication/
+kicker/source_label/visual_type/role) plus the story's psychology signal —
+zero additional Gemini calls, same as V16. Each grammar has 1-2 composition
+variants chosen by the actual shape of the extracted data (step count,
+percentage magnitude, row count), not by which grammar looks nice.
+
+| Grammar | Fires on | Variants | Primitive(s) |
+|---|---|---|---|
+| **Confrontation** | an explicit "everyone thinks X... actually Y" pattern in headline+body | `strike_reveal` (slide 1, full scale) / same, scaled down for interior slides | `hook_myth` / `confrontation` |
+| **Proportional Field** | a clean 0-100% found in the slide's text | `dot_field` (extreme %, ≥85 or ≤15 — a striking sparse/dense grid) / `bar_split` (mid-range %, a single filled/unfilled bar) | `proportional_field` / `bar_split` |
+| **Accumulation Trail** | a money/resource figure + loss language ("spent", "wasted", "never shipped"...) + extractable stages | `shrinking_trail` — blocks shrink stage to stage, the last one hollow | `accumulation_trail` |
+| **Asymmetric Comparison** | `vs`/`versus` in the headline, an explicit comparison visual_type, or (weakest signal, checked last) both context and implication present | `matrix` (2-3 independently comma-split rows on each side — a real multi-metric table) / `two_panel` (single prose pair) | `comparison_matrix` / `comparison_split` |
+| **Chronological Sequence** | 3+ distinct years found in the text | `multi_point` — marker size grows toward the most recent point (recency emphasis, not a fabricated magnitude claim) / `two_point` (THEN/NOW fallback) | `chronological_multi` / `timeline` |
+| **Sequential System** | body splits into 2-6 parts on an explicit structural marker (→, em-dash, semicolon — never on words like "then"/"which", see below) | `chain_vertical` (vertical, node weight can ascend when the text itself signals growth) / `layered_stack` (when headline/concept says "layers"/"architecture"/"stack") | `chain_vertical` / `layered_stack` |
+| **Evidence Board** | investigative psychology or an evidence-flavored visual_type, no real screenshot URL | `pinned_chips` (3-4 real facts — a stat, a date, a source tag; requires ≥3, see below) / `single_citation` (1-2 facts, reuses the citation-card frame) | `evidence_board` / `citation_card` |
+| **Singular Object** | a real number exists (gd.metric's x/%-suffix match, or a bare large integer) | `metric_texture` — the numeral plus a literal tick-count field sized to its own value (15X → 15 marks), not decoration | `metric_texture` |
+| *(reset, not one of the 8)* | nothing else matched, or content is genuinely a single typographic idea | `statement` / `quote` — legitimate typography-led beats, per the original design-principles below | `statement` / `visual_quote` |
+
+`evidence_screenshot` (a real capturable URL) and `payoff` (last slide,
+always calm) are structural, not grammar-selected — same as V16.
+
+## Selection-order lessons (why the priority list looks like this)
+
+Found by rendering real content and inspecting the PNGs, not by reasoning
+in the abstract:
+
+- **A real metric outranks the generic comparison fallback.** Almost every
+  real editorial slide has non-empty context AND implication, so a rule
+  as broad as "ctx and impl both present → comparison" swallows nearly
+  everything, including slides whose whole point is a number ("15X MORE
+  TOKENS." rendered as a generic two-panel comparison instead of the 15X
+  that mattered). The generic ctx/impl comparison fallback is checked
+  *after* percentage/money/dates/steps/quote/evidence *and* after a
+  metric check — it only fires when nothing more specific exists.
+- **Word-based sentence splitting garbles prose.** An early version split
+  step/stage candidates on "then"/"which"/"so" — words that occur
+  constantly in ordinary sentences — and produced fragments like "No one
+  runs the" / "AI to build on" from one torn-in-half sentence. Step and
+  stage extraction now only splits on unambiguous structural markers (→,
+  em/en-dash, semicolon); content without one of those falls through to a
+  simpler grammar instead of being garbled.
+- **A weak role hint isn't enough to pick a rich grammar.** `role ==
+  'open_loop'` used to be sufient on its own to trigger Sequential System,
+  which routed a genuine two-way contrast ("chain-of-thought" vs "tree
+  search") into a 2-node process chain — wrong grammar for a comparison.
+  Sequential System now requires either 3+ real extracted steps or an
+  explicit process-flavored visual_type.
+- **Splitting on every comma corrupts thousand-separated numbers.**
+  Comparison-matrix row extraction originally split on any comma, which
+  cut "$40,000" into "$40" and "000" — silently changing the actual
+  figure. The split regex now uses a negative lookahead so a comma
+  immediately followed by a digit is left alone.
+- **Density should scale with what's actually there.** A dot-field at a
+  fixed small cell size, a 2-stage money trail, a 2-chip evidence board,
+  and a matrix with only 2 rows all left large stretches of dead canvas
+  below them even after the content was correct. Cell size, row height,
+  chip size, and trail block width are now computed from the actual
+  item count instead of being fixed constants, so a thinner slide's
+  content still reads as deliberately composed rather than unfinished.
+  Below a real content floor (e.g. 2 evidence chips), the fix is not
+  "make the 2 chips bigger" — it's degrading to a simpler, honest grammar
+  (`single_citation` instead of `pinned_chips`) rather than padding a
+  thin composition to look fuller than it is.
+- **Two different variants of one grammar back-to-back is real variety,
+  not a repeat.** The whole-carousel rhythm pass only swaps a slide to
+  the calm `statement` reset when the *exact* (grammar, variant) repeats
+  consecutively — `chain_vertical` followed by `layered_stack` are
+  different enough compositions to stand next to each other.
 
 ## What visual treatment fits which content
 
