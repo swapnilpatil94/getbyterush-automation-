@@ -1,7 +1,7 @@
 {
   "date": "2026-08-31",
   "target": 2,
-  "selected_count": 3,
+  "selected_count": 4,
   "quality_floor": 50,
   "no_quality_post": false,
   "posts": [
@@ -49,6 +49,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 4,
+      "slot": "morning",
+      "content_id": "cand-dc07c2b809f21a76",
+      "topic": "Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk",
+      "category": "EVERGREEN_VALUE",
+      "score": 62,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/forecasting-misuse",
+      "editorial_status": "PENDING",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -56,6 +71,11 @@
       "status": "SELECTED",
       "content_id": "cand-dc07c2b809f21a76",
       "label": "Maximum push"
+    },
+    "morning": {
+      "status": "SELECTED",
+      "content_id": "cand-dc07c2b809f21a76",
+      "label": "Morning discovery"
     }
   }
 }
