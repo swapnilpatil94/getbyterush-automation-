@@ -82,7 +82,7 @@ def main():
     cs.transition(content_id, 'QA_PASSED', note=f'regenerated, attempts={record["attempts"]}')
     print(f'REGENERATED={content_id}')
     print(f'PACKAGE={pkg_dir}')
-    print(f'GRAMMARS={[f"{s["grammar"]}:{s["variant"]}" for s in specs]}')
+    print('GRAMMARS=', [f"{s['grammar']}:{s['variant']}" for s in specs])
 
 
 if __name__ == '__main__':
