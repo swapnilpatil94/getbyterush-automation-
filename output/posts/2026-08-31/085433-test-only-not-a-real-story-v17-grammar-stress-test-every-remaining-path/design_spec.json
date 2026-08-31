@@ -1,0 +1,281 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "proportional_field",
+      "variant": "dot_field",
+      "primitive": "proportional_field:dot_field",
+      "accent": "#7457FF",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "GETBYTERUSH / SECURITY",
+      "headline": "94% of breaches start with one email",
+      "body": "Not a zero-day. Not malware. A single click.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "filled cells",
+        "percentage numeral",
+        "remainder"
+      ],
+      "density": "dense",
+      "headline_optional": true,
+      "pct": 94,
+      "label_hi": "Share",
+      "label_lo": "Remaining"
+    },
+    {
+      "number": 2,
+      "grammar": "sequential_system",
+      "variant": "chain_vertical",
+      "primitive": "sequential_system:chain_vertical",
+      "accent": "#7457FF",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE ATTACK PATH",
+      "headline": "How one click becomes a full compromise",
+      "body": "Click — credential capture — session token stolen — internal network — lateral movement — full…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "widest node",
+        "chain",
+        "first node"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "steps": [
+        "Click",
+        "credential capture",
+        "session token stolen",
+        "internal network",
+        "lateral movement",
+        "full compromise"
+      ],
+      "weights": [
+        0.62,
+        0.62,
+        0.62,
+        0.62,
+        0.62,
+        0.62
+      ]
+    },
+    {
+      "number": 3,
+      "grammar": "sequential_system",
+      "variant": "layered_stack",
+      "primitive": "sequential_system:layered_stack",
+      "accent": "#7457FF",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "UNDER THE HOOD",
+      "headline": "The layers a request has to pass through",
+      "body": "Client — API gateway — auth layer — application server — database.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "top layer",
+        "path line",
+        "bottom layer"
+      ],
+      "density": "dense",
+      "headline_optional": true,
+      "steps": [
+        "Client",
+        "API gateway",
+        "auth layer",
+        "application server",
+        "database"
+      ],
+      "weights": [
+        0.62,
+        0.62,
+        0.62,
+        0.62,
+        0.62
+      ]
+    },
+    {
+      "number": 4,
+      "grammar": "accumulation_trail",
+      "variant": "shrinking_trail",
+      "primitive": "accumulation_trail:shrinking_trail",
+      "accent": "#7457FF",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "GETBYTERUSH / MONEY",
+      "headline": "The startup spent $2,400,000 chasing the wrong fix",
+      "body": "They spent every dollar on the wrong patch and had nothing to show for it",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "start block",
+        "thinning stages",
+        "hollow end"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "start_value": "$2,400,000",
+      "stages": [
+        "new firewall",
+        "pen test contract",
+        "compliance audit",
+        "breach anyway"
+      ]
+    },
+    {
+      "number": 5,
+      "grammar": "chronological_sequence",
+      "variant": "multi_point",
+      "primitive": "chronological_sequence:multi_point",
+      "accent": "#7457FF",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "GETBYTERUSH / TIMELINE",
+      "headline": "How fast this category actually grew",
+      "body": "In 2019 it was a research paper. By 2021 the first commercial product shipped. In 2023…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "largest/last dot",
+        "track",
+        "earliest dot"
+      ],
+      "density": "dense",
+      "headline_optional": true,
+      "years": [
+        "2019",
+        "2021",
+        "2023",
+        "2025"
+      ]
+    },
+    {
+      "number": 6,
+      "grammar": "evidence_board",
+      "variant": "single_citation",
+      "primitive": "evidence_board:single_citation",
+      "accent": "#7457FF",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "GETBYTERUSH / INVESTIGATION",
+      "headline": "The evidence trail nobody followed up on",
+      "body": "A quiet commit changed the auth check.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "source name",
+        "quoted claim"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "source_label_full": "INTERNAL AUDIT LOG",
+      "quote_text": "A quiet commit changed the auth check."
+    },
+    {
+      "number": 7,
+      "grammar": "comparison",
+      "variant": "matrix",
+      "primitive": "comparison:matrix",
+      "accent": "#7457FF",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "GETBYTERUSH / COMPARISON",
+      "headline": "Patched vs unpatched systems, six months later",
+      "body": "The gap compounds faster than most teams expect.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "row values",
+        "winning column",
+        "labels"
+      ],
+      "density": "dense",
+      "headline_optional": true,
+      "a_label": "Patched",
+      "b_label": "unpatched systems",
+      "rows": [
+        [
+          "01",
+          "Breach rate 2%",
+          "Breach rate 41%"
+        ],
+        [
+          "02",
+          "mean time to detect 4 hours",
+          "mean time to detect 197 days"
+        ],
+        [
+          "03",
+          "average cost $40,000",
+          "average cost $4,200,000"
+        ]
+      ]
+    },
+    {
+      "number": 8,
+      "grammar": "confrontation",
+      "variant": "strike_reveal",
+      "primitive": "confrontation:strike_reveal",
+      "accent": "#7457FF",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "GETBYTERUSH / MYTH VS FACT",
+      "headline": "Everyone thinks bigger companies are safer targets to avoid",
+      "body": "more third-party vendors means more doors.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "struck myth",
+        "bold fact",
+        "evidence"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "myth_text": "bigger companies are safer targets to avoid",
+      "fact_text": "attackers prefer them",
+      "source_label": "IBM X-FORCE"
+    },
+    {
+      "number": 9,
+      "grammar": "singular_object",
+      "variant": "statement",
+      "primitive": "singular_object:statement",
+      "accent": "#7457FF",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "WORTH REMEMBERING",
+      "headline": "Security is a habit, not a product",
+      "body": "",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "headline"
+      ],
+      "density": "sparse",
+      "headline_optional": false
+    },
+    {
+      "number": 10,
+      "grammar": "payoff",
+      "variant": "payoff",
+      "primitive": "payoff",
+      "accent": "#7457FF",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "GETBYTERUSH",
+      "headline": "One click is still the whole story",
+      "body": "Save this before your team needs it.",
+      "cta": "Save this before you need it again.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "signature",
+        "CTA"
+      ],
+      "density": "sparse",
+      "headline_optional": false
+    }
+  ]
+}

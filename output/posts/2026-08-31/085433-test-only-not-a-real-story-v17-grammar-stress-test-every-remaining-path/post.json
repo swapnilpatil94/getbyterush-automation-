@@ -1,0 +1,105 @@
+{
+  "selected": true,
+  "story_title": "[TEST ONLY — not a real story] V17 grammar stress test — every remaining path",
+  "design": {
+    "primary_psychology": "investigation"
+  },
+  "slides": [
+    {
+      "role": "hook",
+      "kicker": "GETBYTERUSH / SECURITY",
+      "headline": "94% of breaches start with one email.",
+      "body": "Not a zero-day. Not malware. A single click.",
+      "context": "",
+      "implication": "",
+      "source_label": "VERIZON DBIR",
+      "visual_type": "metric"
+    },
+    {
+      "role": "mechanism",
+      "kicker": "THE ATTACK PATH",
+      "headline": "How one click becomes a full compromise.",
+      "body": "Click — credential capture — session token stolen — internal network — lateral movement — full compromise.",
+      "context": "",
+      "implication": "",
+      "visual_type": "process"
+    },
+    {
+      "role": "architecture",
+      "kicker": "UNDER THE HOOD",
+      "headline": "The layers a request has to pass through.",
+      "body": "Client — API gateway — auth layer — application server — database.",
+      "visual_concept": "layered architecture diagram",
+      "context": "",
+      "implication": "",
+      "visual_type": "diagram"
+    },
+    {
+      "role": "money",
+      "kicker": "GETBYTERUSH / MONEY",
+      "headline": "The startup spent $2,400,000 chasing the wrong fix.",
+      "body": "They spent every dollar on the wrong patch and had nothing to show for it — new firewall — pen test contract — compliance audit — breach anyway.",
+      "context": "",
+      "implication": "",
+      "source_label": "FOUNDER INTERVIEW"
+    },
+    {
+      "role": "timeline",
+      "kicker": "GETBYTERUSH / TIMELINE",
+      "headline": "How fast this category actually grew.",
+      "body": "In 2019 it was a research paper. By 2021 the first commercial product shipped. In 2023 every major cloud vendor added native support. By 2025 it was the industry default.",
+      "context": "",
+      "implication": "",
+      "visual_type": "timeline"
+    },
+    {
+      "role": "proof",
+      "kicker": "GETBYTERUSH / INVESTIGATION",
+      "headline": "The evidence trail nobody followed up on.",
+      "body": "A quiet commit changed the auth check.",
+      "context": "First flagged in a routine audit",
+      "implication": "",
+      "source_label": "INTERNAL AUDIT LOG"
+    },
+    {
+      "role": "comparison",
+      "kicker": "GETBYTERUSH / COMPARISON",
+      "headline": "Patched vs unpatched systems, six months later.",
+      "body": "The gap compounds faster than most teams expect.",
+      "context": "Breach rate 2%, mean time to detect 4 hours, average cost $40,000",
+      "implication": "Breach rate 41%, mean time to detect 197 days, average cost $4,200,000",
+      "visual_type": "comparison"
+    },
+    {
+      "role": "twist",
+      "kicker": "GETBYTERUSH / MYTH VS FACT",
+      "headline": "Everyone thinks bigger companies are safer targets to avoid.",
+      "body": "Actually, attackers prefer them — more third-party vendors means more doors.",
+      "context": "",
+      "implication": "",
+      "source_label": "IBM X-FORCE"
+    },
+    {
+      "role": "reset",
+      "kicker": "WORTH REMEMBERING",
+      "headline": "Security is a habit, not a product.",
+      "body": "",
+      "context": "",
+      "implication": "",
+      "visual_type": "statement"
+    },
+    {
+      "role": "payoff",
+      "kicker": "GETBYTERUSH",
+      "headline": "One click is still the whole story.",
+      "body": "Save this before your team needs it.",
+      "context": "",
+      "implication": "",
+      "visual_type": "final"
+    }
+  ],
+  "content_id": "260831053233-test-only-not-a-real-d4794e",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "rendered_at": "2026-08-31T08:54:34.928100+00:00"
+}

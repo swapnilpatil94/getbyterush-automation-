@@ -1,0 +1,58 @@
+{
+  "content_id": "260831053233-test-only-not-a-real-d4794e",
+  "story_title": "[TEST ONLY — not a real story] V17 grammar stress test — every remaining path",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-08-31/085433-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/01.png",
+    "output/posts/2026-08-31/085433-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/02.png",
+    "output/posts/2026-08-31/085433-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/03.png",
+    "output/posts/2026-08-31/085433-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/04.png",
+    "output/posts/2026-08-31/085433-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/05.png",
+    "output/posts/2026-08-31/085433-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/06.png",
+    "output/posts/2026-08-31/085433-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/07.png",
+    "output/posts/2026-08-31/085433-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/08.png",
+    "output/posts/2026-08-31/085433-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/09.png",
+    "output/posts/2026-08-31/085433-test-only-not-a-real-story-v17-grammar-stress-test-every-remaining-path/slides/10.png"
+  ],
+  "slide_count": 10,
+  "caption": "",
+  "pinned_comment": "",
+  "alt_text_overall": "",
+  "alt_text_per_slide": [
+    "Slide 1: 94% of breaches start with one email.. Not a zero-day. Not malware. A single click. — shown as a grid of cells showing the proportion as filled versus empty cells.",
+    "Slide 2: How one click becomes a full compromise.. Click — credential capture — session token stolen — internal network — lateral movement — full compromise. — shown as a diagram of connected steps.",
+    "Slide 3: The layers a request has to pass through.. Client — API gateway — auth layer — application server — database. — shown as a diagram of connected steps.",
+    "Slide 4: The startup spent $2,400,000 chasing the wrong fix.. They spent every dollar on the wrong patch and had nothing to show for it — new firewall — pen test contract — compliance audit — breach anyway. — shown as a row of blocks that shrink to show a resource being spent down.",
+    "Slide 5: How fast this category actually grew.. In 2019 it was a research paper. By 2021 the first commercial product shipped. In 2023 every major cloud vendor added native support. By 2025 it was the industry default. — shown as a timeline with dated points.",
+    "Slide 6: The evidence trail nobody followed up on.. A quiet commit changed the auth check. — shown as pinned reference facts.",
+    "Slide 7: Patched vs unpatched systems, six months later.. The gap compounds faster than most teams expect. — shown as a side-by-side comparison.",
+    "Slide 8: Everyone thinks bigger companies are safer targets to avoid.. Actually, attackers prefer them — more third-party vendors means more doors. — shown as a common misconception struck through, with the correct answer stated below it.",
+    "Slide 9: Security is a habit, not a product. — shown as one large highlighted number or word.",
+    "Slide 10: One click is still the whole story.. Save this before your team needs it. — shown as a closing statement with the GetByteRush signature."
+  ],
+  "hashtags": [],
+  "cta": "Save this before you need it again.",
+  "seo": {
+    "primary_keyword": "TEST ONLY",
+    "secondary_keywords": [
+      "V17"
+    ],
+    "search_phrases": [
+      "what is TEST ONLY",
+      "TEST ONLY vs V17",
+      "TEST ONLY V17"
+    ],
+    "entities": [
+      "TEST ONLY",
+      "V17"
+    ]
+  },
+  "source_attribution": {
+    "title": "",
+    "source": "",
+    "url": "",
+    "sources": [],
+    "fact_check": []
+  }
+}
