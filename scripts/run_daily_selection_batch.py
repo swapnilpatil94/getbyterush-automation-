@@ -27,6 +27,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+import candidate_pool as cp
 import daily_selection
 
 CANDIDATES_PATH = Path("data/candidates.json")
@@ -137,6 +138,11 @@ def run():
             telegram_status="SENT",
             content_state_id=content_state_id,
         )
+        # Only now — a real post reached Telegram review — is this pool
+        # entry retired from future daily selections. A candidate that
+        # failed earlier (editorial/render) was never marked SELECTED, so
+        # it can be picked up again on a later run.
+        cp.mark_selected([pool_content_id])
 
     plan = _load_plan()
     print("=" * 70)

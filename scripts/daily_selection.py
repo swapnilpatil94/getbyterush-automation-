@@ -159,8 +159,11 @@ def run(target=None):
         encoding="utf-8",
     )
 
-    if selected:
-        cp.mark_selected([c["content_id"] for c in selected])
+    # Pool status is NOT marked SELECTED here — a candidate that later
+    # fails editorial validation or rendering never got a real post or a
+    # topic_memory block, and shouldn't be silently locked out of every
+    # future selection. run_daily_selection_batch.py marks it via
+    # candidate_pool.mark_selected() only once it actually succeeds.
 
     print("=" * 70)
     print("GETBYTERUSH DAILY SELECTION")
