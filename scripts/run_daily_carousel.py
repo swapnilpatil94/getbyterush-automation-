@@ -76,7 +76,7 @@ def main():
     package = publishing_package.build(pkg_dir)
 
     import telegram_review
-    telegram_review.send_review_card(content_id, pkg_dir, package)
+    telegram_review.send_review_card(content_id, pkg_dir, package, selection_meta=story.get('selection_meta'))
     cs.transition(content_id, 'AWAITING_TELEGRAM_APPROVAL')
 
     print(f'CONTENT_ID={content_id}')

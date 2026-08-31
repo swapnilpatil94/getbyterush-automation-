@@ -1,14 +1,25 @@
 name: GetByteRush Daily Carousel
 
-# EDITORIAL -> GRAPHICS DIRECTOR V17 -> RENDER -> QA -> PUBLISHING PACKAGE
-# -> TELEGRAM REVIEW. Runs once a day: one Gemini call, one candidate
-# carousel, one Telegram review card. This workflow NEVER publishes to
-# Instagram — it stops at AWAITING_TELEGRAM_APPROVAL. Publishing only
-# happens from whichever workflow telegram_review_listener.py's PUBLISH_WORKFLOW points at (currently make-com-publish.yml), dispatched by
-# telegram_review_listener.py after an explicit human approval.
+# DAILY SELECTION (deterministic, zero Gemini calls) -> for each of the
+# ~5 strongest candidates from the persistent pool, one at a time:
+# EDITORIAL (1 Gemini call) -> GRAPHICS DIRECTOR V17 -> RENDER -> QA ->
+# PUBLISHING PACKAGE -> TELEGRAM REVIEW. Runs once a day. Gemini calls
+# equal the number of candidates actually selected that day (target is a
+# floor/target of ~5, not a quota — fewer than 5 quality candidates means
+# fewer posts, zero means NO_QUALITY_POST and nothing is sent to
+# Telegram). This workflow NEVER publishes to Instagram — every post
+# stops at AWAITING_TELEGRAM_APPROVAL. Publishing only happens from
+# whichever workflow telegram_review_listener.py's PUBLISH_WORKFLOW
+# points at (currently make-com-publish.yml), dispatched after an
+# explicit human approval per post.
 
 on:
   workflow_dispatch:
+    inputs:
+      daily_target:
+        description: "Max posts to select+generate today (quality floor still applies)"
+        required: false
+        default: "5"
   schedule:
     - cron: "0 9 * * *"
 
@@ -44,29 +55,22 @@ jobs:
       - name: Cleanup old generated output
         run: python scripts/topic_memory.py cleanup
 
-      - name: Apply topic memory (blocks recently-used topics)
-        run: python scripts/topic_memory.py prepare
-
-      - name: Run Gemini Editorial Engine (1 call)
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/editorial_engine.py
-
-      - name: Record selected topic in memory
-        run: python scripts/topic_memory.py record
-
-      - name: Render V17 + QA + publishing package + send Telegram review
+      - name: Daily selection + batch generation (1 Gemini call per selected post)
         env:
           PYTHONPATH: scripts
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/run_daily_carousel.py
+          DAILY_SELECTION_TARGET: ${{ github.event.inputs.daily_target || '5' }}
+        run: python scripts/run_daily_selection_batch.py
 
       - name: List generated output
         if: always()
         run: |
+          echo "== daily content plan =="
+          cat data/daily_content_plan.json 2>/dev/null || echo "(none)"
           echo "== output/posts =="
-          find output/posts -type f -newer data/selected_story.json 2>/dev/null | sort || true
+          find output/posts -type f -newer data/candidate_pool.json 2>/dev/null | sort || true
           echo "== state/pipeline =="
           find state/pipeline -type f | sort || true
 
@@ -79,13 +83,14 @@ jobs:
             output/posts/**
             data/pipeline/**
             state/pipeline/**
+            data/daily_content_plan.json
           if-no-files-found: warn
           retention-days: 14
 
       - name: Commit generated production state
         if: always()
         run: |
-          ./scripts/git_commit_push.sh "chore: generate GetByteRush daily carousel (V17)" output/posts/ data/selected_story.json data/editorial_queue.json data/pipeline/ state/topic_memory.json state/pipeline/
+          ./scripts/git_commit_push.sh "chore: generate GetByteRush daily carousels (V17)" output/posts/ data/selected_story.json data/selected_stories.json data/editorial_queue.json data/daily_content_plan.json data/candidate_pool.json data/pipeline/ state/topic_memory.json state/pipeline/
 
       - name: Upload debug data
         if: failure()

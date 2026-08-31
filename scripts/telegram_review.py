@@ -10,40 +10,43 @@ from pathlib import Path
 import telegram_bot as tg
 
 
-def _format_card(content_id, package, story_title, source_url):
+def _format_card(content_id, package, story_title, source_url, selection_meta=None):
     seo = package.get('seo', {})
-    lines = [
-        "GETBYTERUSH",
-        "DAILY REVIEW",
+    meta = selection_meta or {}
+    rank = meta.get('rank')
+    total = meta.get('total')
+    header = f"POST #{rank}/{total}" if rank and total else "GETBYTERUSH DAILY REVIEW"
+
+    lines = [header]
+    if meta.get('category'):
+        lines.append(f"CATEGORY: {meta['category']}")
+    lines += [
         "",
-        "Topic:",
         story_title or '(untitled)',
         "",
-        "Why this topic:",
+    ]
+    if meta.get('why_selected'):
+        lines += ["WHY THIS WAS SELECTED:", meta['why_selected'], ""]
+    if meta.get('quality_score') is not None:
+        lines += [f"QUALITY SCORE: {meta['quality_score']}/100", ""]
+    lines += [
+        f"SOURCE: {meta.get('source') or '(unattributed)'}",
         source_url or '(no source URL on record)',
         "",
-        "Slides:",
-        str(package.get('slide_count', 0)),
+        f"SLIDES: {package.get('slide_count', 0)}",
         "",
-        "Renderer:",
-        "V17",
+        "VISUAL PREVIEW: sent above ↑",
         "",
-        "QA:",
-        "✓ PASS",
+        "Renderer: V17   QA: ✓ PASS   Gemini calls: 1 (editorial)",
         "",
-        "Gemini calls:",
-        "0 for graphics",
+        "SEO:", seo.get('primary_keyword', ''),
         "",
-        "SEO:",
-        seo.get('primary_keyword', ''),
-        "",
-        "CTA:",
-        package.get('cta', ''),
+        "CTA:", package.get('cta', ''),
     ]
     return "\n".join(lines)
 
 
-def send_review_card(content_id, pkg_dir, package):
+def send_review_card(content_id, pkg_dir, package, selection_meta=None):
     pkg_dir = Path(pkg_dir)
     images = sorted((pkg_dir / 'slides').glob('*.jpg'))
     if not images:
@@ -58,7 +61,7 @@ def send_review_card(content_id, pkg_dir, package):
 
     tg.send_media_group([str(p) for p in images])
 
-    text = _format_card(content_id, package, package.get('story_title', ''), (package.get('source_attribution') or {}).get('url', ''))
+    text = _format_card(content_id, package, package.get('story_title', ''), (package.get('source_attribution') or {}).get('url', ''), selection_meta=selection_meta)
     keyboard = {
         "inline_keyboard": [[
             {"text": "✅ APPROVE & POST", "callback_data": f"approve:{content_id}"},

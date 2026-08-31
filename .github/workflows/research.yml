@@ -53,6 +53,9 @@ jobs:
               print(" -", s.get("title", ""))
           PY
 
+      - name: Merge into persistent candidate pool
+        run: python scripts/candidate_pool.py merge
+
       - name: Commit research state
         run: |
-          ./scripts/git_commit_push.sh "chore: refresh GetByteRush research candidates" data/raw_stories.json data/candidates.json
+          ./scripts/git_commit_push.sh "chore: refresh GetByteRush research candidates" data/raw_stories.json data/candidates.json data/candidate_pool.json
