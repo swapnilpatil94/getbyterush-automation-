@@ -1,0 +1,30 @@
+name: GetByteRush Diagnose Telegram Updates (Manual, Read-Only)
+
+# Prints whatever Telegram has pending for this bot at the current stored
+# offset. Does NOT advance the offset, does NOT call answerCallbackQuery/
+# editMessageText, does NOT touch content_state or dispatch any other
+# workflow — see scripts/diagnose_telegram_updates.py. Exists to answer
+# "did Telegram actually receive the button tap" without risking acting
+# on a real pending approval while diagnosing it. Safe to delete once the
+# telegram-listener.yml scheduling issue it was built to diagnose is
+# confirmed and fixed.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read pending Telegram updates (no side effects)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PYTHONPATH: scripts
+        run: python scripts/diagnose_telegram_updates.py
