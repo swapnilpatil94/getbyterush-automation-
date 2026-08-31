@@ -160,6 +160,48 @@ def bg_of(slide, dark_default):
     return (INK, CREAM) if dark_default else (CREAM, INK)
 
 
+# ---------------------------------------------------------------------------
+# Myth/fact hook detection — the "everyone thinks X, actually Y" pattern,
+# locked in for the contrarian-reflex/comparison psychology bucket after
+# reviewing rendered A/B variants directly. Conservative on purpose: only
+# fires on a headline that names the misconception explicitly (the exact
+# phrasing patterns editorial content actually uses for this beat); any
+# other phrasing falls back to the plain `hook` primitive rather than
+# fabricating a split the content doesn't really contain.
+# ---------------------------------------------------------------------------
+_MYTH_PREFIX_RE = re.compile(
+    r'^(?:everyone thinks|most people (?:think|believe)|you\'?d think|'
+    r'common (?:wisdom|belief) (?:says|is)|the (?:myth|assumption) is)\s+'
+    r'(?:that\s+)?(.+)$', re.I)
+_FACT_PREFIX_RE = re.compile(
+    r'^(?:actually|in reality|but|truth is|the truth is|reality is)[,:]?\s+(.+)$', re.I)
+_CONTRARIAN_WORDS = {'comparison', 'competition'}
+
+
+def _is_contrarian(story):
+    return bool(_psych_words(story) & _CONTRARIAN_WORDS)
+
+
+def _myth_fact_split(headline, body):
+    """Returns (myth, fact, remainder) or None. `fact` is only the leading
+    clause of the rebuttal — reusing the *whole* body as both the bold fact
+    line and the support line underneath just repeats the same sentence at
+    two type sizes (confirmed by direct render); `remainder` is whatever's
+    left after that clause, used as the support line instead, and is empty
+    when the rebuttal is a single clause with nothing to add."""
+    m = _MYTH_PREFIX_RE.match(clean(headline))
+    if not m:
+        return None
+    myth = punch(m.group(1), 8, 60)
+    b = clean(body)
+    fm = _FACT_PREFIX_RE.match(b)
+    rest = fm.group(1) if fm else b
+    parts = re.split(r'(?<=[.!?])\s+|\s+[—–-]+\s+', rest, maxsplit=1)
+    fact = punch(parts[0], 6, 44)
+    remainder = parts[1] if len(parts) > 1 else ''
+    return (myth, fact, remainder) if myth and fact else None
+
+
 def scale(text, table):
     n = len(clean(text))
     for limit, size in table:
@@ -303,9 +345,12 @@ def _slide_spec(slide, story, i, total):
     is_first, is_last = i == 0, i == total - 1
     role = _canon_role(slide)
     vt = clean(slide.get('visual_type')).lower()
+    myth_split = None
 
     if is_first:
-        primitive, explicit = 'hook', True
+        if _is_contrarian(story):
+            myth_split = _myth_fact_split(slide.get('headline'), slide.get('body'))
+        primitive, explicit = ('hook_myth', True) if myth_split else ('hook', True)
     elif is_last or vt == 'final' or role == 'payoff':
         primitive, explicit = 'payoff', True
     else:
@@ -313,10 +358,11 @@ def _slide_spec(slide, story, i, total):
         if primitive == 'metric_or_bars':
             primitive = _metric_or_bars(slide)
 
-    dark_default = primitive in ('hook', 'giant_metric', 'data_bars', 'statement')
+    dark_default = primitive in ('hook', 'hook_myth', 'giant_metric', 'data_bars', 'statement')
     bg, fg = bg_of(slide, dark_default)
     default_accent = {
-        'hook': BRAND_LIME, 'payoff': BRAND_GOLD, 'giant_metric': BRAND_LIME, 'data_bars': BRAND_LIME,
+        'hook': BRAND_LIME, 'hook_myth': CANON_PALETTE['orange'],
+        'payoff': BRAND_GOLD, 'giant_metric': BRAND_LIME, 'data_bars': BRAND_LIME,
         'comparison_split': BRAND_RED, 'before_after': BRAND_RED, 'process_flow': BRAND_FOREST,
         'annotated_screenshot': BRAND_FOREST, 'timeline': BRAND_FOREST, 'statement': BRAND_GOLD,
         'visual_quote': BRAND_FOREST,
@@ -379,6 +425,10 @@ def _slide_spec(slide, story, i, total):
         m = metric(slide.get('headline') or slide.get('body'))
         spec['metric_value'] = m
         spec['metric_size'] = round((560 if len(m) <= 3 else 440) * (1.08 if spec['psychology_intense'] else 1.0)) if m else round(460 * (1.08 if spec['psychology_intense'] else 1.0))
+        spec['source_label'] = clean(slide.get('source_label')) or 'Source'
+    elif primitive == 'hook_myth':
+        spec['myth_text'], spec['fact_text'], remainder = myth_split
+        spec['body'] = support(remainder, 16, 130) if remainder else ''
         spec['source_label'] = clean(slide.get('source_label')) or 'Source'
     elif primitive == 'payoff':
         spec['cta'] = cta_line(story)

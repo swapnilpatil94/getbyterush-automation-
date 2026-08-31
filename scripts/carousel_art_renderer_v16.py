@@ -137,6 +137,10 @@ def assemble(spec, evidence):
         html = vp.hook(kicker, headline, hsize, body, accent, fg, spec['metric_value'], spec['metric_size'], spec['source_label'])
         return bg, fg, html
 
+    if prim == 'hook_myth':
+        html = vp.hook_myth(kicker, spec['myth_text'], spec['fact_text'], body, accent, fg, spec['source_label'])
+        return bg, fg, html
+
     if prim == 'payoff':
         hsize = gd.scale(headline, [(18, 92), (28, 78), (40, 64), (999, 52)])
         html = vp.payoff(kicker, headline, hsize, body, accent, fg, spec['cta'])

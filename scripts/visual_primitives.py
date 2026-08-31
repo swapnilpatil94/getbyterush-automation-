@@ -60,6 +60,34 @@ def hook(kicker, headline, hsize, body, accent, fg, mark_value, mark_size, sourc
     <div style="position:absolute;left:{M}px;bottom:118px;font:600 10px/1 'IBM Plex Mono';letter-spacing:.1em;opacity:.6" class="mono">{esc(source_label)}</div>'''
 
 
+def hook_myth(kicker, myth_text, fact_text, body, accent, fg, source_label):
+    """Contrarian-reflex hook variant: the common belief struck through in
+    muted tone, the real answer stated below it in the accent color —
+    visually enacts "everyone thinks X, actually Y" instead of just stating
+    the payoff as prose. Reserved for slides where graphics_director
+    confidently detects that exact myth/fact pattern in the editorial
+    content (see _myth_fact_split); every other hook falls back to the
+    plain `hook` primitive rather than fabricating a split that isn't
+    really there. Strike-line offset is a ratio of the myth font size
+    (~.56), generalized from a fixed-pixel value tuned against an actual
+    render at 68px rather than guessed — a literal 50%-of-block-height
+    placement sat visibly high of the text's optical center."""
+    myth_size = 44 if len(myth_text) > 34 else 56
+    fact_size = 64 if len(fact_text) > 26 else 84
+    strike_top = round(myth_size * 0.56)
+    return f'''
+    <div style="position:absolute;left:{M}px;right:{M}px;top:170px;color:{fg}">
+      <div class="mono" style="font:600 11px/1 'IBM Plex Mono';letter-spacing:.18em;color:{accent}">{esc(kicker)}</div>
+      <div style="position:relative;margin-top:28px;display:inline-block">
+        <div class="serif" style="font:700 {myth_size}px/.94 'Fraunces';color:{fg};opacity:.42;text-wrap:balance">{esc(myth_text)}</div>
+        <div style="position:absolute;left:-8px;right:-8px;top:{strike_top}px;height:4px;background:{accent};transform:rotate(-2deg)"></div>
+      </div>
+      <div class="serif" style="margin-top:26px;font:900 {fact_size}px/.9 'Fraunces';letter-spacing:-.025em;color:{accent};text-wrap:balance">{esc(fact_text)}</div>
+      <div style="margin-top:30px;max-width:520px;font:600 18px/1.32 'Archivo';opacity:.8">{esc(body)}</div>
+    </div>
+    <div style="position:absolute;left:{M}px;bottom:118px;font:600 10px/1 'IBM Plex Mono';letter-spacing:.1em;opacity:.6" class="mono">{esc(source_label)}</div>'''
+
+
 def payoff(kicker, headline, hsize, body, accent, fg, cta):
     """Structural bookend, last slide only. Calm, not loud — per
     design-principles.md, a carousel ending at maximum intensity has
