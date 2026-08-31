@@ -2,9 +2,9 @@
   "content_id": "260831132132-from-assistance-to-e-1699c0",
   "story_title": "From Assistance to Execution: How Enterprises Put AI to Work",
   "source_url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-  "status": "APPROVED",
+  "status": "PUBLISHING",
   "created_at": "2026-08-31T13:21:32.861891+00:00",
-  "updated_at": "2026-08-31T13:27:28.103507+00:00",
+  "updated_at": "2026-08-31T13:27:45.105260+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -40,6 +40,11 @@
       "status": "APPROVED",
       "at": "2026-08-31T13:27:28.103523+00:00",
       "note": "approved via Telegram"
+    },
+    {
+      "status": "PUBLISHING",
+      "at": "2026-08-31T13:27:45.105285+00:00",
+      "note": "Make.com webhook"
     }
   ],
   "attempts": {
@@ -49,6 +54,9 @@
   "avoid_grammars": [],
   "rejections": [],
   "package_path": "output/posts/2026-08-31/132132-from-assistance-to-execution-how-enterprises-put-ai-to-work",
-  "publish": {},
+  "publish": {
+    "make_com_accepted": true,
+    "note": "accepted by Make.com — NOT confirmed published, verify on Instagram"
+  },
   "story_path": "data/pipeline/260831132132-from-assistance-to-e-1699c0.json"
 }
