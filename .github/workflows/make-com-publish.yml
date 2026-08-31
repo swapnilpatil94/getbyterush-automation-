@@ -1,0 +1,58 @@
+name: GetByteRush Publish via Make.com (Workaround)
+
+# Alternative Instagram publishing path via a Make.com scenario webhook —
+# a workaround for the Meta Developer app setup currently blocking
+# publish-instagram.yml's direct Graph API path. Both exist in parallel;
+# neither is disabled. NOT wired into the automatic Telegram approve flow
+# yet — dispatch this manually, or wire it in later once you decide which
+# path the ✅ APPROVE & POST button should trigger by default.
+#
+# Same absolute rule as the Graph API path: only runs on an explicit
+# workflow_dispatch with a content_id that is already APPROVED, and
+# instagram_publish.py's sibling, make_com_publish.py, refuses anything
+# not APPROVED and no-ops if already PUBLISHED.
+#
+# Requires MAKE_COM_WEBHOOK_URL as a GitHub Actions secret — never commit
+# the actual webhook URL to source; anyone who has it can trigger a real
+# post on your Instagram account.
+
+on:
+  workflow_dispatch:
+    inputs:
+      content_id:
+        description: "content_id to publish (must be APPROVED)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: getbyterush-production
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Publish via Make.com (fire-and-forget — does not confirm actual Instagram success)
+        env:
+          PYTHONPATH: scripts
+          MAKE_COM_WEBHOOK_URL: ${{ secrets.MAKE_COM_WEBHOOK_URL }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/make_com_publish.py "${{ inputs.content_id }}"
+
+      - name: Commit publish state
+        if: always()
+        run: |
+          ./scripts/git_commit_push.sh "chore: record Make.com publish attempt for ${{ inputs.content_id }}" state/pipeline/
