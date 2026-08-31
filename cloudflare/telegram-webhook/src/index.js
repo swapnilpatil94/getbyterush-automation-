@@ -1,23 +1,80 @@
 /**
- * GetByteRush Telegram webhook relay.
+ * GetByteRush Telegram webhook relay + content-schedule cron trigger.
  *
- * Telegram callback -> this Worker -> answerCallbackQuery (stop the button
- * spinner immediately) -> forward the raw update to GitHub as a
- * repository_dispatch event. GitHub Actions owns every decision from
- * there — this file contains no business logic: it does not parse
- * callback_data into an action/content_id, does not know about content
- * states, does not render, does not call Gemini.
+ * Two independent jobs in one Worker:
+ *
+ * 1. fetch() — Telegram callback -> this Worker -> answerCallbackQuery
+ *    (stop the button spinner immediately) -> forward the raw update to
+ *    GitHub as a repository_dispatch event. GitHub Actions owns every
+ *    decision from there — this file contains no business logic: it
+ *    does not parse callback_data into an action/content_id, does not
+ *    know about content states, does not render, does not call Gemini.
+ *
+ * 2. scheduled() — GitHub Actions' own `schedule:` cron trigger proved
+ *    unreliable for this project (confirmed: on the day the 5-slot
+ *    content schedule shipped, GitHub's scheduler fired zero of the 5
+ *    crons — every run that day was manual). Cloudflare's Cron Triggers
+ *    are reliable to the minute, so they now own the 5 daily
+ *    content-slot times instead, firing daily-carousel.yml directly via
+ *    GitHub's workflow_dispatch API with the right `slot` input — same
+ *    remedy already applied to Telegram approvals in job 1 above.
  *
  * Secrets (never in this file, never in wrangler.toml — set via
  * `wrangler secret put`):
  *   TELEGRAM_BOT_TOKEN     - to call answerCallbackQuery
  *   TELEGRAM_WEBHOOK_SECRET - must match Telegram's X-Telegram-Bot-Api-Secret-Token
  *                              header (set via setWebhook's secret_token param)
- *   GITHUB_DISPATCH_TOKEN  - fine-grained PAT, Contents: Read and write only,
- *                              scoped to this one repo, used solely for
- *                              POST /repos/{repo}/dispatches
+ *   GITHUB_DISPATCH_TOKEN  - fine-grained PAT, Contents + Actions: Read
+ *                              and write, scoped to this one repo, used
+ *                              for POST /repos/{repo}/dispatches
+ *                              (job 1) and POST .../actions/workflows/
+ *                              {id}/dispatches (job 2)
  */
+
+// Keep in sync with scripts/content_slots.py's SLOTS[*].cron_utc — this
+// is the one place outside that file the schedule is duplicated,
+// because Cloudflare cron triggers can't import Python. If you change a
+// slot time, update both.
+const SLOT_CRONS = {
+  '45 1 * * *': 'morning',
+  '15 5 * * *': 'midmorning',
+  '15 8 * * *': 'afternoon',
+  '15 12 * * *': 'evening',
+  '45 14 * * *': 'night',
+};
+
 export default {
+  async scheduled(event, env, ctx) {
+    const slot = SLOT_CRONS[event.cron];
+    if (!slot) {
+      console.log(`scheduled(): unrecognized cron '${event.cron}', ignoring`);
+      return;
+    }
+
+    const resp = await fetch(
+      `https://api.github.com/repos/${env.GITHUB_REPOSITORY}/actions/workflows/daily-carousel.yml/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${env.GITHUB_DISPATCH_TOKEN}`,
+          Accept: 'application/vnd.github+json',
+          'X-GitHub-Api-Version': '2022-11-28',
+          'User-Agent': 'getbyterush-telegram-webhook',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ref: 'main', inputs: { slot } }),
+      }
+    );
+    const body = await resp.text();
+    console.log(`scheduled(): slot=${slot} cron=${event.cron} workflow_dispatch status=${resp.status} body=${body}`);
+    if (!resp.ok) {
+      // Cloudflare retries a failed scheduled() invocation automatically
+      // (with backoff) if it throws — surface the failure that way
+      // rather than swallowing it, so a real outage isn't silent.
+      throw new Error(`workflow_dispatch failed for slot ${slot}: ${resp.status} ${body}`);
+    }
+  },
+
   async fetch(request, env) {
     if (request.method !== 'POST') {
       return new Response('ok', { status: 200 });

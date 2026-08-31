@@ -1,17 +1,26 @@
 name: GetByteRush Daily Carousel
 
-# Five scheduled SLOTS/day (IST), each generating at most ONE post for
-# its own content-mix category, timed ~45 minutes before its public
-# posting time so there's slack for GitHub Actions cron jitter (schedule
-# triggers are best-effort, not exact) and for the render -> QA ->
-# Telegram chain to finish before the post is due. See scripts/content_slots.py
-# for the schedule/category table.
+# Five daily SLOTS (IST), each generating at most ONE post for its own
+# content-mix category, timed ~45 minutes before its public posting time
+# so there's slack for the render -> QA -> Telegram chain to finish
+# before the post is due. See scripts/content_slots.py for the
+# schedule/category table.
 #
 #   morning     01:45 UTC (07:15 IST) -> public 08:00 IST -> EVERGREEN_VALUE
 #   midmorning  05:15 UTC (10:45 IST) -> public 11:30 IST -> EXPERIMENT / PRODUCT_TOOL
 #   afternoon   08:15 UTC (13:45 IST) -> public 14:30 IST -> LAST_24H
 #   evening     12:15 UTC (17:45 IST) -> public 18:30 IST -> CURIOSITY / INTERNET_HUMAN_TECH_BEHAVIOR
 #   night       14:45 UTC (20:15 IST) -> public 21:00 IST -> any (best remaining post of the day)
+#
+# NOTE: these 5 times are NOT scheduled here via GitHub's own `schedule:`
+# trigger — confirmed live that it's unreliable for this project (on
+# launch day, GitHub's scheduler fired 0 of the 5 crons; every run that
+# day was manual). Cloudflare Cron Triggers own the schedule instead
+# (cloudflare/telegram-webhook/wrangler.toml + src/index.js's
+# scheduled() handler), firing this workflow via workflow_dispatch with
+# the right `slot` input at each of the 5 times above — same fix already
+# applied to Telegram approvals. This workflow only reacts to
+# workflow_dispatch; it does not self-schedule.
 #
 # Each slot: DAILY SELECTION for that slot only (deterministic, zero
 # Gemini calls) -> EDITORIAL (1 Gemini call) -> GRAPHICS DIRECTOR V17 ->
@@ -24,9 +33,9 @@ name: GetByteRush Daily Carousel
 # PUBLISH_WORKFLOW points at (currently make-com-publish.yml), dispatched
 # after an explicit human approval per post.
 #
-# workflow_dispatch supports a manual `slot` input (test/backfill a
-# single slot) or, with no slot given, falls back to the old full-batch
-# mode (up to `daily_target` posts in one run) for manual/backfill use.
+# The `slot` input is set by Cloudflare's cron -> workflow_dispatch call
+# for the 5 scheduled times; leave it blank for manual full-batch mode
+# (up to `daily_target` posts in one run) for testing/backfill.
 
 on:
   workflow_dispatch:
@@ -39,12 +48,6 @@ on:
         description: "Full-batch mode only (used when slot is blank): max posts to select+generate"
         required: false
         default: "5"
-  schedule:
-    - cron: "45 1 * * *"   # morning    -> 07:15 IST, public 08:00 IST
-    - cron: "15 5 * * *"   # midmorning -> 10:45 IST, public 11:30 IST
-    - cron: "15 8 * * *"   # afternoon  -> 13:45 IST, public 14:30 IST
-    - cron: "15 12 * * *"  # evening    -> 17:45 IST, public 18:30 IST
-    - cron: "45 14 * * *"  # night      -> 20:15 IST, public 21:00 IST
 
 permissions:
   contents: write
