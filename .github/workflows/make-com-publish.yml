@@ -45,6 +45,22 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Pull latest state (avoid racing the approve-commit that dispatched this run)
+        # The Telegram approve handler commits the APPROVED transition in
+        # a separate step AFTER it dispatches this workflow, so this
+        # job's initial checkout can occasionally land a few seconds
+        # before that push reaches origin/main despite the shared
+        # concurrency group — confirmed live (checkout still showed
+        # AWAITING_TELEGRAM_APPROVAL for a content_id already APPROVED
+        # on origin by the time this ran). A short retry loop is enough;
+        # this is a local git operation, not a new dispatch.
+        run: |
+          for i in 1 2 3 4 5; do
+            git pull --ff-only origin main && break
+            echo "Pull attempt $i failed, retrying..."
+            sleep 3
+          done
+
       - name: Publish via Make.com (fire-and-forget — does not confirm actual Instagram success)
         env:
           PYTHONPATH: scripts

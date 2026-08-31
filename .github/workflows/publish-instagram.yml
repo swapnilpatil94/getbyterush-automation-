@@ -42,6 +42,14 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Pull latest state (avoid racing the approve-commit that dispatched this run)
+        run: |
+          for i in 1 2 3 4 5; do
+            git pull --ff-only origin main && break
+            echo "Pull attempt $i failed, retrying..."
+            sleep 3
+          done
+
       - name: Publish to Instagram (idempotent — no-ops if already PUBLISHED)
         env:
           PYTHONPATH: scripts
