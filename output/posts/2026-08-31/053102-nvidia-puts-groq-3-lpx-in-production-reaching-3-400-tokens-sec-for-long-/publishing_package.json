@@ -1,0 +1,96 @@
+{
+  "content_id": "260831053102-nvidia-puts-groq-3-l-3d9486",
+  "story_title": "NVIDIA Puts Groq 3 LPX in Production, Reaching 3,400 Tokens/Sec for Long-Context AI Agents",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-08-31/053102-nvidia-puts-groq-3-lpx-in-production-reaching-3-400-tokens-sec-for-long-/slides/01.png",
+    "output/posts/2026-08-31/053102-nvidia-puts-groq-3-lpx-in-production-reaching-3-400-tokens-sec-for-long-/slides/02.png",
+    "output/posts/2026-08-31/053102-nvidia-puts-groq-3-lpx-in-production-reaching-3-400-tokens-sec-for-long-/slides/03.png",
+    "output/posts/2026-08-31/053102-nvidia-puts-groq-3-lpx-in-production-reaching-3-400-tokens-sec-for-long-/slides/04.png",
+    "output/posts/2026-08-31/053102-nvidia-puts-groq-3-lpx-in-production-reaching-3-400-tokens-sec-for-long-/slides/05.png",
+    "output/posts/2026-08-31/053102-nvidia-puts-groq-3-lpx-in-production-reaching-3-400-tokens-sec-for-long-/slides/06.png",
+    "output/posts/2026-08-31/053102-nvidia-puts-groq-3-lpx-in-production-reaching-3-400-tokens-sec-for-long-/slides/07.png"
+  ],
+  "slide_count": 7,
+  "caption": "NVIDIA just put its Groq 3 LPX inference platform into full production, achieving 3,400 tokens per second on 100,000-token long-context workloads in Gemma 4 31B benchmarks.\n\nAs AI shifts from single chat prompts to continuous, multi-agent reasoning, decode latency has become the primary bottleneck. By codesigning Rubin GPUs with up to 256 Groq 3 LP30 LPUs per rack, NVIDIA is aiming to resolve the tradeoff between throughput and response speed.\n\nKey details from the release:\n• 4x faster token generation on Gemma 4 31B compared to nearest platforms.\n• SpaceXAI adopting Vera CPUs for agentic orchestration from Earth data centers to orbital satellites.\n• Cloud providers like Nebius and CoreWeave deploying LPX and Spectrum-X Multiplane to build dedicated 'Token Factories'.\n\nIs ultra-fast inference speed the key missing piece for autonomous AI agents? Let us know below.\n\n#GetByteRush #NVIDIA #AI #Hardware #TechNews #AgenticAI #MachineLearning",
+  "pinned_comment": "Official benchmarks show 3,400 tok/s on Gemma 4 31B across a 100k context. How critical is inference speed for your current AI workflows?",
+  "alt_text_overall": "GetByteRush editorial carousel analyzing NVIDIA's Groq 3 LPX production launch, featuring benchmark numbers of 3,400 tokens per second for agentic AI.",
+  "alt_text_per_slide": [
+    "Slide 1: 3,400 TOKENS PER SECOND.. NVIDIA just put its Groq 3 LPX inference platform into full production. The speed numbers for agentic AI are unreal. — shown as one large highlighted number or word.",
+    "Slide 2: AGENTS HIT A WALL AT 100,000 TOKENS.. As autonomous AI agents reason, execute code, and call tools across long contexts, decode latency multiplies. Traditional GPUs struggle to maintain real-time speeds when generating continuous single tokens. — shown as one large highlighted number or word.",
+    "Slide 3: 4X FASTER THAN ANY ALTERNATIVE.. In official Artificial Analysis benchmarks running Gemma 4 31B, Vera Rubin + Groq 3 LPX hit 3,400 output tokens/sec on 100,000-token long-context workloads. — shown as pinned reference facts.",
+    "Slide 4: 256 LPUs WORKING AS ONE PROCESSOR.. A single rack deployment packs 256 LP30 accelerators linked via direct chip-to-chip links. Rubin GPUs process heavy context, while Groq LPUs handle high-speed token decode. — shown as one large highlighted number or word.",
+    "Slide 5: SPACEX IS TAKING THIS TO ORBIT.. SpaceXAI announced it is building its future AI architecture around Vera Rubin—deploying Vera CPUs from Earth data centers to orbital satellites for real-time autonomous reasoning. — shown as a pulled quote.",
+    "Slide 6: WELCOME TO THE 'TOKEN FACTORY'.. Cloud providers like Nebius and CoreWeave are adopting Groq 3 LPX to slash token generation costs. The AI economy is shifting from model training to high-margin intelligence delivery. — shown as pinned reference facts.",
+    "Slide 7: THE NEW FRONTIER ISN'T MORE PARAMETERS. IT'S INSTANT RESPONSE.. When AI agents collaborate across 100,000-token contexts, speed becomes intelligence. Hardware is no longer just running models—it is built to keep agents thinking in real time. — shown as a closing statement with the GetByteRush signature."
+  ],
+  "hashtags": [
+    "GetByteRush",
+    "NVIDIA",
+    "AIHardware",
+    "AgenticAI",
+    "Inference",
+    "TechNews",
+    "ArtificialIntelligence"
+  ],
+  "cta": "We test the stuff everyone else just explains.",
+  "seo": {
+    "primary_keyword": "NVIDIA Puts Groq",
+    "secondary_keywords": [
+      "GetByteRush",
+      "AIHardware",
+      "AgenticAI",
+      "Inference",
+      "TechNews",
+      "ArtificialIntelligence",
+      "LPX",
+      "Production"
+    ],
+    "search_phrases": [
+      "what is NVIDIA Puts Groq",
+      "NVIDIA Puts Groq vs LPX",
+      "NVIDIA Puts Groq GetByteRush",
+      "NVIDIA Puts Groq AIHardware"
+    ],
+    "entities": [
+      "NVIDIA Puts Groq",
+      "LPX",
+      "Production",
+      "Reaching",
+      "Tokens",
+      "Sec"
+    ]
+  },
+  "source_attribution": {
+    "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "Groq 3 LPX delivered 3,400 output tokens per second in an Artificial Analysis benchmark running Gemma 4 31B across 100,000-token contexts.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Groq 3 LPX performance on Gemma 4 31B is 4x faster than the nearest alternative platform according to NVIDIA.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "SpaceXAI plans to deploy NVIDIA Vera CPUs to power its AI architecture from Earth to orbital satellites.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+        "source_name": "NVIDIA Blog"
+      }
+    ]
+  }
+}

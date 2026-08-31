@@ -1,0 +1,154 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "singular_object",
+      "variant": "metric_texture",
+      "primitive": "singular_object:metric_texture",
+      "accent": "#B7E32B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "GETBYTERUSH / HARDWARE BREAKTHROUGH",
+      "headline": "3,400 TOKENS PER SECOND",
+      "body": "NVIDIA just put its Groq 3 LPX inference platform into full production. The speed numbers for…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "numeral",
+        "unit texture"
+      ],
+      "density": "sparse",
+      "headline_optional": true,
+      "metric_value": "3,400"
+    },
+    {
+      "number": 2,
+      "grammar": "singular_object",
+      "variant": "metric_texture",
+      "primitive": "singular_object:metric_texture",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE BOTTLENECK",
+      "headline": "AGENTS HIT A WALL AT 100,000 TOKENS",
+      "body": "As autonomous AI agents reason, execute code, and call tools across long contexts, decode latency multiplies…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "numeral",
+        "unit texture"
+      ],
+      "density": "sparse",
+      "headline_optional": true,
+      "metric_value": "100,000"
+    },
+    {
+      "number": 3,
+      "grammar": "evidence_board",
+      "variant": "single_citation",
+      "primitive": "evidence_board:single_citation",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "BENCHMARK EVIDENCE",
+      "headline": "4X FASTER THAN ANY ALTERNATIVE",
+      "body": "In official Artificial Analysis benchmarks running Gemma 4 31B, Vera Rubin + Groq 3 LPX hit…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "source name",
+        "quoted claim"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "source_label_full": "SOURCE / Artificial Analysis Benchmark",
+      "quote_text": "In official Artificial Analysis benchmarks running Gemma 4 31B, Vera Rubin + Groq 3 LPX hit 3,400 output tokens/sec on 100,000-token long-context workloads."
+    },
+    {
+      "number": 4,
+      "grammar": "singular_object",
+      "variant": "metric_texture",
+      "primitive": "singular_object:metric_texture",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "EXTREME CODESIGN",
+      "headline": "256 LPUs WORKING AS ONE PROCESSOR",
+      "body": "A single rack deployment packs 256 LP30 accelerators linked via direct chip-to-chip links. Rubin GPUs process…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "numeral",
+        "unit texture"
+      ],
+      "density": "sparse",
+      "headline_optional": true,
+      "metric_value": "256"
+    },
+    {
+      "number": 5,
+      "grammar": "quote",
+      "variant": "pull_quote",
+      "primitive": "quote:pull_quote",
+      "accent": "#B7E32B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "ORBITAL SCALE",
+      "headline": "SPACEX IS TAKING THIS TO ORBIT",
+      "body": "SpaceXAI announced it is building its future AI architecture around Vera Rubin—deploying Vera CPUs from Earth…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "quote text",
+        "source"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "quote_text": "SpaceXAI announced it is building its future AI architecture around Vera Rubin—deploying Vera CPUs from Earth data centers to orbital satellites for…",
+      "quote_source": "PARTNER ANNOUNCEMENT / SpaceXAI"
+    },
+    {
+      "number": 6,
+      "grammar": "evidence_board",
+      "variant": "single_citation",
+      "primitive": "evidence_board:single_citation",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE SHIFT",
+      "headline": "WELCOME TO THE 'TOKEN FACTORY'",
+      "body": "Cloud providers like Nebius and CoreWeave are adopting Groq 3 LPX to slash token generation costs…",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "source name",
+        "quoted claim"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "source_label_full": "INDUSTRY ANALYSIS",
+      "quote_text": "Cloud providers like Nebius and CoreWeave are adopting Groq 3 LPX to slash token generation costs. The AI economy is shifting from model training…"
+    },
+    {
+      "number": 7,
+      "grammar": "payoff",
+      "variant": "payoff",
+      "primitive": "payoff",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "GETBYTERUSH VERDICT",
+      "headline": "THE NEW FRONTIER ISN'T MORE PARAMETERS. IT'S INSTANT RESPONSE",
+      "body": "When AI agents collaborate across 100,000-token contexts, speed becomes intelligence. Hardware is no longer just running…",
+      "cta": "We test the stuff everyone else just explains.",
+      "psychology_intense": true,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "signature",
+        "CTA"
+      ],
+      "density": "sparse",
+      "headline_optional": false
+    }
+  ]
+}
