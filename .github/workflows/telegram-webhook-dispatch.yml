@@ -1,0 +1,58 @@
+name: GetByteRush Telegram Webhook Dispatch
+
+# Triggered by the Cloudflare Worker (cloudflare/telegram-webhook/) via
+# repository_dispatch the instant a Telegram button is tapped or a note
+# is replied — replacing the unreliable 5-minute schedule poll
+# (telegram-listener.yml, kept as a manual fallback only). The Worker has
+# already answered the callback_query to stop the button's spinner and
+# done nothing else; all state transitions and follow-up workflow
+# dispatches happen here, in scripts/telegram_review_listener.py's
+# process_update(), same logic the old poller used.
+
+on:
+  repository_dispatch:
+    types: [telegram-update]
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: getbyterush-production
+  cancel-in-progress: false
+
+jobs:
+  handle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Process the Telegram update
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PYTHONPATH: scripts
+          TELEGRAM_UPDATE_JSON: ${{ toJson(github.event.client_payload.update) }}
+        run: python scripts/telegram_webhook_handler.py
+
+      - name: Commit pipeline state
+        run: |
+          git config user.name "GetByteRush Bot"
+          git config user.email "getbyterush-bot@users.noreply.github.com"
+          git add state/pipeline/
+          if git diff --cached --quiet; then
+            echo "No state changes."
+            exit 0
+          fi
+          git commit -m "chore: process Telegram webhook update"
+          git push origin HEAD:main

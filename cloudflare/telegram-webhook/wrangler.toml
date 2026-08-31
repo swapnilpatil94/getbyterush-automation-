@@ -1,0 +1,13 @@
+name = "getbyterush-telegram-webhook"
+main = "src/index.js"
+compatibility_date = "2026-08-31"
+
+# No KV, no D1, no Durable Objects, no bindings — this Worker holds no
+# state at all and needs none: it forwards one HTTP request to another
+# HTTP request. Free plan is more than sufficient (100k requests/day).
+
+[vars]
+# Not secret — a public repo path, not a credential. Secrets
+# (TELEGRAM_BOT_TOKEN, TELEGRAM_WEBHOOK_SECRET, GITHUB_DISPATCH_TOKEN) are
+# set with `wrangler secret put`, never written here or in source.
+GITHUB_REPOSITORY = "swapnilpatil94/getbyterush-automation-"

@@ -1,4 +1,4 @@
-name: Telegram Listener
+name: Telegram Listener (Manual Fallback)
 
 # Polls for callback_query (button taps) and plain-text messages (optional
 # rejection notes), drives the content_state machine, and dispatches
@@ -7,12 +7,17 @@ name: Telegram Listener
 # concurrency group because a callback can commit to state/pipeline/ at
 # the same time a render workflow is committing output/ — both must
 # serialize through the same git push queue.
+#
+# The schedule trigger that used to run this every 5 minutes was removed:
+# GitHub Actions does not honor high-frequency schedule triggers reliably
+# (confirmed from this repo's own run history — actual gaps of 2-7 hours,
+# never 5 minutes). telegram-webhook-dispatch.yml, triggered instantly by
+# the Cloudflare Worker in cloudflare/telegram-webhook/, is now the
+# primary delivery path. This workflow stays as a manual workflow_dispatch
+# fallback for when the webhook path is down.
 
 on:
   workflow_dispatch:
-
-  schedule:
-    - cron: "*/5 * * * *"
 
 permissions:
   contents: write

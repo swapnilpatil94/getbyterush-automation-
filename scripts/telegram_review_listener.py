@@ -101,6 +101,7 @@ def handle_callback(callback):
         print("Ignoring callback from unknown chat.")
         return
     if ":" not in data:
+        tg.answer_callback(callback["id"], "Invalid callback.")
         print("Ignoring malformed callback.")
         return
 
@@ -108,11 +109,23 @@ def handle_callback(callback):
 
     if action == "approve":
         content_id = rest
+        record = cs.load(content_id)
+        if record is None:
+            tg.answer_callback(callback["id"], "Unknown post — nothing to approve.")
+            tg.edit_message_text(chat_id, message_id, f"⚠️ Unknown content_id: {content_id}\n\nNo matching record — no action taken.")
+            return
         if cs.is_published(content_id):
             tg.answer_callback(callback["id"], "Already published — no action taken.")
             return
-        record = cs.load(content_id)
-        if record is None or record["status"] in ("REJECTED_TOPIC", "REJECTED_CONTENT", "HOLD_FOR_HUMAN_REVIEW"):
+        # Duplicate-tap guard: a second APPROVE tap while the first is
+        # still mid-publish (or already fully APPROVED but not yet picked
+        # up) must not fire a second publish dispatch — instagram_publish.py
+        # is idempotent once PUBLISHED, but two concurrent PUBLISHING runs
+        # racing the Graph API is exactly what this guard exists to avoid.
+        if record["status"] in ("APPROVED", "PUBLISHING"):
+            tg.answer_callback(callback["id"], "Already approved — publishing workflow already running.")
+            return
+        if record["status"] in ("REJECTED_TOPIC", "REJECTED_CONTENT", "HOLD_FOR_HUMAN_REVIEW"):
             tg.answer_callback(callback["id"], "This post is not in an approvable state.")
             return
         cs.transition(content_id, "APPROVED", note="approved via Telegram")
@@ -123,6 +136,10 @@ def handle_callback(callback):
 
     if action == "reject":
         content_id = rest
+        if cs.load(content_id) is None:
+            tg.answer_callback(callback["id"], "Unknown post — nothing to reject.")
+            tg.edit_message_text(chat_id, message_id, f"⚠️ Unknown content_id: {content_id}\n\nNo matching record — no action taken.")
+            return
         tg.answer_callback(callback["id"], "What needs fixing?")
         keyboard = {"inline_keyboard": [
             [{"text": label, "callback_data": f"rr:{code}:{content_id}"}] for code, (_, label) in REASON_LABELS.items()
@@ -135,6 +152,9 @@ def handle_callback(callback):
         category = REASON_LABELS.get(code, (None, None))[0]
         if category is None:
             tg.answer_callback(callback["id"], "Unrecognized reason.")
+            return
+        if cs.load(content_id) is None:
+            tg.answer_callback(callback["id"], "Unknown post.")
             return
         tg.answer_callback(callback["id"], "Add an optional note, or skip.")
         save_pending({"content_id": content_id, "category": category, "chat_id": chat_id, "message_id": message_id})
@@ -153,6 +173,7 @@ def handle_callback(callback):
         save_pending(None)
         return
 
+    tg.answer_callback(callback["id"], "Unrecognized action.")
     print(f"Ignoring unsupported action: {action}")
 
 
@@ -170,7 +191,26 @@ def handle_text_message(message):
     save_pending(None)
 
 
+def process_update(update):
+    """The single entry point both delivery paths funnel through: the
+    polling main() below (kept as a manual workflow_dispatch fallback)
+    and telegram_webhook_handler.py (the repository_dispatch handler the
+    Cloudflare Worker triggers). One update in, handle_callback/
+    handle_text_message do the actual work — no duplicated logic between
+    the two delivery mechanisms."""
+    if update.get("callback_query"):
+        handle_callback(update["callback_query"])
+    elif update.get("message"):
+        handle_text_message(update["message"])
+    else:
+        print("Ignoring update with neither callback_query nor message.")
+
+
 def main():
+    """Polling fallback — no longer scheduled (see telegram-listener.yml),
+    kept as a manual workflow_dispatch for when the webhook path is down
+    or during migration. The Cloudflare Worker + repository_dispatch path
+    (telegram_webhook_handler.py) is now the primary delivery mechanism."""
     offset = read_offset()
     print(f"Checking Telegram updates from offset {offset}")
     response = tg.call("getUpdates", {
@@ -185,10 +225,7 @@ def main():
     highest = offset
     for update in updates:
         highest = max(highest, update["update_id"] + 1)
-        if update.get("callback_query"):
-            handle_callback(update["callback_query"])
-        elif update.get("message"):
-            handle_text_message(update["message"])
+        process_update(update)
 
     write_offset(highest)
     print(f"Saved Telegram offset: {highest}")
