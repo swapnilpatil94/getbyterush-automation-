@@ -1,0 +1,24 @@
+{
+  "content_id": "260831053233-test-only-not-a-real-d4794e",
+  "story_title": "[TEST ONLY — not a real story] V17 grammar stress test — every remaining path",
+  "source_url": "https://example.com/test-fixture",
+  "status": "DISCOVERED",
+  "created_at": "2026-08-31T05:32:33.378301+00:00",
+  "updated_at": "2026-08-31T05:32:33.378304+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-08-31T05:32:33.378306+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "",
+  "publish": {},
+  "story_path": "data/pipeline/260831053233-test-only-not-a-real-d4794e.json"
+}
