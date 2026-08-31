@@ -15,7 +15,12 @@ def _format_card(content_id, package, story_title, source_url, selection_meta=No
     meta = selection_meta or {}
     rank = meta.get('rank')
     total = meta.get('total')
-    header = f"POST #{rank}/{total}" if rank and total else "GETBYTERUSH DAILY REVIEW"
+    if meta.get('slot_label'):
+        header = f"⏰ {meta['slot_label'].upper()} SLOT"
+    elif rank and total:
+        header = f"POST #{rank}/{total}"
+    else:
+        header = "GETBYTERUSH DAILY REVIEW"
 
     lines = [header]
     if meta.get('category'):

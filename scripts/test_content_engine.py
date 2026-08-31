@@ -232,6 +232,35 @@ def run():
 
         print()
         print("=" * 70)
+        print("TEST 8: slotted selection — category filtering + same-day plan accumulation")
+        print("=" * 70)
+        shutil.rmtree("data", ignore_errors=True)
+        shutil.rmtree("state", ignore_errors=True)
+        Path("data").mkdir()
+        Path("state").mkdir()
+        os.environ["DAILY_SELECTION_QUALITY_FLOOR"] = "20"
+        cp.merge_new_candidates(FIXTURES[:11])
+
+        plan_a, chosen_a = ds.run_slot("morning")
+        print(f"  morning slot -> {chosen_a['content_type'] if chosen_a else None}")
+        if chosen_a:
+            assert chosen_a["content_type"] in ds.content_slots.SLOTS["morning"]["categories"]
+
+        plan_b, chosen_b = ds.run_slot("afternoon")
+        print(f"  afternoon slot -> {chosen_b['content_type'] if chosen_b else None}")
+        if chosen_b:
+            assert chosen_b["content_type"] in ds.content_slots.SLOTS["afternoon"]["categories"]
+
+        assert plan_b["date"] == plan_a["date"]
+        assert len(plan_b["posts"]) >= len(plan_a["posts"]), "afternoon slot must append to, not replace, morning's plan"
+        assert "morning" in plan_b["slots"] and "afternoon" in plan_b["slots"]
+        if chosen_a and chosen_b:
+            assert chosen_a["content_id"] != chosen_b["content_id"], "two slots must not pick the same candidate"
+        print(f"  plan so far: {len(plan_b['posts'])} post(s) across slots {list(plan_b['slots'].keys())}")
+        print("PASS")
+
+        print()
+        print("=" * 70)
         print("ALL CONTENT ENGINE TESTS PASSED — 0 Gemini calls made")
         print("=" * 70)
     finally:

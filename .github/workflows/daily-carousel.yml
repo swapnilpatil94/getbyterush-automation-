@@ -1,27 +1,50 @@
 name: GetByteRush Daily Carousel
 
-# DAILY SELECTION (deterministic, zero Gemini calls) -> for each of the
-# ~5 strongest candidates from the persistent pool, one at a time:
-# EDITORIAL (1 Gemini call) -> GRAPHICS DIRECTOR V17 -> RENDER -> QA ->
-# PUBLISHING PACKAGE -> TELEGRAM REVIEW. Runs once a day. Gemini calls
-# equal the number of candidates actually selected that day (target is a
-# floor/target of ~5, not a quota — fewer than 5 quality candidates means
-# fewer posts, zero means NO_QUALITY_POST and nothing is sent to
-# Telegram). This workflow NEVER publishes to Instagram — every post
-# stops at AWAITING_TELEGRAM_APPROVAL. Publishing only happens from
-# whichever workflow telegram_review_listener.py's PUBLISH_WORKFLOW
-# points at (currently make-com-publish.yml), dispatched after an
-# explicit human approval per post.
+# Five scheduled SLOTS/day (IST), each generating at most ONE post for
+# its own content-mix category, timed ~45 minutes before its public
+# posting time so there's slack for GitHub Actions cron jitter (schedule
+# triggers are best-effort, not exact) and for the render -> QA ->
+# Telegram chain to finish before the post is due. See scripts/content_slots.py
+# for the schedule/category table.
+#
+#   morning     01:45 UTC (07:15 IST) -> public 08:00 IST -> EVERGREEN_VALUE
+#   midmorning  05:15 UTC (10:45 IST) -> public 11:30 IST -> EXPERIMENT / PRODUCT_TOOL
+#   afternoon   08:15 UTC (13:45 IST) -> public 14:30 IST -> LAST_24H
+#   evening     12:15 UTC (17:45 IST) -> public 18:30 IST -> CURIOSITY / INTERNET_HUMAN_TECH_BEHAVIOR
+#   night       14:45 UTC (20:15 IST) -> public 21:00 IST -> any (best remaining post of the day)
+#
+# Each slot: DAILY SELECTION for that slot only (deterministic, zero
+# Gemini calls) -> EDITORIAL (1 Gemini call) -> GRAPHICS DIRECTOR V17 ->
+# RENDER -> QA -> PUBLISHING PACKAGE -> TELEGRAM REVIEW. A slot with
+# nothing above the quality gate in its categories sends nothing to
+# Telegram rather than forcing a weak pick (NO_QUALITY_POST for that
+# slot only, not the whole day). This workflow NEVER publishes to
+# Instagram — every post stops at AWAITING_TELEGRAM_APPROVAL. Publishing
+# only happens from whichever workflow telegram_review_listener.py's
+# PUBLISH_WORKFLOW points at (currently make-com-publish.yml), dispatched
+# after an explicit human approval per post.
+#
+# workflow_dispatch supports a manual `slot` input (test/backfill a
+# single slot) or, with no slot given, falls back to the old full-batch
+# mode (up to `daily_target` posts in one run) for manual/backfill use.
 
 on:
   workflow_dispatch:
     inputs:
+      slot:
+        description: "Run a single named slot (morning/midmorning/afternoon/evening/night). Leave blank for full-batch mode."
+        required: false
+        default: ""
       daily_target:
-        description: "Max posts to select+generate today (quality floor still applies)"
+        description: "Full-batch mode only (used when slot is blank): max posts to select+generate"
         required: false
         default: "5"
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "45 1 * * *"   # morning    -> 07:15 IST, public 08:00 IST
+    - cron: "15 5 * * *"   # midmorning -> 10:45 IST, public 11:30 IST
+    - cron: "15 8 * * *"   # afternoon  -> 13:45 IST, public 14:30 IST
+    - cron: "15 12 * * *"  # evening    -> 17:45 IST, public 18:30 IST
+    - cron: "45 14 * * *"  # night      -> 20:15 IST, public 21:00 IST
 
 permissions:
   contents: write
@@ -55,7 +78,42 @@ jobs:
       - name: Cleanup old generated output
         run: python scripts/topic_memory.py cleanup
 
-      - name: Daily selection + batch generation (1 Gemini call per selected post)
+      - name: Resolve which slot this run is (schedule cron -> slot name)
+        id: slot
+        env:
+          MANUAL_SLOT: ${{ github.event.inputs.slot }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import os
+          import sys
+          sys.path.insert(0, "scripts")
+          import content_slots
+
+          manual = os.environ.get("MANUAL_SLOT", "").strip()
+          cron = os.environ.get("EVENT_SCHEDULE", "").strip()
+
+          if manual:
+              slot = manual if manual in content_slots.SLOTS else ""
+          elif cron:
+              slot = content_slots.slot_for_cron(cron) or ""
+          else:
+              slot = ""  # workflow_dispatch with no slot -> full-batch mode
+
+          print(f"name={slot}")
+          PY
+
+      - name: Run one slot (1 Gemini call at most)
+        if: steps.slot.outputs.name != ''
+        env:
+          PYTHONPATH: scripts
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/run_daily_selection_batch.py --slot "${{ steps.slot.outputs.name }}"
+
+      - name: Run full batch (only when no slot resolved — manual/backfill)
+        if: steps.slot.outputs.name == ''
         env:
           PYTHONPATH: scripts
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -90,7 +148,7 @@ jobs:
       - name: Commit generated production state
         if: always()
         run: |
-          ./scripts/git_commit_push.sh "chore: generate GetByteRush daily carousels (V17)" output/posts/ data/selected_story.json data/selected_stories.json data/editorial_queue.json data/daily_content_plan.json data/candidate_pool.json data/pipeline/ state/topic_memory.json state/pipeline/
+          ./scripts/git_commit_push.sh "chore: generate GetByteRush carousel (slot=${{ steps.slot.outputs.name }})" output/posts/ data/selected_story.json data/selected_stories.json data/editorial_queue.json data/daily_content_plan.json data/candidate_pool.json data/pipeline/ state/topic_memory.json state/pipeline/
 
       - name: Upload debug data
         if: failure()

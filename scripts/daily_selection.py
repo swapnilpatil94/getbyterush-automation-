@@ -16,6 +16,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import candidate_pool as cp
+import content_slots
 import quality_scoring as qs
 import topic_memory as tm
 
@@ -180,5 +181,110 @@ def run(target=None):
     return plan
 
 
+def _load_today_plan():
+    """The slotted schedule runs as five separate workflow invocations
+    across the day (see content_slots.py), each contributing one post to
+    the SAME day's plan — so this appends to today's plan file rather
+    than overwriting it. A stale plan from a previous date is discarded
+    (each day starts fresh)."""
+    today = datetime.now(timezone.utc).date().isoformat()
+    if PLAN_PATH.exists():
+        try:
+            plan = json.loads(PLAN_PATH.read_text(encoding="utf-8"))
+            if plan.get("date") == today:
+                plan.setdefault("posts", [])
+                plan.setdefault("slots", {})
+                return plan
+        except Exception:
+            pass
+    return {"date": today, "mode": "slotted", "quality_floor": QUALITY_FLOOR, "posts": [], "slots": {}}
+
+
+def _save_plan(plan):
+    plan["selected_count"] = len(plan["posts"])
+    PLAN_PATH.parent.mkdir(parents=True, exist_ok=True)
+    PLAN_PATH.write_text(json.dumps(plan, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def run_slot(slot_name):
+    """Selects the single best remaining candidate for one named slot
+    (see content_slots.SLOTS) rather than a batch of ~5. Same dedup /
+    topic-memory / quality-gate pipeline as run(); only the final
+    selection step differs (top-1 within the slot's allowed categories,
+    or top-1 overall for the category-agnostic 'night' slot). Zero
+    Gemini calls — this only decides WHICH candidate, if any."""
+    if slot_name not in content_slots.SLOTS:
+        raise ValueError(f"Unknown slot: {slot_name}")
+    slot = content_slots.SLOTS[slot_name]
+
+    pool = cp.prune(cp.load_pool())
+    recent_memory = _recent_memory_entries()
+    eligible = eligible_candidates(pool["candidates"], recent_memory)
+    if slot["categories"]:
+        eligible = [c for c in eligible if c["content_type"] in slot["categories"]]
+    eligible.sort(key=lambda c: c["score"], reverse=True)
+
+    plan = _load_today_plan()
+
+    print("=" * 70)
+    print(f"GETBYTERUSH SLOT SELECTION — {slot_name} ({slot['label']})")
+    print("=" * 70)
+    print(f"Pool size (after prune): {len(pool['candidates'])}")
+    print(f"Eligible in slot categories {slot['categories'] or 'ANY'}: {len(eligible)}")
+
+    if not eligible:
+        plan["slots"][slot_name] = {"status": "NO_QUALITY_POST", "label": slot["label"], "categories": slot["categories"]}
+        _save_plan(plan)
+        print(f"NO_QUALITY_POST — nothing in this slot's categories cleared the quality gate.")
+        return plan, None
+
+    chosen = eligible[0]
+    rank = len(plan["posts"]) + 1
+    post = {
+        "rank": rank,
+        "slot": slot_name,
+        "content_id": chosen["content_id"],
+        "topic": chosen["topic"],
+        "category": chosen["content_type"],
+        "score": chosen["score"],
+        "reason": _reason(chosen),
+        "source": chosen["source"],
+        "source_url": chosen["source_url"],
+        "editorial_status": "PENDING",
+        "render_status": "PENDING",
+        "telegram_status": "PENDING",
+        "publish_status": "PENDING",
+    }
+    plan["posts"].append(post)
+    plan["slots"][slot_name] = {"status": "SELECTED", "content_id": chosen["content_id"], "label": slot["label"]}
+    _save_plan(plan)
+
+    raw = dict(chosen["raw"])
+    raw["content_id"] = chosen["content_id"]
+    raw["selection_meta"] = {
+        "rank": post["rank"],
+        "total": None,  # unknown until the day's slots finish — the per-slot card shows the slot label instead
+        "slot": slot_name,
+        "slot_label": slot["label"],
+        "category": post["category"],
+        "quality_score": post["score"],
+        "why_selected": post["reason"],
+        "source": post["source"],
+    }
+    SELECTED_STORIES_PATH.write_text(
+        json.dumps({"date": plan["date"], "stories": [raw]}, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+    print(f"SELECTED [{post['category']}] score={post['score']} — {post['topic']}")
+    print(f"  reason: {post['reason']}")
+    return plan, chosen
+
+
 if __name__ == "__main__":
-    run()
+    import sys
+
+    if len(sys.argv) > 1 and sys.argv[1] == "--slot":
+        run_slot(sys.argv[2])
+    else:
+        run()
