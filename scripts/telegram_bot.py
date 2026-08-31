@@ -7,6 +7,7 @@ one HTTP/multipart implementation, not one per script.
 import json
 import mimetypes
 import os
+import urllib.error
 import urllib.parse
 import urllib.request
 import uuid
@@ -21,12 +22,35 @@ def _base_url(method):
 
 def call(method, payload=None):
     """application/x-www-form-urlencoded POST — for text/keyboard/callback
-    methods that carry no binary file data."""
+    methods that carry no binary file data.
+
+    Telegram returns HTTP 4xx (not just ok:false in a 200) for entirely
+    expected, recoverable rejections — e.g. answering a callback_query
+    that the Cloudflare Worker already answered to stop the button's
+    spinner, or editing a message with text it already has. urlopen()
+    raises HTTPError on those, which used to crash this script after the
+    real work (state transition, follow-up workflow dispatch) had already
+    happened — confirmed live: an APPROVE tap successfully transitioned
+    content_state and dispatched publish-instagram.yml, then crashed on
+    the second answerCallbackQuery before the "commit state" step ran, so
+    the approval was silently lost. Telegram's error responses are still
+    JSON with the same {"ok": false, "description": ...} shape success
+    responses have, so degrading to that instead of raising keeps every
+    caller's existing `response.get("ok")` handling correct without
+    needing a try/except at every call site."""
     data = urllib.parse.urlencode(payload or {}).encode("utf-8")
     req = urllib.request.Request(_base_url(method), data=data, method="POST")
     req.add_header("Content-Type", "application/x-www-form-urlencoded")
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as err:
+        try:
+            body = json.loads(err.read().decode("utf-8"))
+        except Exception:
+            body = {}
+        print(f"Telegram {method} returned HTTP {err.code}: {body.get('description', err.reason)}")
+        return {"ok": False, "error_code": err.code, "description": body.get("description", str(err.reason))}
 
 
 def call_multipart(method, fields, files):

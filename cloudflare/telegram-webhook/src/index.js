@@ -70,8 +70,11 @@ export default {
           }),
         }
       );
-      return new Response(`ok, github dispatch status ${dispatchResp.status}`, { status: 200 });
+      const dispatchBody = await dispatchResp.text();
+      console.log(`github dispatch status=${dispatchResp.status} body=${dispatchBody}`);
+      return new Response(`ok, github dispatch status ${dispatchResp.status}: ${dispatchBody}`, { status: 200 });
     } catch (err) {
+      console.log(`github dispatch threw: ${err.message}`);
       return new Response(`ok, github dispatch failed: ${err.message}`, { status: 200 });
     }
   },
