@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-31T12:20:19.181191+00:00",
+  "generated_at": "2026-08-31T22:15:02.319816+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "A milestone in expanding access to AI",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "description": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "published": "Mon, 31 Aug 2026 04:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 10,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 24
+    },
     {
       "source": "NVIDIA Blog",
       "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
       "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
       "description": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today, the NVIDIA Vera Rubin rack-scale system NVIDIA Groq [&#8230;]",
       "published": "Mon, 24 Aug 2026 15:00:41 +0000",
-      "freshness_score": 2,
+      "freshness_score": 0,
       "relevance_score": 20,
       "impact_score": 10,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 32
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-      "description": "According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request. Why? Consider what happens when an AI agent researches a company for an investment decision. The agent queries financial databases, searches news and filings, invokes a sub-agent to run peer comparisons and model valuations, then synthesizes everything into a [&#8230;]",
-      "published": "Mon, 24 Aug 2026 15:00:19 +0000",
-      "freshness_score": 2,
-      "relevance_score": 19,
-      "impact_score": 8,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 29
+      "pre_filter_score": 30
     },
     {
       "source": "OpenAI News",
@@ -36,6 +36,18 @@
       "relevance_score": 18,
       "impact_score": 9,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 27
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "description": "According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request. Why? Consider what happens when an AI agent researches a company for an investment decision. The agent queries financial databases, searches news and filings, invokes a sub-agent to run peer comparisons and model valuations, then synthesizes everything into a [&#8230;]",
+      "published": "Mon, 24 Aug 2026 15:00:19 +0000",
+      "freshness_score": 0,
+      "relevance_score": 19,
+      "impact_score": 8,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 27
     },
     {
@@ -592,9 +604,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -604,9 +616,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -948,18 +960,6 @@
       "relevance_score": 13,
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Improving verifiability in AI development",
-      "url": "https://openai.com/index/improving-verifiability",
-      "description": "We’ve contributed to a multi-stakeholder report by 58 co-authors at 30 organizations, including the Centre for the Future of Intelligence, Mila, Schwartz Reisman Institute for Technology and Society, Center for Advanced Study in the Behavioral Sciences, and Center for Security and Emerging Technologies. This report describes 10 mechanisms to improve the verifiability of claims made about AI systems. Developers can use these tools to provide evidence that AI systems are safe, secure, fair, or privacy-preserving. Users, policymakers, and civil society can use these tools to evaluate AI development processes.",
-      "published": "Thu, 16 Apr 2020 07:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "RESEARCH",
       "pre_filter_score": 18
     }
   ]
