@@ -1,0 +1,178 @@
+# TEMPORARY / MANUAL verification workflow.
+#
+# Purpose: let the repo owner independently verify, from real CI-rendered
+# PNGs (not code inspection), that the V17 graphics director + renderer
+# produces a complete, QA-passing carousel for every fixture in
+# scripts/fixtures/ (the original 6 plus the grammar stress test) AND for
+# the real production story, so V17 can be judged against actual content
+# before any decision to replace V16.
+#
+# This workflow is intentionally isolated from the production pipeline:
+# - workflow_dispatch only — no schedule, no push trigger, never runs
+#   unattended.
+# - contents: read — it never needs to commit or push anything.
+# - The production story is rendered from a /tmp COPY of
+#   data/selected_story.json, never the file itself, and a dedicated step
+#   asserts data/ and output/ are unchanged afterward as a hard check.
+# - Fixture and production output is written to a /tmp path outside the
+#   repo, never committed.
+# - Does not touch V16, the renderer selection, or any production
+#   workflow — pure verification of V17 in isolation.
+#
+# Safe to delete once the rendered output has been inspected and the
+# V17-replaces-V16 decision is made.
+name: GetByteRush V17 Fixture Verification (Manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-fixtures:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright pillow
+          python -m playwright install --with-deps chromium
+
+      - name: Compile V17 modules
+        run: |
+          python -m py_compile scripts/carousel_art_renderer_v9.py scripts/carousel_art_renderer_v16.py \
+            scripts/visual_grammars.py scripts/visual_primitives_v17.py \
+            scripts/graphics_director_v17.py scripts/carousel_art_renderer_v17.py
+
+      - name: Render every fixture — Gemini OFF, GBR_INPUT/GBR_OUT only, no production data touched
+        env:
+          PYTHONPATH: scripts
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/v17-verify/fixtures
+          for f in scripts/fixtures/*.json; do
+            name=$(basename "$f" .json)
+            echo "=== Rendering fixture: $name ==="
+            GBR_INPUT="$f" GBR_OUT="/tmp/v17-verify/fixtures/$name" python scripts/carousel_art_renderer_v17.py
+          done
+          echo "GEMINI_CALLS=0 for all fixtures (renderer never calls Gemini)"
+
+      - name: Render the real production story — from a /tmp copy, never the tracked file
+        env:
+          PYTHONPATH: scripts
+        run: |
+          set -euo pipefail
+          cp data/selected_story.json /tmp/production_story_readonly.json
+          mkdir -p /tmp/v17-verify/production
+          GBR_INPUT=/tmp/production_story_readonly.json GBR_OUT=/tmp/v17-verify/production \
+            python scripts/carousel_art_renderer_v17.py
+          echo "GEMINI_CALLS=0 for the production story render"
+
+      - name: QA — slide count, 1080x1350 PNGs, no internal-label leaks, correct renderer tag, per package
+        run: |
+          python - <<'PY'
+          import json, re, sys
+          from pathlib import Path
+
+          leak = re.compile(
+              r'\b(?:visual[_ ]concept|visual[_ ]direction|callout graphic|design direction|layout instruction)\b',
+              re.I,
+          )
+          failures = []
+
+          def qa_package(label, pkg, expected_slides):
+              slides = sorted((pkg / 'slides').glob('*.png'))
+              if len(slides) != expected_slides:
+                  failures.append(f'{label}: expected {expected_slides} slides, found {len(slides)}')
+              for f in slides:
+                  raw = f.read_bytes()
+                  if len(raw) < 24 or raw[:8] != b'\x89PNG\r\n\x1a\n':
+                      failures.append(f'{f}: invalid PNG signature')
+                      continue
+                  w = int.from_bytes(raw[16:20], 'big')
+                  h = int.from_bytes(raw[20:24], 'big')
+                  if (w, h) != (1080, 1350):
+                      failures.append(f'{f}: {w}x{h}, expected 1080x1350')
+
+              for f in sorted((pkg / 'html').glob('*.html')):
+                  text = f.read_text(encoding='utf-8')
+                  visible = re.sub(r'<style\b[^>]*>.*?</style>', ' ', text, flags=re.I | re.S)
+                  visible = re.sub(r'<script\b[^>]*>.*?</script>', ' ', visible, flags=re.I | re.S)
+                  visible = re.sub(r'<[^>]+>', ' ', visible)
+                  m = leak.search(visible)
+                  if m:
+                      failures.append(f'{f}: internal-label leak {m.group(0)!r}')
+
+              post = json.loads((pkg / 'post.json').read_text())
+              if post.get('renderer') != 'getbyterush-pinterest-editorial-v17':
+                  failures.append(f'{label}: wrong renderer tag {post.get("renderer")!r}')
+              if post.get('gemini_calls') != 0:
+                  failures.append(f'{label}: gemini_calls={post.get("gemini_calls")!r}, expected 0')
+
+              spec = json.loads((pkg / 'design_spec.json').read_text())
+              grammars = [f"{s.get('grammar')}:{s.get('variant')}" for s in spec['slides']]
+              print(f'{label}: {len(slides)}/{expected_slides} slides -> {pkg}')
+              print(f'  grammars: {grammars}')
+
+          # Fixtures
+          fixtures_dir = Path('scripts/fixtures')
+          fixture_names = sorted(p.stem for p in fixtures_dir.glob('*.json'))
+          fixtures_root = Path('/tmp/v17-verify/fixtures')
+          for name in fixture_names:
+              out_dir = fixtures_root / name
+              packages = list(out_dir.glob('*/*')) if out_dir.exists() else []
+              if len(packages) != 1:
+                  failures.append(f'{name}: expected exactly 1 rendered package, found {len(packages)}')
+                  continue
+              expected = len(json.loads((fixtures_dir / f'{name}.json').read_text())['slides'])
+              qa_package(name, packages[0], expected)
+
+          # Real production story
+          prod_root = Path('/tmp/v17-verify/production')
+          prod_packages = list(prod_root.glob('*/*')) if prod_root.exists() else []
+          if len(prod_packages) != 1:
+              failures.append(f'production story: expected exactly 1 rendered package, found {len(prod_packages)}')
+          else:
+              expected = len(json.loads(Path('/tmp/production_story_readonly.json').read_text())['slides'])
+              qa_package('production story', prod_packages[0], expected)
+
+          if failures:
+              print('\nFAILURES:')
+              for f in failures:
+                  print(' -', f)
+              sys.exit(1)
+          print('\nAll fixtures + production story pass QA: 1080x1350, no leaks, correct renderer tag, gemini_calls=0.')
+          PY
+
+      - name: Verify no production data or committed output was touched
+        run: |
+          set -euo pipefail
+          dirty=$(git status --porcelain -- data/ output/)
+          if [ -n "$dirty" ]; then
+            echo "ERROR: production data or committed output was modified."
+            echo "$dirty"
+            exit 1
+          fi
+          echo "data/selected_story.json and output/posts/ untouched."
+
+      - name: List generated output
+        if: always()
+        run: find /tmp/v17-verify -type f | sort
+
+      - name: Upload all V17 renders (fixtures + production story) as one artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: getbyterush-v17-verification-${{ github.run_number }}
+          path: /tmp/v17-verify/**
+          if-no-files-found: error
+          retention-days: 14
