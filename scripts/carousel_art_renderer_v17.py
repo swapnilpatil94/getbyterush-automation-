@@ -167,7 +167,15 @@ async def main():
             (hd / f'{i+1:02d}.html').write_text(html_text)
             await page.set_content(html_text, wait_until='load')
             await page.evaluate('document.fonts.ready')
-            await page.screenshot(path=str(sd / f'{i+1:02d}.png'), full_page=False)
+            # JPEG, not PNG: Instagram's Content Publishing API only
+            # accepts JPEG images (confirmed live — a Make.com carousel
+            # post failed Instagram-side validation on the image files
+            # specifically once caption/URL issues were ruled out). Pure
+            # output-format change — the design system (visual_grammars,
+            # graphics_director, primitives) is untouched; every slide is
+            # still an opaque full-bleed background with no transparency,
+            # so JPEG loses nothing.
+            await page.screenshot(path=str(sd / f'{i+1:02d}.jpg'), type='jpeg', quality=92, full_page=False)
         await browser.close()
 
     out = dict(story)

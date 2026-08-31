@@ -1,7 +1,7 @@
 # TEMPORARY / MANUAL verification workflow.
 #
 # Purpose: let the repo owner independently verify, from real CI-rendered
-# PNGs (not code inspection), that the V17 graphics director + renderer
+# JPEGs (not code inspection), that the V17 graphics director + renderer
 # produces a complete, QA-passing carousel for every fixture in
 # scripts/fixtures/ (the original 6 plus the grammar stress test) AND for
 # the real production story, so V17 can be judged against actual content
@@ -77,50 +77,23 @@ jobs:
             python scripts/carousel_art_renderer_v17.py
           echo "GEMINI_CALLS=0 for the production story render"
 
-      - name: QA — slide count, 1080x1350 PNGs, no internal-label leaks, correct renderer tag, per package
+      - name: QA — slide count, 1080x1350 JPEGs, no internal-label leaks, correct renderer tag, per package
+        env:
+          PYTHONPATH: scripts
         run: |
           python - <<'PY'
-          import json, re, sys
+          import json, sys
           from pathlib import Path
+          import qa_check
 
-          leak = re.compile(
-              r'\b(?:visual[_ ]concept|visual[_ ]direction|callout graphic|design direction|layout instruction)\b',
-              re.I,
-          )
           failures = []
 
           def qa_package(label, pkg, expected_slides):
-              slides = sorted((pkg / 'slides').glob('*.png'))
-              if len(slides) != expected_slides:
-                  failures.append(f'{label}: expected {expected_slides} slides, found {len(slides)}')
-              for f in slides:
-                  raw = f.read_bytes()
-                  if len(raw) < 24 or raw[:8] != b'\x89PNG\r\n\x1a\n':
-                      failures.append(f'{f}: invalid PNG signature')
-                      continue
-                  w = int.from_bytes(raw[16:20], 'big')
-                  h = int.from_bytes(raw[20:24], 'big')
-                  if (w, h) != (1080, 1350):
-                      failures.append(f'{f}: {w}x{h}, expected 1080x1350')
-
-              for f in sorted((pkg / 'html').glob('*.html')):
-                  text = f.read_text(encoding='utf-8')
-                  visible = re.sub(r'<style\b[^>]*>.*?</style>', ' ', text, flags=re.I | re.S)
-                  visible = re.sub(r'<script\b[^>]*>.*?</script>', ' ', visible, flags=re.I | re.S)
-                  visible = re.sub(r'<[^>]+>', ' ', visible)
-                  m = leak.search(visible)
-                  if m:
-                      failures.append(f'{f}: internal-label leak {m.group(0)!r}')
-
-              post = json.loads((pkg / 'post.json').read_text())
-              if post.get('renderer') != 'getbyterush-pinterest-editorial-v17':
-                  failures.append(f'{label}: wrong renderer tag {post.get("renderer")!r}')
-              if post.get('gemini_calls') != 0:
-                  failures.append(f'{label}: gemini_calls={post.get("gemini_calls")!r}, expected 0')
-
+              ok, fails = qa_check.check_package(pkg, expected_slides=expected_slides)
+              failures.extend(f'{label}: {f}' for f in fails)
               spec = json.loads((pkg / 'design_spec.json').read_text())
               grammars = [f"{s.get('grammar')}:{s.get('variant')}" for s in spec['slides']]
-              print(f'{label}: {len(slides)}/{expected_slides} slides -> {pkg}')
+              print(f'{label}: {"PASS" if ok else "FAIL"} -> {pkg}')
               print(f'  grammars: {grammars}')
 
           # Fixtures
@@ -150,7 +123,7 @@ jobs:
               for f in failures:
                   print(' -', f)
               sys.exit(1)
-          print('\nAll fixtures + production story pass QA: 1080x1350, no leaks, correct renderer tag, gemini_calls=0.')
+          print('\nAll fixtures + production story pass QA: 1080x1350 JPEG, no leaks, correct renderer tag, gemini_calls=0.')
           PY
 
       - name: Verify no production data or committed output was touched

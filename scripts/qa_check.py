@@ -21,6 +21,33 @@ _LEAK_RE = re.compile(
 EXPECTED_RENDERER_TAG = 'getbyterush-pinterest-editorial-v17'
 
 
+def _jpeg_dimensions(raw):
+    """Minimal, pure-stdlib JPEG SOF parser — no new dependency for one
+    dimension check. Returns (width, height) or None if not a valid JPEG."""
+    if raw[:2] != b'\xff\xd8':
+        return None
+    i = 2
+    sof_markers = {0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7, 0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF}
+    while i + 4 <= len(raw):
+        if raw[i] != 0xFF:
+            i += 1
+            continue
+        marker = raw[i + 1]
+        if marker in (0xD8, 0xD9):  # SOI / EOI
+            i += 2
+            continue
+        if 0xD0 <= marker <= 0xD7:  # RST markers carry no length
+            i += 2
+            continue
+        seg_len = int.from_bytes(raw[i + 2:i + 4], 'big')
+        if marker in sof_markers:
+            h = int.from_bytes(raw[i + 5:i + 7], 'big')
+            w = int.from_bytes(raw[i + 7:i + 9], 'big')
+            return w, h
+        i += 2 + seg_len
+    return None
+
+
 def check_package(pkg_dir, expected_slides=None):
     """Returns (passed: bool, failures: list[str])."""
     pkg_dir = Path(pkg_dir)
@@ -34,17 +61,17 @@ def check_package(pkg_dir, expected_slides=None):
     if expected_slides is None:
         expected_slides = len(post.get('slides') or [])
 
-    slides = sorted((pkg_dir / 'slides').glob('*.png'))
+    slides = sorted((pkg_dir / 'slides').glob('*.jpg'))
     if len(slides) != expected_slides:
         failures.append(f'{pkg_dir}: expected {expected_slides} slides, found {len(slides)}')
 
     for f in slides:
         raw = f.read_bytes()
-        if len(raw) < 24 or raw[:8] != b'\x89PNG\r\n\x1a\n':
-            failures.append(f'{f}: invalid PNG signature')
+        dims = _jpeg_dimensions(raw) if len(raw) >= 4 else None
+        if dims is None:
+            failures.append(f'{f}: invalid JPEG signature')
             continue
-        w = int.from_bytes(raw[16:20], 'big')
-        h = int.from_bytes(raw[20:24], 'big')
+        w, h = dims
         if (w, h) != (1080, 1350):
             failures.append(f'{f}: {w}x{h}, expected 1080x1350')
 

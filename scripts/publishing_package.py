@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Assembles the Instagram publishing package from a V17-rendered post
-package (post.json + design_spec.json + slides/*.png). Zero Gemini calls —
+package (post.json + design_spec.json + slides/*.jpg). Zero Gemini calls —
 reuses the editorial JSON's own caption/hashtags/alt_text/pinned_comment
 and adds SEO fields via seo_metadata.py (deterministic) and per-slide alt
 text via plain-language description of what each grammar actually draws
@@ -50,7 +50,7 @@ def build(pkg_dir):
     slide_specs = spec.get('slides', [])
     slides = story.get('slides', [])
 
-    images = sorted((pkg_dir / 'slides').glob('*.png'))
+    images = sorted((pkg_dir / 'slides').glob('*.jpg'))
     alt_texts = [
         _slide_alt_text(i + 1, slides[i] if i < len(slides) else {}, slide_specs[i] if i < len(slide_specs) else {})
         for i in range(len(images))
