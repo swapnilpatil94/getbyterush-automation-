@@ -75,8 +75,16 @@ def call_multipart(method, fields, files):
 
     req = urllib.request.Request(_base_url(method), data=body, method="POST")
     req.add_header("Content-Type", f"multipart/form-data; boundary={boundary}")
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as err:
+        try:
+            body_resp = json.loads(err.read().decode("utf-8"))
+        except Exception:
+            body_resp = {}
+        print(f"Telegram {method} returned HTTP {err.code}: {body_resp.get('description', err.reason)}")
+        return {"ok": False, "error_code": err.code, "description": body_resp.get("description", str(err.reason))}
 
 
 def send_message(text, reply_markup=None):

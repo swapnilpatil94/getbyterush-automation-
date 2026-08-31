@@ -45,7 +45,14 @@ def _format_card(content_id, package, story_title, source_url):
 
 def send_review_card(content_id, pkg_dir, package):
     pkg_dir = Path(pkg_dir)
-    images = sorted((pkg_dir / 'slides').glob('*.png'))
+    images = sorted((pkg_dir / 'slides').glob('*.jpg'))
+    if not images:
+        # A silently empty list here used to reach Telegram as an empty
+        # media array, which sendMediaGroup rejects with a bare "400 Bad
+        # Request" that gives no hint why — confirmed live when the
+        # renderer's output extension changed and this glob wasn't updated
+        # to match. Fail loudly and specifically instead.
+        raise SystemExit(f"No slide images found in {pkg_dir / 'slides'} (looked for *.jpg) — nothing to send.")
     if len(images) > 10:
         print(f"WARNING: {len(images)} slides, Telegram/Instagram carousel cap is 10 — sending first 10 only")
 
