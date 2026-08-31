@@ -14,8 +14,16 @@ import telegram_review_listener as listener
 
 
 def main():
+    info = tg.call("getWebhookInfo", {})
+    print("getWebhookInfo:")
+    print(json.dumps(info, indent=2, ensure_ascii=False))
+
+    if (info.get("result") or {}).get("url"):
+        print("\nWebhook is active — getUpdates would return a conflict error and is skipped.")
+        return
+
     offset = listener.read_offset()
-    print(f"Stored offset: {offset}")
+    print(f"\nStored offset: {offset}")
     response = tg.call("getUpdates", {
         "offset": offset, "timeout": 0,
         "allowed_updates": json.dumps(["callback_query", "message"]),
