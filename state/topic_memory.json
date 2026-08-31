@@ -2,6 +2,33 @@
   "version": 2,
   "topics": [
     {
+      "title": "From Assistance to Execution: How Enterprises Put AI to Work",
+      "source_title": "From assistance to execution: How enterprises put AI to work",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "source": "OpenAI News",
+      "normalized_title": "from assistance to execution how enterprises put ai to work",
+      "normalized_source_title": "from assistance to execution how enterprises put ai to work",
+      "tokens": [
+        "assistance",
+        "enterprises",
+        "execution",
+        "from",
+        "how",
+        "put",
+        "work"
+      ],
+      "source_tokens": [
+        "assistance",
+        "enterprises",
+        "execution",
+        "from",
+        "how",
+        "put",
+        "work"
+      ],
+      "recorded_at": "2026-08-31T13:21:32.826790+00:00"
+    },
+    {
       "title": "How Netomi Scales Enterprise AI Agents with OpenAI Architecture",
       "source_title": "Netomi’s lessons for scaling agentic systems into the enterprise",
       "url": "https://openai.com/index/netomi",

@@ -1,0 +1,49 @@
+{
+  "content_id": "260831132132-from-assistance-to-e-1699c0",
+  "story_title": "From Assistance to Execution: How Enterprises Put AI to Work",
+  "source_url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-08-31T13:21:32.861891+00:00",
+  "updated_at": "2026-08-31T13:21:37.379442+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-08-31T13:21:32.861900+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-08-31T13:21:32.863073+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-08-31T13:21:32.863464+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-08-31T13:21:32.863848+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-08-31T13:21:34.071833+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-08-31T13:21:37.379458+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-08-31/132132-from-assistance-to-execution-how-enterprises-put-ai-to-work",
+  "publish": {},
+  "story_path": "data/pipeline/260831132132-from-assistance-to-e-1699c0.json"
+}

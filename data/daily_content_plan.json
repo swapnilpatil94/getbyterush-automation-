@@ -1,7 +1,7 @@
 {
   "date": "2026-08-31",
   "target": 2,
-  "selected_count": 4,
+  "selected_count": 5,
   "quality_floor": 50,
   "no_quality_post": false,
   "posts": [
@@ -64,6 +64,22 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 5,
+      "slot": "morning",
+      "content_id": "cand-e4ba58f9de407cd3",
+      "topic": "From assistance to execution: How enterprises put AI to work",
+      "category": "EVERGREEN_VALUE",
+      "score": 62,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260831132132-from-assistance-to-e-1699c0"
     }
   ],
   "slots": {
@@ -74,7 +90,7 @@
     },
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-dc07c2b809f21a76",
+      "content_id": "cand-e4ba58f9de407cd3",
       "label": "Morning discovery"
     }
   }

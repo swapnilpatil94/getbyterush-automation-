@@ -1,0 +1,91 @@
+{
+  "content_id": "260831132132-from-assistance-to-e-1699c0",
+  "story_title": "From Assistance to Execution: How Enterprises Put AI to Work",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-08-31/132132-from-assistance-to-execution-how-enterprises-put-ai-to-work/slides/01.jpg",
+    "output/posts/2026-08-31/132132-from-assistance-to-execution-how-enterprises-put-ai-to-work/slides/02.jpg",
+    "output/posts/2026-08-31/132132-from-assistance-to-execution-how-enterprises-put-ai-to-work/slides/03.jpg",
+    "output/posts/2026-08-31/132132-from-assistance-to-execution-how-enterprises-put-ai-to-work/slides/04.jpg",
+    "output/posts/2026-08-31/132132-from-assistance-to-execution-how-enterprises-put-ai-to-work/slides/05.jpg",
+    "output/posts/2026-08-31/132132-from-assistance-to-execution-how-enterprises-put-ai-to-work/slides/06.jpg",
+    "output/posts/2026-08-31/132132-from-assistance-to-execution-how-enterprises-put-ai-to-work/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Enterprise AI is shifting from assistant to executioner. According to new research from OpenAI, frontier firms are moving beyond simple ChatGPT prompts and connecting models like Codex directly into internal systems to execute workflows autonomously. The real moat isn't just having access to smart AI—it's giving AI the system access required to take action.\n\nRead the breakdown above. What workflows is your company delegating to agents this year?\n\n—\nGETBYTERUSH • TESTED • EXPLAINED • REAL",
+  "caption_for_publish": "Enterprise AI is shifting from assistant to executioner. According to new research from OpenAI, frontier firms are moving beyond simple ChatGPT prompts and connecting models like Codex directly into internal systems to execute workflows autonomously. The real moat isn't just having access to smart AI—it's giving AI the system access required to take action.\n\nRead the breakdown above. What workflows is your company delegating to agents this year?\n\n—\nGETBYTERUSH • TESTED • EXPLAINED • REAL\n\n#AI #ArtificialIntelligence #OpenAI #TechNews #EnterpriseAI #AIAgents #GetByteRush",
+  "pinned_comment": "Are you using AI primarily for answering questions, or have you hooked it up to execute code/workflows directly?",
+  "alt_text_overall": "GetByteRush carousel breakdown explaining how enterprises are moving from AI assistance to agentic execution based on OpenAI research.",
+  "alt_text_per_slide": [
+    "Slide 1: AI IS NO LONGER JUST ASSISTING.. A major shift is happening in enterprise technology. — shown as a side-by-side comparison.",
+    "Slide 2: IT'S EXECUTING WORKFLOWS.. OpenAI data shows leading companies are moving past basic prompt Q&A into multi-step agentic execution. — shown as pinned reference facts.",
+    "Slide 3: THE FRONTIER GAP IS WIDENING.. Frontier firms aren't just using models for brainstorming—they are connecting Codex and ChatGPT directly into internal systems. — shown as one large highlighted number or word.",
+    "Slide 4: FROM HOURS TO SECONDS.. When models move from advice to action, entire operational loops collapse from days to minutes. — shown as a side-by-side comparison.",
+    "Slide 5: THE TOOL ISN'T THE STRATEGY. THE AGENT IS.. Prompt engineering was step one. System integration is step two. — shown as a pulled quote.",
+    "Slide 6: THE REAL ADVANTAGE IS SYSTEM ACCESS.. The winning companies won't just have smarter AI models—they will give their models permission to execute directly in their stack. — shown as a side-by-side comparison.",
+    "Slide 7: NOW YOU KNOW WHERE THE ENTERPRISE IS GOING.. AI isn't replacing employees. It's executing the manual work between them. — shown as a closing statement with the GetByteRush signature."
+  ],
+  "hashtags": [
+    "AI",
+    "ArtificialIntelligence",
+    "OpenAI",
+    "TechNews",
+    "EnterpriseAI",
+    "AIAgents",
+    "GetByteRush"
+  ],
+  "cta": "We test the stuff everyone else just explains.",
+  "seo": {
+    "primary_keyword": "From Assistance",
+    "secondary_keywords": [
+      "AI",
+      "ArtificialIntelligence",
+      "OpenAI",
+      "TechNews",
+      "EnterpriseAI",
+      "AIAgents",
+      "GetByteRush",
+      "Execution"
+    ],
+    "search_phrases": [
+      "what is From Assistance",
+      "From Assistance vs Execution",
+      "From Assistance AI",
+      "From Assistance ArtificialIntelligence"
+    ],
+    "entities": [
+      "From Assistance",
+      "Execution",
+      "How Enterprises Put",
+      "AI",
+      "Work From",
+      "How"
+    ]
+  },
+  "source_attribution": {
+    "title": "From assistance to execution: How enterprises put AI to work",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/how-enterprises-put-ai-to-work"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI research details how enterprises are adopting agentic AI and moving from assistance to execution.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Frontier firms gain advantage by giving models direct system access for agentic workflows.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+        "source_name": "OpenAI News"
+      }
+    ]
+  }
+}

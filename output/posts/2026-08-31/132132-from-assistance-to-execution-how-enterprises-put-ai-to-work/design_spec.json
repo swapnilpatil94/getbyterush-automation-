@@ -1,0 +1,171 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "GETBYTERUSH / ENTERPRISE REPORT",
+      "headline": "AI IS NO LONGER JUST ASSISTING",
+      "body": "A major shift is happening in enterprise technology.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Enterprise AI adoption is undergoing a fundamental structural transition.",
+        "After",
+        "Companies relying on conversational chat are already falling behind execution-first organizations."
+      ]
+    },
+    {
+      "number": 2,
+      "grammar": "evidence_board",
+      "variant": "single_citation",
+      "primitive": "evidence_board:single_citation",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE SHIFT",
+      "headline": "IT'S EXECUTING WORKFLOWS",
+      "body": "OpenAI data shows leading companies are moving past basic prompt Q&A into multi-step agentic execution.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "source name",
+        "quoted claim"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "source_label_full": "SOURCE / OPENAI ENTERPRISE REPORT",
+      "quote_text": "OpenAI data shows leading companies are moving past basic prompt Q&A into multi-step agentic execution."
+    },
+    {
+      "number": 3,
+      "grammar": "singular_object",
+      "variant": "statement",
+      "primitive": "singular_object:statement",
+      "accent": "#2D8C7A",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "DATA INSIGHT",
+      "headline": "THE FRONTIER GAP IS WIDENING",
+      "body": "Frontier firms aren't just using models for brainstorming—they are connecting Codex and ChatGPT directly into internal…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "headline"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "source_label_full": "SOURCE / OPENAI REPORT",
+      "quote_text": "Frontier firms aren't just using models for brainstorming—they are connecting Codex and ChatGPT directly into internal systems."
+    },
+    {
+      "number": 4,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "OBSERVATION",
+      "headline": "FROM HOURS TO SECONDS",
+      "body": "When models move from advice to action, entire operational loops collapse from days to minutes.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "The compounding velocity of agentic execution vs manual oversight.",
+        "After",
+        "Traditional operational frameworks are being rendered obsolete."
+      ]
+    },
+    {
+      "number": 5,
+      "grammar": "quote",
+      "variant": "pull_quote",
+      "primitive": "quote:pull_quote",
+      "accent": "#BFDCCF",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "FIELD NOTE",
+      "headline": "THE TOOL ISN'T THE STRATEGY. THE AGENT IS",
+      "body": "Prompt engineering was step one. System integration is step two.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "quote text",
+        "source"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "quote_text": "Prompt engineering was step one. System integration is step two.",
+      "quote_source": "GETBYTERUSH ANALYSIS"
+    },
+    {
+      "number": 6,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "WHAT IT MEANS",
+      "headline": "THE REAL ADVANTAGE IS SYSTEM ACCESS",
+      "body": "The winning companies won't just have smarter AI models—they will give their models permission to execute…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Translating report findings into structural action.",
+        "After",
+        "Tool access and API integration are becoming primary competitive moats."
+      ]
+    },
+    {
+      "number": 7,
+      "grammar": "payoff",
+      "variant": "payoff",
+      "primitive": "payoff",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "CONCLUSION",
+      "headline": "NOW YOU KNOW WHERE THE ENTERPRISE IS GOING",
+      "body": "AI isn't replacing employees. It's executing the manual work between them.",
+      "cta": "We test the stuff everyone else just explains.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "signature",
+        "CTA"
+      ],
+      "density": "sparse",
+      "headline_optional": false
+    }
+  ]
+}
