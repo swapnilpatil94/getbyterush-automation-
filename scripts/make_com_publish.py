@@ -66,7 +66,7 @@ def publish(content_id):
     # error) — a plain array of URL strings, which is what this sent
     # before, isn't a shape that module accepts at all.
     payload = {
-        "caption": package.get("caption", ""),
+        "caption": package.get("caption_for_publish") or package.get("caption", ""),
         "images": [
             {"media_type": "IMAGE", "image_url": public_url(p), "video_url": ""}
             for p in package["images"][:10]

@@ -59,6 +59,16 @@ def build(pkg_dir):
     seo = seo_metadata.derive(story)
     source_story = story.get('source_story') or {}
 
+    raw_caption = story.get('caption', '')
+    hashtags = story.get('hashtags', []) or []
+    hashtag_line = ' '.join(f'#{h.lstrip("#")}' for h in hashtags)
+    # Instagram has no separate hashtags field on either publishing path —
+    # they only take effect as clickable tags when they're literally part
+    # of the caption text. Confirmed missing on the first real post: the
+    # caption alone was sent, hashtags were built and stored in the
+    # package but never appended anywhere before reaching Instagram.
+    caption_for_publish = f'{raw_caption}\n\n{hashtag_line}'.strip() if hashtag_line else raw_caption
+
     package = {
         'content_id': story.get('content_id', ''),
         'story_title': story.get('story_title', ''),
@@ -66,7 +76,8 @@ def build(pkg_dir):
         'gemini_calls': story.get('gemini_calls', 0),
         'images': [str(p) for p in images],
         'slide_count': len(images),
-        'caption': story.get('caption', ''),
+        'caption': raw_caption,
+        'caption_for_publish': caption_for_publish,
         'pinned_comment': story.get('pinned_comment', ''),
         'alt_text_overall': story.get('alt_text', ''),
         'alt_text_per_slide': alt_texts,

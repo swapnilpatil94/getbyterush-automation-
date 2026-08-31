@@ -4,7 +4,7 @@
 Polls getUpdates for callback_query (button presses) and plain text
 messages (optional rejection notes), drives content_state transitions,
 and dispatches the follow-up GitHub Actions workflow for each outcome:
-publish-instagram.yml on approval, regenerate-visual.yml on VISUAL/
+PUBLISH_WORKFLOW (see below) on approval, regenerate-visual.yml on VISUAL/
 DIFFERENT_APPROACH rejection, refetch-evidence.yml on EVIDENCE rejection.
 TOPIC and CONTENT rejections need no follow-up workflow — the state
 transition alone is enough (topic_memory already blocks the topic; content
@@ -24,6 +24,15 @@ OFFSET_FILE = Path("state/telegram_offset.txt")
 PENDING_NOTE_FILE = Path("state/pipeline/pending_note.json")
 
 CHAT_ID = str(os.environ.get("TELEGRAM_CHAT_ID", ""))
+
+# Which workflow APPROVE dispatches. Currently make-com-publish.yml — the
+# Graph API path (publish-instagram.yml) is fully built and idempotent-
+# safe but can't run until Meta Developer app access is sorted (missing
+# INSTAGRAM_ACCESS_TOKEN/INSTAGRAM_ACCOUNT_ID). Make.com is the confirmed-
+# working path (a real post went live through it). Flip this back to
+# "publish-instagram.yml" once Graph API access exists — nothing else
+# needs to change.
+PUBLISH_WORKFLOW = "make-com-publish.yml"
 
 REASON_LABELS = {
     "v": ("visual", "🎨 VISUALS"),
@@ -129,7 +138,7 @@ def handle_callback(callback):
             tg.answer_callback(callback["id"], "This post is not in an approvable state.")
             return
         cs.transition(content_id, "APPROVED", note="approved via Telegram")
-        github_dispatch.trigger("publish-instagram.yml", {"content_id": content_id})
+        github_dispatch.trigger(PUBLISH_WORKFLOW, {"content_id": content_id})
         tg.answer_callback(callback["id"], "✅ Approved. Publishing workflow started...")
         tg.edit_message_text(chat_id, message_id, f"✅ GETBYTERUSH POST APPROVED\n\nPost: {content_id}\n\nPublishing workflow started — will only post after it confirms success.")
         return

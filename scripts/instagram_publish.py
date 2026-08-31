@@ -117,7 +117,7 @@ def publish(content_id):
     package = json.loads((Path(record["package_path"]) / "publishing_package.json").read_text(encoding="utf-8"))
     images = package["images"]
     alt_texts = package.get("alt_text_per_slide", [])
-    caption = package.get("caption", "")
+    caption = package.get("caption_for_publish") or package.get("caption", "")
     overall_alt = package.get("alt_text_overall", "")
 
     cs.transition(content_id, "PUBLISHING", note="Instagram Graph API")

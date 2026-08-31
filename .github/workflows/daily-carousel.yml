@@ -4,7 +4,7 @@ name: GetByteRush Daily Carousel
 # -> TELEGRAM REVIEW. Runs once a day: one Gemini call, one candidate
 # carousel, one Telegram review card. This workflow NEVER publishes to
 # Instagram — it stops at AWAITING_TELEGRAM_APPROVAL. Publishing only
-# happens from publish-instagram.yml, dispatched by
+# happens from whichever workflow telegram_review_listener.py's PUBLISH_WORKFLOW points at (currently make-com-publish.yml), dispatched by
 # telegram_review_listener.py after an explicit human approval.
 
 on:

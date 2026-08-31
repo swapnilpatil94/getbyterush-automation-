@@ -2,7 +2,7 @@ name: Telegram Listener (Manual Fallback)
 
 # Polls for callback_query (button taps) and plain-text messages (optional
 # rejection notes), drives the content_state machine, and dispatches
-# regenerate-visual.yml / refetch-evidence.yml / publish-instagram.yml —
+# regenerate-visual.yml / refetch-evidence.yml / whichever workflow PUBLISH_WORKFLOW points at —
 # see scripts/telegram_review_listener.py. Shares the getbyterush-production
 # concurrency group because a callback can commit to state/pipeline/ at
 # the same time a render workflow is committing output/ — both must
