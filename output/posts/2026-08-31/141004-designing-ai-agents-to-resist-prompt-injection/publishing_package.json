@@ -1,0 +1,96 @@
+{
+  "content_id": "260831141004-designing-ai-agents--9f0f79",
+  "story_title": "Designing AI Agents to Resist Prompt Injection",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-08-31/141004-designing-ai-agents-to-resist-prompt-injection/slides/01.jpg",
+    "output/posts/2026-08-31/141004-designing-ai-agents-to-resist-prompt-injection/slides/02.jpg",
+    "output/posts/2026-08-31/141004-designing-ai-agents-to-resist-prompt-injection/slides/03.jpg",
+    "output/posts/2026-08-31/141004-designing-ai-agents-to-resist-prompt-injection/slides/04.jpg",
+    "output/posts/2026-08-31/141004-designing-ai-agents-to-resist-prompt-injection/slides/05.jpg",
+    "output/posts/2026-08-31/141004-designing-ai-agents-to-resist-prompt-injection/slides/06.jpg",
+    "output/posts/2026-08-31/141004-designing-ai-agents-to-resist-prompt-injection/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "AI agents are gaining the power to perform real-world actions—from reading emails to managing cloud databases. But that autonomy introduces a critical vulnerability: prompt injection.\n\nOpenAI released technical guidance detailing how they design ChatGPT agents to resist social engineering and malicious context injections.\n\nThe key takeaway? System prompts alone cannot guarantee security. Securing an agent requires architectural isolation: treating untrusted data separately and enforcing strict API privilege boundaries.\n\nHere is how the threat works and how the defense architecture is changing.\n\nRead the breakdown 👆\n\n—\nGETBYTERUSH\nTESTED • EXPLAINED • REAL\n\nSource: OpenAI (March 11, 2026)",
+  "caption_for_publish": "AI agents are gaining the power to perform real-world actions—from reading emails to managing cloud databases. But that autonomy introduces a critical vulnerability: prompt injection.\n\nOpenAI released technical guidance detailing how they design ChatGPT agents to resist social engineering and malicious context injections.\n\nThe key takeaway? System prompts alone cannot guarantee security. Securing an agent requires architectural isolation: treating untrusted data separately and enforcing strict API privilege boundaries.\n\nHere is how the threat works and how the defense architecture is changing.\n\nRead the breakdown 👆\n\n—\nGETBYTERUSH\nTESTED • EXPLAINED • REAL\n\nSource: OpenAI (March 11, 2026)\n\n#GetByteRush #AIGeeks #AISecurity #OpenAI #ChatGPT #AIAgents #TechNews #CyberSecurity #SoftwareArchitecture",
+  "pinned_comment": "Can prompt injection ever be 100% solved while data and instructions share the same context window? Drop your take below.",
+  "alt_text_overall": "GetByteRush carousel titled 'The Agent Hack OpenAI is Fighting', detailing OpenAI's technical framework for preventing prompt injection in AI agents.",
+  "alt_text_per_slide": [
+    "Slide 1: THE AGENT HACK OPENAI IS FIGHTING.. When AI agents execute real-world tasks, hidden instructions can hijack them. Here is OpenAI's technical framework for defending autonomous workflows. — shown as a side-by-side comparison.",
+    "Slide 2: ONE HIDDEN TEXT CAN HIJACK AN AGENT.. If an agent reads an email or webpage containing malicious prompt injections, it can be tricked into exfiltrating data or running unauthorized commands. — shown as one large highlighted number or word.",
+    "Slide 3: OPENAI REVEALS AGENT ARCHITECTURE.. OpenAI published explicit design rules for ChatGPT agent workflows, focusing on constraining risky actions and isolating sensitive data access. — shown as pinned reference facts.",
+    "Slide 4: CONSTRAINING HIGH-RISK ACTIONS.. Instead of relying on LLM self-restraint, defenses must enforce privilege limits directly at the API and tool level before any action is triggered. — shown as a side-by-side comparison.",
+    "Slide 5: PROMPT INJECTION IS NOT A TYPICAL BUG.. Because models process instructions and user data in the same channel, total elimination requires complete structural isolation—not just fine-tuning. — shown as a pulled quote.",
+    "Slide 6: WHAT THIS MEANS FOR AGENT DEVS.. If your AI agent reads untrusted third-party data, soft system prompts are no longer valid defense. You must implement hard privilege controls. — shown as a side-by-side comparison.",
+    "Slide 7: THE BOUNDARY IS THE REAL DEFENSE.. The future of safe AI agents isn't just smarter language models—it's stricter sandboxes around every single action those models execute. — shown as a closing statement with the GetByteRush signature."
+  ],
+  "hashtags": [
+    "GetByteRush",
+    "AIGeeks",
+    "AISecurity",
+    "OpenAI",
+    "ChatGPT",
+    "AIAgents",
+    "TechNews",
+    "CyberSecurity",
+    "SoftwareArchitecture"
+  ],
+  "cta": "Send this to the person who needs to see it.",
+  "seo": {
+    "primary_keyword": "Designing AI Agents",
+    "secondary_keywords": [
+      "GetByteRush",
+      "AIGeeks",
+      "AISecurity",
+      "OpenAI",
+      "ChatGPT",
+      "AIAgents",
+      "TechNews",
+      "CyberSecurity"
+    ],
+    "search_phrases": [
+      "what is Designing AI Agents",
+      "Designing AI Agents vs Resist Prompt Injection",
+      "Designing AI Agents GetByteRush",
+      "Designing AI Agents AIGeeks"
+    ],
+    "entities": [
+      "Designing AI Agents",
+      "Resist Prompt Injection",
+      "Designing AI"
+    ]
+  },
+  "source_attribution": {
+    "title": "Designing AI agents to resist prompt injection",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI published guidance on designing AI agents to resist prompt injection.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Defending agents requires privilege boundaries and constraining risky actions.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "System prompts alone are insufficient for total prompt injection security.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+        "source_name": "GetByteRush Editorial Analysis"
+      }
+    ]
+  }
+}

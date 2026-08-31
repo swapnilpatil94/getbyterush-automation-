@@ -2,6 +2,29 @@
   "version": 2,
   "topics": [
     {
+      "title": "Designing AI Agents to Resist Prompt Injection",
+      "source_title": "Designing AI agents to resist prompt injection",
+      "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "source": "OpenAI News",
+      "normalized_title": "designing ai agents to resist prompt injection",
+      "normalized_source_title": "designing ai agents to resist prompt injection",
+      "tokens": [
+        "agents",
+        "designing",
+        "injection",
+        "prompt",
+        "resist"
+      ],
+      "source_tokens": [
+        "agents",
+        "designing",
+        "injection",
+        "prompt",
+        "resist"
+      ],
+      "recorded_at": "2026-08-31T14:10:04.562603+00:00"
+    },
+    {
       "title": "From Assistance to Execution: How Enterprises Put AI to Work",
       "source_title": "From assistance to execution: How enterprises put AI to work",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",

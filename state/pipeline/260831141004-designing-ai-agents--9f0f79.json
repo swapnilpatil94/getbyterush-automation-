@@ -1,0 +1,49 @@
+{
+  "content_id": "260831141004-designing-ai-agents--9f0f79",
+  "story_title": "Designing AI Agents to Resist Prompt Injection",
+  "source_url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-08-31T14:10:04.596164+00:00",
+  "updated_at": "2026-08-31T14:10:09.481484+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-08-31T14:10:04.596172+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-08-31T14:10:04.597464+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-08-31T14:10:04.597914+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-08-31T14:10:04.598413+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-08-31T14:10:05.833027+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-08-31T14:10:09.481498+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-08-31/141004-designing-ai-agents-to-resist-prompt-injection",
+  "publish": {},
+  "story_path": "data/pipeline/260831141004-designing-ai-agents--9f0f79.json"
+}

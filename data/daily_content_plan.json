@@ -1,7 +1,7 @@
 {
   "date": "2026-08-31",
   "target": 2,
-  "selected_count": 5,
+  "selected_count": 6,
   "quality_floor": 50,
   "no_quality_post": false,
   "posts": [
@@ -80,12 +80,28 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260831132132-from-assistance-to-e-1699c0"
+    },
+    {
+      "rank": 6,
+      "slot": "night",
+      "content_id": "cand-fe3e604578612cb9",
+      "topic": "Designing AI agents to resist prompt injection",
+      "category": "EVERGREEN_VALUE",
+      "score": 62,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260831141004-designing-ai-agents--9f0f79"
     }
   ],
   "slots": {
     "night": {
       "status": "SELECTED",
-      "content_id": "cand-dc07c2b809f21a76",
+      "content_id": "cand-fe3e604578612cb9",
       "label": "Maximum push"
     },
     "morning": {

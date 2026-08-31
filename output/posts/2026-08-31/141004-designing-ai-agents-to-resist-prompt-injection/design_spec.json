@@ -1,0 +1,175 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#426A78",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "GETBYTERUSH / AI SECURITY",
+      "headline": "THE AGENT HACK OPENAI IS FIGHTING",
+      "body": "When AI agents execute real-world tasks, hidden instructions can hijack them. Here is OpenAI's technical framework…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "AI agents taking actions introduce new remote attack vectors.",
+        "After",
+        "Security must shift from prompt filtering to architectural constraint."
+      ]
+    },
+    {
+      "number": 2,
+      "grammar": "singular_object",
+      "variant": "statement",
+      "primitive": "singular_object:statement",
+      "accent": "#426A78",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "THE VULNERABILITY",
+      "headline": "ONE HIDDEN TEXT CAN HIJACK AN AGENT",
+      "body": "If an agent reads an email or webpage containing malicious prompt injections, it can be tricked…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "headline"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "sides": [
+        "Before",
+        "Data and instructions travel through the exact same context window in LLMs.",
+        "After",
+        "Standard software defenses do not automatically apply to natural language interfaces."
+      ]
+    },
+    {
+      "number": 3,
+      "grammar": "evidence_board",
+      "variant": "single_citation",
+      "primitive": "evidence_board:single_citation",
+      "accent": "#426A78",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "OFFICIAL DEFENSE",
+      "headline": "OPENAI REVEALS AGENT ARCHITECTURE",
+      "body": "OpenAI published explicit design rules for ChatGPT agent workflows, focusing on constraining risky actions and isolating…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "source name",
+        "quoted claim"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "source_label_full": "SOURCE / OpenAI (March 11, 2026)",
+      "quote_text": "OpenAI published explicit design rules for ChatGPT agent workflows, focusing on constraining risky actions and isolating sensitive data access."
+    },
+    {
+      "number": 4,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#426A78",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "EXECUTION BOUNDARIES",
+      "headline": "CONSTRAINING HIGH-RISK ACTIONS",
+      "body": "Instead of relying on LLM self-restraint, defenses must enforce privilege limits directly at the API and…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Tool constraints prevent catastrophic impact even when an injection succeeds.",
+        "After",
+        "Developers cannot rely on model alignment for operational safety."
+      ]
+    },
+    {
+      "number": 5,
+      "grammar": "quote",
+      "variant": "pull_quote",
+      "primitive": "quote:pull_quote",
+      "accent": "#E53935",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "CORE REALITY",
+      "headline": "PROMPT INJECTION IS NOT A TYPICAL BUG",
+      "body": "Because models process instructions and user data in the same channel, total elimination requires complete structural…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "quote text",
+        "source"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "quote_text": "Because models process instructions and user data in the same channel, total elimination requires complete structural isolation—not just fine-tuning.",
+      "quote_source": "GETBYTERUSH ANALYSIS"
+    },
+    {
+      "number": 6,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#426A78",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "BUILDER BLUEPRINT",
+      "headline": "WHAT THIS MEANS FOR AGENT DEVS",
+      "body": "If your AI agent reads untrusted third-party data, soft system prompts are no longer valid defense…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Industry standards for agent production safety are shifting rapidly.",
+        "After",
+        "Products built without sandboxed tools face major vulnerability risks."
+      ]
+    },
+    {
+      "number": 7,
+      "grammar": "payoff",
+      "variant": "payoff",
+      "primitive": "payoff",
+      "accent": "#426A78",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "GETBYTERUSH VERDICT",
+      "headline": "THE BOUNDARY IS THE REAL DEFENSE",
+      "body": "The future of safe AI agents isn't just smarter language models—it's stricter sandboxes around every single…",
+      "cta": "Send this to the person who needs to see it.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "signature",
+        "CTA"
+      ],
+      "density": "sparse",
+      "headline_optional": false
+    }
+  ]
+}
