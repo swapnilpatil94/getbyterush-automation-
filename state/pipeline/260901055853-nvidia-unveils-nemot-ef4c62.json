@@ -2,9 +2,9 @@
   "content_id": "260901055853-nvidia-unveils-nemot-ef4c62",
   "story_title": "NVIDIA Unveils Nemotron 3.5 Lightning and NeMo Switchyard to Cut Agentic AI Costs",
   "source_url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "status": "APPROVED",
   "created_at": "2026-09-01T05:58:53.784143+00:00",
-  "updated_at": "2026-09-01T05:58:58.396117+00:00",
+  "updated_at": "2026-09-01T05:59:44.466922+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -35,6 +35,11 @@
       "status": "AWAITING_TELEGRAM_APPROVAL",
       "at": "2026-09-01T05:58:58.396131+00:00",
       "note": ""
+    },
+    {
+      "status": "APPROVED",
+      "at": "2026-09-01T05:59:44.466939+00:00",
+      "note": "approved via Telegram"
     }
   ],
   "attempts": {
