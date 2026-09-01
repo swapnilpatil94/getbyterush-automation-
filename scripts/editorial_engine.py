@@ -140,6 +140,12 @@ def build_prompt(stories, repair_feedback=""):
                 "pre_filter_score": story.get("pre_filter_score", 0),
                 "impact_score": story.get("impact_score", 0),
                 "source_page_text": source_text,
+                # Some publishers (e.g. openai.com) block automated
+                # fetches with a 403 regardless of User-Agent — a
+                # datacenter-IP block, not fixable by retrying. When that
+                # happens source_page_text is empty and Gemini must know
+                # it, not silently write as if it had the full article.
+                "evidence_fetch_status": "ok" if source_text else "unavailable",
             }
         )
 
@@ -190,6 +196,12 @@ This is a publication system, not a creative-writing task.
 12. Every quote must be directly supported by the supplied source text.
 13. Use one primary source whenever it is sufficient. Add secondary sources only when they materially improve verification.
 14. The carousel may be dramatic, but the wording must remain factually defensible.
+15. Check each candidate's evidence_fetch_status. When it is "unavailable", the full source article could not be
+    retrieved — you only have that candidate's title, description, and metadata, nothing more. If you select such a
+    candidate: do not use visual_type "screenshot" or "evidence" on any slide (there is no fetched page to show or
+    quote from), do not write any claim more specific than what the title/description already states, and do not
+    imply you viewed the full article. Building an honest, well-structured carousel from a title and description
+    alone is preferred over fabricating detail to fill an evidence slide that has nothing behind it.
 
 ================ STORY QUALITY ================
 
