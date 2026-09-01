@@ -2,9 +2,9 @@
   "content_id": "260901033142-how-balyasny-asset-m-1c511b",
   "story_title": "How Balyasny Asset Management Built an AI Research Engine",
   "source_url": "https://openai.com/index/balyasny-asset-management",
-  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "status": "APPROVED",
   "created_at": "2026-09-01T03:31:42.145668+00:00",
-  "updated_at": "2026-09-01T03:31:46.823035+00:00",
+  "updated_at": "2026-09-01T04:15:09.884733+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -35,6 +35,11 @@
       "status": "AWAITING_TELEGRAM_APPROVAL",
       "at": "2026-09-01T03:31:46.823056+00:00",
       "note": ""
+    },
+    {
+      "status": "APPROVED",
+      "at": "2026-09-01T04:15:09.884742+00:00",
+      "note": "approved via Telegram"
     }
   ],
   "attempts": {
