@@ -29,6 +29,12 @@ _GRAMMAR_ALT_HINT = {
     'quote': 'a pulled quote',
     'singular_object': 'one large highlighted number or word',
     'payoff': 'a closing statement with the GetByteRush signature',
+    'headline_block': 'a bold statement over a torn-edge color block',
+    'bulletin': 'a numbered slide beside a large offset circle',
+    'ledger': 'a large statistic on a ruled, terminal-style background',
+    'signal': 'a diagonally split slide with a status indicator',
+    'dossier': 'a pinned, slightly rotated case-file card',
+    'pulse': 'a headline over radiating signal rings',
 }
 
 

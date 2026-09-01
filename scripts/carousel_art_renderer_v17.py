@@ -21,6 +21,7 @@ from datetime import datetime
 from pathlib import Path
 
 import carousel_art_renderer_v16 as v16
+import carousel_families
 import graphics_director as gd
 import graphics_director_v17 as gd17
 import visual_primitives as vp
@@ -136,9 +137,22 @@ async def main():
     if not story.get('selected') or not slides:
         raise SystemExit('No selected editorial')
 
+    # Visual families (Bulletin/Headline Block/Ledger/Signal/Dossier/Pulse)
+    # replaced the old per-slide grammar system as the default render path
+    # after the design review — see carousel_families.py. GBR_LEGACY_GRAMMAR=1
+    # is a rollback escape hatch to the old graphics_director_v17 system
+    # without a code revert, kept only for that purpose.
+    use_legacy = os.environ.get('GBR_LEGACY_GRAMMAR') == '1'
     evidence_urls = {i: source_url(story, s) for i, s in enumerate(slides) if source_url(story, s)}
-    carousel = gd17.direct(story, evidence_urls)
-    specs = carousel['slides']
+    specs = None
+    family_specs = None
+    if use_legacy:
+        carousel = gd17.direct(story, evidence_urls)
+        specs = carousel['slides']
+    else:
+        family = carousel_families.resolve_family(story)
+        accent = ((story.get('design') or {}).get('accent_color')) or '#12352B'
+        family_specs = []
 
     now = datetime.now().astimezone()
     slug = re.sub(r'[^a-z0-9]+', '-', clean(story.get('story_title', 'post')).lower()).strip('-')[:72]
@@ -153,16 +167,36 @@ async def main():
         await page.route(f'{v16.FONT_ORIGIN}/**', v16._fulfill_font)
         await page.route(f'{v16.ASSET_ORIGIN}/**', v16._fulfill_asset)
         for i, slide in enumerate(slides):
-            spec = specs[i]
-            evidence = None
-            if spec.get('needs_evidence'):
-                target = ed / f'{i+1:02d}.png'
-                evidence = await capture(page, source_url(story, slide), target)
-                src = story.get('source_story') or {}
-                spec['_source_story'] = src
-                spec['_context'] = slide.get('context')
-                spec['_domain'] = domain(source_url(story, slide))
-            bg, fg, inner_html = assemble(spec, evidence)
+            if use_legacy:
+                spec = specs[i]
+                evidence = None
+                if spec.get('needs_evidence'):
+                    target = ed / f'{i+1:02d}.png'
+                    evidence = await capture(page, source_url(story, slide), target)
+                    src = story.get('source_story') or {}
+                    spec['_source_story'] = src
+                    spec['_context'] = slide.get('context')
+                    spec['_domain'] = domain(source_url(story, slide))
+                bg, fg, inner_html = assemble(spec, evidence)
+            else:
+                is_hook, is_payoff = (i == 0), (i == len(slides) - 1)
+                bg, fg, inner_html = carousel_families.render_slide(
+                    family,
+                    kicker=slide.get('kicker', ''),
+                    headline=slide.get('headline', ''),
+                    body=slide.get('body', ''),
+                    accent=accent,
+                    number=i + 1,
+                    total=len(slides),
+                    is_hook=is_hook,
+                    is_payoff=is_payoff,
+                )
+                family_specs.append({
+                    'number': i + 1,
+                    'grammar': 'headline_block' if (is_hook or is_payoff) else family,
+                    'variant': 'bookend' if (is_hook or is_payoff) else family,
+                    'accent': accent, 'bg': bg, 'fg': fg,
+                })
             html_text = doc(inner_html, bg, fg, i + 1, len(slides))
             (hd / f'{i+1:02d}.html').write_text(html_text)
             await page.set_content(html_text, wait_until='load')
@@ -182,9 +216,11 @@ async def main():
     out['renderer'] = 'getbyterush-pinterest-editorial-v17'
     out['gemini_calls'] = 0
     out['rendered_at'] = datetime.now().astimezone().isoformat()
+    out['visual_family'] = 'legacy_grammar' if use_legacy else family
+    final_specs = specs if use_legacy else family_specs
     (pkg / 'post.json').write_text(json.dumps(out, ensure_ascii=False, indent=2))
     (pkg / 'design_spec.json').write_text(json.dumps(
-        {'slides': [{k: v for k, v in s.items() if not k.startswith('_')} for s in specs]},
+        {'slides': [{k: v for k, v in s.items() if not k.startswith('_')} for s in final_specs]},
         ensure_ascii=False, indent=2,
     ))
     for name, value in [('caption.txt', story.get('caption', '')), ('alt-text.txt', story.get('alt_text', '')),
@@ -194,7 +230,7 @@ async def main():
     print(f'RENDERED={pkg}')
     print('GEMINI_CALL=0')
     print('SLIDES=', len(slides))
-    print('GRAMMARS=', [f"{s['grammar']}:{s['variant']}" for s in specs])
+    print('GRAMMARS=', [f"{s['grammar']}:{s['variant']}" for s in final_specs])
 
 
 if __name__ == '__main__':
