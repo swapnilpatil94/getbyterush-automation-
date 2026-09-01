@@ -1,0 +1,49 @@
+{
+  "content_id": "260901051716-introducing-aardvark-26ad1f",
+  "story_title": "Introducing Aardvark: OpenAI's Agentic Security Researcher",
+  "source_url": "https://openai.com/index/introducing-aardvark",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-01T05:17:16.355757+00:00",
+  "updated_at": "2026-09-01T05:17:22.241758+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-01T05:17:16.355763+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-01T05:17:16.356441+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-01T05:17:16.356679+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-01T05:17:16.356907+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-01T05:17:18.775580+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-01T05:17:22.241770+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-01/051716-introducing-aardvark-openai-s-agentic-security-researcher",
+  "publish": {},
+  "story_path": "data/pipeline/260901051716-introducing-aardvark-26ad1f.json"
+}

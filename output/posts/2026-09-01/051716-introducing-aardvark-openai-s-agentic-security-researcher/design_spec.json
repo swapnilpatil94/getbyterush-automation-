@@ -1,0 +1,175 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "AI / SECURITY / BREAKTHROUGH",
+      "headline": "OPENAI BUILT AN AI SECURITY RESEARCHER",
+      "body": "It autonomously finds, validates, and helps fix software vulnerabilities.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "OpenAI officially introduced Aardvark, an autonomous security research agent.",
+        "After",
+        "Security scanning is shifting from passive static analysis to autonomous action."
+      ]
+    },
+    {
+      "number": 2,
+      "grammar": "singular_object",
+      "variant": "statement",
+      "primitive": "singular_object:statement",
+      "accent": "#12352B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "PROJECT AARDVARK",
+      "headline": "MEET AARDVARK",
+      "body": "Traditional scanners only flag potential flaws. OpenAI's new system handles the entire security workflow autonomously.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "headline"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "sides": [
+        "Before",
+        "Aardvark is currently entering private beta testing.",
+        "After",
+        "Autonomous software defense is becoming an active capability."
+      ]
+    },
+    {
+      "number": 3,
+      "grammar": "evidence_board",
+      "variant": "single_citation",
+      "primitive": "evidence_board:single_citation",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "AUTONOMOUS WORKFLOW",
+      "headline": "3 STEPS TO SECURE CODE",
+      "body": "1. FINDS software vulnerabilities 2. VALIDATES authentic security flaws 3. HELPS FIX bugs at scale",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "source name",
+        "quoted claim"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "source_label_full": "OPENAI SPECIFICATION",
+      "quote_text": "1. FINDS software vulnerabilities 2. VALIDATES authentic security flaws 3. HELPS FIX bugs at scale"
+    },
+    {
+      "number": 4,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#B7E32B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "SCALE & SPEED",
+      "headline": "DEFENSE AT SCALE",
+      "body": "Human security research takes days per vulnerability. Agentic AI allows continuous scanning and rapid patch creation…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Software complexity outpaces human security auditing capacity.",
+        "After",
+        "Scale advantages could tilt security dynamics toward defensive automation."
+      ]
+    },
+    {
+      "number": 5,
+      "grammar": "quote",
+      "variant": "pull_quote",
+      "primitive": "quote:pull_quote",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "FIELD NOTE",
+      "headline": "\"FIND, VALIDATE, AND HELP FIX VULNERABILITIES AT SCALE.\"",
+      "body": "OpenAI has opened sign-ups for a private beta as early testing begins.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "quote text",
+        "source"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "quote_text": "OpenAI has opened sign-ups for a private beta as early testing begins.",
+      "quote_source": "OPENAI ANNOUNCEMENT"
+    },
+    {
+      "number": 6,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#12352B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "THE BIG PICTURE",
+      "headline": "THE SHIFT IN CYBERSECURITY",
+      "body": "Automated security offensive tools have existed for years. Autonomous AI defenders represent the next line of…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Cybersecurity relies on rapid vulnerability response.",
+        "After",
+        "Development workflows will increasingly embed autonomous security agents."
+      ]
+    },
+    {
+      "number": 7,
+      "grammar": "payoff",
+      "variant": "payoff",
+      "primitive": "payoff",
+      "accent": "#B99A5B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "GETBYTERUSH / SUMMARY",
+      "headline": "THE ERA OF AGENTIC DEFENSE HAS BEGUN",
+      "body": "AI is no longer just generating code—it is actively securing it. Save this post to track…",
+      "cta": "Save this before you need it again.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "signature",
+        "CTA"
+      ],
+      "density": "sparse",
+      "headline_optional": false
+    }
+  ]
+}

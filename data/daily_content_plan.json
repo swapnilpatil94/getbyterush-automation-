@@ -33,6 +33,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260901033142-how-balyasny-asset-m-1c511b"
+    },
+    {
+      "rank": 3,
+      "slot": "midmorning",
+      "content_id": "cand-90c464fd6629c470",
+      "topic": "Introducing Aardvark: OpenAI’s agentic security researcher",
+      "category": "PRODUCT_TOOL",
+      "score": 53,
+      "reason": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 53/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-aardvark",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260901051716-introducing-aardvark-26ad1f"
     }
   ],
   "slots": {
@@ -45,7 +61,12 @@
       "status": "SELECTED",
       "content_id": "cand-513d0c00b23eb09e",
       "label": "Maximum push"
+    },
+    "midmorning": {
+      "status": "SELECTED",
+      "content_id": "cand-90c464fd6629c470",
+      "label": "Curiosity + saves"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
