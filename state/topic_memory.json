@@ -2,6 +2,41 @@
   "version": 2,
   "topics": [
     {
+      "title": "NVIDIA Unveils Nemotron 3.5 Lightning and NeMo Switchyard to Cut Agentic AI Costs",
+      "source_title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "nvidia unveils nemotron 3 5 lightning and nemo switchyard to cut agentic ai costs",
+      "normalized_source_title": "nvidia nemotron 3 5 lightning and nemo switchyard deliver faster smarter more efficient agentic ai",
+      "tokens": [
+        "agentic",
+        "and",
+        "costs",
+        "cut",
+        "lightning",
+        "nemo",
+        "nemotron",
+        "nvidia",
+        "switchyard",
+        "unveils"
+      ],
+      "source_tokens": [
+        "agentic",
+        "and",
+        "deliver",
+        "efficient",
+        "faster",
+        "lightning",
+        "more",
+        "nemo",
+        "nemotron",
+        "nvidia",
+        "smarter",
+        "switchyard"
+      ],
+      "recorded_at": "2026-09-01T05:58:53.751563+00:00"
+    },
+    {
       "title": "Introducing Aardvark: OpenAI's Agentic Security Researcher",
       "source_title": "Introducing Aardvark: OpenAI’s agentic security researcher",
       "url": "https://openai.com/index/introducing-aardvark",

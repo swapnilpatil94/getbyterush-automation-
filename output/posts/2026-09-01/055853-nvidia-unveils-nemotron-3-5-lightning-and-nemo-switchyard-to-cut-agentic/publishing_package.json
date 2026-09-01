@@ -1,0 +1,96 @@
+{
+  "content_id": "260901055853-nvidia-unveils-nemot-ef4c62",
+  "story_title": "NVIDIA Unveils Nemotron 3.5 Lightning and NeMo Switchyard to Cut Agentic AI Costs",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-01/055853-nvidia-unveils-nemotron-3-5-lightning-and-nemo-switchyard-to-cut-agentic/slides/01.jpg",
+    "output/posts/2026-09-01/055853-nvidia-unveils-nemotron-3-5-lightning-and-nemo-switchyard-to-cut-agentic/slides/02.jpg",
+    "output/posts/2026-09-01/055853-nvidia-unveils-nemotron-3-5-lightning-and-nemo-switchyard-to-cut-agentic/slides/03.jpg",
+    "output/posts/2026-09-01/055853-nvidia-unveils-nemotron-3-5-lightning-and-nemo-switchyard-to-cut-agentic/slides/04.jpg",
+    "output/posts/2026-09-01/055853-nvidia-unveils-nemotron-3-5-lightning-and-nemo-switchyard-to-cut-agentic/slides/05.jpg",
+    "output/posts/2026-09-01/055853-nvidia-unveils-nemotron-3-5-lightning-and-nemo-switchyard-to-cut-agentic/slides/06.jpg",
+    "output/posts/2026-09-01/055853-nvidia-unveils-nemotron-3-5-lightning-and-nemo-switchyard-to-cut-agentic/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "NVIDIA just took aim at the biggest barrier to enterprise AI agents: operating costs. \n\nInstead of sending every request to massive frontier models, NVIDIA's new Nemotron 3.5 Lightning (30B MoE) and NeMo Switchyard open-source router dynamically assign tasks. \n\nIn benchmarks with LangChain, intelligent routing achieved 74% lower costs by sending only 7% of calls to expensive frontier models—while preserving accuracy. \n\nAre you building single-model systems or routed systems of models? Let us know below.\n\n#GetByteRush #AI #NVIDIA #TechNews #MachineLearning #AIAgents #Developers",
+  "caption_for_publish": "NVIDIA just took aim at the biggest barrier to enterprise AI agents: operating costs. \n\nInstead of sending every request to massive frontier models, NVIDIA's new Nemotron 3.5 Lightning (30B MoE) and NeMo Switchyard open-source router dynamically assign tasks. \n\nIn benchmarks with LangChain, intelligent routing achieved 74% lower costs by sending only 7% of calls to expensive frontier models—while preserving accuracy. \n\nAre you building single-model systems or routed systems of models? Let us know below.\n\n#GetByteRush #AI #NVIDIA #TechNews #MachineLearning #AIAgents #Developers\n\n#NVIDIA #AIAgents #ArtificialIntelligence #TechNews #SoftwareEngineering #OpenSource",
+  "pinned_comment": "NeMo Switchyard is open source on GitHub and Nemotron 3.5 Lightning is available on Hugging Face. Full details via NVIDIA.",
+  "alt_text_overall": "Carousel explaining NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard open source model routing library, detailing up to 66% cost reductions for agentic AI.",
+  "alt_text_per_slide": [
+    "Slide 1: AI AGENTS JUST GOT 66% CHEAPER.. NVIDIA launched a system that routes AI tasks automatically—slashing frontier model costs to nearly one-third. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: STOP USING ONE MODEL FOR EVERYTHING.. Always-on agents waste tokens when using frontier models for simple tasks like billing, code formatting, or log parsing. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: 74% LOWER COST IN MULTI-TURN TESTS.. In LangChain benchmarks across 145 multi-turn tasks, NeMo Switchyard routed only 7% of calls to a frontier model, maintaining near-frontier accuracy. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: ENTER NEMOTRON 3.5 LIGHTNING.. NVIDIA's new 30B parameter Mixture-of-Experts model delivers up to 4x faster output speed and 30% faster task completion for specialized agent duties. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: NEMO SWITCHYARD DIRECTS TRAFFIC.. An open-source library that dynamically routes prompts based on latency, accuracy, and budget constraints without requiring application code rewrites. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: THE SHIFT FROM CHATBOTS TO AGENT SYSTEMS.. Future AI applications won't run on a single mega-model. They will rely on orchestrators routing queries across local, specialized, and frontier models. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: INTELLIGENT ROUTING IS THE NEW OPTIMIZATION.. By pairing open 30B specialized models with smart routing, autonomous AI becomes economically viable at enterprise scale. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#NVIDIA",
+    "#AIAgents",
+    "#ArtificialIntelligence",
+    "#TechNews",
+    "#SoftwareEngineering",
+    "#OpenSource"
+  ],
+  "cta": "We test the stuff everyone else just explains.",
+  "seo": {
+    "primary_keyword": "NVIDIA Unveils Nemotron",
+    "secondary_keywords": [
+      "AIAgents",
+      "ArtificialIntelligence",
+      "TechNews",
+      "SoftwareEngineering",
+      "OpenSource",
+      "Lightning",
+      "NeMo Switchyard",
+      "Cut Agentic AI"
+    ],
+    "search_phrases": [
+      "what is NVIDIA Unveils Nemotron",
+      "NVIDIA Unveils Nemotron vs Lightning",
+      "NVIDIA Unveils Nemotron AIAgents",
+      "NVIDIA Unveils Nemotron ArtificialIntelligence"
+    ],
+    "entities": [
+      "NVIDIA Unveils Nemotron",
+      "Lightning",
+      "NeMo Switchyard",
+      "Cut Agentic AI",
+      "Costs NVIDIA Nemotron",
+      "NeMo Switchyard Deliver"
+    ]
+  },
+  "source_attribution": {
+    "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "NeMo Switchyard maintains frontier-level accuracy while reducing task completion cost to nearly one-third of Opus 4.8 alone in internal benchmarks.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Nemotron 3.5 Lightning is a 30-billion-parameter mixture-of-experts model.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "LangChain achieved 74% lower cost in 145 multi-turn Deep Agents tasks by routing 7% of calls to a frontier model.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+        "source_name": "NVIDIA Blog"
+      }
+    ]
+  }
+}

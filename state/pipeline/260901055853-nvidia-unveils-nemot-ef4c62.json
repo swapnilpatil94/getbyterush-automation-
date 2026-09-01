@@ -1,0 +1,49 @@
+{
+  "content_id": "260901055853-nvidia-unveils-nemot-ef4c62",
+  "story_title": "NVIDIA Unveils Nemotron 3.5 Lightning and NeMo Switchyard to Cut Agentic AI Costs",
+  "source_url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-01T05:58:53.784143+00:00",
+  "updated_at": "2026-09-01T05:58:58.396117+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-01T05:58:53.784151+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-01T05:58:53.785366+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-01T05:58:53.785789+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-01T05:58:53.786267+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-01T05:58:54.923540+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-01T05:58:58.396131+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-01/055853-nvidia-unveils-nemotron-3-5-lightning-and-nemo-switchyard-to-cut-agentic",
+  "publish": {},
+  "story_path": "data/pipeline/260901055853-nvidia-unveils-nemot-ef4c62.json"
+}

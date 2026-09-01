@@ -2,26 +2,26 @@
   "date": "2026-09-01",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Introducing Aardvark: OpenAI’s agentic security researcher",
-      "url": "https://openai.com/index/introducing-aardvark",
-      "description": "OpenAI introduces Aardvark, an AI-powered security researcher that autonomously finds, validates, and helps fix software vulnerabilities at scale. The system is in private beta—sign up to join early testing.",
-      "published": "Thu, 30 Oct 2025 11:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "description": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves. Today, NVIDIA is expanding its Nemotron 3 model family with Nemotron 3.5 Lightning, the highest-efficiency model in its class for long-running agentic AI workloads. This release follows Nemotron [&#8230;]",
+      "published": "Tue, 11 Aug 2026 13:00:05 +0000",
       "freshness_score": 0,
-      "relevance_score": 18,
-      "impact_score": 3,
+      "relevance_score": 19,
+      "impact_score": 5,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 21,
-      "content_id": "cand-90c464fd6629c470",
+      "pre_filter_score": 24,
+      "content_id": "cand-de56964f6bd447eb",
       "selection_meta": {
-        "rank": 3,
+        "rank": 4,
         "total": null,
-        "slot": "midmorning",
-        "slot_label": "Curiosity + saves",
-        "category": "PRODUCT_TOOL",
-        "quality_score": 53,
-        "why_selected": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 53/100)",
-        "source": "OpenAI News"
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 61,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
