@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-01T05:58:58.421915+00:00",
+  "updated_at": "2026-09-01T10:53:44.826075+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -2977,7 +2977,136 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 20
       }
+    },
+    {
+      "content_id": "cand-297c66a1dd2fb72a",
+      "topic": "OpenAI supports California’s bill to advance youth AI safety",
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "published_at": "Mon, 31 Aug 2026 07:00:00 GMT",
+      "discovered_at": "2026-09-01T10:53:44.820415+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 6,
+      "share_score": 3,
+      "information_value": 4,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 31,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "OpenAI supports California’s bill to advance youth AI safety",
+        "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+        "description": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+        "published": "Mon, 31 Aug 2026 07:00:00 GMT",
+        "freshness_score": 6,
+        "relevance_score": 4,
+        "impact_score": 0,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 10
+      }
+    },
+    {
+      "content_id": "cand-ae3a86cc1ead7d5f",
+      "topic": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/jalapeno-first-results",
+      "published_at": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "discovered_at": "2026-09-01T10:53:44.823611+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 4,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 7,
+      "share_score": 6,
+      "information_value": 13,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 59,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+        "url": "https://openai.com/index/jalapeno-first-results",
+        "description": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+        "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 15,
+        "impact_score": 5,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 20
+      }
+    },
+    {
+      "content_id": "cand-383af3cb8a88f863",
+      "topic": "The full stack behind abundant intelligence",
+      "title": "The full stack behind abundant intelligence",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "published_at": "Tue, 25 Aug 2026 07:05:00 GMT",
+      "discovered_at": "2026-09-01T10:53:44.825865+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 8,
+      "save_score": 7,
+      "share_score": 5,
+      "information_value": 14,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 59,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "The full stack behind abundant intelligence",
+        "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+        "description": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+        "published": "Tue, 25 Aug 2026 07:05:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 16,
+        "impact_score": 4,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 20
+      }
     }
   ],
-  "count": 82
+  "count": 85
 }

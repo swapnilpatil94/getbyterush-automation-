@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T02:56:04.661930+00:00",
+  "generated_at": "2026-09-01T10:53:44.716192+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
       "description": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
       "published": "Mon, 31 Aug 2026 04:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 10,
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 24
+      "pre_filter_score": 22
     },
     {
       "source": "OpenAI News",
@@ -20,11 +20,23 @@
       "url": "https://openai.com/index/polimill",
       "description": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
       "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 12,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "description": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "published": "Mon, 31 Aug 2026 07:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 10
     },
     {
       "source": "NVIDIA Blog",
@@ -532,6 +544,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "STORM-0817: Iran-linked malware and scraping activity",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "SECURITY",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
       "title": "Bet Bot: Gambling spam network",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
       "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
@@ -544,14 +568,14 @@
     },
     {
       "source": "OpenAI News",
-      "title": "STORM-0817: Iran-linked malware and scraping activity",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "description": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "SECURITY",
+      "relevance_score": 15,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -600,6 +624,18 @@
       "relevance_score": 15,
       "impact_score": 5,
       "story_type": "BUSINESS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "description": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "published": "Tue, 25 Aug 2026 07:05:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 4,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -924,42 +960,6 @@
       "relevance_score": 13,
       "impact_score": 5,
       "story_type": "BUSINESS",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Early experiments in accelerating science with GPT-5",
-      "url": "https://openai.com/index/accelerating-science-gpt-5",
-      "description": "OpenAI introduces the first research cases showing how GPT-5 accelerates scientific progress across math, physics, biology, and computer science. Explore how AI and researchers collaborate to generate proofs, uncover new insights, and reshape the pace of discovery.",
-      "published": "Thu, 20 Nov 2025 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Model ML is helping financial firms rebuild with AI from the ground up",
-      "url": "https://openai.com/index/model-ml-chaz-englander",
-      "description": "As part of our Executive Function series, Model ML CEO Chaz Englander discusses how AI-native infrastructure and autonomous agents are transforming financial services workflows.",
-      "published": "Wed, 23 Jul 2025 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Detecting misbehavior in frontier reasoning models",
-      "url": "https://openai.com/index/chain-of-thought-monitoring",
-      "description": "Frontier reasoning models exploit loopholes when given the chance. We show we can detect exploits using an LLM to monitor their chains-of-thought. Penalizing their “bad thoughts” doesn’t stop the majority of misbehavior—it makes them hide their intent.",
-      "published": "Mon, 10 Mar 2025 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]
