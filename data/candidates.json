@@ -1,7 +1,55 @@
 {
-  "generated_at": "2026-09-01T15:52:00.636685+00:00",
+  "generated_at": "2026-09-01T20:22:12.873835+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "published": "Tue, 01 Sep 2026 17:00:00 GMT",
+      "freshness_score": 10,
+      "relevance_score": 15,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 27
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "description": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
+      "published": "Tue, 01 Sep 2026 16:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 8,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "url": "https://openai.com/index/path-to-astra",
+      "description": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "published": "Tue, 01 Sep 2026 13:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 12,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 24
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "description": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "published": "Tue, 01 Sep 2026 12:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 15
+    },
     {
       "source": "OpenAI News",
       "title": "A milestone in expanding access to AI",
@@ -912,54 +960,6 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Report from the OpenAI hackathon",
-      "url": "https://openai.com/index/hackathon-follow-up",
-      "description": "On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community.",
-      "published": "Thu, 15 Mar 2018 07:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Separating signal from noise in coding evaluations",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "published": "Wed, 08 Jul 2026 13:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "published": "Wed, 17 Jun 2026 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Evaluating chain-of-thought monitorability",
-      "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
-      "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoning is far more effective than monitoring outputs alone, offering a promising path toward scalable control as AI systems grow more capable.",
-      "published": "Thu, 18 Dec 2025 12:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "BUSINESS",
       "pre_filter_score": 18
     }
   ]
