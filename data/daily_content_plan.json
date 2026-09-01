@@ -82,6 +82,13 @@
       "status": "SELECTED",
       "content_id": "cand-90c464fd6629c470",
       "label": "Curiosity + saves"
+    },
+    "afternoon": {
+      "status": "NO_QUALITY_POST",
+      "label": "Freshness",
+      "categories": [
+        "LAST_24H"
+      ]
     }
   },
   "selected_count": 4
