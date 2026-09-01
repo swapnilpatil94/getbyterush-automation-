@@ -2,6 +2,33 @@
   "version": 2,
   "topics": [
     {
+      "title": "How Balyasny Asset Management Built an AI Research Engine",
+      "source_title": "How Balyasny Asset Management built an AI research engine",
+      "url": "https://openai.com/index/balyasny-asset-management",
+      "source": "OpenAI News",
+      "normalized_title": "how balyasny asset management built an ai research engine",
+      "normalized_source_title": "how balyasny asset management built an ai research engine",
+      "tokens": [
+        "asset",
+        "balyasny",
+        "built",
+        "engine",
+        "how",
+        "management",
+        "research"
+      ],
+      "source_tokens": [
+        "asset",
+        "balyasny",
+        "built",
+        "engine",
+        "how",
+        "management",
+        "research"
+      ],
+      "recorded_at": "2026-09-01T03:31:42.112652+00:00"
+    },
+    {
       "title": "OpenAI Raises $40B at a $300B Valuation",
       "source_title": "New funding to build towards AGI",
       "url": "https://openai.com/index/march-funding-updates",

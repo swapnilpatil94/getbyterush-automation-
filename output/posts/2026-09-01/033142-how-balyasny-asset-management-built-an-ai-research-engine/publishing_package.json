@@ -1,0 +1,89 @@
+{
+  "content_id": "260901033142-how-balyasny-asset-m-1c511b",
+  "story_title": "How Balyasny Asset Management Built an AI Research Engine",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-01/033142-how-balyasny-asset-management-built-an-ai-research-engine/slides/01.jpg",
+    "output/posts/2026-09-01/033142-how-balyasny-asset-management-built-an-ai-research-engine/slides/02.jpg",
+    "output/posts/2026-09-01/033142-how-balyasny-asset-management-built-an-ai-research-engine/slides/03.jpg",
+    "output/posts/2026-09-01/033142-how-balyasny-asset-management-built-an-ai-research-engine/slides/04.jpg",
+    "output/posts/2026-09-01/033142-how-balyasny-asset-management-built-an-ai-research-engine/slides/05.jpg",
+    "output/posts/2026-09-01/033142-how-balyasny-asset-management-built-an-ai-research-engine/slides/06.jpg",
+    "output/posts/2026-09-01/033142-how-balyasny-asset-management-built-an-ai-research-engine/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "How are hedge funds using AI? They aren't just typing prompts into chatbots.\n\nAsset manager Balyasny Asset Management built an AI research engine by combining continuous model evaluation, full-platform OpenAI integration, and autonomous agent workflows.\n\nIn high-stakes industries like institutional finance, accuracy is everything. Moving from simple chat tools to agentic systems requires strict evaluation pipelines—ensuring models deliver verifiable research before driving capital decisions.\n\nSwipe through for the breakdown on how autonomous agents are reshaping knowledge work.\n\n—\nTESTED • EXPLAINED • REAL\nFollow @getbyterush for daily AI & tech research.",
+  "caption_for_publish": "How are hedge funds using AI? They aren't just typing prompts into chatbots.\n\nAsset manager Balyasny Asset Management built an AI research engine by combining continuous model evaluation, full-platform OpenAI integration, and autonomous agent workflows.\n\nIn high-stakes industries like institutional finance, accuracy is everything. Moving from simple chat tools to agentic systems requires strict evaluation pipelines—ensuring models deliver verifiable research before driving capital decisions.\n\nSwipe through for the breakdown on how autonomous agents are reshaping knowledge work.\n\n—\nTESTED • EXPLAINED • REAL\nFollow @getbyterush for daily AI & tech research.\n\n#GetByteRush #ArtificialIntelligence #AIAgents #OpenAI #FinanceTech #TechNews",
+  "pinned_comment": "Are agent workflows ready to replace traditional research analyst tasks? Let us know below.",
+  "alt_text_overall": "Carousel explaining how Balyasny Asset Management built an AI research engine using OpenAI agents and evaluation pipelines.",
+  "alt_text_per_slide": [
+    "Slide 1: WALL STREET'S NEW AI ENGINE.. Asset manager Balyasny is reinventing investment research by deploying full-platform OpenAI agent workflows. — shown as a side-by-side comparison.",
+    "Slide 2: BEYOND BASIC PROMPTS.. Instead of relying on isolated chatbots, the firm combined rigorous model evaluation with deep OpenAI platform integration. — shown as one large highlighted number or word.",
+    "Slide 3: THE AGENT RESEARCH PIPELINE.. By pairing customized model evaluation with agentic automation, complex market synthesis moves from manual effort to systemic orchestration. — shown as pinned reference facts.",
+    "Slide 4: OLD WORKFLOWS VS. AGENT ENGINES.. Traditional research required manual data aggregation and draft synthesis. Autonomous agent pipelines now execute multi-step analysis continuously. — shown as a side-by-side comparison.",
+    "Slide 5: EVALUATION IS THE NEW EDGE.. In high-stakes finance, unverified AI output is a liability. Rigorous, continuous model testing is what makes autonomous agents reliable. — shown as a pulled quote.",
+    "Slide 6: THE SHIFT IN KNOWLEDGE WORK.. This isn't just about hedge funds. Every knowledge-heavy industry will move from interactive AI assistants to continuous background agent systems. — shown as a side-by-side comparison.",
+    "Slide 7: AGENTS ARE TAKING THE FLOOR.. The future competitive advantage in business won't come from accessing AI models, but from building the infrastructure that lets agents work reliably. — shown as a closing statement with the GetByteRush signature."
+  ],
+  "hashtags": [
+    "#GetByteRush",
+    "#ArtificialIntelligence",
+    "#AIAgents",
+    "#OpenAI",
+    "#FinanceTech",
+    "#TechNews"
+  ],
+  "cta": "Send this to the person who needs to see it.",
+  "seo": {
+    "primary_keyword": "How Balyasny Asset",
+    "secondary_keywords": [
+      "GetByteRush",
+      "ArtificialIntelligence",
+      "AIAgents",
+      "OpenAI",
+      "FinanceTech",
+      "TechNews",
+      "Management Built",
+      "AI Research Engine"
+    ],
+    "search_phrases": [
+      "what is How Balyasny Asset",
+      "How Balyasny Asset vs Management Built",
+      "How Balyasny Asset GetByteRush",
+      "How Balyasny Asset ArtificialIntelligence"
+    ],
+    "entities": [
+      "How Balyasny Asset",
+      "Management Built",
+      "AI Research Engine",
+      "Management",
+      "AI"
+    ]
+  },
+  "source_attribution": {
+    "title": "How Balyasny Asset Management built an AI research engine",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/balyasny-asset-management",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/balyasny-asset-management"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "Balyasny Asset Management built an AI research engine using OpenAI, model evaluation, and agent workflows.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/balyasny-asset-management",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Enterprise knowledge work is shifting from manual chat prompts to autonomous background agents.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/balyasny-asset-management",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}

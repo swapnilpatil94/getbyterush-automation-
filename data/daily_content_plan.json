@@ -17,6 +17,22 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-513d0c00b23eb09e",
+      "topic": "How Balyasny Asset Management built an AI research engine",
+      "category": "EVERGREEN_VALUE",
+      "score": 61,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/balyasny-asset-management",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260901033142-how-balyasny-asset-m-1c511b"
     }
   ],
   "slots": {
@@ -24,7 +40,12 @@
       "status": "SELECTED",
       "content_id": "cand-b224ef45c46ec6aa",
       "label": "Morning discovery"
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-513d0c00b23eb09e",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

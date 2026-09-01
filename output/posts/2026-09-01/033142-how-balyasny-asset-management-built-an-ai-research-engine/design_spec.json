@@ -1,0 +1,175 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#B99A5B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "GETBYTERUSH DAILY",
+      "headline": "WALL STREET'S NEW AI ENGINE",
+      "body": "Asset manager Balyasny is reinventing investment research by deploying full-platform OpenAI agent workflows.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "OpenAI published details on Balyasny Asset Management's platform implementation.",
+        "After",
+        "Institutional finance is moving beyond experimental AI use cases to core infrastructure."
+      ]
+    },
+    {
+      "number": 2,
+      "grammar": "singular_object",
+      "variant": "statement",
+      "primitive": "singular_object:statement",
+      "accent": "#B99A5B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "02 / 07 — THE SHIFT",
+      "headline": "BEYOND BASIC PROMPTS",
+      "body": "Instead of relying on isolated chatbots, the firm combined rigorous model evaluation with deep OpenAI platform…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "headline"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "sides": [
+        "Before",
+        "Balyasny's approach leverages model evaluation alongside platform workflows.",
+        "After",
+        "Enterprise AI ROI requires enterprise-wide integration rather than individual seats."
+      ]
+    },
+    {
+      "number": 3,
+      "grammar": "evidence_board",
+      "variant": "single_citation",
+      "primitive": "evidence_board:single_citation",
+      "accent": "#B99A5B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "03 / 07 — CORE ARCHITECTURE",
+      "headline": "THE AGENT RESEARCH PIPELINE",
+      "body": "By pairing customized model evaluation with agentic automation, complex market synthesis moves from manual effort to…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "source name",
+        "quoted claim"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "source_label_full": "SOURCE / OpenAI Case Study",
+      "quote_text": "By pairing customized model evaluation with agentic automation, complex market synthesis moves from manual effort to systemic orchestration."
+    },
+    {
+      "number": 4,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#B99A5B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "04 / 07 — ESCALATION",
+      "headline": "OLD WORKFLOWS VS. AGENT ENGINES",
+      "body": "Traditional research required manual data aggregation and draft synthesis. Autonomous agent pipelines now execute multi-step…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "OLD WORKFLOWS",
+        "Comparing legacy financial research workflows with agentic engines.",
+        "AGENT ENGINES",
+        "Analyst roles are shifting from manual drafting to supervising agentic outputs."
+      ]
+    },
+    {
+      "number": 5,
+      "grammar": "quote",
+      "variant": "pull_quote",
+      "primitive": "quote:pull_quote",
+      "accent": "#B99A5B",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD",
+      "kicker": "05 / 07 — CRITICAL FACTOR",
+      "headline": "EVALUATION IS THE NEW EDGE",
+      "body": "In high-stakes finance, unverified AI output is a liability. Rigorous, continuous model testing is what makes…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "quote text",
+        "source"
+      ],
+      "density": "sparse",
+      "headline_optional": false,
+      "quote_text": "In high-stakes finance, unverified AI output is a liability. Rigorous, continuous model testing is what makes autonomous agents reliable.",
+      "quote_source": "FIELD NOTE / GETBYTERUSH"
+    },
+    {
+      "number": 6,
+      "grammar": "comparison",
+      "variant": "two_panel",
+      "primitive": "comparison:two_panel",
+      "accent": "#B99A5B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "06 / 07 — IMPLICATION",
+      "headline": "THE SHIFT IN KNOWLEDGE WORK",
+      "body": "This isn't just about hedge funds. Every knowledge-heavy industry will move from interactive AI assistants to…",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "dominant panel",
+        "neutral panel",
+        "verdict"
+      ],
+      "density": "structured",
+      "headline_optional": true,
+      "sides": [
+        "Before",
+        "Extrapolating Balyasny's deployment to broader enterprise software transformation.",
+        "After",
+        "Software interface patterns are moving from human-driven prompts to agent-driven execution."
+      ]
+    },
+    {
+      "number": 7,
+      "grammar": "payoff",
+      "variant": "payoff",
+      "primitive": "payoff",
+      "accent": "#B99A5B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C",
+      "kicker": "07 / 07 — THE TAKEAWAY",
+      "headline": "AGENTS ARE TAKING THE FLOOR",
+      "body": "The future competitive advantage in business won't come from accessing AI models, but from building the…",
+      "cta": "Send this to the person who needs to see it.",
+      "psychology_intense": false,
+      "needs_evidence": false,
+      "focal_sequence": [
+        "signature",
+        "CTA"
+      ],
+      "density": "sparse",
+      "headline_optional": false
+    }
+  ]
+}
