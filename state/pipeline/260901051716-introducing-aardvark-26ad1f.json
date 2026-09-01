@@ -2,9 +2,9 @@
   "content_id": "260901051716-introducing-aardvark-26ad1f",
   "story_title": "Introducing Aardvark: OpenAI's Agentic Security Researcher",
   "source_url": "https://openai.com/index/introducing-aardvark",
-  "status": "APPROVED",
+  "status": "PUBLISHING",
   "created_at": "2026-09-01T05:17:16.355757+00:00",
-  "updated_at": "2026-09-01T05:25:52.894124+00:00",
+  "updated_at": "2026-09-01T05:26:07.614506+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -40,6 +40,11 @@
       "status": "APPROVED",
       "at": "2026-09-01T05:25:52.894134+00:00",
       "note": "approved via Telegram"
+    },
+    {
+      "status": "PUBLISHING",
+      "at": "2026-09-01T05:26:07.614516+00:00",
+      "note": "Make.com webhook"
     }
   ],
   "attempts": {
@@ -49,6 +54,9 @@
   "avoid_grammars": [],
   "rejections": [],
   "package_path": "output/posts/2026-09-01/051716-introducing-aardvark-openai-s-agentic-security-researcher",
-  "publish": {},
+  "publish": {
+    "make_com_accepted": true,
+    "note": "accepted by Make.com — NOT confirmed published, verify on Instagram"
+  },
   "story_path": "data/pipeline/260901051716-introducing-aardvark-26ad1f.json"
 }
