@@ -2,6 +2,34 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Releases GPT-5.6-Cyber for Restricted Vulnerability Defense",
+      "source_title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source": "OpenAI News",
+      "normalized_title": "openai releases gpt 5 6 cyber for restricted vulnerability defense",
+      "normalized_source_title": "expanding daybreak as the cyber defense window narrows",
+      "tokens": [
+        "cyber",
+        "defense",
+        "for",
+        "gpt",
+        "openai",
+        "releases",
+        "restricted",
+        "vulnerability"
+      ],
+      "source_tokens": [
+        "cyber",
+        "daybreak",
+        "defense",
+        "expanding",
+        "narrows",
+        "the",
+        "window"
+      ],
+      "recorded_at": "2026-09-01T14:46:50.474061+00:00"
+    },
+    {
       "title": "Local AI Reaches Frontier Speed: Perplexity & Meta Move Agents Off the Cloud",
       "source_title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
       "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",

@@ -81,6 +81,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260901121652-local-ai-reaches-fro-4571b8"
+    },
+    {
+      "rank": 6,
+      "slot": "night",
+      "content_id": "cand-0b8ef8d6fe2a0736",
+      "topic": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "category": "EVERGREEN_VALUE",
+      "score": 60,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260901144650-openai-releases-gpt--9456c1"
     }
   ],
   "slots": {
@@ -91,7 +107,7 @@
     },
     "night": {
       "status": "SELECTED",
-      "content_id": "cand-de56964f6bd447eb",
+      "content_id": "cand-0b8ef8d6fe2a0736",
       "label": "Maximum push"
     },
     "midmorning": {
@@ -112,5 +128,5 @@
       "label": "High-attention window"
     }
   },
-  "selected_count": 5
+  "selected_count": 6
 }
