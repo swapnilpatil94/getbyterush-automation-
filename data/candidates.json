@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T22:15:02.319816+00:00",
+  "generated_at": "2026-09-01T02:56:04.661930+00:00",
   "count": 80,
   "stories": [
     {
@@ -13,6 +13,18 @@
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 24
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "url": "https://openai.com/index/polimill",
+      "description": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "published": "Mon, 31 Aug 2026 07:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 12,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 20
     },
     {
       "source": "NVIDIA Blog",
@@ -944,18 +956,6 @@
       "url": "https://openai.com/index/chain-of-thought-monitoring",
       "description": "Frontier reasoning models exploit loopholes when given the chance. We show we can detect exploits using an LLM to monitor their chains-of-thought. Penalizing their “bad thoughts” doesn’t stop the majority of misbehavior—it makes them hide their intent.",
       "published": "Mon, 10 Mar 2025 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Evaluating fairness in ChatGPT",
-      "url": "https://openai.com/index/evaluating-fairness-in-chatgpt",
-      "description": "We’ve analyzed how ChatGPT responds to users based on their name, using AI research assistants to protect privacy.",
-      "published": "Tue, 15 Oct 2024 10:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 13,
       "impact_score": 5,
