@@ -1,129 +1,30 @@
 {
-  "date": "2026-08-31",
-  "target": 2,
-  "selected_count": 7,
+  "date": "2026-09-01",
+  "mode": "slotted",
   "quality_floor": 50,
-  "no_quality_post": false,
   "posts": [
     {
       "rank": 1,
-      "content_id": "cand-d6510a3e2bd30886",
-      "topic": "Choco automates food distribution with AI agents",
-      "category": "EVERGREEN_VALUE",
-      "score": 64,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 64/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/choco",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260831112406-ai-agents-take-over--42caf9"
-    },
-    {
-      "rank": 2,
-      "content_id": "cand-c97612ff192134e8",
-      "topic": "Netomi’s lessons for scaling agentic systems into the enterprise",
-      "category": "EVERGREEN_VALUE",
-      "score": 63,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 63/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/netomi",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260831112446-how-netomi-scales-en-85ad55"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-dc07c2b809f21a76",
-      "topic": "Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk",
-      "category": "EVERGREEN_VALUE",
-      "score": 62,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/forecasting-misuse",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 4,
       "slot": "morning",
-      "content_id": "cand-dc07c2b809f21a76",
-      "topic": "Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk",
-      "category": "EVERGREEN_VALUE",
-      "score": 62,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/forecasting-misuse",
-      "editorial_status": "PENDING",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 5,
-      "slot": "morning",
-      "content_id": "cand-e4ba58f9de407cd3",
-      "topic": "From assistance to execution: How enterprises put AI to work",
-      "category": "EVERGREEN_VALUE",
-      "score": 62,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260831132132-from-assistance-to-e-1699c0"
-    },
-    {
-      "rank": 6,
-      "slot": "night",
-      "content_id": "cand-fe3e604578612cb9",
-      "topic": "Designing AI agents to resist prompt injection",
-      "category": "EVERGREEN_VALUE",
-      "score": 62,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260831141004-designing-ai-agents--9f0f79"
-    },
-    {
-      "rank": 7,
-      "slot": "night",
-      "content_id": "cand-b65d7c7c6af7de67",
-      "topic": "New funding to build towards AGI",
+      "content_id": "cand-b224ef45c46ec6aa",
+      "topic": "Measuring AI’s capability to accelerate biological research",
       "category": "EVERGREEN_VALUE",
       "score": 61,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/march-funding-updates",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260831145925-openai-raises-40b-at-b46fe9"
+      "source_url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-b65d7c7c6af7de67",
-      "label": "Maximum push"
-    },
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-e4ba58f9de407cd3",
+      "content_id": "cand-b224ef45c46ec6aa",
       "label": "Morning discovery"
     }
-  }
+  },
+  "selected_count": 1
 }
