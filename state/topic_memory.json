@@ -2,6 +2,40 @@
   "version": 2,
   "topics": [
     {
+      "title": "Local AI Reaches Frontier Speed: Perplexity & Meta Move Agents Off the Cloud",
+      "source_title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "local ai reaches frontier speed perplexity meta move agents off the cloud",
+      "normalized_source_title": "nvidia and local ai community fuel open source models and intelligent agents",
+      "tokens": [
+        "agents",
+        "cloud",
+        "frontier",
+        "local",
+        "meta",
+        "move",
+        "off",
+        "perplexity",
+        "reaches",
+        "speed",
+        "the"
+      ],
+      "source_tokens": [
+        "agents",
+        "and",
+        "community",
+        "fuel",
+        "intelligent",
+        "local",
+        "models",
+        "nvidia",
+        "open",
+        "source"
+      ],
+      "recorded_at": "2026-09-01T12:16:52.682030+00:00"
+    },
+    {
       "title": "NVIDIA Unveils Nemotron 3.5 Lightning and NeMo Switchyard to Cut Agentic AI Costs",
       "source_title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
       "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",

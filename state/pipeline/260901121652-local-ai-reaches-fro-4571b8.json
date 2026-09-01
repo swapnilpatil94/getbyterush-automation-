@@ -1,0 +1,49 @@
+{
+  "content_id": "260901121652-local-ai-reaches-fro-4571b8",
+  "story_title": "Local AI Reaches Frontier Speed: Perplexity & Meta Move Agents Off the Cloud",
+  "source_url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-01T12:16:52.710487+00:00",
+  "updated_at": "2026-09-01T12:16:59.373056+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-01T12:16:52.710494+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-01T12:16:52.711602+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-01T12:16:52.712000+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-01T12:16:52.712378+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-01T12:16:53.702064+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-01T12:16:59.373072+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-01/121652-local-ai-reaches-frontier-speed-perplexity-meta-move-agents-off-the-clou",
+  "publish": {},
+  "story_path": "data/pipeline/260901121652-local-ai-reaches-fro-4571b8.json"
+}

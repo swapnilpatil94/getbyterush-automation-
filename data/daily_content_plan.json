@@ -65,6 +65,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260901055853-nvidia-unveils-nemot-ef4c62"
+    },
+    {
+      "rank": 5,
+      "slot": "evening",
+      "content_id": "cand-3f022c6bfac665b5",
+      "topic": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+      "category": "INTERNET_HUMAN_TECH_BEHAVIOR",
+      "score": 56,
+      "reason": "INTERNET_HUMAN_TECH_BEHAVIOR — SURPRISING, PROVABLE (score 56/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260901121652-local-ai-reaches-fro-4571b8"
     }
   ],
   "slots": {
@@ -89,7 +105,12 @@
       "categories": [
         "LAST_24H"
       ]
+    },
+    "evening": {
+      "status": "SELECTED",
+      "content_id": "cand-3f022c6bfac665b5",
+      "label": "High-attention window"
     }
   },
-  "selected_count": 4
+  "selected_count": 5
 }

@@ -1,0 +1,104 @@
+{
+  "content_id": "260901121652-local-ai-reaches-fro-4571b8",
+  "story_title": "Local AI Reaches Frontier Speed: Perplexity & Meta Move Agents Off the Cloud",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-01/121652-local-ai-reaches-frontier-speed-perplexity-meta-move-agents-off-the-clou/slides/01.jpg",
+    "output/posts/2026-09-01/121652-local-ai-reaches-frontier-speed-perplexity-meta-move-agents-off-the-clou/slides/02.jpg",
+    "output/posts/2026-09-01/121652-local-ai-reaches-frontier-speed-perplexity-meta-move-agents-off-the-clou/slides/03.jpg",
+    "output/posts/2026-09-01/121652-local-ai-reaches-frontier-speed-perplexity-meta-move-agents-off-the-clou/slides/04.jpg",
+    "output/posts/2026-09-01/121652-local-ai-reaches-frontier-speed-perplexity-meta-move-agents-off-the-clou/slides/05.jpg",
+    "output/posts/2026-09-01/121652-local-ai-reaches-frontier-speed-perplexity-meta-move-agents-off-the-clou/slides/06.jpg",
+    "output/posts/2026-09-01/121652-local-ai-reaches-frontier-speed-perplexity-meta-move-agents-off-the-clou/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Local AI just hit a major tipping point ⚡️\n\nPerplexity launched 'Portable Computer' to run local agents without token limits, while Meta released Muse Glimmer (30B)—clocking over 200 tokens per second on consumer desktop hardware.\n\nCombined with Qwen3.8-27B hitting 131 tokens/sec for coding tasks and Unsloth Desktop bringing local training to single apps, the local AI agent ecosystem is fast enough for daily production work.\n\nAre you still using cloud APIs for daily background tasks, or moving your agents local?\n\nFollow @getbyterush for real, tested AI & tech analysis.",
+  "caption_for_publish": "Local AI just hit a major tipping point ⚡️\n\nPerplexity launched 'Portable Computer' to run local agents without token limits, while Meta released Muse Glimmer (30B)—clocking over 200 tokens per second on consumer desktop hardware.\n\nCombined with Qwen3.8-27B hitting 131 tokens/sec for coding tasks and Unsloth Desktop bringing local training to single apps, the local AI agent ecosystem is fast enough for daily production work.\n\nAre you still using cloud APIs for daily background tasks, or moving your agents local?\n\nFollow @getbyterush for real, tested AI & tech analysis.\n\n#LocalAI #NVIDIA #Perplexity #MetaAI #ArtificialIntelligence #TechNews #GetByteRush #OpenSourceAI",
+  "pinned_comment": "Which local agent tool are you testing first: Perplexity Portable Computer, Muse Glimmer, or Unsloth Desktop?",
+  "alt_text_overall": "Carousel explaining the rise of local AI agents featuring benchmarks for Meta Muse Glimmer and Perplexity Portable Computer.",
+  "alt_text_per_slide": [
+    "Slide 1: THE CLOUD AI ERA IS SPLITTING.. Perplexity, Meta, and NVIDIA just unlocked local AI agents that run on desktop hardware without token limits or monthly API fees. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: PERPLEXITY GOES LOCAL.. Perplexity launched 'Portable Computer', a native local app that runs personal AI agents directly on user hardware with connections to Google Drive, Gmail, Slack, and GitHub. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 3: 200 TOKENS PER SECOND.. Meta's new Muse Glimmer (30B) dense open-weight model runs at over 200 tokens/sec on an RTX 5090 GPU, handling 120K+ context windows locally. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 4: LOCAL CODING AGENTS HIT 131 TOK/SEC.. Alibaba's Qwen3.8-27B open coding agent hits 131 tokens/sec on local hardware using multi-token prediction (MTP), letting developers keep proprietary code 100% on-device. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 5: ZERO TOKEN LIMITS. TOTAL PRIVACY.. Unsloth Desktop also launched the first desktop app that both trains and runs AI models locally, completing the offline developer loop. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 6: WHAT THIS MEANS FOR YOU.. 1. Privacy: Sensitive personal files and credentials stay on your drive.\n2. Cost: Zero monthly API usage fees or token capping.\n3. Speed: Sub-second agent reasoning cycles without internet latency. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 7: THE CLOUD IS FOR POWER. THE DESKTOP IS FOR PRIVACY.. Local AI is no longer a slow compromise. With 30B parameter models running at 200+ tokens per second, the personal computer is officially an autonomous agent workspace. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#LocalAI",
+    "#NVIDIA",
+    "#Perplexity",
+    "#MetaAI",
+    "#ArtificialIntelligence",
+    "#TechNews",
+    "#GetByteRush",
+    "#OpenSourceAI"
+  ],
+  "cta": "This is the version worth remembering.",
+  "seo": {
+    "primary_keyword": "Local AI Reaches",
+    "secondary_keywords": [
+      "LocalAI",
+      "NVIDIA",
+      "Perplexity",
+      "MetaAI",
+      "ArtificialIntelligence",
+      "TechNews",
+      "GetByteRush",
+      "OpenSourceAI"
+    ],
+    "search_phrases": [
+      "what is Local AI Reaches",
+      "Local AI Reaches vs Frontier Speed",
+      "Local AI Reaches LocalAI",
+      "Local AI Reaches NVIDIA"
+    ],
+    "entities": [
+      "Local AI Reaches",
+      "Frontier Speed",
+      "Perplexity",
+      "Meta Move Agents",
+      "Off",
+      "Cloud NVIDIA"
+    ]
+  },
+  "source_attribution": {
+    "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "Perplexity launched Portable Computer app for local agents on DGX Spark and local systems.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Meta Muse Glimmer (30B) reaches over 200 tokens per second on NVIDIA RTX 5090.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Qwen3.8-27B reaches 131 tokens per second with multi-token prediction on GeForce RTX 5090.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Unsloth Desktop is the first desktop app that both trains and runs AI models locally.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+        "source_name": "NVIDIA Blog"
+      }
+    ]
+  }
+}
