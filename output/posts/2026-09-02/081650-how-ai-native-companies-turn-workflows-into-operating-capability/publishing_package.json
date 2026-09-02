@@ -1,0 +1,88 @@
+{
+  "content_id": "260902081650-how-ai-native-compan-0439db",
+  "story_title": "How AI-Native Companies Turn Workflows Into Operating Capability",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-02/081650-how-ai-native-companies-turn-workflows-into-operating-capability/slides/01.jpg",
+    "output/posts/2026-09-02/081650-how-ai-native-companies-turn-workflows-into-operating-capability/slides/02.jpg",
+    "output/posts/2026-09-02/081650-how-ai-native-companies-turn-workflows-into-operating-capability/slides/03.jpg",
+    "output/posts/2026-09-02/081650-how-ai-native-companies-turn-workflows-into-operating-capability/slides/04.jpg",
+    "output/posts/2026-09-02/081650-how-ai-native-companies-turn-workflows-into-operating-capability/slides/05.jpg",
+    "output/posts/2026-09-02/081650-how-ai-native-companies-turn-workflows-into-operating-capability/slides/06.jpg",
+    "output/posts/2026-09-02/081650-how-ai-native-companies-turn-workflows-into-operating-capability/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Software is shifting from tools humans operate to autonomous capabilities that execute workflows directly.\n\nIn a recent update, OpenAI detailed how AI-native startups like Basis, Clay, and Exa Labs turn core operational processes—including onboarding, account management, and developer integrations—into agentic capabilities.\n\nInstead of static software with manual steps, these architectures use AI agents to navigate edge cases dynamically.\n\nWhat internal workflow in your business do you think will turn agentic first?\n\n#AI #TechNews #ArtificialIntelligence #SoftwareEngineering #GetByteRush",
+  "caption_for_publish": "Software is shifting from tools humans operate to autonomous capabilities that execute workflows directly.\n\nIn a recent update, OpenAI detailed how AI-native startups like Basis, Clay, and Exa Labs turn core operational processes—including onboarding, account management, and developer integrations—into agentic capabilities.\n\nInstead of static software with manual steps, these architectures use AI agents to navigate edge cases dynamically.\n\nWhat internal workflow in your business do you think will turn agentic first?\n\n#AI #TechNews #ArtificialIntelligence #SoftwareEngineering #GetByteRush\n\n#AI #TechNews #SoftwareArchitecture #ArtificialIntelligence #AIAgents #GetByteRush",
+  "pinned_comment": "Are enterprise companies ready to trust AI agents with end-to-end operational workflows, or will human-in-the-loop remain mandatory? Let us know below.",
+  "alt_text_overall": "Carousel slide detailing how AI-native companies like Basis, Clay, and Exa Labs turn enterprise workflows into autonomous operating capabilities.",
+  "alt_text_per_slide": [
+    "Slide 1: WORKFLOWS ARE BECOMING CODE.. How AI-native companies like Basis, Clay, and Exa Labs are turning traditional business workflows into dynamic operating capabilities. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: NOT ASSISTANTS. OPERATING UNITS.. Traditional software gives humans tools to complete steps. AI-native architecture delegates entire end-to-end workflows to agentic systems. — shown as a headline over radiating signal rings.",
+    "Slide 3: ONBOARDING, ACCOUNTS, INTEGRATIONS.. OpenAI highlights how Basis, Clay, and Exa Labs deploy AI agents to handle high-friction operational workflows directly. — shown as a headline over radiating signal rings.",
+    "Slide 4: FROM STATIC STEPS TO DYNAMIC EXECUTION.. When unexpected edge cases arise, legacy rule-based tools fail. Agentic capabilities adapt in real time to complete the goal. — shown as a headline over radiating signal rings.",
+    "Slide 5: SOFTWARE IS NO LONGER A TOOL. IT'S A WORKER.. When workflows become agentic capabilities, operational scale is no longer constrained by linear headcount growth. — shown as a headline over radiating signal rings.",
+    "Slide 6: THE SHIFT FROM BUYING TO BUILDING CAPACITY.. Enterprise leaders must evaluate internal operations not by 'what software do we buy,' but 'which workflows can become autonomous capabilities.' — shown as a headline over radiating signal rings.",
+    "Slide 7: THE AI-NATIVE OPERATING MODEL IS HERE.. Workflows are no longer user instructions for human staff—they are executable agent capabilities. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#AI",
+    "#TechNews",
+    "#SoftwareArchitecture",
+    "#ArtificialIntelligence",
+    "#AIAgents",
+    "#GetByteRush"
+  ],
+  "cta": "Send this to the person who needs to see it.",
+  "seo": {
+    "primary_keyword": "How AI",
+    "secondary_keywords": [
+      "TechNews",
+      "SoftwareArchitecture",
+      "ArtificialIntelligence",
+      "AIAgents",
+      "GetByteRush",
+      "Native Companies Turn",
+      "Workflows Into Operating",
+      "Capability How AI"
+    ],
+    "search_phrases": [
+      "what is How AI",
+      "How AI vs Native Companies Turn",
+      "How AI TechNews",
+      "How AI SoftwareArchitecture"
+    ],
+    "entities": [
+      "How AI",
+      "Native Companies Turn",
+      "Workflows Into Operating",
+      "Capability How AI"
+    ]
+  },
+  "source_attribution": {
+    "title": "How AI-native companies turn workflows into operating capability",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/ai-native-company-workflows",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/ai-native-company-workflows"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/ai-native-company-workflows",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Software is shifting from manual tool execution to autonomous worker capabilities.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/ai-native-company-workflows",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}

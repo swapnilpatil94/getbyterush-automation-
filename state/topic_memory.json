@@ -2,6 +2,35 @@
   "version": 2,
   "topics": [
     {
+      "title": "How AI-Native Companies Turn Workflows Into Operating Capability",
+      "source_title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "source": "OpenAI News",
+      "normalized_title": "how ai native companies turn workflows into operating capability",
+      "normalized_source_title": "how ai native companies turn workflows into operating capability",
+      "tokens": [
+        "capability",
+        "companies",
+        "how",
+        "into",
+        "native",
+        "operating",
+        "turn",
+        "workflows"
+      ],
+      "source_tokens": [
+        "capability",
+        "companies",
+        "how",
+        "into",
+        "native",
+        "operating",
+        "turn",
+        "workflows"
+      ],
+      "recorded_at": "2026-09-02T08:16:50.707859+00:00"
+    },
+    {
       "title": "OpenAI Automated RL Red Teaming for ChatGPT Atlas",
       "source_title": "Continuously hardening ChatGPT Atlas against prompt injection",
       "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",

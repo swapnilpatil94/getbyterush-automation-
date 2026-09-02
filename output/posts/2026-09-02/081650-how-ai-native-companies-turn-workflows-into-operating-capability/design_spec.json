@@ -1,0 +1,60 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "headline_block",
+      "variant": "bookend",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 2,
+      "grammar": "pulse",
+      "variant": "pulse",
+      "accent": "#2D8C7A",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD"
+    },
+    {
+      "number": 3,
+      "grammar": "pulse",
+      "variant": "pulse",
+      "accent": "#2D8C7A",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD"
+    },
+    {
+      "number": 4,
+      "grammar": "pulse",
+      "variant": "pulse",
+      "accent": "#2D8C7A",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD"
+    },
+    {
+      "number": 5,
+      "grammar": "pulse",
+      "variant": "pulse",
+      "accent": "#2D8C7A",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD"
+    },
+    {
+      "number": 6,
+      "grammar": "pulse",
+      "variant": "pulse",
+      "accent": "#2D8C7A",
+      "bg": "#0B0D0C",
+      "fg": "#F3EBDD"
+    },
+    {
+      "number": 7,
+      "grammar": "headline_block",
+      "variant": "bookend",
+      "accent": "#2D8C7A",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C"
+    }
+  ]
+}

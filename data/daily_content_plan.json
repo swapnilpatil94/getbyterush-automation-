@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260902014724-openai-automated-rl--7546fa"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-273accca272617f1",
+      "topic": "How AI-native companies turn workflows into operating capability",
+      "category": "LAST_24H",
+      "score": 59,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 59/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/ai-native-company-workflows",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260902081650-how-ai-native-compan-0439db"
     }
   ],
   "slots": {
@@ -33,7 +49,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-273accca272617f1",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
