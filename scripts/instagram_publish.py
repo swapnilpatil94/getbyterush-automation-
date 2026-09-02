@@ -16,16 +16,14 @@ the already-committed slide PNG (the repo is public, and the render step
 already commits output/posts/ to main), so no new image-hosting
 infrastructure is needed.
 
-alt_text: Meta's own parameter description says "for a single image or
-image media in a carousel" (arguably per-child support) while the caption
-parameter is explicitly "not supported on images or videos in carousels"
-(clearly parent-only). Because this phrasing is genuinely ambiguous and
-I have no live credentials to test against, this module ATTEMPTS alt_text
-on each child container as a best effort, and ALWAYS also sets it on the
-parent container (documented-safe placement) — so accessibility text
-reaches Instagram in at least one guaranteed spot even if the per-child
-attempt is silently ignored by the API. This is reported, not assumed, in
-the production report; it needs a real publish to confirm either way.
+alt_text: confirmed live (first real publish attempt, 2026-09-02) —
+setting alt_text on the parent CAROUSEL container fails outright: "(#100)
+The param alt_text is not supported for CAROUSEL". The per-child attempt
+on each is_carousel_item container is kept (Meta's docs describe support
+there); the parent container never sets alt_text at all now. The earlier
+docstring here speculated this ambiguity would need a real publish to
+resolve — it did, and the resolution was the opposite of the "documented-
+safe placement" assumption.
 
 Hard gate: only runs after content_state says APPROVED, and refuses to
 publish anything already PUBLISHED (idempotent — Phase 6's absolute rule).
@@ -151,7 +149,6 @@ def publish(content_id):
     images = package["images"]
     alt_texts = package.get("alt_text_per_slide", [])
     caption = package.get("caption_for_publish") or package.get("caption", "")
-    overall_alt = package.get("alt_text_overall", "")
 
     cs.transition(content_id, "PUBLISHING", note="Instagram Graph API")
 
@@ -174,7 +171,10 @@ def publish(content_id):
             "media_type": "CAROUSEL",
             "children": ",".join(child_ids),
             "caption": caption,
-            "alt_text": (overall_alt or (alt_texts[0] if alt_texts else ""))[:1000],
+            # No alt_text here — confirmed live that Meta rejects it on the
+            # parent CAROUSEL container outright ("(#100) The param
+            # alt_text is not supported for CAROUSEL"). Accessibility text
+            # still reaches Instagram via the per-child alt_text above.
             "access_token": access_token,
         }
         parent = _graph_post(ig_user_id + "/media", parent_payload)
