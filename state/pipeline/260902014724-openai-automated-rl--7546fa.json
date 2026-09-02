@@ -1,0 +1,49 @@
+{
+  "content_id": "260902014724-openai-automated-rl--7546fa",
+  "story_title": "OpenAI Automated RL Red Teaming for ChatGPT Atlas",
+  "source_url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-02T01:47:24.259351+00:00",
+  "updated_at": "2026-09-02T01:47:28.186876+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-02T01:47:24.259359+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-02T01:47:24.260586+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-02T01:47:24.261017+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-02T01:47:24.261468+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-02T01:47:25.373623+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-02T01:47:28.186892+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-02/014724-openai-automated-rl-red-teaming-for-chatgpt-atlas",
+  "publish": {},
+  "story_path": "data/pipeline/260902014724-openai-automated-rl--7546fa.json"
+}

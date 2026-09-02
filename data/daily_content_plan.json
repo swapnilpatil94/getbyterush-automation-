@@ -1,132 +1,31 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-b224ef45c46ec6aa",
-      "topic": "Measuring AI’s capability to accelerate biological research",
-      "category": "EVERGREEN_VALUE",
-      "score": 61,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-513d0c00b23eb09e",
-      "topic": "How Balyasny Asset Management built an AI research engine",
-      "category": "EVERGREEN_VALUE",
-      "score": 61,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/balyasny-asset-management",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260901033142-how-balyasny-asset-m-1c511b"
-    },
-    {
-      "rank": 3,
-      "slot": "midmorning",
-      "content_id": "cand-90c464fd6629c470",
-      "topic": "Introducing Aardvark: OpenAI’s agentic security researcher",
-      "category": "PRODUCT_TOOL",
-      "score": 53,
-      "reason": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 53/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/introducing-aardvark",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260901051716-introducing-aardvark-26ad1f"
-    },
-    {
-      "rank": 4,
-      "slot": "night",
-      "content_id": "cand-de56964f6bd447eb",
-      "topic": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
-      "category": "EVERGREEN_VALUE",
-      "score": 61,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260901055853-nvidia-unveils-nemot-ef4c62"
-    },
-    {
-      "rank": 5,
-      "slot": "evening",
-      "content_id": "cand-3f022c6bfac665b5",
-      "topic": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
-      "category": "INTERNET_HUMAN_TECH_BEHAVIOR",
-      "score": 56,
-      "reason": "INTERNET_HUMAN_TECH_BEHAVIOR — SURPRISING, PROVABLE (score 56/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260901121652-local-ai-reaches-fro-4571b8"
-    },
-    {
-      "rank": 6,
-      "slot": "night",
-      "content_id": "cand-0b8ef8d6fe2a0736",
-      "topic": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "content_id": "cand-5e81d7e3cec1c911",
+      "topic": "Continuously hardening ChatGPT Atlas against prompt injection",
       "category": "EVERGREEN_VALUE",
       "score": 60,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source_url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260901144650-openai-releases-gpt--9456c1"
+      "content_state_id": "260902014724-openai-automated-rl--7546fa"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-b224ef45c46ec6aa",
+      "content_id": "cand-5e81d7e3cec1c911",
       "label": "Morning discovery"
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-0b8ef8d6fe2a0736",
-      "label": "Maximum push"
-    },
-    "midmorning": {
-      "status": "SELECTED",
-      "content_id": "cand-90c464fd6629c470",
-      "label": "Curiosity + saves"
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "SELECTED",
-      "content_id": "cand-3f022c6bfac665b5",
-      "label": "High-attention window"
     }
   },
-  "selected_count": 6
+  "selected_count": 1
 }

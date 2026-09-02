@@ -1,0 +1,95 @@
+{
+  "content_id": "260902014724-openai-automated-rl--7546fa",
+  "story_title": "OpenAI Automated RL Red Teaming for ChatGPT Atlas",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-02/014724-openai-automated-rl-red-teaming-for-chatgpt-atlas/slides/01.jpg",
+    "output/posts/2026-09-02/014724-openai-automated-rl-red-teaming-for-chatgpt-atlas/slides/02.jpg",
+    "output/posts/2026-09-02/014724-openai-automated-rl-red-teaming-for-chatgpt-atlas/slides/03.jpg",
+    "output/posts/2026-09-02/014724-openai-automated-rl-red-teaming-for-chatgpt-atlas/slides/04.jpg",
+    "output/posts/2026-09-02/014724-openai-automated-rl-red-teaming-for-chatgpt-atlas/slides/05.jpg",
+    "output/posts/2026-09-02/014724-openai-automated-rl-red-teaming-for-chatgpt-atlas/slides/06.jpg",
+    "output/posts/2026-09-02/014724-openai-automated-rl-red-teaming-for-chatgpt-atlas/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Prompt injection is the single biggest security obstacle preventing AI browser agents from executing sensitive real-world tasks.\n\nTo address this in ChatGPT Atlas, OpenAI announced it is using automated red teaming trained with reinforcement learning to continuously discover and patch vulnerabilities before hackers can find them.\n\nSwipe through for the full breakdown of how continuous RL hardening works and why dynamic AI security is becoming mandatory for agent adoption.\n\n—\nTESTED • EXPLAINED • REAL\nGetByteRush Editorial",
+  "caption_for_publish": "Prompt injection is the single biggest security obstacle preventing AI browser agents from executing sensitive real-world tasks.\n\nTo address this in ChatGPT Atlas, OpenAI announced it is using automated red teaming trained with reinforcement learning to continuously discover and patch vulnerabilities before hackers can find them.\n\nSwipe through for the full breakdown of how continuous RL hardening works and why dynamic AI security is becoming mandatory for agent adoption.\n\n—\nTESTED • EXPLAINED • REAL\nGetByteRush Editorial\n\n#getbyterush #ai #cybersecurity #openai #chatgpt #promptinjection #tech news",
+  "pinned_comment": "Can automated AI red teams completely solve prompt injection, or will web agents always remain vulnerable to complex hidden instructions?",
+  "alt_text_overall": "GetByteRush editorial carousel explaining how OpenAI hardens ChatGPT Atlas against prompt injection using automated reinforcement learning red teams.",
+  "alt_text_per_slide": [
+    "Slide 1: AI AGENTS HAVE A FATAL FLAW.. As browser agents execute real-world web tasks, hidden instructions can hijack them. Here is how OpenAI is attempting to solve prompt injection. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: PROMPT INJECTION EXPLAINED. When an agent like ChatGPT Atlas navigates web pages, hidden text can hijack its execution flow—overriding the original prompt with untrusted commands. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: AUTOMATED RED TEAMING. OpenAI disclosed a continuous defense system: deploying reinforcement learning to train automated AI red teams to attack ChatGPT Atlas. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: DISCOVER AND PATCH LOOP. The automated attacker is rewarded for finding novel exploits. Once identified, OpenAI hardens Atlas before external bad actors can exploit the vulnerability. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: AI VERSUS AI. To build reliable web agents, static guardrails are no longer enough. The only way to secure dynamic AI is with equally dynamic AI defense systems. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: THE BARRIER TO AGENT ADOPTION. Before AI agents can manage emails, transactions, and company data, automated continuous red teaming will likely become standard protocol across all major labs. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: CONTINUOUS IMMUNITY IS THE NEXT BENCHMARK. As AI agents gain full access to the open web, competition shifts from model size to automated resilience against malicious inputs. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "getbyterush",
+    "ai",
+    "cybersecurity",
+    "openai",
+    "chatgpt",
+    "promptinjection",
+    "tech news"
+  ],
+  "cta": "We test the stuff everyone else just explains.",
+  "seo": {
+    "primary_keyword": "OpenAI Automated RL",
+    "secondary_keywords": [
+      "getbyterush",
+      "cybersecurity",
+      "chatgpt",
+      "promptinjection",
+      "tech news",
+      "Red Teaming",
+      "ChatGPT Atlas Continuously",
+      "ChatGPT Atlas"
+    ],
+    "search_phrases": [
+      "what is OpenAI Automated RL",
+      "OpenAI Automated RL vs Red Teaming",
+      "OpenAI Automated RL getbyterush",
+      "OpenAI Automated RL cybersecurity"
+    ],
+    "entities": [
+      "OpenAI Automated RL",
+      "Red Teaming",
+      "ChatGPT Atlas Continuously",
+      "ChatGPT Atlas"
+    ]
+  },
+  "source_attribution": {
+    "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/hardening-atlas-against-prompt-injection"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI is strengthening ChatGPT Atlas against prompt injection using automated red teaming trained with reinforcement learning.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Automated reinforcement learning loops help identify novel exploits early to harden browser agent defenses.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Continuous automated red teaming will become an industry standard for all major AI agent developers.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}

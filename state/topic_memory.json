@@ -2,6 +2,33 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Automated RL Red Teaming for ChatGPT Atlas",
+      "source_title": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+      "source": "OpenAI News",
+      "normalized_title": "openai automated rl red teaming for chatgpt atlas",
+      "normalized_source_title": "continuously hardening chatgpt atlas against prompt injection",
+      "tokens": [
+        "atlas",
+        "automated",
+        "chatgpt",
+        "for",
+        "openai",
+        "red",
+        "teaming"
+      ],
+      "source_tokens": [
+        "against",
+        "atlas",
+        "chatgpt",
+        "continuously",
+        "hardening",
+        "injection",
+        "prompt"
+      ],
+      "recorded_at": "2026-09-02T01:47:24.225564+00:00"
+    },
+    {
       "title": "OpenAI Releases GPT-5.6-Cyber for Restricted Vulnerability Defense",
       "source_title": "Expanding Daybreak as the Cyber Defense Window Narrows",
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
