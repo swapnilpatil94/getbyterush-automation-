@@ -13,6 +13,7 @@ INSTAGRAM_ACCOUNT_ID / FACEBOOK_PAGE_ID secrets.
 """
 import json
 import os
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -21,8 +22,12 @@ GRAPH_VERSION = "v21.0"
 
 def _get(path, params):
     url = f"https://graph.facebook.com/{GRAPH_VERSION}/{path}?{urllib.parse.urlencode(params)}"
-    with urllib.request.urlopen(url) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(url) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        raise SystemExit(f"Graph API error on {path}: {e.code} {body}")
 
 
 def main():
