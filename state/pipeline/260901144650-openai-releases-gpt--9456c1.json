@@ -2,9 +2,9 @@
   "content_id": "260901144650-openai-releases-gpt--9456c1",
   "story_title": "OpenAI Releases GPT-5.6-Cyber for Restricted Vulnerability Defense",
   "source_url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "status": "REJECTED_VISUAL",
   "created_at": "2026-09-01T14:46:50.508627+00:00",
-  "updated_at": "2026-09-01T14:46:54.622602+00:00",
+  "updated_at": "2026-09-02T09:29:04.868033+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -35,14 +35,25 @@
       "status": "AWAITING_TELEGRAM_APPROVAL",
       "at": "2026-09-01T14:46:54.622620+00:00",
       "note": ""
+    },
+    {
+      "status": "REJECTED_VISUAL",
+      "at": "2026-09-02T09:29:04.868036+00:00",
+      "note": ""
     }
   ],
   "attempts": {
-    "visual": 0,
+    "visual": 1,
     "different_approach": 0
   },
   "avoid_grammars": [],
-  "rejections": [],
+  "rejections": [
+    {
+      "category": "visual",
+      "note": "",
+      "at": "2026-09-02T09:29:04.868011+00:00"
+    }
+  ],
   "package_path": "output/posts/2026-09-01/144650-openai-releases-gpt-5-6-cyber-for-restricted-vulnerability-defense",
   "publish": {},
   "story_path": "data/pipeline/260901144650-openai-releases-gpt--9456c1.json"
