@@ -51,9 +51,9 @@ def _probe_hosts(token):
 
 
 def main():
-    token = os.environ.get("INSTAGRAM_ACCESS_TOKEN")
+    token = os.environ.get("FACEBOOK_PAGE_ACCESS_TOKEN")
     if not token:
-        raise SystemExit("Missing INSTAGRAM_ACCESS_TOKEN")
+        raise SystemExit("Missing FACEBOOK_PAGE_ACCESS_TOKEN")
 
     print("Probing both possible Graph API hosts for this token:")
     _probe_hosts(token)

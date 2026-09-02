@@ -1,7 +1,7 @@
 name: GetByteRush Discover Meta IDs (One-off Setup Helper)
 
 # Read-only Graph API lookup — finds the Facebook Page ID and linked
-# Instagram Business Account ID for the already-set INSTAGRAM_ACCESS_TOKEN
+# Instagram Business Account ID for the already-set FACEBOOK_PAGE_ACCESS_TOKEN
 # secret. Prints only non-secret identifiers (no access tokens, including
 # the per-Page token Meta returns in the same response). Not part of the
 # production pipeline; safe to delete once IDs are confirmed.
@@ -26,5 +26,5 @@ jobs:
 
       - name: Discover Page + Instagram Business Account IDs
         env:
-          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
         run: python scripts/discover_meta_ids.py
