@@ -2,9 +2,9 @@
   "content_id": "260902121818-can-ai-help-create-b-aaf5d6",
   "story_title": "Can AI Help Create Biological Threats? OpenAI Tests GPT-4",
   "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
-  "status": "FAILED",
+  "status": "APPROVED",
   "created_at": "2026-09-02T12:18:18.062802+00:00",
-  "updated_at": "2026-09-02T18:36:08.120779+00:00",
+  "updated_at": "2026-09-02T19:15:00.384204+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -65,6 +65,11 @@
       "status": "FAILED",
       "at": "2026-09-02T18:36:08.120792+00:00",
       "note": "Graph API error on 17841437691061334/media_publish: 403 {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AU5C0yzD0cQjryPtCvTElDu\"}}"
+    },
+    {
+      "status": "APPROVED",
+      "at": "2026-09-02T19:15:00.384295+00:00",
+      "note": "ready for retry once Meta App Review / Instagram Tester block is resolved"
     }
   ],
   "attempts": {
