@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-09-02T02:16:29.267213+00:00",
+  "generated_at": "2026-09-02T10:19:40.247097+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
-      "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
-      "description": "“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurity system developed by the CrowdStrike Cyber [&#8230;]",
-      "published": "Tue, 01 Sep 2026 21:19:20 +0000",
-      "freshness_score": 10,
-      "relevance_score": 12,
-      "impact_score": 3,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 25
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "The latest AI news we announced in August 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-      "description": "Here are Google’s latest AI updates from August 2026",
-      "published": "Tue, 01 Sep 2026 20:45:00 +0000",
-      "freshness_score": 10,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 14
-    },
     {
       "source": "OpenAI News",
       "title": "How AI-native companies turn workflows into operating capability",
       "url": "https://openai.com/index/ai-native-company-workflows",
       "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
       "published": "Tue, 01 Sep 2026 17:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 15,
       "impact_score": 2,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 26
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "description": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
-      "published": "Tue, 01 Sep 2026 16:00:00 +0000",
-      "freshness_score": 9,
-      "relevance_score": 8,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 20
+      "pre_filter_score": 25
     },
     {
       "source": "OpenAI News",
@@ -63,6 +27,30 @@
       "pre_filter_score": 23
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
+      "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
+      "description": "“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurity system developed by the CrowdStrike Cyber [&#8230;]",
+      "published": "Tue, 01 Sep 2026 21:19:20 +0000",
+      "freshness_score": 8,
+      "relevance_score": 12,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 23
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "description": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
+      "published": "Tue, 01 Sep 2026 16:00:00 +0000",
+      "freshness_score": 8,
+      "relevance_score": 8,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
       "source": "OpenAI News",
       "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
@@ -75,16 +63,16 @@
       "pre_filter_score": 14
     },
     {
-      "source": "OpenAI News",
-      "title": "A milestone in expanding access to AI",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "description": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "published": "Mon, 31 Aug 2026 04:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 10,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 22
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "description": "Here are Google’s latest AI updates from August 2026",
+      "published": "Tue, 01 Sep 2026 20:45:00 +0000",
+      "freshness_score": 8,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -100,15 +88,27 @@
     },
     {
       "source": "OpenAI News",
+      "title": "A milestone in expanding access to AI",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "description": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "published": "Mon, 31 Aug 2026 04:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 10,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
       "title": "Polimill builds Japan's next-generation public AI infrastructure",
       "url": "https://openai.com/index/polimill",
       "description": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
       "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-      "freshness_score": 6,
+      "freshness_score": 5,
       "relevance_score": 12,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -116,11 +116,11 @@
       "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
       "description": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
       "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-      "freshness_score": 6,
+      "freshness_score": 5,
       "relevance_score": 4,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 10
+      "pre_filter_score": 9
     },
     {
       "source": "NVIDIA Blog",
