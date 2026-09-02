@@ -2,9 +2,9 @@
   "content_id": "260902121818-can-ai-help-create-b-aaf5d6",
   "story_title": "Can AI Help Create Biological Threats? OpenAI Tests GPT-4",
   "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
-  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "status": "APPROVED",
   "created_at": "2026-09-02T12:18:18.062802+00:00",
-  "updated_at": "2026-09-02T12:18:22.203173+00:00",
+  "updated_at": "2026-09-02T18:31:28.806853+00:00",
   "history": [
     {
       "status": "DISCOVERED",
@@ -35,6 +35,11 @@
       "status": "AWAITING_TELEGRAM_APPROVAL",
       "at": "2026-09-02T12:18:22.203196+00:00",
       "note": ""
+    },
+    {
+      "status": "APPROVED",
+      "at": "2026-09-02T18:31:28.806876+00:00",
+      "note": "approved via Telegram"
     }
   ],
   "attempts": {
