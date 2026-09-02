@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "Can AI Help Create Biological Threats? OpenAI Tests GPT-4",
+      "source_title": "Building an early warning system for LLM-aided biological threat creation",
+      "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+      "source": "OpenAI News",
+      "normalized_title": "can ai help create biological threats openai tests gpt 4",
+      "normalized_source_title": "building an early warning system for llm aided biological threat creation",
+      "tokens": [
+        "biological",
+        "can",
+        "create",
+        "gpt",
+        "help",
+        "openai",
+        "tests",
+        "threats"
+      ],
+      "source_tokens": [
+        "aided",
+        "biological",
+        "building",
+        "creation",
+        "early",
+        "for",
+        "llm",
+        "system",
+        "threat",
+        "warning"
+      ],
+      "recorded_at": "2026-09-02T12:18:18.027005+00:00"
+    },
+    {
       "title": "How AI-Native Companies Turn Workflows Into Operating Capability",
       "source_title": "How AI-native companies turn workflows into operating capability",
       "url": "https://openai.com/index/ai-native-company-workflows",

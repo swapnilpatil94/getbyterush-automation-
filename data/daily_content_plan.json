@@ -34,6 +34,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260902081650-how-ai-native-compan-0439db"
+    },
+    {
+      "rank": 3,
+      "slot": "evening",
+      "content_id": "cand-d81bc6fa6f7b0682",
+      "topic": "Building an early warning system for LLM-aided biological threat creation",
+      "category": "INTERNET_HUMAN_TECH_BEHAVIOR",
+      "score": 54,
+      "reason": "INTERNET_HUMAN_TECH_BEHAVIOR — SURPRISING, PROVABLE (score 54/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260902121818-can-ai-help-create-b-aaf5d6"
     }
   ],
   "slots": {
@@ -54,7 +70,12 @@
       "status": "SELECTED",
       "content_id": "cand-273accca272617f1",
       "label": "Freshness"
+    },
+    "evening": {
+      "status": "SELECTED",
+      "content_id": "cand-d81bc6fa6f7b0682",
+      "label": "High-attention window"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }

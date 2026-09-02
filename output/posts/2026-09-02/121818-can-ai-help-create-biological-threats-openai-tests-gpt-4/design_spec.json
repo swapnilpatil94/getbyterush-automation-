@@ -1,0 +1,60 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "headline_block",
+      "variant": "bookend",
+      "accent": "#E53935",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 2,
+      "grammar": "dossier",
+      "variant": "dossier",
+      "accent": "#E53935",
+      "bg": "#E8DDC4",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 3,
+      "grammar": "dossier",
+      "variant": "dossier",
+      "accent": "#E53935",
+      "bg": "#E8DDC4",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 4,
+      "grammar": "dossier",
+      "variant": "dossier",
+      "accent": "#E53935",
+      "bg": "#E8DDC4",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 5,
+      "grammar": "dossier",
+      "variant": "dossier",
+      "accent": "#E53935",
+      "bg": "#E8DDC4",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 6,
+      "grammar": "dossier",
+      "variant": "dossier",
+      "accent": "#E53935",
+      "bg": "#E8DDC4",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 7,
+      "grammar": "headline_block",
+      "variant": "bookend",
+      "accent": "#E53935",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "content_id": "260902121818-can-ai-help-create-b-aaf5d6",
+  "story_title": "Can AI Help Create Biological Threats? OpenAI Tests GPT-4",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-02/121818-can-ai-help-create-biological-threats-openai-tests-gpt-4/slides/01.jpg",
+    "output/posts/2026-09-02/121818-can-ai-help-create-biological-threats-openai-tests-gpt-4/slides/02.jpg",
+    "output/posts/2026-09-02/121818-can-ai-help-create-biological-threats-openai-tests-gpt-4/slides/03.jpg",
+    "output/posts/2026-09-02/121818-can-ai-help-create-biological-threats-openai-tests-gpt-4/slides/04.jpg",
+    "output/posts/2026-09-02/121818-can-ai-help-create-biological-threats-openai-tests-gpt-4/slides/05.jpg",
+    "output/posts/2026-09-02/121818-can-ai-help-create-biological-threats-openai-tests-gpt-4/slides/06.jpg",
+    "output/posts/2026-09-02/121818-can-ai-help-create-biological-threats-openai-tests-gpt-4/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Can AI help non-experts create biological threats? 🧬\n\nOpenAI ran evaluations with biology experts and university students to measure if GPT-4 increases risk in biological threat creation.\n\nThe findings: GPT-4 provided at most a 'mild uplift' in accuracy compared to baseline search—a figure not large enough to be conclusive, but a crucial starting point for safety benchmarks.\n\nHere is how OpenAI tested it and why early warning blueprints are becoming standard for frontier AI.\n\n#AI #AISafety #OpenAI #GPT4 #TechNews #GetByteRush",
+  "caption_for_publish": "Can AI help non-experts create biological threats? 🧬\n\nOpenAI ran evaluations with biology experts and university students to measure if GPT-4 increases risk in biological threat creation.\n\nThe findings: GPT-4 provided at most a 'mild uplift' in accuracy compared to baseline search—a figure not large enough to be conclusive, but a crucial starting point for safety benchmarks.\n\nHere is how OpenAI tested it and why early warning blueprints are becoming standard for frontier AI.\n\n#AI #AISafety #OpenAI #GPT4 #TechNews #GetByteRush\n\n#AI #AISafety #OpenAI #TechNews #GetByteRush",
+  "pinned_comment": "Do you think pre-deployment biosecurity benchmarks should be legally required for all frontier AI labs? Let us know below.",
+  "alt_text_overall": "GetByteRush carousel explaining OpenAI's research on evaluating LLM biological threat risks across 7 slides.",
+  "alt_text_per_slide": [
+    "Slide 1: CAN AI HELP CREATE BIOWEAPONS?. OpenAI conducted structured tests with biological experts and students to measure whether GPT-4 increases biosecurity risk. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: EXPERTS VS. GPT-4 ASSISTED TASKS. The evaluation tested two groups—biology experts and university students—measuring threat creation accuracy with and without model access. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 3: AT MOST A MILD UPLIFT. OpenAI found that GPT-4 provided at most a mild uplift in threat creation accuracy compared to baseline internet search. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 4: NOT YET CONCLUSIVE. OpenAI explicitly noted that while the measured uplift was small, the result is not statistical proof that risk is zero. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 5: BUILDING THE BLUEPRINT. Instead of waiting for model releases, labs are designing early warning blueprints to benchmark future risk thresholds. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 6: SO WHAT DOES THIS MEAN?. ANALYSIS: Current AI models are not turnkey bioweapon assistants, but evaluation blueprints are becoming mandatory infrastructure for frontier labs. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 7: MEASURE BEFORE YOU DEPLOY. Empirical testing replaces hype with data. The real challenge starts when next-gen reasoning models undergo the same evaluations. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "AI",
+    "AISafety",
+    "OpenAI",
+    "TechNews",
+    "GetByteRush"
+  ],
+  "cta": "Save this before you need it again.",
+  "seo": {
+    "primary_keyword": "Can AI Help",
+    "secondary_keywords": [
+      "AISafety",
+      "OpenAI",
+      "TechNews",
+      "GetByteRush",
+      "Create Biological Threats",
+      "OpenAI Tests GPT",
+      "Building",
+      "LLM"
+    ],
+    "search_phrases": [
+      "what is Can AI Help",
+      "Can AI Help vs Create Biological Threats",
+      "Can AI Help AISafety",
+      "Can AI Help OpenAI"
+    ],
+    "entities": [
+      "Can AI Help",
+      "Create Biological Threats",
+      "OpenAI Tests GPT",
+      "Building",
+      "LLM"
+    ]
+  },
+  "source_attribution": {
+    "title": "Building an early warning system for LLM-aided biological threat creation",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI evaluated GPT-4 with biology experts and university students to assess biological threat creation risk.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "GPT-4 provided at most a mild uplift in biological threat creation accuracy.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "OpenAI noted the uplift finding was not large enough to be conclusive.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+        "source_name": "OpenAI News"
+      }
+    ]
+  }
+}
