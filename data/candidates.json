@@ -1,30 +1,18 @@
 {
-  "generated_at": "2026-09-02T10:19:40.247097+00:00",
+  "generated_at": "2026-09-02T20:21:34.471023+00:00",
   "count": 80,
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "How AI-native companies turn workflows into operating capability",
-      "url": "https://openai.com/index/ai-native-company-workflows",
-      "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "published": "Tue, 01 Sep 2026 17:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 15,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 25
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "url": "https://openai.com/index/path-to-astra",
-      "description": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "published": "Tue, 01 Sep 2026 13:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 12,
+      "source": "Google AI Blog",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "description": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "published": "Wed, 02 Sep 2026 15:40:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 6,
       "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 23
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 19
     },
     {
       "source": "NVIDIA Blog",
@@ -40,30 +28,6 @@
     },
     {
       "source": "Google AI Blog",
-      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "description": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
-      "published": "Tue, 01 Sep 2026 16:00:00 +0000",
-      "freshness_score": 8,
-      "relevance_score": 8,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "description": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-      "published": "Tue, 01 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "Google AI Blog",
       "title": "The latest AI news we announced in August 2026",
       "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
       "description": "Here are Google’s latest AI updates from August 2026",
@@ -76,6 +40,30 @@
     },
     {
       "source": "OpenAI News",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "published": "Tue, 01 Sep 2026 17:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 15,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 23
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "url": "https://openai.com/index/path-to-astra",
+      "description": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "published": "Tue, 01 Sep 2026 13:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 12,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
       "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
       "url": "https://openai.com/index/gilbert-tobin",
       "description": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
@@ -85,6 +73,30 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "description": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
+      "published": "Tue, 01 Sep 2026 16:00:00 +0000",
+      "freshness_score": 6,
+      "relevance_score": 8,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "description": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "published": "Tue, 01 Sep 2026 12:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -948,18 +960,6 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Bringing ChatGPT to GenAI.mil",
-      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
-      "description": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
-      "published": "Mon, 09 Feb 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]

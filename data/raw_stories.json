@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-09-02T10:19:40.014607+00:00",
+  "generated_at": "2026-09-02T20:21:34.230594+00:00",
   "count": 1201,
   "stories": [
+    {
+      "source": "Google AI Blog",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "description": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "published": "Wed, 02 Sep 2026 15:40:00 +0000",
+      "freshness_score": 10
+    },
     {
       "source": "Google AI Blog",
       "title": "The latest AI news we announced in August 2026",
@@ -16,7 +24,7 @@
       "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
       "description": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
       "published": "Tue, 01 Sep 2026 16:00:00 +0000",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "Google AI Blog",
@@ -155,20 +163,12 @@
       "freshness_score": 0
     },
     {
-      "source": "Google AI Blog",
-      "title": "The latest AI news we announced in June 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-      "description": "Here are Google’s latest AI updates from June 2026.",
-      "published": "Wed, 01 Jul 2026 18:15:00 +0000",
-      "freshness_score": 0
-    },
-    {
       "source": "OpenAI News",
       "title": "How AI-native companies turn workflows into operating capability",
       "url": "https://openai.com/index/ai-native-company-workflows",
       "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
       "published": "Tue, 01 Sep 2026 17:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -176,7 +176,7 @@
       "url": "https://openai.com/index/path-to-astra",
       "description": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
       "published": "Tue, 01 Sep 2026 13:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -184,7 +184,7 @@
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
       "description": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
       "published": "Tue, 01 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
