@@ -30,6 +30,18 @@ the production report; it needs a real publish to confirm either way.
 Hard gate: only runs after content_state says APPROVED, and refuses to
 publish anything already PUBLISHED (idempotent — Phase 6's absolute rule).
 Zero Gemini calls.
+
+Facebook Page cross-post: after a successful Instagram publish, the same
+images + caption are also posted to the linked Facebook Page (multi-photo
+feed post, per Meta's own docs: upload each photo unpublished, then
+create one feed post attaching all of them). This is a BEST-EFFORT
+secondary step — a Facebook failure is recorded but never reverts or
+fails the Instagram publish, which already succeeded and is the primary
+deliverable. Uses the same System User Page Access Token as Instagram
+(FACEBOOK_PAGE_ACCESS_TOKEN) since a Page token from Instagram Graph API
+setup is valid for both the linked IG Business Account and the Page
+itself — confirmed via a live discovery lookup before this was written,
+not assumed.
 """
 import json
 import os
@@ -77,6 +89,27 @@ def _public_image_url(repo, local_path):
     return f"https://raw.githubusercontent.com/{repo}/main/{rel}"
 
 
+def _post_to_facebook_page(page_id, page_token, public_urls, caption):
+    """Multi-photo Facebook Page feed post: upload each photo unpublished,
+    then attach them all to one /feed post. Returns the fb post id."""
+    photo_ids = []
+    for public_url in public_urls[:10]:
+        resp = _graph_post(f"{page_id}/photos", {
+            "url": public_url, "published": "false", "access_token": page_token,
+        })
+        if "id" not in resp:
+            raise RuntimeError(f"Facebook photo upload failed: {resp}")
+        photo_ids.append(resp["id"])
+
+    attached_media = json.dumps([{"media_fbid": pid} for pid in photo_ids])
+    feed_resp = _graph_post(f"{page_id}/feed", {
+        "message": caption, "attached_media": attached_media, "access_token": page_token,
+    })
+    if "id" not in feed_resp:
+        raise RuntimeError(f"Facebook feed post failed: {feed_resp}")
+    return feed_resp["id"]
+
+
 def _wait_until_finished(container_id, access_token, timeout_s=120):
     waited = 0
     while waited < timeout_s:
@@ -102,9 +135,9 @@ def publish(content_id):
     if record["status"] != "APPROVED":
         raise SystemExit(f"Refusing to publish: status is {record['status']!r}, not APPROVED.")
 
-    access_token = _env("INSTAGRAM_ACCESS_TOKEN")
+    access_token = _env("INSTAGRAM_ACCESS_TOKEN", "FACEBOOK_PAGE_ACCESS_TOKEN")
     ig_user_id = _env("INSTAGRAM_ACCOUNT_ID", "IG_USER_ID")
-    missing = [n for n, v in (("INSTAGRAM_ACCESS_TOKEN", access_token), ("INSTAGRAM_ACCOUNT_ID", ig_user_id)) if not v]
+    missing = [n for n, v in (("INSTAGRAM_ACCESS_TOKEN or FACEBOOK_PAGE_ACCESS_TOKEN", access_token), ("INSTAGRAM_ACCOUNT_ID", ig_user_id)) if not v]
     if missing:
         cs.transition(content_id, "FAILED", note=f"missing credentials: {', '.join(missing)}")
         raise SystemExit(f"MISSING_CREDENTIALS={','.join(missing)} — cannot publish. See production report for setup steps.")
@@ -124,8 +157,10 @@ def publish(content_id):
 
     try:
         child_ids = []
+        public_urls = []
         for i, img in enumerate(images[:10]):
             public_url = _public_image_url(repo, img)
+            public_urls.append(public_url)
             payload = {"image_url": public_url, "is_carousel_item": "true", "access_token": access_token}
             if i < len(alt_texts):
                 payload["alt_text"] = alt_texts[i][:1000]  # best-effort per-child, see module docstring
@@ -153,7 +188,31 @@ def publish(content_id):
 
         cs.mark_published(content_id, ig_media_id=published["id"])
         print(f"PUBLISHED={content_id} ig_media_id={published['id']}")
-        return {"ig_media_id": published["id"]}
+        result = {"ig_media_id": published["id"]}
+
+        # Facebook cross-post — best-effort, secondary. The Instagram
+        # publish above already succeeded and is recorded; a Facebook
+        # failure here is logged onto the record but must never revert
+        # content_state or raise past this point.
+        page_id = _env("FACEBOOK_PAGE_ID")
+        page_token = _env("FACEBOOK_PAGE_ACCESS_TOKEN", "INSTAGRAM_ACCESS_TOKEN")
+        if page_id and page_token:
+            try:
+                fb_post_id = _post_to_facebook_page(page_id, page_token, public_urls, caption)
+                print(f"FACEBOOK_PUBLISHED={content_id} fb_post_id={fb_post_id}")
+                result["fb_post_id"] = fb_post_id
+                rec = cs.load(content_id)
+                rec["publish"]["facebook"] = {"post_id": fb_post_id, "published_at": cs.now_iso()}
+                cs.save(rec)
+            except Exception as fb_exc:
+                print(f"FACEBOOK_PUBLISH_FAILED={content_id}: {fb_exc}")
+                rec = cs.load(content_id)
+                rec["publish"]["facebook"] = {"error": str(fb_exc)[:500]}
+                cs.save(rec)
+        else:
+            print("Skipping Facebook cross-post: FACEBOOK_PAGE_ID or FACEBOOK_PAGE_ACCESS_TOKEN not set.")
+
+        return result
 
     except Exception as exc:
         cs.transition(content_id, "FAILED", note=str(exc)[:500])

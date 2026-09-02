@@ -25,14 +25,15 @@ PENDING_NOTE_FILE = Path("state/pipeline/pending_note.json")
 
 CHAT_ID = str(os.environ.get("TELEGRAM_CHAT_ID", ""))
 
-# Which workflow APPROVE dispatches. Currently make-com-publish.yml — the
-# Graph API path (publish-instagram.yml) is fully built and idempotent-
-# safe but can't run until Meta Developer app access is sorted (missing
-# INSTAGRAM_ACCESS_TOKEN/INSTAGRAM_ACCOUNT_ID). Make.com is the confirmed-
-# working path (a real post went live through it). Flip this back to
-# "publish-instagram.yml" once Graph API access exists — nothing else
-# needs to change.
-PUBLISH_WORKFLOW = "make-com-publish.yml"
+# Which workflow APPROVE dispatches. Flipped to the direct Graph API path
+# now that a Meta Business System User token exists with confirmed access
+# to both the Instagram Business Account and the Facebook Page (verified
+# live via scripts/discover_meta_ids.py before this switch, not assumed).
+# instagram_publish.py also now cross-posts to the linked Facebook Page
+# as a best-effort secondary step. Make.com is kept as a working fallback —
+# flip back to "make-com-publish.yml" if the Graph API path ever needs to
+# be bypassed again; nothing else would need to change.
+PUBLISH_WORKFLOW = "publish-instagram.yml"
 
 REASON_LABELS = {
     "v": ("visual", "🎨 VISUALS"),
