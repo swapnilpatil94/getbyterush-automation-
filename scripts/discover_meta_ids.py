@@ -20,14 +20,34 @@ import urllib.request
 GRAPH_VERSION = "v21.0"
 
 
-def _get(path, params):
-    url = f"https://graph.facebook.com/{GRAPH_VERSION}/{path}?{urllib.parse.urlencode(params)}"
+def _get(host, path, params):
+    url = f"https://{host}/{GRAPH_VERSION}/{path}?{urllib.parse.urlencode(params)}"
     try:
         with urllib.request.urlopen(url) as resp:
             return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", errors="replace")
-        raise SystemExit(f"Graph API error on {path}: {e.code} {body}")
+        raise SystemExit(f"Graph API error on {host}/{path}: {e.code} {body}")
+
+
+def _probe_hosts(token):
+    """The 'IGAA...'-prefixed token from Meta's newer Instagram API with
+    Instagram Login belongs to graph.instagram.com, not the older
+    graph.facebook.com Graph API this script (and instagram_publish.py)
+    were originally written against — confirmed live after three
+    identical 'Cannot parse access token' failures against
+    graph.facebook.com with freshly re-set tokens ruled out a paste
+    error."""
+    for host in ("graph.facebook.com", "graph.instagram.com"):
+        url = f"https://{host}/{GRAPH_VERSION}/me?" + urllib.parse.urlencode(
+            {"fields": "id,username,account_type", "access_token": token}
+        )
+        try:
+            with urllib.request.urlopen(url) as resp:
+                print(f"  {host}: OK -> {resp.read().decode()}")
+        except urllib.error.HTTPError as e:
+            print(f"  {host}: {e.code} {e.read().decode('utf-8', errors='replace')[:300]}")
+    print()
 
 
 def main():
@@ -35,11 +55,14 @@ def main():
     if not token:
         raise SystemExit("Missing INSTAGRAM_ACCESS_TOKEN")
 
-    me = _get("me", {"fields": "id,name", "access_token": token})
+    print("Probing both possible Graph API hosts for this token:")
+    _probe_hosts(token)
+
+    me = _get("graph.facebook.com", "me", {"fields": "id,name", "access_token": token})
     print(f"Token belongs to: {me.get('name')} (user id {me.get('id')})")
     print()
 
-    accounts = _get("me/accounts", {
+    accounts = _get("graph.facebook.com", "me/accounts", {
         "fields": "id,name,instagram_business_account{id,username}",
         "access_token": token,
     })
