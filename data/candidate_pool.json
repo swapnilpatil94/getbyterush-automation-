@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-03T15:34:28.195066+00:00",
+  "updated_at": "2026-09-03T20:21:32.436353+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -3630,7 +3630,50 @@
         "story_type": "PRODUCT_UPDATE",
         "pre_filter_score": 19
       }
+    },
+    {
+      "content_id": "cand-f5f5f956c46c40bd",
+      "topic": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "summary": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators [&#8230;]",
+      "content_type": "LAST_24H",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "published_at": "Thu, 03 Sep 2026 16:00:59 +0000",
+      "discovered_at": "2026-09-03T20:21:32.435938+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 3,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 58,
+      "raw": {
+        "source": "NVIDIA Blog",
+        "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+        "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+        "description": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators [&#8230;]",
+        "published": "Thu, 03 Sep 2026 16:00:59 +0000",
+        "freshness_score": 10,
+        "relevance_score": 16,
+        "impact_score": 0,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 26
+      }
     }
   ],
-  "count": 97
+  "count": 98
 }

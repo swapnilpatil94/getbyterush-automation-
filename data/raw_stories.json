@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T15:34:27.830093+00:00",
+  "generated_at": "2026-09-03T20:21:32.147115+00:00",
   "count": 1202,
   "stories": [
     {
@@ -8,7 +8,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
       "description": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
       "published": "Wed, 02 Sep 2026 15:40:00 +0000",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "Google AI Blog",
@@ -24,7 +24,7 @@
       "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
       "description": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
       "published": "Tue, 01 Sep 2026 16:00:00 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "Google AI Blog",
@@ -176,7 +176,7 @@
       "url": "https://openai.com/index/ai-native-company-workflows",
       "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
       "published": "Tue, 01 Sep 2026 17:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -9476,11 +9476,19 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "description": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators [&#8230;]",
+      "published": "Thu, 03 Sep 2026 16:00:59 +0000",
+      "freshness_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
       "description": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned [&#8230;]",
       "published": "Thu, 03 Sep 2026 13:00:35 +0000",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "NVIDIA Blog",
@@ -9488,7 +9496,7 @@
       "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
       "description": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for [&#8230;]",
       "published": "Thu, 03 Sep 2026 11:56:49 +0000",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "NVIDIA Blog",
@@ -9608,14 +9616,6 @@
       "url": "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory/",
       "description": "Every new generation of accelerated computing demands more from the infrastructure underneath it — more compute performance, higher rack density and more efficient, scalable power distribution. The bottleneck isn’t just wattage. It’s how power gets from the grid to the GPU. In traditional power delivery, electricity travels from the grid as an alternating current (AC) [&#8230;]",
       "published": "Tue, 11 Aug 2026 15:00:06 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-      "description": "The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ecosystem. That includes NVIDIA’s latest open models, software [&#8230;]",
-      "published": "Tue, 11 Aug 2026 13:00:25 +0000",
       "freshness_score": 0
     }
   ]

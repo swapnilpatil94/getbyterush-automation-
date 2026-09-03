@@ -1,18 +1,30 @@
 {
-  "generated_at": "2026-09-03T15:34:28.078414+00:00",
+  "generated_at": "2026-09-03T20:21:32.356060+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "description": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators [&#8230;]",
+      "published": "Thu, 03 Sep 2026 16:00:59 +0000",
+      "freshness_score": 10,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 26
+    },
     {
       "source": "NVIDIA Blog",
       "title": "NVIDIA to Acquire Hugging Face",
       "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
       "description": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for [&#8230;]",
       "published": "Thu, 03 Sep 2026 11:56:49 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 10,
       "impact_score": 3,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 23
+      "pre_filter_score": 22
     },
     {
       "source": "NVIDIA Blog",
@@ -20,35 +32,11 @@
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
       "description": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned [&#8230;]",
       "published": "Thu, 03 Sep 2026 13:00:35 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 6,
       "impact_score": 3,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "description": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "published": "Wed, 02 Sep 2026 15:40:00 +0000",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How AI-native companies turn workflows into operating capability",
-      "url": "https://openai.com/index/ai-native-company-workflows",
-      "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "published": "Tue, 01 Sep 2026 17:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 15,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 23
+      "pre_filter_score": 18
     },
     {
       "source": "NVIDIA Blog",
@@ -64,15 +52,15 @@
     },
     {
       "source": "Google AI Blog",
-      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "description": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
-      "published": "Tue, 01 Sep 2026 16:00:00 +0000",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "description": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "published": "Wed, 02 Sep 2026 15:40:00 +0000",
       "freshness_score": 6,
-      "relevance_score": 8,
+      "relevance_score": 6,
       "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 17
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -100,6 +88,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "published": "Tue, 01 Sep 2026 17:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 15,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 22
+    },
+    {
+      "source": "OpenAI News",
       "title": "Path to Astra: critical capabilities and frontier safeguards",
       "url": "https://openai.com/index/path-to-astra",
       "description": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
@@ -121,6 +121,18 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "description": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
+      "published": "Tue, 01 Sep 2026 16:00:00 +0000",
+      "freshness_score": 5,
+      "relevance_score": 8,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 16
     },
     {
       "source": "OpenAI News",
@@ -564,18 +576,6 @@
       "relevance_score": 18,
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-      "description": "The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ecosystem. That includes NVIDIA’s latest open models, software [&#8230;]",
-      "published": "Tue, 11 Aug 2026 13:00:25 +0000",
-      "freshness_score": 0,
-      "relevance_score": 18,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
       "pre_filter_score": 21
     },
     {
