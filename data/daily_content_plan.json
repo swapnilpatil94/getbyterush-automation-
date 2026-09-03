@@ -18,6 +18,21 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260903014703-why-language-models--747938"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-d6ccebb522c76040",
+      "topic": "Path to Astra: critical capabilities and frontier safeguards",
+      "category": "LAST_24H",
+      "score": 51,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 51/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/path-to-astra",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -33,7 +48,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-d6ccebb522c76040",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
