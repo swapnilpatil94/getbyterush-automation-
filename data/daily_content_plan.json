@@ -1,81 +1,31 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-5e81d7e3cec1c911",
-      "topic": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "content_id": "cand-12b3952eefef8738",
+      "topic": "Why language models hallucinate",
       "category": "EVERGREEN_VALUE",
       "score": 60,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+      "source_url": "https://openai.com/index/why-language-models-hallucinate",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260902014724-openai-automated-rl--7546fa"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-273accca272617f1",
-      "topic": "How AI-native companies turn workflows into operating capability",
-      "category": "LAST_24H",
-      "score": 59,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 59/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/ai-native-company-workflows",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260902081650-how-ai-native-compan-0439db"
-    },
-    {
-      "rank": 3,
-      "slot": "evening",
-      "content_id": "cand-d81bc6fa6f7b0682",
-      "topic": "Building an early warning system for LLM-aided biological threat creation",
-      "category": "INTERNET_HUMAN_TECH_BEHAVIOR",
-      "score": 54,
-      "reason": "INTERNET_HUMAN_TECH_BEHAVIOR — SURPRISING, PROVABLE (score 54/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260902121818-can-ai-help-create-b-aaf5d6"
+      "content_state_id": "260903014703-why-language-models--747938"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-5e81d7e3cec1c911",
+      "content_id": "cand-12b3952eefef8738",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-273accca272617f1",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "SELECTED",
-      "content_id": "cand-d81bc6fa6f7b0682",
-      "label": "High-attention window"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }

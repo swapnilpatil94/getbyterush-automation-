@@ -2,6 +2,29 @@
   "version": 2,
   "topics": [
     {
+      "title": "Why Language Models Hallucinate: OpenAI Research",
+      "source_title": "Why language models hallucinate",
+      "url": "https://openai.com/index/why-language-models-hallucinate",
+      "source": "OpenAI News",
+      "normalized_title": "why language models hallucinate openai research",
+      "normalized_source_title": "why language models hallucinate",
+      "tokens": [
+        "hallucinate",
+        "language",
+        "models",
+        "openai",
+        "research",
+        "why"
+      ],
+      "source_tokens": [
+        "hallucinate",
+        "language",
+        "models",
+        "why"
+      ],
+      "recorded_at": "2026-09-03T01:47:03.202105+00:00"
+    },
+    {
       "title": "Can AI Help Create Biological Threats? OpenAI Tests GPT-4",
       "source_title": "Building an early warning system for LLM-aided biological threat creation",
       "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
