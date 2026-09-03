@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-03T01:47:08.514462+00:00",
+  "updated_at": "2026-09-03T02:23:33.364474+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -3456,7 +3456,93 @@
         "story_type": "TECH_NEWS",
         "pre_filter_score": 19
       }
+    },
+    {
+      "content_id": "cand-793995a2f0bab402",
+      "topic": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/atv-big-air-tour",
+      "published_at": "Wed, 02 Sep 2026 12:00:00 GMT",
+      "discovered_at": "2026-09-03T02:23:33.360891+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 3,
+      "information_value": 6,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": true,
+        "product_demo_possible": true,
+        "mobile_demo_possible": false,
+        "website_demo_possible": true,
+        "visual_demo_possible": true
+      },
+      "status": "POOLED",
+      "score": 38,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+        "url": "https://openai.com/index/atv-big-air-tour",
+        "description": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+        "published": "Wed, 02 Sep 2026 12:00:00 GMT",
+        "freshness_score": 8,
+        "relevance_score": 6,
+        "impact_score": 0,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 14
+      }
+    },
+    {
+      "content_id": "cand-fdda6f787c8ab6e8",
+      "topic": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "summary": "The next wave of AI is placing new demands on infrastructure. As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory, storage, networking and software are designed together as a unified system. To help hyperscalers and AI innovators build the next generation [&#8230;]",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+      "published_at": "Wed, 26 Aug 2026 21:05:30 +0000",
+      "discovered_at": "2026-09-03T02:23:33.364023+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 8,
+      "save_score": 7,
+      "share_score": 7,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 66,
+      "raw": {
+        "source": "NVIDIA Blog",
+        "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+        "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+        "description": "The next wave of AI is placing new demands on infrastructure. As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory, storage, networking and software are designed together as a unified system. To help hyperscalers and AI innovators build the next generation [&#8230;]",
+        "published": "Wed, 26 Aug 2026 21:05:30 +0000",
+        "freshness_score": 0,
+        "relevance_score": 20,
+        "impact_score": 7,
+        "story_type": "AI_AGENTS",
+        "pre_filter_score": 27
+      }
     }
   ],
-  "count": 93
+  "count": 95
 }

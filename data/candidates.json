@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T20:21:34.471023+00:00",
+  "generated_at": "2026-09-03T02:23:33.255955+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,35 +8,23 @@
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
       "description": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
       "published": "Wed, 02 Sep 2026 15:40:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 6,
       "impact_score": 3,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
+      "pre_filter_score": 18
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
-      "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
-      "description": "“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurity system developed by the CrowdStrike Cyber [&#8230;]",
-      "published": "Tue, 01 Sep 2026 21:19:20 +0000",
+      "source": "OpenAI News",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "url": "https://openai.com/index/atv-big-air-tour",
+      "description": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "published": "Wed, 02 Sep 2026 12:00:00 GMT",
       "freshness_score": 8,
-      "relevance_score": 12,
-      "impact_score": 3,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 23
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "The latest AI news we announced in August 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-      "description": "Here are Google’s latest AI updates from August 2026",
-      "published": "Tue, 01 Sep 2026 20:45:00 +0000",
-      "freshness_score": 8,
-      "relevance_score": 4,
+      "relevance_score": 6,
       "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 12
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -63,16 +51,16 @@
       "pre_filter_score": 21
     },
     {
-      "source": "OpenAI News",
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "url": "https://openai.com/index/gilbert-tobin",
-      "description": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "published": "Tue, 01 Sep 2026 01:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
+      "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
+      "description": "“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurity system developed by the CrowdStrike Cyber [&#8230;]",
+      "published": "Tue, 01 Sep 2026 21:19:20 +0000",
       "freshness_score": 6,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
+      "relevance_score": 12,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 21
     },
     {
       "source": "Google AI Blog",
@@ -99,6 +87,18 @@
       "pre_filter_score": 12
     },
     {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "description": "Here are Google’s latest AI updates from August 2026",
+      "published": "Tue, 01 Sep 2026 20:45:00 +0000",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 10
+    },
+    {
       "source": "OpenAI News",
       "title": "A milestone in expanding access to AI",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
@@ -109,6 +109,18 @@
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "url": "https://openai.com/index/gilbert-tobin",
+      "description": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "published": "Tue, 01 Sep 2026 01:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
     },
     {
       "source": "OpenAI News",
@@ -167,6 +179,18 @@
       "freshness_score": 0,
       "relevance_score": 19,
       "impact_score": 8,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 27
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+      "description": "The next wave of AI is placing new demands on infrastructure. As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory, storage, networking and software are designed together as a unified system. To help hyperscalers and AI innovators build the next generation [&#8230;]",
+      "published": "Wed, 26 Aug 2026 21:05:30 +0000",
+      "freshness_score": 0,
+      "relevance_score": 20,
+      "impact_score": 7,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 27
     },
@@ -937,30 +961,6 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Predicting model behavior before release by simulating deployment",
-      "url": "https://openai.com/index/deployment-simulation",
-      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "published": "Tue, 16 Jun 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI announces Frontier Alliance Partners",
-      "url": "https://openai.com/index/frontier-alliance-partners",
-      "description": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
-      "published": "Mon, 23 Feb 2026 05:30:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
     }
   ]
 }
