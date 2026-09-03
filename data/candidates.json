@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T02:23:33.255955+00:00",
+  "generated_at": "2026-09-03T10:29:04.942460+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
       "description": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
       "published": "Wed, 02 Sep 2026 15:40:00 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 6,
       "impact_score": 3,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -100,18 +100,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "A milestone in expanding access to AI",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "description": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "published": "Mon, 31 Aug 2026 04:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 10,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "OpenAI News",
       "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
       "url": "https://openai.com/index/gilbert-tobin",
       "description": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
@@ -121,30 +109,6 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "url": "https://openai.com/index/polimill",
-      "description": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 12,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "description": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 9
     },
     {
       "source": "NVIDIA Blog",
@@ -961,6 +925,42 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "url": "https://openai.com/index/deployment-simulation",
+      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "published": "Tue, 16 Jun 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI announces Frontier Alliance Partners",
+      "url": "https://openai.com/index/frontier-alliance-partners",
+      "description": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+      "published": "Mon, 23 Feb 2026 05:30:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bringing ChatGPT to GenAI.mil",
+      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "description": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+      "published": "Mon, 09 Feb 2026 11:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
     }
   ]
 }
