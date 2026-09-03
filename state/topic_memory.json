@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+      "source_title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+      "url": "https://openai.com/index/buy-it-in-chatgpt",
+      "source": "OpenAI News",
+      "normalized_title": "buy it in chatgpt instant checkout and the agentic commerce protocol",
+      "normalized_source_title": "buy it in chatgpt instant checkout and the agentic commerce protocol",
+      "tokens": [
+        "agentic",
+        "and",
+        "buy",
+        "chatgpt",
+        "checkout",
+        "commerce",
+        "instant",
+        "protocol",
+        "the"
+      ],
+      "source_tokens": [
+        "agentic",
+        "and",
+        "buy",
+        "chatgpt",
+        "checkout",
+        "commerce",
+        "instant",
+        "protocol",
+        "the"
+      ],
+      "recorded_at": "2026-09-03T14:50:35.288068+00:00"
+    },
+    {
       "title": "Why Language Models Hallucinate: OpenAI Research",
       "source_title": "Why language models hallucinate",
       "url": "https://openai.com/index/why-language-models-hallucinate",

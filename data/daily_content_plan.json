@@ -33,6 +33,22 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-4eaa8825a78f3068",
+      "topic": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+      "category": "EVERGREEN_VALUE",
+      "score": 60,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/buy-it-in-chatgpt",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260903145035-buy-it-in-chatgpt-in-9a92b5"
     }
   ],
   "slots": {
@@ -61,7 +77,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-4eaa8825a78f3068",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }

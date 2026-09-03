@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "url": "https://openai.com/index/path-to-astra",
-      "description": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "published": "Tue, 01 Sep 2026 13:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 12,
+      "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+      "url": "https://openai.com/index/buy-it-in-chatgpt",
+      "description": "We’re taking first steps toward agentic commerce in ChatGPT with new ways for people, AI agents, and businesses to shop together.",
+      "published": "Mon, 29 Sep 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 18,
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 24,
-      "content_id": "cand-d6ccebb522c76040",
+      "pre_filter_score": 21,
+      "content_id": "cand-4eaa8825a78f3068",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 51,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 51/100)",
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 60,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
         "source": "OpenAI News"
       }
     }
