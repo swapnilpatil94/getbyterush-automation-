@@ -1,0 +1,103 @@
+{
+  "content_id": "260904144724-nvidia-nvlink-fusion-f1955a",
+  "story_title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-04/144725-nvidia-nvlink-fusion-expands-with-nvhbm-custom-high-bandwidth-memory/slides/01.jpg",
+    "output/posts/2026-09-04/144725-nvidia-nvlink-fusion-expands-with-nvhbm-custom-high-bandwidth-memory/slides/02.jpg",
+    "output/posts/2026-09-04/144725-nvidia-nvlink-fusion-expands-with-nvhbm-custom-high-bandwidth-memory/slides/03.jpg",
+    "output/posts/2026-09-04/144725-nvidia-nvlink-fusion-expands-with-nvhbm-custom-high-bandwidth-memory/slides/04.jpg",
+    "output/posts/2026-09-04/144725-nvidia-nvlink-fusion-expands-with-nvhbm-custom-high-bandwidth-memory/slides/05.jpg",
+    "output/posts/2026-09-04/144725-nvidia-nvlink-fusion-expands-with-nvhbm-custom-high-bandwidth-memory/slides/06.jpg",
+    "output/posts/2026-09-04/144725-nvidia-nvlink-fusion-expands-with-nvhbm-custom-high-bandwidth-memory/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "NVIDIA just made a major change to how AI hardware is built.\n\nAs AI models reach trillion-parameter scales, standard HBM architecture runs into a physical bottleneck: memory controllers on the main XPU die take up precious silicon area.\n\nNVIDIA's new NVHBM technology moves the memory controller directly into the 3D HBM stack. \n\nThe technical gains according to NVIDIA:\n• Up to 30% greater memory bandwidth\n• Up to 15% lower memory power consumption\n• Frees up to 25% compute area on the main die\n\nIn a surprising move, Amazon’s Annapurna Labs is the first official partner, planning to support NVLink Fusion with its next-generation Trainium4 chips.\n\nFull analysis in carousel. Slide through to see how 3D memory stacks work.\n\n#GetByteRush #NVIDIA #AWS #AIHardware #Semiconductors #TechExplained",
+  "caption_for_publish": "NVIDIA just made a major change to how AI hardware is built.\n\nAs AI models reach trillion-parameter scales, standard HBM architecture runs into a physical bottleneck: memory controllers on the main XPU die take up precious silicon area.\n\nNVIDIA's new NVHBM technology moves the memory controller directly into the 3D HBM stack. \n\nThe technical gains according to NVIDIA:\n• Up to 30% greater memory bandwidth\n• Up to 15% lower memory power consumption\n• Frees up to 25% compute area on the main die\n\nIn a surprising move, Amazon’s Annapurna Labs is the first official partner, planning to support NVLink Fusion with its next-generation Trainium4 chips.\n\nFull analysis in carousel. Slide through to see how 3D memory stacks work.\n\n#GetByteRush #NVIDIA #AWS #AIHardware #Semiconductors #TechExplained\n\n#GetByteRush #NVIDIA #NVLink #Semiconductors #AIInfrastructure #Hardware #AWS",
+  "pinned_comment": "Read the full breakdown in the carousel. Does standardizing on NVIDIA's interconnect stack slow down or speed up custom ASIC competition? Let us know below.",
+  "alt_text_overall": "Carousel explaining NVIDIA NVHBM memory architecture shift, featuring diagrams of XPU compute dies, 3D memory stacks, performance stats, and AWS Trainium4 partnership details.",
+  "alt_text_per_slide": [
+    "Slide 1: NVIDIA JUST REDESIGNED THE AI CHIP.. Trillion-parameter AI models hit a wall. To fix it, NVIDIA changed where memory controllers physically live. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: Where do you put memory controllers when silicon runs out of space?. Traditional HBM places memory controllers on the main XPU die. That takes up critical silicon area that could otherwise be used for pure compute. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: Move the controller into the 3D stack.. NVHBM integrates NVIDIA's custom memory controller directly into the HBM base die stack, completely removing it from the compute die. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: Frees up to 25% compute die space.. Compared with standard HBM4E, NVHBM delivers up to 30% greater bandwidth, 15% lower power consumption, and reclaims up to a quarter of the main die. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: AWS isn't fighting this architecture. They're adopting it.. Amazon's Annapurna Labs is the first collaborator on NVHBM, integrating NVLink Fusion scale-up architecture into Trainium4 chips. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: Hyperscalers keep custom chips, but share the stack.. This strategy lets hyperscalers design custom XPUs without designing proprietary memory controllers, lowering engineering risk across the AI industry. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: The battle for AI scale has moved from silicon to 3D memory.. As AI workloads shift to agentic systems and trillion-parameter models, physical layout innovation matters just as much as raw compute. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "GetByteRush",
+    "NVIDIA",
+    "NVLink",
+    "Semiconductors",
+    "AIInfrastructure",
+    "Hardware",
+    "AWS"
+  ],
+  "cta": "Follow along — we go deeper than the headline.",
+  "seo": {
+    "primary_keyword": "NVIDIA NVLink Fusion",
+    "secondary_keywords": [
+      "GetByteRush",
+      "Semiconductors",
+      "AIInfrastructure",
+      "Hardware",
+      "AWS",
+      "Expands With NVHBM",
+      "Custom High",
+      "Bandwidth Memory NVIDIA"
+    ],
+    "search_phrases": [
+      "what is NVIDIA NVLink Fusion",
+      "NVIDIA NVLink Fusion vs Expands With NVHBM",
+      "NVIDIA NVLink Fusion GetByteRush",
+      "NVIDIA NVLink Fusion Semiconductors"
+    ],
+    "entities": [
+      "NVIDIA NVLink Fusion",
+      "Expands With NVHBM",
+      "Custom High",
+      "Bandwidth Memory NVIDIA",
+      "NVLink Fusion Expands",
+      "With NVHBM Custom"
+    ]
+  },
+  "source_attribution": {
+    "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+    "sources": [
+      {
+        "name": "NVIDIA Official Blog",
+        "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "NVHBM frees up to 25% more area on XPU compute die compared with standard HBM4E.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "NVHBM delivers up to 30% greater memory bandwidth and 15% lower HBM power consumption.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Amazon's Annapurna Labs will support NVLink Fusion with Trainium4 chips.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "NVIDIA is locking in the platform layer even when competitors build custom silicon.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}

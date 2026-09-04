@@ -34,6 +34,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260904081740-nvidia-pair-linking--f27a17"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-fdda6f787c8ab6e8",
+      "topic": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "category": "EVERGREEN_VALUE",
+      "score": 66,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 66/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260904144724-nvidia-nvlink-fusion-f1955a"
     }
   ],
   "slots": {
@@ -62,7 +78,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-fdda6f787c8ab6e8",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }

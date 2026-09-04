@@ -2,6 +2,39 @@
   "version": 2,
   "topics": [
     {
+      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "source_title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "nvidia nvlink fusion expands with nvhbm custom high bandwidth memory",
+      "normalized_source_title": "nvidia nvlink fusion expands with nvhbm custom high bandwidth memory",
+      "tokens": [
+        "bandwidth",
+        "custom",
+        "expands",
+        "fusion",
+        "high",
+        "memory",
+        "nvhbm",
+        "nvidia",
+        "nvlink",
+        "with"
+      ],
+      "source_tokens": [
+        "bandwidth",
+        "custom",
+        "expands",
+        "fusion",
+        "high",
+        "memory",
+        "nvhbm",
+        "nvidia",
+        "nvlink",
+        "with"
+      ],
+      "recorded_at": "2026-09-04T14:47:24.956201+00:00"
+    },
+    {
       "title": "NVIDIA PAIR: Linking Idle PCs for Local AI Compute",
       "source_title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
       "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
@@ -537,24 +570,6 @@
         "work"
       ],
       "recorded_at": "2026-08-28T23:16:26.464296+00:00"
-    },
-    {
-      "title": "Why Amazon is building NVIDIA tech inside its own AI chips",
-      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
-      "source": "NVIDIA Blog",
-      "normalized_title": "why amazon is building nvidia tech inside its own ai chips",
-      "tokens": [
-        "amazon",
-        "building",
-        "chips",
-        "inside",
-        "its",
-        "nvidia",
-        "own",
-        "tech",
-        "why"
-      ],
-      "recorded_at": "2026-08-28T12:18:16.124931+00:00"
     },
     {
       "title": "NVIDIA Ships Vera: Its First Custom CPU Built Specifically for AI Agents",
