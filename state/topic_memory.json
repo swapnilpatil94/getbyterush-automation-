@@ -2,6 +2,34 @@
   "version": 2,
   "topics": [
     {
+      "title": "NVIDIA PAIR: Linking Idle PCs for Local AI Compute",
+      "source_title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "nvidia pair linking idle pcs for local ai compute",
+      "normalized_source_title": "sparks fly nvidia accelerates local ai at ifa 2026",
+      "tokens": [
+        "compute",
+        "for",
+        "idle",
+        "linking",
+        "local",
+        "nvidia",
+        "pair",
+        "pcs"
+      ],
+      "source_tokens": [
+        "2026",
+        "accelerates",
+        "fly",
+        "ifa",
+        "local",
+        "nvidia",
+        "sparks"
+      ],
+      "recorded_at": "2026-09-04T08:17:40.403700+00:00"
+    },
+    {
       "title": "The Builder's Guide to GPT-5.6",
       "source_title": "The builder’s guide to GPT‑5.6",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",

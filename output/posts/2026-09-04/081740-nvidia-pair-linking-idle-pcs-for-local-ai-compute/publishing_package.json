@@ -1,0 +1,98 @@
+{
+  "content_id": "260904081740-nvidia-pair-linking--f27a17",
+  "story_title": "NVIDIA PAIR: Linking Idle PCs for Local AI Compute",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-04/081740-nvidia-pair-linking-idle-pcs-for-local-ai-compute/slides/01.jpg",
+    "output/posts/2026-09-04/081740-nvidia-pair-linking-idle-pcs-for-local-ai-compute/slides/02.jpg",
+    "output/posts/2026-09-04/081740-nvidia-pair-linking-idle-pcs-for-local-ai-compute/slides/03.jpg",
+    "output/posts/2026-09-04/081740-nvidia-pair-linking-idle-pcs-for-local-ai-compute/slides/04.jpg",
+    "output/posts/2026-09-04/081740-nvidia-pair-linking-idle-pcs-for-local-ai-compute/slides/05.jpg",
+    "output/posts/2026-09-04/081740-nvidia-pair-linking-idle-pcs-for-local-ai-compute/slides/06.jpg",
+    "output/posts/2026-09-04/081740-nvidia-pair-linking-idle-pcs-for-local-ai-compute/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "NVIDIA just released a free tool that changes how local AI runs at home. ⚡\n\nInstead of making your main GPU handle every sub-task when running agentic workflows, NVIDIA PAIR (Personal AI Router) automatically routes inference jobs to idle PCs and Macs across your local network.\n\nCombined with up to 1.9x faster llama.cpp optimizations and simplified setup for OpenClaw, Hermes Agent, and Perplexity Portable Computer, local AI is shifting from single GPUs to distributed home clusters.\n\nSupported on RTX 20 Series+, RTX PRO, DGX Spark, and Apple Silicon M4+.\n\nAre you running local AI agents yet or still using cloud APIs? 👇\n\n—\nGETBYTERUSH • TESTED • EXPLAINED • REAL",
+  "caption_for_publish": "NVIDIA just released a free tool that changes how local AI runs at home. ⚡\n\nInstead of making your main GPU handle every sub-task when running agentic workflows, NVIDIA PAIR (Personal AI Router) automatically routes inference jobs to idle PCs and Macs across your local network.\n\nCombined with up to 1.9x faster llama.cpp optimizations and simplified setup for OpenClaw, Hermes Agent, and Perplexity Portable Computer, local AI is shifting from single GPUs to distributed home clusters.\n\nSupported on RTX 20 Series+, RTX PRO, DGX Spark, and Apple Silicon M4+.\n\nAre you running local AI agents yet or still using cloud APIs? 👇\n\n—\nGETBYTERUSH • TESTED • EXPLAINED • REAL\n\n#AI #NVIDIA #LocalAI #ArtificialIntelligence #TechNews #GetByteRush #Ollama #RTX",
+  "pinned_comment": "NVIDIA PAIR works with Ollama and LM Studio across Windows, macOS, and Linux. What local models are you running right now?",
+  "alt_text_overall": "GetByteRush carousel explaining NVIDIA PAIR open-source software for distributed local AI compute across home networks.",
+  "alt_text_per_slide": [
+    "Slide 1: YOUR IDLE PC IS NOW AN AI CLUSTER.. NVIDIA just launched free software that networks every idle PC in your house to run heavy local AI agents. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: LOCAL AGENTS CHOKE ON ONE GPU.. Autonomous agents split complex jobs into sub-tasks. When running locally, every sub-agent queues for the same GPU while 50%+ of households have secondary PCs sitting idle. — shown as a headline over radiating signal rings.",
+    "Slide 3: ENTER NVIDIA PAIR ROUTER.. NVIDIA PAIR automatically discovers idle RTX PCs and Apple Silicon Macs on your local network, routing sub-agent requests to whichever system has free capacity. — shown as a headline over radiating signal rings.",
+    "Slide 4: UP TO 1.9X FASTER LOCAL INFERENCE.. Alongside PAIR, llama.cpp and vLLM kernel optimizations deliver up to 1.9x higher throughput on RTX GPUs, available immediately inside LM Studio and Ollama. — shown as a headline over radiating signal rings.",
+    "Slide 5: ONE-CLICK AGENTS REACH WINDOWS.. Hermes Agent, OpenClaw, and Perplexity Portable Computer now feature one-click local GPU auto-detection—running full agentic workflows 100% offline. — shown as a headline over radiating signal rings.",
+    "Slide 6: THE SHIFT TO HOME AI CLUSTERS.. As 30B+ parameter open models like Nemotron 3.5 and Qwen3.8 surge in capability, distributed local hardware is replacing monthly SaaS subscriptions for power users. — shown as a headline over radiating signal rings.",
+    "Slide 7: LOCAL AI IS NOW DISTRIBUTED.. NVIDIA PAIR is available in open beta today for RTX 20 Series GPUs or newer and Apple M4+ silicon. Idle home compute is officially active. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "AI",
+    "NVIDIA",
+    "LocalAI",
+    "ArtificialIntelligence",
+    "TechNews",
+    "GetByteRush",
+    "Ollama",
+    "RTX"
+  ],
+  "cta": "Follow along — we go deeper than the headline.",
+  "seo": {
+    "primary_keyword": "NVIDIA PAIR",
+    "secondary_keywords": [
+      "LocalAI",
+      "ArtificialIntelligence",
+      "TechNews",
+      "GetByteRush",
+      "Ollama",
+      "RTX",
+      "Linking Idle PCs",
+      "Local AI Compute"
+    ],
+    "search_phrases": [
+      "what is NVIDIA PAIR",
+      "NVIDIA PAIR vs Linking Idle PCs",
+      "NVIDIA PAIR LocalAI",
+      "NVIDIA PAIR ArtificialIntelligence"
+    ],
+    "entities": [
+      "NVIDIA PAIR",
+      "Linking Idle PCs",
+      "Local AI Compute",
+      "Sparks Fly",
+      "NVIDIA Accelerates Local",
+      "AI"
+    ]
+  },
+  "source_attribution": {
+    "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "NVIDIA PAIR routes AI inference requests across idle PCs on a local network.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "llama.cpp kernel optimizations deliver up to 1.9x higher throughput on GeForce RTX 5090.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Distributed home clusters are replacing monthly SaaS subscriptions for power users.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}
