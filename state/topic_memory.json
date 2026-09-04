@@ -2,6 +2,27 @@
   "version": 2,
   "topics": [
     {
+      "title": "The Builder's Guide to GPT-5.6",
+      "source_title": "The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source": "OpenAI News",
+      "normalized_title": "the builder s guide to gpt 5 6",
+      "normalized_source_title": "the builder s guide to gpt 5 6",
+      "tokens": [
+        "builder",
+        "gpt",
+        "guide",
+        "the"
+      ],
+      "source_tokens": [
+        "builder",
+        "gpt",
+        "guide",
+        "the"
+      ],
+      "recorded_at": "2026-09-04T01:46:36.360794+00:00"
+    },
+    {
       "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
       "source_title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
       "url": "https://openai.com/index/buy-it-in-chatgpt",

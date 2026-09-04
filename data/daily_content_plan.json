@@ -1,88 +1,31 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-12b3952eefef8738",
-      "topic": "Why language models hallucinate",
+      "content_id": "cand-7abee401bea6a464",
+      "topic": "The builder’s guide to GPT‑5.6",
       "category": "EVERGREEN_VALUE",
       "score": 60,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/why-language-models-hallucinate",
+      "source_url": "https://openai.com/index/builders-guide-to-gpt-5-6",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260903014703-why-language-models--747938"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-d6ccebb522c76040",
-      "topic": "Path to Astra: critical capabilities and frontier safeguards",
-      "category": "LAST_24H",
-      "score": 51,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 51/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/path-to-astra",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-4eaa8825a78f3068",
-      "topic": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
-      "category": "EVERGREEN_VALUE",
-      "score": 60,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/buy-it-in-chatgpt",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260903145035-buy-it-in-chatgpt-in-9a92b5"
+      "content_state_id": "260904014636-the-builder-s-guide--8b80ba"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-12b3952eefef8738",
+      "content_id": "cand-7abee401bea6a464",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-d6ccebb522c76040",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-4eaa8825a78f3068",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }

@@ -1,0 +1,49 @@
+{
+  "content_id": "260904014636-the-builder-s-guide--8b80ba",
+  "story_title": "The Builder's Guide to GPT-5.6",
+  "source_url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-04T01:46:36.394185+00:00",
+  "updated_at": "2026-09-04T01:46:40.636962+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-04T01:46:36.394193+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-04T01:46:36.395509+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-04T01:46:36.396039+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-04T01:46:36.396557+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-04T01:46:37.516286+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-04T01:46:40.636977+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-04/014636-the-builder-s-guide-to-gpt-5-6",
+  "publish": {},
+  "story_path": "data/pipeline/260904014636-the-builder-s-guide--8b80ba.json"
+}
