@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T10:17:25.778862+00:00",
+  "generated_at": "2026-09-04T15:32:57.437424+00:00",
   "count": 80,
   "stories": [
     {
@@ -15,66 +15,6 @@
       "pre_filter_score": 24
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA to Acquire Hugging Face",
-      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-      "description": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for [&#8230;]",
-      "published": "Thu, 03 Sep 2026 11:56:49 +0000",
-      "freshness_score": 8,
-      "relevance_score": 10,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "description": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "published": "Thu, 03 Sep 2026 13:15:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
-      "description": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned [&#8230;]",
-      "published": "Thu, 03 Sep 2026 13:00:35 +0000",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "description": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "published": "Thu, 03 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 4,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "description": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "published": "Thu, 03 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 2,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
-    },
-    {
       "source": "OpenAI News",
       "title": "Safety overview: GPT-6 Astra",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
@@ -84,6 +24,18 @@
       "relevance_score": 10,
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA to Acquire Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "description": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for [&#8230;]",
+      "published": "Thu, 03 Sep 2026 11:56:49 +0000",
+      "freshness_score": 6,
+      "relevance_score": 10,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 19
     },
     {
@@ -100,15 +52,39 @@
     },
     {
       "source": "OpenAI News",
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "description": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "published": "Wed, 02 Sep 2026 12:00:00 GMT",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "description": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "published": "Thu, 03 Sep 2026 13:15:00 GMT",
       "freshness_score": 6,
       "relevance_score": 6,
-      "impact_score": 0,
+      "impact_score": 3,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
+      "description": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned [&#8230;]",
+      "published": "Thu, 03 Sep 2026 13:00:35 +0000",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "description": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "published": "Thu, 03 Sep 2026 12:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 3,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
+      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -121,18 +97,6 @@
       "impact_score": 2,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 22
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "url": "https://openai.com/index/path-to-astra",
-      "description": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "published": "Tue, 01 Sep 2026 13:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 12,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20
     },
     {
       "source": "NVIDIA Blog",
@@ -160,10 +124,10 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "description": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-      "published": "Tue, 01 Sep 2026 12:00:00 GMT",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "url": "https://openai.com/index/atv-big-air-tour",
+      "description": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "published": "Wed, 02 Sep 2026 12:00:00 GMT",
       "freshness_score": 5,
       "relevance_score": 6,
       "impact_score": 0,
@@ -961,6 +925,42 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Inside Mirakl's agentic commerce vision",
+      "url": "https://openai.com/index/mirakl",
+      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+      "published": "Mon, 01 Dec 2025 22:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "url": "https://openai.com/index/deployment-simulation",
+      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "published": "Tue, 16 Jun 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI announces Frontier Alliance Partners",
+      "url": "https://openai.com/index/frontier-alliance-partners",
+      "description": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+      "published": "Mon, 23 Feb 2026 05:30:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 18
     }
   ]
 }
