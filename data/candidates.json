@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T20:21:32.356060+00:00",
+  "generated_at": "2026-09-04T02:18:31.604966+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
       "description": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators [&#8230;]",
       "published": "Thu, 03 Sep 2026 16:00:59 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 16,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 26
+      "pre_filter_score": 25
     },
     {
       "source": "NVIDIA Blog",
@@ -20,11 +20,23 @@
       "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
       "description": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for [&#8230;]",
       "published": "Thu, 03 Sep 2026 11:56:49 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 10,
       "impact_score": 3,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 22
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "description": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "published": "Thu, 03 Sep 2026 13:15:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 6,
+      "impact_score": 3,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 17
     },
     {
       "source": "NVIDIA Blog",
@@ -32,23 +44,47 @@
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
       "description": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned [&#8230;]",
       "published": "Thu, 03 Sep 2026 13:00:35 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 6,
       "impact_score": 3,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 18
+      "pre_filter_score": 17
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
-      "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
-      "description": "“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurity system developed by the CrowdStrike Cyber [&#8230;]",
-      "published": "Tue, 01 Sep 2026 21:19:20 +0000",
-      "freshness_score": 6,
-      "relevance_score": 12,
+      "source": "OpenAI News",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "description": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "published": "Thu, 03 Sep 2026 12:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 4,
       "impact_score": 3,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 21
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "description": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "published": "Thu, 03 Sep 2026 12:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 2,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Safety overview: GPT-6 Astra",
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "description": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+      "published": "Thu, 03 Sep 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 10,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
     },
     {
       "source": "Google AI Blog",
@@ -75,18 +111,6 @@
       "pre_filter_score": 12
     },
     {
-      "source": "Google AI Blog",
-      "title": "The latest AI news we announced in August 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-      "description": "Here are Google’s latest AI updates from August 2026",
-      "published": "Tue, 01 Sep 2026 20:45:00 +0000",
-      "freshness_score": 6,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 10
-    },
-    {
       "source": "OpenAI News",
       "title": "How AI-native companies turn workflows into operating capability",
       "url": "https://openai.com/index/ai-native-company-workflows",
@@ -111,16 +135,16 @@
       "pre_filter_score": 20
     },
     {
-      "source": "OpenAI News",
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "url": "https://openai.com/index/gilbert-tobin",
-      "description": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "published": "Tue, 01 Sep 2026 01:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
+      "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
+      "description": "“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurity system developed by the CrowdStrike Cyber [&#8230;]",
+      "published": "Tue, 01 Sep 2026 21:19:20 +0000",
       "freshness_score": 5,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
+      "relevance_score": 12,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 20
     },
     {
       "source": "Google AI Blog",
@@ -145,6 +169,18 @@
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 11
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "description": "Here are Google’s latest AI updates from August 2026",
+      "published": "Tue, 01 Sep 2026 20:45:00 +0000",
+      "freshness_score": 5,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 9
     },
     {
       "source": "NVIDIA Blog",
@@ -640,18 +676,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Bet Bot: Gambling spam network",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
-      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "STORM-0817: Iran-linked malware and scraping activity",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
       "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
@@ -660,6 +684,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bet Bot: Gambling spam network",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -748,9 +784,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -760,9 +796,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -925,42 +961,6 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Inside Mirakl's agentic commerce vision",
-      "url": "https://openai.com/index/mirakl",
-      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
-      "published": "Mon, 01 Dec 2025 22:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Predicting model behavior before release by simulating deployment",
-      "url": "https://openai.com/index/deployment-simulation",
-      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "published": "Tue, 16 Jun 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI announces Frontier Alliance Partners",
-      "url": "https://openai.com/index/frontier-alliance-partners",
-      "description": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
-      "published": "Mon, 23 Feb 2026 05:30:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
     }
   ]
 }
