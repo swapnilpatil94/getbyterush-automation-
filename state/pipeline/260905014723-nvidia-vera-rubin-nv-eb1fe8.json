@@ -1,0 +1,49 @@
+{
+  "content_id": "260905014723-nvidia-vera-rubin-nv-eb1fe8",
+  "story_title": "NVIDIA Vera Rubin NVL72 and the 15x Agent Token Surge",
+  "source_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-05T01:47:23.116227+00:00",
+  "updated_at": "2026-09-05T01:47:29.282428+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-05T01:47:23.116235+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-05T01:47:23.117647+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-05T01:47:23.118209+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-05T01:47:23.118745+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-05T01:47:26.031834+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-05T01:47:29.282468+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-05/014723-nvidia-vera-rubin-nvl72-and-the-15x-agent-token-surge",
+  "publish": {},
+  "story_path": "data/pipeline/260905014723-nvidia-vera-rubin-nv-eb1fe8.json"
+}

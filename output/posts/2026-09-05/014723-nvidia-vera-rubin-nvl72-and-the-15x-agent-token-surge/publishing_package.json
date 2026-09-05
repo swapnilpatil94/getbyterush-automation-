@@ -1,0 +1,97 @@
+{
+  "content_id": "260905014723-nvidia-vera-rubin-nv-eb1fe8",
+  "story_title": "NVIDIA Vera Rubin NVL72 and the 15x Agent Token Surge",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-05/014723-nvidia-vera-rubin-nvl72-and-the-15x-agent-token-surge/slides/01.jpg",
+    "output/posts/2026-09-05/014723-nvidia-vera-rubin-nvl72-and-the-15x-agent-token-surge/slides/02.jpg",
+    "output/posts/2026-09-05/014723-nvidia-vera-rubin-nvl72-and-the-15x-agent-token-surge/slides/03.jpg",
+    "output/posts/2026-09-05/014723-nvidia-vera-rubin-nvl72-and-the-15x-agent-token-surge/slides/04.jpg",
+    "output/posts/2026-09-05/014723-nvidia-vera-rubin-nvl72-and-the-15x-agent-token-surge/slides/05.jpg",
+    "output/posts/2026-09-05/014723-nvidia-vera-rubin-nvl72-and-the-15x-agent-token-surge/slides/06.jpg",
+    "output/posts/2026-09-05/014723-nvidia-vera-rubin-nvl72-and-the-15x-agent-token-surge/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "AI agents don't just chat—they query, run code, and invoke sub-agents, consuming up to 15x more tokens than simple prompts. According to new NVIDIA benchmarks, Vera Rubin NVL72 tackles this compute wall by delivering 30x higher throughput per megawatt and up to 35x lower token costs on real-world agentic workloads.\n\nTESTED • EXPLAINED • REAL\n\n#AI #NVIDIA #TechNews #ArtificialIntelligence #Hardware #DataCenter #GetByteRush",
+  "caption_for_publish": "AI agents don't just chat—they query, run code, and invoke sub-agents, consuming up to 15x more tokens than simple prompts. According to new NVIDIA benchmarks, Vera Rubin NVL72 tackles this compute wall by delivering 30x higher throughput per megawatt and up to 35x lower token costs on real-world agentic workloads.\n\nTESTED • EXPLAINED • REAL\n\n#AI #NVIDIA #TechNews #ArtificialIntelligence #Hardware #DataCenter #GetByteRush\n\n#AI #NVIDIA #TechNews #AgenticAI #Hardware #DataCenter #GetByteRush",
+  "pinned_comment": "Are agentic workflows already part of your stack, or are token costs holding back continuous deployment? Let's discuss below.",
+  "alt_text_overall": "Carousel graphic by GetByteRush explaining NVIDIA Vera Rubin NVL72 efficiency metrics for agentic AI workloads, including 15x token consumption and 30x throughput per megawatt.",
+  "alt_text_per_slide": [
+    "Slide 1: 15X MORE TOKENS.. AI agents don't just answer questions. They query databases, execute code, and spawn sub-agents—consuming up to 15x more tokens than standard chat prompts. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: CONVERSATIONS WERE CHEAP. AGENTS ARE NOT.. When an agent researches a topic, every intermediate decision becomes input context for the next step. Long-context accumulation quickly pushes session sizes into hundreds of thousands of tokens. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: MEASURED ON REAL-WORLD AGENT RUNS.. NVIDIA benchmarked agentic execution using the SemiAnalysis AgentX workload—evaluating actual coding sessions, tool calls, and sub-agent spawning on models like DeepSeek V4 Pro. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: ENTER VERA RUBIN NVL72.. To keep up with agent token demand, NVIDIA's Vera Rubin NVL72 architecture delivers up to 30x higher throughput per megawatt and up to 35x lower token cost than GB300 NVL72. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: 30X MORE WORK PER MEGAWATT.. For power-constrained AI factories, energy footprint limits total revenue. Throughput per megawatt determines whether running continuous AI agents is profitable. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: CHEAPER TOKENS UNLOCK PERPETUAL AGENTS.. At up to 35x lower cost per million tokens, developers can shift from tightly restricted single-prompt interactions to background agents that continuously monitor, code, and execute tasks without runtime budget limits. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: THE AI WAR IS NOW ABOUT RUNTIME EFFICIENCY.. Building smarter models is only half the battle. The winners of the agentic era will be the platforms that can afford to run millions of continuous reasoning loops 24/7. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#AI",
+    "#NVIDIA",
+    "#TechNews",
+    "#AgenticAI",
+    "#Hardware",
+    "#DataCenter",
+    "#GetByteRush"
+  ],
+  "cta": "We test the stuff everyone else just explains.",
+  "seo": {
+    "primary_keyword": "NVIDIA Vera Rubin",
+    "secondary_keywords": [
+      "AI",
+      "TechNews",
+      "AgenticAI",
+      "Hardware",
+      "DataCenter",
+      "GetByteRush",
+      "NVL72",
+      "Agent Token Surge"
+    ],
+    "search_phrases": [
+      "what is NVIDIA Vera Rubin",
+      "NVIDIA Vera Rubin vs NVL72",
+      "NVIDIA Vera Rubin AI",
+      "NVIDIA Vera Rubin TechNews"
+    ],
+    "entities": [
+      "NVIDIA Vera Rubin",
+      "NVL72",
+      "Agent Token Surge",
+      "Up",
+      "More Work Per",
+      "Watt"
+    ]
+  },
+  "source_attribution": {
+    "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "Agentic AI workloads consume 15x more tokens than a simple chat request.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+        "source_name": "NVIDIA Blog (citing OpenRouter data)"
+      },
+      {
+        "claim": "Vera Rubin NVL72 delivers up to 30x higher throughput per megawatt than GB300 NVL72 on agentic workloads.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Vera Rubin NVL72 achieves up to 35x lower token cost than GB300 NVL72 on DeepSeek V4 Pro model benchmarks.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+        "source_name": "NVIDIA Blog"
+      }
+    ]
+  }
+}

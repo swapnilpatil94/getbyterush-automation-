@@ -1,89 +1,31 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-7abee401bea6a464",
-      "topic": "The builder’s guide to GPT‑5.6",
-      "category": "EVERGREEN_VALUE",
-      "score": 60,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260904014636-the-builder-s-guide--8b80ba"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-f5f5f956c46c40bd",
-      "topic": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
-      "category": "LAST_24H",
-      "score": 55,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260904081740-nvidia-pair-linking--f27a17"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-fdda6f787c8ab6e8",
-      "topic": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "content_id": "cand-531478fcb30a0dc4",
+      "topic": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
       "category": "EVERGREEN_VALUE",
       "score": 66,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 66/100)",
       "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+      "source_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260904144724-nvidia-nvlink-fusion-f1955a"
+      "content_state_id": "260905014723-nvidia-vera-rubin-nv-eb1fe8"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-7abee401bea6a464",
+      "content_id": "cand-531478fcb30a0dc4",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-f5f5f956c46c40bd",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-fdda6f787c8ab6e8",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }

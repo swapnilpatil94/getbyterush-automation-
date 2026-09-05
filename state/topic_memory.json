@@ -2,6 +2,44 @@
   "version": 2,
   "topics": [
     {
+      "title": "NVIDIA Vera Rubin NVL72 and the 15x Agent Token Surge",
+      "source_title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "nvidia vera rubin nvl72 and the 15x agent token surge",
+      "normalized_source_title": "up to 30x more work per watt nvidia vera rubin nvl72 sets a new efficiency standard for ai agents",
+      "tokens": [
+        "15x",
+        "agent",
+        "and",
+        "nvidia",
+        "nvl72",
+        "rubin",
+        "surge",
+        "the",
+        "token",
+        "vera"
+      ],
+      "source_tokens": [
+        "30x",
+        "agents",
+        "efficiency",
+        "for",
+        "more",
+        "new",
+        "nvidia",
+        "nvl72",
+        "per",
+        "rubin",
+        "sets",
+        "standard",
+        "vera",
+        "watt",
+        "work"
+      ],
+      "recorded_at": "2026-09-05T01:47:23.082596+00:00"
+    },
+    {
       "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
       "source_title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
       "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
@@ -537,39 +575,6 @@
         "with"
       ],
       "recorded_at": "2026-08-31T05:31:02.228457+00:00"
-    },
-    {
-      "title": "NVIDIA's 30x Breakthrough for AI Agents",
-      "source_title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-      "source": "NVIDIA Blog",
-      "normalized_title": "nvidia s 30x breakthrough for ai agents",
-      "normalized_source_title": "up to 30x more work per watt nvidia vera rubin nvl72 sets a new efficiency standard for ai agents",
-      "tokens": [
-        "30x",
-        "agents",
-        "breakthrough",
-        "for",
-        "nvidia"
-      ],
-      "source_tokens": [
-        "30x",
-        "agents",
-        "efficiency",
-        "for",
-        "more",
-        "new",
-        "nvidia",
-        "nvl72",
-        "per",
-        "rubin",
-        "sets",
-        "standard",
-        "vera",
-        "watt",
-        "work"
-      ],
-      "recorded_at": "2026-08-28T23:16:26.464296+00:00"
     },
     {
       "title": "NVIDIA Ships Vera: Its First Custom CPU Built Specifically for AI Agents",
