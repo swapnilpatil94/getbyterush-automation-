@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-05T02:19:24.864577+00:00",
+  "updated_at": "2026-09-05T09:45:26.387093+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -3849,7 +3849,50 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 19
       }
+    },
+    {
+      "content_id": "cand-56e5ee662bb2736f",
+      "topic": "GPT-6 Astra: A new generation of intelligence",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/gpt-6-astra",
+      "published_at": "Thu, 03 Sep 2026 11:00:00 GMT",
+      "discovered_at": "2026-09-05T09:45:26.386515+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 7,
+      "share_score": 3,
+      "information_value": 10,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 44,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "GPT-6 Astra: A new generation of intelligence",
+        "url": "https://openai.com/index/gpt-6-astra",
+        "description": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+        "published": "Thu, 03 Sep 2026 11:00:00 GMT",
+        "freshness_score": 6,
+        "relevance_score": 10,
+        "impact_score": 0,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 16
+      }
     }
   ],
-  "count": 102
+  "count": 103
 }
