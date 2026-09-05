@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:20:34.416878+00:00",
+  "generated_at": "2026-09-05T19:46:22.079368+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
       "description": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators [&#8230;]",
       "published": "Thu, 03 Sep 2026 16:00:59 +0000",
-      "freshness_score": 6,
+      "freshness_score": 5,
       "relevance_score": 16,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 22
+      "pre_filter_score": 21
     },
     {
       "source": "OpenAI News",
@@ -49,18 +49,6 @@
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 15
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "description": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "published": "Wed, 02 Sep 2026 15:40:00 +0000",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -960,6 +948,18 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Report from the OpenAI hackathon",
+      "url": "https://openai.com/index/hackathon-follow-up",
+      "description": "On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community.",
+      "published": "Thu, 15 Mar 2018 07:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "SECURITY",
       "pre_filter_score": 18
     }
   ]
