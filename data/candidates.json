@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:45:26.277128+00:00",
+  "generated_at": "2026-09-05T14:20:34.416878+00:00",
   "count": 80,
   "stories": [
     {
@@ -15,66 +15,6 @@
       "pre_filter_score": 22
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA to Acquire Hugging Face",
-      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-      "description": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for [&#8230;]",
-      "published": "Thu, 03 Sep 2026 11:56:49 +0000",
-      "freshness_score": 6,
-      "relevance_score": 10,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "description": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "published": "Thu, 03 Sep 2026 11:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 10,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "description": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "published": "Thu, 03 Sep 2026 13:15:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
-      "description": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned [&#8230;]",
-      "published": "Thu, 03 Sep 2026 13:00:35 +0000",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "description": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "published": "Thu, 03 Sep 2026 12:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 4,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
-    },
-    {
       "source": "OpenAI News",
       "title": "Safety overview: GPT-6 Astra",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
@@ -85,6 +25,30 @@
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA to Acquire Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "description": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for [&#8230;]",
+      "published": "Thu, 03 Sep 2026 11:56:49 +0000",
+      "freshness_score": 5,
+      "relevance_score": 10,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "url": "https://openai.com/index/gpt-6-astra",
+      "description": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "published": "Thu, 03 Sep 2026 11:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 10,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 15
     },
     {
       "source": "Google AI Blog",
@@ -100,15 +64,39 @@
     },
     {
       "source": "OpenAI News",
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "description": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "published": "Wed, 02 Sep 2026 12:00:00 GMT",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "description": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "published": "Thu, 03 Sep 2026 13:15:00 GMT",
       "freshness_score": 5,
       "relevance_score": 6,
-      "impact_score": 0,
+      "impact_score": 3,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 14
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
+      "description": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned [&#8230;]",
+      "published": "Thu, 03 Sep 2026 13:00:35 +0000",
+      "freshness_score": 5,
+      "relevance_score": 6,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "description": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "published": "Thu, 03 Sep 2026 12:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 4,
+      "impact_score": 3,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 11
+      "pre_filter_score": 12
     },
     {
       "source": "NVIDIA Blog",
@@ -960,6 +948,18 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Hoax: Fake Russian “troll” error message",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll",
+      "description": "OpenAI banned an account that likely originated in the US and used AI to create a fake ChatGPT error message claiming to detect “Russian troll” activity.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]
