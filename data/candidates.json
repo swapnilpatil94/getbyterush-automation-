@@ -1,18 +1,30 @@
 {
-  "generated_at": "2026-09-06T14:43:18.240833+00:00",
+  "generated_at": "2026-09-06T19:50:01.987795+00:00",
   "count": 80,
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
-      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-      "description": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators [&#8230;]",
-      "published": "Thu, 03 Sep 2026 16:00:59 +0000",
-      "freshness_score": 5,
-      "relevance_score": 16,
+      "source": "OpenAI News",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "description": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "published": "Sun, 06 Sep 2026 08:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 22
+    },
+    {
+      "source": "OpenAI News",
+      "title": "An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind",
+      "description": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "published": "Sun, 06 Sep 2026 09:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 2,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 21
+      "pre_filter_score": 11
     },
     {
       "source": "NVIDIA Blog",
@@ -948,18 +960,6 @@
       "relevance_score": 13,
       "impact_score": 5,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Detecting misbehavior in frontier reasoning models",
-      "url": "https://openai.com/index/chain-of-thought-monitoring",
-      "description": "Frontier reasoning models exploit loopholes when given the chance. We show we can detect exploits using an LLM to monitor their chains-of-thought. Penalizing their “bad thoughts” doesn’t stop the majority of misbehavior—it makes them hide their intent.",
-      "published": "Mon, 10 Mar 2025 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]
