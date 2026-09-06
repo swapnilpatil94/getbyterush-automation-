@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:46:22.079368+00:00",
+  "generated_at": "2026-09-06T02:14:55.410881+00:00",
   "count": 80,
   "stories": [
     {
@@ -13,18 +13,6 @@
       "impact_score": 0,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 21
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Safety overview: GPT-6 Astra",
-      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "description": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "published": "Thu, 03 Sep 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 10,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
     },
     {
       "source": "NVIDIA Blog",
@@ -960,6 +948,18 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "published": "Wed, 08 Jul 2026 13:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]
