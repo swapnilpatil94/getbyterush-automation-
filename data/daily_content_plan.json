@@ -1,74 +1,31 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-531478fcb30a0dc4",
-      "topic": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-      "category": "EVERGREEN_VALUE",
-      "score": 66,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 66/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260905014723-nvidia-vera-rubin-nv-eb1fe8"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-3daa4866a75b85af",
-      "topic": "OpenAI and Anthropic share findings from a joint safety evaluation",
+      "content_id": "cand-5f0e5c114ce76de3",
+      "topic": "How ChatGPT learns about the world while protecting privacy",
       "category": "EVERGREEN_VALUE",
       "score": 59,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/openai-anthropic-safety-evaluation",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
+      "source_url": "https://openai.com/index/how-chatgpt-protects-privacy",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260906014705-how-chatgpt-learns-a-c4d8ba"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-531478fcb30a0dc4",
+      "content_id": "cand-5f0e5c114ce76de3",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-3daa4866a75b85af",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }

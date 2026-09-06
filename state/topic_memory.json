@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "How ChatGPT Learns About the World While Protecting Privacy",
+      "source_title": "How ChatGPT learns about the world while protecting privacy",
+      "url": "https://openai.com/index/how-chatgpt-protects-privacy",
+      "source": "OpenAI News",
+      "normalized_title": "how chatgpt learns about the world while protecting privacy",
+      "normalized_source_title": "how chatgpt learns about the world while protecting privacy",
+      "tokens": [
+        "about",
+        "chatgpt",
+        "how",
+        "learns",
+        "privacy",
+        "protecting",
+        "the",
+        "while",
+        "world"
+      ],
+      "source_tokens": [
+        "about",
+        "chatgpt",
+        "how",
+        "learns",
+        "privacy",
+        "protecting",
+        "the",
+        "while",
+        "world"
+      ],
+      "recorded_at": "2026-09-06T01:47:05.239063+00:00"
+    },
+    {
       "title": "NVIDIA Vera Rubin NVL72 and the 15x Agent Token Surge",
       "source_title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
       "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",

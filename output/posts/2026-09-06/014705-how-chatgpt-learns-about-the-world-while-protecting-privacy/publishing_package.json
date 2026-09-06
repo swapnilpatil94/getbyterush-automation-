@@ -1,0 +1,88 @@
+{
+  "content_id": "260906014705-how-chatgpt-learns-a-c4d8ba",
+  "story_title": "How ChatGPT Learns About the World While Protecting Privacy",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-06/014705-how-chatgpt-learns-about-the-world-while-protecting-privacy/slides/01.jpg",
+    "output/posts/2026-09-06/014705-how-chatgpt-learns-about-the-world-while-protecting-privacy/slides/02.jpg",
+    "output/posts/2026-09-06/014705-how-chatgpt-learns-about-the-world-while-protecting-privacy/slides/03.jpg",
+    "output/posts/2026-09-06/014705-how-chatgpt-learns-about-the-world-while-protecting-privacy/slides/04.jpg",
+    "output/posts/2026-09-06/014705-how-chatgpt-learns-about-the-world-while-protecting-privacy/slides/05.jpg",
+    "output/posts/2026-09-06/014705-how-chatgpt-learns-about-the-world-while-protecting-privacy/slides/06.jpg",
+    "output/posts/2026-09-06/014705-how-chatgpt-learns-about-the-world-while-protecting-privacy/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "How does ChatGPT learn without exposing private details? OpenAI outlined its approach to filtering personal data during model training and maintaining user opt-out controls.\n\nWhile automated pipelines scrub personal identifiers before training begins, users still retain control over whether their chats improve future models.\n\nHave you adjusted your AI data privacy settings?\n\n#GetByteRush #AI #Privacy #ChatGPT #TechNews #DataProtection",
+  "caption_for_publish": "How does ChatGPT learn without exposing private details? OpenAI outlined its approach to filtering personal data during model training and maintaining user opt-out controls.\n\nWhile automated pipelines scrub personal identifiers before training begins, users still retain control over whether their chats improve future models.\n\nHave you adjusted your AI data privacy settings?\n\n#GetByteRush #AI #Privacy #ChatGPT #TechNews #DataProtection\n\n#AI #Privacy #ChatGPT #TechNews #DataPrivacy #GetByteRush",
+  "pinned_comment": "Did you know you can opt out of training in your account settings?",
+  "alt_text_overall": "An editorial carousel explaining how OpenAI safeguards privacy and handles user data in ChatGPT training.",
+  "alt_text_per_slide": [
+    "Slide 1: WHAT CHATGPT DOES WITH YOUR DATA.. Millions chat with AI daily. But how much personal information actually makes it into future model training? — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: TRAINING VS. PRIVACY. AI models require massive datasets to understand language, but personal details require protection. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: REDUCING PERSONAL DATA. OpenAI states that automated systems are used to minimize personal information in datasets before training starts. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: YOU HAVE THE OPT-OUT. Users are given direct settings to control whether their conversation history improves future ChatGPT models. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: CHECK YOUR SETTINGS.. By default, training opt-outs require explicit configuration inside account privacy controls. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: THE PRIVACY REALITY. While filtering systems reduce personal data exposure, user awareness remain the primary line of defense. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: KNOW YOUR DATA BOUNDARIES.. AI models learn from the world, but you decide how much of your world is included. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#AI",
+    "#Privacy",
+    "#ChatGPT",
+    "#TechNews",
+    "#DataPrivacy",
+    "#GetByteRush"
+  ],
+  "cta": "Save this before you need it again.",
+  "seo": {
+    "primary_keyword": "How ChatGPT Learns",
+    "secondary_keywords": [
+      "AI",
+      "Privacy",
+      "TechNews",
+      "DataPrivacy",
+      "GetByteRush",
+      "About",
+      "World While Protecting",
+      "Privacy How ChatGPT"
+    ],
+    "search_phrases": [
+      "what is How ChatGPT Learns",
+      "How ChatGPT Learns vs About",
+      "How ChatGPT Learns AI",
+      "How ChatGPT Learns Privacy"
+    ],
+    "entities": [
+      "How ChatGPT Learns",
+      "About",
+      "World While Protecting",
+      "Privacy How ChatGPT"
+    ]
+  },
+  "source_attribution": {
+    "title": "How ChatGPT learns about the world while protecting privacy",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/how-chatgpt-protects-privacy",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/how-chatgpt-protects-privacy"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI uses automated systems to reduce personal data in training sets.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/how-chatgpt-protects-privacy",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Users have control over whether their conversations improve AI models.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/how-chatgpt-protects-privacy",
+        "source_name": "OpenAI News"
+      }
+    ]
+  }
+}
