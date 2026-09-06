@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T10:01:21.946072+00:00",
+  "generated_at": "2026-09-06T14:43:18.240833+00:00",
   "count": 80,
   "stories": [
     {
@@ -13,66 +13,6 @@
       "impact_score": 0,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 21
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA to Acquire Hugging Face",
-      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-      "description": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for [&#8230;]",
-      "published": "Thu, 03 Sep 2026 11:56:49 +0000",
-      "freshness_score": 5,
-      "relevance_score": 10,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "description": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "published": "Thu, 03 Sep 2026 11:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 10,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "description": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "published": "Thu, 03 Sep 2026 13:15:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
-      "description": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned [&#8230;]",
-      "published": "Thu, 03 Sep 2026 13:00:35 +0000",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "description": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "published": "Thu, 03 Sep 2026 12:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
     },
     {
       "source": "NVIDIA Blog",
@@ -956,6 +896,66 @@
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
       "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
       "published": "Wed, 08 Jul 2026 13:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "published": "Wed, 17 Jun 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Evaluating chain-of-thought monitorability",
+      "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
+      "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoning is far more effective than monitoring outputs alone, offering a promising path toward scalable control as AI systems grow more capable.",
+      "published": "Thu, 18 Dec 2025 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "BUSINESS",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Early experiments in accelerating science with GPT-5",
+      "url": "https://openai.com/index/accelerating-science-gpt-5",
+      "description": "OpenAI introduces the first research cases showing how GPT-5 accelerates scientific progress across math, physics, biology, and computer science. Explore how AI and researchers collaborate to generate proofs, uncover new insights, and reshape the pace of discovery.",
+      "published": "Thu, 20 Nov 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Model ML is helping financial firms rebuild with AI from the ground up",
+      "url": "https://openai.com/index/model-ml-chaz-englander",
+      "description": "As part of our Executive Function series, Model ML CEO Chaz Englander discusses how AI-native infrastructure and autonomous agents are transforming financial services workflows.",
+      "published": "Wed, 23 Jul 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Detecting misbehavior in frontier reasoning models",
+      "url": "https://openai.com/index/chain-of-thought-monitoring",
+      "description": "Frontier reasoning models exploit loopholes when given the chance. We show we can detect exploits using an LLM to monitor their chains-of-thought. Penalizing their “bad thoughts” doesn’t stop the majority of misbehavior—it makes them hide their intent.",
+      "published": "Mon, 10 Mar 2025 10:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 13,
       "impact_score": 5,
