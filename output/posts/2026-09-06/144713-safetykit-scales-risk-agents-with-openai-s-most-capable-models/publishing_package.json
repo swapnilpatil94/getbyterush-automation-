@@ -1,0 +1,92 @@
+{
+  "content_id": "260906144713-safetykit-scales-ris-723590",
+  "story_title": "SafetyKit scales risk agents with OpenAI's most capable models",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-06/144713-safetykit-scales-risk-agents-with-openai-s-most-capable-models/slides/01.jpg",
+    "output/posts/2026-09-06/144713-safetykit-scales-risk-agents-with-openai-s-most-capable-models/slides/02.jpg",
+    "output/posts/2026-09-06/144713-safetykit-scales-risk-agents-with-openai-s-most-capable-models/slides/03.jpg",
+    "output/posts/2026-09-06/144713-safetykit-scales-risk-agents-with-openai-s-most-capable-models/slides/04.jpg",
+    "output/posts/2026-09-06/144713-safetykit-scales-risk-agents-with-openai-s-most-capable-models/slides/05.jpg",
+    "output/posts/2026-09-06/144713-safetykit-scales-risk-agents-with-openai-s-most-capable-models/slides/06.jpg",
+    "output/posts/2026-09-06/144713-safetykit-scales-risk-agents-with-openai-s-most-capable-models/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "OpenAI announced SafetyKit, scaling automated risk agents powered by its most capable models to enhance content moderation and compliance.\n\nTraditional moderation systems rely heavily on static keyword filters and manual queues—methods that struggle with context and scale. SafetyKit introduces reasoning agents that process policy enforcement dynamically.\n\nSwipe through for the full breakdown of how AI risk agents are reshaping digital compliance.\n\n—\nTESTED • EXPLAINED • REAL\nGetByteRush Daily",
+  "caption_for_publish": "OpenAI announced SafetyKit, scaling automated risk agents powered by its most capable models to enhance content moderation and compliance.\n\nTraditional moderation systems rely heavily on static keyword filters and manual queues—methods that struggle with context and scale. SafetyKit introduces reasoning agents that process policy enforcement dynamically.\n\nSwipe through for the full breakdown of how AI risk agents are reshaping digital compliance.\n\n—\nTESTED • EXPLAINED • REAL\nGetByteRush Daily\n\n#GetByteRush #OpenAI #AIAgents #TechNews #ArtificialIntelligence #ContentModeration #TechExplained",
+  "pinned_comment": "Are autonomous risk agents the future of content moderation, or will human oversight always be required? Let us know your thoughts.",
+  "alt_text_overall": "Carousel explaining OpenAI's SafetyKit and how AI risk agents are transforming online content moderation and platform compliance.",
+  "alt_text_per_slide": [
+    "Slide 1: THE AGENTS ARE WATCHING.. OpenAI is deploying risk agents powered by its most capable models to transform online content moderation. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: BEYOND KEYWORD FILTERS.. Static moderation rules fail to understand context. OpenAI's SafetyKit uses high-capability models to evaluate complex risk in real time. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: SCALING RISK AGENTS.. SafetyKit integrates OpenAI's top models to orchestrate automated moderation, compliance checks, and enforcement workflows. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: OUTPACING LEGACY SYSTEMS.. By leveraging advanced LLM reasoning, SafetyKit improves accuracy and response speed compared to traditional moderation systems. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: MODERATION IS NOW AGENTIC.. Safety software is shifting from passive database lookup to active reasoning agents operating continuously. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: WHAT THIS MEANS FOR THE INTERNET.. As platforms deploy risk agents, content moderation will become instantaneous, highly contextual, and deeply automated across global services. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: THE FUTURE OF COMPLIANCE IS AUTONOMOUS.. AI agents aren't just generating content—they are quietly building the guardrails that govern the internet. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "GetByteRush",
+    "OpenAI",
+    "AIAgents",
+    "TechNews",
+    "ArtificialIntelligence",
+    "ContentModeration",
+    "TechExplained"
+  ],
+  "cta": "Follow along — we go deeper than the headline.",
+  "seo": {
+    "primary_keyword": "SafetyKit",
+    "secondary_keywords": [
+      "GetByteRush",
+      "OpenAI",
+      "AIAgents",
+      "TechNews",
+      "ArtificialIntelligence",
+      "ContentModeration",
+      "TechExplained"
+    ],
+    "search_phrases": [
+      "what is SafetyKit",
+      "SafetyKit vs OpenAI",
+      "SafetyKit GetByteRush",
+      "SafetyKit OpenAI"
+    ],
+    "entities": [
+      "SafetyKit",
+      "OpenAI"
+    ]
+  },
+  "source_attribution": {
+    "title": "SafetyKit scales risk agents with OpenAI’s most capable models",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/safetykit",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/safetykit"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI announced SafetyKit to scale risk agents with its most capable models.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/safetykit",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "SafetyKit leverages models to enhance content moderation, enforce compliance, and outpace legacy safety systems with greater accuracy.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/safetykit",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "AI risk agents will become standard backend infrastructure across global internet platforms.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/safetykit",
+        "source_name": "Analysis / Implication"
+      }
+    ]
+  }
+}

@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "SafetyKit scales risk agents with OpenAI's most capable models",
+      "source_title": "SafetyKit scales risk agents with OpenAI’s most capable models",
+      "url": "https://openai.com/index/safetykit",
+      "source": "OpenAI News",
+      "normalized_title": "safetykit scales risk agents with openai s most capable models",
+      "normalized_source_title": "safetykit scales risk agents with openai s most capable models",
+      "tokens": [
+        "agents",
+        "capable",
+        "models",
+        "most",
+        "openai",
+        "risk",
+        "safetykit",
+        "scales",
+        "with"
+      ],
+      "source_tokens": [
+        "agents",
+        "capable",
+        "models",
+        "most",
+        "openai",
+        "risk",
+        "safetykit",
+        "scales",
+        "with"
+      ],
+      "recorded_at": "2026-09-06T14:47:13.067775+00:00"
+    },
+    {
       "title": "How ChatGPT Learns About the World While Protecting Privacy",
       "source_title": "How ChatGPT learns about the world while protecting privacy",
       "url": "https://openai.com/index/how-chatgpt-protects-privacy",

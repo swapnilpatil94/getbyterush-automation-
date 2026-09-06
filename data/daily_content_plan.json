@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260906014705-how-chatgpt-learns-a-c4d8ba"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-0bf456e37e3bf6a2",
+      "topic": "SafetyKit scales risk agents with OpenAI’s most capable models",
+      "category": "EVERGREEN_VALUE",
+      "score": 59,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/safetykit",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260906144713-safetykit-scales-ris-723590"
     }
   ],
   "slots": {
@@ -48,7 +64,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-0bf456e37e3bf6a2",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
