@@ -2,6 +2,33 @@
   "version": 2,
   "topics": [
     {
+      "title": "Endava Redesigns Software Delivery Around OpenAI AI Agents",
+      "source_title": "How Endava is redesigning software delivery around AI agents",
+      "url": "https://openai.com/index/endava-frontiers",
+      "source": "OpenAI News",
+      "normalized_title": "endava redesigns software delivery around openai ai agents",
+      "normalized_source_title": "how endava is redesigning software delivery around ai agents",
+      "tokens": [
+        "agents",
+        "around",
+        "delivery",
+        "endava",
+        "openai",
+        "redesigns",
+        "software"
+      ],
+      "source_tokens": [
+        "agents",
+        "around",
+        "delivery",
+        "endava",
+        "how",
+        "redesigning",
+        "software"
+      ],
+      "recorded_at": "2026-09-07T01:46:30.018464+00:00"
+    },
+    {
       "title": "SafetyKit scales risk agents with OpenAI's most capable models",
       "source_title": "SafetyKit scales risk agents with OpenAI’s most capable models",
       "url": "https://openai.com/index/safetykit",
