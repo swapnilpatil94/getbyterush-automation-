@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T19:50:01.987795+00:00",
+  "generated_at": "2026-09-07T02:12:06.971724+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "description": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
       "published": "Sun, 06 Sep 2026 08:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 11,
       "impact_score": 2,
       "story_type": "RESEARCH",
-      "pre_filter_score": 22
+      "pre_filter_score": 21
     },
     {
       "source": "OpenAI News",
@@ -20,11 +20,11 @@
       "url": "https://openai.com/index/an-alien-mind",
       "description": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
       "published": "Sun, 06 Sep 2026 09:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 2,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 11
+      "pre_filter_score": 10
     },
     {
       "source": "NVIDIA Blog",
