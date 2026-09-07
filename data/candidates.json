@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-07T02:12:06.971724+00:00",
+  "generated_at": "2026-09-07T11:13:25.861229+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "Supporting independent journalism in Ukraine",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "description": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "published": "Mon, 07 Sep 2026 00:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 13
+    },
     {
       "source": "OpenAI News",
       "title": "Research acceleration: The view inside OpenAI",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "description": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
       "published": "Sun, 06 Sep 2026 08:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 11,
       "impact_score": 2,
       "story_type": "RESEARCH",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "OpenAI News",
-      "title": "An Alien Mind",
-      "url": "https://openai.com/index/an-alien-mind",
-      "description": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-      "published": "Sun, 06 Sep 2026 09:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 2,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 10
+      "pre_filter_score": 19
     },
     {
       "source": "NVIDIA Blog",
