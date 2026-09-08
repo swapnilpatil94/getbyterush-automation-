@@ -17,6 +17,22 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-ae3a86cc1ead7d5f",
+      "topic": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "category": "EVERGREEN_VALUE",
+      "score": 59,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/jalapeno-first-results",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260908144739-jalape-o-openai-reve-70d96c"
     }
   ],
   "slots": {
@@ -47,7 +63,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-ae3a86cc1ead7d5f",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

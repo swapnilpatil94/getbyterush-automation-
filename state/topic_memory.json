@@ -2,6 +2,36 @@
   "version": 2,
   "topics": [
     {
+      "title": "Jalapeño: OpenAI Reveals Custom AI Inference Chip Results",
+      "source_title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "source": "OpenAI News",
+      "normalized_title": "jalape o openai reveals custom ai inference chip results",
+      "normalized_source_title": "jalape o s first results show industry leading speed and efficiency in ai inference",
+      "tokens": [
+        "chip",
+        "custom",
+        "inference",
+        "jalape",
+        "openai",
+        "results",
+        "reveals"
+      ],
+      "source_tokens": [
+        "and",
+        "efficiency",
+        "first",
+        "industry",
+        "inference",
+        "jalape",
+        "leading",
+        "results",
+        "show",
+        "speed"
+      ],
+      "recorded_at": "2026-09-08T14:47:39.202652+00:00"
+    },
+    {
       "title": "Endava Redesigns Software Delivery Around OpenAI AI Agents",
       "source_title": "How Endava is redesigning software delivery around AI agents",
       "url": "https://openai.com/index/endava-frontiers",

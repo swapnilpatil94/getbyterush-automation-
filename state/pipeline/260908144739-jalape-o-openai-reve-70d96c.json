@@ -1,0 +1,49 @@
+{
+  "content_id": "260908144739-jalape-o-openai-reve-70d96c",
+  "story_title": "Jalapeño: OpenAI Reveals Custom AI Inference Chip Results",
+  "source_url": "https://openai.com/index/jalapeno-first-results",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-08T14:47:39.234091+00:00",
+  "updated_at": "2026-09-08T14:47:43.249540+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-08T14:47:39.234098+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-08T14:47:39.235451+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-08T14:47:39.235969+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-08T14:47:39.236544+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-08T14:47:40.332799+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-08T14:47:43.249550+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-08/144739-jalape-o-openai-reveals-custom-ai-inference-chip-results",
+  "publish": {},
+  "story_path": "data/pipeline/260908144739-jalape-o-openai-reve-70d96c.json"
+}

@@ -1,0 +1,95 @@
+{
+  "content_id": "260908144739-jalape-o-openai-reve-70d96c",
+  "story_title": "Jalapeño: OpenAI Reveals Custom AI Inference Chip Results",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-08/144739-jalape-o-openai-reveals-custom-ai-inference-chip-results/slides/01.jpg",
+    "output/posts/2026-09-08/144739-jalape-o-openai-reveals-custom-ai-inference-chip-results/slides/02.jpg",
+    "output/posts/2026-09-08/144739-jalape-o-openai-reveals-custom-ai-inference-chip-results/slides/03.jpg",
+    "output/posts/2026-09-08/144739-jalape-o-openai-reveals-custom-ai-inference-chip-results/slides/04.jpg",
+    "output/posts/2026-09-08/144739-jalape-o-openai-reveals-custom-ai-inference-chip-results/slides/05.jpg",
+    "output/posts/2026-09-08/144739-jalape-o-openai-reveals-custom-ai-inference-chip-results/slides/06.jpg",
+    "output/posts/2026-09-08/144739-jalape-o-openai-reveals-custom-ai-inference-chip-results/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "OpenAI has revealed first results for Jalapeño, its custom inference chip.\n\nAs AI models scale globally, the biggest hurdle isn't just model architecture—it's the power, latency, and financial cost of running inference.\n\nKey details from OpenAI's release:\n• Custom inference silicon built for modern AI models\n• Higher throughput and lower latency\n• Improved energy and power efficiency\n\nSwipe through to see why custom silicon matters for the future of AI infrastructure.\n\nTESTED • EXPLAINED • REAL\n\n#GetByteRush #OpenAI #AIHardware #Semiconductors #ArtificialIntelligence #TechNews",
+  "caption_for_publish": "OpenAI has revealed first results for Jalapeño, its custom inference chip.\n\nAs AI models scale globally, the biggest hurdle isn't just model architecture—it's the power, latency, and financial cost of running inference.\n\nKey details from OpenAI's release:\n• Custom inference silicon built for modern AI models\n• Higher throughput and lower latency\n• Improved energy and power efficiency\n\nSwipe through to see why custom silicon matters for the future of AI infrastructure.\n\nTESTED • EXPLAINED • REAL\n\n#GetByteRush #OpenAI #AIHardware #Semiconductors #ArtificialIntelligence #TechNews\n\n#OpenAI #AIHardware #JalapenoChip #GetByteRush #TechNews #Semiconductors #AIInference",
+  "pinned_comment": "Will custom silicon allow AI companies to drastically lower API costs? Let us know your thoughts below.",
+  "alt_text_overall": "A 7-slide carousel by GetByteRush explaining OpenAI's new custom AI inference chip named Jalapeño and its speed and efficiency results.",
+  "alt_text_per_slide": [
+    "Slide 1: OPENAI'S FIRST CHIP IS HERE.. First results for 'Jalapeño' show new speed and efficiency benchmarks for running modern AI models. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: WHY CUSTOM SILICON MATTERS.. Running massive AI models globally creates immense computing power demands. Latency and energy costs are now the main bottlenecks in scaling. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: HIGHER THROUGHPUT, LOWER LATENCY.. OpenAI reports that Jalapeño delivers faster response times, higher request throughput, and greater power efficiency for inference workloads. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: BEYOND GENERIC PROCESSORS.. Designing in-house inference silicon allows direct co-optimization between model architecture and hardware instructions. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: THE SILICON RACE IS ON.. Every major AI developer is expanding down the hardware stack. Controlling inference costs is now the key to AI dominance. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: CHEAPER, FASTER REAL-TIME AI.. Higher power efficiency and throughput directly lower query costs. This makes complex, continuous multi-agent AI workflows economic at scale. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: THE FUTURE IS CO-DESIGNED.. The bottleneck of AI isn't just software model design—it's physical execution speed. Whoever builds the optimal silicon controls the speed of AI. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "OpenAI",
+    "AIHardware",
+    "JalapenoChip",
+    "GetByteRush",
+    "TechNews",
+    "Semiconductors",
+    "AIInference"
+  ],
+  "cta": "Save this before you need it again.",
+  "seo": {
+    "primary_keyword": "OpenAI Reveals Custom",
+    "secondary_keywords": [
+      "AIHardware",
+      "JalapenoChip",
+      "GetByteRush",
+      "TechNews",
+      "Semiconductors",
+      "AIInference",
+      "AI Inference Chip",
+      "Results"
+    ],
+    "search_phrases": [
+      "what is OpenAI Reveals Custom",
+      "OpenAI Reveals Custom vs AI Inference Chip",
+      "OpenAI Reveals Custom AIHardware",
+      "OpenAI Reveals Custom JalapenoChip"
+    ],
+    "entities": [
+      "OpenAI Reveals Custom",
+      "AI Inference Chip",
+      "Results",
+      "AI"
+    ]
+  },
+  "source_attribution": {
+    "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/jalapeno-first-results",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/jalapeno-first-results"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI revealed first results for Jalapeño, a custom inference chip.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/jalapeno-first-results",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Jalapeño delivers higher throughput, lower latency, and better power efficiency for AI inference.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/jalapeno-first-results",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Custom silicon will help lower unit costs for running real-time AI agents globally.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/jalapeno-first-results",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}
