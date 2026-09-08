@@ -1,18 +1,78 @@
 {
-  "generated_at": "2026-09-08T15:46:25.390244+00:00",
+  "generated_at": "2026-09-08T20:32:57.703349+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "description": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "published": "Tue, 08 Sep 2026 17:00:00 GMT",
+      "freshness_score": 10,
+      "relevance_score": 9,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 24
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Funding grants for new research into AI and teen development",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "description": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "published": "Tue, 08 Sep 2026 09:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 13,
+      "impact_score": 8,
+      "story_type": "BUSINESS",
+      "pre_filter_score": 30
+    },
     {
       "source": "OpenAI News",
       "title": "The Work Now Within Reach",
       "url": "https://openai.com/index/the-work-now-within-reach",
       "description": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
       "published": "Tue, 08 Sep 2026 13:00:00 GMT",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 3,
       "impact_score": 2,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 15
+      "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "description": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "published": "Tue, 08 Sep 2026 10:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 3,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing ChatGPT Images 2.5",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "description": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "published": "Tue, 08 Sep 2026 11:30:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "url": "https://openai.com/index/1password",
+      "description": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "published": "Tue, 08 Sep 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 8,
+      "impact_score": 6,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 22
     },
     {
       "source": "OpenAI News",
@@ -900,66 +960,6 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "SECURITY",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Hoax: Fake Russian “troll” error message",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll",
-      "description": "OpenAI banned an account that likely originated in the US and used AI to create a fake ChatGPT error message claiming to detect “Russian troll” activity.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Report from the OpenAI hackathon",
-      "url": "https://openai.com/index/hackathon-follow-up",
-      "description": "On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community.",
-      "published": "Thu, 15 Mar 2018 07:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Separating signal from noise in coding evaluations",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "published": "Wed, 08 Jul 2026 13:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "published": "Wed, 17 Jun 2026 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Evaluating chain-of-thought monitorability",
-      "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
-      "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoning is far more effective than monitoring outputs alone, offering a promising path toward scalable control as AI systems grow more capable.",
-      "published": "Thu, 18 Dec 2025 12:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "BUSINESS",
       "pre_filter_score": 18
     }
   ]
