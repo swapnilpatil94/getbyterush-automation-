@@ -1,34 +1,18 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-b4afdcf9074d1519",
-      "topic": "How Endava is redesigning software delivery around AI agents",
+      "content_id": "cand-5dacc08d4e4bf70f",
+      "topic": "Inside Mirakl's agentic commerce vision",
       "category": "EVERGREEN_VALUE",
       "score": 59,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/endava-frontiers",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260907014630-endava-redesigns-sof-fa90fb"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-7eb148a85ee4a55b",
-      "topic": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-      "category": "EVERGREEN_VALUE",
-      "score": 72,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 72/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+      "source_url": "https://openai.com/index/mirakl",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -38,37 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-b4afdcf9074d1519",
+      "content_id": "cand-5dacc08d4e4bf70f",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-7eb148a85ee4a55b",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }

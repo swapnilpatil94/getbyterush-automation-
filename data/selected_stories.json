@@ -1,27 +1,27 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
-      "description": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today, the NVIDIA Vera Rubin rack-scale system NVIDIA Groq [&#8230;]",
-      "published": "Mon, 24 Aug 2026 15:00:41 +0000",
-      "freshness_score": 2,
-      "relevance_score": 20,
-      "impact_score": 10,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 32,
-      "content_id": "cand-7eb148a85ee4a55b",
+      "source": "OpenAI News",
+      "title": "Inside Mirakl's agentic commerce vision",
+      "url": "https://openai.com/index/mirakl",
+      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+      "published": "Mon, 01 Dec 2025 22:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19,
+      "content_id": "cand-5dacc08d4e4bf70f",
       "selection_meta": {
-        "rank": 2,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
         "category": "EVERGREEN_VALUE",
-        "quality_score": 72,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 72/100)",
-        "source": "NVIDIA Blog"
+        "quality_score": 59,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
+        "source": "OpenAI News"
       }
     }
   ]
