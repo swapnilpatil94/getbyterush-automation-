@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-09-08T02:24:18.135921+00:00",
+  "generated_at": "2026-09-08T10:22:34.080459+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "OpenAI News",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "description": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-      "published": "Sun, 06 Sep 2026 08:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 19
-    },
     {
       "source": "OpenAI News",
       "title": "Supporting independent journalism in Ukraine",
@@ -25,6 +13,18 @@
       "impact_score": 0,
       "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 10
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "description": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "published": "Sun, 06 Sep 2026 08:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 18
     },
     {
       "source": "NVIDIA Blog",
