@@ -2,6 +2,35 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI CFO Explains the 'Full Stack' Strategy Behind Abundant Intelligence",
+      "source_title": "The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "source": "OpenAI News",
+      "normalized_title": "openai cfo explains the full stack strategy behind abundant intelligence",
+      "normalized_source_title": "the full stack behind abundant intelligence",
+      "tokens": [
+        "abundant",
+        "behind",
+        "cfo",
+        "explains",
+        "full",
+        "intelligence",
+        "openai",
+        "stack",
+        "strategy",
+        "the"
+      ],
+      "source_tokens": [
+        "abundant",
+        "behind",
+        "full",
+        "intelligence",
+        "stack",
+        "the"
+      ],
+      "recorded_at": "2026-09-09T01:46:33.973040+00:00"
+    },
+    {
       "title": "Jalapeño: OpenAI Reveals Custom AI Inference Chip Results",
       "source_title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
       "url": "https://openai.com/index/jalapeno-first-results",

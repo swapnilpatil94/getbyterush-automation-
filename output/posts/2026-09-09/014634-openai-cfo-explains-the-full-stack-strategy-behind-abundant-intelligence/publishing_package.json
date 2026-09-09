@@ -1,0 +1,89 @@
+{
+  "content_id": "260909014634-openai-cfo-explains--a1526f",
+  "story_title": "OpenAI CFO Explains the 'Full Stack' Strategy Behind Abundant Intelligence",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-09/014634-openai-cfo-explains-the-full-stack-strategy-behind-abundant-intelligence/slides/01.jpg",
+    "output/posts/2026-09-09/014634-openai-cfo-explains-the-full-stack-strategy-behind-abundant-intelligence/slides/02.jpg",
+    "output/posts/2026-09-09/014634-openai-cfo-explains-the-full-stack-strategy-behind-abundant-intelligence/slides/03.jpg",
+    "output/posts/2026-09-09/014634-openai-cfo-explains-the-full-stack-strategy-behind-abundant-intelligence/slides/04.jpg",
+    "output/posts/2026-09-09/014634-openai-cfo-explains-the-full-stack-strategy-behind-abundant-intelligence/slides/05.jpg",
+    "output/posts/2026-09-09/014634-openai-cfo-explains-the-full-stack-strategy-behind-abundant-intelligence/slides/06.jpg",
+    "output/posts/2026-09-09/014634-openai-cfo-explains-the-full-stack-strategy-behind-abundant-intelligence/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "How does AI actually get cheaper and more capable at the same time?\n\nOpenAI CFO Sarah Friar broke down the 'full stack' strategy behind scaling intelligence. It isn't just about training larger models—it requires compounding optimizations across four distinct layers:\n\n1. Silicon & Custom Chips\n2. Compute Infrastructure\n3. Model Architecture\n4. User Products\n\nWhen all four layers align, the cost per unit of intelligence drops, enabling continuous AI agents rather than single on-demand prompts.\n\nTESTED • EXPLAINED • REAL\n\n#GetByteRush #AI #OpenAI #TechNews #ArtificialIntelligence #TechExplained",
+  "caption_for_publish": "How does AI actually get cheaper and more capable at the same time?\n\nOpenAI CFO Sarah Friar broke down the 'full stack' strategy behind scaling intelligence. It isn't just about training larger models—it requires compounding optimizations across four distinct layers:\n\n1. Silicon & Custom Chips\n2. Compute Infrastructure\n3. Model Architecture\n4. User Products\n\nWhen all four layers align, the cost per unit of intelligence drops, enabling continuous AI agents rather than single on-demand prompts.\n\nTESTED • EXPLAINED • REAL\n\n#GetByteRush #AI #OpenAI #TechNews #ArtificialIntelligence #TechExplained\n\n#GetByteRush #AI #OpenAI #TechNews #ArtificialIntelligence #TechExplained #Compute",
+  "pinned_comment": "Which layer of the AI stack do you think faces the biggest bottleneck right now: chips, compute, models, or product UX?",
+  "alt_text_overall": "A 7-slide GetByteRush carousel explaining OpenAI CFO Sarah Friar's breakdown of the full-stack architecture behind scaling intelligence.",
+  "alt_text_per_slide": [
+    "Slide 1: HOW AI GETS CHEAPER.. OpenAI CFO Sarah Friar laid out how chips, compute, models, and products compound to deliver intelligence at scale. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: IT ISN'T JUST BETTER ALGORITHMS.. Model design is only one variable. Real scale happens when four distinct technological layers optimize each other simultaneously. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: FOUR LAYERS OF SCALE.. 1. Custom Silicon & Chips\n2. Compute Infrastructure\n3. Frontier Models\n4. End-User Products — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: HIGHER UTILITY, LOWER COST.. When silicon efficiency improves, model inference becomes cheaper. Cheaper inference allows products to deploy more intelligent agent workflows. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: THE COMPOUND LOOP.. CHIPS → COMPUTE → MODELS → PRODUCTS\n\nEach layer multiplies gains in the layer above it. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: THE ERA OF CONTINUOUS AI.. As intelligence cost trends downward, AI moves from rare on-demand prompts to background autonomous software running 24/7. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: ARCHITECTURE IS DESTINY.. The winners in AI won't just build better models—they will control the full stack driving down the cost of intelligence. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#GetByteRush",
+    "#AI",
+    "#OpenAI",
+    "#TechNews",
+    "#ArtificialIntelligence",
+    "#TechExplained",
+    "#Compute"
+  ],
+  "cta": "This is the version worth remembering.",
+  "seo": {
+    "primary_keyword": "OpenAI CFO Explains",
+    "secondary_keywords": [
+      "GetByteRush",
+      "TechNews",
+      "ArtificialIntelligence",
+      "TechExplained",
+      "Compute",
+      "Full Stack",
+      "Strategy Behind Abundant",
+      "Intelligence The"
+    ],
+    "search_phrases": [
+      "what is OpenAI CFO Explains",
+      "OpenAI CFO Explains vs Full Stack",
+      "OpenAI CFO Explains GetByteRush",
+      "OpenAI CFO Explains TechNews"
+    ],
+    "entities": [
+      "OpenAI CFO Explains",
+      "Full Stack",
+      "Strategy Behind Abundant",
+      "Intelligence The"
+    ]
+  },
+  "source_attribution": {
+    "title": "The full stack behind abundant intelligence",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI CFO Sarah Friar detailed how chips, compute, models, and products compound to deliver intelligence at scale.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Lowering intelligence costs enables continuous background AI agents.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}
