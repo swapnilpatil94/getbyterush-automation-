@@ -54,6 +54,14 @@
       "status": "SELECTED",
       "content_id": "cand-48c2b241758cbad3",
       "label": "Freshness"
+    },
+    "evening": {
+      "status": "NO_QUALITY_POST",
+      "label": "High-attention window",
+      "categories": [
+        "CURIOSITY",
+        "INTERNET_HUMAN_TECH_BEHAVIOR"
+      ]
     }
   },
   "selected_count": 2
