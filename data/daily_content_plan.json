@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260909014634-openai-cfo-explains--a1526f"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-48c2b241758cbad3",
+      "topic": "Funding grants for new research into AI and teen development",
+      "category": "LAST_24H",
+      "score": 59,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 59/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/teen-development-research-grants",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260909081705-openai-launches-5m-g-46632e"
     }
   ],
   "slots": {
@@ -33,7 +49,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-48c2b241758cbad3",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

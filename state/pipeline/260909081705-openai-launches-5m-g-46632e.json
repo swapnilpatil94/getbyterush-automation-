@@ -1,0 +1,49 @@
+{
+  "content_id": "260909081705-openai-launches-5m-g-46632e",
+  "story_title": "OpenAI Launches $5M Grant Program for Research on AI and Teen Development",
+  "source_url": "https://openai.com/index/teen-development-research-grants",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-09T08:17:05.657207+00:00",
+  "updated_at": "2026-09-09T08:17:10.020786+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-09T08:17:05.657212+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-09T08:17:05.658048+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-09T08:17:05.658308+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-09T08:17:05.658592+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-09T08:17:06.715523+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-09T08:17:10.020801+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-09/081705-openai-launches-5m-grant-program-for-research-on-ai-and-teen-development",
+  "publish": {},
+  "story_path": "data/pipeline/260909081705-openai-launches-5m-g-46632e.json"
+}

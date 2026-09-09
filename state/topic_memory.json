@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Launches $5M Grant Program for Research on AI and Teen Development",
+      "source_title": "Funding grants for new research into AI and teen development",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "source": "OpenAI News",
+      "normalized_title": "openai launches 5m grant program for research on ai and teen development",
+      "normalized_source_title": "funding grants for new research into ai and teen development",
+      "tokens": [
+        "and",
+        "development",
+        "for",
+        "grant",
+        "launches",
+        "openai",
+        "program",
+        "research",
+        "teen"
+      ],
+      "source_tokens": [
+        "and",
+        "development",
+        "for",
+        "funding",
+        "grants",
+        "into",
+        "new",
+        "research",
+        "teen"
+      ],
+      "recorded_at": "2026-09-09T08:17:05.635423+00:00"
+    },
+    {
       "title": "OpenAI CFO Explains the 'Full Stack' Strategy Behind Abundant Intelligence",
       "source_title": "The full stack behind abundant intelligence",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
