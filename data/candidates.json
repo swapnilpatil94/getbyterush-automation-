@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T10:32:02.003175+00:00",
+  "generated_at": "2026-09-09T15:41:55.989673+00:00",
   "count": 80,
   "stories": [
     {
@@ -13,30 +13,6 @@
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 22
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The Work Now Within Reach",
-      "url": "https://openai.com/index/the-work-now-within-reach",
-      "description": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-      "published": "Tue, 08 Sep 2026 13:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 3,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 13
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing ChatGPT Images 2.5",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "description": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-      "published": "Tue, 08 Sep 2026 11:30:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -73,6 +49,18 @@
       "impact_score": 0,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 12
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing ChatGPT Images 2.5",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "description": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "published": "Tue, 08 Sep 2026 11:30:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 10
     },
     {
       "source": "OpenAI News",
@@ -960,6 +948,18 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "published": "Wed, 08 Jul 2026 13:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]
