@@ -1,26 +1,26 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Funding grants for new research into AI and teen development",
-      "url": "https://openai.com/index/teen-development-research-grants",
-      "description": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "published": "Tue, 08 Sep 2026 09:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 13,
-      "impact_score": 8,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 30,
-      "content_id": "cand-48c2b241758cbad3",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "url": "https://openai.com/index/warp",
+      "description": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "published": "Wed, 27 May 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 18,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21,
+      "content_id": "cand-c6c5f0ac5a2d9e49",
       "selection_meta": {
-        "rank": 2,
+        "rank": 1,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 59,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 59/100)",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 58,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 58/100)",
         "source": "OpenAI News"
       }
     }

@@ -1,0 +1,49 @@
+{
+  "content_id": "260910014643-warp-s-big-bet-on-bu-395d33",
+  "story_title": "Warp's Big Bet on Building Open Source with GPT-5.5",
+  "source_url": "https://openai.com/index/warp",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-10T01:46:43.575316+00:00",
+  "updated_at": "2026-09-10T01:46:47.704291+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-10T01:46:43.575323+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-10T01:46:43.576291+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-10T01:46:43.576598+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-10T01:46:43.576905+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-10T01:46:44.591176+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-10T01:46:47.704307+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-10/014643-warp-s-big-bet-on-building-open-source-with-gpt-5-5",
+  "publish": {},
+  "story_path": "data/pipeline/260910014643-warp-s-big-bet-on-bu-395d33.json"
+}

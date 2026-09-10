@@ -1,68 +1,31 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-383af3cb8a88f863",
-      "topic": "The full stack behind abundant intelligence",
+      "content_id": "cand-c6c5f0ac5a2d9e49",
+      "topic": "Warp’s big bet on building open source with GPT-5.5",
       "category": "EVERGREEN_VALUE",
-      "score": 59,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
+      "score": 58,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 58/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "source_url": "https://openai.com/index/warp",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260909014634-openai-cfo-explains--a1526f"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-48c2b241758cbad3",
-      "topic": "Funding grants for new research into AI and teen development",
-      "category": "LAST_24H",
-      "score": 59,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 59/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/teen-development-research-grants",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260909081705-openai-launches-5m-g-46632e"
+      "content_state_id": "260910014643-warp-s-big-bet-on-bu-395d33"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-383af3cb8a88f863",
+      "content_id": "cand-c6c5f0ac5a2d9e49",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-48c2b241758cbad3",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }
