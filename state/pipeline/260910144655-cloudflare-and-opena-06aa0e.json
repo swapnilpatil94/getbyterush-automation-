@@ -1,0 +1,49 @@
+{
+  "content_id": "260910144655-cloudflare-and-opena-06aa0e",
+  "story_title": "Cloudflare and OpenAI Partner to Power Enterprise AI Agents on Agent Cloud",
+  "source_url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-10T14:46:55.455049+00:00",
+  "updated_at": "2026-09-10T14:46:59.572243+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-10T14:46:55.455057+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-10T14:46:55.456563+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-10T14:46:55.457141+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-10T14:46:55.457721+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-10T14:46:56.612151+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-10T14:46:59.572260+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-10/144655-cloudflare-and-openai-partner-to-power-enterprise-ai-agents-on-agent-clo",
+  "publish": {},
+  "story_path": "data/pipeline/260910144655-cloudflare-and-opena-06aa0e.json"
+}

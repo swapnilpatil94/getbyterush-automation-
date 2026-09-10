@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260910014643-warp-s-big-bet-on-bu-395d33"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-fed3ac01a5971408",
+      "topic": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "category": "EVERGREEN_VALUE",
+      "score": 58,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 58/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260910144655-cloudflare-and-opena-06aa0e"
     }
   ],
   "slots": {
@@ -33,7 +49,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-fed3ac01a5971408",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

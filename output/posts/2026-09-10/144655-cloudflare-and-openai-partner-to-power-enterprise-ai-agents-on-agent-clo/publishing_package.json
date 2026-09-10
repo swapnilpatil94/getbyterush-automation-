@@ -1,0 +1,96 @@
+{
+  "content_id": "260910144655-cloudflare-and-opena-06aa0e",
+  "story_title": "Cloudflare and OpenAI Partner to Power Enterprise AI Agents on Agent Cloud",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-10/144655-cloudflare-and-openai-partner-to-power-enterprise-ai-agents-on-agent-clo/slides/01.jpg",
+    "output/posts/2026-09-10/144655-cloudflare-and-openai-partner-to-power-enterprise-ai-agents-on-agent-clo/slides/02.jpg",
+    "output/posts/2026-09-10/144655-cloudflare-and-openai-partner-to-power-enterprise-ai-agents-on-agent-clo/slides/03.jpg",
+    "output/posts/2026-09-10/144655-cloudflare-and-openai-partner-to-power-enterprise-ai-agents-on-agent-clo/slides/04.jpg",
+    "output/posts/2026-09-10/144655-cloudflare-and-openai-partner-to-power-enterprise-ai-agents-on-agent-clo/slides/05.jpg",
+    "output/posts/2026-09-10/144655-cloudflare-and-openai-partner-to-power-enterprise-ai-agents-on-agent-clo/slides/06.jpg",
+    "output/posts/2026-09-10/144655-cloudflare-and-openai-partner-to-power-enterprise-ai-agents-on-agent-clo/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Cloudflare and OpenAI are officially pairing up on Cloudflare Agent Cloud.\n\nBy running OpenAI's GPT-5.4 and Codex models directly on global edge infrastructure, developers can deploy persistent, autonomous enterprise agents with reduced latency and built-in security sandboxes.\n\nFor 30 years, cloud infrastructure was designed to deliver pages to human browsers. It is now being redesigned to execute code for autonomous software.\n\nWhat agentic workflow are you building first? Let us know below.\n\n#GetByteRush #AI #OpenAI #Cloudflare #TechNews #SoftwareEngineering #AgenticAI",
+  "caption_for_publish": "Cloudflare and OpenAI are officially pairing up on Cloudflare Agent Cloud.\n\nBy running OpenAI's GPT-5.4 and Codex models directly on global edge infrastructure, developers can deploy persistent, autonomous enterprise agents with reduced latency and built-in security sandboxes.\n\nFor 30 years, cloud infrastructure was designed to deliver pages to human browsers. It is now being redesigned to execute code for autonomous software.\n\nWhat agentic workflow are you building first? Let us know below.\n\n#GetByteRush #AI #OpenAI #Cloudflare #TechNews #SoftwareEngineering #AgenticAI\n\n#AI #OpenAI #Cloudflare #TechNews #SoftwareArchitecture #GetByteRush",
+  "pinned_comment": "Is hosting AI agents at the edge necessary for your stack, or are centralized API endpoints still enough? Let's discuss below.",
+  "alt_text_overall": "An 7-slide editorial infographic carousel by GetByteRush detailing Cloudflare and OpenAI's integration of GPT-5.4 into Cloudflare Agent Cloud for enterprise AI agents.",
+  "alt_text_per_slide": [
+    "Slide 1: AI AGENTS ARE MOVING TO THE EDGE.. Cloudflare and OpenAI have partnered to bring GPT-5.4 and Codex directly into Cloudflare Agent Cloud. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: GPT-5.4 IS GOING NATIVE ON CLOUDFLARE.. Enterprises can now deploy autonomous agents using GPT-5.4 and Codex across Cloudflare's global edge network. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: DESIGNED FOR REAL-WORLD TASKS.. The partnership focuses on enterprise security, execution speed, and automated scaling for complex workflows. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: CENTRALIZED CLOUDS WEREN'T BUILT FOR AGENTS.. Autonomous agents perform thousands of API calls and sandboxed code executions. Traditional centralized servers create latency stalls. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: THE WEB IS BEING REBUILT FOR NON-HUMAN TRAFFIC.. For 30 years, internet infrastructure optimized for humans requesting web pages. Now it is optimizing for agents executing tasks. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: ENTERPRISE SOFTWARE IS GOING AUTONOMOUS.. By pairing GPT-5.4 and Codex with global edge networks, complex multi-step workflows can trigger and resolve in milliseconds. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: THE NEXT INTERNET IS AGENT-FIRST.. When top-tier models live natively inside global edge networks, software transitions from a tool you click to an agent that acts. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "AI",
+    "OpenAI",
+    "Cloudflare",
+    "TechNews",
+    "SoftwareArchitecture",
+    "GetByteRush"
+  ],
+  "cta": "Save this before you need it again.",
+  "seo": {
+    "primary_keyword": "Cloudflare",
+    "secondary_keywords": [
+      "AI",
+      "OpenAI",
+      "TechNews",
+      "SoftwareArchitecture",
+      "GetByteRush",
+      "OpenAI Partner",
+      "Power Enterprise AI",
+      "Agents"
+    ],
+    "search_phrases": [
+      "what is Cloudflare",
+      "Cloudflare vs OpenAI Partner",
+      "Cloudflare AI",
+      "Cloudflare OpenAI"
+    ],
+    "entities": [
+      "Cloudflare",
+      "OpenAI Partner",
+      "Power Enterprise AI",
+      "Agents",
+      "Agent Cloud Enterprises",
+      "Cloudflare Agent Cloud"
+    ]
+  },
+  "source_attribution": {
+    "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/cloudflare-openai-agent-cloud"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "Cloudflare brings OpenAI's GPT-5.4 and Codex to Cloudflare Agent Cloud.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Integration enables enterprises to build, deploy, and scale AI agents.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Edge hosting reduces execution latency for autonomous loops.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}
