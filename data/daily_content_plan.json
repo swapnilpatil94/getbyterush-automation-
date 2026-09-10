@@ -25,6 +25,14 @@
       "status": "SELECTED",
       "content_id": "cand-c6c5f0ac5a2d9e49",
       "label": "Morning discovery"
+    },
+    "evening": {
+      "status": "NO_QUALITY_POST",
+      "label": "High-attention window",
+      "categories": [
+        "CURIOSITY",
+        "INTERNET_HUMAN_TECH_BEHAVIOR"
+      ]
     }
   },
   "selected_count": 1
