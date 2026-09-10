@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T20:15:31.428685+00:00",
+  "generated_at": "2026-09-10T02:26:44.643781+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
       "description": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
       "published": "Wed, 09 Sep 2026 16:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 9,
       "impact_score": 5,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 24
+      "pre_filter_score": 23
     },
     {
       "source": "NVIDIA Blog",
@@ -20,11 +20,11 @@
       "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
       "description": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology and business communities are coming together to turn ideas into action and discuss innovations across the media and entertainment industries. More than 44,000 attendees from 170+ countries are gathering to explore 1,300+ exhibitions in 14+ halls and outdoor spaces, with over 600 speakers [&#8230;]",
       "published": "Wed, 09 Sep 2026 16:00:42 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 4,
       "impact_score": 2,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
+      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -32,11 +32,11 @@
       "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
       "description": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
       "published": "Wed, 09 Sep 2026 17:00:00 GMT",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
+      "pre_filter_score": 15
     },
     {
       "source": "Google AI Blog",
@@ -44,11 +44,35 @@
       "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
       "description": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
       "published": "Wed, 09 Sep 2026 16:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 4,
       "impact_score": 0,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 14
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "description": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "published": "Wed, 09 Sep 2026 11:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 12,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "The AI policy window is open. We need to act.",
+      "url": "https://openai.com/index/ai-policy-window",
+      "description": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "published": "Wed, 09 Sep 2026 13:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 2,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 10
     },
     {
       "source": "OpenAI News",
@@ -64,18 +88,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "url": "https://openai.com/index/1password",
-      "description": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-      "published": "Tue, 08 Sep 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 8,
-      "impact_score": 6,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "How GPT-5.6 Sol helps run quantum computing experiments",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
       "description": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
@@ -85,18 +97,6 @@
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "description": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-      "published": "Tue, 08 Sep 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -112,15 +112,27 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Supporting independent journalism in Ukraine",
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "description": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "published": "Mon, 07 Sep 2026 00:00:00 GMT",
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "url": "https://openai.com/index/1password",
+      "description": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "published": "Tue, 08 Sep 2026 00:00:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 0,
+      "relevance_score": 8,
+      "impact_score": 6,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 9
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "description": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "published": "Tue, 08 Sep 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 11
     },
     {
       "source": "NVIDIA Blog",
@@ -724,9 +736,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -736,9 +748,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -944,18 +956,6 @@
       "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
       "description": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
       "published": "Mon, 09 Feb 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
-      "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
-      "description": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
-      "published": "Thu, 05 Feb 2026 11:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 12,
       "impact_score": 6,
