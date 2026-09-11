@@ -2,26 +2,26 @@
   "date": "2026-09-11",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Vixen and Keyhole Panda: China-linked cyber operations",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
-      "description": "OpenAI banned accounts associated with threat actors publicly attributed to the PRC, using AI to support vulnerability research, scripting, translation, and operational troubleshooting.",
-      "published": "Sun, 01 Jun 2025 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 15,
+      "source": "NVIDIA Blog",
+      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+      "description": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is [&#8230;]",
+      "published": "Thu, 10 Sep 2026 16:00:04 +0000",
+      "freshness_score": 10,
+      "relevance_score": 11,
       "impact_score": 11,
-      "story_type": "SECURITY",
-      "pre_filter_score": 26,
-      "content_id": "cand-94bd0c116c54a244",
+      "story_type": "RESEARCH",
+      "pre_filter_score": 32,
+      "content_id": "cand-67a5a95dda2e67a2",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 57,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 64,
+        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 64/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]

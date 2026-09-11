@@ -18,6 +18,21 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260911014721-openai-bans-prc-link-31df1d"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-67a5a95dda2e67a2",
+      "topic": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "category": "LAST_24H",
+      "score": 64,
+      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 64/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -33,7 +48,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-67a5a95dda2e67a2",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
