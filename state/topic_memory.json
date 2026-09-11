@@ -2,6 +2,32 @@
   "version": 2,
   "topics": [
     {
+      "title": "AI Agents Resolving Digital Threats 100x Faster",
+      "source_title": "Resolving digital threats 100x faster with OpenAI",
+      "url": "https://openai.com/index/outtake",
+      "source": "OpenAI News",
+      "normalized_title": "ai agents resolving digital threats 100x faster",
+      "normalized_source_title": "resolving digital threats 100x faster with openai",
+      "tokens": [
+        "100x",
+        "agents",
+        "digital",
+        "faster",
+        "resolving",
+        "threats"
+      ],
+      "source_tokens": [
+        "100x",
+        "digital",
+        "faster",
+        "openai",
+        "resolving",
+        "threats",
+        "with"
+      ],
+      "recorded_at": "2026-09-11T14:48:35.360755+00:00"
+    },
+    {
       "title": "OpenAI Bans PRC-Linked Cyber Operations Vixen Panda and Keyhole Panda",
       "source_title": "Vixen and Keyhole Panda: China-linked cyber operations",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",

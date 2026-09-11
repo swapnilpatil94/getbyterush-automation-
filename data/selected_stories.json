@@ -2,26 +2,26 @@
   "date": "2026-09-11",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
-      "description": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is [&#8230;]",
-      "published": "Thu, 10 Sep 2026 16:00:04 +0000",
-      "freshness_score": 10,
-      "relevance_score": 11,
-      "impact_score": 11,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 32,
-      "content_id": "cand-67a5a95dda2e67a2",
+      "source": "OpenAI News",
+      "title": "Resolving digital threats 100x faster with OpenAI",
+      "url": "https://openai.com/index/outtake",
+      "description": "Discover how Outtake uses GPT-4.1 and OpenAI o3 to power AI agents that detect and resolve digital threats 100x faster than before.",
+      "published": "Thu, 24 Jul 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 15,
+      "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 22,
+      "content_id": "cand-785ed80e4cd04cdf",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 64,
-        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 64/100)",
-        "source": "NVIDIA Blog"
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 57,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
+        "source": "OpenAI News"
       }
     }
   ]
