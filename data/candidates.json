@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T02:21:38.631830+00:00",
+  "generated_at": "2026-09-11T10:21:26.443171+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,59 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
       "description": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is [&#8230;]",
       "published": "Thu, 10 Sep 2026 16:00:04 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 11,
       "impact_score": 11,
       "story_type": "RESEARCH",
-      "pre_filter_score": 31
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-      "description": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previously unseen, long-horizon tasks from a single video demonstration. The model, launched last week, uses [&#8230;]",
-      "published": "Thu, 10 Sep 2026 16:30:35 +0000",
-      "freshness_score": 9,
-      "relevance_score": 10,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 22
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "description": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "published": "Thu, 10 Sep 2026 16:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
-      "description": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "published": "Thu, 10 Sep 2026 15:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "3 ways to prep for your next big race with Search",
-      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-      "description": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
-      "published": "Thu, 10 Sep 2026 16:00:00 +0000",
-      "freshness_score": 9,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 15
+      "pre_filter_score": 30
     },
     {
       "source": "NVIDIA Blog",
@@ -75,28 +27,52 @@
       "pre_filter_score": 23
     },
     {
-      "source": "OpenAI News",
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+      "description": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previously unseen, long-horizon tasks from a single video demonstration. The model, launched last week, uses [&#8230;]",
+      "published": "Thu, 10 Sep 2026 16:30:35 +0000",
       "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
+      "relevance_score": 10,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21
     },
     {
       "source": "OpenAI News",
-      "title": "Introducing ChatGPT for Financial Services",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "description": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "published": "Thu, 10 Sep 2026 16:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
+      "description": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "published": "Thu, 10 Sep 2026 15:00:00 GMT",
       "freshness_score": 8,
       "relevance_score": 8,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 16
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "3 ways to prep for your next big race with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "description": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
+      "published": "Thu, 10 Sep 2026 16:00:00 +0000",
+      "freshness_score": 8,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 14
     },
     {
       "source": "NVIDIA Blog",
@@ -124,6 +100,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
       "title": "GPT-6 Astra: The next generation in intelligence for work",
       "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
       "description": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
@@ -133,6 +121,18 @@
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 14
     },
     {
       "source": "NVIDIA Blog",
@@ -184,18 +184,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Funding grants for new research into AI and teen development",
-      "url": "https://openai.com/index/teen-development-research-grants",
-      "description": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "published": "Tue, 08 Sep 2026 09:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 13,
-      "impact_score": 8,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 26
-    },
-    {
-      "source": "OpenAI News",
       "title": "How GPT-5.6 Sol helps run quantum computing experiments",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
       "description": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
@@ -217,6 +205,18 @@
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 9
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Funding grants for new research into AI and teen development",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "description": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "published": "Tue, 08 Sep 2026 09:00:00 GMT",
+      "freshness_score": 2,
+      "relevance_score": 13,
+      "impact_score": 8,
+      "story_type": "BUSINESS",
+      "pre_filter_score": 23
     },
     {
       "source": "NVIDIA Blog",
