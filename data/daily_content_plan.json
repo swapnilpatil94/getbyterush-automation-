@@ -1,60 +1,31 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-c6c5f0ac5a2d9e49",
-      "topic": "Warp’s big bet on building open source with GPT-5.5",
+      "content_id": "cand-94bd0c116c54a244",
+      "topic": "Vixen and Keyhole Panda: China-linked cyber operations",
       "category": "EVERGREEN_VALUE",
-      "score": 58,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 58/100)",
+      "score": 57,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/warp",
+      "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260910014643-warp-s-big-bet-on-bu-395d33"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-fed3ac01a5971408",
-      "topic": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
-      "category": "EVERGREEN_VALUE",
-      "score": 58,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 58/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/cloudflare-openai-agent-cloud",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260910144655-cloudflare-and-opena-06aa0e"
+      "content_state_id": "260911014721-openai-bans-prc-link-31df1d"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-c6c5f0ac5a2d9e49",
+      "content_id": "cand-94bd0c116c54a244",
       "label": "Morning discovery"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-fed3ac01a5971408",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }

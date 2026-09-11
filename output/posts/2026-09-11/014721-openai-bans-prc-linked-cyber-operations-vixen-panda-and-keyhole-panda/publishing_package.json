@@ -1,0 +1,96 @@
+{
+  "content_id": "260911014721-openai-bans-prc-link-31df1d",
+  "story_title": "OpenAI Bans PRC-Linked Cyber Operations Vixen Panda and Keyhole Panda",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-11/014721-openai-bans-prc-linked-cyber-operations-vixen-panda-and-keyhole-panda/slides/01.jpg",
+    "output/posts/2026-09-11/014721-openai-bans-prc-linked-cyber-operations-vixen-panda-and-keyhole-panda/slides/02.jpg",
+    "output/posts/2026-09-11/014721-openai-bans-prc-linked-cyber-operations-vixen-panda-and-keyhole-panda/slides/03.jpg",
+    "output/posts/2026-09-11/014721-openai-bans-prc-linked-cyber-operations-vixen-panda-and-keyhole-panda/slides/04.jpg",
+    "output/posts/2026-09-11/014721-openai-bans-prc-linked-cyber-operations-vixen-panda-and-keyhole-panda/slides/05.jpg",
+    "output/posts/2026-09-11/014721-openai-bans-prc-linked-cyber-operations-vixen-panda-and-keyhole-panda/slides/06.jpg",
+    "output/posts/2026-09-11/014721-openai-bans-prc-linked-cyber-operations-vixen-panda-and-keyhole-panda/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "OpenAI has officially banned accounts associated with Chinese state-linked threat actors Vixen Panda and Keyhole Panda.\n\nContrary to popular sci-fi tropes, state hackers weren't getting ChatGPT to code self-aware exploits. Instead, they used LLMs as force multipliers for operational efficiency: scripting, language translation, vulnerability research, and technical troubleshooting.\n\nAs AI models become essential infrastructure, detecting malicious tradecraft inside model prompts is quickly becoming a critical layer of modern cybersecurity defense.\n\nSwipe through for the breakdown.\n\n#AI #CyberSecurity #OpenAI #TechNews #GetByteRush #ArtificialIntelligence",
+  "caption_for_publish": "OpenAI has officially banned accounts associated with Chinese state-linked threat actors Vixen Panda and Keyhole Panda.\n\nContrary to popular sci-fi tropes, state hackers weren't getting ChatGPT to code self-aware exploits. Instead, they used LLMs as force multipliers for operational efficiency: scripting, language translation, vulnerability research, and technical troubleshooting.\n\nAs AI models become essential infrastructure, detecting malicious tradecraft inside model prompts is quickly becoming a critical layer of modern cybersecurity defense.\n\nSwipe through for the breakdown.\n\n#AI #CyberSecurity #OpenAI #TechNews #GetByteRush #ArtificialIntelligence\n\n#AI #CyberSecurity #OpenAI #TechNews #GetByteRush #ArtificialIntelligence",
+  "pinned_comment": "Are commercial AI labs equipped to catch state threat actors fast enough? Let us know your thoughts below.",
+  "alt_text_overall": "GetByteRush carousel titled 'State Hackers Were Using OpenAI' breaking down how PRC-linked cyber groups Vixen Panda and Keyhole Panda were banned by OpenAI.",
+  "alt_text_per_slide": [
+    "Slide 1: STATE HACKERS WERE USING OPENAI.. OpenAI has officially banned accounts tied to state-sponsored Chinese cyber groups caught using AI models to support offensive operations. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: TWO GROUPS. ONE PLATFORM.. The targets were accounts linked to Vixen Panda and Keyhole Panda—two cyber operations publicly attributed to the PRC. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: WHAT THEY USED AI FOR.. Rather than autonomous malware creation, the groups relied on AI models for vulnerability research, scripting, translation, and operational troubleshooting. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: NOT SCI-FI MALWARE. EFFICIENCY.. The threat isn't AI taking over networks alone—it's human threat actors using LLMs to speed up research and eliminate operational friction. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: ACCOUNTS TERMINATED.. OpenAI identified the persistent threat actor activity, correlated their behavioral patterns, and fully revoked access to their ecosystem. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: THE NEW FRONTIER OF CYBER DEFENSE.. As frontier models integrate into global software stacks, monitoring prompt telemetry for malicious tradecraft is becoming standard defense hygiene. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: AI IS NOW A CYBER BATTLEFIELD.. The battle for AI security isn't just stopping rouge models—it's preventing bad actors from turning AI into their best analyst. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#AI",
+    "#CyberSecurity",
+    "#OpenAI",
+    "#TechNews",
+    "#GetByteRush",
+    "#ArtificialIntelligence"
+  ],
+  "cta": "Follow along — we go deeper than the headline.",
+  "seo": {
+    "primary_keyword": "OpenAI Bans PRC",
+    "secondary_keywords": [
+      "CyberSecurity",
+      "TechNews",
+      "GetByteRush",
+      "ArtificialIntelligence",
+      "Linked Cyber Operations",
+      "Vixen Panda",
+      "Keyhole Panda Vixen",
+      "Keyhole Panda"
+    ],
+    "search_phrases": [
+      "what is OpenAI Bans PRC",
+      "OpenAI Bans PRC vs Linked Cyber Operations",
+      "OpenAI Bans PRC CyberSecurity",
+      "OpenAI Bans PRC TechNews"
+    ],
+    "entities": [
+      "OpenAI Bans PRC",
+      "Linked Cyber Operations",
+      "Vixen Panda",
+      "Keyhole Panda Vixen",
+      "Keyhole Panda",
+      "China"
+    ]
+  },
+  "source_attribution": {
+    "title": "Vixen and Keyhole Panda: China-linked cyber operations",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI banned accounts associated with PRC-linked threat actors Vixen Panda and Keyhole Panda.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "The threat actors used AI for vulnerability research, scripting, translation, and operational troubleshooting.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Monitoring prompt telemetry is becoming a standard layer of modern cyber defense.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}

@@ -1,26 +1,26 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
-      "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
-      "description": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
-      "published": "Mon, 13 Apr 2026 06:00:00 GMT",
+      "title": "Vixen and Keyhole Panda: China-linked cyber operations",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
+      "description": "OpenAI banned accounts associated with threat actors publicly attributed to the PRC, using AI to support vulnerability research, scripting, translation, and operational troubleshooting.",
+      "published": "Sun, 01 Jun 2025 00:00:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 18,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21,
-      "content_id": "cand-fed3ac01a5971408",
+      "relevance_score": 15,
+      "impact_score": 11,
+      "story_type": "SECURITY",
+      "pre_filter_score": 26,
+      "content_id": "cand-94bd0c116c54a244",
       "selection_meta": {
-        "rank": 2,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
         "category": "EVERGREEN_VALUE",
-        "quality_score": 58,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 58/100)",
+        "quality_score": 57,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
         "source": "OpenAI News"
       }
     }

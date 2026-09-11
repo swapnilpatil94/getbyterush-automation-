@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Bans PRC-Linked Cyber Operations Vixen Panda and Keyhole Panda",
+      "source_title": "Vixen and Keyhole Panda: China-linked cyber operations",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
+      "source": "OpenAI News",
+      "normalized_title": "openai bans prc linked cyber operations vixen panda and keyhole panda",
+      "normalized_source_title": "vixen and keyhole panda china linked cyber operations",
+      "tokens": [
+        "and",
+        "bans",
+        "cyber",
+        "keyhole",
+        "linked",
+        "openai",
+        "operations",
+        "panda",
+        "prc",
+        "vixen"
+      ],
+      "source_tokens": [
+        "and",
+        "china",
+        "cyber",
+        "keyhole",
+        "linked",
+        "operations",
+        "panda",
+        "vixen"
+      ],
+      "recorded_at": "2026-09-11T01:47:21.587811+00:00"
+    },
+    {
       "title": "Cloudflare and OpenAI Partner to Power Enterprise AI Agents on Agent Cloud",
       "source_title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
       "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
