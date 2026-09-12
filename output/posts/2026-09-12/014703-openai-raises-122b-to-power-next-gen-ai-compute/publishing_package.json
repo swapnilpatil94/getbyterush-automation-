@@ -1,0 +1,96 @@
+{
+  "content_id": "260912014703-openai-raises-122b-t-050a4a",
+  "story_title": "OpenAI Raises $122B to Power Next-Gen AI Compute",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-12/014703-openai-raises-122b-to-power-next-gen-ai-compute/slides/01.jpg",
+    "output/posts/2026-09-12/014703-openai-raises-122b-to-power-next-gen-ai-compute/slides/02.jpg",
+    "output/posts/2026-09-12/014703-openai-raises-122b-to-power-next-gen-ai-compute/slides/03.jpg",
+    "output/posts/2026-09-12/014703-openai-raises-122b-to-power-next-gen-ai-compute/slides/04.jpg",
+    "output/posts/2026-09-12/014703-openai-raises-122b-to-power-next-gen-ai-compute/slides/05.jpg",
+    "output/posts/2026-09-12/014703-openai-raises-122b-to-power-next-gen-ai-compute/slides/06.jpg",
+    "output/posts/2026-09-12/014703-openai-raises-122b-to-power-next-gen-ai-compute/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "OpenAI has announced a massive $122 billion funding round aimed at accelerating frontier AI, expanding global infrastructure, and building next-generation compute capacity.\n\nAs demand across ChatGPT, Codex, and enterprise APIs surges, the cost of serving and training state-of-the-art models has reached infrastructure-level scale.\n\nThis funding push highlights a clear trend in AI: the bottleneck is no longer just algorithmic innovation, but the sheer availability of compute and capital to power it.\n\nWhat are your thoughts on the scaling costs of frontier AI? Let us know below.\n\n—\nGETBYTERUSH • TESTED • EXPLAINED • REAL",
+  "caption_for_publish": "OpenAI has announced a massive $122 billion funding round aimed at accelerating frontier AI, expanding global infrastructure, and building next-generation compute capacity.\n\nAs demand across ChatGPT, Codex, and enterprise APIs surges, the cost of serving and training state-of-the-art models has reached infrastructure-level scale.\n\nThis funding push highlights a clear trend in AI: the bottleneck is no longer just algorithmic innovation, but the sheer availability of compute and capital to power it.\n\nWhat are your thoughts on the scaling costs of frontier AI? Let us know below.\n\n—\nGETBYTERUSH • TESTED • EXPLAINED • REAL\n\n#GetByteRush #OpenAI #ArtificialIntelligence #TechNews #AICompute #ChatGPT #TechTrends",
+  "pinned_comment": "Is capital now the primary competitive moat in frontier AI? Share your perspective below.",
+  "alt_text_overall": "Carousel slide sequence detailing OpenAI's $122 billion funding announcement, breakdown of compute investments, and analysis of AI market infrastructure costs.",
+  "alt_text_per_slide": [
+    "Slide 1: $122 BILLION.. OpenAI has announced a giant $122B funding round to expand frontier AI and secure next-generation compute. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: WHERE DOES IT GO?. Securing frontier intelligence requires capital at an unprecedented level. The capital is targeted at three critical expansion bottlenecks. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: THREE TARGETS. According to OpenAI, the capital focuses on three priorities: expanding frontier AI globally, building next-generation compute, and scaling infrastructure. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: USAGE IS EXPLODING. The capital push comes as operational pressure grows across ChatGPT, Codex, and enterprise AI integrations worldwide. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: FRONTIER SCALE. Training next-generation models is no longer a software challenge. It is now a physical and financial infrastructure challenge. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: THE NEW MOAT. ANALYSIS: Capital requirements of this scale create a financial barrier that few startups or independent labs can match. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: CAPITAL IS THE ALGORITHM.. The race for frontier intelligence has shifted. The winning factor isn't just code—it's raw compute and financial velocity. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#GetByteRush",
+    "#OpenAI",
+    "#ArtificialIntelligence",
+    "#TechNews",
+    "#AICompute",
+    "#ChatGPT",
+    "#TechTrends"
+  ],
+  "cta": "Follow along — we go deeper than the headline.",
+  "seo": {
+    "primary_keyword": "OpenAI Raises",
+    "secondary_keywords": [
+      "GetByteRush",
+      "ArtificialIntelligence",
+      "TechNews",
+      "AICompute",
+      "ChatGPT",
+      "TechTrends",
+      "Power Next",
+      "Gen AI Compute"
+    ],
+    "search_phrases": [
+      "what is OpenAI Raises",
+      "OpenAI Raises vs Power Next",
+      "OpenAI Raises GetByteRush",
+      "OpenAI Raises ArtificialIntelligence"
+    ],
+    "entities": [
+      "OpenAI Raises",
+      "Power Next",
+      "Gen AI Compute",
+      "Accelerating",
+      "AI"
+    ]
+  },
+  "source_attribution": {
+    "title": "Accelerating the next phase of AI",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/accelerating-the-next-phase-ai"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI raises $122 billion in new funding.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/accelerating-the-next-phase-ai",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Funds are targeted to expand frontier AI globally, invest in next-generation compute, and meet demand for ChatGPT, Codex, and enterprise AI.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/accelerating-the-next-phase-ai",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Capital requirements of this scale create a financial barrier that few startups can match.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/accelerating-the-next-phase-ai",
+        "source_name": "GetByteRush Editorial Analysis"
+      }
+    ]
+  }
+}

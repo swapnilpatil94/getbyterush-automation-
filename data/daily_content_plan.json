@@ -1,88 +1,31 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-94bd0c116c54a244",
-      "topic": "Vixen and Keyhole Panda: China-linked cyber operations",
+      "content_id": "cand-3bd579e489786cf9",
+      "topic": "Accelerating the next phase of AI",
       "category": "EVERGREEN_VALUE",
       "score": 57,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
+      "source_url": "https://openai.com/index/accelerating-the-next-phase-ai",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260911014721-openai-bans-prc-link-31df1d"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-67a5a95dda2e67a2",
-      "topic": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-      "category": "LAST_24H",
-      "score": 64,
-      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 64/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-785ed80e4cd04cdf",
-      "topic": "Resolving digital threats 100x faster with OpenAI",
-      "category": "EVERGREEN_VALUE",
-      "score": 57,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/outtake",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260911144835-ai-agents-resolving--9e2e6d"
+      "content_state_id": "260912014703-openai-raises-122b-t-050a4a"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-94bd0c116c54a244",
+      "content_id": "cand-3bd579e489786cf9",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-67a5a95dda2e67a2",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-785ed80e4cd04cdf",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }

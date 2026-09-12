@@ -1,0 +1,49 @@
+{
+  "content_id": "260912014703-openai-raises-122b-t-050a4a",
+  "story_title": "OpenAI Raises $122B to Power Next-Gen AI Compute",
+  "source_url": "https://openai.com/index/accelerating-the-next-phase-ai",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-12T01:47:03.310186+00:00",
+  "updated_at": "2026-09-12T01:47:07.530020+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-12T01:47:03.310194+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-12T01:47:03.311617+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-12T01:47:03.312147+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-12T01:47:03.312722+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-12T01:47:04.395799+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-12T01:47:07.530032+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-12/014703-openai-raises-122b-to-power-next-gen-ai-compute",
+  "publish": {},
+  "story_path": "data/pipeline/260912014703-openai-raises-122b-t-050a4a.json"
+}

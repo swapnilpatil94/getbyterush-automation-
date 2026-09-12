@@ -2,6 +2,30 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Raises $122B to Power Next-Gen AI Compute",
+      "source_title": "Accelerating the next phase of AI",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "source": "OpenAI News",
+      "normalized_title": "openai raises 122b to power next gen ai compute",
+      "normalized_source_title": "accelerating the next phase of ai",
+      "tokens": [
+        "122b",
+        "compute",
+        "gen",
+        "next",
+        "openai",
+        "power",
+        "raises"
+      ],
+      "source_tokens": [
+        "accelerating",
+        "next",
+        "phase",
+        "the"
+      ],
+      "recorded_at": "2026-09-12T01:47:03.278161+00:00"
+    },
+    {
       "title": "AI Agents Resolving Digital Threats 100x Faster",
       "source_title": "Resolving digital threats 100x faster with OpenAI",
       "url": "https://openai.com/index/outtake",
