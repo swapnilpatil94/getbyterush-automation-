@@ -34,6 +34,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260912081807-how-openai-scaled-ha-ef44dc"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-4295f42a2022777b",
+      "topic": "How Podium is arming 10,000+ SMBs with AI agents",
+      "category": "EVERGREEN_VALUE",
+      "score": 57,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/podium",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260912144652-how-podium-armed-10--3c7d36"
     }
   ],
   "slots": {
@@ -62,7 +78,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-4295f42a2022777b",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
