@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-09-12T02:28:51.009464+00:00",
+  "generated_at": "2026-09-12T09:52:44.005569+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "OpenAI News",
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "description": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
-      "published": "Fri, 11 Sep 2026 16:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 16
-    },
     {
       "source": "OpenAI News",
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
@@ -25,6 +13,18 @@
       "impact_score": 7,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 27
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "description": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "published": "Fri, 11 Sep 2026 16:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 15
     },
     {
       "source": "NVIDIA Blog",
@@ -64,18 +64,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
       "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
       "description": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
@@ -92,18 +80,6 @@
       "url": "https://openai.com/index/put-data-to-work",
       "description": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
       "published": "Thu, 10 Sep 2026 15:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing ChatGPT for Financial Services",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
       "freshness_score": 6,
       "relevance_score": 8,
       "impact_score": 0,
@@ -136,6 +112,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 6,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
       "title": "GPT-6 Astra: The next generation in intelligence for work",
       "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
       "description": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
@@ -145,6 +133,18 @@
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 13
     },
     {
       "source": "NVIDIA Blog",
