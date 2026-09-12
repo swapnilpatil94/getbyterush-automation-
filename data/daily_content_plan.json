@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260912014703-openai-raises-122b-t-050a4a"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-594fa247e20769b0",
+      "topic": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "category": "LAST_24H",
+      "score": 56,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 56/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260912081807-how-openai-scaled-ha-ef44dc"
     }
   ],
   "slots": {
@@ -33,7 +49,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-594fa247e20769b0",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

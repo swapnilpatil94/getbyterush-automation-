@@ -1,0 +1,97 @@
+{
+  "content_id": "260912081807-how-openai-scaled-ha-ef44dc",
+  "story_title": "How OpenAI Scaled 'Habitat' to 1 Billion Users & 22M Requests/Sec",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-12/081807-how-openai-scaled-habitat-to-1-billion-users-22m-requests-sec/slides/01.jpg",
+    "output/posts/2026-09-12/081807-how-openai-scaled-habitat-to-1-billion-users-22m-requests-sec/slides/02.jpg",
+    "output/posts/2026-09-12/081807-how-openai-scaled-habitat-to-1-billion-users-22m-requests-sec/slides/03.jpg",
+    "output/posts/2026-09-12/081807-how-openai-scaled-habitat-to-1-billion-users-22m-requests-sec/slides/04.jpg",
+    "output/posts/2026-09-12/081807-how-openai-scaled-habitat-to-1-billion-users-22m-requests-sec/slides/05.jpg",
+    "output/posts/2026-09-12/081807-how-openai-scaled-habitat-to-1-billion-users-22m-requests-sec/slides/06.jpg",
+    "output/posts/2026-09-12/081807-how-openai-scaled-habitat-to-1-billion-users-22m-requests-sec/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Behind ChatGPT's 1 billion users sits a massive infrastructure transformation.\n\nOpenAI revealed how 'Habitat'—which started as a simple Python library—evolved into a globally distributed storage engine handling 22 million requests per second.\n\nAs AI adoption grows, the biggest battle isn't just training models—it's building the distributed architecture to keep them online under unprecedented traffic.\n\nTESTED • EXPLAINED • REAL\n\n#GetByteRush #OpenAI #ArtificialIntelligence #SoftwareEngineering #TechNews #SystemArchitecture #CloudComputing #Infrastructure",
+  "caption_for_publish": "Behind ChatGPT's 1 billion users sits a massive infrastructure transformation.\n\nOpenAI revealed how 'Habitat'—which started as a simple Python library—evolved into a globally distributed storage engine handling 22 million requests per second.\n\nAs AI adoption grows, the biggest battle isn't just training models—it's building the distributed architecture to keep them online under unprecedented traffic.\n\nTESTED • EXPLAINED • REAL\n\n#GetByteRush #OpenAI #ArtificialIntelligence #SoftwareEngineering #TechNews #SystemArchitecture #CloudComputing #Infrastructure\n\n#GetByteRush #OpenAI #ArtificialIntelligence #SoftwareEngineering #TechNews #SystemArchitecture #CloudComputing",
+  "pinned_comment": "Did you expect ChatGPT's storage backend to handle 22 million requests per second?",
+  "alt_text_overall": "An Instagram carousel explaining how OpenAI scaled its Habitat storage system to serve 1 billion ChatGPT users at 22 million requests per second.",
+  "alt_text_per_slide": [
+    "Slide 1: 22 MILLION REQUESTS PER SECOND.. Behind ChatGPT's 1 billion users sits an infrastructure transformation most people missed. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: IT STARTED AS A PYTHON LIBRARY.. Before scaling to a global audience, OpenAI's storage tool 'Habitat' was just a lightweight Python library. Then 1 billion users arrived. — shown as a headline over radiating signal rings.",
+    "Slide 3: 1 BILLION USERS. ONE DISTRIBUTED PLATFORM.. To keep ChatGPT responsive, OpenAI evolved Habitat into a globally distributed storage engine capable of delivering sustained low latency. — shown as a headline over radiating signal rings.",
+    "Slide 4: HANDLING THE PEAK TRAFFIC DYNAMICS. At 22 million requests every single second, traditional database query patterns fail. Habitat was rebuilt to distribute traffic state across global nodes. — shown as a headline over radiating signal rings.",
+    "Slide 5: 22,000,000 REQ / SEC. That is more than double the peak search query volume of standard global web services. — shown as a headline over radiating signal rings.",
+    "Slide 6: WHY THIS MATTERS FOR THE AI ERA. AI competition isn't just about training better models. The real barrier to entry is building infrastructure that won't collapse under 1 billion active users. — shown as a headline over radiating signal rings.",
+    "Slide 7: THE UNSEEN ENGINE BEHIND AI.. Models get the headlines, but distributed systems carry the weight. Habitat shows how fast code must transform when the world logs in. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "GetByteRush",
+    "OpenAI",
+    "ArtificialIntelligence",
+    "SoftwareEngineering",
+    "TechNews",
+    "SystemArchitecture",
+    "CloudComputing"
+  ],
+  "cta": "Save this before you need it again.",
+  "seo": {
+    "primary_keyword": "How OpenAI Scaled",
+    "secondary_keywords": [
+      "GetByteRush",
+      "ArtificialIntelligence",
+      "SoftwareEngineering",
+      "TechNews",
+      "SystemArchitecture",
+      "CloudComputing",
+      "Habitat",
+      "Billion Users"
+    ],
+    "search_phrases": [
+      "what is How OpenAI Scaled",
+      "How OpenAI Scaled vs Habitat",
+      "How OpenAI Scaled GetByteRush",
+      "How OpenAI Scaled ArtificialIntelligence"
+    ],
+    "entities": [
+      "How OpenAI Scaled",
+      "Habitat",
+      "Billion Users",
+      "Requests",
+      "Sec Rapidly",
+      "ChatGPT"
+    ]
+  },
+  "source_attribution": {
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI evolved Habitat from a Python library into a globally distributed storage platform.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "ChatGPT serves over 1 billion users.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Habitat handles 22 million requests per second.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+        "source_name": "OpenAI News"
+      }
+    ]
+  }
+}

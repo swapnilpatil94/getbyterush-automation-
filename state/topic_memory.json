@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "How OpenAI Scaled 'Habitat' to 1 Billion Users & 22M Requests/Sec",
+      "source_title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "source": "OpenAI News",
+      "normalized_title": "how openai scaled habitat to 1 billion users 22m requests sec",
+      "normalized_source_title": "rapidly scaling online storage to serve over 1 billion chatgpt users",
+      "tokens": [
+        "22m",
+        "billion",
+        "habitat",
+        "how",
+        "openai",
+        "requests",
+        "scaled",
+        "sec",
+        "users"
+      ],
+      "source_tokens": [
+        "billion",
+        "chatgpt",
+        "online",
+        "over",
+        "rapidly",
+        "scaling",
+        "serve",
+        "storage",
+        "users"
+      ],
+      "recorded_at": "2026-09-12T08:18:07.857899+00:00"
+    },
+    {
       "title": "OpenAI Raises $122B to Power Next-Gen AI Compute",
       "source_title": "Accelerating the next phase of AI",
       "url": "https://openai.com/index/accelerating-the-next-phase-ai",
