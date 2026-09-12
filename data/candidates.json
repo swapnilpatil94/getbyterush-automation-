@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-09-12T09:52:44.005569+00:00",
+  "generated_at": "2026-09-12T14:45:29.234253+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "OpenAI News",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-      "published": "Fri, 11 Sep 2026 10:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 12,
-      "impact_score": 7,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27
-    },
     {
       "source": "OpenAI News",
       "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
@@ -39,16 +27,16 @@
       "pre_filter_score": 28
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
-      "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-      "description": "AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By connecting Raptor to NVIDIA NVLink scale-up and Spectrum-X scale-out networking, the NVIDIA MGX rack architecture and the broader NVIDIA AI platform, NVLink Fusion gives [&#8230;]",
-      "published": "Thu, 10 Sep 2026 13:00:21 +0000",
+      "source": "OpenAI News",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "published": "Fri, 11 Sep 2026 10:00:00 GMT",
       "freshness_score": 6,
       "relevance_score": 12,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 21
+      "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 25
     },
     {
       "source": "NVIDIA Blog",
@@ -99,6 +87,18 @@
       "pre_filter_score": 12
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+      "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+      "description": "AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By connecting Raptor to NVIDIA NVLink scale-up and Spectrum-X scale-out networking, the NVIDIA MGX rack architecture and the broader NVIDIA AI platform, NVLink Fusion gives [&#8230;]",
+      "published": "Thu, 10 Sep 2026 13:00:21 +0000",
+      "freshness_score": 5,
+      "relevance_score": 12,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 20
+    },
+    {
       "source": "Google AI Blog",
       "title": "Recreating a 70-year love story frame by frame",
       "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
@@ -120,18 +120,6 @@
       "relevance_score": 6,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "description": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-      "published": "Wed, 09 Sep 2026 11:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 12,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 17
     },
     {
@@ -960,6 +948,18 @@
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "published": "Thu, 25 Jun 2026 02:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 19
     }
   ]
