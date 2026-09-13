@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T02:27:37.518261+00:00",
+  "generated_at": "2026-09-13T10:52:49.835496+00:00",
   "count": 1230,
   "stories": [
     {
@@ -176,7 +176,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
       "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
       "published": "Fri, 11 Sep 2026 10:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -208,7 +208,7 @@
       "url": "https://openai.com/index/introducing-chatgpt-financial-services",
       "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
       "published": "Thu, 10 Sep 2026 07:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -216,7 +216,7 @@
       "url": "https://openai.com/index/expanding-ai-access-us-government",
       "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
       "published": "Thu, 10 Sep 2026 07:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",

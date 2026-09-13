@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-09-13T02:27:37.776323+00:00",
+  "generated_at": "2026-09-13T10:52:50.017888+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "OpenAI News",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-      "published": "Fri, 11 Sep 2026 10:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 12,
-      "impact_score": 7,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 25
-    },
     {
       "source": "OpenAI News",
       "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
@@ -37,6 +25,18 @@
       "impact_score": 11,
       "story_type": "RESEARCH",
       "pre_filter_score": 27
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "published": "Fri, 11 Sep 2026 10:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 24
     },
     {
       "source": "NVIDIA Blog",
@@ -64,18 +64,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
       "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
       "description": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
@@ -92,18 +80,6 @@
       "url": "https://openai.com/index/put-data-to-work",
       "description": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
       "published": "Thu, 10 Sep 2026 15:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing ChatGPT for Financial Services",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
       "freshness_score": 5,
       "relevance_score": 8,
       "impact_score": 0,
@@ -960,6 +936,30 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+      "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+      "description": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
+      "published": "Thu, 05 Feb 2026 11:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Cyber threat actors: AI-assisted intrusion research",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors",
+      "description": "OpenAI banned accounts potentially associated with publicly reported DPRK-affiliated threat actors using AI to research intrusion tooling, phishing, malware, and cryptocurrency targeting.",
+      "published": "Sat, 01 Feb 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "SECURITY",
       "pre_filter_score": 18
     }
   ]
