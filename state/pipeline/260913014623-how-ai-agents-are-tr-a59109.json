@@ -1,0 +1,49 @@
+{
+  "content_id": "260913014623-how-ai-agents-are-tr-a59109",
+  "story_title": "How AI Agents Are Transforming Complex Work",
+  "source_url": "https://openai.com/index/how-agents-are-transforming-work",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-13T01:46:23.250628+00:00",
+  "updated_at": "2026-09-13T01:46:27.230720+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-13T01:46:23.250634+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-13T01:46:23.251493+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-13T01:46:23.251884+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-13T01:46:23.252175+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-13T01:46:24.041996+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-13T01:46:27.230732+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-13/014623-how-ai-agents-are-transforming-complex-work",
+  "publish": {},
+  "story_path": "data/pipeline/260913014623-how-ai-agents-are-tr-a59109.json"
+}
