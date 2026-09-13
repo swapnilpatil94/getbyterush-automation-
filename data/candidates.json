@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T19:57:44.708416+00:00",
+  "generated_at": "2026-09-13T02:27:37.776323+00:00",
   "count": 80,
   "stories": [
     {
@@ -120,18 +120,6 @@
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 11
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "description": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "published": "Thu, 10 Sep 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 11
     },
     {
@@ -960,6 +948,18 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bringing ChatGPT to GenAI.mil",
+      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "description": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+      "published": "Mon, 09 Feb 2026 11:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]

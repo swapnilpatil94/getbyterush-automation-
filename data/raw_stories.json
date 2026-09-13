@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T19:57:44.470252+00:00",
+  "generated_at": "2026-09-13T02:27:37.518261+00:00",
   "count": 1230,
   "stories": [
     {
@@ -224,7 +224,7 @@
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "description": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
       "published": "Thu, 10 Sep 2026 00:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -232,7 +232,7 @@
       "url": "https://openai.com/index/introducing-the-agents-api",
       "description": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
       "published": "Thu, 10 Sep 2026 00:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
