@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260913014623-how-ai-agents-are-tr-a59109"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-1ade5660de22d90e",
+      "topic": "How we’re responding to The New York Times’ data demands in order to protect user privacy",
+      "category": "EVERGREEN_VALUE",
+      "score": 56,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 56/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/response-to-nyt-data-demands",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260913144652-openai-fights-court--02f052"
     }
   ],
   "slots": {
@@ -48,7 +64,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-1ade5660de22d90e",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

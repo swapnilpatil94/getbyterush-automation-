@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "published": "Thu, 25 Jun 2026 02:00:00 GMT",
+      "title": "How we’re responding to The New York Times’ data demands in order to protect user privacy",
+      "url": "https://openai.com/index/response-to-nyt-data-demands",
+      "description": "OpenAI is fighting a court order at the demands of The New York Times and plaintiffs, which involves retention of consumer ChatGPT and API user data indefinitely. Learn how we’re working to uphold user privacy, address legal requirements, and stay true to our data protection commitments.",
+      "published": "Thu, 05 Jun 2025 16:30:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19,
-      "content_id": "cand-7d75815ffa2ff79c",
+      "relevance_score": 15,
+      "impact_score": 8,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 23,
+      "content_id": "cand-1ade5660de22d90e",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "EVERGREEN_VALUE",
-        "quality_score": 57,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
+        "quality_score": 56,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 56/100)",
         "source": "OpenAI News"
       }
     }

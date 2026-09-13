@@ -2,6 +2,40 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Fights Court Demand to Preserve All ChatGPT User Data",
+      "source_title": "How we’re responding to The New York Times’ data demands in order to protect user privacy",
+      "url": "https://openai.com/index/response-to-nyt-data-demands",
+      "source": "OpenAI News",
+      "normalized_title": "openai fights court demand to preserve all chatgpt user data",
+      "normalized_source_title": "how we re responding to the new york times data demands in order to protect user privacy",
+      "tokens": [
+        "all",
+        "chatgpt",
+        "court",
+        "data",
+        "demand",
+        "fights",
+        "openai",
+        "preserve",
+        "user"
+      ],
+      "source_tokens": [
+        "data",
+        "demands",
+        "how",
+        "new",
+        "order",
+        "privacy",
+        "protect",
+        "responding",
+        "the",
+        "times",
+        "user",
+        "york"
+      ],
+      "recorded_at": "2026-09-13T14:46:52.498047+00:00"
+    },
+    {
       "title": "How AI Agents Are Transforming Complex Work",
       "source_title": "How agents are transforming work",
       "url": "https://openai.com/index/how-agents-are-transforming-work",
