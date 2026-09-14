@@ -1,0 +1,49 @@
+{
+  "content_id": "260914014653-trustbank-deploys-op-4c5744",
+  "story_title": "TRUSTBANK Deploys OpenAI-Powered Agents to Personalize Japan's Furusato Nozei Gifts",
+  "source_url": "https://openai.com/index/trustbank",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-14T01:46:53.828825+00:00",
+  "updated_at": "2026-09-14T01:46:58.440380+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-14T01:46:53.828832+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-14T01:46:53.830304+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-14T01:46:53.830928+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-14T01:46:53.831532+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-14T01:46:55.526356+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-14T01:46:58.440393+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-14/014653-trustbank-deploys-openai-powered-agents-to-personalize-japan-s-furusato-",
+  "publish": {},
+  "story_path": "data/pipeline/260914014653-trustbank-deploys-op-4c5744.json"
+}

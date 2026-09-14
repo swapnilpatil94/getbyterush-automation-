@@ -2,6 +2,36 @@
   "version": 2,
   "topics": [
     {
+      "title": "TRUSTBANK Deploys OpenAI-Powered Agents to Personalize Japan's Furusato Nozei Gifts",
+      "source_title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
+      "url": "https://openai.com/index/trustbank",
+      "source": "OpenAI News",
+      "normalized_title": "trustbank deploys openai powered agents to personalize japan s furusato nozei gifts",
+      "normalized_source_title": "trustbank uses ai agents to personalize furusato nozei gifts",
+      "tokens": [
+        "agents",
+        "deploys",
+        "furusato",
+        "gifts",
+        "japan",
+        "nozei",
+        "openai",
+        "personalize",
+        "powered",
+        "trustbank"
+      ],
+      "source_tokens": [
+        "agents",
+        "furusato",
+        "gifts",
+        "nozei",
+        "personalize",
+        "trustbank",
+        "uses"
+      ],
+      "recorded_at": "2026-09-14T01:46:53.796724+00:00"
+    },
+    {
       "title": "OpenAI Fights Court Demand to Preserve All ChatGPT User Data",
       "source_title": "How we’re responding to The New York Times’ data demands in order to protect user privacy",
       "url": "https://openai.com/index/response-to-nyt-data-demands",

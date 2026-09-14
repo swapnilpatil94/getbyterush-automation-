@@ -1,75 +1,31 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-7d75815ffa2ff79c",
-      "topic": "How agents are transforming work",
-      "category": "EVERGREEN_VALUE",
-      "score": 57,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/how-agents-are-transforming-work",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260913014623-how-ai-agents-are-tr-a59109"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-1ade5660de22d90e",
-      "topic": "How we’re responding to The New York Times’ data demands in order to protect user privacy",
+      "content_id": "cand-282c6641ce9776a2",
+      "topic": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
       "category": "EVERGREEN_VALUE",
       "score": 56,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 56/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/response-to-nyt-data-demands",
+      "source_url": "https://openai.com/index/trustbank",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260913144652-openai-fights-court--02f052"
+      "content_state_id": "260914014653-trustbank-deploys-op-4c5744"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-7d75815ffa2ff79c",
+      "content_id": "cand-282c6641ce9776a2",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-1ade5660de22d90e",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }
