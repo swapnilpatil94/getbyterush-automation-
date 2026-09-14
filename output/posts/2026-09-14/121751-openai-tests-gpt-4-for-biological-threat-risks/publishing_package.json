@@ -1,0 +1,91 @@
+{
+  "content_id": "260914121751-openai-tests-gpt-4-f-a1e506",
+  "story_title": "OpenAI Tests GPT-4 for Biological Threat Risks",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-14/121751-openai-tests-gpt-4-for-biological-threat-risks/slides/01.jpg",
+    "output/posts/2026-09-14/121751-openai-tests-gpt-4-for-biological-threat-risks/slides/02.jpg",
+    "output/posts/2026-09-14/121751-openai-tests-gpt-4-for-biological-threat-risks/slides/03.jpg",
+    "output/posts/2026-09-14/121751-openai-tests-gpt-4-for-biological-threat-risks/slides/04.jpg",
+    "output/posts/2026-09-14/121751-openai-tests-gpt-4-for-biological-threat-risks/slides/05.jpg",
+    "output/posts/2026-09-14/121751-openai-tests-gpt-4-for-biological-threat-risks/slides/06.jpg",
+    "output/posts/2026-09-14/121751-openai-tests-gpt-4-for-biological-threat-risks/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Can AI help non-experts create biological threats? OpenAI put GPT-4 to the test with biology experts and students.\n\nThe result? At most a mild uplift in threat creation accuracy—a difference not large enough to be statistically conclusive.\n\nWhile current models don't provide a massive shortcut over standard search tools, building these evaluation blueprints now is crucial for spotting leaps in future model capability.\n\nSwipe through for the breakdown. What are your thoughts on AI risk benchmarking?\n\n#AI #OpenAI #GPT4 #AISafety #TechNews #GetByteRush",
+  "caption_for_publish": "Can AI help non-experts create biological threats? OpenAI put GPT-4 to the test with biology experts and students.\n\nThe result? At most a mild uplift in threat creation accuracy—a difference not large enough to be statistically conclusive.\n\nWhile current models don't provide a massive shortcut over standard search tools, building these evaluation blueprints now is crucial for spotting leaps in future model capability.\n\nSwipe through for the breakdown. What are your thoughts on AI risk benchmarking?\n\n#AI #OpenAI #GPT4 #AISafety #TechNews #GetByteRush\n\n#AI #OpenAI #AISafety #TechNews #GetByteRush",
+  "pinned_comment": "OpenAI noted that while the measured uplift was mild and inconclusive, building early evaluation baselines is key for future model testing.",
+  "alt_text_overall": "GetByteRush editorial carousel analyzing OpenAI's study on evaluating GPT-4 for biological threat creation risks.",
+  "alt_text_per_slide": [
+    "Slide 1: CAN AI HELP CREATE BIOWEAPONS?. OpenAI evaluated whether LLMs like GPT-4 meaningfully aid users in biological threat creation. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: EXPERTS VS. STUDENTS. The evaluation tested both biology experts and student participants across critical threat-creation tasks. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 3: AT MOST A MILD UPLIFT. OpenAI reported that GPT-4 provided at most a mild increase in accuracy for biological threat creation tasks. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 4: NOT YET CONCLUSIVE. OpenAI stated the measured uplift was not large enough to be statistically conclusive, pointing to the difficulty of testing severe risks. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 5: THE BLUEPRINT FOR RISK. The goal is establishing an early warning framework before future, more powerful models are released. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 6: SETTING THE BASELINE. Creating early evaluation baselines allows researchers and regulators to detect sharp jumps in dangerous capabilities. — shown as a pinned, slightly rotated case-file card.",
+    "Slide 7: MEASURE BEFORE IT MATTERS. GPT-4 may not create a significant biological threat uplift today, but establishing rigorously tested benchmarks now is how we spot future danger. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "AI",
+    "OpenAI",
+    "AISafety",
+    "TechNews",
+    "GetByteRush"
+  ],
+  "cta": "We test the stuff everyone else just explains.",
+  "seo": {
+    "primary_keyword": "OpenAI Tests GPT",
+    "secondary_keywords": [
+      "AISafety",
+      "TechNews",
+      "GetByteRush",
+      "Biological Threat Risks",
+      "Building",
+      "LLM"
+    ],
+    "search_phrases": [
+      "what is OpenAI Tests GPT",
+      "OpenAI Tests GPT vs Biological Threat Risks",
+      "OpenAI Tests GPT AISafety",
+      "OpenAI Tests GPT TechNews"
+    ],
+    "entities": [
+      "OpenAI Tests GPT",
+      "Biological Threat Risks",
+      "Building",
+      "LLM"
+    ]
+  },
+  "source_attribution": {
+    "title": "Building an early warning system for LLM-aided biological threat creation",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI evaluated GPT-4's potential to aid in biological threat creation with experts and students.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "GPT-4 provided at most a mild uplift in biological threat creation accuracy.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "The measured uplift was not large enough to be statistically conclusive.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+        "source_name": "OpenAI News"
+      }
+    ]
+  }
+}
