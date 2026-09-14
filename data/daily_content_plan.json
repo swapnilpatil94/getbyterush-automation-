@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260914014653-trustbank-deploys-op-4c5744"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-7bf4fdb278040339",
+      "topic": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "category": "LAST_24H",
+      "score": 53,
+      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 53/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260914081705-perplexity-trusts-gp-fe0b6e"
     }
   ],
   "slots": {
@@ -33,7 +49,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-7bf4fdb278040339",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

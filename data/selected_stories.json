@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
-      "url": "https://openai.com/index/trustbank",
-      "description": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, enabling personalized conversational recommendations that simplify Furusato Nozei gift discovery.",
-      "published": "Tue, 27 Jan 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 18,
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "description": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "published": "Mon, 14 Sep 2026 00:00:00 GMT",
+      "freshness_score": 10,
+      "relevance_score": 12,
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21,
-      "content_id": "cand-282c6641ce9776a2",
+      "pre_filter_score": 25,
+      "content_id": "cand-7bf4fdb278040339",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 56,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 56/100)",
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 53,
+        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 53/100)",
         "source": "OpenAI News"
       }
     }

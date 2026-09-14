@@ -2,6 +2,33 @@
   "version": 2,
   "topics": [
     {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "source_title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source": "OpenAI News",
+      "normalized_title": "perplexity trusts gpt 6 astra with end to end systems",
+      "normalized_source_title": "perplexity trusts gpt 6 astra with end to end systems",
+      "tokens": [
+        "astra",
+        "end",
+        "gpt",
+        "perplexity",
+        "systems",
+        "trusts",
+        "with"
+      ],
+      "source_tokens": [
+        "astra",
+        "end",
+        "gpt",
+        "perplexity",
+        "systems",
+        "trusts",
+        "with"
+      ],
+      "recorded_at": "2026-09-14T08:17:05.577137+00:00"
+    },
+    {
       "title": "TRUSTBANK Deploys OpenAI-Powered Agents to Personalize Japan's Furusato Nozei Gifts",
       "source_title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
       "url": "https://openai.com/index/trustbank",

@@ -1,0 +1,86 @@
+{
+  "content_id": "260914081705-perplexity-trusts-gp-fe0b6e",
+  "story_title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-14/081705-perplexity-trusts-gpt-6-astra-with-end-to-end-systems/slides/01.jpg",
+    "output/posts/2026-09-14/081705-perplexity-trusts-gpt-6-astra-with-end-to-end-systems/slides/02.jpg",
+    "output/posts/2026-09-14/081705-perplexity-trusts-gpt-6-astra-with-end-to-end-systems/slides/03.jpg",
+    "output/posts/2026-09-14/081705-perplexity-trusts-gpt-6-astra-with-end-to-end-systems/slides/04.jpg",
+    "output/posts/2026-09-14/081705-perplexity-trusts-gpt-6-astra-with-end-to-end-systems/slides/05.jpg",
+    "output/posts/2026-09-14/081705-perplexity-trusts-gpt-6-astra-with-end-to-end-systems/slides/06.jpg",
+    "output/posts/2026-09-14/081705-perplexity-trusts-gpt-6-astra-with-end-to-end-systems/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Perplexity is trusting OpenAI’s GPT-6 Astra with end-to-end operational systems—including changing software, writing communications, and monitoring live production.\n\nAccording to OpenAI, human check-ins are happening far less frequently compared to previous model implementations. The shift from human-in-the-loop to human-on-the-loop is accelerating.\n\nWhat’s your threshold for letting AI run production servers?",
+  "caption_for_publish": "Perplexity is trusting OpenAI’s GPT-6 Astra with end-to-end operational systems—including changing software, writing communications, and monitoring live production.\n\nAccording to OpenAI, human check-ins are happening far less frequently compared to previous model implementations. The shift from human-in-the-loop to human-on-the-loop is accelerating.\n\nWhat’s your threshold for letting AI run production servers?\n\n#AI #SoftwareEngineering #OpenAI #Perplexity #TechNews #GetByteRush",
+  "pinned_comment": "Would you let an AI model push code and monitor production servers without manual review?",
+  "alt_text_overall": "Carousel explaining Perplexity using GPT-6 Astra for software edits, communications, and production monitoring with fewer human check-ins.",
+  "alt_text_per_slide": [
+    "Slide 1: PERPLEXITY HANDED OVER THE KEYS.. GPT-6 Astra is now managing software modifications, live production monitoring, and communications with minimal human check-ins. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: FROM ASSISTANT TO OPERATOR.. Previous AI models required constant oversight per output. Astra operates end-to-end, requiring far less manual verification. — shown as a headline over radiating signal rings.",
+    "Slide 3: THREE CRITICAL DOMAINS.. According to OpenAI, Perplexity deployed Astra across three core functions: internal communications, software alterations, and live system monitoring. — shown as a headline over radiating signal rings.",
+    "Slide 4: THE CHECK-IN FREQUENCY DROPPED.. The breakthrough isn't just capability—it's reliability. Engineers are intervening significantly less frequently than with previous AI model generations. — shown as a headline over radiating signal rings.",
+    "Slide 5: HUMANS IN THE LOOP ARE BECOMING HUMANS ON THE LOOP.. Instead of guiding every step, human engineers are moving to high-level supervisory roles while the agent handles execution. — shown as a headline over radiating signal rings.",
+    "Slide 6: WHAT THIS MEANS FOR SOFTWARE BUILDERS.. As AI agents gain reliability in monitoring and writing production code, competitive pressure will force teams to shift from hand-coded workflows to agent supervision. — shown as a headline over radiating signal rings.",
+    "Slide 7: AUTONOMY IS NOW THE BENCHMARK.. The defining metric for next-generation AI is no longer just accuracy on benchmarks—it is how long developers can leave it running unsupervised. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#AI",
+    "#SoftwareEngineering",
+    "#OpenAI",
+    "#Perplexity",
+    "#TechNews",
+    "#GetByteRush"
+  ],
+  "cta": "We test the stuff everyone else just explains.",
+  "seo": {
+    "primary_keyword": "Perplexity",
+    "secondary_keywords": [
+      "AI",
+      "SoftwareEngineering",
+      "OpenAI",
+      "TechNews",
+      "GetByteRush",
+      "GPT",
+      "Astra"
+    ],
+    "search_phrases": [
+      "what is Perplexity",
+      "Perplexity vs GPT",
+      "Perplexity AI",
+      "Perplexity SoftwareEngineering"
+    ],
+    "entities": [
+      "Perplexity",
+      "GPT",
+      "Astra"
+    ]
+  },
+  "source_attribution": {
+    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "Perplexity uses GPT-6 Astra for communications, software changes, and production monitoring with fewer check-ins.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Human roles are shifting from 'in the loop' to 'on the loop' supervision across software engineering.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}
