@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-14T17:21:01.957243+00:00",
+  "updated_at": "2026-09-14T21:14:48.334513+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -5286,7 +5286,50 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 21
       }
+    },
+    {
+      "content_id": "cand-0e043ae525aa4ca5",
+      "topic": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+      "content_type": "LAST_24H",
+      "source": "Google AI Blog",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "published_at": "Mon, 14 Sep 2026 19:00:00 +0000",
+      "discovered_at": "2026-09-14T21:14:48.333981+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 4,
+      "share_score": 3,
+      "information_value": 4,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 36,
+      "raw": {
+        "source": "Google AI Blog",
+        "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+        "description": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+        "published": "Mon, 14 Sep 2026 19:00:00 +0000",
+        "freshness_score": 10,
+        "relevance_score": 4,
+        "impact_score": 0,
+        "story_type": "RESEARCH",
+        "pre_filter_score": 14
+      }
     }
   ],
-  "count": 133
+  "count": 134
 }
