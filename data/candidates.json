@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-09-13T20:04:23.908155+00:00",
+  "generated_at": "2026-09-14T02:44:29.663365+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "description": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "published": "Mon, 14 Sep 2026 00:00:00 GMT",
+      "freshness_score": 10,
+      "relevance_score": 12,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 25
+    },
     {
       "source": "OpenAI News",
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
@@ -948,18 +960,6 @@
       "relevance_score": 13,
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Evaluating chain-of-thought monitorability",
-      "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
-      "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoning is far more effective than monitoring outputs alone, offering a promising path toward scalable control as AI systems grow more capable.",
-      "published": "Thu, 18 Dec 2025 12:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "BUSINESS",
       "pre_filter_score": 18
     }
   ]
