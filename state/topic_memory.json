@@ -2,6 +2,32 @@
   "version": 2,
   "topics": [
     {
+      "title": "Understanding Prompt Injections: OpenAI's Frontier Security Challenge",
+      "source_title": "Understanding prompt injections: a frontier security challenge",
+      "url": "https://openai.com/index/prompt-injections",
+      "source": "OpenAI News",
+      "normalized_title": "understanding prompt injections openai s frontier security challenge",
+      "normalized_source_title": "understanding prompt injections a frontier security challenge",
+      "tokens": [
+        "challenge",
+        "frontier",
+        "injections",
+        "openai",
+        "prompt",
+        "security",
+        "understanding"
+      ],
+      "source_tokens": [
+        "challenge",
+        "frontier",
+        "injections",
+        "prompt",
+        "security",
+        "understanding"
+      ],
+      "recorded_at": "2026-09-14T14:46:43.308692+00:00"
+    },
+    {
       "title": "OpenAI Tests GPT-4 for Biological Threat Risks",
       "source_title": "Building an early warning system for LLM-aided biological threat creation",
       "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",

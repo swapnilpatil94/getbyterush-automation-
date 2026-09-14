@@ -50,6 +50,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260914121751-openai-tests-gpt-4-f-a1e506"
+    },
+    {
+      "rank": 4,
+      "slot": "night",
+      "content_id": "cand-b0ae0f985eb1d4a2",
+      "topic": "Understanding prompt injections: a frontier security challenge",
+      "category": "DATA_RESEARCH",
+      "score": 56,
+      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/prompt-injections",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260914144643-understanding-prompt-aa9044"
     }
   ],
   "slots": {
@@ -75,7 +91,12 @@
       "status": "SELECTED",
       "content_id": "cand-d81bc6fa6f7b0682",
       "label": "High-attention window"
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-b0ae0f985eb1d4a2",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 4
 }

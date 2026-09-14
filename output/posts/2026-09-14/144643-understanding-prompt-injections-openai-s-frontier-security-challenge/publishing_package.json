@@ -1,0 +1,88 @@
+{
+  "content_id": "260914144643-understanding-prompt-aa9044",
+  "story_title": "Understanding Prompt Injections: OpenAI's Frontier Security Challenge",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-14/144643-understanding-prompt-injections-openai-s-frontier-security-challenge/slides/01.jpg",
+    "output/posts/2026-09-14/144643-understanding-prompt-injections-openai-s-frontier-security-challenge/slides/02.jpg",
+    "output/posts/2026-09-14/144643-understanding-prompt-injections-openai-s-frontier-security-challenge/slides/03.jpg",
+    "output/posts/2026-09-14/144643-understanding-prompt-injections-openai-s-frontier-security-challenge/slides/04.jpg",
+    "output/posts/2026-09-14/144643-understanding-prompt-injections-openai-s-frontier-security-challenge/slides/05.jpg",
+    "output/posts/2026-09-14/144643-understanding-prompt-injections-openai-s-frontier-security-challenge/slides/06.jpg",
+    "output/posts/2026-09-14/144643-understanding-prompt-injections-openai-s-frontier-security-challenge/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "How do you hack an AI? Not with complex code, but with plain English.\n\nOpenAI highlighted prompt injection as a frontier security challenge. When language models process untrusted text from web pages or documents, hidden instructions can trick the AI into overriding its system rules.\n\nAs AI agents gain real-world capabilities—like reading emails and managing tasks—securing these natural language boundaries is becoming critical for safe deployment.\n\nSwipe through for the breakdown on how prompt injection works and how OpenAI is addressing it.\n\nFollow @getbyterush for real, evidence-backed AI research explained simply.",
+  "caption_for_publish": "How do you hack an AI? Not with complex code, but with plain English.\n\nOpenAI highlighted prompt injection as a frontier security challenge. When language models process untrusted text from web pages or documents, hidden instructions can trick the AI into overriding its system rules.\n\nAs AI agents gain real-world capabilities—like reading emails and managing tasks—securing these natural language boundaries is becoming critical for safe deployment.\n\nSwipe through for the breakdown on how prompt injection works and how OpenAI is addressing it.\n\nFollow @getbyterush for real, evidence-backed AI research explained simply.\n\n#AI #Cybersecurity #OpenAI #TechExplained #GetByteRush #AIAgents",
+  "pinned_comment": "Is natural language the hardest attack vector to patch? Let us know your thoughts below.",
+  "alt_text_overall": "GetByteRush carousel explaining OpenAI prompt injection research and AI security challenges across 7 slides.",
+  "alt_text_per_slide": [
+    "Slide 1: THE AI THREAT THAT USES PLAIN ENGLISH.. OpenAI highlights prompt injections as a primary frontier security challenge facing modern language models. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: HOW TEXT BECOMES A VULNERABILITY.. Prompt injections occur when untrusted user input or web text tricks an AI into ignoring its original instructions. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 3: A FRONTIER SECURITY BOUNDARY.. OpenAI is advancing research and model training to establish clear boundaries between instructions and external data. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 4: WHY AUTONOMOUS AI INCREASES THE RISK.. As AI models take actions like reading emails or browsing websites, prompt injections could trigger unintended operations. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 5: TRAINING MODELS TO SEPARATE DATA FROM COMMANDS.. Building resilient systems requires architectural safeguards and training models to treat external context as untrusted. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 6: THE SHIFT FROM CODE TO LANGUAGE SECURITY.. Securing AI applications requires developers to design robust system prompts, input validation, and boundary controls. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 7: THE NEXT FRONTIER OF AI CYBERSECURITY.. As AI integrates deeper into workflows, solving prompt injection is essential for safe deployment. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#AI",
+    "#Cybersecurity",
+    "#OpenAI",
+    "#TechExplained",
+    "#GetByteRush",
+    "#AIAgents"
+  ],
+  "cta": "Save this before you need it again.",
+  "seo": {
+    "primary_keyword": "Understanding Prompt Injections",
+    "secondary_keywords": [
+      "AI",
+      "Cybersecurity",
+      "OpenAI",
+      "TechExplained",
+      "GetByteRush",
+      "AIAgents",
+      "Frontier Security Challenge",
+      "Understanding"
+    ],
+    "search_phrases": [
+      "what is Understanding Prompt Injections",
+      "Understanding Prompt Injections vs OpenAI",
+      "Understanding Prompt Injections AI",
+      "Understanding Prompt Injections Cybersecurity"
+    ],
+    "entities": [
+      "Understanding Prompt Injections",
+      "OpenAI",
+      "Frontier Security Challenge",
+      "Understanding"
+    ]
+  },
+  "source_attribution": {
+    "title": "Understanding prompt injections: a frontier security challenge",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/prompt-injections",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/prompt-injections"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI identifies prompt injections as a frontier security challenge.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/prompt-injections",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "OpenAI is researching model training and safeguards to address prompt injections.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/prompt-injections",
+        "source_name": "OpenAI News"
+      }
+    ]
+  }
+}
