@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-09-14T11:23:31.857158+00:00",
+  "generated_at": "2026-09-14T17:21:01.607175+00:00",
   "count": 1231,
   "stories": [
+    {
+      "source": "Google AI Blog",
+      "title": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "description": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "published": "Mon, 14 Sep 2026 16:00:00 +0000",
+      "freshness_score": 10
+    },
     {
       "source": "Google AI Blog",
       "title": "3 ways to prep for your next big race with Search",
@@ -155,12 +163,12 @@
       "freshness_score": 0
     },
     {
-      "source": "Google AI Blog",
-      "title": "Connect more of your apps to Search",
-      "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-      "description": "You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
-      "published": "Thu, 16 Jul 2026 16:00:00 +0000",
-      "freshness_score": 0
+      "source": "OpenAI News",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "published": "Mon, 14 Sep 2026 12:00:00 GMT",
+      "freshness_score": 10
     },
     {
       "source": "OpenAI News",
@@ -168,7 +176,7 @@
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "description": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "published": "Mon, 14 Sep 2026 00:00:00 GMT",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "OpenAI News",
@@ -184,7 +192,7 @@
       "url": "https://openai.com/index/cognition-devin-testing-with-astra",
       "description": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
       "published": "Fri, 11 Sep 2026 16:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -348,17 +356,17 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "description": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "description": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
       "published": "Thu, 03 Sep 2026 12:00:00 GMT",
       "freshness_score": 0
     },
     {
       "source": "OpenAI News",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "description": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "description": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
       "published": "Thu, 03 Sep 2026 12:00:00 GMT",
       "freshness_score": 0
     },
@@ -656,14 +664,6 @@
       "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
       "description": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
       "published": "Mon, 17 Aug 2026 03:15:00 GMT",
-      "freshness_score": 0
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "published": "Thu, 13 Aug 2026 12:00:00 GMT",
       "freshness_score": 0
     },
     {
@@ -9708,6 +9708,14 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "description": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information [&#8230;]",
+      "published": "Mon, 14 Sep 2026 15:00:52 +0000",
+      "freshness_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
       "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
       "description": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previously unseen, long-horizon tasks from a single video demonstration. The model, launched last week, uses [&#8230;]",
@@ -9840,14 +9848,6 @@
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-firefox/",
       "description": "It’s a new way into the cloud. GeForce NOW welcomes Firefox support to the cloud, opening up another way to jump into high-performance PC gaming straight from the browser, starting today. Whether on a school laptop or everyday PC, it’s now even easier to play supported PC games without downloading a dedicated app. Plus, discover [&#8230;]",
       "published": "Thu, 20 Aug 2026 13:00:24 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Securing the Infrastructure of Intelligence",
-      "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
-      "description": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factories require a full stack of critical resources: advanced chips, packaging, memory and networking — as well as land, power and [&#8230;]",
-      "published": "Mon, 17 Aug 2026 12:34:51 +0000",
       "freshness_score": 0
     }
   ]

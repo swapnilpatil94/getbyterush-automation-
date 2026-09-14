@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-14T14:46:49.328297+00:00",
+  "updated_at": "2026-09-14T17:21:01.957243+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -5157,7 +5157,136 @@
         "story_type": "SECURITY",
         "pre_filter_score": 18
       }
+    },
+    {
+      "content_id": "cand-ac61e23b54e8eadd",
+      "topic": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "summary": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information [&#8230;]",
+      "content_type": "LAST_24H",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "published_at": "Mon, 14 Sep 2026 15:00:52 +0000",
+      "discovered_at": "2026-09-14T17:21:01.950045+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 3,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 58,
+      "raw": {
+        "source": "NVIDIA Blog",
+        "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+        "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+        "description": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information [&#8230;]",
+        "published": "Mon, 14 Sep 2026 15:00:52 +0000",
+        "freshness_score": 10,
+        "relevance_score": 16,
+        "impact_score": 0,
+        "story_type": "AI_AGENTS",
+        "pre_filter_score": 26
+      }
+    },
+    {
+      "content_id": "cand-64d27ae09e7359a8",
+      "topic": "DevFest is back",
+      "title": "DevFest is back",
+      "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "content_type": "LAST_24H",
+      "source": "Google AI Blog",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "published_at": "Mon, 14 Sep 2026 16:00:00 +0000",
+      "discovered_at": "2026-09-14T17:21:01.952976+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 5,
+      "share_score": 4,
+      "information_value": 6,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 46,
+      "raw": {
+        "source": "Google AI Blog",
+        "title": "DevFest is back",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+        "description": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+        "published": "Mon, 14 Sep 2026 16:00:00 +0000",
+        "freshness_score": 10,
+        "relevance_score": 7,
+        "impact_score": 4,
+        "story_type": "AI_AGENTS",
+        "pre_filter_score": 21
+      }
+    },
+    {
+      "content_id": "cand-284ec8ff257c9832",
+      "topic": "How Fyxer built an AI executive assistant people trust",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/fyxer",
+      "published_at": "Mon, 14 Sep 2026 12:00:00 GMT",
+      "discovered_at": "2026-09-14T17:21:01.956746+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 5,
+      "share_score": 4,
+      "information_value": 8,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 50,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "How Fyxer built an AI executive assistant people trust",
+        "url": "https://openai.com/index/fyxer",
+        "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+        "published": "Mon, 14 Sep 2026 12:00:00 GMT",
+        "freshness_score": 10,
+        "relevance_score": 9,
+        "impact_score": 2,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 21
+      }
     }
   ],
-  "count": 130
+  "count": 133
 }

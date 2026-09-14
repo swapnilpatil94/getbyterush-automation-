@@ -1,30 +1,54 @@
 {
-  "generated_at": "2026-09-14T11:23:32.093392+00:00",
+  "generated_at": "2026-09-14T17:21:01.843087+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "description": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information [&#8230;]",
+      "published": "Mon, 14 Sep 2026 15:00:52 +0000",
+      "freshness_score": 10,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 26
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "description": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "published": "Mon, 14 Sep 2026 16:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 7,
+      "impact_score": 4,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "published": "Mon, 14 Sep 2026 12:00:00 GMT",
+      "freshness_score": 10,
+      "relevance_score": 9,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21
+    },
     {
       "source": "OpenAI News",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "description": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "published": "Mon, 14 Sep 2026 00:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 12,
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 24
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "description": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
-      "published": "Fri, 11 Sep 2026 16:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
+      "pre_filter_score": 23
     },
     {
       "source": "NVIDIA Blog",
@@ -936,30 +960,6 @@
       "relevance_score": 13,
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "published": "Wed, 17 Jun 2026 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Evaluating chain-of-thought monitorability",
-      "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
-      "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoning is far more effective than monitoring outputs alone, offering a promising path toward scalable control as AI systems grow more capable.",
-      "published": "Thu, 18 Dec 2025 12:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "BUSINESS",
       "pre_filter_score": 18
     }
   ]
