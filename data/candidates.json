@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T02:44:29.663365+00:00",
+  "generated_at": "2026-09-14T11:23:32.093392+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,21 +8,9 @@
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "description": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "published": "Mon, 14 Sep 2026 00:00:00 GMT",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 12,
       "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 25
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-      "published": "Fri, 11 Sep 2026 10:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 12,
-      "impact_score": 7,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 24
     },
@@ -556,18 +544,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Bet Bot: Gambling spam network",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
-      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "STORM-0817: Iran-linked malware and scraping activity",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
       "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
@@ -576,6 +552,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bet Bot: Gambling spam network",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -664,9 +652,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -676,9 +664,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -960,6 +948,18 @@
       "relevance_score": 13,
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Evaluating chain-of-thought monitorability",
+      "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
+      "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoning is far more effective than monitoring outputs alone, offering a promising path toward scalable control as AI systems grow more capable.",
+      "published": "Thu, 18 Dec 2025 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "BUSINESS",
       "pre_filter_score": 18
     }
   ]
