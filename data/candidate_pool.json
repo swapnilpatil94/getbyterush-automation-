@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-15T08:17:10.087858+00:00",
+  "updated_at": "2026-09-15T10:47:18.373452+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -2479,49 +2479,6 @@
         "impact_score": 5,
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 18
-      }
-    },
-    {
-      "content_id": "cand-029967daf2e28f30",
-      "topic": "Polimill builds Japan's next-generation public AI infrastructure",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/polimill",
-      "published_at": "Mon, 31 Aug 2026 07:00:00 GMT",
-      "discovered_at": "2026-09-01T02:56:04.729573+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 4,
-      "novelty": 0,
-      "visual_potential": 3,
-      "curiosity_score": 0,
-      "save_score": 5,
-      "share_score": 3,
-      "information_value": 12,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 50,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Polimill builds Japan's next-generation public AI infrastructure",
-        "url": "https://openai.com/index/polimill",
-        "description": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-        "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-        "freshness_score": 8,
-        "relevance_score": 12,
-        "impact_score": 0,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 20
       }
     },
     {
@@ -5288,6 +5245,49 @@
         "impact_score": 0,
         "story_type": "RESEARCH",
         "pre_filter_score": 14
+      }
+    },
+    {
+      "content_id": "cand-903fbe2358d265fd",
+      "topic": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+      "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+      "summary": "",
+      "content_type": "LAST_24H",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
+      "published_at": "Tue, 15 Sep 2026 09:00:42 +0000",
+      "discovered_at": "2026-09-15T10:47:18.373045+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 5,
+      "share_score": 6,
+      "information_value": 7,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 51,
+      "raw": {
+        "source": "NVIDIA Blog",
+        "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+        "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
+        "description": "",
+        "published": "Tue, 15 Sep 2026 09:00:42 +0000",
+        "freshness_score": 10,
+        "relevance_score": 9,
+        "impact_score": 5,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 24
       }
     }
   ],
