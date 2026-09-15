@@ -49,6 +49,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 4,
+      "slot": "night",
+      "content_id": "cand-907419e0a1073baf",
+      "topic": "Surging developer productivity with custom GPTs",
+      "category": "DATA_RESEARCH",
+      "score": 56,
+      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/paf",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -74,7 +89,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-907419e0a1073baf",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 4
 }

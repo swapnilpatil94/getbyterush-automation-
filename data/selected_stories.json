@@ -2,26 +2,26 @@
   "date": "2026-09-15",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
-      "description": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information [&#8230;]",
-      "published": "Mon, 14 Sep 2026 15:00:52 +0000",
-      "freshness_score": 10,
+      "source": "OpenAI News",
+      "title": "Surging developer productivity with custom GPTs",
+      "url": "https://openai.com/index/paf",
+      "description": "Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Enterprise into the grit:lab coding academy (gritlab.ax), training the next generation of software developers using an AI-augmented, systems-architecture mindset from day one. In addition to the wide range of use cases for developers and grit:lab students, 70% of Paf employees actively use ChatGPT Enterprise, spanning business teams like finance, HR, marketing, and customer support.",
+      "published": "Tue, 18 Jun 2024 08:45:00 GMT",
+      "freshness_score": 0,
       "relevance_score": 16,
-      "impact_score": 0,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 26,
-      "content_id": "cand-ac61e23b54e8eadd",
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19,
+      "content_id": "cand-907419e0a1073baf",
       "selection_meta": {
-        "rank": 3,
+        "rank": 4,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 55,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
-        "source": "NVIDIA Blog"
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "DATA_RESEARCH",
+        "quality_score": 56,
+        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
+        "source": "OpenAI News"
       }
     }
   ]
