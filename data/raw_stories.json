@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-09-15T10:47:18.076832+00:00",
+  "generated_at": "2026-09-15T15:59:41.252191+00:00",
   "count": 1231,
   "stories": [
+    {
+      "source": "Google AI Blog",
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "description": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+      "published": "Tue, 15 Sep 2026 13:00:00 +0000",
+      "freshness_score": 10
+    },
     {
       "source": "Google AI Blog",
       "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
@@ -155,20 +163,12 @@
       "freshness_score": 0
     },
     {
-      "source": "Google AI Blog",
-      "title": "5 ways AI Mode in Search helps you enjoy the real world",
-      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-      "description": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
-      "published": "Tue, 28 Jul 2026 13:00:00 +0000",
-      "freshness_score": 0
-    },
-    {
       "source": "OpenAI News",
       "title": "How Fyxer built an AI executive assistant people trust",
       "url": "https://openai.com/index/fyxer",
       "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
       "published": "Mon, 14 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -9712,7 +9712,7 @@
       "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
       "description": "",
       "published": "Tue, 15 Sep 2026 09:00:42 +0000",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "NVIDIA Blog",
@@ -9720,7 +9720,7 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
       "description": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information [&#8230;]",
       "published": "Mon, 14 Sep 2026 15:00:52 +0000",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "NVIDIA Blog",
