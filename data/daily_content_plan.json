@@ -1,102 +1,31 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-282c6641ce9776a2",
-      "topic": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
+      "content_id": "cand-eeb658bab83cd57c",
+      "topic": "Pioneering an AI clinical copilot with Penda Health",
       "category": "EVERGREEN_VALUE",
-      "score": 56,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 56/100)",
+      "score": 55,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/trustbank",
+      "source_url": "https://openai.com/index/ai-clinical-copilot-penda-health",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260914014653-trustbank-deploys-op-4c5744"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-7bf4fdb278040339",
-      "topic": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "category": "LAST_24H",
-      "score": 53,
-      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 53/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260914081705-perplexity-trusts-gp-fe0b6e"
-    },
-    {
-      "rank": 3,
-      "slot": "evening",
-      "content_id": "cand-d81bc6fa6f7b0682",
-      "topic": "Building an early warning system for LLM-aided biological threat creation",
-      "category": "INTERNET_HUMAN_TECH_BEHAVIOR",
-      "score": 54,
-      "reason": "INTERNET_HUMAN_TECH_BEHAVIOR — SURPRISING, PROVABLE (score 54/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260914121751-openai-tests-gpt-4-f-a1e506"
-    },
-    {
-      "rank": 4,
-      "slot": "night",
-      "content_id": "cand-b0ae0f985eb1d4a2",
-      "topic": "Understanding prompt injections: a frontier security challenge",
-      "category": "DATA_RESEARCH",
-      "score": 56,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/prompt-injections",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260914144643-understanding-prompt-aa9044"
+      "content_state_id": "260915014636-openai-and-penda-hea-001ab2"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-282c6641ce9776a2",
+      "content_id": "cand-eeb658bab83cd57c",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-7bf4fdb278040339",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "SELECTED",
-      "content_id": "cand-d81bc6fa6f7b0682",
-      "label": "High-attention window"
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-b0ae0f985eb1d4a2",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 4
+  "selected_count": 1
 }

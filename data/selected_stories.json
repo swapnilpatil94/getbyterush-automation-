@@ -1,26 +1,26 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Understanding prompt injections: a frontier security challenge",
-      "url": "https://openai.com/index/prompt-injections",
-      "description": "Prompt injections are a frontier security challenge for AI systems. Learn how these attacks work and how OpenAI is advancing research, training models, and building safeguards for users.",
-      "published": "Fri, 07 Nov 2025 11:30:00 GMT",
+      "title": "Pioneering an AI clinical copilot with Penda Health",
+      "url": "https://openai.com/index/ai-clinical-copilot-penda-health",
+      "description": "OpenAI and Penda Health debut an AI clinical copilot that cuts diagnostic errors by 16% in real-world use—offering a new path for safe, effective AI in healthcare.",
+      "published": "Tue, 22 Jul 2025 10:00:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 5,
-      "story_type": "RESEARCH",
+      "relevance_score": 11,
+      "impact_score": 11,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 22,
-      "content_id": "cand-b0ae0f985eb1d4a2",
+      "content_id": "cand-eeb658bab83cd57c",
       "selection_meta": {
-        "rank": 4,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "DATA_RESEARCH",
-        "quality_score": 56,
-        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 55,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
         "source": "OpenAI News"
       }
     }
