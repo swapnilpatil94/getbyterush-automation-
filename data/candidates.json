@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-09-14T21:14:48.221649+00:00",
+  "generated_at": "2026-09-15T02:47:29.811383+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "Google AI Blog",
-      "title": "DevFest is back",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "description": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-      "published": "Mon, 14 Sep 2026 16:00:00 +0000",
-      "freshness_score": 10,
-      "relevance_score": 7,
-      "impact_score": 4,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
-      "description": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
-      "published": "Mon, 14 Sep 2026 19:00:00 +0000",
-      "freshness_score": 10,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 14
-    },
     {
       "source": "NVIDIA Blog",
       "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
@@ -39,16 +15,40 @@
       "pre_filter_score": 25
     },
     {
+      "source": "Google AI Blog",
+      "title": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "description": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "published": "Mon, 14 Sep 2026 16:00:00 +0000",
+      "freshness_score": 9,
+      "relevance_score": 7,
+      "impact_score": 4,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "description": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+      "published": "Mon, 14 Sep 2026 19:00:00 +0000",
+      "freshness_score": 9,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 13
+    },
+    {
       "source": "OpenAI News",
       "title": "How Fyxer built an AI executive assistant people trust",
       "url": "https://openai.com/index/fyxer",
       "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
       "published": "Mon, 14 Sep 2026 12:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 9,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20
+      "pre_filter_score": 19
     },
     {
       "source": "OpenAI News",
@@ -56,11 +56,11 @@
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "description": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "published": "Mon, 14 Sep 2026 00:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 12,
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 23
+      "pre_filter_score": 21
     },
     {
       "source": "NVIDIA Blog",
