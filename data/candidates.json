@@ -1,18 +1,66 @@
 {
-  "generated_at": "2026-09-15T15:59:41.509612+00:00",
+  "generated_at": "2026-09-15T20:43:02.254805+00:00",
   "count": 80,
   "stories": [
     {
-      "source": "Google AI Blog",
-      "title": "New insights from Google’s AI & Economy ATLAS",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-      "description": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
-      "published": "Tue, 15 Sep 2026 13:00:00 +0000",
+      "source": "NVIDIA Blog",
+      "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+      "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+      "description": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers [&#8230;]",
+      "published": "Tue, 15 Sep 2026 16:55:59 +0000",
       "freshness_score": 10,
-      "relevance_score": 4,
+      "relevance_score": 7,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 22
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+      "description": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed audience — with more than 8,000 attendees this year, up from 3,500 last year — [&#8230;]",
+      "published": "Tue, 15 Sep 2026 16:55:40 +0000",
+      "freshness_score": 10,
+      "relevance_score": 7,
+      "impact_score": 4,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "AI for Societal Impact",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "description": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+      "published": "Tue, 15 Sep 2026 16:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 5,
+      "impact_score": 5,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "AI for everyone in every language",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "description": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
+      "published": "Tue, 15 Sep 2026 16:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 6,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
+      "pre_filter_score": 16
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Building AI to accelerate science and improve lives",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "description": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
+      "published": "Tue, 15 Sep 2026 16:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 3,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
     },
     {
       "source": "NVIDIA Blog",
@@ -28,27 +76,15 @@
     },
     {
       "source": "Google AI Blog",
-      "title": "DevFest is back",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "description": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-      "published": "Mon, 14 Sep 2026 16:00:00 +0000",
-      "freshness_score": 8,
-      "relevance_score": 7,
-      "impact_score": 4,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
-      "description": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
-      "published": "Mon, 14 Sep 2026 19:00:00 +0000",
-      "freshness_score": 8,
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "description": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+      "published": "Tue, 15 Sep 2026 13:00:00 +0000",
+      "freshness_score": 9,
       "relevance_score": 4,
       "impact_score": 0,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 12
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 13
     },
     {
       "source": "NVIDIA Blog",
@@ -75,6 +111,18 @@
       "pre_filter_score": 21
     },
     {
+      "source": "Google AI Blog",
+      "title": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "description": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "published": "Mon, 14 Sep 2026 16:00:00 +0000",
+      "freshness_score": 6,
+      "relevance_score": 7,
+      "impact_score": 4,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 17
+    },
+    {
       "source": "OpenAI News",
       "title": "How Fyxer built an AI executive assistant people trust",
       "url": "https://openai.com/index/fyxer",
@@ -85,6 +133,18 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 17
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "description": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+      "published": "Mon, 14 Sep 2026 19:00:00 +0000",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 10
     },
     {
       "source": "NVIDIA Blog",
@@ -99,18 +159,6 @@
       "pre_filter_score": 24
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
-      "description": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today, the NVIDIA Vera Rubin rack-scale system NVIDIA Groq [&#8230;]",
-      "published": "Mon, 24 Aug 2026 15:00:41 +0000",
-      "freshness_score": 0,
-      "relevance_score": 20,
-      "impact_score": 10,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 30
-    },
-    {
       "source": "OpenAI News",
       "title": "New funding to build towards AGI",
       "url": "https://openai.com/index/march-funding-updates",
@@ -120,18 +168,6 @@
       "relevance_score": 18,
       "impact_score": 9,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-      "description": "According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request. Why? Consider what happens when an AI agent researches a company for an investment decision. The agent queries financial databases, searches news and filings, invokes a sub-agent to run peer comparisons and model valuations, then synthesizes everything into a [&#8230;]",
-      "published": "Mon, 24 Aug 2026 15:00:19 +0000",
-      "freshness_score": 0,
-      "relevance_score": 19,
-      "impact_score": 8,
-      "story_type": "AI_AGENTS",
       "pre_filter_score": 27
     },
     {
@@ -604,18 +640,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "STORM-0817: Iran-linked malware and scraping activity",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "Bet Bot: Gambling spam network",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
       "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
@@ -624,6 +648,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "STORM-0817: Iran-linked malware and scraping activity",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "SECURITY",
       "pre_filter_score": 20
     },
     {
@@ -924,42 +960,6 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Bringing ChatGPT to GenAI.mil",
-      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
-      "description": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
-      "published": "Mon, 09 Feb 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
-      "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
-      "description": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
-      "published": "Thu, 05 Feb 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Cyber threat actors: AI-assisted intrusion research",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors",
-      "description": "OpenAI banned accounts potentially associated with publicly reported DPRK-affiliated threat actors using AI to research intrusion tooling, phishing, malware, and cryptocurrency targeting.",
-      "published": "Sat, 01 Feb 2025 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "SECURITY",
       "pre_filter_score": 18
     }
   ]
