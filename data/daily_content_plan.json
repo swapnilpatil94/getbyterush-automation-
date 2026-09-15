@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260915014636-openai-and-penda-hea-001ab2"
+    },
+    {
+      "rank": 2,
+      "slot": "midmorning",
+      "content_id": "cand-90c464fd6629c470",
+      "topic": "Introducing Aardvark: OpenAI’s agentic security researcher",
+      "category": "PRODUCT_TOOL",
+      "score": 53,
+      "reason": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 53/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-aardvark",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260915051708-openai-introduces-aa-886a0b"
     }
   ],
   "slots": {
@@ -25,7 +41,12 @@
       "status": "SELECTED",
       "content_id": "cand-eeb658bab83cd57c",
       "label": "Morning discovery"
+    },
+    "midmorning": {
+      "status": "SELECTED",
+      "content_id": "cand-90c464fd6629c470",
+      "label": "Curiosity + saves"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
