@@ -2,26 +2,26 @@
   "date": "2026-09-15",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Introducing Aardvark: OpenAI’s agentic security researcher",
-      "url": "https://openai.com/index/introducing-aardvark",
-      "description": "OpenAI introduces Aardvark, an AI-powered security researcher that autonomously finds, validates, and helps fix software vulnerabilities at scale. The system is in private beta—sign up to join early testing.",
-      "published": "Thu, 30 Oct 2025 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 18,
-      "impact_score": 3,
+      "source": "NVIDIA Blog",
+      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "description": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information [&#8230;]",
+      "published": "Mon, 14 Sep 2026 15:00:52 +0000",
+      "freshness_score": 10,
+      "relevance_score": 16,
+      "impact_score": 0,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 21,
-      "content_id": "cand-90c464fd6629c470",
+      "pre_filter_score": 26,
+      "content_id": "cand-ac61e23b54e8eadd",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "midmorning",
-        "slot_label": "Curiosity + saves",
-        "category": "PRODUCT_TOOL",
-        "quality_score": 53,
-        "why_selected": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 53/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 55,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]

@@ -34,6 +34,21 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260915051708-openai-introduces-aa-886a0b"
+    },
+    {
+      "rank": 3,
+      "slot": "afternoon",
+      "content_id": "cand-ac61e23b54e8eadd",
+      "topic": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "category": "LAST_24H",
+      "score": 55,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -46,7 +61,12 @@
       "status": "SELECTED",
       "content_id": "cand-90c464fd6629c470",
       "label": "Curiosity + saves"
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-ac61e23b54e8eadd",
+      "label": "Freshness"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }

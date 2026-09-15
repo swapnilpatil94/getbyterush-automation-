@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-15T05:17:14.225548+00:00",
+  "updated_at": "2026-09-15T08:17:10.087858+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -5145,7 +5145,7 @@
         "website_demo_possible": false,
         "visual_demo_possible": false
       },
-      "status": "POOLED",
+      "status": "EDITORIAL_REJECTED",
       "score": 58,
       "raw": {
         "source": "NVIDIA Blog",
@@ -5158,7 +5158,8 @@
         "impact_score": 0,
         "story_type": "AI_AGENTS",
         "pre_filter_score": 26
-      }
+      },
+      "rejected_at": "2026-09-15T08:17:10.087790+00:00"
     },
     {
       "content_id": "cand-64d27ae09e7359a8",
