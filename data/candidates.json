@@ -1,18 +1,30 @@
 {
-  "generated_at": "2026-09-15T20:43:02.254805+00:00",
+  "generated_at": "2026-09-16T02:42:24.078664+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+      "description": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into [&#8230;]",
+      "published": "Tue, 15 Sep 2026 22:24:34 +0000",
+      "freshness_score": 10,
+      "relevance_score": 8,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21
+    },
     {
       "source": "NVIDIA Blog",
       "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
       "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
       "description": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers [&#8230;]",
       "published": "Tue, 15 Sep 2026 16:55:59 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 7,
       "impact_score": 5,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 22
+      "pre_filter_score": 21
     },
     {
       "source": "NVIDIA Blog",
@@ -20,11 +32,11 @@
       "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
       "description": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed audience — with more than 8,000 attendees this year, up from 3,500 last year — [&#8230;]",
       "published": "Tue, 15 Sep 2026 16:55:40 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 7,
       "impact_score": 4,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 21
+      "pre_filter_score": 20
     },
     {
       "source": "Google AI Blog",
@@ -32,11 +44,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
       "description": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
       "published": "Tue, 15 Sep 2026 16:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 5,
       "impact_score": 5,
       "story_type": "RESEARCH",
-      "pre_filter_score": 20
+      "pre_filter_score": 19
     },
     {
       "source": "Google AI Blog",
@@ -44,11 +56,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
       "description": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
       "published": "Tue, 15 Sep 2026 16:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
+      "pre_filter_score": 15
     },
     {
       "source": "Google AI Blog",
@@ -56,11 +68,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
       "description": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
       "published": "Tue, 15 Sep 2026 16:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 3,
       "impact_score": 2,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 15
+      "pre_filter_score": 14
     },
     {
       "source": "NVIDIA Blog",
@@ -68,11 +80,11 @@
       "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
       "description": "",
       "published": "Tue, 15 Sep 2026 09:00:42 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 9,
       "impact_score": 5,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 23
+      "pre_filter_score": 22
     },
     {
       "source": "Google AI Blog",
@@ -80,11 +92,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
       "description": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
       "published": "Tue, 15 Sep 2026 13:00:00 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 4,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 13
+      "pre_filter_score": 12
     },
     {
       "source": "NVIDIA Blog",
@@ -97,18 +109,6 @@
       "impact_score": 0,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 22
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "description": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "published": "Mon, 14 Sep 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 12,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
     },
     {
       "source": "Google AI Blog",
@@ -145,6 +145,18 @@
       "impact_score": 0,
       "story_type": "RESEARCH",
       "pre_filter_score": 10
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "description": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "published": "Mon, 14 Sep 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 12,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 20
     },
     {
       "source": "NVIDIA Blog",
@@ -948,18 +960,6 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI announces Frontier Alliance Partners",
-      "url": "https://openai.com/index/frontier-alliance-partners",
-      "description": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
-      "published": "Mon, 23 Feb 2026 05:30:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
       "pre_filter_score": 18
     }
   ]

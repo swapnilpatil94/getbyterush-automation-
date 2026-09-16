@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T20:43:02.073936+00:00",
+  "generated_at": "2026-09-16T02:42:23.849937+00:00",
   "count": 1231,
   "stories": [
     {
@@ -8,7 +8,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
       "description": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
       "published": "Tue, 15 Sep 2026 16:00:00 +0000",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "Google AI Blog",
@@ -16,7 +16,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
       "description": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
       "published": "Tue, 15 Sep 2026 16:00:00 +0000",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "Google AI Blog",
@@ -24,7 +24,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
       "description": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
       "published": "Tue, 15 Sep 2026 16:00:00 +0000",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "Google AI Blog",
@@ -32,7 +32,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
       "description": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
       "published": "Tue, 15 Sep 2026 13:00:00 +0000",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "Google AI Blog",
@@ -176,7 +176,7 @@
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "description": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "published": "Mon, 14 Sep 2026 00:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -9708,11 +9708,19 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+      "description": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into [&#8230;]",
+      "published": "Tue, 15 Sep 2026 22:24:34 +0000",
+      "freshness_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
       "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
       "description": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers [&#8230;]",
       "published": "Tue, 15 Sep 2026 16:55:59 +0000",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "NVIDIA Blog",
@@ -9720,7 +9728,7 @@
       "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
       "description": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed audience — with more than 8,000 attendees this year, up from 3,500 last year — [&#8230;]",
       "published": "Tue, 15 Sep 2026 16:55:40 +0000",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "NVIDIA Blog",
@@ -9728,7 +9736,7 @@
       "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
       "description": "",
       "published": "Tue, 15 Sep 2026 09:00:42 +0000",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "NVIDIA Blog",
@@ -9840,14 +9848,6 @@
       "url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/",
       "description": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark and Ubisoft are among the latest game publishers and developers bringing their blockbuster titles to NVIDIA RTX Spark ahead of its launch [&#8230;]",
       "published": "Tue, 25 Aug 2026 15:30:48 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "How XPUs Meet a World-Class AI Factory",
-      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
-      "description": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime. That requires AI infrastructure designed and built as a full factory, not a collection of individual accelerators. Hyperscalers and AI-native companies building custom XPUs must consider [&#8230;]",
-      "published": "Mon, 24 Aug 2026 15:00:54 +0000",
       "freshness_score": 0
     }
   ]
