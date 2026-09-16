@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-16T15:52:49.025897+00:00",
+  "updated_at": "2026-09-16T20:43:41.681908+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -2653,49 +2653,6 @@
         "relevance_score": 11,
         "impact_score": 2,
         "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 19
-      }
-    },
-    {
-      "content_id": "cand-8d99445d715bb46e",
-      "topic": "Proactive cyber defense for governments and enterprises",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "content_type": "LAST_24H",
-      "source": "Google AI Blog",
-      "source_url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "published_at": "Wed, 02 Sep 2026 15:40:00 +0000",
-      "discovered_at": "2026-09-02T20:21:34.583037+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 5,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 0,
-      "save_score": 4,
-      "share_score": 5,
-      "information_value": 5,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 41,
-      "raw": {
-        "source": "Google AI Blog",
-        "title": "Proactive cyber defense for governments and enterprises",
-        "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-        "description": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-        "published": "Wed, 02 Sep 2026 15:40:00 +0000",
-        "freshness_score": 10,
-        "relevance_score": 6,
-        "impact_score": 3,
-        "story_type": "TECH_NEWS",
         "pre_filter_score": 19
       }
     },
@@ -5548,7 +5505,93 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 18
       }
+    },
+    {
+      "content_id": "cand-cb05b088c38be51d",
+      "topic": "How to connect AI usage to business value",
+      "title": "How to connect AI usage to business value",
+      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "published_at": "Wed, 16 Sep 2026 12:00:00 GMT",
+      "discovered_at": "2026-09-16T20:43:41.677513+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 8,
+      "share_score": 4,
+      "information_value": 8,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 52,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "How to connect AI usage to business value",
+        "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+        "description": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+        "published": "Wed, 16 Sep 2026 12:00:00 GMT",
+        "freshness_score": 9,
+        "relevance_score": 9,
+        "impact_score": 2,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 20
+      }
+    },
+    {
+      "content_id": "cand-acd10a69af2b9202",
+      "topic": "How workers are unlocking new ways of working",
+      "title": "How workers are unlocking new ways of working",
+      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "published_at": "Wed, 16 Sep 2026 09:00:00 GMT",
+      "discovered_at": "2026-09-16T20:43:41.681413+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 5,
+      "share_score": 4,
+      "information_value": 6,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 45,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "How workers are unlocking new ways of working",
+        "url": "https://openai.com/index/unlocking-new-ways-of-working",
+        "description": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+        "published": "Wed, 16 Sep 2026 09:00:00 GMT",
+        "freshness_score": 9,
+        "relevance_score": 7,
+        "impact_score": 2,
+        "story_type": "RESEARCH",
+        "pre_filter_score": 18
+      }
     }
   ],
-  "count": 139
+  "count": 140
 }
