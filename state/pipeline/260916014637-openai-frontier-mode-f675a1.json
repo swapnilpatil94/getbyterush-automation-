@@ -1,0 +1,49 @@
+{
+  "content_id": "260916014637-openai-frontier-mode-f675a1",
+  "story_title": "OpenAI Frontier Models and Codex Launch on AWS",
+  "source_url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-16T01:46:37.676200+00:00",
+  "updated_at": "2026-09-16T01:46:41.972711+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-16T01:46:37.676206+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-16T01:46:37.677426+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-16T01:46:37.678629+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-16T01:46:37.679150+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-16T01:46:38.594394+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-16T01:46:41.972726+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-16/014637-openai-frontier-models-and-codex-launch-on-aws",
+  "publish": {},
+  "story_path": "data/pipeline/260916014637-openai-frontier-mode-f675a1.json"
+}

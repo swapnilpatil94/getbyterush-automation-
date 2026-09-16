@@ -2,6 +2,35 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Frontier Models and Codex Launch on AWS",
+      "source_title": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "source": "OpenAI News",
+      "normalized_title": "openai frontier models and codex launch on aws",
+      "normalized_source_title": "openai frontier models and codex are now available on aws",
+      "tokens": [
+        "and",
+        "aws",
+        "codex",
+        "frontier",
+        "launch",
+        "models",
+        "openai"
+      ],
+      "source_tokens": [
+        "and",
+        "are",
+        "available",
+        "aws",
+        "codex",
+        "frontier",
+        "models",
+        "now",
+        "openai"
+      ],
+      "recorded_at": "2026-09-16T01:46:37.649477+00:00"
+    },
+    {
       "title": "OpenAI Introduces Aardvark: Autonomous AI Security Researcher",
       "source_title": "Introducing Aardvark: OpenAI’s agentic security researcher",
       "url": "https://openai.com/index/introducing-aardvark",

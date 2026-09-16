@@ -1,100 +1,31 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-eeb658bab83cd57c",
-      "topic": "Pioneering an AI clinical copilot with Penda Health",
+      "content_id": "cand-337f58b6431ead39",
+      "topic": "OpenAI frontier models and Codex are now available on AWS",
       "category": "EVERGREEN_VALUE",
       "score": 55,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/ai-clinical-copilot-penda-health",
+      "source_url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260915014636-openai-and-penda-hea-001ab2"
-    },
-    {
-      "rank": 2,
-      "slot": "midmorning",
-      "content_id": "cand-90c464fd6629c470",
-      "topic": "Introducing Aardvark: OpenAI’s agentic security researcher",
-      "category": "PRODUCT_TOOL",
-      "score": 53,
-      "reason": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 53/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/introducing-aardvark",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260915051708-openai-introduces-aa-886a0b"
-    },
-    {
-      "rank": 3,
-      "slot": "afternoon",
-      "content_id": "cand-ac61e23b54e8eadd",
-      "topic": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "category": "LAST_24H",
-      "score": 55,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 4,
-      "slot": "night",
-      "content_id": "cand-907419e0a1073baf",
-      "topic": "Surging developer productivity with custom GPTs",
-      "category": "DATA_RESEARCH",
-      "score": 56,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/paf",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
+      "content_state_id": "260916014637-openai-frontier-mode-f675a1"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-eeb658bab83cd57c",
+      "content_id": "cand-337f58b6431ead39",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "SELECTED",
-      "content_id": "cand-90c464fd6629c470",
-      "label": "Curiosity + saves"
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-ac61e23b54e8eadd",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-907419e0a1073baf",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 4
+  "selected_count": 1
 }

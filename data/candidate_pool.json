@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-15T20:43:02.354821+00:00",
+  "updated_at": "2026-09-16T01:46:41.994602+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -650,7 +650,7 @@
       "information_value": 14,
       "credibility": 5,
       "experiment_possible": false,
-      "status": "POOLED",
+      "status": "SELECTED",
       "score": 55,
       "raw": {
         "source": "OpenAI News",
@@ -663,7 +663,8 @@
         "impact_score": 6,
         "story_type": "BUSINESS",
         "pre_filter_score": 22
-      }
+      },
+      "selected_at": "2026-09-16T01:46:41.994551+00:00"
     },
     {
       "content_id": "cand-3bd579e489786cf9",
