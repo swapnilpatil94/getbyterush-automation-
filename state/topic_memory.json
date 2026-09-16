@@ -2,6 +2,38 @@
   "version": 2,
   "topics": [
     {
+      "title": "University of Manchester Uses NVIDIA Earth-2 AI to Predict U.K. Air Pollution on a Desktop",
+      "source_title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "university of manchester uses nvidia earth 2 ai to predict u k air pollution on a desktop",
+      "normalized_source_title": "university of manchester uses nvidia earth 2 to forecast air pollution across the uk",
+      "tokens": [
+        "air",
+        "desktop",
+        "earth",
+        "manchester",
+        "nvidia",
+        "pollution",
+        "predict",
+        "university",
+        "uses"
+      ],
+      "source_tokens": [
+        "across",
+        "air",
+        "earth",
+        "forecast",
+        "manchester",
+        "nvidia",
+        "pollution",
+        "the",
+        "university",
+        "uses"
+      ],
+      "recorded_at": "2026-09-16T14:46:32.464766+00:00"
+    },
+    {
       "title": "OpenAI Frontier Models and Codex Launch on AWS",
       "source_title": "OpenAI frontier models and Codex are now available on AWS",
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",

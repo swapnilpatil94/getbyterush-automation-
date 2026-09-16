@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260916014637-openai-frontier-mode-f675a1"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-fc302ea53d2f6b2d",
+      "topic": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+      "category": "LAST_24H",
+      "score": 59,
+      "reason": "LAST_24H — HIGHLY_CURIOUS, NEW, PROVABLE (score 59/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260916144632-university-of-manche-3cd4ba"
     }
   ],
   "slots": {
@@ -48,7 +64,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-fc302ea53d2f6b2d",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

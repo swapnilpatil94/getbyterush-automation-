@@ -2,26 +2,26 @@
   "date": "2026-09-16",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "description": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
-      "published": "Mon, 01 Jun 2026 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
+      "source": "NVIDIA Blog",
+      "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+      "description": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the [&#8230;]",
+      "published": "Wed, 16 Sep 2026 05:00:42 +0000",
+      "freshness_score": 10,
+      "relevance_score": 11,
       "impact_score": 6,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 22,
-      "content_id": "cand-337f58b6431ead39",
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 27,
+      "content_id": "cand-fc302ea53d2f6b2d",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 55,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
-        "source": "OpenAI News"
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "LAST_24H",
+        "quality_score": 59,
+        "why_selected": "LAST_24H — HIGHLY_CURIOUS, NEW, PROVABLE (score 59/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]

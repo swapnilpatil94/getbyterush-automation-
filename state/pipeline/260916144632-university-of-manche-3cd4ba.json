@@ -1,0 +1,49 @@
+{
+  "content_id": "260916144632-university-of-manche-3cd4ba",
+  "story_title": "University of Manchester Uses NVIDIA Earth-2 AI to Predict U.K. Air Pollution on a Desktop",
+  "source_url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-16T14:46:32.496385+00:00",
+  "updated_at": "2026-09-16T14:46:37.980454+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-16T14:46:32.496392+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-16T14:46:32.497979+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-16T14:46:32.498630+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-16T14:46:32.499313+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-16T14:46:34.981207+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-16T14:46:37.980467+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-16/144632-university-of-manchester-uses-nvidia-earth-2-ai-to-predict-u-k-air-pollu",
+  "publish": {},
+  "story_path": "data/pipeline/260916144632-university-of-manche-3cd4ba.json"
+}

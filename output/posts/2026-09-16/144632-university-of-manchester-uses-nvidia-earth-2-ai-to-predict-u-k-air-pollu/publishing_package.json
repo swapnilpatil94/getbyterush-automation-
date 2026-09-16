@@ -1,0 +1,97 @@
+{
+  "content_id": "260916144632-university-of-manche-3cd4ba",
+  "story_title": "University of Manchester Uses NVIDIA Earth-2 AI to Predict U.K. Air Pollution on a Desktop",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-16/144632-university-of-manchester-uses-nvidia-earth-2-ai-to-predict-u-k-air-pollu/slides/01.jpg",
+    "output/posts/2026-09-16/144632-university-of-manchester-uses-nvidia-earth-2-ai-to-predict-u-k-air-pollu/slides/02.jpg",
+    "output/posts/2026-09-16/144632-university-of-manchester-uses-nvidia-earth-2-ai-to-predict-u-k-air-pollu/slides/03.jpg",
+    "output/posts/2026-09-16/144632-university-of-manchester-uses-nvidia-earth-2-ai-to-predict-u-k-air-pollu/slides/04.jpg",
+    "output/posts/2026-09-16/144632-university-of-manchester-uses-nvidia-earth-2-ai-to-predict-u-k-air-pollu/slides/05.jpg",
+    "output/posts/2026-09-16/144632-university-of-manchester-uses-nvidia-earth-2-ai-to-predict-u-k-air-pollu/slides/06.jpg",
+    "output/posts/2026-09-16/144632-university-of-manchester-uses-nvidia-earth-2-ai-to-predict-u-k-air-pollu/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Simulating air pollution chemistry used to lock up multi-million dollar supercomputers for weeks. Manchester physicists just changed the math.\n\nBy applying NVIDIA Earth-2 generative AI downscaling models (CorrDiff and StormCast), researchers trained a nationwide UK pollution model in just 48 hours on Isambard-AI—and pushed real-time inference down to a desktop DGX Spark workstation.\n\nInstead of reacting to toxic air days late, health agencies can now simulate policy changes and alert vulnerable patients before smog hits their street.\n\nFull breakdown inside.  Swipe through for the technical mechanics.\n\n#GetByteRush #AI #NVIDIA #Earth2 #ClimateTech #Supercomputing #ArtificialIntelligence #TechNews",
+  "caption_for_publish": "Simulating air pollution chemistry used to lock up multi-million dollar supercomputers for weeks. Manchester physicists just changed the math.\n\nBy applying NVIDIA Earth-2 generative AI downscaling models (CorrDiff and StormCast), researchers trained a nationwide UK pollution model in just 48 hours on Isambard-AI—and pushed real-time inference down to a desktop DGX Spark workstation.\n\nInstead of reacting to toxic air days late, health agencies can now simulate policy changes and alert vulnerable patients before smog hits their street.\n\nFull breakdown inside.  Swipe through for the technical mechanics.\n\n#GetByteRush #AI #NVIDIA #Earth2 #ClimateTech #Supercomputing #ArtificialIntelligence #TechNews\n\n#GetByteRush #AI #NVIDIA #Earth2 #ClimateTech #Supercomputing #GenerativeAI",
+  "pinned_comment": "Is AI downscaling the biggest unlock for climate science? Let us know your thoughts below. 👇",
+  "alt_text_overall": "GetByteRush carousel explaining how University of Manchester researchers used NVIDIA Earth-2 generative AI models to forecast UK air pollution on a desktop supercomputer.",
+  "alt_text_per_slide": [
+    "Slide 1: AIR POLLUTION MODELS WERE TOO SLOW.. Simulating atmospheric chemistry used to lock up supercomputers for weeks. Generative AI just changed the math. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: CHEMISTRY KILLS SUPERCOMPUTERS.. Traditional atmospheric models get agonizingly slow when chemistry equations enter weather simulations. High-resolution forecasting was simply too expensive to run daily. — shown as a headline over radiating signal rings.",
+    "Slide 3: TRAINED IN 48 HOURS.. Using NVIDIA Earth-2 CorrDiff on the Isambard-AI supercomputer, researchers trained a nationwide 2-3km pollution model on a single 8-GPU node in just two days. — shown as a headline over radiating signal rings.",
+    "Slide 4: FROM SUPERCOMPUTER TO DESKTOP.. The complete Earth-2 generative workflow doesn't require a data center for inference. It now runs directly on a Grace Blackwell-powered DGX Spark desktop workstation. — shown as a headline over radiating signal rings.",
+    "Slide 5: POLICY BEFORE IT HAPPENS.. Instead of measuring smog after people get sick, health services can now model local traffic or factory policy changes before implementing them. — shown as a headline over radiating signal rings.",
+    "Slide 6: THE AGENTIC HEALTH INTERFACE.. The five-year endpoint is an agentic AI query: 'What is the pollution in this neighborhood tomorrow?' An autonomous chain of models ingests edge sensors to give instant answers. — shown as a headline over radiating signal rings.",
+    "Slide 7: OPEN WORKFLOWS CHANGE THE SCALE.. The Manchester team is open-sourcing the data and code. Any global city with a short burst of supercomputer time can now build street-scale pollution models. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#GetByteRush",
+    "#AI",
+    "#NVIDIA",
+    "#Earth2",
+    "#ClimateTech",
+    "#Supercomputing",
+    "#GenerativeAI"
+  ],
+  "cta": "We test the stuff everyone else just explains.",
+  "seo": {
+    "primary_keyword": "University",
+    "secondary_keywords": [
+      "GetByteRush",
+      "AI",
+      "NVIDIA",
+      "Earth2",
+      "ClimateTech",
+      "Supercomputing",
+      "GenerativeAI",
+      "Manchester Uses NVIDIA"
+    ],
+    "search_phrases": [
+      "what is University",
+      "University vs Manchester Uses NVIDIA",
+      "University GetByteRush",
+      "University AI"
+    ],
+    "entities": [
+      "University",
+      "Manchester Uses NVIDIA",
+      "Earth",
+      "AI",
+      "Predict U",
+      "Air Pollution"
+    ]
+  },
+  "source_attribution": {
+    "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+    "sources": [
+      {
+        "name": "NVIDIA Official Blog",
+        "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "Air pollution contributed to an estimated 30,000 deaths in the U.K. last year.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+        "source_name": "NVIDIA Blog / Univ. of Manchester"
+      },
+      {
+        "claim": "Earth-2 CorrDiff trained a U.K.-wide pollution model in 2 days on an 8-GPU Isambard-AI node.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Inference and smaller training runs operate on a DGX Spark desktop AI system.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+        "source_name": "NVIDIA Blog"
+      }
+    ]
+  }
+}
