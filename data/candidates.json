@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-09-17T10:45:09.056156+00:00",
+  "generated_at": "2026-09-17T15:58:45.928419+00:00",
   "count": 80,
   "stories": [
     {
       "source": "NVIDIA Blog",
-      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-      "description": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. [&#8230;]",
-      "published": "Wed, 16 Sep 2026 15:00:48 +0000",
-      "freshness_score": 8,
-      "relevance_score": 15,
-      "impact_score": 5,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 28
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-      "description": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use [&#8230;]",
-      "published": "Wed, 16 Sep 2026 13:00:33 +0000",
-      "freshness_score": 8,
-      "relevance_score": 11,
-      "impact_score": 5,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 24
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Reimagining advertising with AI",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "description": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-      "published": "Wed, 16 Sep 2026 13:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 10,
+      "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
+      "description": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashing limited-time Deluxe Edition sale on [&#8230;]",
+      "published": "Thu, 17 Sep 2026 13:00:55 +0000",
+      "freshness_score": 10,
+      "relevance_score": 4,
       "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How to connect AI usage to business value",
-      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "description": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-      "published": "Wed, 16 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 9,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -76,6 +40,18 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "description": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. [&#8230;]",
+      "published": "Wed, 16 Sep 2026 15:00:48 +0000",
+      "freshness_score": 6,
+      "relevance_score": 15,
+      "impact_score": 5,
+      "story_type": "BUSINESS",
+      "pre_filter_score": 26
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
       "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
       "description": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the [&#8230;]",
@@ -85,6 +61,30 @@
       "impact_score": 6,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 23
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "description": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use [&#8230;]",
+      "published": "Wed, 16 Sep 2026 13:00:33 +0000",
+      "freshness_score": 6,
+      "relevance_score": 11,
+      "impact_score": 5,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 22
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "description": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "published": "Wed, 16 Sep 2026 13:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 10,
+      "impact_score": 3,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 19
     },
     {
       "source": "NVIDIA Blog",
@@ -119,6 +119,18 @@
       "freshness_score": 6,
       "relevance_score": 8,
       "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How to connect AI usage to business value",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "description": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "published": "Wed, 16 Sep 2026 12:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 9,
+      "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 17
     },
@@ -159,30 +171,6 @@
       "pre_filter_score": 12
     },
     {
-      "source": "Google AI Blog",
-      "title": "New insights from Google’s AI & Economy ATLAS",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-      "description": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
-      "published": "Tue, 15 Sep 2026 13:00:00 +0000",
-      "freshness_score": 6,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 10
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
-      "description": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information [&#8230;]",
-      "published": "Mon, 14 Sep 2026 15:00:52 +0000",
-      "freshness_score": 5,
-      "relevance_score": 16,
-      "impact_score": 0,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 21
-    },
-    {
       "source": "NVIDIA Blog",
       "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
       "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
@@ -207,16 +195,16 @@
       "pre_filter_score": 16
     },
     {
-      "source": "OpenAI News",
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "published": "Mon, 14 Sep 2026 12:00:00 GMT",
+      "source": "Google AI Blog",
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "description": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+      "published": "Tue, 15 Sep 2026 13:00:00 +0000",
       "freshness_score": 5,
-      "relevance_score": 9,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 16
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 9
     },
     {
       "source": "Google AI Blog",
@@ -959,6 +947,18 @@
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
