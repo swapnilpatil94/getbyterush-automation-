@@ -50,6 +50,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260917081719-nvidia-vera-rubin-nv-66ba91"
+    },
+    {
+      "rank": 4,
+      "slot": "night",
+      "content_id": "cand-8da77085e24abf46",
+      "topic": "BBVA puts AI at the core of banking with OpenAI",
+      "category": "EVERGREEN_VALUE",
+      "score": 55,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/bbva",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260917144717-bbva-scales-chatgpt--6b8e85"
     }
   ],
   "slots": {
@@ -75,7 +91,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-8da77085e24abf46",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 4
 }

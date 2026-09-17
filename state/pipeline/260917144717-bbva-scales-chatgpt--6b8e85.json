@@ -1,0 +1,49 @@
+{
+  "content_id": "260917144717-bbva-scales-chatgpt--6b8e85",
+  "story_title": "BBVA Scales ChatGPT Enterprise to 100,000 Employees with OpenAI",
+  "source_url": "https://openai.com/index/bbva",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-17T14:47:17.193584+00:00",
+  "updated_at": "2026-09-17T14:47:21.028165+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-17T14:47:17.193591+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-17T14:47:17.194918+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-17T14:47:17.195415+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-17T14:47:17.195943+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-17T14:47:18.130211+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-17T14:47:21.028180+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-17/144717-bbva-scales-chatgpt-enterprise-to-100-000-employees-with-openai",
+  "publish": {},
+  "story_path": "data/pipeline/260917144717-bbva-scales-chatgpt--6b8e85.json"
+}

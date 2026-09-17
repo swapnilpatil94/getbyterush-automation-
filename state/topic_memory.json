@@ -2,6 +2,35 @@
   "version": 2,
   "topics": [
     {
+      "title": "BBVA Scales ChatGPT Enterprise to 100,000 Employees with OpenAI",
+      "source_title": "BBVA puts AI at the core of banking with OpenAI",
+      "url": "https://openai.com/index/bbva",
+      "source": "OpenAI News",
+      "normalized_title": "bbva scales chatgpt enterprise to 100 000 employees with openai",
+      "normalized_source_title": "bbva puts ai at the core of banking with openai",
+      "tokens": [
+        "000",
+        "100",
+        "bbva",
+        "chatgpt",
+        "employees",
+        "enterprise",
+        "openai",
+        "scales",
+        "with"
+      ],
+      "source_tokens": [
+        "banking",
+        "bbva",
+        "core",
+        "openai",
+        "puts",
+        "the",
+        "with"
+      ],
+      "recorded_at": "2026-09-17T14:47:17.165563+00:00"
+    },
+    {
       "title": "NVIDIA Vera Rubin NVL72 MLPerf v6.1 Debut",
       "source_title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
       "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",

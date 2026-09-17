@@ -2,26 +2,26 @@
   "date": "2026-09-17",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-      "description": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. [&#8230;]",
-      "published": "Wed, 16 Sep 2026 15:00:48 +0000",
-      "freshness_score": 10,
+      "source": "OpenAI News",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "url": "https://openai.com/index/bbva",
+      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "freshness_score": 0,
       "relevance_score": 15,
       "impact_score": 5,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 30,
-      "content_id": "cand-f67eb3ce535f905c",
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 20,
+      "content_id": "cand-8da77085e24abf46",
       "selection_meta": {
-        "rank": 3,
+        "rank": 4,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 64,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 64/100)",
-        "source": "NVIDIA Blog"
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 55,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
+        "source": "OpenAI News"
       }
     }
   ]
