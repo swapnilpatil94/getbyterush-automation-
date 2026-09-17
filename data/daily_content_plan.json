@@ -1,75 +1,31 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-337f58b6431ead39",
-      "topic": "OpenAI frontier models and Codex are now available on AWS",
+      "content_id": "cand-d8f7977f20097c65",
+      "topic": "Operator System Card",
       "category": "EVERGREEN_VALUE",
       "score": 55,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "source_url": "https://openai.com/index/operator-system-card",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260916014637-openai-frontier-mode-f675a1"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-fc302ea53d2f6b2d",
-      "topic": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
-      "category": "LAST_24H",
-      "score": 59,
-      "reason": "LAST_24H — HIGHLY_CURIOUS, NEW, PROVABLE (score 59/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260916144632-university-of-manche-3cd4ba"
+      "content_state_id": "260917014745-openai-unveils-opera-bd1bbc"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-337f58b6431ead39",
+      "content_id": "cand-d8f7977f20097c65",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-fc302ea53d2f6b2d",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }

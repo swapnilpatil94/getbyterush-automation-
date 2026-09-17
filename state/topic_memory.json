@@ -2,6 +2,27 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Unveils Operator Agent Safeguards",
+      "source_title": "Operator System Card",
+      "url": "https://openai.com/index/operator-system-card",
+      "source": "OpenAI News",
+      "normalized_title": "openai unveils operator agent safeguards",
+      "normalized_source_title": "operator system card",
+      "tokens": [
+        "agent",
+        "openai",
+        "operator",
+        "safeguards",
+        "unveils"
+      ],
+      "source_tokens": [
+        "card",
+        "operator",
+        "system"
+      ],
+      "recorded_at": "2026-09-17T01:47:45.121885+00:00"
+    },
+    {
       "title": "University of Manchester Uses NVIDIA Earth-2 AI to Predict U.K. Air Pollution on a Desktop",
       "source_title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
       "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
