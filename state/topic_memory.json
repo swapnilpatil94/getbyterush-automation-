@@ -2,6 +2,35 @@
   "version": 2,
   "topics": [
     {
+      "title": "NVIDIA Vera Rubin NVL72 MLPerf v6.1 Debut",
+      "source_title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "nvidia vera rubin nvl72 mlperf v6 1 debut",
+      "normalized_source_title": "nvidia vera rubin nvl72 delivers leading performance in mlperf inference v6 1 debut",
+      "tokens": [
+        "debut",
+        "mlperf",
+        "nvidia",
+        "nvl72",
+        "rubin",
+        "vera"
+      ],
+      "source_tokens": [
+        "debut",
+        "delivers",
+        "inference",
+        "leading",
+        "mlperf",
+        "nvidia",
+        "nvl72",
+        "performance",
+        "rubin",
+        "vera"
+      ],
+      "recorded_at": "2026-09-17T08:17:19.800363+00:00"
+    },
+    {
       "title": "OpenAI and AARP Launch AI Training Across 10 U.S. Cities",
       "source_title": "Helping older adults use AI in everyday life",
       "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",

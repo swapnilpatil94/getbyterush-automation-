@@ -34,6 +34,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260917051701-openai-and-aarp-laun-22efc7"
+    },
+    {
+      "rank": 3,
+      "slot": "afternoon",
+      "content_id": "cand-f67eb3ce535f905c",
+      "topic": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "category": "LAST_24H",
+      "score": 64,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 64/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260917081719-nvidia-vera-rubin-nv-66ba91"
     }
   ],
   "slots": {
@@ -46,7 +62,12 @@
       "status": "SELECTED",
       "content_id": "cand-68d1afec0e728438",
       "label": "Curiosity + saves"
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-f67eb3ce535f905c",
+      "label": "Freshness"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
