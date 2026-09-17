@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260917014745-openai-unveils-opera-bd1bbc"
+    },
+    {
+      "rank": 2,
+      "slot": "midmorning",
+      "content_id": "cand-68d1afec0e728438",
+      "topic": "Helping older adults use AI in everyday life",
+      "category": "EXPERIMENT",
+      "score": 52,
+      "reason": "EXPERIMENT — SURPRISING, PROVABLE, DEMONSTRABLE (score 52/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260917051701-openai-and-aarp-laun-22efc7"
     }
   ],
   "slots": {
@@ -25,7 +41,12 @@
       "status": "SELECTED",
       "content_id": "cand-d8f7977f20097c65",
       "label": "Morning discovery"
+    },
+    "midmorning": {
+      "status": "SELECTED",
+      "content_id": "cand-68d1afec0e728438",
+      "label": "Curiosity + saves"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

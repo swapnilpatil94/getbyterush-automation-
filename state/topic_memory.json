@@ -2,6 +2,32 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI and AARP Launch AI Training Across 10 U.S. Cities",
+      "source_title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "source": "OpenAI News",
+      "normalized_title": "openai and aarp launch ai training across 10 u s cities",
+      "normalized_source_title": "helping older adults use ai in everyday life",
+      "tokens": [
+        "aarp",
+        "across",
+        "and",
+        "cities",
+        "launch",
+        "openai",
+        "training"
+      ],
+      "source_tokens": [
+        "adults",
+        "everyday",
+        "helping",
+        "life",
+        "older",
+        "use"
+      ],
+      "recorded_at": "2026-09-17T05:17:01.034424+00:00"
+    },
+    {
       "title": "OpenAI Unveils Operator Agent Safeguards",
       "source_title": "Operator System Card",
       "url": "https://openai.com/index/operator-system-card",
