@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T02:46:25.430765+00:00",
+  "generated_at": "2026-09-17T10:45:09.056156+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,47 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
       "description": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. [&#8230;]",
       "published": "Wed, 16 Sep 2026 15:00:48 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 15,
       "impact_score": 5,
       "story_type": "BUSINESS",
-      "pre_filter_score": 29
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Our framework for reporting model misalignment",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "description": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-      "published": "Wed, 16 Sep 2026 17:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Helping older adults use AI in everyday life",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "description": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "published": "Wed, 16 Sep 2026 16:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
-      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
-      "description": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the [&#8230;]",
-      "published": "Wed, 16 Sep 2026 05:00:42 +0000",
-      "freshness_score": 8,
-      "relevance_score": 11,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 25
+      "pre_filter_score": 28
     },
     {
       "source": "NVIDIA Blog",
@@ -88,27 +52,39 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How workers are unlocking new ways of working",
-      "url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "description": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-      "published": "Wed, 16 Sep 2026 09:00:00 GMT",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "description": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "published": "Wed, 16 Sep 2026 17:00:00 GMT",
       "freshness_score": 8,
       "relevance_score": 7,
       "impact_score": 2,
-      "story_type": "RESEARCH",
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 17
     },
     {
+      "source": "OpenAI News",
+      "title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "description": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "published": "Wed, 16 Sep 2026 16:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 16
+    },
+    {
       "source": "NVIDIA Blog",
-      "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
-      "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
-      "description": "",
-      "published": "Tue, 15 Sep 2026 09:00:42 +0000",
+      "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+      "description": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the [&#8230;]",
+      "published": "Wed, 16 Sep 2026 05:00:42 +0000",
       "freshness_score": 6,
-      "relevance_score": 9,
-      "impact_score": 5,
+      "relevance_score": 11,
+      "impact_score": 6,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
+      "pre_filter_score": 23
     },
     {
       "source": "NVIDIA Blog",
@@ -159,6 +135,18 @@
       "pre_filter_score": 16
     },
     {
+      "source": "OpenAI News",
+      "title": "How workers are unlocking new ways of working",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "description": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "published": "Wed, 16 Sep 2026 09:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 15
+    },
+    {
       "source": "Google AI Blog",
       "title": "AI for everyone in every language",
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
@@ -193,6 +181,18 @@
       "impact_score": 0,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 21
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+      "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
+      "description": "",
+      "published": "Tue, 15 Sep 2026 09:00:42 +0000",
+      "freshness_score": 5,
+      "relevance_score": 9,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 19
     },
     {
       "source": "Google AI Blog",
