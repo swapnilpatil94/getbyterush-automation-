@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-09-17T15:58:45.928419+00:00",
+  "generated_at": "2026-09-17T20:49:03.727748+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "Google AI Blog",
+      "title": "Making global data easier to explore",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "description": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
+      "published": "Thu, 17 Sep 2026 20:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 16
+    },
     {
       "source": "NVIDIA Blog",
       "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
       "description": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashing limited-time Deluxe Edition sale on [&#8230;]",
       "published": "Thu, 17 Sep 2026 13:00:55 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 4,
       "impact_score": 3,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Our framework for reporting model misalignment",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "description": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-      "published": "Wed, 16 Sep 2026 17:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Helping older adults use AI in everyday life",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "description": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "published": "Wed, 16 Sep 2026 16:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 16
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "description": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "published": "Thu, 17 Sep 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 12
     },
     {
       "source": "NVIDIA Blog",
@@ -88,30 +88,6 @@
     },
     {
       "source": "NVIDIA Blog",
-      "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
-      "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
-      "description": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers [&#8230;]",
-      "published": "Tue, 15 Sep 2026 16:55:59 +0000",
-      "freshness_score": 6,
-      "relevance_score": 7,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
-      "description": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed audience — with more than 8,000 attendees this year, up from 3,500 last year — [&#8230;]",
-      "published": "Tue, 15 Sep 2026 16:55:40 +0000",
-      "freshness_score": 6,
-      "relevance_score": 7,
-      "impact_score": 4,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "NVIDIA Blog",
       "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
       "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
       "description": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into [&#8230;]",
@@ -135,16 +111,16 @@
       "pre_filter_score": 17
     },
     {
-      "source": "Google AI Blog",
-      "title": "AI for Societal Impact",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-      "description": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
-      "published": "Tue, 15 Sep 2026 16:00:00 +0000",
+      "source": "OpenAI News",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "description": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "published": "Wed, 16 Sep 2026 17:00:00 GMT",
       "freshness_score": 6,
-      "relevance_score": 5,
-      "impact_score": 5,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 16
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -159,16 +135,16 @@
       "pre_filter_score": 15
     },
     {
-      "source": "Google AI Blog",
-      "title": "AI for everyone in every language",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-      "description": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
-      "published": "Tue, 15 Sep 2026 16:00:00 +0000",
+      "source": "OpenAI News",
+      "title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "description": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "published": "Wed, 16 Sep 2026 16:00:00 GMT",
       "freshness_score": 6,
-      "relevance_score": 6,
+      "relevance_score": 8,
       "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 14
     },
     {
       "source": "NVIDIA Blog",
@@ -183,16 +159,52 @@
       "pre_filter_score": 19
     },
     {
-      "source": "Google AI Blog",
-      "title": "DevFest is back",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "description": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-      "published": "Mon, 14 Sep 2026 16:00:00 +0000",
+      "source": "NVIDIA Blog",
+      "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+      "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+      "description": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers [&#8230;]",
+      "published": "Tue, 15 Sep 2026 16:55:59 +0000",
+      "freshness_score": 5,
+      "relevance_score": 7,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+      "description": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed audience — with more than 8,000 attendees this year, up from 3,500 last year — [&#8230;]",
+      "published": "Tue, 15 Sep 2026 16:55:40 +0000",
       "freshness_score": 5,
       "relevance_score": 7,
       "impact_score": 4,
-      "story_type": "AI_AGENTS",
+      "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 16
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "AI for Societal Impact",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "description": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+      "published": "Tue, 15 Sep 2026 16:00:00 +0000",
+      "freshness_score": 5,
+      "relevance_score": 5,
+      "impact_score": 5,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "AI for everyone in every language",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "description": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
+      "published": "Tue, 15 Sep 2026 16:00:00 +0000",
+      "freshness_score": 5,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 11
     },
     {
       "source": "Google AI Blog",
@@ -205,30 +217,6 @@
       "impact_score": 0,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 9
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
-      "description": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
-      "published": "Mon, 14 Sep 2026 19:00:00 +0000",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 9
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
-      "description": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is [&#8230;]",
-      "published": "Thu, 10 Sep 2026 16:00:04 +0000",
-      "freshness_score": 2,
-      "relevance_score": 11,
-      "impact_score": 11,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 24
     },
     {
       "source": "OpenAI News",
@@ -408,6 +396,18 @@
       "relevance_score": 11,
       "impact_score": 11,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 22
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+      "description": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is [&#8230;]",
+      "published": "Thu, 10 Sep 2026 16:00:04 +0000",
+      "freshness_score": 0,
+      "relevance_score": 11,
+      "impact_score": 11,
+      "story_type": "RESEARCH",
       "pre_filter_score": 22
     },
     {
