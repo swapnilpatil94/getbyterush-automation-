@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-09-18T02:33:09.418704+00:00",
+  "generated_at": "2026-09-18T10:20:27.749213+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "Google AI Blog",
-      "title": "Making global data easier to explore",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-      "description": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
-      "published": "Thu, 17 Sep 2026 20:00:00 +0000",
-      "freshness_score": 9,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 15
-    },
     {
       "source": "NVIDIA Blog",
       "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
@@ -39,6 +27,18 @@
       "pre_filter_score": 15
     },
     {
+      "source": "Google AI Blog",
+      "title": "Making global data easier to explore",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "description": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
+      "published": "Thu, 17 Sep 2026 20:00:00 +0000",
+      "freshness_score": 8,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 14
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
       "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
@@ -49,18 +49,6 @@
       "impact_score": 5,
       "story_type": "BUSINESS",
       "pre_filter_score": 26
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
-      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
-      "description": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the [&#8230;]",
-      "published": "Wed, 16 Sep 2026 05:00:42 +0000",
-      "freshness_score": 6,
-      "relevance_score": 11,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 23
     },
     {
       "source": "NVIDIA Blog",
@@ -112,18 +100,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How workers are unlocking new ways of working",
-      "url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "description": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-      "published": "Wed, 16 Sep 2026 09:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "OpenAI News",
       "title": "Helping older adults use AI in everyday life",
       "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
       "description": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
@@ -148,15 +124,15 @@
     },
     {
       "source": "NVIDIA Blog",
-      "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
-      "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
-      "description": "",
-      "published": "Tue, 15 Sep 2026 09:00:42 +0000",
+      "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+      "description": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the [&#8230;]",
+      "published": "Wed, 16 Sep 2026 05:00:42 +0000",
       "freshness_score": 5,
-      "relevance_score": 9,
-      "impact_score": 5,
+      "relevance_score": 11,
+      "impact_score": 6,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
+      "pre_filter_score": 22
     },
     {
       "source": "NVIDIA Blog",
@@ -205,6 +181,18 @@
       "impact_score": 5,
       "story_type": "RESEARCH",
       "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How workers are unlocking new ways of working",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "description": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "published": "Wed, 16 Sep 2026 09:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 14
     },
     {
       "source": "Google AI Blog",
@@ -876,6 +864,18 @@
       "relevance_score": 11,
       "impact_score": 8,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "published": "Fri, 11 Sep 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     },
     {
