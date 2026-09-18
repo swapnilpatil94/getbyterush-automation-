@@ -1,0 +1,60 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "grammar": "headline_block",
+      "variant": "bookend",
+      "accent": "#B7E32B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 2,
+      "grammar": "bulletin",
+      "variant": "bulletin",
+      "accent": "#B7E32B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 3,
+      "grammar": "bulletin",
+      "variant": "bulletin",
+      "accent": "#B7E32B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 4,
+      "grammar": "bulletin",
+      "variant": "bulletin",
+      "accent": "#B7E32B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 5,
+      "grammar": "bulletin",
+      "variant": "bulletin",
+      "accent": "#B7E32B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 6,
+      "grammar": "bulletin",
+      "variant": "bulletin",
+      "accent": "#B7E32B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C"
+    },
+    {
+      "number": 7,
+      "grammar": "headline_block",
+      "variant": "bookend",
+      "accent": "#B7E32B",
+      "bg": "#F3EBDD",
+      "fg": "#0B0D0C"
+    }
+  ]
+}

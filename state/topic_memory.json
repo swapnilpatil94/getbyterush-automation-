@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "HiBob turns 2,500 GPTs into product and team growth",
+      "source_title": "HiBob turns 2,500 GPTs into product and team growth",
+      "url": "https://openai.com/index/hibob",
+      "source": "OpenAI News",
+      "normalized_title": "hibob turns 2 500 gpts into product and team growth",
+      "normalized_source_title": "hibob turns 2 500 gpts into product and team growth",
+      "tokens": [
+        "500",
+        "and",
+        "gpts",
+        "growth",
+        "hibob",
+        "into",
+        "product",
+        "team",
+        "turns"
+      ],
+      "source_tokens": [
+        "500",
+        "and",
+        "gpts",
+        "growth",
+        "hibob",
+        "into",
+        "product",
+        "team",
+        "turns"
+      ],
+      "recorded_at": "2026-09-18T01:46:56.345141+00:00"
+    },
+    {
       "title": "BBVA Scales ChatGPT Enterprise to 100,000 Employees with OpenAI",
       "source_title": "BBVA puts AI at the core of banking with OpenAI",
       "url": "https://openai.com/index/bbva",

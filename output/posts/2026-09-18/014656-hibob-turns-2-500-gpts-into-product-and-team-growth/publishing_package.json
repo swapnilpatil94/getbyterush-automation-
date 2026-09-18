@@ -1,0 +1,87 @@
+{
+  "content_id": "260918014656-hibob-turns-2-500-gp-7a57d6",
+  "story_title": "HiBob turns 2,500 GPTs into product and team growth",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-18/014656-hibob-turns-2-500-gpts-into-product-and-team-growth/slides/01.jpg",
+    "output/posts/2026-09-18/014656-hibob-turns-2-500-gpts-into-product-and-team-growth/slides/02.jpg",
+    "output/posts/2026-09-18/014656-hibob-turns-2-500-gpts-into-product-and-team-growth/slides/03.jpg",
+    "output/posts/2026-09-18/014656-hibob-turns-2-500-gpts-into-product-and-team-growth/slides/04.jpg",
+    "output/posts/2026-09-18/014656-hibob-turns-2-500-gpts-into-product-and-team-growth/slides/05.jpg",
+    "output/posts/2026-09-18/014656-hibob-turns-2-500-gpts-into-product-and-team-growth/slides/06.jpg",
+    "output/posts/2026-09-18/014656-hibob-turns-2-500-gpts-into-product-and-team-growth/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "How many AI assistants does a company actually need? HR platform HiBob didn't settle for just one—they deployed 2,500 custom GPTs using ChatGPT Enterprise across their product and teams.\n\nBy tailoring AI tools to micro-workflows rather than forcing staff into a generic chatbot, HiBob boosted internal AI adoption and used those insights to drive new revenue features in the Bob platform.\n\nIs granular micro-AI the true blueprint for enterprise SaaS?",
+  "caption_for_publish": "How many AI assistants does a company actually need? HR platform HiBob didn't settle for just one—they deployed 2,500 custom GPTs using ChatGPT Enterprise across their product and teams.\n\nBy tailoring AI tools to micro-workflows rather than forcing staff into a generic chatbot, HiBob boosted internal AI adoption and used those insights to drive new revenue features in the Bob platform.\n\nIs granular micro-AI the true blueprint for enterprise SaaS?\n\n#GetByteRush #ArtificialIntelligence #ChatGPTEnterprise #OpenAI #EnterpriseTech #SaaS #TechNews",
+  "pinned_comment": "Would you prefer one central enterprise AI bot, or 50 micro-bots tailored to your exact job?",
+  "alt_text_overall": "GetByteRush carousel explaining how HiBob deployed 2,500 custom GPTs using ChatGPT Enterprise to scale team growth and product features.",
+  "alt_text_per_slide": [
+    "Slide 1: ONE COMPANY. 2,500 CUSTOM GPTs.. Most organizations struggle to adopt a single AI bot. HR platform HiBob built thousands of them. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: WHY BUILD 2,500 DIFFERENT AIs?. Instead of forcing employees into one generic assistant, HiBob integrated custom GPTs directly into distinct internal team workflows. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: SCALING THROUGH CHATGPT ENTERPRISE. By leveraging ChatGPT Enterprise, custom GPTs were created to streamline HR workflows, increase internal productivity, and boost overall adoption. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: FROM INTERNAL TOOL TO PRODUCT FEATURE. The strategy extended beyond internal productivity—insights from thousands of GPTs helped power AI capabilities directly inside the core Bob platform. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: THE DEATH OF THE GENERAL ASSISTANT.. 2,500 GPTs proves that hyper-specific, micro-task AI tools outperform generic master chatbots in real enterprise environments. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: WHAT THIS MEANS FOR TECH BUILDERS. Companies that win with AI won't just buy a license for everyone. They will empower teams to construct granular, automated tools tailored to exact jobs. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: SPECIALIZATION SCALES.. The future of AI in software isn't one universal bot. It's thousands of silent, specialized engines working in unison. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#GetByteRush",
+    "#ArtificialIntelligence",
+    "#ChatGPTEnterprise",
+    "#OpenAI",
+    "#EnterpriseTech",
+    "#SaaS",
+    "#TechNews"
+  ],
+  "cta": "This is the version worth remembering.",
+  "seo": {
+    "primary_keyword": "HiBob",
+    "secondary_keywords": [
+      "GetByteRush",
+      "ArtificialIntelligence",
+      "ChatGPTEnterprise",
+      "OpenAI",
+      "EnterpriseTech",
+      "SaaS",
+      "TechNews",
+      "GPTs"
+    ],
+    "search_phrases": [
+      "what is HiBob",
+      "HiBob vs GPTs",
+      "HiBob GetByteRush",
+      "HiBob ArtificialIntelligence"
+    ],
+    "entities": [
+      "HiBob",
+      "GPTs"
+    ]
+  },
+  "source_attribution": {
+    "title": "HiBob turns 2,500 GPTs into product and team growth",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/hibob",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/hibob"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "HiBob uses ChatGPT Enterprise and custom GPTs to scale AI adoption, boost revenue, and streamline HR workflows.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/hibob",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Granular custom GPTs are systematically replacing master chatbots in corporate software environments.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/hibob",
+        "source_name": "GetByteRush Editorial Analysis"
+      }
+    ]
+  }
+}
