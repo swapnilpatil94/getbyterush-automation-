@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260918014656-hibob-turns-2-500-gp-7a57d6"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-5a52931eb6f74f8e",
+      "topic": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "category": "LAST_24H",
+      "score": 52,
+      "reason": "LAST_24H — PROVABLE (score 52/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260918081716-nvidia-google-and-em-6b6d5d"
     }
   ],
   "slots": {
@@ -33,7 +49,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-5a52931eb6f74f8e",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

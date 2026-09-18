@@ -2,26 +2,26 @@
   "date": "2026-09-18",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "HiBob turns 2,500 GPTs into product and team growth",
-      "url": "https://openai.com/index/hibob",
-      "description": "Discover how HiBob uses ChatGPT Enterprise and custom GPTs to scale AI adoption, boost revenue, streamline HR workflows, and deliver AI-powered features in the Bob platform.",
-      "published": "Wed, 08 Oct 2025 08:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 15,
+      "source": "NVIDIA Blog",
+      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "description": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use [&#8230;]",
+      "published": "Wed, 16 Sep 2026 13:00:33 +0000",
+      "freshness_score": 10,
+      "relevance_score": 11,
       "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20,
-      "content_id": "cand-c61f76528de73640",
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 26,
+      "content_id": "cand-5a52931eb6f74f8e",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 55,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 52,
+        "why_selected": "LAST_24H — PROVABLE (score 52/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]

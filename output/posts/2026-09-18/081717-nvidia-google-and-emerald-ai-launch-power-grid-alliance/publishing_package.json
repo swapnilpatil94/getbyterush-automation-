@@ -1,0 +1,98 @@
+{
+  "content_id": "260918081716-nvidia-google-and-em-6b6d5d",
+  "story_title": "NVIDIA, Google, and Emerald AI Launch Power Grid Alliance",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-18/081717-nvidia-google-and-emerald-ai-launch-power-grid-alliance/slides/01.jpg",
+    "output/posts/2026-09-18/081717-nvidia-google-and-emerald-ai-launch-power-grid-alliance/slides/02.jpg",
+    "output/posts/2026-09-18/081717-nvidia-google-and-emerald-ai-launch-power-grid-alliance/slides/03.jpg",
+    "output/posts/2026-09-18/081717-nvidia-google-and-emerald-ai-launch-power-grid-alliance/slides/04.jpg",
+    "output/posts/2026-09-18/081717-nvidia-google-and-emerald-ai-launch-power-grid-alliance/slides/05.jpg",
+    "output/posts/2026-09-18/081717-nvidia-google-and-emerald-ai-launch-power-grid-alliance/slides/06.jpg",
+    "output/posts/2026-09-18/081717-nvidia-google-and-emerald-ai-launch-power-grid-alliance/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Power is officially the defining constraint on AI expansion. Today, NVIDIA, Google, and Emerald AI launched the AI Energy Management Alliance (AEMA) to build data centers that dynamically manage electricity based on grid demand.\n\nInstead of acting as static power sinks, these 'flexible data centers' can shift compute workloads, trigger stored battery power, or curtail usage during peak grid stress. In exchange, utilities can grant faster grid connections without waiting for expensive infrastructure upgrades.\n\nSwipe through for the complete breakdown on how AI scaling is shifting from chip design to energy orchestration.",
+  "caption_for_publish": "Power is officially the defining constraint on AI expansion. Today, NVIDIA, Google, and Emerald AI launched the AI Energy Management Alliance (AEMA) to build data centers that dynamically manage electricity based on grid demand.\n\nInstead of acting as static power sinks, these 'flexible data centers' can shift compute workloads, trigger stored battery power, or curtail usage during peak grid stress. In exchange, utilities can grant faster grid connections without waiting for expensive infrastructure upgrades.\n\nSwipe through for the complete breakdown on how AI scaling is shifting from chip design to energy orchestration.\n\n#GetByteRush #AI #NVIDIA #Google #TechNews #CleanEnergy #DataCenter #ArtificialIntelligence",
+  "pinned_comment": "Is dynamic throttling the right way to bypass grid delays for AI data centers?",
+  "alt_text_overall": "Carousel detailing the launch of the AI Energy Management Alliance by NVIDIA, Google, and Emerald AI to enable flexible AI data centers.",
+  "alt_text_per_slide": [
+    "Slide 1: AI HAS A POWER PROBLEM.. NVIDIA and Google just formed a coalition to fix it before the grid breaks. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: STATIC GRIDS CAN'T HANDLE AI FACTORIES.. Traditional power grids were built for predictable, static electrical loads—not gigawatt AI clusters. — shown as a headline over radiating signal rings.",
+    "Slide 3: ENTER THE AEMA.. Google, NVIDIA, and Emerald AI launched the AI Energy Management Alliance to build grid-responsive computing. — shown as a headline over radiating signal rings.",
+    "Slide 4: DYNAMIC LOAD SHIFTING.. Instead of drawing flat power, flexible data centers automatically throttle computing workloads or discharge paired battery storage during grid stress. — shown as a headline over radiating signal rings.",
+    "Slide 5: FASTER PERMITS. MORE WATTS.. By proving facilities can dial down on demand, utilities can approve AI interconnections faster without waiting for costly grid overhauls. — shown as a headline over radiating signal rings.",
+    "Slide 6: GRID RULES ARE BEING REWRITTEN.. Power is now software-controlled. Future AI scaling will depend as much on real-time grid integration as silicon performance. — shown as a headline over radiating signal rings.",
+    "Slide 7: THE NEXT AI BATTLE IS ELECTRIFICATION.. The bottleneck for AI isn't chips anymore—it's electricity. The companies that solve power integration win the race. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#GetByteRush",
+    "#AI",
+    "#NVIDIA",
+    "#Google",
+    "#TechNews",
+    "#CleanEnergy",
+    "#DataCenter",
+    "#ArtificialIntelligence"
+  ],
+  "cta": "Follow along — we go deeper than the headline.",
+  "seo": {
+    "primary_keyword": "NVIDIA",
+    "secondary_keywords": [
+      "GetByteRush",
+      "AI",
+      "Google",
+      "TechNews",
+      "CleanEnergy",
+      "DataCenter",
+      "ArtificialIntelligence",
+      "Emerald AI Launch"
+    ],
+    "search_phrases": [
+      "what is NVIDIA",
+      "NVIDIA vs Google",
+      "NVIDIA GetByteRush",
+      "NVIDIA AI"
+    ],
+    "entities": [
+      "NVIDIA",
+      "Google",
+      "Emerald AI Launch",
+      "Power Grid Alliance",
+      "Emerald AI",
+      "NVIDIA Launch Alliance"
+    ]
+  },
+  "source_attribution": {
+    "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "Emerald AI, Google, and NVIDIA launched the AI Energy Management Alliance (AEMA).",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Flexible data centers can shift compute workloads or discharge battery storage during grid stress.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Power availability is becoming the primary scaling constraint for U.S. AI infrastructure.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+        "source_name": "NVIDIA Blog"
+      }
+    ]
+  }
+}

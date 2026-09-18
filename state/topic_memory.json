@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "NVIDIA, Google, and Emerald AI Launch Power Grid Alliance",
+      "source_title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "nvidia google and emerald ai launch power grid alliance",
+      "normalized_source_title": "emerald ai google and nvidia launch alliance to advance flexible ai data centers",
+      "tokens": [
+        "alliance",
+        "and",
+        "emerald",
+        "google",
+        "grid",
+        "launch",
+        "nvidia",
+        "power"
+      ],
+      "source_tokens": [
+        "advance",
+        "alliance",
+        "and",
+        "centers",
+        "data",
+        "emerald",
+        "flexible",
+        "google",
+        "launch",
+        "nvidia"
+      ],
+      "recorded_at": "2026-09-18T08:17:16.926626+00:00"
+    },
+    {
       "title": "HiBob turns 2,500 GPTs into product and team growth",
       "source_title": "HiBob turns 2,500 GPTs into product and team growth",
       "url": "https://openai.com/index/hibob",
