@@ -34,6 +34,21 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260918081716-nvidia-google-and-em-6b6d5d"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-2eb3cf38599f8252",
+      "topic": "OpenAI and Los Alamos National Laboratory announce research partnership",
+      "category": "EVERGREEN_VALUE",
+      "score": 55,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -62,7 +77,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-2eb3cf38599f8252",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
