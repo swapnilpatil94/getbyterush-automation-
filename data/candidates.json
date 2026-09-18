@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T20:49:03.727748+00:00",
+  "generated_at": "2026-09-18T02:33:09.418704+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
       "description": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
       "published": "Thu, 17 Sep 2026 20:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 16
+      "pre_filter_score": 15
     },
     {
       "source": "NVIDIA Blog",
@@ -20,23 +20,23 @@
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
       "description": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashing limited-time Deluxe Edition sale on [&#8230;]",
       "published": "Thu, 17 Sep 2026 13:00:55 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 4,
       "impact_score": 3,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 16
+      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
-      "title": "Introducing Astra for Law",
-      "url": "https://openai.com/index/astra-for-law",
-      "description": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-      "published": "Thu, 17 Sep 2026 00:00:00 GMT",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "description": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "published": "Thu, 17 Sep 2026 12:00:00 GMT",
       "freshness_score": 8,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 12
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 15
     },
     {
       "source": "NVIDIA Blog",
@@ -87,18 +87,6 @@
       "pre_filter_score": 19
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
-      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
-      "description": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into [&#8230;]",
-      "published": "Tue, 15 Sep 2026 22:24:34 +0000",
-      "freshness_score": 6,
-      "relevance_score": 8,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 17
-    },
-    {
       "source": "OpenAI News",
       "title": "How to connect AI usage to business value",
       "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
@@ -147,6 +135,18 @@
       "pre_filter_score": 14
     },
     {
+      "source": "OpenAI News",
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "description": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "published": "Thu, 17 Sep 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 10
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
       "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
@@ -180,6 +180,18 @@
       "relevance_score": 7,
       "impact_score": 4,
       "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 16
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+      "description": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into [&#8230;]",
+      "published": "Tue, 15 Sep 2026 22:24:34 +0000",
+      "freshness_score": 5,
+      "relevance_score": 8,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 16
     },
     {
@@ -947,18 +959,6 @@
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
