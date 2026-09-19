@@ -1,26 +1,26 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "OpenAI and Los Alamos National Laboratory announce research partnership",
-      "url": "https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together",
-      "description": "OpenAI and Los Alamos National Laboratory are working to develop safety evaluations to assess and measure biological capabilities and risks associated with frontier models.",
-      "published": "Wed, 10 Jul 2024 06:30:00 GMT",
+      "title": "Early experiments in accelerating science with GPT-5",
+      "url": "https://openai.com/index/accelerating-science-gpt-5",
+      "description": "OpenAI introduces the first research cases showing how GPT-5 accelerates scientific progress across math, physics, biology, and computer science. Explore how AI and researchers collaborate to generate proofs, uncover new insights, and reshape the pace of discovery.",
+      "published": "Thu, 20 Nov 2025 00:00:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 15,
+      "relevance_score": 13,
       "impact_score": 5,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 20,
-      "content_id": "cand-2eb3cf38599f8252",
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18,
+      "content_id": "cand-6f58f50d65e420eb",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
         "category": "EVERGREEN_VALUE",
         "quality_score": 55,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
+        "why_selected": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
         "source": "OpenAI News"
       }
     }

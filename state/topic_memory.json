@@ -2,6 +2,32 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Reveals Early Scientific Experiments Powered by GPT-5",
+      "source_title": "Early experiments in accelerating science with GPT-5",
+      "url": "https://openai.com/index/accelerating-science-gpt-5",
+      "source": "OpenAI News",
+      "normalized_title": "openai reveals early scientific experiments powered by gpt 5",
+      "normalized_source_title": "early experiments in accelerating science with gpt 5",
+      "tokens": [
+        "early",
+        "experiments",
+        "gpt",
+        "openai",
+        "powered",
+        "reveals",
+        "scientific"
+      ],
+      "source_tokens": [
+        "accelerating",
+        "early",
+        "experiments",
+        "gpt",
+        "science",
+        "with"
+      ],
+      "recorded_at": "2026-09-19T01:47:05.866775+00:00"
+    },
+    {
       "title": "NVIDIA, Google, and Emerald AI Launch Power Grid Alliance",
       "source_title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
       "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
