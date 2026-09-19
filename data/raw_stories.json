@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:04:05.866085+00:00",
+  "generated_at": "2026-09-19T15:07:45.209395+00:00",
   "count": 1248,
   "stories": [
     {
@@ -8,7 +8,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
       "description": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
       "published": "Fri, 18 Sep 2026 14:00:00 +0000",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "Google AI Blog",
@@ -16,7 +16,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
       "description": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
       "published": "Fri, 18 Sep 2026 13:00:00 +0000",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "Google AI Blog",
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/australian-youth-safety-blueprint",
       "description": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
       "published": "Fri, 18 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -176,7 +176,7 @@
       "url": "https://openai.com/index/cooley-gopublic",
       "description": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
       "published": "Thu, 17 Sep 2026 12:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -200,7 +200,7 @@
       "url": "https://openai.com/index/reimagining-advertising-with-ai",
       "description": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
       "published": "Wed, 16 Sep 2026 13:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -208,7 +208,7 @@
       "url": "https://openai.com/index/hex-gpt-6-astra",
       "description": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
       "published": "Wed, 16 Sep 2026 12:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -216,7 +216,7 @@
       "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
       "description": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
       "published": "Wed, 16 Sep 2026 12:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -9848,7 +9848,7 @@
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
       "description": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashing limited-time Deluxe Edition sale on [&#8230;]",
       "published": "Thu, 17 Sep 2026 13:00:55 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -9856,7 +9856,7 @@
       "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
       "description": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. [&#8230;]",
       "published": "Wed, 16 Sep 2026 15:00:48 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
@@ -9864,7 +9864,7 @@
       "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
       "description": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use [&#8230;]",
       "published": "Wed, 16 Sep 2026 13:00:33 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
