@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:07:45.448595+00:00",
+  "generated_at": "2026-09-19T19:50:54.424197+00:00",
   "count": 80,
   "stories": [
     {
@@ -37,30 +37,6 @@
       "impact_score": 0,
       "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 10
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Our framework for reporting model misalignment",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "description": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-      "published": "Wed, 16 Sep 2026 17:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Helping older adults use AI in everyday life",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "description": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "published": "Wed, 16 Sep 2026 16:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
     },
     {
       "source": "NVIDIA Blog",
@@ -959,6 +935,30 @@
       "freshness_score": 0,
       "relevance_score": 12,
       "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Report from the OpenAI hackathon",
+      "url": "https://openai.com/index/hackathon-follow-up",
+      "description": "On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community.",
+      "published": "Thu, 15 Mar 2018 07:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "SECURITY",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "published": "Wed, 08 Jul 2026 13:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
