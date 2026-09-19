@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-19T01:47:09.889245+00:00",
+  "updated_at": "2026-09-19T02:32:24.008483+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -5555,7 +5555,50 @@
         "story_type": "RESEARCH",
         "pre_filter_score": 16
       }
+    },
+    {
+      "content_id": "cand-b0d804bf5dc9cfee",
+      "topic": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/hex-gpt-6-astra",
+      "published_at": "Wed, 16 Sep 2026 12:00:00 GMT",
+      "discovered_at": "2026-09-19T02:32:24.008029+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 7,
+      "share_score": 3,
+      "information_value": 8,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 40,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+        "url": "https://openai.com/index/hex-gpt-6-astra",
+        "description": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+        "published": "Wed, 16 Sep 2026 12:00:00 GMT",
+        "freshness_score": 5,
+        "relevance_score": 8,
+        "impact_score": 0,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 13
+      }
     }
   ],
-  "count": 139
+  "count": 140
 }
