@@ -18,6 +18,21 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260919014705-openai-reveals-early-558b88"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-d1971fed5eed2710",
+      "topic": "Scaling AI for everyone",
+      "category": "EVERGREEN_VALUE",
+      "score": 54,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/scaling-ai-for-everyone",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -48,7 +63,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-d1971fed5eed2710",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Early experiments in accelerating science with GPT-5",
-      "url": "https://openai.com/index/accelerating-science-gpt-5",
-      "description": "OpenAI introduces the first research cases showing how GPT-5 accelerates scientific progress across math, physics, biology, and computer science. Explore how AI and researchers collaborate to generate proofs, uncover new insights, and reshape the pace of discovery.",
-      "published": "Thu, 20 Nov 2025 00:00:00 GMT",
+      "title": "Scaling AI for everyone",
+      "url": "https://openai.com/index/scaling-ai-for-everyone",
+      "description": "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
+      "published": "Fri, 27 Feb 2026 05:30:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18,
-      "content_id": "cand-6f58f50d65e420eb",
+      "relevance_score": 14,
+      "impact_score": 9,
+      "story_type": "BUSINESS",
+      "pre_filter_score": 23,
+      "content_id": "cand-d1971fed5eed2710",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "EVERGREEN_VALUE",
-        "quality_score": 55,
-        "why_selected": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
+        "quality_score": 54,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
         "source": "OpenAI News"
       }
     }
