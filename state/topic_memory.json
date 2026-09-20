@@ -2,6 +2,31 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Overhauls AI Cyber Evaluation Safeguards",
+      "source_title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "source": "OpenAI News",
+      "normalized_title": "openai overhauls ai cyber evaluation safeguards",
+      "normalized_source_title": "third party cyber evaluations involving openai models",
+      "tokens": [
+        "cyber",
+        "evaluation",
+        "openai",
+        "overhauls",
+        "safeguards"
+      ],
+      "source_tokens": [
+        "cyber",
+        "evaluations",
+        "involving",
+        "models",
+        "openai",
+        "party",
+        "third"
+      ],
+      "recorded_at": "2026-09-20T01:47:15.770930+00:00"
+    },
+    {
       "title": "OpenAI Reveals Early Scientific Experiments Powered by GPT-5",
       "source_title": "Early experiments in accelerating science with GPT-5",
       "url": "https://openai.com/index/accelerating-science-gpt-5",

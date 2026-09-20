@@ -1,0 +1,89 @@
+{
+  "content_id": "260920014715-openai-overhauls-ai--1f94b5",
+  "story_title": "OpenAI Overhauls AI Cyber Evaluation Safeguards",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-20/014715-openai-overhauls-ai-cyber-evaluation-safeguards/slides/01.jpg",
+    "output/posts/2026-09-20/014715-openai-overhauls-ai-cyber-evaluation-safeguards/slides/02.jpg",
+    "output/posts/2026-09-20/014715-openai-overhauls-ai-cyber-evaluation-safeguards/slides/03.jpg",
+    "output/posts/2026-09-20/014715-openai-overhauls-ai-cyber-evaluation-safeguards/slides/04.jpg",
+    "output/posts/2026-09-20/014715-openai-overhauls-ai-cyber-evaluation-safeguards/slides/05.jpg",
+    "output/posts/2026-09-20/014715-openai-overhauls-ai-cyber-evaluation-safeguards/slides/06.jpg",
+    "output/posts/2026-09-20/014715-openai-overhauls-ai-cyber-evaluation-safeguards/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "OpenAI has outlined new safeguards following recent third-party cybersecurity evaluation incidents involving its models.\n\nAs AI models advance in capability, testing them safely requires strict controls and updated evaluation frameworks. The focus is shifting from simple benchmark scores to rigorous, real-world red-teaming.\n\nWhat are your thoughts on AI safety audits? Let us know below.\n\nTESTED • EXPLAINED • REAL",
+  "caption_for_publish": "OpenAI has outlined new safeguards following recent third-party cybersecurity evaluation incidents involving its models.\n\nAs AI models advance in capability, testing them safely requires strict controls and updated evaluation frameworks. The focus is shifting from simple benchmark scores to rigorous, real-world red-teaming.\n\nWhat are your thoughts on AI safety audits? Let us know below.\n\nTESTED • EXPLAINED • REAL\n\n#GetByteRush #AISafety #OpenAI #CyberSecurity #ArtificialIntelligence #TechNews #AIGovernance",
+  "pinned_comment": "How do you think frontier AI models should be tested by third parties? Drop your thoughts below.",
+  "alt_text_overall": "An editorial carousel explaining OpenAI's new safeguards for third-party cybersecurity evaluations of AI models.",
+  "alt_text_per_slide": [
+    "Slide 1: OpenAI Rewrites Its Cyber Safety Playbook. Following third-party cybersecurity evaluation incidents, OpenAI is introducing new safeguards to strengthen model testing. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: What Happened During External Cyber Tests?. Recent third-party evaluations of OpenAI models highlighted unexpected challenges during testing, prompting an official explanation and policy response. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: New Safeguards Introduced for AI Testing. OpenAI has outlined new protocols specifically designed to fortify future AI model evaluations and prevent testing disruption. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: Why External AI Audits Are Escalating. As AI models gain real-world execution capabilities, external cybersecurity red-teaming becomes higher-risk—demanding strictly controlled evaluation sandboxes. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: Standard AI Testing Is No Longer Sufficient.. Evaluating frontier AI requires autonomous-aware protocols, transparent reporting, and dedicated infrastructure. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: Setting a Baseline for Enterprise AI Trust. For builders and enterprise teams, OpenAI's updated protocols establish a crucial reference point for how third-party security audits must be conducted. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: How Models Are Tested Matters as Much as What They Build.. As AI models assume greater autonomy, robust third-party evaluation is the bedrock of safe deployment. Stay tuned to GetByteRush for verified AI analysis. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#GetByteRush",
+    "#AISafety",
+    "#OpenAI",
+    "#CyberSecurity",
+    "#ArtificialIntelligence",
+    "#TechNews",
+    "#AIGovernance"
+  ],
+  "cta": "Send this to the person who needs to see it.",
+  "seo": {
+    "primary_keyword": "OpenAI Overhauls AI",
+    "secondary_keywords": [
+      "GetByteRush",
+      "AISafety",
+      "CyberSecurity",
+      "ArtificialIntelligence",
+      "TechNews",
+      "AIGovernance",
+      "Cyber Evaluation Safeguards",
+      "Third"
+    ],
+    "search_phrases": [
+      "what is OpenAI Overhauls AI",
+      "OpenAI Overhauls AI vs Cyber Evaluation Safeguards",
+      "OpenAI Overhauls AI GetByteRush",
+      "OpenAI Overhauls AI AISafety"
+    ],
+    "entities": [
+      "OpenAI Overhauls AI",
+      "Cyber Evaluation Safeguards",
+      "Third",
+      "OpenAI"
+    ]
+  },
+  "source_attribution": {
+    "title": "Third-party cyber evaluations involving OpenAI models",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI explained recent third-party cybersecurity evaluation incidents and outlined new safeguards.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Third-party evaluations help establish safety baselines for frontier AI models.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+        "source_name": "OpenAI News"
+      }
+    ]
+  }
+}

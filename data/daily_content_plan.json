@@ -1,74 +1,31 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-6f58f50d65e420eb",
-      "topic": "Early experiments in accelerating science with GPT-5",
-      "category": "EVERGREEN_VALUE",
-      "score": 55,
-      "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/accelerating-science-gpt-5",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260919014705-openai-reveals-early-558b88"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-d1971fed5eed2710",
-      "topic": "Scaling AI for everyone",
+      "content_id": "cand-de3484460a42a303",
+      "topic": "Third-party cyber evaluations involving OpenAI models",
       "category": "EVERGREEN_VALUE",
       "score": 54,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/scaling-ai-for-everyone",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
+      "source_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260920014715-openai-overhauls-ai--1f94b5"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-6f58f50d65e420eb",
+      "content_id": "cand-de3484460a42a303",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-d1971fed5eed2710",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }
