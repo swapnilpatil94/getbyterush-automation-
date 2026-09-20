@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T15:12:06.799754+00:00",
+  "generated_at": "2026-09-20T20:05:01.742137+00:00",
   "count": 80,
   "stories": [
     {
@@ -12,18 +12,6 @@
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "RESEARCH",
-      "pre_filter_score": 11
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Making global data easier to explore",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-      "description": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
-      "published": "Thu, 17 Sep 2026 20:00:00 +0000",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 11
     },
     {
@@ -960,6 +948,18 @@
       "relevance_score": 13,
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Model ML is helping financial firms rebuild with AI from the ground up",
+      "url": "https://openai.com/index/model-ml-chaz-englander",
+      "description": "As part of our Executive Function series, Model ML CEO Chaz Englander discusses how AI-native infrastructure and autonomous agents are transforming financial services workflows.",
+      "published": "Wed, 23 Jul 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 18
     }
   ]
