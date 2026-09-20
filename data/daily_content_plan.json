@@ -18,6 +18,21 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260920014715-openai-overhauls-ai--1f94b5"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-0f050215665408a2",
+      "topic": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "category": "EVERGREEN_VALUE",
+      "score": 54,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -48,7 +63,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-0f050215665408a2",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
