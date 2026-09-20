@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T19:50:54.424197+00:00",
+  "generated_at": "2026-09-20T02:43:39.843240+00:00",
   "count": 80,
   "stories": [
     {
@@ -12,18 +12,6 @@
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "RESEARCH",
-      "pre_filter_score": 12
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Making global data easier to explore",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-      "description": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
-      "published": "Thu, 17 Sep 2026 20:00:00 +0000",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 12
     },
     {
@@ -63,16 +51,16 @@
       "pre_filter_score": 12
     },
     {
-      "source": "OpenAI News",
-      "title": "Introducing Astra for Law",
-      "url": "https://openai.com/index/astra-for-law",
-      "description": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-      "published": "Thu, 17 Sep 2026 00:00:00 GMT",
+      "source": "Google AI Blog",
+      "title": "Making global data easier to explore",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "description": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
+      "published": "Thu, 17 Sep 2026 20:00:00 +0000",
       "freshness_score": 5,
-      "relevance_score": 4,
+      "relevance_score": 6,
       "impact_score": 0,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 9
+      "pre_filter_score": 11
     },
     {
       "source": "OpenAI News",
@@ -956,6 +944,18 @@
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
       "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
       "published": "Wed, 08 Jul 2026 13:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "published": "Wed, 17 Jun 2026 10:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 13,
       "impact_score": 5,
