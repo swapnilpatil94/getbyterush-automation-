@@ -1,74 +1,31 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-de3484460a42a303",
-      "topic": "Third-party cyber evaluations involving OpenAI models",
+      "content_id": "cand-6a2395dbd857868a",
+      "topic": "Introducing EVMbench",
       "category": "EVERGREEN_VALUE",
       "score": 54,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "source_url": "https://openai.com/index/introducing-evmbench",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260920014715-openai-overhauls-ai--1f94b5"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-0f050215665408a2",
-      "topic": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "category": "EVERGREEN_VALUE",
-      "score": 54,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
+      "content_state_id": "260921014714-openai-and-paradigm--8bbb7e"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-de3484460a42a303",
+      "content_id": "cand-6a2395dbd857868a",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-0f050215665408a2",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }

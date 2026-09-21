@@ -1,0 +1,95 @@
+{
+  "content_id": "260921014714-openai-and-paradigm--8bbb7e",
+  "story_title": "OpenAI and Paradigm Launch EVMbench to Test AI Agent Security Capabilities",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-21/014714-openai-and-paradigm-launch-evmbench-to-test-ai-agent-security-capabiliti/slides/01.jpg",
+    "output/posts/2026-09-21/014714-openai-and-paradigm-launch-evmbench-to-test-ai-agent-security-capabiliti/slides/02.jpg",
+    "output/posts/2026-09-21/014714-openai-and-paradigm-launch-evmbench-to-test-ai-agent-security-capabiliti/slides/03.jpg",
+    "output/posts/2026-09-21/014714-openai-and-paradigm-launch-evmbench-to-test-ai-agent-security-capabiliti/slides/04.jpg",
+    "output/posts/2026-09-21/014714-openai-and-paradigm-launch-evmbench-to-test-ai-agent-security-capabiliti/slides/05.jpg",
+    "output/posts/2026-09-21/014714-openai-and-paradigm-launch-evmbench-to-test-ai-agent-security-capabiliti/slides/06.jpg",
+    "output/posts/2026-09-21/014714-openai-and-paradigm-launch-evmbench-to-test-ai-agent-security-capabiliti/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "OpenAI and Paradigm have officially launched EVMbench, a new benchmark built to evaluate how effectively AI agents detect, patch, and exploit high-severity smart contract vulnerabilities.\n\nAs autonomous agents gain the ability to execute code and interact with smart contracts, security testing is shifting from static text questions to active environment evaluation.\n\nWhat are your thoughts on AI agents running offensive security benchmarks? Let us know below.\n\n#GetByteRush #AI #OpenAI #Cybersecurity #SmartContracts #TechNews",
+  "caption_for_publish": "OpenAI and Paradigm have officially launched EVMbench, a new benchmark built to evaluate how effectively AI agents detect, patch, and exploit high-severity smart contract vulnerabilities.\n\nAs autonomous agents gain the ability to execute code and interact with smart contracts, security testing is shifting from static text questions to active environment evaluation.\n\nWhat are your thoughts on AI agents running offensive security benchmarks? Let us know below.\n\n#GetByteRush #AI #OpenAI #Cybersecurity #SmartContracts #TechNews\n\n#GetByteRush #AI #OpenAI #Cybersecurity #TechNews #ArtificialIntelligence",
+  "pinned_comment": "Can AI agents secure smart contracts faster than hackers can exploit them? Drop your take below.",
+  "alt_text_overall": "A 7-slide GetByteRush carousel explaining EVMbench, a new benchmark introduced by OpenAI and Paradigm to test AI agents on smart contract vulnerabilities.",
+  "alt_text_per_slide": [
+    "Slide 1: CAN AI AGENTS HACK SMART CONTRACTS?. OpenAI and Paradigm introduced EVMbench to evaluate how autonomous AI agents handle critical security vulnerabilities. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: MEET EVMBENCH.. Built jointly by OpenAI and Paradigm, EVMbench is designed to measure AI agent performance on high-severity smart contract flaws. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: DETECT. PATCH. EXPLOIT.. The benchmark measures an AI agent's capability across three critical security actions: identifying bugs, fixing them, and constructing working exploits. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: HIGH-SEVERITY TARGETS ONLY.. EVMbench focuses on high-severity vulnerabilities rather than minor coding errors, testing agents against real threat scenarios. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: BEYOND BASIC CODE.. AI benchmarks are shifting from multiple-choice tests to active agent execution in hazardous environments. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: OFFENSE VS. DEFENSE.. An agent that can exploit a vulnerability can also be trained to patch it. The race is to deploy automated defense faster than offensive exploits. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: THE NEW STANDARD FOR AGENT SECURITY.. EVMbench signals a future where smart contracts are stress-tested by autonomous agents before deployment. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#GetByteRush",
+    "#AI",
+    "#OpenAI",
+    "#Cybersecurity",
+    "#TechNews",
+    "#ArtificialIntelligence"
+  ],
+  "cta": "We test the stuff everyone else just explains.",
+  "seo": {
+    "primary_keyword": "OpenAI",
+    "secondary_keywords": [
+      "GetByteRush",
+      "Cybersecurity",
+      "TechNews",
+      "ArtificialIntelligence",
+      "Paradigm Launch EVMbench",
+      "Test AI Agent",
+      "Security Capabilities Introducing",
+      "EVMbench"
+    ],
+    "search_phrases": [
+      "what is OpenAI",
+      "OpenAI vs Paradigm Launch EVMbench",
+      "OpenAI GetByteRush",
+      "OpenAI Cybersecurity"
+    ],
+    "entities": [
+      "OpenAI",
+      "Paradigm Launch EVMbench",
+      "Test AI Agent",
+      "Security Capabilities Introducing",
+      "EVMbench"
+    ]
+  },
+  "source_attribution": {
+    "title": "Introducing EVMbench",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/introducing-evmbench",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/introducing-evmbench"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI and Paradigm introduced EVMbench.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/introducing-evmbench",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "EVMbench evaluates AI agents' ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/introducing-evmbench",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Smart contract auditing will heavily rely on autonomous AI evaluations in the future.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/introducing-evmbench",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}

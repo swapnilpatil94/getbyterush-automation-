@@ -2,6 +2,30 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI and Paradigm Launch EVMbench to Test AI Agent Security Capabilities",
+      "source_title": "Introducing EVMbench",
+      "url": "https://openai.com/index/introducing-evmbench",
+      "source": "OpenAI News",
+      "normalized_title": "openai and paradigm launch evmbench to test ai agent security capabilities",
+      "normalized_source_title": "introducing evmbench",
+      "tokens": [
+        "agent",
+        "and",
+        "capabilities",
+        "evmbench",
+        "launch",
+        "openai",
+        "paradigm",
+        "security",
+        "test"
+      ],
+      "source_tokens": [
+        "evmbench",
+        "introducing"
+      ],
+      "recorded_at": "2026-09-21T01:47:14.813624+00:00"
+    },
+    {
       "title": "OpenAI Overhauls AI Cyber Evaluation Safeguards",
       "source_title": "Third-party cyber evaluations involving OpenAI models",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
