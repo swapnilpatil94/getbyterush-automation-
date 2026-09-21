@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T17:34:46.422116+00:00",
+  "updated_at": "2026-09-21T21:30:46.256983+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -5818,7 +5818,136 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 23
       }
+    },
+    {
+      "content_id": "cand-9afa2302d9297a3b",
+      "topic": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+      "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing [&#8230;]",
+      "content_type": "LAST_24H",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+      "published_at": "Mon, 21 Sep 2026 18:00:07 +0000",
+      "discovered_at": "2026-09-21T21:30:46.247732+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 4,
+      "share_score": 3,
+      "information_value": 4,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 36,
+      "raw": {
+        "source": "NVIDIA Blog",
+        "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+        "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+        "description": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing [&#8230;]",
+        "published": "Mon, 21 Sep 2026 18:00:07 +0000",
+        "freshness_score": 10,
+        "relevance_score": 4,
+        "impact_score": 0,
+        "story_type": "PRODUCT_UPDATE",
+        "pre_filter_score": 14
+      }
+    },
+    {
+      "content_id": "cand-87ffcd6944ca64da",
+      "topic": "Advisory Group on Mathematics and Artificial Intelligence",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "published_at": "Mon, 21 Sep 2026 12:00:00 GMT",
+      "discovered_at": "2026-09-21T21:30:46.251850+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 8,
+      "share_score": 3,
+      "information_value": 6,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 43,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Advisory Group on Mathematics and Artificial Intelligence",
+        "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+        "description": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+        "published": "Mon, 21 Sep 2026 12:00:00 GMT",
+        "freshness_score": 9,
+        "relevance_score": 6,
+        "impact_score": 0,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 15
+      }
+    },
+    {
+      "content_id": "cand-529e1dc3c81efa4a",
+      "topic": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "published_at": "Mon, 21 Sep 2026 12:00:00 GMT",
+      "discovered_at": "2026-09-21T21:30:46.256519+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 4,
+      "share_score": 3,
+      "information_value": 4,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 35,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+        "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+        "description": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+        "published": "Mon, 21 Sep 2026 12:00:00 GMT",
+        "freshness_score": 9,
+        "relevance_score": 4,
+        "impact_score": 0,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 13
+      }
     }
   ],
-  "count": 145
+  "count": 148
 }
