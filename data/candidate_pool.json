@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T02:40:57.629420+00:00",
+  "updated_at": "2026-09-21T11:37:46.980732+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -2796,49 +2796,6 @@
       }
     },
     {
-      "content_id": "cand-d1bde2cf692f51dc",
-      "topic": "Supporting independent journalism in Ukraine",
-      "title": "Supporting independent journalism in Ukraine",
-      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "published_at": "Mon, 07 Sep 2026 00:00:00 GMT",
-      "discovered_at": "2026-09-07T11:13:25.969759+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 4,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 0,
-      "save_score": 4,
-      "share_score": 3,
-      "information_value": 4,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 35,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Supporting independent journalism in Ukraine",
-        "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-        "description": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-        "published": "Mon, 07 Sep 2026 00:00:00 GMT",
-        "freshness_score": 9,
-        "relevance_score": 4,
-        "impact_score": 0,
-        "story_type": "PRODUCT_UPDATE",
-        "pre_filter_score": 13
-      }
-    },
-    {
       "content_id": "cand-4a8e27928cab66cb",
       "topic": "The Work Now Within Reach",
       "title": "The Work Now Within Reach",
@@ -5558,6 +5515,49 @@
         "impact_score": 0,
         "story_type": "PRODUCT_UPDATE",
         "pre_filter_score": 12
+      }
+    },
+    {
+      "content_id": "cand-402f84fa2e95e5cd",
+      "topic": "5 Companies Using NVIDIA AI for Clean Energy",
+      "title": "5 Companies Using NVIDIA AI for Clean Energy",
+      "summary": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception [&#8230;]",
+      "content_type": "LAST_24H",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+      "published_at": "Mon, 21 Sep 2026 10:00:35 +0000",
+      "discovered_at": "2026-09-21T11:37:46.980180+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 5,
+      "share_score": 4,
+      "information_value": 6,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 46,
+      "raw": {
+        "source": "NVIDIA Blog",
+        "title": "5 Companies Using NVIDIA AI for Clean Energy",
+        "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+        "description": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception [&#8230;]",
+        "published": "Mon, 21 Sep 2026 10:00:35 +0000",
+        "freshness_score": 10,
+        "relevance_score": 7,
+        "impact_score": 2,
+        "story_type": "RESEARCH",
+        "pre_filter_score": 19
       }
     }
   ],
