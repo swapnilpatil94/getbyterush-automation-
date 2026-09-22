@@ -1,26 +1,26 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Genmab launches “AI Everywhere”",
-      "url": "https://openai.com/index/genmab",
-      "description": "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy",
-      "published": "Thu, 19 Sep 2024 04:00:00 GMT",
+      "title": "Intuit and OpenAI join forces on new AI-powered experiences",
+      "url": "https://openai.com/index/intuit-partnership",
+      "description": "OpenAI and Intuit have entered a $100M+ multi-year partnership to launch Intuit app experiences in ChatGPT and expand Intuit’s use of OpenAI’s frontier models to power personalized financial tools.",
+      "published": "Tue, 18 Nov 2025 05:00:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
+      "relevance_score": 14,
+      "impact_score": 6,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19,
-      "content_id": "cand-4353dff6d13f378b",
+      "pre_filter_score": 20,
+      "content_id": "cand-02b4d2fece403d0e",
       "selection_meta": {
-        "rank": 2,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
         "category": "EVERGREEN_VALUE",
-        "quality_score": 54,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
+        "quality_score": 53,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 53/100)",
         "source": "OpenAI News"
       }
     }

@@ -1,74 +1,31 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-6a2395dbd857868a",
-      "topic": "Introducing EVMbench",
+      "content_id": "cand-02b4d2fece403d0e",
+      "topic": "Intuit and OpenAI join forces on new AI-powered experiences",
       "category": "EVERGREEN_VALUE",
-      "score": 54,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
+      "score": 53,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 53/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/introducing-evmbench",
+      "source_url": "https://openai.com/index/intuit-partnership",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260921014714-openai-and-paradigm--8bbb7e"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-4353dff6d13f378b",
-      "topic": "Genmab launches “AI Everywhere”",
-      "category": "EVERGREEN_VALUE",
-      "score": 54,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/genmab",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
+      "content_state_id": "260922014654-openai-and-intuit-pa-39ba0e"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-6a2395dbd857868a",
+      "content_id": "cand-02b4d2fece403d0e",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-4353dff6d13f378b",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }

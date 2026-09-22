@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI and Intuit Partner in $100M+ Deal to Bring Financial Tools to ChatGPT",
+      "source_title": "Intuit and OpenAI join forces on new AI-powered experiences",
+      "url": "https://openai.com/index/intuit-partnership",
+      "source": "OpenAI News",
+      "normalized_title": "openai and intuit partner in 100m deal to bring financial tools to chatgpt",
+      "normalized_source_title": "intuit and openai join forces on new ai powered experiences",
+      "tokens": [
+        "100m",
+        "and",
+        "bring",
+        "chatgpt",
+        "deal",
+        "financial",
+        "intuit",
+        "openai",
+        "partner",
+        "tools"
+      ],
+      "source_tokens": [
+        "and",
+        "experiences",
+        "forces",
+        "intuit",
+        "join",
+        "new",
+        "openai",
+        "powered"
+      ],
+      "recorded_at": "2026-09-22T01:46:54.179136+00:00"
+    },
+    {
       "title": "OpenAI and Paradigm Launch EVMbench to Test AI Agent Security Capabilities",
       "source_title": "Introducing EVMbench",
       "url": "https://openai.com/index/introducing-evmbench",
