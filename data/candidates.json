@@ -1,66 +1,18 @@
 {
-  "generated_at": "2026-09-22T10:42:44.014015+00:00",
+  "generated_at": "2026-09-22T16:02:21.574478+00:00",
   "count": 80,
   "stories": [
     {
       "source": "NVIDIA Blog",
-      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
-      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-      "description": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, [&#8230;]",
-      "published": "Mon, 21 Sep 2026 16:00:46 +0000",
-      "freshness_score": 8,
-      "relevance_score": 13,
-      "impact_score": 13,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 34
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-      "description": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, [&#8230;]",
-      "published": "Mon, 21 Sep 2026 14:51:34 +0000",
-      "freshness_score": 8,
-      "relevance_score": 16,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 30
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-      "description": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead [&#8230;]",
-      "published": "Mon, 21 Sep 2026 16:00:10 +0000",
-      "freshness_score": 8,
-      "relevance_score": 16,
+      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "description": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&#8230;]",
+      "published": "Tue, 22 Sep 2026 12:00:41 +0000",
+      "freshness_score": 10,
+      "relevance_score": 18,
       "impact_score": 3,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 27
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "description": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "published": "Mon, 21 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "description": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "published": "Mon, 21 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 4,
-      "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
+      "pre_filter_score": 31
     },
     {
       "source": "NVIDIA Blog",
@@ -73,6 +25,42 @@
       "impact_score": 0,
       "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 12
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+      "description": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, [&#8230;]",
+      "published": "Mon, 21 Sep 2026 16:00:46 +0000",
+      "freshness_score": 6,
+      "relevance_score": 13,
+      "impact_score": 13,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 32
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+      "description": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, [&#8230;]",
+      "published": "Mon, 21 Sep 2026 14:51:34 +0000",
+      "freshness_score": 6,
+      "relevance_score": 16,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 28
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+      "description": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead [&#8230;]",
+      "published": "Mon, 21 Sep 2026 16:00:10 +0000",
+      "freshness_score": 6,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 25
     },
     {
       "source": "OpenAI News",
@@ -121,6 +109,30 @@
       "impact_score": 2,
       "story_type": "RESEARCH",
       "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "description": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "published": "Mon, 21 Sep 2026 12:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "description": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "published": "Mon, 21 Sep 2026 12:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 10
     },
     {
       "source": "OpenAI News",
@@ -944,18 +956,6 @@
       "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
       "description": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
       "published": "Mon, 09 Feb 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
-      "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
-      "description": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
-      "published": "Thu, 05 Feb 2026 11:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 12,
       "impact_score": 6,
