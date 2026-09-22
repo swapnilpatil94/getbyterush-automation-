@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "NVIDIA Blog",
-      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-      "description": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, [&#8230;]",
-      "published": "Mon, 21 Sep 2026 14:51:34 +0000",
+      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+      "description": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, [&#8230;]",
+      "published": "Mon, 21 Sep 2026 16:00:46 +0000",
       "freshness_score": 10,
-      "relevance_score": 16,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 32,
-      "content_id": "cand-ba508c8c472ba657",
+      "relevance_score": 13,
+      "impact_score": 13,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 36,
+      "content_id": "cand-9cc73d15c4bf1247",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "LAST_24H",
-        "quality_score": 71,
-        "why_selected": "LAST_24H — HIGHLY_CURIOUS, USEFUL, PROVABLE (score 71/100)",
+        "quality_score": 59,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 59/100)",
         "source": "NVIDIA Blog"
       }
     }

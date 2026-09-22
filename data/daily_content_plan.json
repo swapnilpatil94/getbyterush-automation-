@@ -34,6 +34,21 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260922081705-nvidia-warns-prompt--85f968"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-9cc73d15c4bf1247",
+      "topic": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+      "category": "LAST_24H",
+      "score": 59,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 59/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -62,7 +77,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-9cc73d15c4bf1247",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
