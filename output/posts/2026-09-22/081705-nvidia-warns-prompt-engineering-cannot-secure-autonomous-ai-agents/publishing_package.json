@@ -1,0 +1,97 @@
+{
+  "content_id": "260922081705-nvidia-warns-prompt--85f968",
+  "story_title": "NVIDIA Warns Prompt Engineering Cannot Secure Autonomous AI Agents",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-22/081705-nvidia-warns-prompt-engineering-cannot-secure-autonomous-ai-agents/slides/01.jpg",
+    "output/posts/2026-09-22/081705-nvidia-warns-prompt-engineering-cannot-secure-autonomous-ai-agents/slides/02.jpg",
+    "output/posts/2026-09-22/081705-nvidia-warns-prompt-engineering-cannot-secure-autonomous-ai-agents/slides/03.jpg",
+    "output/posts/2026-09-22/081705-nvidia-warns-prompt-engineering-cannot-secure-autonomous-ai-agents/slides/04.jpg",
+    "output/posts/2026-09-22/081705-nvidia-warns-prompt-engineering-cannot-secure-autonomous-ai-agents/slides/05.jpg",
+    "output/posts/2026-09-22/081705-nvidia-warns-prompt-engineering-cannot-secure-autonomous-ai-agents/slides/06.jpg",
+    "output/posts/2026-09-22/081705-nvidia-warns-prompt-engineering-cannot-secure-autonomous-ai-agents/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Prompt engineering will not save your AI agent from a malicious document.\n\nAs autonomous agents gain the ability to call APIs, query databases, and update records, telling a model to 'be safe' in its system prompt is proving to be a major architectural vulnerability. \n\nIn a recent security breakdown, NVIDIA highlights a fundamental flaw: if an AI agent processes an external document containing prompt injection, its internal reasoning can be hijacked. No prompt guardrail can guarantee a correct decision.\n\nNVIDIA's solution? Stop trying to sandbox the model's thoughts—sandbox its execution environment instead. With projects like OpenShell, security boundaries are enforced at the runtime level, blocking unauthorized network requests and file access regardless of what the model decides to do.\n\nSwipe through for the full breakdown on how AI security is shifting from prompt engineering to infrastructure.",
+  "caption_for_publish": "Prompt engineering will not save your AI agent from a malicious document.\n\nAs autonomous agents gain the ability to call APIs, query databases, and update records, telling a model to 'be safe' in its system prompt is proving to be a major architectural vulnerability. \n\nIn a recent security breakdown, NVIDIA highlights a fundamental flaw: if an AI agent processes an external document containing prompt injection, its internal reasoning can be hijacked. No prompt guardrail can guarantee a correct decision.\n\nNVIDIA's solution? Stop trying to sandbox the model's thoughts—sandbox its execution environment instead. With projects like OpenShell, security boundaries are enforced at the runtime level, blocking unauthorized network requests and file access regardless of what the model decides to do.\n\nSwipe through for the full breakdown on how AI security is shifting from prompt engineering to infrastructure.\n\n#AISecurity #AIAgents #NVIDIA #CyberSecurity #ArtificialIntelligence #TechNews #GetByteRush",
+  "pinned_comment": "Are system prompts enough for simple workflows, or should all AI tools run in sandboxes? Let us know below.",
+  "alt_text_overall": "Carousel explaining NVIDIA's perspective on AI agent security, moving from prompt guardrails to runtime-level sandboxing.",
+  "alt_text_per_slide": [
+    "Slide 1: PROMPT SAFEGUARDS CANNOT SECURE AI AGENTS.. NVIDIA warns that instructing an AI agent to 'be safe' fails the moment it encounters malicious text inside external documents. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: AN AGENT CANNOT AUTHORIZE ITS OWN PERMISSIONS.. When an agent processes untrusted inputs, malicious prompt injections can hijack its reasoning. Relying on the model to obey guardrails is a fatal design flaw. — shown as a headline over radiating signal rings.",
+    "Slide 3: WHAT HAPPENS WHEN AN AGENT READS A POISONED FILE.. An agent updating records reads an attached document with embedded commands. It immediately attempts to exfiltrate customer data to an external server. — shown as a headline over radiating signal rings.",
+    "Slide 4: ENFORCE BOUNDARIES OUTSIDE THE MODEL'S REACH.. Security must hold even when the AI makes the wrong decision. Environments must limit file access, network endpoints, and processes independently of agent logic. — shown as a headline over radiating signal rings.",
+    "Slide 5: SANDBOX THE AGENT, NOT THE PROMPT.. NVIDIA introduced OpenShell—an open-source secure runtime that isolates agents in sandboxes and restricts system resources outside the model's control. — shown as a headline over radiating signal rings.",
+    "Slide 6: AI SAFETY IS MOVING FROM PROMPTS TO INFRASTRUCTURE.. Future agent deployments require explicit identity tracking, hard-coded network destination limits, and mandatory human authorization for privileged actions. — shown as a headline over radiating signal rings.",
+    "Slide 7: NEVER TRUST AN AGENT'S REASONING WITH SYSTEM PERMISSIONS.. The future of secure AI isn't teaching LLMs to be polite. It's building runtime walls they physically cannot cross. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#AISecurity",
+    "#AIAgents",
+    "#NVIDIA",
+    "#CyberSecurity",
+    "#ArtificialIntelligence",
+    "#TechNews",
+    "#GetByteRush"
+  ],
+  "cta": "We test the stuff everyone else just explains.",
+  "seo": {
+    "primary_keyword": "NVIDIA Warns Prompt",
+    "secondary_keywords": [
+      "AISecurity",
+      "AIAgents",
+      "CyberSecurity",
+      "ArtificialIntelligence",
+      "TechNews",
+      "GetByteRush",
+      "Engineering Cannot Secure",
+      "Autonomous AI Agents"
+    ],
+    "search_phrases": [
+      "what is NVIDIA Warns Prompt",
+      "NVIDIA Warns Prompt vs Engineering Cannot Secure",
+      "NVIDIA Warns Prompt AISecurity",
+      "NVIDIA Warns Prompt AIAgents"
+    ],
+    "entities": [
+      "NVIDIA Warns Prompt",
+      "Engineering Cannot Secure",
+      "Autonomous AI Agents",
+      "AI Security Is",
+      "Engineering Problem",
+      "How"
+    ]
+  },
+  "source_attribution": {
+    "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "AI security is an engineering problem requiring enforceable controls outside the agent's reach.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "NVIDIA released OpenShell as an open-source secure runtime for AI agents.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "System prompts cannot guarantee agent safety when processing untrusted files.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+        "source_name": "GetByteRush Analysis of NVIDIA Security Architecture"
+      }
+    ]
+  }
+}

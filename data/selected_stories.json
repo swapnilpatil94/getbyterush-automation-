@@ -2,26 +2,26 @@
   "date": "2026-09-22",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Intuit and OpenAI join forces on new AI-powered experiences",
-      "url": "https://openai.com/index/intuit-partnership",
-      "description": "OpenAI and Intuit have entered a $100M+ multi-year partnership to launch Intuit app experiences in ChatGPT and expand Intuit’s use of OpenAI’s frontier models to power personalized financial tools.",
-      "published": "Tue, 18 Nov 2025 05:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
+      "source": "NVIDIA Blog",
+      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+      "description": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, [&#8230;]",
+      "published": "Mon, 21 Sep 2026 14:51:34 +0000",
+      "freshness_score": 10,
+      "relevance_score": 16,
       "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20,
-      "content_id": "cand-02b4d2fece403d0e",
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 32,
+      "content_id": "cand-ba508c8c472ba657",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 53,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 53/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 71,
+        "why_selected": "LAST_24H — HIGHLY_CURIOUS, USEFUL, PROVABLE (score 71/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]

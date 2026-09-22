@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "NVIDIA Warns Prompt Engineering Cannot Secure Autonomous AI Agents",
+      "source_title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "nvidia warns prompt engineering cannot secure autonomous ai agents",
+      "normalized_source_title": "ai security is an engineering problem how to solve it at every layer of the agent stack",
+      "tokens": [
+        "agents",
+        "autonomous",
+        "cannot",
+        "engineering",
+        "nvidia",
+        "prompt",
+        "secure",
+        "warns"
+      ],
+      "source_tokens": [
+        "agent",
+        "engineering",
+        "every",
+        "how",
+        "layer",
+        "problem",
+        "security",
+        "solve",
+        "stack",
+        "the"
+      ],
+      "recorded_at": "2026-09-22T08:17:05.823497+00:00"
+    },
+    {
       "title": "OpenAI and Intuit Partner in $100M+ Deal to Bring Financial Tools to ChatGPT",
       "source_title": "Intuit and OpenAI join forces on new AI-powered experiences",
       "url": "https://openai.com/index/intuit-partnership",

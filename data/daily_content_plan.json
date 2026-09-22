@@ -18,6 +18,22 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260922014654-openai-and-intuit-pa-39ba0e"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-ba508c8c472ba657",
+      "topic": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "category": "LAST_24H",
+      "score": 71,
+      "reason": "LAST_24H — HIGHLY_CURIOUS, USEFUL, PROVABLE (score 71/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "260922081705-nvidia-warns-prompt--85f968"
     }
   ],
   "slots": {
@@ -33,7 +49,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-ba508c8c472ba657",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
