@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "midmorning",
+      "content_id": "cand-6c235f7d2a9fa678",
+      "topic": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+      "category": "EXPERIMENT",
+      "score": 65,
+      "reason": "EXPERIMENT — SURPRISING, NEW, PROVABLE, DEMONSTRABLE (score 65/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -24,7 +39,12 @@
       "status": "SELECTED",
       "content_id": "cand-48c2b241758cbad3",
       "label": "Morning discovery"
+    },
+    "midmorning": {
+      "status": "SELECTED",
+      "content_id": "cand-6c235f7d2a9fa678",
+      "label": "Curiosity + saves"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
