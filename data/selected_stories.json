@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "NVIDIA Blog",
-      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-      "description": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&#8230;]",
-      "published": "Tue, 22 Sep 2026 12:00:41 +0000",
+      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+      "description": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead [&#8230;]",
+      "published": "Mon, 21 Sep 2026 16:00:10 +0000",
       "freshness_score": 10,
-      "relevance_score": 18,
+      "relevance_score": 16,
       "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 31,
-      "content_id": "cand-fc5befd2bacce4c4",
+      "story_type": "RESEARCH",
+      "pre_filter_score": 29,
+      "content_id": "cand-e83e78baafd2cf97",
       "selection_meta": {
-        "rank": 3,
+        "rank": 4,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "LAST_24H",
-        "quality_score": 57,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 57/100)",
+        "quality_score": 55,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
         "source": "NVIDIA Blog"
       }
     }

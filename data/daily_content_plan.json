@@ -47,6 +47,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 4,
+      "slot": "night",
+      "content_id": "cand-e83e78baafd2cf97",
+      "topic": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "category": "LAST_24H",
+      "score": 55,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -72,7 +87,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-e83e78baafd2cf97",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 4
 }
