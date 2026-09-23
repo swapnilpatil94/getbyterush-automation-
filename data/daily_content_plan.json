@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "afternoon",
+      "content_id": "cand-fc5befd2bacce4c4",
+      "topic": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "category": "LAST_24H",
+      "score": 57,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 57/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -44,7 +59,12 @@
       "status": "SELECTED",
       "content_id": "cand-6c235f7d2a9fa678",
       "label": "Curiosity + saves"
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-fc5befd2bacce4c4",
+      "label": "Freshness"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
