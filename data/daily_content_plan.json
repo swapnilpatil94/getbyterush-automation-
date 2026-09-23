@@ -1,50 +1,18 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-02b4d2fece403d0e",
-      "topic": "Intuit and OpenAI join forces on new AI-powered experiences",
+      "content_id": "cand-48c2b241758cbad3",
+      "topic": "Funding grants for new research into AI and teen development",
       "category": "EVERGREEN_VALUE",
-      "score": 53,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 53/100)",
+      "score": 54,
+      "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/intuit-partnership",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260922014654-openai-and-intuit-pa-39ba0e"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-ba508c8c472ba657",
-      "topic": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-      "category": "LAST_24H",
-      "score": 71,
-      "reason": "LAST_24H — HIGHLY_CURIOUS, USEFUL, PROVABLE (score 71/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "260922081705-nvidia-warns-prompt--85f968"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-9cc73d15c4bf1247",
-      "topic": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
-      "category": "LAST_24H",
-      "score": 59,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 59/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+      "source_url": "https://openai.com/index/teen-development-research-grants",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -54,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-02b4d2fece403d0e",
+      "content_id": "cand-48c2b241758cbad3",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-ba508c8c472ba657",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-9cc73d15c4bf1247",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
