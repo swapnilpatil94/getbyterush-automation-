@@ -1,43 +1,7 @@
 {
-  "generated_at": "2026-09-24T02:32:18.126273+00:00",
+  "generated_at": "2026-09-24T10:52:22.219722+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
-      "description": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a system, our first thought is: how can it [&#8230;]",
-      "published": "Wed, 23 Sep 2026 15:00:32 +0000",
-      "freshness_score": 9,
-      "relevance_score": 7,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "description": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "published": "Wed, 23 Sep 2026 16:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 13
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Google Beam expands with new regions, partners, and customers",
-      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-      "description": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
-      "published": "Wed, 23 Sep 2026 18:00:00 +0000",
-      "freshness_score": 9,
-      "relevance_score": 2,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 11
-    },
     {
       "source": "OpenAI News",
       "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
@@ -49,6 +13,18 @@
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 29
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
+      "description": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a system, our first thought is: how can it [&#8230;]",
+      "published": "Wed, 23 Sep 2026 15:00:32 +0000",
+      "freshness_score": 8,
+      "relevance_score": 7,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
     },
     {
       "source": "OpenAI News",
@@ -88,6 +64,30 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "description": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "published": "Wed, 23 Sep 2026 16:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "description": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "published": "Wed, 23 Sep 2026 18:00:00 +0000",
+      "freshness_score": 8,
+      "relevance_score": 2,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 10
+    },
+    {
+      "source": "OpenAI News",
       "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "description": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
@@ -96,18 +96,6 @@
       "relevance_score": 2,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 10
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing MentalHealthBench",
-      "url": "https://openai.com/index/introducing-mentalhealthbench",
-      "description": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-      "published": "Wed, 23 Sep 2026 10:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 2,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 10
     },
     {
@@ -157,6 +145,18 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "description": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+      "published": "Wed, 23 Sep 2026 02:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -217,42 +217,6 @@
       "impact_score": 3,
       "story_type": "RESEARCH",
       "pre_filter_score": 24
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Building standards for the next phase of AI",
-      "url": "https://openai.com/index/building-standards-next-phase-ai",
-      "description": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "published": "Mon, 21 Sep 2026 10:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 3,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Expanding OpenAI Academy with new learning paths",
-      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "description": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 10,
-      "impact_score": 0,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "5 Companies Using NVIDIA AI for Clean Energy",
-      "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
-      "description": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception [&#8230;]",
-      "published": "Mon, 21 Sep 2026 10:00:35 +0000",
-      "freshness_score": 5,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -772,18 +736,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "STORM-0817: Iran-linked malware and scraping activity",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "Bet Bot: Gambling spam network",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
       "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
@@ -792,6 +744,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "STORM-0817: Iran-linked malware and scraping activity",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "SECURITY",
       "pre_filter_score": 20
     },
     {
@@ -892,9 +856,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -904,9 +868,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -959,6 +923,42 @@
       "freshness_score": 0,
       "relevance_score": 12,
       "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "published": "Mon, 20 Jul 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Deep double descent",
+      "url": "https://openai.com/index/deep-double-descent",
+      "description": "We show that the double descent phenomenon occurs in CNNs, ResNets, and transformers: performance first improves, then gets worse, and then improves again with increasing model size, data size, or training time. This effect is often avoided through careful regularization. While this behavior appears to be fairly universal, we don’t yet fully understand why it happens, and view further study of this phenomenon as an important research direction.",
+      "published": "Thu, 05 Dec 2019 08:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "published": "Tue, 04 Aug 2026 19:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
