@@ -1,27 +1,27 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-      "description": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead [&#8230;]",
-      "published": "Mon, 21 Sep 2026 16:00:10 +0000",
-      "freshness_score": 10,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 29,
-      "content_id": "cand-e83e78baafd2cf97",
+      "source": "OpenAI News",
+      "title": "Strengthening ChatGPT’s responses in sensitive conversations",
+      "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations",
+      "description": "OpenAI collaborated with 170+ mental health experts to improve ChatGPT’s ability to recognize distress, respond empathetically, and guide users toward real-world support—reducing unsafe responses by up to 80%. Learn how we’re making ChatGPT safer and more supportive in sensitive moments.",
+      "published": "Mon, 27 Oct 2025 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 11,
+      "impact_score": 8,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19,
+      "content_id": "cand-d6f7d400e9a15eb9",
       "selection_meta": {
-        "rank": 4,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "LAST_24H",
-        "quality_score": 55,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
-        "source": "NVIDIA Blog"
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 53,
+        "why_selected": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 53/100)",
+        "source": "OpenAI News"
       }
     }
   ]

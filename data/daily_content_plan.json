@@ -1,63 +1,18 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-48c2b241758cbad3",
-      "topic": "Funding grants for new research into AI and teen development",
+      "content_id": "cand-d6f7d400e9a15eb9",
+      "topic": "Strengthening ChatGPT’s responses in sensitive conversations",
       "category": "EVERGREEN_VALUE",
-      "score": 54,
-      "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
+      "score": 53,
+      "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 53/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/teen-development-research-grants",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "midmorning",
-      "content_id": "cand-6c235f7d2a9fa678",
-      "topic": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
-      "category": "EXPERIMENT",
-      "score": 65,
-      "reason": "EXPERIMENT — SURPRISING, NEW, PROVABLE, DEMONSTRABLE (score 65/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "afternoon",
-      "content_id": "cand-fc5befd2bacce4c4",
-      "topic": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-      "category": "LAST_24H",
-      "score": 57,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 57/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 4,
-      "slot": "night",
-      "content_id": "cand-e83e78baafd2cf97",
-      "topic": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-      "category": "LAST_24H",
-      "score": 55,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+      "source_url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -67,32 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-48c2b241758cbad3",
+      "content_id": "cand-d6f7d400e9a15eb9",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "SELECTED",
-      "content_id": "cand-6c235f7d2a9fa678",
-      "label": "Curiosity + saves"
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-fc5befd2bacce4c4",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-e83e78baafd2cf97",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 4
+  "selected_count": 1
 }
