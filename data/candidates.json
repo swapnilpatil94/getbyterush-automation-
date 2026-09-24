@@ -1,78 +1,30 @@
 {
-  "generated_at": "2026-09-24T10:52:22.219722+00:00",
+  "generated_at": "2026-09-24T16:15:13.569314+00:00",
   "count": 80,
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "description": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "published": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 16,
+      "source": "NVIDIA Blog",
+      "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+      "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
+      "description": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google [&#8230;]",
+      "published": "Thu, 24 Sep 2026 14:00:50 +0000",
+      "freshness_score": 10,
+      "relevance_score": 9,
       "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 29
+      "story_type": "RESEARCH",
+      "pre_filter_score": 24
     },
     {
       "source": "NVIDIA Blog",
-      "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
-      "description": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a system, our first thought is: how can it [&#8230;]",
-      "published": "Wed, 23 Sep 2026 15:00:32 +0000",
-      "freshness_score": 8,
-      "relevance_score": 7,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "description": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "published": "Wed, 23 Sep 2026 13:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "description": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "published": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 3,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "description": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "published": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "description": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "published": "Wed, 23 Sep 2026 16:00:00 GMT",
-      "freshness_score": 8,
+      "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
+      "description": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month GeForce NOW Ultimate membership through Sunday, Sept. 27, and receive [&#8230;]",
+      "published": "Thu, 24 Sep 2026 13:00:36 +0000",
+      "freshness_score": 10,
       "relevance_score": 4,
       "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 14
     },
     {
       "source": "Google AI Blog",
@@ -88,25 +40,13 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "description": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "description": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "published": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 2,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 10
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-      "description": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&#8230;]",
-      "published": "Tue, 22 Sep 2026 12:00:41 +0000",
       "freshness_score": 6,
-      "relevance_score": 18,
-      "impact_score": 3,
+      "relevance_score": 16,
+      "impact_score": 5,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 27
     },
@@ -124,18 +64,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "description": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "published": "Tue, 22 Sep 2026 12:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 12,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
       "url": "https://openai.com/index/airbnb-gpt-6-astra",
       "description": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
@@ -145,6 +73,30 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
+      "description": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a system, our first thought is: how can it [&#8230;]",
+      "published": "Wed, 23 Sep 2026 15:00:32 +0000",
+      "freshness_score": 6,
+      "relevance_score": 7,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "description": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "published": "Wed, 23 Sep 2026 13:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 3,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -160,6 +112,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "description": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "published": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
+    },
+    {
+      "source": "OpenAI News",
       "title": "Introducing GPT-6 Sol and Luna",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
       "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
@@ -169,6 +133,18 @@
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 12
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "description": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "published": "Wed, 23 Sep 2026 16:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 10
     },
     {
       "source": "OpenAI News",
@@ -184,39 +160,27 @@
     },
     {
       "source": "NVIDIA Blog",
-      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
-      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-      "description": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, [&#8230;]",
-      "published": "Mon, 21 Sep 2026 16:00:46 +0000",
+      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "description": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&#8230;]",
+      "published": "Tue, 22 Sep 2026 12:00:41 +0000",
       "freshness_score": 5,
-      "relevance_score": 13,
-      "impact_score": 13,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 31
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-      "description": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, [&#8230;]",
-      "published": "Mon, 21 Sep 2026 14:51:34 +0000",
-      "freshness_score": 5,
-      "relevance_score": 16,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 27
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-      "description": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead [&#8230;]",
-      "published": "Mon, 21 Sep 2026 16:00:10 +0000",
-      "freshness_score": 5,
-      "relevance_score": 16,
+      "relevance_score": 18,
       "impact_score": 3,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 24
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 26
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "description": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "published": "Tue, 22 Sep 2026 12:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 12,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
     },
     {
       "source": "OpenAI News",
@@ -231,30 +195,6 @@
       "pre_filter_score": 13
     },
     {
-      "source": "OpenAI News",
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "description": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "published": "Mon, 21 Sep 2026 12:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 11
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "description": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "published": "Mon, 21 Sep 2026 12:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 9
-    },
-    {
       "source": "NVIDIA Blog",
       "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
       "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
@@ -265,6 +205,18 @@
       "impact_score": 0,
       "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 9
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+      "description": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, [&#8230;]",
+      "published": "Mon, 21 Sep 2026 16:00:46 +0000",
+      "freshness_score": 2,
+      "relevance_score": 13,
+      "impact_score": 13,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 28
     },
     {
       "source": "OpenAI News",
@@ -956,6 +908,54 @@
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
       "published": "Tue, 04 Aug 2026 19:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing EVMbench",
+      "url": "https://openai.com/index/introducing-evmbench",
+      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "published": "Wed, 18 Feb 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Genmab launches “AI Everywhere”",
+      "url": "https://openai.com/index/genmab",
+      "description": "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy",
+      "published": "Thu, 19 Sep 2024 04:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Surging developer productivity with custom GPTs",
+      "url": "https://openai.com/index/paf",
+      "description": "Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Enterprise into the grit:lab coding academy (gritlab.ax), training the next generation of software developers using an AI-augmented, systems-architecture mindset from day one. In addition to the wide range of use cases for developers and grit:lab students, 70% of Paf employees actively use ChatGPT Enterprise, spanning business teams like finance, HR, marketing, and customer support.",
+      "published": "Tue, 18 Jun 2024 08:45:00 GMT",
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
