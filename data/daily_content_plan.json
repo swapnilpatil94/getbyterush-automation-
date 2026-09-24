@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-31d7176b0fe37cac",
+      "topic": "How we monitor internal coding agents for misalignment",
+      "category": "DATA_RESEARCH",
+      "score": 54,
+      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 54/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -60,7 +75,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-31d7176b0fe37cac",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
