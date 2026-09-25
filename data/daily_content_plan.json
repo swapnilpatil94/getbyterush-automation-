@@ -18,6 +18,21 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260925014727-openai-shares-lesson-68ac99"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-c8ce72e76c7b15db",
+      "topic": "Deep double descent",
+      "category": "DATA_RESEARCH",
+      "score": 53,
+      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 53/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/deep-double-descent",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -48,7 +63,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-c8ce72e76c7b15db",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

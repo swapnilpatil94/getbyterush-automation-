@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "published": "Mon, 20 Jul 2026 10:00:00 GMT",
+      "title": "Deep double descent",
+      "url": "https://openai.com/index/deep-double-descent",
+      "description": "We show that the double descent phenomenon occurs in CNNs, ResNets, and transformers: performance first improves, then gets worse, and then improves again with increasing model size, data size, or training time. This effect is often avoided through careful regularization. While this behavior appears to be fairly universal, we don’t yet fully understand why it happens, and view further study of this phenomenon as an important research direction.",
+      "published": "Thu, 05 Dec 2019 08:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 12,
       "impact_score": 7,
-      "story_type": "MODEL_UPDATE",
+      "story_type": "RESEARCH",
       "pre_filter_score": 19,
-      "content_id": "cand-7ff4d26225101fd1",
+      "content_id": "cand-c8ce72e76c7b15db",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 52,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 52/100)",
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "DATA_RESEARCH",
+        "quality_score": 53,
+        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 53/100)",
         "source": "OpenAI News"
       }
     }
