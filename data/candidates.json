@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-09-25T16:15:36.642761+00:00",
+  "generated_at": "2026-09-25T20:56:31.535351+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "description": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "published": "Fri, 25 Sep 2026 19:00:00 GMT",
+      "freshness_score": 10,
+      "relevance_score": 2,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 15
+    },
     {
       "source": "NVIDIA Blog",
       "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
@@ -108,18 +120,6 @@
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 11
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "published": "Tue, 22 Sep 2026 18:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 11
     },
     {
