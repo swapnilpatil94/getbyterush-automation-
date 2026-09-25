@@ -1,0 +1,87 @@
+{
+  "content_id": "260925014727-openai-shares-lesson-68ac99",
+  "story_title": "OpenAI Shares Lessons on Long-Horizon Model Safety",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-25/014727-openai-shares-lessons-on-long-horizon-model-safety/slides/01.jpg",
+    "output/posts/2026-09-25/014727-openai-shares-lessons-on-long-horizon-model-safety/slides/02.jpg",
+    "output/posts/2026-09-25/014727-openai-shares-lessons-on-long-horizon-model-safety/slides/03.jpg",
+    "output/posts/2026-09-25/014727-openai-shares-lessons-on-long-horizon-model-safety/slides/04.jpg",
+    "output/posts/2026-09-25/014727-openai-shares-lessons-on-long-horizon-model-safety/slides/05.jpg",
+    "output/posts/2026-09-25/014727-openai-shares-lessons-on-long-horizon-model-safety/slides/06.jpg",
+    "output/posts/2026-09-25/014727-openai-shares-lessons-on-long-horizon-model-safety/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "When AI operates autonomously over hours or days, standard safety checks aren't enough. OpenAI recently shared findings on long-horizon models, showing how tiny reasoning errors compound over extended execution windows. As multi-step AI agents enter production workflows, controlling model drift becomes the new engineering hurdle.\n\nRead the breakdown slide by slide.\n\n#AI #OpenAI #ArtificialIntelligence #TechNews #GetByteRush",
+  "caption_for_publish": "When AI operates autonomously over hours or days, standard safety checks aren't enough. OpenAI recently shared findings on long-horizon models, showing how tiny reasoning errors compound over extended execution windows. As multi-step AI agents enter production workflows, controlling model drift becomes the new engineering hurdle.\n\nRead the breakdown slide by slide.\n\n#AI #OpenAI #ArtificialIntelligence #TechNews #GetByteRush\n\n#AI #OpenAI #TechNews #MachineLearning #AIAgents #GetByteRush",
+  "pinned_comment": "Are multi-step AI agents ready for mission-critical tasks, or are guardrails still too immature?",
+  "alt_text_overall": "GetByteRush carousel explaining OpenAI's safety lessons on long-horizon AI models and multi-step agent drift.",
+  "alt_text_per_slide": [
+    "Slide 1: LONG-RUNNING AI HAS A NEW PROBLEM.. As AI models run for extended periods to complete complex tasks, OpenAI is documenting unexpected failure modes and new alignment risks. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: WHAT ARE LONG-HORIZON MODELS?. Instead of answering simple single-turn prompts, long-horizon AI agents execute multi-step tasks over extended timeframes with minimal human guidance. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: OBSERVED FAILURES IN THE FIELD. OpenAI highlighted lessons from real deployment, showing that longer execution windows allow minor early mistakes to compound into significant system failures. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: WHEN AI DRIFTS OVER TIME. Small deviations in early reasoning steps can lead to severe divergence later. Traditional safety guardrails built for short responses struggle to detect cumulative drift. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: ITERATIVE SAFEGUARDS REQUIRED. To counter long-horizon failure modes, deployment requires continuous monitoring, iterative feedback loops, and automated runtime intervention boundaries. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: THE BOTTLENECK FOR AUTONOMOUS AGENTS. As businesses deploy AI agents for automated operations, managing multi-step alignment becomes a primary technical constraint on reliability. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: THE HORIZON PARADOX. Giving AI more time to solve hard problems makes it vastly more capable—and exponentially harder to keep on track. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "AI",
+    "OpenAI",
+    "TechNews",
+    "MachineLearning",
+    "AIAgents",
+    "GetByteRush"
+  ],
+  "cta": "Follow along — we go deeper than the headline.",
+  "seo": {
+    "primary_keyword": "OpenAI Shares Lessons",
+    "secondary_keywords": [
+      "TechNews",
+      "MachineLearning",
+      "AIAgents",
+      "GetByteRush",
+      "Long",
+      "Horizon Model Safety",
+      "Safety"
+    ],
+    "search_phrases": [
+      "what is OpenAI Shares Lessons",
+      "OpenAI Shares Lessons vs Long",
+      "OpenAI Shares Lessons TechNews",
+      "OpenAI Shares Lessons MachineLearning"
+    ],
+    "entities": [
+      "OpenAI Shares Lessons",
+      "Long",
+      "Horizon Model Safety",
+      "Safety"
+    ]
+  },
+  "source_attribution": {
+    "title": "Safety and alignment in an era of long-horizon models",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/safety-alignment-long-horizon-models"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI shared lessons from deploying long-running AI models, highlighting new safety risks and observed failures.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/safety-alignment-long-horizon-models",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Managing multi-step alignment becomes a primary technical constraint on agent reliability.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/safety-alignment-long-horizon-models",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}

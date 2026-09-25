@@ -2,6 +2,33 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Shares Lessons on Long-Horizon Model Safety",
+      "source_title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "source": "OpenAI News",
+      "normalized_title": "openai shares lessons on long horizon model safety",
+      "normalized_source_title": "safety and alignment in an era of long horizon models",
+      "tokens": [
+        "horizon",
+        "lessons",
+        "long",
+        "model",
+        "openai",
+        "safety",
+        "shares"
+      ],
+      "source_tokens": [
+        "alignment",
+        "and",
+        "era",
+        "horizon",
+        "long",
+        "models",
+        "safety"
+      ],
+      "recorded_at": "2026-09-25T01:47:27.108135+00:00"
+    },
+    {
       "title": "NVIDIA Warns Prompt Engineering Cannot Secure Autonomous AI Agents",
       "source_title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
       "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",

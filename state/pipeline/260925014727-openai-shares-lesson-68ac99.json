@@ -1,0 +1,49 @@
+{
+  "content_id": "260925014727-openai-shares-lesson-68ac99",
+  "story_title": "OpenAI Shares Lessons on Long-Horizon Model Safety",
+  "source_url": "https://openai.com/index/safety-alignment-long-horizon-models",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-25T01:47:27.135331+00:00",
+  "updated_at": "2026-09-25T01:47:31.068663+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-25T01:47:27.135336+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-25T01:47:27.137042+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-25T01:47:27.137917+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-25T01:47:27.138784+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-25T01:47:28.077443+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-25T01:47:31.068678+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-25/014727-openai-shares-lessons-on-long-horizon-model-safety",
+  "publish": {},
+  "story_path": "data/pipeline/260925014727-openai-shares-lesson-68ac99.json"
+}

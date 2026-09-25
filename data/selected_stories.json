@@ -1,26 +1,26 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "How we monitor internal coding agents for misalignment",
-      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-      "description": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
-      "published": "Thu, 19 Mar 2026 10:00:00 GMT",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "published": "Mon, 20 Jul 2026 10:00:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 10,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 24,
-      "content_id": "cand-31d7176b0fe37cac",
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19,
+      "content_id": "cand-7ff4d26225101fd1",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "DATA_RESEARCH",
-        "quality_score": 54,
-        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 54/100)",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 52,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 52/100)",
         "source": "OpenAI News"
       }
     }
