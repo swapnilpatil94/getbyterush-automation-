@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T02:49:32.470473+00:00",
+  "generated_at": "2026-09-25T10:55:15.412226+00:00",
   "count": 1267,
   "stories": [
     {
@@ -216,7 +216,7 @@
       "url": "https://openai.com/index/introducing-mentalhealthbench",
       "description": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
       "published": "Wed, 23 Sep 2026 10:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -308,7 +308,7 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How V7 gives AI agents institutional memory",
+      "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
       "url": "https://openai.com/index/v7",
       "description": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
       "published": "Mon, 21 Sep 2026 00:00:00 GMT",
