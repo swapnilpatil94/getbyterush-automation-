@@ -1,74 +1,31 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-7ff4d26225101fd1",
-      "topic": "Safety and alignment in an era of long-horizon models",
+      "content_id": "cand-7a046572fc384634",
+      "topic": "OpenAI, Oracle, and SoftBank expand Stargate with five new AI datacenter sites",
       "category": "EVERGREEN_VALUE",
-      "score": 52,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 52/100)",
+      "score": 51,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "source_url": "https://openai.com/index/five-new-stargate-sites",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260925014727-openai-shares-lesson-68ac99"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-c8ce72e76c7b15db",
-      "topic": "Deep double descent",
-      "category": "DATA_RESEARCH",
-      "score": 53,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 53/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/deep-double-descent",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
+      "content_state_id": "260926014743-openai-oracle-and-so-c8879a"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-7ff4d26225101fd1",
+      "content_id": "cand-7a046572fc384634",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-c8ce72e76c7b15db",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }

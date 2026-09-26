@@ -1,0 +1,96 @@
+{
+  "content_id": "260926014743-openai-oracle-and-so-c8879a",
+  "story_title": "OpenAI, Oracle, and SoftBank Expand Stargate with Five New Sites",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-26/014743-openai-oracle-and-softbank-expand-stargate-with-five-new-sites/slides/01.jpg",
+    "output/posts/2026-09-26/014743-openai-oracle-and-softbank-expand-stargate-with-five-new-sites/slides/02.jpg",
+    "output/posts/2026-09-26/014743-openai-oracle-and-softbank-expand-stargate-with-five-new-sites/slides/03.jpg",
+    "output/posts/2026-09-26/014743-openai-oracle-and-softbank-expand-stargate-with-five-new-sites/slides/04.jpg",
+    "output/posts/2026-09-26/014743-openai-oracle-and-softbank-expand-stargate-with-five-new-sites/slides/05.jpg",
+    "output/posts/2026-09-26/014743-openai-oracle-and-softbank-expand-stargate-with-five-new-sites/slides/06.jpg",
+    "output/posts/2026-09-26/014743-openai-oracle-and-softbank-expand-stargate-with-five-new-sites/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "OpenAI, Oracle, and SoftBank have announced five new datacenter sites under Project Stargate, accelerating a $500B, 10-gigawatt U.S. infrastructure buildout.\n\nAI is no longer just a software race. It has officially shifted into a heavy industry war for grid power, real estate, and transformers.\n\nWhat are your thoughts on compute expanding at utility scale? Comment below.\n\n#GetByteRush #OpenAI #Oracle #SoftBank #Stargate #AI #TechNews #Infrastructure",
+  "caption_for_publish": "OpenAI, Oracle, and SoftBank have announced five new datacenter sites under Project Stargate, accelerating a $500B, 10-gigawatt U.S. infrastructure buildout.\n\nAI is no longer just a software race. It has officially shifted into a heavy industry war for grid power, real estate, and transformers.\n\nWhat are your thoughts on compute expanding at utility scale? Comment below.\n\n#GetByteRush #OpenAI #Oracle #SoftBank #Stargate #AI #TechNews #Infrastructure\n\n#AI #OpenAI #TechNews #GetByteRush #Infrastructure #ArtificialIntelligence",
+  "pinned_comment": "Is energy access the ultimate bottleneck for next-gen AI? Drop your perspective below.",
+  "alt_text_overall": "GetByteRush carousel explaining OpenAI, Oracle, and SoftBank expanding Stargate with 5 new AI datacenter sites totaling $500B and 10 gigawatts.",
+  "alt_text_per_slide": [
+    "Slide 1: $500 BILLION FOR AI.. OpenAI, Oracle, and SoftBank just announced 5 new datacenter sites to accelerate Project Stargate. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: 10 GIGAWATTS OF POWER.. The massive U.S. infrastructure expansion is designed to support power demands for next-generation AI models. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: THREE GIANT PLAYERS.. According to the official release, OpenAI, Oracle, and SoftBank are coordinating the multi-site U.S. buildout. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: TENS OF THOUSANDS OF JOBS.. The construction and operation of these five new sites aim to create significant direct and indirect domestic jobs. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: SOFTWARE IS NOW HEAVY INDUSTRY.. The bottleneck for artificial intelligence is no longer code—it is concrete, turbines, transformers, and land. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: THE POWER MOAT.. Securing multi-gigawatt grid access now creates an insurmountable barrier to entry for smaller AI competitors. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: THE COMPUTE WAR IS AN ENERGY WAR.. As Project Stargate expands, winning in AI requires building the largest industrial grid footprint on Earth. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#AI",
+    "#OpenAI",
+    "#TechNews",
+    "#GetByteRush",
+    "#Infrastructure",
+    "#ArtificialIntelligence"
+  ],
+  "cta": "Send this to the person who needs to see it.",
+  "seo": {
+    "primary_keyword": "OpenAI",
+    "secondary_keywords": [
+      "TechNews",
+      "GetByteRush",
+      "Infrastructure",
+      "ArtificialIntelligence",
+      "Oracle",
+      "SoftBank Expand Stargate",
+      "Five New Sites",
+      "SoftBank"
+    ],
+    "search_phrases": [
+      "what is OpenAI",
+      "OpenAI vs Oracle",
+      "OpenAI TechNews",
+      "OpenAI GetByteRush"
+    ],
+    "entities": [
+      "OpenAI",
+      "Oracle",
+      "SoftBank Expand Stargate",
+      "Five New Sites",
+      "SoftBank",
+      "Stargate"
+    ]
+  },
+  "source_attribution": {
+    "title": "OpenAI, Oracle, and SoftBank expand Stargate with five new AI datacenter sites",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/five-new-stargate-sites",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/five-new-stargate-sites"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI, Oracle, and SoftBank expanded Project Stargate with five new AI datacenter sites.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/five-new-stargate-sites",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "The Stargate initiative targets a $500B, 10-gigawatt U.S. infrastructure buildout.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/five-new-stargate-sites",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Power access is becoming the primary competitive moat in frontier AI development.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/five-new-stargate-sites",
+        "source_name": "GetByteRush Editorial Analysis"
+      }
+    ]
+  }
+}

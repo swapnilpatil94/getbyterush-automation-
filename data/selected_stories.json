@@ -1,26 +1,26 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Deep double descent",
-      "url": "https://openai.com/index/deep-double-descent",
-      "description": "We show that the double descent phenomenon occurs in CNNs, ResNets, and transformers: performance first improves, then gets worse, and then improves again with increasing model size, data size, or training time. This effect is often avoided through careful regularization. While this behavior appears to be fairly universal, we don’t yet fully understand why it happens, and view further study of this phenomenon as an important research direction.",
-      "published": "Thu, 05 Dec 2019 08:00:00 GMT",
+      "title": "OpenAI, Oracle, and SoftBank expand Stargate with five new AI datacenter sites",
+      "url": "https://openai.com/index/five-new-stargate-sites",
+      "description": "OpenAI, Oracle, and SoftBank announce five new Stargate AI datacenter sites, accelerating a $500B, 10-gigawatt U.S. infrastructure buildout to power next-generation AI and create tens of thousands of jobs.",
+      "published": "Tue, 23 Sep 2025 14:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 12,
-      "impact_score": 7,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 19,
-      "content_id": "cand-c8ce72e76c7b15db",
+      "impact_score": 12,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 24,
+      "content_id": "cand-7a046572fc384634",
       "selection_meta": {
-        "rank": 2,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "DATA_RESEARCH",
-        "quality_score": 53,
-        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 53/100)",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 51,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
         "source": "OpenAI News"
       }
     }
