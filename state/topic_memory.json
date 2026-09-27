@@ -2,6 +2,35 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI Introduces GDPval to Benchmark Models on 44 Real-World Occupations",
+      "source_title": "Measuring the performance of our models on real-world tasks",
+      "url": "https://openai.com/index/gdpval",
+      "source": "OpenAI News",
+      "normalized_title": "openai introduces gdpval to benchmark models on 44 real world occupations",
+      "normalized_source_title": "measuring the performance of our models on real world tasks",
+      "tokens": [
+        "benchmark",
+        "gdpval",
+        "introduces",
+        "models",
+        "occupations",
+        "openai",
+        "real",
+        "world"
+      ],
+      "source_tokens": [
+        "measuring",
+        "models",
+        "our",
+        "performance",
+        "real",
+        "tasks",
+        "the",
+        "world"
+      ],
+      "recorded_at": "2026-09-27T01:47:08.788740+00:00"
+    },
+    {
       "title": "OpenAI, Oracle, and SoftBank Expand Stargate with Five New Sites",
       "source_title": "OpenAI, Oracle, and SoftBank expand Stargate with five new AI datacenter sites",
       "url": "https://openai.com/index/five-new-stargate-sites",

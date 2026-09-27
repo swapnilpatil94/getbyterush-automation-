@@ -1,26 +1,26 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Funding grants for new research into AI and mental health",
-      "url": "https://openai.com/index/ai-mental-health-research-grants",
-      "description": "OpenAI is awarding up to $2 million in grants for research at the intersection of AI and mental health. The program supports projects that study real-world risks, benefits, and applications to improve safety and well-being.",
-      "published": "Mon, 01 Dec 2025 12:00:00 GMT",
+      "title": "Measuring the performance of our models on real-world tasks",
+      "url": "https://openai.com/index/gdpval",
+      "description": "OpenAI introduces GDPval, a new evaluation that measures model performance on real-world economically valuable tasks across 44 occupations.",
+      "published": "Thu, 25 Sep 2025 09:00:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 11,
+      "relevance_score": 14,
+      "impact_score": 6,
       "story_type": "BUSINESS",
-      "pre_filter_score": 24,
-      "content_id": "cand-483e4b6ab1e7b9ff",
+      "pre_filter_score": 20,
+      "content_id": "cand-ecb2078b9f8e799f",
       "selection_meta": {
-        "rank": 2,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "DATA_RESEARCH",
-        "quality_score": 52,
-        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 52/100)",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 51,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
         "source": "OpenAI News"
       }
     }

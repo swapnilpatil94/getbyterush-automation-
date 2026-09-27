@@ -1,0 +1,88 @@
+{
+  "content_id": "260927014708-openai-introduces-gd-fb50d0",
+  "story_title": "OpenAI Introduces GDPval to Benchmark Models on 44 Real-World Occupations",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-09-27/014708-openai-introduces-gdpval-to-benchmark-models-on-44-real-world-occupation/slides/01.jpg",
+    "output/posts/2026-09-27/014708-openai-introduces-gdpval-to-benchmark-models-on-44-real-world-occupation/slides/02.jpg",
+    "output/posts/2026-09-27/014708-openai-introduces-gdpval-to-benchmark-models-on-44-real-world-occupation/slides/03.jpg",
+    "output/posts/2026-09-27/014708-openai-introduces-gdpval-to-benchmark-models-on-44-real-world-occupation/slides/04.jpg",
+    "output/posts/2026-09-27/014708-openai-introduces-gdpval-to-benchmark-models-on-44-real-world-occupation/slides/05.jpg",
+    "output/posts/2026-09-27/014708-openai-introduces-gdpval-to-benchmark-models-on-44-real-world-occupation/slides/06.jpg",
+    "output/posts/2026-09-27/014708-openai-introduces-gdpval-to-benchmark-models-on-44-real-world-occupation/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "OpenAI just introduced GDPval—a new benchmark designed to measure model performance on real-world economically valuable tasks across 44 occupations.\n\nTraditional benchmarks like MMLU or HumanEval test academic trivia or isolated code snippets. GDPval shifts the focus directly onto real workforce output.\n\nWhat occupations do you think AI will master first? Drop your thoughts below.\n\nFollow @getbyterush for daily AI & technology breakdowns.\n\nTESTED • EXPLAINED • REAL",
+  "caption_for_publish": "OpenAI just introduced GDPval—a new benchmark designed to measure model performance on real-world economically valuable tasks across 44 occupations.\n\nTraditional benchmarks like MMLU or HumanEval test academic trivia or isolated code snippets. GDPval shifts the focus directly onto real workforce output.\n\nWhat occupations do you think AI will master first? Drop your thoughts below.\n\nFollow @getbyterush for daily AI & technology breakdowns.\n\nTESTED • EXPLAINED • REAL\n\n#OpenAI #ArtificialIntelligence #TechNews #GetByteRush #AIBenchmarks #FutureOfWork",
+  "pinned_comment": "OpenAI introduced GDPval to evaluate models on real economic tasks across 44 occupations. Is economic output the right way to measure AI progress?",
+  "alt_text_overall": "Carousel explaining OpenAI's new GDPval benchmark, which measures AI model performance on real-world economically valuable tasks across 44 occupations.",
+  "alt_text_per_slide": [
+    "Slide 1: 44 OCCUPATIONS. ONE NEW BENCHMARK.. OpenAI is changing how AI is evaluated—moving from abstract puzzles to real economic work. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: TRADITIONAL BENCHMARKS ARE FAILING.. Standard tests measure trivia, math, and isolated coding problems. They do not capture real daily jobs. — shown as a numbered slide beside a large offset circle.",
+    "Slide 3: INTRODUCING GDPVAL.. OpenAI introduced GDPval: a evaluation system explicitly designed to measure model performance on economically valuable tasks. — shown as a numbered slide beside a large offset circle.",
+    "Slide 4: TESTING ACROSS 44 OCCUPATIONS.. Rather than synthetic questions, GDPval measures performance across tasks spanning 44 distinct professions. — shown as a numbered slide beside a large offset circle.",
+    "Slide 5: FROM TRIVIA TO ECONOMIC VALUE.. Measuring model capability is no longer about academic scores. It is about workforce substitution and productivity. — shown as a numbered slide beside a large offset circle.",
+    "Slide 6: WHAT THIS MEANS FOR WORKERS.. When benchmarks track economic tasks directly, model updates will correlate to capability in specific jobs. — shown as a numbered slide beside a large offset circle.",
+    "Slide 7: THE ERA OF REAL-WORLD AI TESTING HAS ARRIVED.. The true benchmark of artificial intelligence is no longer what it knows, but what work it can perform. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "OpenAI",
+    "ArtificialIntelligence",
+    "TechNews",
+    "GetByteRush",
+    "AIBenchmarks",
+    "FutureOfWork"
+  ],
+  "cta": "Send this to the person who needs to see it.",
+  "seo": {
+    "primary_keyword": "OpenAI Introduces GDPval",
+    "secondary_keywords": [
+      "ArtificialIntelligence",
+      "TechNews",
+      "GetByteRush",
+      "AIBenchmarks",
+      "FutureOfWork",
+      "Benchmark Models",
+      "Real",
+      "World Occupations Measuring"
+    ],
+    "search_phrases": [
+      "what is OpenAI Introduces GDPval",
+      "OpenAI Introduces GDPval vs Benchmark Models",
+      "OpenAI Introduces GDPval ArtificialIntelligence",
+      "OpenAI Introduces GDPval TechNews"
+    ],
+    "entities": [
+      "OpenAI Introduces GDPval",
+      "Benchmark Models",
+      "Real",
+      "World Occupations Measuring"
+    ]
+  },
+  "source_attribution": {
+    "title": "Measuring the performance of our models on real-world tasks",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/gdpval",
+    "sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/index/gdpval"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "OpenAI introduced GDPval to measure model performance on real-world tasks across 44 occupations.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/gdpval",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Traditional benchmarks focus on synthetic tests rather than real-world economic work.",
+        "classification": "INTERPRETATION",
+        "source_url": "https://openai.com/index/gdpval",
+        "source_name": "GetByteRush Analysis"
+      }
+    ]
+  }
+}

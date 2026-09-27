@@ -1,0 +1,49 @@
+{
+  "content_id": "260927014708-openai-introduces-gd-fb50d0",
+  "story_title": "OpenAI Introduces GDPval to Benchmark Models on 44 Real-World Occupations",
+  "source_url": "https://openai.com/index/gdpval",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-09-27T01:47:08.821321+00:00",
+  "updated_at": "2026-09-27T01:47:14.194152+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-09-27T01:47:08.821328+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-09-27T01:47:08.823254+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-09-27T01:47:08.824192+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-09-27T01:47:08.825114+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-09-27T01:47:10.382233+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-09-27T01:47:14.194168+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-09-27/014708-openai-introduces-gdpval-to-benchmark-models-on-44-real-world-occupation",
+  "publish": {},
+  "story_path": "data/pipeline/260927014708-openai-introduces-gd-fb50d0.json"
+}
