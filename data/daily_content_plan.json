@@ -33,6 +33,13 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "NO_QUALITY_POST",
+      "label": "Freshness",
+      "categories": [
+        "LAST_24H"
+      ]
     }
   },
   "selected_count": 1
