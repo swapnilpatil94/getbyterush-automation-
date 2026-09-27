@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-09-27T11:08:10.804328+00:00",
+  "generated_at": "2026-09-27T16:08:37.417741+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
-      "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
-      "description": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google [&#8230;]",
-      "published": "Thu, 24 Sep 2026 14:00:50 +0000",
-      "freshness_score": 5,
-      "relevance_score": 9,
-      "impact_score": 5,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
-      "description": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month GeForce NOW Ultimate membership through Sunday, Sept. 27, and receive [&#8230;]",
-      "published": "Thu, 24 Sep 2026 13:00:36 +0000",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 9
-    },
     {
       "source": "NVIDIA Blog",
       "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
@@ -956,6 +932,30 @@
       "url": "https://openai.com/index/accelerating-science-gpt-5",
       "description": "OpenAI introduces the first research cases showing how GPT-5 accelerates scientific progress across math, physics, biology, and computer science. Explore how AI and researchers collaborate to generate proofs, uncover new insights, and reshape the pace of discovery.",
       "published": "Thu, 20 Nov 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Model ML is helping financial firms rebuild with AI from the ground up",
+      "url": "https://openai.com/index/model-ml-chaz-englander",
+      "description": "As part of our Executive Function series, Model ML CEO Chaz Englander discusses how AI-native infrastructure and autonomous agents are transforming financial services workflows.",
+      "published": "Wed, 23 Jul 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Detecting misbehavior in frontier reasoning models",
+      "url": "https://openai.com/index/chain-of-thought-monitoring",
+      "description": "Frontier reasoning models exploit loopholes when given the chance. We show we can detect exploits using an LLM to monitor their chains-of-thought. Penalizing their “bad thoughts” doesn’t stop the majority of misbehavior—it makes them hide their intent.",
+      "published": "Mon, 10 Mar 2025 10:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 13,
       "impact_score": 5,
