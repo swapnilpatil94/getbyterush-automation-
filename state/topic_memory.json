@@ -2,6 +2,37 @@
   "version": 2,
   "topics": [
     {
+      "title": "OpenAI and CSU Partner for Largest ChatGPT Deployment",
+      "source_title": "OpenAI and the CSU system bring AI to 500,000 students & faculty",
+      "url": "https://openai.com/index/openai-and-the-csu-system",
+      "source": "OpenAI News",
+      "normalized_title": "openai and csu partner for largest chatgpt deployment",
+      "normalized_source_title": "openai and the csu system bring ai to 500 000 students faculty",
+      "tokens": [
+        "and",
+        "chatgpt",
+        "csu",
+        "deployment",
+        "for",
+        "largest",
+        "openai",
+        "partner"
+      ],
+      "source_tokens": [
+        "000",
+        "500",
+        "and",
+        "bring",
+        "csu",
+        "faculty",
+        "openai",
+        "students",
+        "system",
+        "the"
+      ],
+      "recorded_at": "2026-09-28T01:47:08.725951+00:00"
+    },
+    {
       "title": "OpenAI Introduces GDPval to Benchmark Models on 44 Real-World Occupations",
       "source_title": "Measuring the performance of our models on real-world tasks",
       "url": "https://openai.com/index/gdpval",
@@ -1578,26 +1609,6 @@
         "with"
       ],
       "recorded_at": "2026-08-31T05:31:02.228457+00:00"
-    },
-    {
-      "title": "NVIDIA Ships Vera: Its First Custom CPU Built Specifically for AI Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-      "source": "NVIDIA Blog",
-      "normalized_title": "nvidia ships vera its first custom cpu built specifically for ai agents",
-      "tokens": [
-        "agents",
-        "built",
-        "cpu",
-        "custom",
-        "first",
-        "for",
-        "its",
-        "nvidia",
-        "ships",
-        "specifically",
-        "vera"
-      ],
-      "recorded_at": "2026-08-28T12:12:34.260710+00:00"
     }
   ]
 }

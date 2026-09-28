@@ -1,74 +1,31 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-ecb2078b9f8e799f",
-      "topic": "Measuring the performance of our models on real-world tasks",
+      "content_id": "cand-accb61b254ab3d87",
+      "topic": "OpenAI and the CSU system bring AI to 500,000 students & faculty",
       "category": "EVERGREEN_VALUE",
       "score": 51,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/gdpval",
+      "source_url": "https://openai.com/index/openai-and-the-csu-system",
       "editorial_status": "GENERATED",
       "render_status": "QA_PASSED",
       "telegram_status": "SENT",
       "publish_status": "PENDING",
-      "content_state_id": "260927014708-openai-introduces-gd-fb50d0"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-85e79523db0f4db1",
-      "topic": "Introducing gpt-oss",
-      "category": "EVERGREEN_VALUE",
-      "score": 51,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/introducing-gpt-oss",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
+      "content_state_id": "260928014708-openai-and-csu-partn-8b3471"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-ecb2078b9f8e799f",
+      "content_id": "cand-accb61b254ab3d87",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-85e79523db0f4db1",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }
