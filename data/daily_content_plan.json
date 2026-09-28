@@ -18,6 +18,21 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "260928014708-openai-and-csu-partn-8b3471"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-b0ae0f985eb1d4a2",
+      "topic": "Understanding prompt injections: a frontier security challenge",
+      "category": "DATA_RESEARCH",
+      "score": 56,
+      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/prompt-injections",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -48,7 +63,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-b0ae0f985eb1d4a2",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
