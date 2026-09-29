@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "evening",
+      "content_id": "cand-d81bc6fa6f7b0682",
+      "topic": "Building an early warning system for LLM-aided biological threat creation",
+      "category": "INTERNET_HUMAN_TECH_BEHAVIOR",
+      "score": 54,
+      "reason": "INTERNET_HUMAN_TECH_BEHAVIOR — SURPRISING, PROVABLE (score 54/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -51,7 +66,12 @@
       "categories": [
         "LAST_24H"
       ]
+    },
+    "evening": {
+      "status": "SELECTED",
+      "content_id": "cand-d81bc6fa6f7b0682",
+      "label": "High-attention window"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
