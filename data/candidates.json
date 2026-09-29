@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T11:54:29.943726+00:00",
+  "generated_at": "2026-09-29T17:24:22.035388+00:00",
   "count": 80,
   "stories": [
     {
@@ -495,6 +495,18 @@
       "pre_filter_score": 21
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "description": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&#8230;]",
+      "published": "Tue, 22 Sep 2026 12:00:41 +0000",
+      "freshness_score": 0,
+      "relevance_score": 18,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21
+    },
+    {
       "source": "OpenAI News",
       "title": "Intuit and OpenAI join forces on new AI-powered experiences",
       "url": "https://openai.com/index/intuit-partnership",
@@ -948,18 +960,6 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "SECURITY",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Hoax: Fake Russian “troll” error message",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll",
-      "description": "OpenAI banned an account that likely originated in the US and used AI to create a fake ChatGPT error message claiming to detect “Russian troll” activity.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]
