@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-09-30T11:42:01.040408+00:00",
+  "generated_at": "2026-09-30T17:22:03.540492+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
+      "published": "Wed, 30 Sep 2026 15:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 20,
+      "impact_score": 6,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 36
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "description": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th [&#8230;]",
+      "published": "Wed, 30 Sep 2026 17:00:21 +0000",
+      "freshness_score": 10,
+      "relevance_score": 9,
+      "impact_score": 11,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 30
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "description": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "published": "Wed, 30 Sep 2026 10:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 18
+    },
     {
       "source": "OpenAI News",
       "title": "How we will do better for Australia",
@@ -460,6 +496,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "description": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "published": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
       "title": "Warp’s big bet on building open source with GPT-5.5",
       "url": "https://openai.com/index/warp",
       "description": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
@@ -592,18 +640,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Bet Bot: Gambling spam network",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
-      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "STORM-0817: Iran-linked malware and scraping activity",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
       "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
@@ -612,6 +648,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bet Bot: Gambling spam network",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -913,54 +961,6 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Inside Mirakl's agentic commerce vision",
-      "url": "https://openai.com/index/mirakl",
-      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
-      "published": "Mon, 01 Dec 2025 22:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Predicting model behavior before release by simulating deployment",
-      "url": "https://openai.com/index/deployment-simulation",
-      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "published": "Tue, 16 Jun 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI announces Frontier Alliance Partners",
-      "url": "https://openai.com/index/frontier-alliance-partners",
-      "description": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
-      "published": "Mon, 23 Feb 2026 05:30:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Bringing ChatGPT to GenAI.mil",
-      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
-      "description": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
-      "published": "Mon, 09 Feb 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
     }
   ]
 }
