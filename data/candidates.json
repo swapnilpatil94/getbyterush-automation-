@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-09-30T17:22:03.540492+00:00",
+  "generated_at": "2026-09-30T21:43:52.479319+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
-      "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
-      "published": "Wed, 30 Sep 2026 15:00:00 +0000",
-      "freshness_score": 10,
-      "relevance_score": 20,
-      "impact_score": 6,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 36
-    },
     {
       "source": "NVIDIA Blog",
       "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
@@ -27,6 +15,30 @@
       "pre_filter_score": 30
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
+      "published": "Wed, 30 Sep 2026 15:00:00 +0000",
+      "freshness_score": 9,
+      "relevance_score": 20,
+      "impact_score": 6,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 35
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "description": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "published": "Wed, 30 Sep 2026 10:30:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 9,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
       "source": "OpenAI News",
       "title": "Helping small businesses put AI to work",
       "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
@@ -35,18 +47,6 @@
       "freshness_score": 9,
       "relevance_score": 7,
       "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "description": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "published": "Mon, 28 Sep 2026 19:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 7,
-      "impact_score": 5,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 18
     },
@@ -88,18 +88,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "description": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "published": "Mon, 28 Sep 2026 19:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 10
-    },
-    {
-      "source": "OpenAI News",
       "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
       "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
       "description": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
@@ -112,6 +100,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "description": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "published": "Mon, 28 Sep 2026 19:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 7,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
       "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
       "url": "https://openai.com/index/basis-tax-workbook-with-astra",
       "description": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
@@ -121,6 +121,18 @@
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "description": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "published": "Mon, 28 Sep 2026 19:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 9
     },
     {
       "source": "OpenAI News",
@@ -640,18 +652,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "STORM-0817: Iran-linked malware and scraping activity",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "Bet Bot: Gambling spam network",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
       "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
@@ -660,6 +660,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "STORM-0817: Iran-linked malware and scraping activity",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "SECURITY",
       "pre_filter_score": 20
     },
     {
@@ -948,18 +960,6 @@
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "published": "Thu, 04 Jun 2026 12:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]

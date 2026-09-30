@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-30T17:22:03.677799+00:00",
+  "updated_at": "2026-09-30T21:43:52.601272+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -2806,92 +2806,6 @@
       }
     },
     {
-      "content_id": "cand-cb05b088c38be51d",
-      "topic": "How to connect AI usage to business value",
-      "title": "How to connect AI usage to business value",
-      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "published_at": "Wed, 16 Sep 2026 12:00:00 GMT",
-      "discovered_at": "2026-09-16T20:43:41.677513+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 4,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 4,
-      "save_score": 8,
-      "share_score": 4,
-      "information_value": 8,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 52,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "How to connect AI usage to business value",
-        "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-        "description": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-        "published": "Wed, 16 Sep 2026 12:00:00 GMT",
-        "freshness_score": 9,
-        "relevance_score": 9,
-        "impact_score": 2,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 20
-      }
-    },
-    {
-      "content_id": "cand-acd10a69af2b9202",
-      "topic": "How workers are unlocking new ways of working",
-      "title": "How workers are unlocking new ways of working",
-      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "published_at": "Wed, 16 Sep 2026 09:00:00 GMT",
-      "discovered_at": "2026-09-16T20:43:41.681413+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 4,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 4,
-      "save_score": 5,
-      "share_score": 4,
-      "information_value": 6,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 45,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "How workers are unlocking new ways of working",
-        "url": "https://openai.com/index/unlocking-new-ways-of-working",
-        "description": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-        "published": "Wed, 16 Sep 2026 09:00:00 GMT",
-        "freshness_score": 9,
-        "relevance_score": 7,
-        "impact_score": 2,
-        "story_type": "RESEARCH",
-        "pre_filter_score": 18
-      }
-    },
-    {
       "content_id": "cand-b8a09a352f5e3c5a",
       "topic": "Our framework for reporting model misalignment",
       "title": "Our framework for reporting model misalignment",
@@ -5654,7 +5568,50 @@
         "story_type": "BUSINESS",
         "pre_filter_score": 20
       }
+    },
+    {
+      "content_id": "cand-28dcd128ea61c06e",
+      "topic": "Disrupting a coordinated model-distillation campaign",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "published_at": "Wed, 30 Sep 2026 10:30:00 GMT",
+      "discovered_at": "2026-09-30T21:43:52.600703+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 5,
+      "share_score": 4,
+      "information_value": 8,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 49,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Disrupting a coordinated model-distillation campaign",
+        "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+        "description": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+        "published": "Wed, 30 Sep 2026 10:30:00 GMT",
+        "freshness_score": 9,
+        "relevance_score": 9,
+        "impact_score": 2,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 20
+      }
     }
   ],
-  "count": 141
+  "count": 140
 }
