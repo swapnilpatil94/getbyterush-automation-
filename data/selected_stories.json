@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "STORM-0817: Iran-linked malware and scraping activity",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "title": "How we monitor internal coding agents for misalignment",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "description": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
+      "published": "Thu, 19 Mar 2026 10:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 20,
-      "content_id": "cand-478d26a69a9ea5ea",
+      "impact_score": 10,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 24,
+      "content_id": "cand-31d7176b0fe37cac",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 51,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "DATA_RESEARCH",
+        "quality_score": 54,
+        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 54/100)",
         "source": "OpenAI News"
       }
     }
