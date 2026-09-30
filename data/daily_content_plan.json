@@ -24,6 +24,14 @@
       "status": "SELECTED",
       "content_id": "cand-478d26a69a9ea5ea",
       "label": "Morning discovery"
+    },
+    "midmorning": {
+      "status": "NO_QUALITY_POST",
+      "label": "Curiosity + saves",
+      "categories": [
+        "EXPERIMENT",
+        "PRODUCT_TOOL"
+      ]
     }
   },
   "selected_count": 1
