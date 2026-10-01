@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "midmorning",
+      "content_id": "cand-b4ad544305a91fcc",
+      "topic": "Helping small businesses put AI to work",
+      "category": "EXPERIMENT",
+      "score": 53,
+      "reason": "EXPERIMENT — PROVABLE, DEMONSTRABLE (score 53/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -24,7 +39,12 @@
       "status": "SELECTED",
       "content_id": "cand-f67eb3ce535f905c",
       "label": "Morning discovery"
+    },
+    "midmorning": {
+      "status": "SELECTED",
+      "content_id": "cand-b4ad544305a91fcc",
+      "label": "Curiosity + saves"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
