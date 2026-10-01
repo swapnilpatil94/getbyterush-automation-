@@ -2,26 +2,26 @@
   "date": "2026-10-01",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Helping small businesses put AI to work",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "description": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "published": "Wed, 30 Sep 2026 10:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 18,
-      "content_id": "cand-b4ad544305a91fcc",
+      "source": "NVIDIA Blog",
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
+      "published": "Wed, 30 Sep 2026 15:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 20,
+      "impact_score": 6,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 36,
+      "content_id": "cand-f1a45e139651ea95",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "midmorning",
-        "slot_label": "Curiosity + saves",
-        "category": "EXPERIMENT",
-        "quality_score": 53,
-        "why_selected": "EXPERIMENT — PROVABLE, DEMONSTRABLE (score 53/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 59,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 59/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
