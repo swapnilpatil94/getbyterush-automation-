@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-10-01T03:26:56.061272+00:00",
+  "generated_at": "2026-10-01T12:10:45.642138+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
-      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
-      "description": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th [&#8230;]",
-      "published": "Wed, 30 Sep 2026 17:00:21 +0000",
-      "freshness_score": 9,
-      "relevance_score": 9,
-      "impact_score": 11,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 29
-    },
     {
       "source": "NVIDIA Blog",
       "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
@@ -27,16 +15,28 @@
       "pre_filter_score": 34
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "description": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th [&#8230;]",
+      "published": "Wed, 30 Sep 2026 17:00:21 +0000",
+      "freshness_score": 8,
+      "relevance_score": 9,
+      "impact_score": 11,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 28
+    },
+    {
       "source": "OpenAI News",
       "title": "Disrupting a coordinated model-distillation campaign",
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "description": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
       "published": "Wed, 30 Sep 2026 10:30:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 9,
       "impact_score": 2,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -44,47 +44,11 @@
       "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
       "description": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
       "published": "Wed, 30 Sep 2026 10:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 7,
       "impact_score": 2,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
-      "title": "DevDay 2026 Recap",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "description": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "published": "Tue, 29 Sep 2026 10:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 10,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "description": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "published": "Tue, 29 Sep 2026 10:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 10
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "description": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 10,
-      "impact_score": 6,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 21
+      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -100,6 +64,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "description": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "published": "Tue, 29 Sep 2026 10:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 10,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
       "title": "Introducing dots",
       "url": "https://openai.com/index/introducing-dots",
       "description": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
@@ -109,6 +85,18 @@
       "impact_score": 2,
       "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 12
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "description": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "published": "Tue, 29 Sep 2026 10:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 9
     },
     {
       "source": "OpenAI News",
@@ -956,6 +944,18 @@
       "url": "https://openai.com/index/endava-frontiers",
       "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
       "published": "Thu, 04 Jun 2026 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Inside Mirakl's agentic commerce vision",
+      "url": "https://openai.com/index/mirakl",
+      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+      "published": "Mon, 01 Dec 2025 22:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 17,
       "impact_score": 2,
