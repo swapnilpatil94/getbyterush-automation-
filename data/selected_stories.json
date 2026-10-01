@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "NVIDIA Blog",
-      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
-      "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
-      "published": "Wed, 30 Sep 2026 15:00:00 +0000",
+      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "description": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th [&#8230;]",
+      "published": "Wed, 30 Sep 2026 17:00:21 +0000",
       "freshness_score": 10,
-      "relevance_score": 20,
-      "impact_score": 6,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 36,
-      "content_id": "cand-f1a45e139651ea95",
+      "relevance_score": 9,
+      "impact_score": 11,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 30,
+      "content_id": "cand-f1b4a3bfcd62bfa9",
       "selection_meta": {
-        "rank": 3,
+        "rank": 4,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "LAST_24H",
-        "quality_score": 59,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 59/100)",
+        "quality_score": 55,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
         "source": "NVIDIA Blog"
       }
     }
