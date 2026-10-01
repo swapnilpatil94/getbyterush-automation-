@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:43:52.479319+00:00",
+  "generated_at": "2026-10-01T03:26:56.061272+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
       "description": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th [&#8230;]",
       "published": "Wed, 30 Sep 2026 17:00:21 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 9,
       "impact_score": 11,
       "story_type": "RESEARCH",
-      "pre_filter_score": 30
+      "pre_filter_score": 29
     },
     {
       "source": "NVIDIA Blog",
@@ -20,11 +20,11 @@
       "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
       "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
       "published": "Wed, 30 Sep 2026 15:00:00 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 20,
       "impact_score": 6,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 35
+      "pre_filter_score": 34
     },
     {
       "source": "OpenAI News",
@@ -32,11 +32,11 @@
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "description": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
       "published": "Wed, 30 Sep 2026 10:30:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 9,
       "impact_score": 2,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
+      "pre_filter_score": 19
     },
     {
       "source": "OpenAI News",
@@ -44,11 +44,11 @@
       "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
       "description": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
       "published": "Wed, 30 Sep 2026 10:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 7,
       "impact_score": 2,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -61,18 +61,6 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing dots",
-      "url": "https://openai.com/index/introducing-dots",
-      "description": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "published": "Tue, 29 Sep 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -112,15 +100,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "description": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "published": "Mon, 28 Sep 2026 00:00:00 GMT",
+      "title": "Introducing dots",
+      "url": "https://openai.com/index/introducing-dots",
+      "description": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "published": "Tue, 29 Sep 2026 00:00:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 15
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -960,6 +948,18 @@
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "url": "https://openai.com/index/endava-frontiers",
+      "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "published": "Thu, 04 Jun 2026 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]
