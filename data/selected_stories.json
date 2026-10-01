@@ -1,27 +1,27 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "How we monitor internal coding agents for misalignment",
-      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-      "description": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
-      "published": "Thu, 19 Mar 2026 10:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "description": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. [&#8230;]",
+      "published": "Wed, 16 Sep 2026 15:00:48 +0000",
       "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 10,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 24,
-      "content_id": "cand-31d7176b0fe37cac",
+      "relevance_score": 15,
+      "impact_score": 5,
+      "story_type": "BUSINESS",
+      "pre_filter_score": 20,
+      "content_id": "cand-f67eb3ce535f905c",
       "selection_meta": {
-        "rank": 2,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "DATA_RESEARCH",
-        "quality_score": 54,
-        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 54/100)",
-        "source": "OpenAI News"
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 59,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]

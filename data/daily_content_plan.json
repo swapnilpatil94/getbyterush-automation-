@@ -1,33 +1,18 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-478d26a69a9ea5ea",
-      "topic": "STORM-0817: Iran-linked malware and scraping activity",
+      "content_id": "cand-f67eb3ce535f905c",
+      "topic": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
       "category": "EVERGREEN_VALUE",
-      "score": 51,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-31d7176b0fe37cac",
-      "topic": "How we monitor internal coding agents for misalignment",
-      "category": "DATA_RESEARCH",
-      "score": 54,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 54/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "score": 59,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -37,37 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-478d26a69a9ea5ea",
+      "content_id": "cand-f67eb3ce535f905c",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-31d7176b0fe37cac",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }
