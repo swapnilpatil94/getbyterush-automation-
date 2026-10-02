@@ -2,6 +2,32 @@
   "version": 2,
   "topics": [
     {
+      "title": "AI is becoming the first hire for small businesses",
+      "source_title": "AI is becoming a first hire for small businesses",
+      "url": "https://openai.com/index/ai-first-hire-small-business",
+      "source": "OpenAI News",
+      "normalized_title": "ai is becoming the first hire for small businesses",
+      "normalized_source_title": "ai is becoming a first hire for small businesses",
+      "tokens": [
+        "becoming",
+        "businesses",
+        "first",
+        "for",
+        "hire",
+        "small",
+        "the"
+      ],
+      "source_tokens": [
+        "becoming",
+        "businesses",
+        "first",
+        "for",
+        "hire",
+        "small"
+      ],
+      "recorded_at": "2026-10-02T01:47:15.157525+00:00"
+    },
+    {
       "title": "OpenAI and CSU Partner for Largest ChatGPT Deployment",
       "source_title": "OpenAI and the CSU system bring AI to 500,000 students & faculty",
       "url": "https://openai.com/index/openai-and-the-csu-system",
@@ -1320,295 +1346,6 @@
         "prompt"
       ],
       "recorded_at": "2026-09-02T01:47:24.225564+00:00"
-    },
-    {
-      "title": "OpenAI Releases GPT-5.6-Cyber for Restricted Vulnerability Defense",
-      "source_title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "source": "OpenAI News",
-      "normalized_title": "openai releases gpt 5 6 cyber for restricted vulnerability defense",
-      "normalized_source_title": "expanding daybreak as the cyber defense window narrows",
-      "tokens": [
-        "cyber",
-        "defense",
-        "for",
-        "gpt",
-        "openai",
-        "releases",
-        "restricted",
-        "vulnerability"
-      ],
-      "source_tokens": [
-        "cyber",
-        "daybreak",
-        "defense",
-        "expanding",
-        "narrows",
-        "the",
-        "window"
-      ],
-      "recorded_at": "2026-09-01T14:46:50.474061+00:00"
-    },
-    {
-      "title": "Local AI Reaches Frontier Speed: Perplexity & Meta Move Agents Off the Cloud",
-      "source_title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-      "source": "NVIDIA Blog",
-      "normalized_title": "local ai reaches frontier speed perplexity meta move agents off the cloud",
-      "normalized_source_title": "nvidia and local ai community fuel open source models and intelligent agents",
-      "tokens": [
-        "agents",
-        "cloud",
-        "frontier",
-        "local",
-        "meta",
-        "move",
-        "off",
-        "perplexity",
-        "reaches",
-        "speed",
-        "the"
-      ],
-      "source_tokens": [
-        "agents",
-        "and",
-        "community",
-        "fuel",
-        "intelligent",
-        "local",
-        "models",
-        "nvidia",
-        "open",
-        "source"
-      ],
-      "recorded_at": "2026-09-01T12:16:52.682030+00:00"
-    },
-    {
-      "title": "NVIDIA Unveils Nemotron 3.5 Lightning and NeMo Switchyard to Cut Agentic AI Costs",
-      "source_title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "source": "NVIDIA Blog",
-      "normalized_title": "nvidia unveils nemotron 3 5 lightning and nemo switchyard to cut agentic ai costs",
-      "normalized_source_title": "nvidia nemotron 3 5 lightning and nemo switchyard deliver faster smarter more efficient agentic ai",
-      "tokens": [
-        "agentic",
-        "and",
-        "costs",
-        "cut",
-        "lightning",
-        "nemo",
-        "nemotron",
-        "nvidia",
-        "switchyard",
-        "unveils"
-      ],
-      "source_tokens": [
-        "agentic",
-        "and",
-        "deliver",
-        "efficient",
-        "faster",
-        "lightning",
-        "more",
-        "nemo",
-        "nemotron",
-        "nvidia",
-        "smarter",
-        "switchyard"
-      ],
-      "recorded_at": "2026-09-01T05:58:53.751563+00:00"
-    },
-    {
-      "title": "How Balyasny Asset Management Built an AI Research Engine",
-      "source_title": "How Balyasny Asset Management built an AI research engine",
-      "url": "https://openai.com/index/balyasny-asset-management",
-      "source": "OpenAI News",
-      "normalized_title": "how balyasny asset management built an ai research engine",
-      "normalized_source_title": "how balyasny asset management built an ai research engine",
-      "tokens": [
-        "asset",
-        "balyasny",
-        "built",
-        "engine",
-        "how",
-        "management",
-        "research"
-      ],
-      "source_tokens": [
-        "asset",
-        "balyasny",
-        "built",
-        "engine",
-        "how",
-        "management",
-        "research"
-      ],
-      "recorded_at": "2026-09-01T03:31:42.112652+00:00"
-    },
-    {
-      "title": "OpenAI Raises $40B at a $300B Valuation",
-      "source_title": "New funding to build towards AGI",
-      "url": "https://openai.com/index/march-funding-updates",
-      "source": "OpenAI News",
-      "normalized_title": "openai raises 40b at a 300b valuation",
-      "normalized_source_title": "new funding to build towards agi",
-      "tokens": [
-        "300b",
-        "40b",
-        "openai",
-        "raises",
-        "valuation"
-      ],
-      "source_tokens": [
-        "agi",
-        "build",
-        "funding",
-        "new",
-        "towards"
-      ],
-      "recorded_at": "2026-08-31T14:59:25.631493+00:00"
-    },
-    {
-      "title": "Designing AI Agents to Resist Prompt Injection",
-      "source_title": "Designing AI agents to resist prompt injection",
-      "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "source": "OpenAI News",
-      "normalized_title": "designing ai agents to resist prompt injection",
-      "normalized_source_title": "designing ai agents to resist prompt injection",
-      "tokens": [
-        "agents",
-        "designing",
-        "injection",
-        "prompt",
-        "resist"
-      ],
-      "source_tokens": [
-        "agents",
-        "designing",
-        "injection",
-        "prompt",
-        "resist"
-      ],
-      "recorded_at": "2026-08-31T14:10:04.562603+00:00"
-    },
-    {
-      "title": "From Assistance to Execution: How Enterprises Put AI to Work",
-      "source_title": "From assistance to execution: How enterprises put AI to work",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "source": "OpenAI News",
-      "normalized_title": "from assistance to execution how enterprises put ai to work",
-      "normalized_source_title": "from assistance to execution how enterprises put ai to work",
-      "tokens": [
-        "assistance",
-        "enterprises",
-        "execution",
-        "from",
-        "how",
-        "put",
-        "work"
-      ],
-      "source_tokens": [
-        "assistance",
-        "enterprises",
-        "execution",
-        "from",
-        "how",
-        "put",
-        "work"
-      ],
-      "recorded_at": "2026-08-31T13:21:32.826790+00:00"
-    },
-    {
-      "title": "How Netomi Scales Enterprise AI Agents with OpenAI Architecture",
-      "source_title": "Netomi’s lessons for scaling agentic systems into the enterprise",
-      "url": "https://openai.com/index/netomi",
-      "source": "OpenAI News",
-      "normalized_title": "how netomi scales enterprise ai agents with openai architecture",
-      "normalized_source_title": "netomi s lessons for scaling agentic systems into the enterprise",
-      "tokens": [
-        "agents",
-        "architecture",
-        "enterprise",
-        "how",
-        "netomi",
-        "openai",
-        "scales",
-        "with"
-      ],
-      "source_tokens": [
-        "agentic",
-        "enterprise",
-        "for",
-        "into",
-        "lessons",
-        "netomi",
-        "scaling",
-        "systems",
-        "the"
-      ],
-      "recorded_at": "2026-08-31T11:24:46.522755+00:00"
-    },
-    {
-      "title": "AI Agents Take Over Food Distribution",
-      "source_title": "Choco automates food distribution with AI agents",
-      "url": "https://openai.com/index/choco",
-      "source": "OpenAI News",
-      "normalized_title": "ai agents take over food distribution",
-      "normalized_source_title": "choco automates food distribution with ai agents",
-      "tokens": [
-        "agents",
-        "distribution",
-        "food",
-        "over",
-        "take"
-      ],
-      "source_tokens": [
-        "agents",
-        "automates",
-        "choco",
-        "distribution",
-        "food",
-        "with"
-      ],
-      "recorded_at": "2026-08-31T11:24:06.160397+00:00"
-    },
-    {
-      "title": "NVIDIA Puts Groq 3 LPX in Production, Reaching 3,400 Tokens/Sec for Long-Context AI Agents",
-      "source_title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
-      "source": "NVIDIA Blog",
-      "normalized_title": "nvidia puts groq 3 lpx in production reaching 3 400 tokens sec for long context ai agents",
-      "normalized_source_title": "with groq 3 lpx in full production nvidia extends vera rubin inference for agents",
-      "tokens": [
-        "400",
-        "agents",
-        "context",
-        "for",
-        "groq",
-        "long",
-        "lpx",
-        "nvidia",
-        "production",
-        "puts",
-        "reaching",
-        "sec",
-        "tokens"
-      ],
-      "source_tokens": [
-        "agents",
-        "extends",
-        "for",
-        "full",
-        "groq",
-        "inference",
-        "lpx",
-        "nvidia",
-        "production",
-        "rubin",
-        "vera",
-        "with"
-      ],
-      "recorded_at": "2026-08-31T05:31:02.228457+00:00"
     }
   ]
 }
