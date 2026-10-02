@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:10:48.036739+00:00",
+  "generated_at": "2026-10-02T21:40:00.377858+00:00",
   "count": 80,
   "stories": [
     {
@@ -20,11 +20,11 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
       "description": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
       "published": "Fri, 02 Oct 2026 13:00:39 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 16,
       "impact_score": 0,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 26
+      "pre_filter_score": 25
     },
     {
       "source": "Google AI Blog",
@@ -32,11 +32,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
       "description": "Here are Google’s latest AI updates from September 2026",
       "published": "Fri, 02 Oct 2026 15:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 4,
       "impact_score": 0,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 14
+      "pre_filter_score": 13
     },
     {
       "source": "NVIDIA Blog",
@@ -49,6 +49,18 @@
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 30
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "published": "Fri, 02 Oct 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -948,18 +960,6 @@
       "relevance_score": 16,
       "impact_score": 3,
       "story_type": "RESEARCH",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]
