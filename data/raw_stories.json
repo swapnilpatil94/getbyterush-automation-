@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:12:10.866219+00:00",
+  "generated_at": "2026-10-02T03:27:20.468784+00:00",
   "count": 1281,
   "stories": [
     {
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/the-eternal-complement",
       "description": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
       "published": "Thu, 01 Oct 2026 17:00:00 GMT",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "OpenAI News",
@@ -184,7 +184,7 @@
       "url": "https://openai.com/index/the-den-family-social",
       "description": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
       "published": "Thu, 01 Oct 2026 00:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -224,7 +224,7 @@
       "url": "https://openai.com/index/introducing-dots",
       "description": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
       "published": "Tue, 29 Sep 2026 00:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -10108,11 +10108,19 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
+      "published": "Thu, 01 Oct 2026 23:44:13 +0000",
+      "freshness_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "Fall Into 25 New Games on GeForce NOW This October",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
       "description": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wild Hunt – Remastered joining the cloud, this GFN Thursday is [&#8230;]",
       "published": "Thu, 01 Oct 2026 13:00:54 +0000",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "NVIDIA Blog",
@@ -10120,7 +10128,7 @@
       "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
       "description": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year [&#8230;]",
       "published": "Thu, 01 Oct 2026 13:00:49 +0000",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "NVIDIA Blog",
@@ -10240,14 +10248,6 @@
       "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
       "description": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use [&#8230;]",
       "published": "Wed, 16 Sep 2026 13:00:33 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
-      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
-      "description": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the [&#8230;]",
-      "published": "Wed, 16 Sep 2026 05:00:42 +0000",
       "freshness_score": 0
     }
   ]

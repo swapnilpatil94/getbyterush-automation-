@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-01T22:12:11.055145+00:00",
+  "generated_at": "2026-10-02T03:27:20.715230+00:00",
   "count": 80,
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "The eternal complement",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "description": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "published": "Thu, 01 Oct 2026 17:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
+      "published": "Thu, 01 Oct 2026 23:44:13 +0000",
       "freshness_score": 10,
-      "relevance_score": 6,
-      "impact_score": 7,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 23
+      "relevance_score": 17,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 32
     },
     {
       "source": "OpenAI News",
@@ -27,16 +27,28 @@
       "pre_filter_score": 25
     },
     {
+      "source": "OpenAI News",
+      "title": "The eternal complement",
+      "url": "https://openai.com/index/the-eternal-complement",
+      "description": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "published": "Thu, 01 Oct 2026 17:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 6,
+      "impact_score": 7,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 22
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
       "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
       "description": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year [&#8230;]",
       "published": "Thu, 01 Oct 2026 13:00:49 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 7,
       "impact_score": 5,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 21
+      "pre_filter_score": 20
     },
     {
       "source": "NVIDIA Blog",
@@ -44,23 +56,11 @@
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
       "description": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wild Hunt – Remastered joining the cloud, this GFN Thursday is [&#8230;]",
       "published": "Thu, 01 Oct 2026 13:00:54 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 2,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 11
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "url": "https://openai.com/index/the-den-family-social",
-      "description": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "published": "Thu, 01 Oct 2026 00:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 15
+      "pre_filter_score": 10
     },
     {
       "source": "NVIDIA Blog",
@@ -112,6 +112,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "url": "https://openai.com/index/the-den-family-social",
+      "description": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "published": "Thu, 01 Oct 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
       "title": "DevDay 2026 Recap",
       "url": "https://openai.com/index/devday-2026-recap",
       "description": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
@@ -121,18 +133,6 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing dots",
-      "url": "https://openai.com/index/introducing-dots",
-      "description": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "published": "Tue, 29 Sep 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
