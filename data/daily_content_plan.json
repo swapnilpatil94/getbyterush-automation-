@@ -33,6 +33,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-527c097c6c00c04c",
+      "topic": "How Albertsons Companies is reimagining retail from the inside out",
+      "category": "LAST_24H",
+      "score": 56,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 56/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/albertsons-reimagining-retail",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -61,7 +76,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-527c097c6c00c04c",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }

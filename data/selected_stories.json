@@ -2,26 +2,26 @@
   "date": "2026-10-02",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
-      "published": "Thu, 01 Oct 2026 23:44:13 +0000",
-      "freshness_score": 10,
-      "relevance_score": 17,
-      "impact_score": 5,
+      "source": "OpenAI News",
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "description": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "published": "Thu, 01 Oct 2026 16:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 12,
+      "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 32,
-      "content_id": "cand-313cfafbcb3cef6b",
+      "pre_filter_score": 25,
+      "content_id": "cand-527c097c6c00c04c",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "LAST_24H",
-        "quality_score": 65,
-        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 65/100)",
-        "source": "NVIDIA Blog"
+        "quality_score": 56,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 56/100)",
+        "source": "OpenAI News"
       }
     }
   ]
