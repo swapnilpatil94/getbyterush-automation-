@@ -1,18 +1,54 @@
 {
-  "generated_at": "2026-10-02T11:40:41.124835+00:00",
+  "generated_at": "2026-10-02T17:10:48.036739+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "published": "Fri, 02 Oct 2026 16:15:00 GMT",
+      "freshness_score": 10,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 28
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+      "description": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
+      "published": "Fri, 02 Oct 2026 13:00:39 +0000",
+      "freshness_score": 10,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 26
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "description": "Here are Google’s latest AI updates from September 2026",
+      "published": "Fri, 02 Oct 2026 15:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 14
+    },
     {
       "source": "NVIDIA Blog",
       "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
       "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
       "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
       "published": "Thu, 01 Oct 2026 23:44:13 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 17,
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 31
+      "pre_filter_score": 30
     },
     {
       "source": "OpenAI News",
@@ -20,11 +56,11 @@
       "url": "https://openai.com/index/albertsons-reimagining-retail",
       "description": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
       "published": "Thu, 01 Oct 2026 16:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 12,
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 24
+      "pre_filter_score": 22
     },
     {
       "source": "OpenAI News",
@@ -32,11 +68,11 @@
       "url": "https://openai.com/index/the-eternal-complement",
       "description": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
       "published": "Thu, 01 Oct 2026 17:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 6,
       "impact_score": 7,
       "story_type": "RESEARCH",
-      "pre_filter_score": 21
+      "pre_filter_score": 19
     },
     {
       "source": "NVIDIA Blog",
@@ -44,47 +80,11 @@
       "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
       "description": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year [&#8230;]",
       "published": "Thu, 01 Oct 2026 13:00:49 +0000",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 7,
       "impact_score": 5,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Fall Into 25 New Games on GeForce NOW This October",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
-      "description": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wild Hunt – Remastered joining the cloud, this GFN Thursday is [&#8230;]",
-      "published": "Thu, 01 Oct 2026 13:00:54 +0000",
-      "freshness_score": 8,
-      "relevance_score": 2,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 10
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
-      "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
-      "published": "Wed, 30 Sep 2026 15:00:00 +0000",
-      "freshness_score": 6,
-      "relevance_score": 20,
-      "impact_score": 6,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 32
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
-      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
-      "description": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th [&#8230;]",
-      "published": "Wed, 30 Sep 2026 17:00:21 +0000",
-      "freshness_score": 6,
-      "relevance_score": 9,
-      "impact_score": 11,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 26
+      "pre_filter_score": 18
     },
     {
       "source": "OpenAI News",
@@ -97,6 +97,30 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 13
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
+      "published": "Wed, 30 Sep 2026 15:00:00 +0000",
+      "freshness_score": 5,
+      "relevance_score": 20,
+      "impact_score": 6,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 31
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "description": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th [&#8230;]",
+      "published": "Wed, 30 Sep 2026 17:00:21 +0000",
+      "freshness_score": 5,
+      "relevance_score": 9,
+      "impact_score": 11,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 25
     },
     {
       "source": "OpenAI News",
@@ -932,30 +956,6 @@
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
       "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
       "published": "Thu, 13 Aug 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "published": "Thu, 25 Jun 2026 02:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "published": "Thu, 04 Jun 2026 12:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 17,
       "impact_score": 2,
