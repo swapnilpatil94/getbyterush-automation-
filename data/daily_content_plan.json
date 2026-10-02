@@ -18,6 +18,21 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "261002014715-ai-is-becoming-the-f-741e25"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-313cfafbcb3cef6b",
+      "topic": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "category": "LAST_24H",
+      "score": 65,
+      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 65/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -33,7 +48,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-313cfafbcb3cef6b",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
