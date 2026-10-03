@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-401b19365e573ee9",
+      "topic": "A model guide for the GPT-6 family",
+      "category": "LAST_24H",
+      "score": 59,
+      "reason": "LAST_24H — SURPRISING, USEFUL, PROVABLE (score 59/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -32,7 +47,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-401b19365e573ee9",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
