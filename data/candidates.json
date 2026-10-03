@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:40:00.377858+00:00",
+  "generated_at": "2026-10-03T03:11:14.551470+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
       "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
       "published": "Fri, 02 Oct 2026 16:15:00 GMT",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 13,
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 28
+      "pre_filter_score": 27
     },
     {
       "source": "NVIDIA Blog",
@@ -20,11 +20,11 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
       "description": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
       "published": "Fri, 02 Oct 2026 13:00:39 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 16,
       "impact_score": 0,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 25
+      "pre_filter_score": 24
     },
     {
       "source": "Google AI Blog",
@@ -32,11 +32,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
       "description": "Here are Google’s latest AI updates from September 2026",
       "published": "Fri, 02 Oct 2026 15:00:00 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 4,
       "impact_score": 0,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 13
+      "pre_filter_score": 12
     },
     {
       "source": "NVIDIA Blog",
@@ -44,23 +44,11 @@
       "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
       "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
       "published": "Thu, 01 Oct 2026 23:44:13 +0000",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 17,
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 30
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "url": "https://openai.com/index/chatham-financial",
-      "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "published": "Fri, 02 Oct 2026 00:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
+      "pre_filter_score": 28
     },
     {
       "source": "OpenAI News",
@@ -100,15 +88,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "url": "https://openai.com/index/the-den-family-social",
-      "description": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "published": "Thu, 01 Oct 2026 00:00:00 GMT",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "published": "Fri, 02 Oct 2026 00:00:00 GMT",
       "freshness_score": 6,
-      "relevance_score": 5,
-      "impact_score": 2,
+      "relevance_score": 6,
+      "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
+      "pre_filter_score": 12
     },
     {
       "source": "NVIDIA Blog",
@@ -157,6 +145,18 @@
       "impact_score": 2,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "url": "https://openai.com/index/the-den-family-social",
+      "description": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "published": "Thu, 01 Oct 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
