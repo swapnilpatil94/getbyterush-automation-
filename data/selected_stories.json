@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "description": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "published": "Thu, 01 Oct 2026 16:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 12,
-      "impact_score": 4,
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "published": "Wed, 08 Jul 2026 13:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 25,
-      "content_id": "cand-527c097c6c00c04c",
+      "pre_filter_score": 18,
+      "content_id": "cand-4074c97b79e5efd9",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "LAST_24H",
-        "quality_score": 56,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 56/100)",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 51,
+        "why_selected": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
         "source": "OpenAI News"
       }
     }

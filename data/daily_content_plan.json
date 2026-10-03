@@ -1,49 +1,18 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-3f990a07dbff1c5d",
-      "topic": "AI is becoming a first hire for small businesses",
+      "content_id": "cand-4074c97b79e5efd9",
+      "topic": "Separating signal from noise in coding evaluations",
       "category": "EVERGREEN_VALUE",
       "score": 51,
       "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/ai-first-hire-small-business",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "261002014715-ai-is-becoming-the-f-741e25"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-313cfafbcb3cef6b",
-      "topic": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "category": "LAST_24H",
-      "score": 65,
-      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 65/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-527c097c6c00c04c",
-      "topic": "How Albertsons Companies is reimagining retail from the inside out",
-      "category": "LAST_24H",
-      "score": 56,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 56/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/albertsons-reimagining-retail",
+      "source_url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -53,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-3f990a07dbff1c5d",
+      "content_id": "cand-4074c97b79e5efd9",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-313cfafbcb3cef6b",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-527c097c6c00c04c",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
