@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T03:11:14.551470+00:00",
+  "generated_at": "2026-10-03T10:54:27.625882+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
       "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
       "published": "Fri, 02 Oct 2026 16:15:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 13,
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27
+      "pre_filter_score": 26
     },
     {
       "source": "NVIDIA Blog",
@@ -121,30 +121,6 @@
       "impact_score": 11,
       "story_type": "RESEARCH",
       "pre_filter_score": 25
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "description": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "published": "Wed, 30 Sep 2026 10:30:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 9,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Helping small businesses put AI to work",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "description": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "published": "Wed, 30 Sep 2026 10:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -960,6 +936,30 @@
       "relevance_score": 16,
       "impact_score": 3,
       "story_type": "RESEARCH",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "published": "Thu, 25 Jun 2026 02:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 19
     }
   ]
