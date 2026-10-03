@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:54:27.625882+00:00",
+  "generated_at": "2026-10-03T15:31:06.546734+00:00",
   "count": 80,
   "stories": [
     {
@@ -13,30 +13,6 @@
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 26
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
-      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-      "description": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
-      "published": "Fri, 02 Oct 2026 13:00:39 +0000",
-      "freshness_score": 8,
-      "relevance_score": 16,
-      "impact_score": 0,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 24
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "The latest AI news we announced in September 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "description": "Here are Google’s latest AI updates from September 2026",
-      "published": "Fri, 02 Oct 2026 15:00:00 +0000",
-      "freshness_score": 8,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 12
     },
     {
       "source": "NVIDIA Blog",
@@ -63,6 +39,18 @@
       "pre_filter_score": 22
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+      "description": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
+      "published": "Fri, 02 Oct 2026 13:00:39 +0000",
+      "freshness_score": 6,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 22
+    },
+    {
       "source": "OpenAI News",
       "title": "The eternal complement",
       "url": "https://openai.com/index/the-eternal-complement",
@@ -73,18 +61,6 @@
       "impact_score": 7,
       "story_type": "RESEARCH",
       "pre_filter_score": 19
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
-      "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
-      "description": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year [&#8230;]",
-      "published": "Thu, 01 Oct 2026 13:00:49 +0000",
-      "freshness_score": 6,
-      "relevance_score": 7,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
     },
     {
       "source": "OpenAI News",
@@ -99,16 +75,16 @@
       "pre_filter_score": 12
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
-      "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
-      "published": "Wed, 30 Sep 2026 15:00:00 +0000",
-      "freshness_score": 5,
-      "relevance_score": 20,
-      "impact_score": 6,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 31
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "description": "Here are Google’s latest AI updates from September 2026",
+      "published": "Fri, 02 Oct 2026 15:00:00 +0000",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 10
     },
     {
       "source": "NVIDIA Blog",
@@ -121,6 +97,18 @@
       "impact_score": 11,
       "story_type": "RESEARCH",
       "pre_filter_score": 25
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
+      "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
+      "description": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year [&#8230;]",
+      "published": "Thu, 01 Oct 2026 13:00:49 +0000",
+      "freshness_score": 5,
+      "relevance_score": 7,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -960,6 +948,18 @@
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "url": "https://openai.com/index/endava-frontiers",
+      "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "published": "Thu, 04 Jun 2026 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]
