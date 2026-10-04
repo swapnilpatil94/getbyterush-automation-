@@ -1,43 +1,7 @@
 {
-  "generated_at": "2026-10-04T11:36:38.432065+00:00",
+  "generated_at": "2026-10-04T16:15:09.450876+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "OpenAI News",
-      "title": "A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "published": "Fri, 02 Oct 2026 16:15:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 24
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
-      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-      "description": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
-      "published": "Fri, 02 Oct 2026 13:00:39 +0000",
-      "freshness_score": 6,
-      "relevance_score": 16,
-      "impact_score": 0,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 22
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "The latest AI news we announced in September 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "description": "Here are Google’s latest AI updates from September 2026",
-      "published": "Fri, 02 Oct 2026 15:00:00 +0000",
-      "freshness_score": 6,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 10
-    },
     {
       "source": "NVIDIA Blog",
       "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
@@ -52,14 +16,26 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "description": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "published": "Thu, 01 Oct 2026 16:00:00 GMT",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "published": "Fri, 02 Oct 2026 16:15:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 12,
-      "impact_score": 4,
+      "relevance_score": 13,
+      "impact_score": 5,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 23
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+      "description": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
+      "published": "Fri, 02 Oct 2026 13:00:39 +0000",
+      "freshness_score": 5,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 21
     },
     {
@@ -75,18 +51,6 @@
       "pre_filter_score": 18
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
-      "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
-      "description": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year [&#8230;]",
-      "published": "Thu, 01 Oct 2026 13:00:49 +0000",
-      "freshness_score": 5,
-      "relevance_score": 7,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 17
-    },
-    {
       "source": "OpenAI News",
       "title": "Chatham scales its capital markets expertise with OpenAI",
       "url": "https://openai.com/index/chatham-financial",
@@ -97,6 +61,18 @@
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 11
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "description": "Here are Google’s latest AI updates from September 2026",
+      "published": "Fri, 02 Oct 2026 15:00:00 +0000",
+      "freshness_score": 5,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 9
     },
     {
       "source": "NVIDIA Blog",
@@ -961,6 +937,30 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "url": "https://openai.com/index/deployment-simulation",
+      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "published": "Tue, 16 Jun 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI announces Frontier Alliance Partners",
+      "url": "https://openai.com/index/frontier-alliance-partners",
+      "description": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+      "published": "Mon, 23 Feb 2026 05:30:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 18
     }
   ]
 }
