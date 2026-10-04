@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-10-03T20:25:55.224444+00:00",
+  "generated_at": "2026-10-04T03:39:29.983984+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
-      "published": "Thu, 01 Oct 2026 23:44:13 +0000",
-      "freshness_score": 6,
-      "relevance_score": 17,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 28
-    },
     {
       "source": "OpenAI News",
       "title": "A model guide for the GPT-6 family",
@@ -39,18 +27,6 @@
       "pre_filter_score": 22
     },
     {
-      "source": "OpenAI News",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "url": "https://openai.com/index/chatham-financial",
-      "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "published": "Fri, 02 Oct 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
-    },
-    {
       "source": "Google AI Blog",
       "title": "The latest AI news we announced in September 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
@@ -61,6 +37,18 @@
       "impact_score": 0,
       "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
+      "published": "Thu, 01 Oct 2026 23:44:13 +0000",
+      "freshness_score": 5,
+      "relevance_score": 17,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 27
     },
     {
       "source": "OpenAI News",
@@ -100,15 +88,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "url": "https://openai.com/index/the-den-family-social",
-      "description": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "published": "Thu, 01 Oct 2026 00:00:00 GMT",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "published": "Fri, 02 Oct 2026 00:00:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 5,
-      "impact_score": 2,
+      "relevance_score": 6,
+      "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
+      "pre_filter_score": 11
     },
     {
       "source": "NVIDIA Blog",
@@ -956,6 +944,18 @@
       "url": "https://openai.com/index/endava-frontiers",
       "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
       "published": "Thu, 04 Jun 2026 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Inside Mirakl's agentic commerce vision",
+      "url": "https://openai.com/index/mirakl",
+      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+      "published": "Mon, 01 Dec 2025 22:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 17,
       "impact_score": 2,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:25:55.035138+00:00",
+  "generated_at": "2026-10-04T03:39:29.789609+00:00",
   "count": 1283,
   "stories": [
     {
@@ -176,7 +176,7 @@
       "url": "https://openai.com/index/chatham-financial",
       "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
       "published": "Fri, 02 Oct 2026 00:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -200,7 +200,7 @@
       "url": "https://openai.com/index/the-den-family-social",
       "description": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
       "published": "Thu, 01 Oct 2026 00:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -10136,7 +10136,7 @@
       "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
       "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
       "published": "Thu, 01 Oct 2026 23:44:13 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
