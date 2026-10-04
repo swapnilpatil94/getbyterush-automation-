@@ -2,6 +2,33 @@
   "version": 2,
   "topics": [
     {
+      "title": "Deep Double Descent: Why Bigger AI Models Get Worse Before They Get Better",
+      "source_title": "Deep double descent",
+      "url": "https://openai.com/index/deep-double-descent",
+      "source": "OpenAI News",
+      "normalized_title": "deep double descent why bigger ai models get worse before they get better",
+      "normalized_source_title": "deep double descent",
+      "tokens": [
+        "before",
+        "better",
+        "bigger",
+        "deep",
+        "descent",
+        "double",
+        "get",
+        "models",
+        "they",
+        "why",
+        "worse"
+      ],
+      "source_tokens": [
+        "deep",
+        "descent",
+        "double"
+      ],
+      "recorded_at": "2026-10-04T14:47:28.080614+00:00"
+    },
+    {
       "title": "AI is becoming the first hire for small businesses",
       "source_title": "AI is becoming a first hire for small businesses",
       "url": "https://openai.com/index/ai-first-hire-small-business",
@@ -1154,198 +1181,6 @@
         "work"
       ],
       "recorded_at": "2026-09-05T01:47:23.082596+00:00"
-    },
-    {
-      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
-      "source_title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
-      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
-      "source": "NVIDIA Blog",
-      "normalized_title": "nvidia nvlink fusion expands with nvhbm custom high bandwidth memory",
-      "normalized_source_title": "nvidia nvlink fusion expands with nvhbm custom high bandwidth memory",
-      "tokens": [
-        "bandwidth",
-        "custom",
-        "expands",
-        "fusion",
-        "high",
-        "memory",
-        "nvhbm",
-        "nvidia",
-        "nvlink",
-        "with"
-      ],
-      "source_tokens": [
-        "bandwidth",
-        "custom",
-        "expands",
-        "fusion",
-        "high",
-        "memory",
-        "nvhbm",
-        "nvidia",
-        "nvlink",
-        "with"
-      ],
-      "recorded_at": "2026-09-04T14:47:24.956201+00:00"
-    },
-    {
-      "title": "NVIDIA PAIR: Linking Idle PCs for Local AI Compute",
-      "source_title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
-      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-      "source": "NVIDIA Blog",
-      "normalized_title": "nvidia pair linking idle pcs for local ai compute",
-      "normalized_source_title": "sparks fly nvidia accelerates local ai at ifa 2026",
-      "tokens": [
-        "compute",
-        "for",
-        "idle",
-        "linking",
-        "local",
-        "nvidia",
-        "pair",
-        "pcs"
-      ],
-      "source_tokens": [
-        "2026",
-        "accelerates",
-        "fly",
-        "ifa",
-        "local",
-        "nvidia",
-        "sparks"
-      ],
-      "recorded_at": "2026-09-04T08:17:40.403700+00:00"
-    },
-    {
-      "title": "The Builder's Guide to GPT-5.6",
-      "source_title": "The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "source": "OpenAI News",
-      "normalized_title": "the builder s guide to gpt 5 6",
-      "normalized_source_title": "the builder s guide to gpt 5 6",
-      "tokens": [
-        "builder",
-        "gpt",
-        "guide",
-        "the"
-      ],
-      "source_tokens": [
-        "builder",
-        "gpt",
-        "guide",
-        "the"
-      ],
-      "recorded_at": "2026-09-04T01:46:36.360794+00:00"
-    },
-    {
-      "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
-      "source_title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
-      "url": "https://openai.com/index/buy-it-in-chatgpt",
-      "source": "OpenAI News",
-      "normalized_title": "buy it in chatgpt instant checkout and the agentic commerce protocol",
-      "normalized_source_title": "buy it in chatgpt instant checkout and the agentic commerce protocol",
-      "tokens": [
-        "agentic",
-        "and",
-        "buy",
-        "chatgpt",
-        "checkout",
-        "commerce",
-        "instant",
-        "protocol",
-        "the"
-      ],
-      "source_tokens": [
-        "agentic",
-        "and",
-        "buy",
-        "chatgpt",
-        "checkout",
-        "commerce",
-        "instant",
-        "protocol",
-        "the"
-      ],
-      "recorded_at": "2026-09-03T14:50:35.288068+00:00"
-    },
-    {
-      "title": "Why Language Models Hallucinate: OpenAI Research",
-      "source_title": "Why language models hallucinate",
-      "url": "https://openai.com/index/why-language-models-hallucinate",
-      "source": "OpenAI News",
-      "normalized_title": "why language models hallucinate openai research",
-      "normalized_source_title": "why language models hallucinate",
-      "tokens": [
-        "hallucinate",
-        "language",
-        "models",
-        "openai",
-        "research",
-        "why"
-      ],
-      "source_tokens": [
-        "hallucinate",
-        "language",
-        "models",
-        "why"
-      ],
-      "recorded_at": "2026-09-03T01:47:03.202105+00:00"
-    },
-    {
-      "title": "How AI-Native Companies Turn Workflows Into Operating Capability",
-      "source_title": "How AI-native companies turn workflows into operating capability",
-      "url": "https://openai.com/index/ai-native-company-workflows",
-      "source": "OpenAI News",
-      "normalized_title": "how ai native companies turn workflows into operating capability",
-      "normalized_source_title": "how ai native companies turn workflows into operating capability",
-      "tokens": [
-        "capability",
-        "companies",
-        "how",
-        "into",
-        "native",
-        "operating",
-        "turn",
-        "workflows"
-      ],
-      "source_tokens": [
-        "capability",
-        "companies",
-        "how",
-        "into",
-        "native",
-        "operating",
-        "turn",
-        "workflows"
-      ],
-      "recorded_at": "2026-09-02T08:16:50.707859+00:00"
-    },
-    {
-      "title": "OpenAI Automated RL Red Teaming for ChatGPT Atlas",
-      "source_title": "Continuously hardening ChatGPT Atlas against prompt injection",
-      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
-      "source": "OpenAI News",
-      "normalized_title": "openai automated rl red teaming for chatgpt atlas",
-      "normalized_source_title": "continuously hardening chatgpt atlas against prompt injection",
-      "tokens": [
-        "atlas",
-        "automated",
-        "chatgpt",
-        "for",
-        "openai",
-        "red",
-        "teaming"
-      ],
-      "source_tokens": [
-        "against",
-        "atlas",
-        "chatgpt",
-        "continuously",
-        "hardening",
-        "injection",
-        "prompt"
-      ],
-      "recorded_at": "2026-09-02T01:47:24.225564+00:00"
     }
   ]
 }

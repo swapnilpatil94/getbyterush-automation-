@@ -1,0 +1,96 @@
+{
+  "content_id": "261004144728-deep-double-descent--8e88b9",
+  "story_title": "Deep Double Descent: Why Bigger AI Models Get Worse Before They Get Better",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-10-04/144728-deep-double-descent-why-bigger-ai-models-get-worse-before-they-get-bette/slides/01.jpg",
+    "output/posts/2026-10-04/144728-deep-double-descent-why-bigger-ai-models-get-worse-before-they-get-bette/slides/02.jpg",
+    "output/posts/2026-10-04/144728-deep-double-descent-why-bigger-ai-models-get-worse-before-they-get-bette/slides/03.jpg",
+    "output/posts/2026-10-04/144728-deep-double-descent-why-bigger-ai-models-get-worse-before-they-get-bette/slides/04.jpg",
+    "output/posts/2026-10-04/144728-deep-double-descent-why-bigger-ai-models-get-worse-before-they-get-bette/slides/05.jpg",
+    "output/posts/2026-10-04/144728-deep-double-descent-why-bigger-ai-models-get-worse-before-they-get-bette/slides/06.jpg",
+    "output/posts/2026-10-04/144728-deep-double-descent-why-bigger-ai-models-get-worse-before-they-get-bette/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Why do AI models get worse right before they get dramatically better? 🧠\n\nClassical statistical theory dictates that adding model capacity eventually leads to overfitting. But in deep neural networks, performance follows a phenomenon known as 'Deep Double Descent.'\n\nAs model size or training time increases, test error initially drops, then spikes right around the interpolation threshold, before dropping a second time into state-of-the-art performance.\n\nHere is how scaling breaks standard intuition — and why stopping training early can be a costly mistake.",
+  "caption_for_publish": "Why do AI models get worse right before they get dramatically better? 🧠\n\nClassical statistical theory dictates that adding model capacity eventually leads to overfitting. But in deep neural networks, performance follows a phenomenon known as 'Deep Double Descent.'\n\nAs model size or training time increases, test error initially drops, then spikes right around the interpolation threshold, before dropping a second time into state-of-the-art performance.\n\nHere is how scaling breaks standard intuition — and why stopping training early can be a costly mistake.\n\n#AI #MachineLearning #DeepLearning #OpenAI #DataScience #TechExplained #GetByteRush",
+  "pinned_comment": "Do you think empirical discovery is outpacing theoretical understanding in modern AI?",
+  "alt_text_overall": "An editorial carousel explaining OpenAI's research on Deep Double Descent in neural networks, showing how AI models temporarily perform worse during scaling before achieving optimal results.",
+  "alt_text_per_slide": [
+    "Slide 1: BIGGER AI CAN GET WORSE.. Traditional statistics says adding capacity prevents errors. In deep learning, scaling up actually degrades performance before fixing it. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: MORE DATA. WORSE RESULTS.. OpenAI observed that as CNNs, ResNets, and transformers scale up in size or training time, test performance follows an unexpected U-curve shift. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 3: THE THREE ARCHITECTURES. Research confirms the double descent phenomenon occurs universally across CNNs, ResNets, and modern transformer models during scaling. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 4: THE CRITICAL ZONE. Right at the boundary where a model is barely large enough to fit the training set, test error spikes dramatically before plummeting again. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 5: \"WE DON'T FULLY UNDERSTAND WHY.\". While double descent can often be mitigated with careful regularization, researchers acknowledge the foundational mechanics remain an open mystery. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 6: PUSH PAST THE DIP. For AI developers, stopping a training run early because performance degrades can mean quitting right before a breakthrough peak in accuracy. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 7: SCALE REWRITES RULES.. Deep learning routinely breaks classical intuition. Sometimes the only way out of a performance wall is to build bigger. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "#AI",
+    "#MachineLearning",
+    "#DeepLearning",
+    "#OpenAI",
+    "#DataScience",
+    "#TechExplained",
+    "#GetByteRush"
+  ],
+  "cta": "Follow along — we go deeper than the headline.",
+  "seo": {
+    "primary_keyword": "Deep Double Descent",
+    "secondary_keywords": [
+      "AI",
+      "MachineLearning",
+      "DeepLearning",
+      "OpenAI",
+      "DataScience",
+      "TechExplained",
+      "GetByteRush",
+      "Why Bigger AI"
+    ],
+    "search_phrases": [
+      "what is Deep Double Descent",
+      "Deep Double Descent vs Why Bigger AI",
+      "Deep Double Descent AI",
+      "Deep Double Descent MachineLearning"
+    ],
+    "entities": [
+      "Deep Double Descent",
+      "Why Bigger AI",
+      "Models Get Worse",
+      "Before They Get",
+      "Better Deep"
+    ]
+  },
+  "source_attribution": {
+    "title": "Deep double descent",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/deep-double-descent",
+    "sources": [
+      {
+        "name": "OpenAI Research",
+        "url": "https://openai.com/index/deep-double-descent"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "Deep double descent occurs in CNNs, ResNets, and transformers where performance first improves, gets worse, and improves again.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/deep-double-descent",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "The phenomenon can often be avoided through careful regularization.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/deep-double-descent",
+        "source_name": "OpenAI News"
+      },
+      {
+        "claim": "Researchers do not yet fully understand why double descent occurs.",
+        "classification": "FACT",
+        "source_url": "https://openai.com/index/deep-double-descent",
+        "source_name": "OpenAI News"
+      }
+    ]
+  }
+}
