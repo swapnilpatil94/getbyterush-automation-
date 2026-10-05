@@ -1,74 +1,30 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-93a4688d8ee6999e",
-      "topic": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "content_id": "cand-299d2b89f7628366",
+      "topic": "Evaluating chain-of-thought monitorability",
       "category": "EVERGREEN_VALUE",
       "score": 51,
       "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "source_url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-c8ce72e76c7b15db",
-      "topic": "Deep double descent",
-      "category": "DATA_RESEARCH",
-      "score": 53,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 53/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/deep-double-descent",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "261004144728-deep-double-descent--8e88b9"
     }
   ],
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-93a4688d8ee6999e",
+      "content_id": "cand-299d2b89f7628366",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-c8ce72e76c7b15db",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }
