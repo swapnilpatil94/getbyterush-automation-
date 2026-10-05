@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-05T03:23:08.948649+00:00",
+  "updated_at": "2026-10-05T13:12:55.147656+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -2850,49 +2850,6 @@
         "impact_score": 0,
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 13
-      }
-    },
-    {
-      "content_id": "cand-402f84fa2e95e5cd",
-      "topic": "5 Companies Using NVIDIA AI for Clean Energy",
-      "title": "5 Companies Using NVIDIA AI for Clean Energy",
-      "summary": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception [&#8230;]",
-      "content_type": "LAST_24H",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
-      "published_at": "Mon, 21 Sep 2026 10:00:35 +0000",
-      "discovered_at": "2026-09-21T11:37:46.980180+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 5,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 4,
-      "save_score": 5,
-      "share_score": 4,
-      "information_value": 6,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 46,
-      "raw": {
-        "source": "NVIDIA Blog",
-        "title": "5 Companies Using NVIDIA AI for Clean Energy",
-        "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
-        "description": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception [&#8230;]",
-        "published": "Mon, 21 Sep 2026 10:00:35 +0000",
-        "freshness_score": 10,
-        "relevance_score": 7,
-        "impact_score": 2,
-        "story_type": "RESEARCH",
-        "pre_filter_score": 19
       }
     },
     {
@@ -5752,6 +5709,49 @@
         "impact_score": 0,
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 14
+      }
+    },
+    {
+      "content_id": "cand-71f9e3ba0be13e0a",
+      "topic": "Building advertising for the way people use AI",
+      "title": "Building advertising for the way people use AI",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "published_at": "Mon, 05 Oct 2026 10:00:00 GMT",
+      "discovered_at": "2026-10-05T13:12:55.147106+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 5,
+      "share_score": 4,
+      "information_value": 8,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 50,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Building advertising for the way people use AI",
+        "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+        "description": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+        "published": "Mon, 05 Oct 2026 10:00:00 GMT",
+        "freshness_score": 10,
+        "relevance_score": 9,
+        "impact_score": 2,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 21
       }
     }
   ],
