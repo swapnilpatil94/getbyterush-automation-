@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-b6f00b82d8ee1719",
+      "topic": "Detecting misbehavior in frontier reasoning models",
+      "category": "EVERGREEN_VALUE",
+      "score": 51,
+      "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/chain-of-thought-monitoring",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -59,7 +74,12 @@
       "status": "SELECTED",
       "content_id": "cand-ba508c8c472ba657",
       "label": "High-attention window"
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-b6f00b82d8ee1719",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
