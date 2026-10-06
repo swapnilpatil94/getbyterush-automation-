@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "evening",
+      "content_id": "cand-ba508c8c472ba657",
+      "topic": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "category": "CURIOSITY",
+      "score": 61,
+      "reason": "CURIOSITY — HIGHLY_CURIOUS, USEFUL, PROVABLE (score 61/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -39,7 +54,12 @@
       "categories": [
         "LAST_24H"
       ]
+    },
+    "evening": {
+      "status": "SELECTED",
+      "content_id": "cand-ba508c8c472ba657",
+      "label": "High-attention window"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

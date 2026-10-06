@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-06T04:10:22.007825+00:00",
+  "updated_at": "2026-10-06T12:17:12.601822+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -5523,7 +5523,7 @@
         "website_demo_possible": false,
         "visual_demo_possible": false
       },
-      "status": "POOLED",
+      "status": "EDITORIAL_REJECTED",
       "score": 61,
       "raw": {
         "source": "NVIDIA Blog",
@@ -5536,7 +5536,8 @@
         "impact_score": 6,
         "story_type": "TECH_NEWS",
         "pre_filter_score": 22
-      }
+      },
+      "rejected_at": "2026-10-06T12:17:12.601750+00:00"
     },
     {
       "content_id": "cand-e83e78baafd2cf97",
