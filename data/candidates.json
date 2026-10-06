@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T23:32:36.914258+00:00",
+  "generated_at": "2026-10-06T04:10:21.893911+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,23 +8,11 @@
       "url": "https://openai.com/index/eu-text-provenance",
       "description": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
       "published": "Mon, 05 Oct 2026 15:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 8,
       "impact_score": 4,
       "story_type": "RESEARCH",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
-      "url": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
-      "description": "Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms with fewer colleagues. And when a diagnosis arrives, the tests that inform treatment can take weeks to return results. [&#8230;]",
-      "published": "Mon, 05 Oct 2026 13:00:57 +0000",
-      "freshness_score": 9,
-      "relevance_score": 2,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 11
+      "pre_filter_score": 20
     },
     {
       "source": "OpenAI News",
@@ -37,6 +25,18 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
+      "url": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
+      "description": "Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms with fewer colleagues. And when a diagnosis arrives, the tests that inform treatment can take weeks to return results. [&#8230;]",
+      "published": "Mon, 05 Oct 2026 13:00:57 +0000",
+      "freshness_score": 8,
+      "relevance_score": 2,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 10
     },
     {
       "source": "NVIDIA Blog",
