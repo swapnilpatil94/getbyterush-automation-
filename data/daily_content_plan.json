@@ -1,33 +1,18 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-299d2b89f7628366",
-      "topic": "Evaluating chain-of-thought monitorability",
+      "content_id": "cand-613bec4a3a57a2c5",
+      "topic": "Model ML is helping financial firms rebuild with AI from the ground up",
       "category": "EVERGREEN_VALUE",
       "score": 51,
       "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-483e4b6ab1e7b9ff",
-      "topic": "Funding grants for new research into AI and mental health",
-      "category": "DATA_RESEARCH",
-      "score": 52,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 52/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/ai-mental-health-research-grants",
+      "source_url": "https://openai.com/index/model-ml-chaz-englander",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -37,37 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-299d2b89f7628366",
+      "content_id": "cand-613bec4a3a57a2c5",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-483e4b6ab1e7b9ff",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }
