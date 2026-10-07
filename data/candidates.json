@@ -1,30 +1,18 @@
 {
-  "generated_at": "2026-10-07T03:38:16.424613+00:00",
+  "generated_at": "2026-10-07T12:25:12.695635+00:00",
   "count": 80,
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "description": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "published": "Tue, 06 Oct 2026 16:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 10,
+      "source": "Google AI Blog",
+      "title": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "description": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+      "published": "Wed, 07 Oct 2026 12:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 2,
       "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "published": "Tue, 06 Oct 2026 10:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 27
+      "story_type": "RESEARCH",
+      "pre_filter_score": 12
     },
     {
       "source": "NVIDIA Blog",
@@ -40,15 +28,39 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "description": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "published": "Tue, 06 Oct 2026 16:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 10,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "published": "Tue, 06 Oct 2026 10:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 25
+    },
+    {
+      "source": "OpenAI News",
       "title": "How Jump Trading is scaling quant research with ChatGPT",
       "url": "https://openai.com/index/jump-trading",
       "description": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
       "published": "Tue, 06 Oct 2026 12:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 11,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
+      "pre_filter_score": 19
     },
     {
       "source": "OpenAI News",
@@ -56,11 +68,11 @@
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
       "description": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
       "published": "Tue, 06 Oct 2026 12:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 11,
       "impact_score": 2,
       "story_type": "RESEARCH",
-      "pre_filter_score": 21
+      "pre_filter_score": 19
     },
     {
       "source": "OpenAI News",
@@ -80,11 +92,11 @@
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
       "description": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
       "published": "Mon, 05 Oct 2026 10:00:00 GMT",
-      "freshness_score": 6,
+      "freshness_score": 5,
       "relevance_score": 9,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 17
+      "pre_filter_score": 16
     },
     {
       "source": "NVIDIA Blog",
@@ -948,18 +960,6 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI announces Frontier Alliance Partners",
-      "url": "https://openai.com/index/frontier-alliance-partners",
-      "description": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
-      "published": "Mon, 23 Feb 2026 05:30:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
       "pre_filter_score": 18
     }
   ]
