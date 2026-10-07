@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-10-06T22:05:42.159168+00:00",
+  "generated_at": "2026-10-07T03:38:16.424613+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
-      "description": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with [&#8230;]",
-      "published": "Tue, 06 Oct 2026 13:00:19 +0000",
-      "freshness_score": 9,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 27
-    },
     {
       "source": "OpenAI News",
       "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
@@ -37,6 +25,42 @@
       "impact_score": 2,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 27
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+      "description": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with [&#8230;]",
+      "published": "Tue, 06 Oct 2026 13:00:19 +0000",
+      "freshness_score": 8,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 26
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "description": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "published": "Tue, 06 Oct 2026 12:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "description": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "published": "Tue, 06 Oct 2026 12:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 21
     },
     {
       "source": "OpenAI News",
@@ -592,18 +616,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Bet Bot: Gambling spam network",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
-      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "STORM-0817: Iran-linked malware and scraping activity",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
       "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
@@ -612,6 +624,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bet Bot: Gambling spam network",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -936,30 +960,6 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Bringing ChatGPT to GenAI.mil",
-      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
-      "description": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
-      "published": "Mon, 09 Feb 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
-      "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
-      "description": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
-      "published": "Thu, 05 Feb 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]
