@@ -1,42 +1,66 @@
 {
-  "generated_at": "2026-10-07T12:25:12.695635+00:00",
+  "generated_at": "2026-10-07T22:29:41.377641+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "description": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of [&#8230;]",
+      "published": "Wed, 07 Oct 2026 18:45:28 +0000",
+      "freshness_score": 10,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 29
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "description": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "published": "Wed, 07 Oct 2026 12:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 15
+    },
     {
       "source": "Google AI Blog",
       "title": "Introducing Playground: Create and play custom games",
       "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
       "description": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
       "published": "Wed, 07 Oct 2026 12:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 2,
       "impact_score": 0,
       "story_type": "RESEARCH",
-      "pre_filter_score": 12
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
-      "description": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with [&#8230;]",
-      "published": "Tue, 06 Oct 2026 13:00:19 +0000",
-      "freshness_score": 8,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 26
+      "pre_filter_score": 11
     },
     {
       "source": "OpenAI News",
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "description": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "published": "Tue, 06 Oct 2026 16:00:00 GMT",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "description": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "published": "Wed, 07 Oct 2026 07:00:00 GMT",
       "freshness_score": 8,
-      "relevance_score": 10,
+      "relevance_score": 8,
       "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 16
+    },
+    {
+      "source": "OpenAI News",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "description": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "published": "Wed, 07 Oct 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -49,6 +73,18 @@
       "impact_score": 2,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 25
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+      "description": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with [&#8230;]",
+      "published": "Tue, 06 Oct 2026 13:00:19 +0000",
+      "freshness_score": 6,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 24
     },
     {
       "source": "OpenAI News",
@@ -76,15 +112,27 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "description": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "published": "Tue, 06 Oct 2026 16:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 10,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 16
+    },
+    {
+      "source": "OpenAI News",
       "title": "Our approach to EU text provenance rules",
       "url": "https://openai.com/index/eu-text-provenance",
       "description": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
       "published": "Mon, 05 Oct 2026 15:00:00 GMT",
-      "freshness_score": 6,
+      "freshness_score": 5,
       "relevance_score": 8,
       "impact_score": 4,
       "story_type": "RESEARCH",
-      "pre_filter_score": 18
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -97,18 +145,6 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 16
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
-      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
-      "description": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th [&#8230;]",
-      "published": "Wed, 30 Sep 2026 17:00:21 +0000",
-      "freshness_score": 2,
-      "relevance_score": 9,
-      "impact_score": 11,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 22
     },
     {
       "source": "OpenAI News",
@@ -180,6 +216,18 @@
       "relevance_score": 20,
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 26
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
+      "published": "Wed, 30 Sep 2026 15:00:00 +0000",
+      "freshness_score": 0,
+      "relevance_score": 20,
+      "impact_score": 6,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 26
     },
     {
@@ -913,54 +961,6 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "published": "Thu, 25 Jun 2026 02:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "published": "Thu, 04 Jun 2026 12:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Inside Mirakl's agentic commerce vision",
-      "url": "https://openai.com/index/mirakl",
-      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
-      "published": "Mon, 01 Dec 2025 22:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Predicting model behavior before release by simulating deployment",
-      "url": "https://openai.com/index/deployment-simulation",
-      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "published": "Tue, 16 Jun 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
     }
   ]
 }
