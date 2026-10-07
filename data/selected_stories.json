@@ -2,26 +2,26 @@
   "date": "2026-10-07",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-      "description": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&#8230;]",
-      "published": "Tue, 22 Sep 2026 12:00:41 +0000",
-      "freshness_score": 0,
-      "relevance_score": 18,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21,
-      "content_id": "cand-fc5befd2bacce4c4",
+      "source": "OpenAI News",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "published": "Tue, 06 Oct 2026 10:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 27,
+      "content_id": "cand-4f0314e86eadd381",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 58,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 58/100)",
-        "source": "NVIDIA Blog"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 60,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
+        "source": "OpenAI News"
       }
     }
   ]
