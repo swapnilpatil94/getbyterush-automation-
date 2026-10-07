@@ -2,26 +2,26 @@
   "date": "2026-10-07",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "published": "Tue, 06 Oct 2026 10:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
+      "source": "NVIDIA Blog",
+      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+      "description": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with [&#8230;]",
+      "published": "Tue, 06 Oct 2026 13:00:19 +0000",
+      "freshness_score": 9,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 27,
-      "content_id": "cand-4f0314e86eadd381",
+      "content_id": "cand-869cca507413e496",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "LAST_24H",
-        "quality_score": 60,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
-        "source": "OpenAI News"
+        "quality_score": 52,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
