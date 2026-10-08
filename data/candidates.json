@@ -1,42 +1,78 @@
 {
-  "generated_at": "2026-10-08T12:34:46.193642+00:00",
+  "generated_at": "2026-10-08T22:42:54.617024+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
+      "published": "Thu, 08 Oct 2026 21:06:35 +0000",
+      "freshness_score": 10,
+      "relevance_score": 18,
+      "impact_score": 4,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 32
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
+      "description": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through [&#8230;]",
+      "published": "Thu, 08 Oct 2026 13:00:46 +0000",
+      "freshness_score": 9,
+      "relevance_score": 6,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "description": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "published": "Thu, 08 Oct 2026 16:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 16
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "url": "https://openai.com/index/pollo-ai",
+      "description": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "published": "Thu, 08 Oct 2026 12:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "description": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "published": "Thu, 08 Oct 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
+    },
     {
       "source": "NVIDIA Blog",
       "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
       "description": "At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you [&#8230;]",
       "published": "Wed, 07 Oct 2026 18:45:28 +0000",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 27
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
-      "description": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with [&#8230;]",
-      "published": "Tue, 06 Oct 2026 13:00:19 +0000",
-      "freshness_score": 6,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 24
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "description": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "published": "Tue, 06 Oct 2026 16:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 10,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
+      "pre_filter_score": 25
     },
     {
       "source": "OpenAI News",
@@ -87,6 +123,18 @@
       "pre_filter_score": 24
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+      "description": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with [&#8230;]",
+      "published": "Tue, 06 Oct 2026 13:00:19 +0000",
+      "freshness_score": 5,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 23
+    },
+    {
       "source": "OpenAI News",
       "title": "How Jump Trading is scaling quant research with ChatGPT",
       "url": "https://openai.com/index/jump-trading",
@@ -112,15 +160,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Our approach to EU text provenance rules",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "description": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "published": "Mon, 05 Oct 2026 15:00:00 GMT",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "description": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "published": "Tue, 06 Oct 2026 16:00:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 4,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 17
+      "relevance_score": 10,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -399,18 +447,6 @@
       "pre_filter_score": 22
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-      "description": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, [&#8230;]",
-      "published": "Mon, 21 Sep 2026 14:51:34 +0000",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 22
-    },
-    {
       "source": "OpenAI News",
       "title": "How ChatGPT learns about the world while protecting privacy",
       "url": "https://openai.com/index/how-chatgpt-protects-privacy",
@@ -652,18 +688,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Bet Bot: Gambling spam network",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
-      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "STORM-0817: Iran-linked malware and scraping activity",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
       "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
@@ -672,6 +696,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bet Bot: Gambling spam network",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -915,47 +951,11 @@
       "pre_filter_score": 19
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-      "description": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead [&#8230;]",
-      "published": "Mon, 21 Sep 2026 16:00:10 +0000",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 19
-    },
-    {
       "source": "OpenAI News",
       "title": "The builder’s guide to GPT‑5.6",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
       "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
       "published": "Thu, 13 Aug 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "published": "Thu, 25 Jun 2026 02:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "published": "Thu, 04 Jun 2026 12:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 17,
       "impact_score": 2,
