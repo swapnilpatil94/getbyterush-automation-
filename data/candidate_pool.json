@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-08T01:46:54.359017+00:00",
+  "updated_at": "2026-10-08T03:51:39.397264+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -2900,49 +2900,6 @@
       "rejected_at": "2026-09-23T01:46:34.511820+00:00"
     },
     {
-      "content_id": "cand-e5a2a5a10ca19ec9",
-      "topic": "Sam Altman’s remarks at the United Nations Security Council",
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "published_at": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "discovered_at": "2026-09-24T02:32:18.245820+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 4,
-      "novelty": 0,
-      "visual_potential": 3,
-      "curiosity_score": 0,
-      "save_score": 5,
-      "share_score": 3,
-      "information_value": 6,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 38,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Sam Altman’s remarks at the United Nations Security Council",
-        "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-        "description": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-        "published": "Wed, 23 Sep 2026 12:00:00 GMT",
-        "freshness_score": 8,
-        "relevance_score": 6,
-        "impact_score": 0,
-        "story_type": "TECH_NEWS",
-        "pre_filter_score": 14
-      }
-    },
-    {
       "content_id": "cand-b7908f902bf14b28",
       "topic": "ChatGPT Ads expands to Southeast Asia and Taiwan",
       "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
@@ -5413,5 +5370,5 @@
       }
     }
   ],
-  "count": 135
+  "count": 134
 }
