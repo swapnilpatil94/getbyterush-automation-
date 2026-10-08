@@ -33,6 +33,21 @@
       "telegram_status": "SENT",
       "publish_status": "PENDING",
       "content_state_id": "261008081716-microsoft-and-nvidia-435c5e"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-b30505bcae631ed4",
+      "topic": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "category": "DATA_RESEARCH",
+      "score": 54,
+      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 54/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/ringg",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -61,7 +76,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-b30505bcae631ed4",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
