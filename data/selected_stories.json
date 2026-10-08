@@ -2,26 +2,26 @@
   "date": "2026-10-08",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Evaluating fairness in ChatGPT",
-      "url": "https://openai.com/index/evaluating-fairness-in-chatgpt",
-      "description": "We’ve analyzed how ChatGPT responds to users based on their name, using AI research assistants to protect privacy.",
-      "published": "Tue, 15 Oct 2024 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18,
-      "content_id": "cand-6e1141a0a88b07ca",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "description": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of [&#8230;]",
+      "published": "Wed, 07 Oct 2026 18:45:28 +0000",
+      "freshness_score": 10,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 29,
+      "content_id": "cand-06560a5733b104be",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 51,
-        "why_selected": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 60,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]

@@ -1,0 +1,49 @@
+{
+  "content_id": "261008081716-microsoft-and-nvidia-435c5e",
+  "story_title": "Microsoft and NVIDIA Bring Persistent Local AI Agents to Windows PCs",
+  "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+  "status": "AWAITING_TELEGRAM_APPROVAL",
+  "created_at": "2026-10-08T08:17:16.781378+00:00",
+  "updated_at": "2026-10-08T08:17:21.281049+00:00",
+  "history": [
+    {
+      "status": "DISCOVERED",
+      "at": "2026-10-08T08:17:16.781385+00:00",
+      "note": ""
+    },
+    {
+      "status": "SHORTLISTED",
+      "at": "2026-10-08T08:17:16.783656+00:00",
+      "note": "selected by editorial_engine + topic_memory"
+    },
+    {
+      "status": "EDITORIAL_READY",
+      "at": "2026-10-08T08:17:16.784682+00:00",
+      "note": ""
+    },
+    {
+      "status": "RENDERING",
+      "at": "2026-10-08T08:17:16.785619+00:00",
+      "note": ""
+    },
+    {
+      "status": "QA_PASSED",
+      "at": "2026-10-08T08:17:17.911074+00:00",
+      "note": "V17, gemini_calls=0"
+    },
+    {
+      "status": "AWAITING_TELEGRAM_APPROVAL",
+      "at": "2026-10-08T08:17:21.281066+00:00",
+      "note": ""
+    }
+  ],
+  "attempts": {
+    "visual": 0,
+    "different_approach": 0
+  },
+  "avoid_grammars": [],
+  "rejections": [],
+  "package_path": "output/posts/2026-10-08/081716-microsoft-and-nvidia-bring-persistent-local-ai-agents-to-windows-pcs",
+  "publish": {},
+  "story_path": "data/pipeline/261008081716-microsoft-and-nvidia-435c5e.json"
+}

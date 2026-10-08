@@ -2,6 +2,42 @@
   "version": 2,
   "topics": [
     {
+      "title": "Microsoft and NVIDIA Bring Persistent Local AI Agents to Windows PCs",
+      "source_title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "microsoft and nvidia bring persistent local ai agents to windows pcs",
+      "normalized_source_title": "nvidia microsoft kick off a new beginning for windows pcs with rtx spark and ai agents",
+      "tokens": [
+        "agents",
+        "and",
+        "bring",
+        "local",
+        "microsoft",
+        "nvidia",
+        "pcs",
+        "persistent",
+        "windows"
+      ],
+      "source_tokens": [
+        "agents",
+        "and",
+        "beginning",
+        "for",
+        "kick",
+        "microsoft",
+        "new",
+        "nvidia",
+        "off",
+        "pcs",
+        "rtx",
+        "spark",
+        "windows",
+        "with"
+      ],
+      "recorded_at": "2026-10-08T08:17:16.750468+00:00"
+    },
+    {
       "title": "Deep Double Descent: Why Bigger AI Models Get Worse Before They Get Better",
       "source_title": "Deep double descent",
       "url": "https://openai.com/index/deep-double-descent",
@@ -1054,133 +1090,6 @@
         "speed"
       ],
       "recorded_at": "2026-09-08T14:47:39.202652+00:00"
-    },
-    {
-      "title": "Endava Redesigns Software Delivery Around OpenAI AI Agents",
-      "source_title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "source": "OpenAI News",
-      "normalized_title": "endava redesigns software delivery around openai ai agents",
-      "normalized_source_title": "how endava is redesigning software delivery around ai agents",
-      "tokens": [
-        "agents",
-        "around",
-        "delivery",
-        "endava",
-        "openai",
-        "redesigns",
-        "software"
-      ],
-      "source_tokens": [
-        "agents",
-        "around",
-        "delivery",
-        "endava",
-        "how",
-        "redesigning",
-        "software"
-      ],
-      "recorded_at": "2026-09-07T01:46:30.018464+00:00"
-    },
-    {
-      "title": "SafetyKit scales risk agents with OpenAI's most capable models",
-      "source_title": "SafetyKit scales risk agents with OpenAI’s most capable models",
-      "url": "https://openai.com/index/safetykit",
-      "source": "OpenAI News",
-      "normalized_title": "safetykit scales risk agents with openai s most capable models",
-      "normalized_source_title": "safetykit scales risk agents with openai s most capable models",
-      "tokens": [
-        "agents",
-        "capable",
-        "models",
-        "most",
-        "openai",
-        "risk",
-        "safetykit",
-        "scales",
-        "with"
-      ],
-      "source_tokens": [
-        "agents",
-        "capable",
-        "models",
-        "most",
-        "openai",
-        "risk",
-        "safetykit",
-        "scales",
-        "with"
-      ],
-      "recorded_at": "2026-09-06T14:47:13.067775+00:00"
-    },
-    {
-      "title": "How ChatGPT Learns About the World While Protecting Privacy",
-      "source_title": "How ChatGPT learns about the world while protecting privacy",
-      "url": "https://openai.com/index/how-chatgpt-protects-privacy",
-      "source": "OpenAI News",
-      "normalized_title": "how chatgpt learns about the world while protecting privacy",
-      "normalized_source_title": "how chatgpt learns about the world while protecting privacy",
-      "tokens": [
-        "about",
-        "chatgpt",
-        "how",
-        "learns",
-        "privacy",
-        "protecting",
-        "the",
-        "while",
-        "world"
-      ],
-      "source_tokens": [
-        "about",
-        "chatgpt",
-        "how",
-        "learns",
-        "privacy",
-        "protecting",
-        "the",
-        "while",
-        "world"
-      ],
-      "recorded_at": "2026-09-06T01:47:05.239063+00:00"
-    },
-    {
-      "title": "NVIDIA Vera Rubin NVL72 and the 15x Agent Token Surge",
-      "source_title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-      "source": "NVIDIA Blog",
-      "normalized_title": "nvidia vera rubin nvl72 and the 15x agent token surge",
-      "normalized_source_title": "up to 30x more work per watt nvidia vera rubin nvl72 sets a new efficiency standard for ai agents",
-      "tokens": [
-        "15x",
-        "agent",
-        "and",
-        "nvidia",
-        "nvl72",
-        "rubin",
-        "surge",
-        "the",
-        "token",
-        "vera"
-      ],
-      "source_tokens": [
-        "30x",
-        "agents",
-        "efficiency",
-        "for",
-        "more",
-        "new",
-        "nvidia",
-        "nvl72",
-        "per",
-        "rubin",
-        "sets",
-        "standard",
-        "vera",
-        "watt",
-        "work"
-      ],
-      "recorded_at": "2026-09-05T01:47:23.082596+00:00"
     }
   ]
 }
