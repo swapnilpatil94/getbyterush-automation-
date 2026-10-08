@@ -1,48 +1,18 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-fc5befd2bacce4c4",
-      "topic": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "content_id": "cand-6e1141a0a88b07ca",
+      "topic": "Evaluating fairness in ChatGPT",
       "category": "EVERGREEN_VALUE",
-      "score": 58,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 58/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-4f0314e86eadd381",
-      "topic": "Advancing computer use with Ironclad",
-      "category": "LAST_24H",
-      "score": 60,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
+      "score": 51,
+      "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-869cca507413e496",
-      "topic": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-      "category": "LAST_24H",
-      "score": 52,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+      "source_url": "https://openai.com/index/evaluating-fairness-in-chatgpt",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-fc5befd2bacce4c4",
+      "content_id": "cand-6e1141a0a88b07ca",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-4f0314e86eadd381",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-869cca507413e496",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }

@@ -1,27 +1,27 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
-      "description": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with [&#8230;]",
-      "published": "Tue, 06 Oct 2026 13:00:19 +0000",
-      "freshness_score": 9,
+      "source": "OpenAI News",
+      "title": "Evaluating fairness in ChatGPT",
+      "url": "https://openai.com/index/evaluating-fairness-in-chatgpt",
+      "description": "We’ve analyzed how ChatGPT responds to users based on their name, using AI research assistants to protect privacy.",
+      "published": "Tue, 15 Oct 2024 10:00:00 GMT",
+      "freshness_score": 0,
       "relevance_score": 13,
       "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 27,
-      "content_id": "cand-869cca507413e496",
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18,
+      "content_id": "cand-6e1141a0a88b07ca",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "LAST_24H",
-        "quality_score": 52,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
-        "source": "NVIDIA Blog"
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 51,
+        "why_selected": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
+        "source": "OpenAI News"
       }
     }
   ]
