@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09T01:47:06.886314+00:00",
+  "updated_at": "2026-10-09T03:57:14.199182+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -5500,7 +5500,50 @@
         "story_type": "TECH_NEWS",
         "pre_filter_score": 12
       }
+    },
+    {
+      "content_id": "cand-66fe1d479e99fcb4",
+      "topic": "LegalOn halves Codex costs while maintaining development speed",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/legalon-halves-codex-costs",
+      "published_at": "Thu, 08 Oct 2026 12:00:00 GMT",
+      "discovered_at": "2026-10-09T03:57:14.198671+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 0,
+      "visual_potential": 6,
+      "curiosity_score": 0,
+      "save_score": 4,
+      "share_score": 3,
+      "information_value": 2,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": true
+      },
+      "status": "POOLED",
+      "score": 32,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "LegalOn halves Codex costs while maintaining development speed",
+        "url": "https://openai.com/index/legalon-halves-codex-costs",
+        "description": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+        "published": "Thu, 08 Oct 2026 12:00:00 GMT",
+        "freshness_score": 8,
+        "relevance_score": 2,
+        "impact_score": 3,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 13
+      }
     }
   ],
-  "count": 137
+  "count": 138
 }
