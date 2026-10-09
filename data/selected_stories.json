@@ -2,26 +2,26 @@
   "date": "2026-10-09",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
-      "published": "Thu, 08 Oct 2026 21:06:35 +0000",
+      "source": "OpenAI News",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "description": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
       "freshness_score": 10,
-      "relevance_score": 18,
-      "impact_score": 4,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 32,
-      "content_id": "cand-c1c80e32139842cb",
+      "relevance_score": 9,
+      "impact_score": 11,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 30,
+      "content_id": "cand-a0ca3c02fd85c094",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "LAST_24H",
-        "quality_score": 67,
-        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 67/100)",
-        "source": "NVIDIA Blog"
+        "quality_score": 53,
+        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 53/100)",
+        "source": "OpenAI News"
       }
     }
   ]

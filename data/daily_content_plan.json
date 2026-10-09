@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-a0ca3c02fd85c094",
+      "topic": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "category": "LAST_24H",
+      "score": 53,
+      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 53/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/sophos",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -60,7 +75,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-a0ca3c02fd85c094",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
