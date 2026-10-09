@@ -1,49 +1,18 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-6e1141a0a88b07ca",
-      "topic": "Evaluating fairness in ChatGPT",
+      "content_id": "cand-4282253fa127c65b",
+      "topic": "Fighting the New York Times’ invasion of user privacy",
       "category": "EVERGREEN_VALUE",
-      "score": 51,
-      "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
+      "score": 50,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 50/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/evaluating-fairness-in-chatgpt",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-06560a5733b104be",
-      "topic": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
-      "category": "LAST_24H",
-      "score": 60,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "261008081716-microsoft-and-nvidia-435c5e"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-b30505bcae631ed4",
-      "topic": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "category": "DATA_RESEARCH",
-      "score": 54,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 54/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/ringg",
+      "source_url": "https://openai.com/index/fighting-nyt-user-privacy-invasion",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -53,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-6e1141a0a88b07ca",
+      "content_id": "cand-4282253fa127c65b",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-06560a5733b104be",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-b30505bcae631ed4",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }

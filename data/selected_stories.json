@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "description": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "published": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "title": "Fighting the New York Times’ invasion of user privacy",
+      "url": "https://openai.com/index/fighting-nyt-user-privacy-invasion",
+      "description": "OpenAI is fighting the New York Times’ demand for 20 million private ChatGPT conversations and accelerating new security and privacy protections to protect your data.",
+      "published": "Wed, 12 Nov 2025 06:00:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 5,
+      "relevance_score": 14,
+      "impact_score": 6,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21,
-      "content_id": "cand-b30505bcae631ed4",
+      "pre_filter_score": 20,
+      "content_id": "cand-4282253fa127c65b",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "DATA_RESEARCH",
-        "quality_score": 54,
-        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 54/100)",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 50,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 50/100)",
         "source": "OpenAI News"
       }
     }
