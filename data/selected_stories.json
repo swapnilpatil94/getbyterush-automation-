@@ -2,26 +2,26 @@
   "date": "2026-10-09",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Fighting the New York Times’ invasion of user privacy",
-      "url": "https://openai.com/index/fighting-nyt-user-privacy-invasion",
-      "description": "OpenAI is fighting the New York Times’ demand for 20 million private ChatGPT conversations and accelerating new security and privacy protections to protect your data.",
-      "published": "Wed, 12 Nov 2025 06:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
+      "source": "NVIDIA Blog",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
+      "published": "Thu, 08 Oct 2026 21:06:35 +0000",
+      "freshness_score": 10,
+      "relevance_score": 18,
+      "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20,
-      "content_id": "cand-4282253fa127c65b",
+      "pre_filter_score": 32,
+      "content_id": "cand-c1c80e32139842cb",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 50,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 50/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 67,
+        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 67/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
