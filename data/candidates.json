@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-10-10T03:41:54.472166+00:00",
+  "generated_at": "2026-10-10T11:41:27.798464+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "OpenAI News",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "description": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 9,
-      "impact_score": 11,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 28
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 26
-    },
     {
       "source": "NVIDIA Blog",
       "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
@@ -37,6 +13,30 @@
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 28
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "description": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 9,
+      "impact_score": 11,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 26
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 24
     },
     {
       "source": "NVIDIA Blog",
@@ -85,18 +85,6 @@
       "impact_score": 2,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 24
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "description": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "published": "Wed, 07 Oct 2026 07:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -961,6 +949,18 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "url": "https://openai.com/index/deployment-simulation",
+      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "published": "Tue, 16 Jun 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
     }
   ]
 }
