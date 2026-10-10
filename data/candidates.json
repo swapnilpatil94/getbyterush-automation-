@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T22:04:55.281301+00:00",
+  "generated_at": "2026-10-10T03:41:54.472166+00:00",
   "count": 80,
   "stories": [
     {
@@ -75,18 +75,6 @@
       "pre_filter_score": 12
     },
     {
-      "source": "OpenAI News",
-      "title": "Disrupting AI-enabled “false front” operations",
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "description": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-      "published": "Thu, 08 Oct 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 10
-    },
-    {
       "source": "NVIDIA Blog",
       "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
@@ -124,14 +112,14 @@
     },
     {
       "source": "OpenAI News",
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "description": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-      "published": "Wed, 07 Oct 2026 00:00:00 GMT",
+      "title": "Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "description": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "published": "Thu, 08 Oct 2026 00:00:00 GMT",
       "freshness_score": 5,
       "relevance_score": 4,
       "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 9
     },
     {
@@ -956,6 +944,18 @@
       "url": "https://openai.com/index/endava-frontiers",
       "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
       "published": "Thu, 04 Jun 2026 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Inside Mirakl's agentic commerce vision",
+      "url": "https://openai.com/index/mirakl",
+      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+      "published": "Mon, 01 Dec 2025 22:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 17,
       "impact_score": 2,
