@@ -2,7 +2,23 @@
   "date": "2026-10-10",
   "mode": "slotted",
   "quality_floor": 50,
-  "posts": [],
+  "posts": [
+    {
+      "rank": 1,
+      "slot": "afternoon",
+      "content_id": "cand-53d4a08290373b43",
+      "topic": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "category": "LAST_24H",
+      "score": 50,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 50/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/asana-browser-agent",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
+    }
+  ],
   "slots": {
     "morning": {
       "status": "NO_QUALITY_POST",
@@ -18,7 +34,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-53d4a08290373b43",
+      "label": "Freshness"
     }
   },
-  "selected_count": 0
+  "selected_count": 1
 }
