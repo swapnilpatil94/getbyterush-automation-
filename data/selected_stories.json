@@ -2,26 +2,26 @@
   "date": "2026-10-10",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
+      "source": "NVIDIA Blog",
+      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+      "description": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, [&#8230;]",
+      "published": "Mon, 21 Sep 2026 16:00:46 +0000",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 13,
+      "story_type": "RESEARCH",
       "pre_filter_score": 26,
-      "content_id": "cand-53d4a08290373b43",
+      "content_id": "cand-9cc73d15c4bf1247",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 50,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 50/100)",
-        "source": "OpenAI News"
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "DATA_RESEARCH",
+        "quality_score": 51,
+        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 51/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
