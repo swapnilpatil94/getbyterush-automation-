@@ -1,86 +1,16 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "mode": "slotted",
   "quality_floor": 50,
-  "posts": [
-    {
-      "rank": 1,
-      "slot": "morning",
-      "content_id": "cand-4282253fa127c65b",
-      "topic": "Fighting the New York Times’ invasion of user privacy",
-      "category": "EVERGREEN_VALUE",
-      "score": 50,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 50/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/fighting-nyt-user-privacy-invasion",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-c1c80e32139842cb",
-      "topic": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "category": "LAST_24H",
-      "score": 67,
-      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 67/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-a0ca3c02fd85c094",
-      "topic": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "category": "LAST_24H",
-      "score": 53,
-      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 53/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/sophos",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    }
-  ],
+  "posts": [],
   "slots": {
     "morning": {
-      "status": "SELECTED",
-      "content_id": "cand-4282253fa127c65b",
-      "label": "Morning discovery"
-    },
-    "midmorning": {
       "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
+      "label": "Morning discovery",
       "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
+        "EVERGREEN_VALUE"
       ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-c1c80e32139842cb",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-a0ca3c02fd85c094",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 0
 }
