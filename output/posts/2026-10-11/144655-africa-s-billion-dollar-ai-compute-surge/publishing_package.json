@@ -1,0 +1,101 @@
+{
+  "content_id": "261011144655-africa-s-billion-dol-7382ae",
+  "story_title": "Africa's Billion-Dollar AI Compute Surge",
+  "renderer": "getbyterush-pinterest-editorial-v17",
+  "gemini_calls": 0,
+  "images": [
+    "output/posts/2026-10-11/144655-africa-s-billion-dollar-ai-compute-surge/slides/01.jpg",
+    "output/posts/2026-10-11/144655-africa-s-billion-dollar-ai-compute-surge/slides/02.jpg",
+    "output/posts/2026-10-11/144655-africa-s-billion-dollar-ai-compute-surge/slides/03.jpg",
+    "output/posts/2026-10-11/144655-africa-s-billion-dollar-ai-compute-surge/slides/04.jpg",
+    "output/posts/2026-10-11/144655-africa-s-billion-dollar-ai-compute-surge/slides/05.jpg",
+    "output/posts/2026-10-11/144655-africa-s-billion-dollar-ai-compute-surge/slides/06.jpg",
+    "output/posts/2026-10-11/144655-africa-s-billion-dollar-ai-compute-surge/slides/07.jpg"
+  ],
+  "slide_count": 7,
+  "caption": "Africa holds 18% of global population but under 1% of data center capacity. That compute deficit is officially closing.\n\nFrom a $1.2B Blackwell AI factory in Morocco to 7-exaflop deployments in South Africa, NVIDIA partners are pouring billions into local GPU infrastructure.\n\nAccording to McKinsey, data center demand on the continent could reach 2.2 gigawatts by 2030—requiring up to $20B in construction.\n\nRead the full breakdown slide-by-slide.\n\n#GetByteRush #AI #NVIDIA #TechNews #DataCenters #Infrastructure #ArtificialIntelligence",
+  "caption_for_publish": "Africa holds 18% of global population but under 1% of data center capacity. That compute deficit is officially closing.\n\nFrom a $1.2B Blackwell AI factory in Morocco to 7-exaflop deployments in South Africa, NVIDIA partners are pouring billions into local GPU infrastructure.\n\nAccording to McKinsey, data center demand on the continent could reach 2.2 gigawatts by 2030—requiring up to $20B in construction.\n\nRead the full breakdown slide-by-slide.\n\n#GetByteRush #AI #NVIDIA #TechNews #DataCenters #Infrastructure #ArtificialIntelligence\n\n#AI #NVIDIA #TechNews #DataCenters #GetByteRush",
+  "pinned_comment": "Is onshore compute essential for AI data sovereignty, or will cloud providers dominate long-term? Drop your take below.",
+  "alt_text_overall": "GetByteRush carousel explaining Africa's AI compute buildout, featuring data on NVIDIA Blackwell deployments, 7 exaflop systems, and $20B market forecasts.",
+  "alt_text_per_slide": [
+    "Slide 1: 18% OF PEOPLE. LESS THAN 1% OF COMPUTE.. A massive global imbalance is triggering a multi-billion dollar AI infrastructure deployment. — shown as a bold statement over a torn-edge color block.",
+    "Slide 2: TRAINING NATIVE MODELS WAS NEARLY IMPOSSIBLE.. Because cloud servers were hosted thousands of miles away, latency and data sovereignty created huge barriers for local builders. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 3: 4 NEW AI FACTORIES ARE GOING ONLINE.. 656 megawatts of new capacity are now in the pipeline across Egypt, South Africa, Nigeria, and Morocco. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 4: 7 EXAFLOPS AND BLACKWELL CHIPS.. South Africa's Stratos Lab is deploying 50+ NVIDIA HGX B300 systems, while Morocco launched a $1.2B Blackwell-powered AI factory. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 5: $720,000,000. Cassava Technologies alone committed up to $720M to expand NVIDIA GPU-as-a-service across five nations. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 6: A $20B BUILD-OUT BY 2030.. McKinsey projects data center demand will rise to 2.2 gigawatts, requiring up to $20 billion in construction. — shown as a large statistic on a ruled, terminal-style background.",
+    "Slide 7: THE NEXT AI RACE IS ABOUT LOCAL HARDWARE.. Algorithms are global, but execution requires local compute where data is born. — shown as a bold statement over a torn-edge color block."
+  ],
+  "hashtags": [
+    "AI",
+    "NVIDIA",
+    "TechNews",
+    "DataCenters",
+    "GetByteRush"
+  ],
+  "cta": "Follow along — we go deeper than the headline.",
+  "seo": {
+    "primary_keyword": "Africa",
+    "secondary_keywords": [
+      "AI",
+      "NVIDIA",
+      "TechNews",
+      "DataCenters",
+      "GetByteRush",
+      "Billion",
+      "Dollar AI Compute",
+      "Surge From Enablement"
+    ],
+    "search_phrases": [
+      "what is Africa",
+      "Africa vs Billion",
+      "Africa AI",
+      "Africa NVIDIA"
+    ],
+    "entities": [
+      "Africa",
+      "Billion",
+      "Dollar AI Compute",
+      "Surge From Enablement",
+      "Execution",
+      "Egypt"
+    ]
+  },
+  "source_attribution": {
+    "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/"
+      }
+    ],
+    "fact_check": [
+      {
+        "claim": "Africa has roughly 18% of global population but less than 1% of data center capacity.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Nexus AI factory in Morocco represents a $1.2B initial investment with 500MW planned using NVIDIA Blackwell.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "Stratos Lab is deploying over 50 NVIDIA HGX B300 systems delivering over 7 exaflops of performance.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+        "source_name": "NVIDIA Blog"
+      },
+      {
+        "claim": "McKinsey estimates African data center demand will rise to 1.5–2.2 GW by 2030 requiring $10–$20B in construction.",
+        "classification": "FACT",
+        "source_url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+        "source_name": "NVIDIA Blog"
+      }
+    ]
+  }
+}

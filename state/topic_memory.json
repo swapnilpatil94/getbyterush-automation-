@@ -2,6 +2,32 @@
   "version": 2,
   "topics": [
     {
+      "title": "Africa's Billion-Dollar AI Compute Surge",
+      "source_title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+      "source": "NVIDIA Blog",
+      "normalized_title": "africa s billion dollar ai compute surge",
+      "normalized_source_title": "from enablement to execution egypt s ai ecosystem reaches production scale",
+      "tokens": [
+        "africa",
+        "billion",
+        "compute",
+        "dollar",
+        "surge"
+      ],
+      "source_tokens": [
+        "ecosystem",
+        "egypt",
+        "enablement",
+        "execution",
+        "from",
+        "production",
+        "reaches",
+        "scale"
+      ],
+      "recorded_at": "2026-10-11T14:46:55.819820+00:00"
+    },
+    {
       "title": "Microsoft and NVIDIA Bring Persistent Local AI Agents to Windows PCs",
       "source_title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
@@ -909,187 +935,6 @@
         "with"
       ],
       "recorded_at": "2026-09-11T14:48:35.360755+00:00"
-    },
-    {
-      "title": "OpenAI Bans PRC-Linked Cyber Operations Vixen Panda and Keyhole Panda",
-      "source_title": "Vixen and Keyhole Panda: China-linked cyber operations",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
-      "source": "OpenAI News",
-      "normalized_title": "openai bans prc linked cyber operations vixen panda and keyhole panda",
-      "normalized_source_title": "vixen and keyhole panda china linked cyber operations",
-      "tokens": [
-        "and",
-        "bans",
-        "cyber",
-        "keyhole",
-        "linked",
-        "openai",
-        "operations",
-        "panda",
-        "prc",
-        "vixen"
-      ],
-      "source_tokens": [
-        "and",
-        "china",
-        "cyber",
-        "keyhole",
-        "linked",
-        "operations",
-        "panda",
-        "vixen"
-      ],
-      "recorded_at": "2026-09-11T01:47:21.587811+00:00"
-    },
-    {
-      "title": "Cloudflare and OpenAI Partner to Power Enterprise AI Agents on Agent Cloud",
-      "source_title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
-      "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
-      "source": "OpenAI News",
-      "normalized_title": "cloudflare and openai partner to power enterprise ai agents on agent cloud",
-      "normalized_source_title": "enterprises power agentic workflows in cloudflare agent cloud with openai",
-      "tokens": [
-        "agent",
-        "agents",
-        "and",
-        "cloud",
-        "cloudflare",
-        "enterprise",
-        "openai",
-        "partner",
-        "power"
-      ],
-      "source_tokens": [
-        "agent",
-        "agentic",
-        "cloud",
-        "cloudflare",
-        "enterprises",
-        "openai",
-        "power",
-        "with",
-        "workflows"
-      ],
-      "recorded_at": "2026-09-10T14:46:55.420433+00:00"
-    },
-    {
-      "title": "Warp's Big Bet on Building Open Source with GPT-5.5",
-      "source_title": "Warp’s big bet on building open source with GPT-5.5",
-      "url": "https://openai.com/index/warp",
-      "source": "OpenAI News",
-      "normalized_title": "warp s big bet on building open source with gpt 5 5",
-      "normalized_source_title": "warp s big bet on building open source with gpt 5 5",
-      "tokens": [
-        "bet",
-        "big",
-        "building",
-        "gpt",
-        "open",
-        "source",
-        "warp",
-        "with"
-      ],
-      "source_tokens": [
-        "bet",
-        "big",
-        "building",
-        "gpt",
-        "open",
-        "source",
-        "warp",
-        "with"
-      ],
-      "recorded_at": "2026-09-10T01:46:43.549224+00:00"
-    },
-    {
-      "title": "OpenAI Launches $5M Grant Program for Research on AI and Teen Development",
-      "source_title": "Funding grants for new research into AI and teen development",
-      "url": "https://openai.com/index/teen-development-research-grants",
-      "source": "OpenAI News",
-      "normalized_title": "openai launches 5m grant program for research on ai and teen development",
-      "normalized_source_title": "funding grants for new research into ai and teen development",
-      "tokens": [
-        "and",
-        "development",
-        "for",
-        "grant",
-        "launches",
-        "openai",
-        "program",
-        "research",
-        "teen"
-      ],
-      "source_tokens": [
-        "and",
-        "development",
-        "for",
-        "funding",
-        "grants",
-        "into",
-        "new",
-        "research",
-        "teen"
-      ],
-      "recorded_at": "2026-09-09T08:17:05.635423+00:00"
-    },
-    {
-      "title": "OpenAI CFO Explains the 'Full Stack' Strategy Behind Abundant Intelligence",
-      "source_title": "The full stack behind abundant intelligence",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "source": "OpenAI News",
-      "normalized_title": "openai cfo explains the full stack strategy behind abundant intelligence",
-      "normalized_source_title": "the full stack behind abundant intelligence",
-      "tokens": [
-        "abundant",
-        "behind",
-        "cfo",
-        "explains",
-        "full",
-        "intelligence",
-        "openai",
-        "stack",
-        "strategy",
-        "the"
-      ],
-      "source_tokens": [
-        "abundant",
-        "behind",
-        "full",
-        "intelligence",
-        "stack",
-        "the"
-      ],
-      "recorded_at": "2026-09-09T01:46:33.973040+00:00"
-    },
-    {
-      "title": "Jalapeño: OpenAI Reveals Custom AI Inference Chip Results",
-      "source_title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "source": "OpenAI News",
-      "normalized_title": "jalape o openai reveals custom ai inference chip results",
-      "normalized_source_title": "jalape o s first results show industry leading speed and efficiency in ai inference",
-      "tokens": [
-        "chip",
-        "custom",
-        "inference",
-        "jalape",
-        "openai",
-        "results",
-        "reveals"
-      ],
-      "source_tokens": [
-        "and",
-        "efficiency",
-        "first",
-        "industry",
-        "inference",
-        "jalape",
-        "leading",
-        "results",
-        "show",
-        "speed"
-      ],
-      "recorded_at": "2026-09-08T14:47:39.202652+00:00"
     }
   ]
 }

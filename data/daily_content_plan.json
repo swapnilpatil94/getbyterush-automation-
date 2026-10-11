@@ -2,7 +2,24 @@
   "date": "2026-10-11",
   "mode": "slotted",
   "quality_floor": 50,
-  "posts": [],
+  "posts": [
+    {
+      "rank": 1,
+      "slot": "night",
+      "content_id": "cand-e83e78baafd2cf97",
+      "topic": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "category": "DATA_RESEARCH",
+      "score": 51,
+      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 51/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+      "editorial_status": "GENERATED",
+      "render_status": "QA_PASSED",
+      "telegram_status": "SENT",
+      "publish_status": "PENDING",
+      "content_state_id": "261011144655-africa-s-billion-dol-7382ae"
+    }
+  ],
   "slots": {
     "morning": {
       "status": "NO_QUALITY_POST",
@@ -33,7 +50,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-e83e78baafd2cf97",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 0
+  "selected_count": 1
 }
