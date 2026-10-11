@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-10-11T17:09:03.507915+00:00",
+  "generated_at": "2026-10-11T21:19:39.539874+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
-      "published": "Thu, 08 Oct 2026 21:06:35 +0000",
-      "freshness_score": 5,
-      "relevance_score": 18,
-      "impact_score": 4,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27
-    },
     {
       "source": "OpenAI News",
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
@@ -960,6 +948,18 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "published": "Fri, 02 Oct 2026 16:15:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]
