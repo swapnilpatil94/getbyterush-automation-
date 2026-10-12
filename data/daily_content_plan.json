@@ -1,25 +1,8 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "mode": "slotted",
   "quality_floor": 50,
-  "posts": [
-    {
-      "rank": 1,
-      "slot": "night",
-      "content_id": "cand-e83e78baafd2cf97",
-      "topic": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-      "category": "DATA_RESEARCH",
-      "score": 51,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 51/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-      "editorial_status": "GENERATED",
-      "render_status": "QA_PASSED",
-      "telegram_status": "SENT",
-      "publish_status": "PENDING",
-      "content_state_id": "261011144655-africa-s-billion-dol-7382ae"
-    }
-  ],
+  "posts": [],
   "slots": {
     "morning": {
       "status": "NO_QUALITY_POST",
@@ -27,35 +10,7 @@
       "categories": [
         "EVERGREEN_VALUE"
       ]
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-e83e78baafd2cf97",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 0
 }
