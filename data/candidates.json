@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-12T14:03:33.529522+00:00",
+  "generated_at": "2026-10-13T00:00:11.847118+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+      "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+      "description": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at [&#8230;]",
+      "published": "Mon, 12 Oct 2026 15:00:25 +0000",
+      "freshness_score": 9,
+      "relevance_score": 7,
+      "impact_score": 4,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
     {
       "source": "OpenAI News",
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
@@ -25,18 +37,6 @@
       "impact_score": 9,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 27
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
-      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-      "description": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, [&#8230;]",
-      "published": "Mon, 21 Sep 2026 16:00:46 +0000",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 13,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 26
     },
     {
       "source": "OpenAI News",
