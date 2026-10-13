@@ -2,26 +2,26 @@
   "date": "2026-10-13",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-      "description": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [&#8230;]",
-      "published": "Tue, 13 Oct 2026 05:00:31 +0000",
-      "freshness_score": 10,
-      "relevance_score": 13,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 25,
-      "content_id": "cand-3bc9ee74f48a5430",
+      "source": "OpenAI News",
+      "title": "Building an early warning system for LLM-aided biological threat creation",
+      "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+      "description": "We’re developing a blueprint for evaluating the risk that a large language model (LLM) could aid someone in creating a biological threat. In an evaluation involving both biology experts and students, we found that GPT-4 provides at most a mild uplift in biological threat creation accuracy. While this uplift is not large enough to be conclusive, our finding is a starting point for continued research and community deliberation.",
+      "published": "Wed, 31 Jan 2024 08:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21,
+      "content_id": "cand-d81bc6fa6f7b0682",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 58,
-        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 58/100)",
-        "source": "NVIDIA Blog"
+        "slot": "evening",
+        "slot_label": "High-attention window",
+        "category": "INTERNET_HUMAN_TECH_BEHAVIOR",
+        "quality_score": 54,
+        "why_selected": "INTERNET_HUMAN_TECH_BEHAVIOR — SURPRISING, PROVABLE (score 54/100)",
+        "source": "OpenAI News"
       }
     }
   ]
