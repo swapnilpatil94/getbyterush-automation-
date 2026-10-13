@@ -2,7 +2,23 @@
   "date": "2026-10-13",
   "mode": "slotted",
   "quality_floor": 50,
-  "posts": [],
+  "posts": [
+    {
+      "rank": 1,
+      "slot": "midmorning",
+      "content_id": "cand-90c464fd6629c470",
+      "topic": "Introducing Aardvark: OpenAI’s agentic security researcher",
+      "category": "PRODUCT_TOOL",
+      "score": 53,
+      "reason": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 53/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-aardvark",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
+    }
+  ],
   "slots": {
     "morning": {
       "status": "NO_QUALITY_POST",
@@ -10,7 +26,12 @@
       "categories": [
         "EVERGREEN_VALUE"
       ]
+    },
+    "midmorning": {
+      "status": "SELECTED",
+      "content_id": "cand-90c464fd6629c470",
+      "label": "Curiosity + saves"
     }
   },
-  "selected_count": 0
+  "selected_count": 1
 }
