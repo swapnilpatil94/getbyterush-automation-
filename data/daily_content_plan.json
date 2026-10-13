@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-3bc9ee74f48a5430",
+      "topic": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+      "category": "LAST_24H",
+      "score": 58,
+      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 58/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -31,7 +46,12 @@
       "status": "SELECTED",
       "content_id": "cand-90c464fd6629c470",
       "label": "Curiosity + saves"
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-3bc9ee74f48a5430",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
