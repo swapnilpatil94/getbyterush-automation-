@@ -1,18 +1,42 @@
 {
-  "generated_at": "2026-10-13T06:25:33.183488+00:00",
+  "generated_at": "2026-10-13T18:43:54.501285+00:00",
   "count": 80,
   "stories": [
     {
+      "source": "Google AI Blog",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "published": "Tue, 13 Oct 2026 16:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 23
+    },
+    {
       "source": "NVIDIA Blog",
-      "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "description": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and [&#8230;]",
+      "published": "Tue, 13 Oct 2026 12:00:49 +0000",
+      "freshness_score": 9,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Announces New Investments in France’s Startups",
       "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
       "description": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [&#8230;]",
       "published": "Tue, 13 Oct 2026 05:00:31 +0000",
-      "freshness_score": 10,
-      "relevance_score": 13,
+      "freshness_score": 8,
+      "relevance_score": 17,
       "impact_score": 2,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 25
+      "pre_filter_score": 27
     },
     {
       "source": "NVIDIA Blog",
@@ -20,11 +44,11 @@
       "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
       "description": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at [&#8230;]",
       "published": "Mon, 12 Oct 2026 15:00:25 +0000",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 7,
       "impact_score": 4,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -483,18 +507,6 @@
       "pre_filter_score": 21
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-      "description": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&#8230;]",
-      "published": "Tue, 22 Sep 2026 12:00:41 +0000",
-      "freshness_score": 0,
-      "relevance_score": 18,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
-    },
-    {
       "source": "OpenAI News",
       "title": "Intuit and OpenAI join forces on new AI-powered experiences",
       "url": "https://openai.com/index/intuit-partnership",
@@ -820,6 +832,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "published": "Tue, 06 Oct 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
       "title": "The builder’s guide to GPT‑5.6",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
       "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
@@ -935,30 +959,6 @@
       "freshness_score": 0,
       "relevance_score": 12,
       "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Report from the OpenAI hackathon",
-      "url": "https://openai.com/index/hackathon-follow-up",
-      "description": "On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community.",
-      "published": "Thu, 15 Mar 2018 07:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "published": "Fri, 02 Oct 2026 16:15:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }

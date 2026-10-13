@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-10-13T06:25:32.926078+00:00",
+  "generated_at": "2026-10-13T18:43:54.239308+00:00",
   "count": 1325,
   "stories": [
+    {
+      "source": "Google AI Blog",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "published": "Tue, 13 Oct 2026 16:00:00 +0000",
+      "freshness_score": 10
+    },
     {
       "source": "Google AI Blog",
       "title": "Introducing Playground: Create and play custom games",
@@ -152,14 +160,6 @@
       "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
       "description": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
       "published": "Tue, 01 Sep 2026 16:00:00 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "3 new ways to plan and book travel in Search",
-      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-      "description": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
-      "published": "Thu, 27 Aug 2026 16:00:00 +0000",
       "freshness_score": 0
     },
     {
@@ -10460,11 +10460,19 @@
     },
     {
       "source": "NVIDIA Blog",
-      "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "description": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and [&#8230;]",
+      "published": "Tue, 13 Oct 2026 12:00:49 +0000",
+      "freshness_score": 9
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Announces New Investments in France’s Startups",
       "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
       "description": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [&#8230;]",
       "published": "Tue, 13 Oct 2026 05:00:31 +0000",
-      "freshness_score": 10
+      "freshness_score": 8
     },
     {
       "source": "NVIDIA Blog",
@@ -10472,7 +10480,7 @@
       "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
       "description": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at [&#8230;]",
       "published": "Mon, 12 Oct 2026 15:00:25 +0000",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "NVIDIA Blog",
@@ -10592,14 +10600,6 @@
       "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
       "description": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partners are showcasing breakthrough AI advancements across the Southeast Asia region [&#8230;]",
       "published": "Wed, 23 Sep 2026 02:30:22 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-      "description": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&#8230;]",
-      "published": "Tue, 22 Sep 2026 12:00:41 +0000",
       "freshness_score": 0
     }
   ]
