@@ -1,24 +1,8 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "mode": "slotted",
   "quality_floor": 50,
-  "posts": [
-    {
-      "rank": 1,
-      "slot": "night",
-      "content_id": "cand-b0ae0f985eb1d4a2",
-      "topic": "Understanding prompt injections: a frontier security challenge",
-      "category": "DATA_RESEARCH",
-      "score": 56,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/prompt-injections",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    }
-  ],
+  "posts": [],
   "slots": {
     "morning": {
       "status": "NO_QUALITY_POST",
@@ -26,35 +10,7 @@
       "categories": [
         "EVERGREEN_VALUE"
       ]
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-b0ae0f985eb1d4a2",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 0
 }
