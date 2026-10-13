@@ -1,18 +1,30 @@
 {
-  "generated_at": "2026-10-13T00:00:11.847118+00:00",
+  "generated_at": "2026-10-13T06:25:33.183488+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+      "description": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [&#8230;]",
+      "published": "Tue, 13 Oct 2026 05:00:31 +0000",
+      "freshness_score": 10,
+      "relevance_score": 13,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 25
+    },
     {
       "source": "NVIDIA Blog",
       "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
       "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
       "description": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at [&#8230;]",
       "published": "Mon, 12 Oct 2026 15:00:25 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 7,
       "impact_score": 4,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
+      "pre_filter_score": 19
     },
     {
       "source": "OpenAI News",
@@ -944,18 +956,6 @@
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
       "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
       "published": "Fri, 02 Oct 2026 16:15:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Separating signal from noise in coding evaluations",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "published": "Wed, 08 Jul 2026 13:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 13,
       "impact_score": 5,
