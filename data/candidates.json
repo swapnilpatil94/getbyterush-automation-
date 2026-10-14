@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T18:43:54.501285+00:00",
+  "generated_at": "2026-10-14T02:58:47.766196+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,23 +8,11 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
       "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
       "published": "Tue, 13 Oct 2026 16:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 11,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 23
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-      "description": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and [&#8230;]",
-      "published": "Tue, 13 Oct 2026 12:00:49 +0000",
-      "freshness_score": 9,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 17
+      "pre_filter_score": 22
     },
     {
       "source": "NVIDIA Blog",
@@ -37,6 +25,30 @@
       "impact_score": 2,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 27
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "description": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and [&#8230;]",
+      "published": "Tue, 13 Oct 2026 12:00:49 +0000",
+      "freshness_score": 8,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 16
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "description": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "published": "Tue, 13 Oct 2026 12:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 12
     },
     {
       "source": "NVIDIA Blog",
@@ -676,9 +688,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -688,9 +700,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -948,18 +960,6 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "SECURITY",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Hoax: Fake Russian “troll” error message",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll",
-      "description": "OpenAI banned an account that likely originated in the US and used AI to create a fake ChatGPT error message claiming to detect “Russian troll” activity.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]
