@@ -2,7 +2,23 @@
   "date": "2026-10-14",
   "mode": "slotted",
   "quality_floor": 50,
-  "posts": [],
+  "posts": [
+    {
+      "rank": 1,
+      "slot": "afternoon",
+      "content_id": "cand-6ebf84a27c2bda78",
+      "topic": "Gemini 4 Argon: Built to solve your hardest problems",
+      "category": "LAST_24H",
+      "score": 51,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 51/100)",
+      "source": "Google AI Blog",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
+    }
+  ],
   "slots": {
     "morning": {
       "status": "NO_QUALITY_POST",
@@ -18,7 +34,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-6ebf84a27c2bda78",
+      "label": "Freshness"
     }
   },
-  "selected_count": 0
+  "selected_count": 1
 }

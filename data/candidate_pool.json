@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-14T02:58:47.880974+00:00",
+  "updated_at": "2026-10-14T08:16:22.397584+00:00",
   "candidates": [
     {
       "content_id": "cand-7eb148a85ee4a55b",
@@ -5317,7 +5317,7 @@
         "website_demo_possible": false,
         "visual_demo_possible": false
       },
-      "status": "POOLED",
+      "status": "EDITORIAL_REJECTED",
       "score": 54,
       "raw": {
         "source": "Google AI Blog",
@@ -5330,7 +5330,8 @@
         "impact_score": 2,
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 23
-      }
+      },
+      "rejected_at": "2026-10-14T08:16:22.397520+00:00"
     },
     {
       "content_id": "cand-805db7406e84af0d",
