@@ -1,69 +1,8 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "mode": "slotted",
   "quality_floor": 50,
-  "posts": [
-    {
-      "rank": 1,
-      "slot": "midmorning",
-      "content_id": "cand-90c464fd6629c470",
-      "topic": "Introducing Aardvark: OpenAI’s agentic security researcher",
-      "category": "PRODUCT_TOOL",
-      "score": 53,
-      "reason": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 53/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/introducing-aardvark",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-3bc9ee74f48a5430",
-      "topic": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-      "category": "LAST_24H",
-      "score": 58,
-      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 58/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "evening",
-      "content_id": "cand-d81bc6fa6f7b0682",
-      "topic": "Building an early warning system for LLM-aided biological threat creation",
-      "category": "INTERNET_HUMAN_TECH_BEHAVIOR",
-      "score": 54,
-      "reason": "INTERNET_HUMAN_TECH_BEHAVIOR — SURPRISING, PROVABLE (score 54/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 4,
-      "slot": "night",
-      "content_id": "cand-907419e0a1073baf",
-      "topic": "Surging developer productivity with custom GPTs",
-      "category": "DATA_RESEARCH",
-      "score": 56,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/paf",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    }
-  ],
+  "posts": [],
   "slots": {
     "morning": {
       "status": "NO_QUALITY_POST",
@@ -71,27 +10,7 @@
       "categories": [
         "EVERGREEN_VALUE"
       ]
-    },
-    "midmorning": {
-      "status": "SELECTED",
-      "content_id": "cand-90c464fd6629c470",
-      "label": "Curiosity + saves"
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-3bc9ee74f48a5430",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "SELECTED",
-      "content_id": "cand-d81bc6fa6f7b0682",
-      "label": "High-attention window"
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-907419e0a1073baf",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 4
+  "selected_count": 0
 }
