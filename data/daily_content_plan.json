@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-0670c408812d796d",
+      "topic": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+      "category": "LAST_24H",
+      "score": 67,
+      "reason": "LAST_24H — SURPRISING, USEFUL, NEW, PROVABLE (score 67/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -47,7 +62,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-0670c408812d796d",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }

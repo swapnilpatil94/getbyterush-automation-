@@ -2,26 +2,26 @@
   "date": "2026-10-14",
   "stories": [
     {
-      "source": "Google AI Blog",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "published": "Tue, 13 Oct 2026 16:00:00 +0000",
+      "source": "NVIDIA Blog",
+      "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+      "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+      "description": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make [&#8230;]",
+      "published": "Wed, 14 Oct 2026 06:00:28 +0000",
       "freshness_score": 10,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 23,
-      "content_id": "cand-6ebf84a27c2bda78",
+      "relevance_score": 17,
+      "impact_score": 5,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 32,
+      "content_id": "cand-0670c408812d796d",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "LAST_24H",
-        "quality_score": 51,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 51/100)",
-        "source": "Google AI Blog"
+        "quality_score": 67,
+        "why_selected": "LAST_24H — SURPRISING, USEFUL, NEW, PROVABLE (score 67/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
