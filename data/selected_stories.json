@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "stories": [
     {
       "source": "NVIDIA Blog",
-      "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
-      "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-      "description": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make [&#8230;]",
-      "published": "Wed, 14 Oct 2026 06:00:28 +0000",
-      "freshness_score": 10,
-      "relevance_score": 17,
-      "impact_score": 5,
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
+      "published": "Wed, 30 Sep 2026 15:00:00 +0000",
+      "freshness_score": 0,
+      "relevance_score": 20,
+      "impact_score": 6,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 32,
-      "content_id": "cand-0670c408812d796d",
+      "pre_filter_score": 26,
+      "content_id": "cand-f1a45e139651ea95",
       "selection_meta": {
-        "rank": 2,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "LAST_24H",
-        "quality_score": 67,
-        "why_selected": "LAST_24H — SURPRISING, USEFUL, NEW, PROVABLE (score 67/100)",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 60,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
         "source": "NVIDIA Blog"
       }
     }

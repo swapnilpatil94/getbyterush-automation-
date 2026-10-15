@@ -1,33 +1,18 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
-      "slot": "afternoon",
-      "content_id": "cand-6ebf84a27c2bda78",
-      "topic": "Gemini 4 Argon: Built to solve your hardest problems",
-      "category": "LAST_24H",
-      "score": 51,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 51/100)",
-      "source": "Google AI Blog",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-0670c408812d796d",
-      "topic": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
-      "category": "LAST_24H",
-      "score": 67,
-      "reason": "LAST_24H — SURPRISING, USEFUL, NEW, PROVABLE (score 67/100)",
+      "slot": "morning",
+      "content_id": "cand-f1a45e139651ea95",
+      "topic": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "category": "EVERGREEN_VALUE",
+      "score": 60,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
       "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+      "source_url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -36,38 +21,10 @@
   ],
   "slots": {
     "morning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Morning discovery",
-      "categories": [
-        "EVERGREEN_VALUE"
-      ]
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
       "status": "SELECTED",
-      "content_id": "cand-6ebf84a27c2bda78",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-0670c408812d796d",
-      "label": "Maximum push"
+      "content_id": "cand-f1a45e139651ea95",
+      "label": "Morning discovery"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }
