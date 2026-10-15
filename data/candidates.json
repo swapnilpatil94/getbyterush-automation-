@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-15T02:38:20.694325+00:00",
+  "generated_at": "2026-10-15T10:38:51.991700+00:00",
   "count": 80,
   "stories": [
     {
       "source": "NVIDIA Blog",
-      "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
-      "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-      "description": "Across industries, the U.K. is putting the full stack to work. The scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety and security [&#8230;]",
-      "published": "Wed, 14 Oct 2026 06:04:15 +0000",
-      "freshness_score": 8,
-      "relevance_score": 19,
-      "impact_score": 8,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 35
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "description": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#8230;]",
+      "published": "Thu, 15 Oct 2026 10:00:12 +0000",
+      "freshness_score": 10,
+      "relevance_score": 13,
+      "impact_score": 7,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 30
     },
     {
       "source": "NVIDIA Blog",
-      "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
-      "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-      "description": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make [&#8230;]",
-      "published": "Wed, 14 Oct 2026 06:00:28 +0000",
-      "freshness_score": 8,
-      "relevance_score": 17,
+      "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+      "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+      "description": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway [&#8230;]",
+      "published": "Thu, 15 Oct 2026 05:00:12 +0000",
+      "freshness_score": 10,
+      "relevance_score": 5,
       "impact_score": 5,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 30
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
     },
     {
       "source": "OpenAI News",
@@ -40,18 +40,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "url": "https://openai.com/index/third-moment-research",
-      "description": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "published": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 15,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 25
-    },
-    {
-      "source": "OpenAI News",
       "title": "SentinelOne cuts malware analysis from weeks to hours",
       "url": "https://openai.com/index/sentinelone",
       "description": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
@@ -63,28 +51,40 @@
       "pre_filter_score": 19
     },
     {
-      "source": "OpenAI News",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "url": "https://openai.com/index/block-ai-powered-security",
-      "description": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "published": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 17
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
+      "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+      "description": "Across industries, the U.K. is putting the full stack to work. The scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety and security [&#8230;]",
+      "published": "Wed, 14 Oct 2026 06:04:15 +0000",
+      "freshness_score": 6,
+      "relevance_score": 19,
+      "impact_score": 8,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 33
     },
     {
       "source": "NVIDIA Blog",
-      "title": "NVIDIA Announces New Investments in France’s Startups",
-      "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-      "description": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [&#8230;]",
-      "published": "Tue, 13 Oct 2026 05:00:31 +0000",
+      "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+      "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+      "description": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make [&#8230;]",
+      "published": "Wed, 14 Oct 2026 06:00:28 +0000",
       "freshness_score": 6,
       "relevance_score": 17,
-      "impact_score": 2,
+      "impact_score": 5,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 25
+      "pre_filter_score": 28
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "description": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "published": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 15,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 23
     },
     {
       "source": "Google AI Blog",
@@ -111,6 +111,18 @@
       "pre_filter_score": 17
     },
     {
+      "source": "OpenAI News",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "description": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "published": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
@@ -133,6 +145,18 @@
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Announces New Investments in France’s Startups",
+      "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+      "description": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [&#8230;]",
+      "published": "Tue, 13 Oct 2026 05:00:31 +0000",
+      "freshness_score": 5,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 24
     },
     {
       "source": "NVIDIA Blog",
@@ -932,30 +956,6 @@
       "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
       "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
       "published": "Tue, 06 Oct 2026 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "published": "Thu, 25 Jun 2026 02:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 17,
       "impact_score": 2,

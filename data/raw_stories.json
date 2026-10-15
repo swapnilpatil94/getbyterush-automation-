@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T02:38:20.498368+00:00",
+  "generated_at": "2026-10-15T10:38:51.735708+00:00",
   "count": 1331,
   "stories": [
     {
@@ -184,7 +184,7 @@
       "url": "https://openai.com/index/third-moment-research",
       "description": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "published": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -192,7 +192,7 @@
       "url": "https://openai.com/index/block-ai-powered-security",
       "description": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "published": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -10508,11 +10508,27 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "description": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#8230;]",
+      "published": "Thu, 15 Oct 2026 10:00:12 +0000",
+      "freshness_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+      "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+      "description": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway [&#8230;]",
+      "published": "Thu, 15 Oct 2026 05:00:12 +0000",
+      "freshness_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
       "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
       "description": "Across industries, the U.K. is putting the full stack to work. The scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety and security [&#8230;]",
       "published": "Wed, 14 Oct 2026 06:04:15 +0000",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "NVIDIA Blog",
@@ -10520,7 +10536,7 @@
       "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
       "description": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make [&#8230;]",
       "published": "Wed, 14 Oct 2026 06:00:28 +0000",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "NVIDIA Blog",
@@ -10536,7 +10552,7 @@
       "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
       "description": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [&#8230;]",
       "published": "Tue, 13 Oct 2026 05:00:31 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -10632,22 +10648,6 @@
       "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
       "description": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#8230;]",
       "published": "Wed, 30 Sep 2026 15:00:00 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
-      "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
-      "description": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google [&#8230;]",
-      "published": "Thu, 24 Sep 2026 14:00:50 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
-      "description": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month GeForce NOW Ultimate membership through Sunday, Sept. 27, and receive [&#8230;]",
-      "published": "Thu, 24 Sep 2026 13:00:36 +0000",
       "freshness_score": 0
     }
   ]
