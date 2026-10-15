@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:04:06.986273+00:00",
+  "generated_at": "2026-10-15T20:48:09.911135+00:00",
   "count": 1332,
   "stories": [
     {
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "description": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "published": "Thu, 15 Oct 2026 13:00:00 GMT",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "OpenAI News",
@@ -10516,6 +10516,14 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+      "description": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
+      "published": "Thu, 15 Oct 2026 17:00:23 +0000",
+      "freshness_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
       "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
       "description": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
@@ -10528,7 +10536,7 @@
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
       "description": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release, or let the bolts [&#8230;]",
       "published": "Thu, 15 Oct 2026 13:00:59 +0000",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "NVIDIA Blog",
@@ -10544,7 +10552,7 @@
       "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
       "description": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway [&#8230;]",
       "published": "Thu, 15 Oct 2026 05:00:12 +0000",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "NVIDIA Blog",
@@ -10591,7 +10599,7 @@
       "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
-      "published": "Thu, 08 Oct 2026 21:06:35 +0000",
+      "published": "Fri, 09 Oct 2026 16:00:35 +0000",
       "freshness_score": 0
     },
     {
@@ -10648,14 +10656,6 @@
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
       "description": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wild Hunt – Remastered joining the cloud, this GFN Thursday is [&#8230;]",
       "published": "Thu, 01 Oct 2026 13:00:54 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
-      "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
-      "description": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year [&#8230;]",
-      "published": "Thu, 01 Oct 2026 13:00:49 +0000",
       "freshness_score": 0
     }
   ]

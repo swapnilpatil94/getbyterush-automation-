@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-15T16:04:07.150471+00:00",
+  "generated_at": "2026-10-15T20:48:10.074030+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+      "description": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
+      "published": "Thu, 15 Oct 2026 17:00:23 +0000",
+      "freshness_score": 10,
+      "relevance_score": 14,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 27
+    },
     {
       "source": "NVIDIA Blog",
       "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
@@ -13,30 +25,6 @@
       "impact_score": 0,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 24
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
-      "description": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release, or let the bolts [&#8230;]",
-      "published": "Thu, 15 Oct 2026 13:00:59 +0000",
-      "freshness_score": 10,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Teaching students to think and learn through questions",
-      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "description": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "published": "Thu, 15 Oct 2026 13:00:00 GMT",
-      "freshness_score": 10,
-      "relevance_score": 3,
-      "impact_score": 2,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 15
     },
     {
       "source": "NVIDIA Blog",
@@ -52,15 +40,39 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+      "description": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release, or let the bolts [&#8230;]",
+      "published": "Thu, 15 Oct 2026 13:00:59 +0000",
+      "freshness_score": 9,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 16
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "description": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "published": "Thu, 15 Oct 2026 13:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 3,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 14
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
       "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
       "description": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway [&#8230;]",
       "published": "Thu, 15 Oct 2026 05:00:12 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 5,
       "impact_score": 5,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
+      "pre_filter_score": 18
     },
     {
       "source": "NVIDIA Blog",
@@ -944,18 +956,6 @@
       "url": "https://openai.com/index/genmab",
       "description": "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy",
       "published": "Thu, 19 Sep 2024 04:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Surging developer productivity with custom GPTs",
-      "url": "https://openai.com/index/paf",
-      "description": "Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Enterprise into the grit:lab coding academy (gritlab.ax), training the next generation of software developers using an AI-augmented, systems-architecture mindset from day one. In addition to the wide range of use cases for developers and grit:lab students, 70% of Paf employees actively use ChatGPT Enterprise, spanning business teams like finance, HR, marketing, and customer support.",
-      "published": "Tue, 18 Jun 2024 08:45:00 GMT",
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
