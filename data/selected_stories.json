@@ -2,26 +2,26 @@
   "date": "2026-10-15",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "published": "Wed, 14 Oct 2026 12:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 28,
-      "content_id": "cand-b2bc5c5490bc3f9c",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "description": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#8230;]",
+      "published": "Thu, 15 Oct 2026 10:00:12 +0000",
+      "freshness_score": 10,
+      "relevance_score": 13,
+      "impact_score": 7,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 30,
+      "content_id": "cand-9fa36f4688407250",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "LAST_24H",
-        "quality_score": 60,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
-        "source": "OpenAI News"
+        "quality_score": 63,
+        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 63/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
