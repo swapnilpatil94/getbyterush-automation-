@@ -2,26 +2,26 @@
   "date": "2026-10-16",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-      "description": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
-      "published": "Thu, 15 Oct 2026 17:00:23 +0000",
-      "freshness_score": 10,
-      "relevance_score": 14,
-      "impact_score": 3,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 27,
-      "content_id": "cand-aa8bc4773b54a43e",
+      "source": "OpenAI News",
+      "title": "Netomi’s lessons for scaling agentic systems into the enterprise",
+      "url": "https://openai.com/index/netomi",
+      "description": "How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows.",
+      "published": "Thu, 08 Jan 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 19,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 24,
+      "content_id": "cand-c97612ff192134e8",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 59,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 59/100)",
-        "source": "NVIDIA Blog"
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 63,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 63/100)",
+        "source": "OpenAI News"
       }
     }
   ]
