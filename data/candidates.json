@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T20:48:10.074030+00:00",
+  "generated_at": "2026-10-16T02:33:49.357772+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
       "description": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
       "published": "Thu, 15 Oct 2026 17:00:23 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 14,
       "impact_score": 3,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 27
+      "pre_filter_score": 26
     },
     {
       "source": "NVIDIA Blog",
@@ -20,11 +20,23 @@
       "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
       "description": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
       "published": "Thu, 15 Oct 2026 15:00:24 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 14,
       "impact_score": 0,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 24
+      "pre_filter_score": 23
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "published": "Thu, 15 Oct 2026 19:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 13
     },
     {
       "source": "NVIDIA Blog",
@@ -32,35 +44,11 @@
       "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
       "description": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#8230;]",
       "published": "Thu, 15 Oct 2026 10:00:12 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 13,
       "impact_score": 7,
       "story_type": "RESEARCH",
-      "pre_filter_score": 29
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
-      "description": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release, or let the bolts [&#8230;]",
-      "published": "Thu, 15 Oct 2026 13:00:59 +0000",
-      "freshness_score": 9,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Teaching students to think and learn through questions",
-      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "description": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "published": "Thu, 15 Oct 2026 13:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 3,
-      "impact_score": 2,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 14
+      "pre_filter_score": 28
     },
     {
       "source": "NVIDIA Blog",
@@ -73,6 +61,30 @@
       "impact_score": 5,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 18
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+      "description": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release, or let the bolts [&#8230;]",
+      "published": "Thu, 15 Oct 2026 13:00:59 +0000",
+      "freshness_score": 8,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "description": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "published": "Thu, 15 Oct 2026 13:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 3,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 13
     },
     {
       "source": "NVIDIA Blog",
@@ -136,18 +148,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "The EU’s next chapter in AI is agentic",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "description": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "published": "Wed, 14 Oct 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 9,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "OpenAI News",
       "title": "How Block is building AI-powered security with OpenAI technology",
       "url": "https://openai.com/index/block-ai-powered-security",
       "description": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
@@ -157,6 +157,18 @@
       "impact_score": 2,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "description": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 10
     },
     {
       "source": "NVIDIA Blog",
@@ -181,6 +193,18 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "The EU’s next chapter in AI is agentic",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "description": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "published": "Wed, 14 Oct 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 9,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 16
     },
     {
       "source": "NVIDIA Blog",
@@ -820,9 +844,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -832,9 +856,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -932,30 +956,6 @@
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
       "published": "Sun, 21 Jun 2026 23:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing EVMbench",
-      "url": "https://openai.com/index/introducing-evmbench",
-      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
-      "published": "Wed, 18 Feb 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Genmab launches “AI Everywhere”",
-      "url": "https://openai.com/index/genmab",
-      "description": "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy",
-      "published": "Thu, 19 Sep 2024 04:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
