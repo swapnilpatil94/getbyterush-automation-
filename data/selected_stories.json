@@ -1,27 +1,27 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
-      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
-      "description": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#8230;]",
-      "published": "Thu, 15 Oct 2026 10:00:12 +0000",
-      "freshness_score": 10,
-      "relevance_score": 13,
+      "source": "OpenAI News",
+      "title": "Choco automates food distribution with AI agents",
+      "url": "https://openai.com/index/choco",
+      "description": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
+      "published": "Mon, 27 Apr 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 18,
       "impact_score": 7,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 30,
-      "content_id": "cand-9fa36f4688407250",
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 25,
+      "content_id": "cand-d6510a3e2bd30886",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "LAST_24H",
-        "quality_score": 63,
-        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 63/100)",
-        "source": "NVIDIA Blog"
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 64,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 64/100)",
+        "source": "OpenAI News"
       }
     }
   ]
