@@ -1,30 +1,18 @@
 {
-  "generated_at": "2026-10-16T15:52:20.016211+00:00",
+  "generated_at": "2026-10-16T20:21:21.127873+00:00",
   "count": 80,
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-      "description": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
-      "published": "Thu, 15 Oct 2026 17:00:23 +0000",
-      "freshness_score": 8,
-      "relevance_score": 14,
-      "impact_score": 3,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 25
-    },
-    {
       "source": "OpenAI News",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "published": "Thu, 15 Oct 2026 19:00:00 GMT",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
       "freshness_score": 8,
-      "relevance_score": 4,
+      "relevance_score": 8,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
+      "pre_filter_score": 16
     },
     {
       "source": "NVIDIA Blog",
@@ -37,6 +25,18 @@
       "impact_score": 7,
       "story_type": "RESEARCH",
       "pre_filter_score": 26
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+      "description": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
+      "published": "Thu, 15 Oct 2026 17:00:23 +0000",
+      "freshness_score": 6,
+      "relevance_score": 14,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 23
     },
     {
       "source": "NVIDIA Blog",
@@ -73,6 +73,18 @@
       "impact_score": 2,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "published": "Thu, 15 Oct 2026 19:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 10
     },
     {
       "source": "OpenAI News",
@@ -133,18 +145,6 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 22
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "published": "Tue, 13 Oct 2026 16:00:00 +0000",
-      "freshness_score": 5,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
     },
     {
       "source": "OpenAI News",
@@ -495,6 +495,18 @@
       "pre_filter_score": 22
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
+      "published": "Fri, 09 Oct 2026 16:00:35 +0000",
+      "freshness_score": 0,
+      "relevance_score": 18,
+      "impact_score": 4,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 22
+    },
+    {
       "source": "OpenAI News",
       "title": "PRC-linked abuse: Surveillance and influence activity",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-prc-linked-abuse",
@@ -784,9 +796,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -796,9 +808,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -948,18 +960,6 @@
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]
