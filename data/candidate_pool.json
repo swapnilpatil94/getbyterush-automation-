@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-17T08:16:38.688401+00:00",
+  "updated_at": "2026-10-17T09:57:21.912442+00:00",
   "candidates": [
     {
       "content_id": "cand-fdda6f787c8ab6e8",
@@ -5148,7 +5148,93 @@
         "pre_filter_score": 25
       },
       "rejected_at": "2026-10-17T08:16:38.688336+00:00"
+    },
+    {
+      "content_id": "cand-25d7b047c047ae0f",
+      "topic": "Benefit Street Partners answers questions faster with Codex",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/benefit-street-partners",
+      "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "discovered_at": "2026-10-17T09:57:21.909061+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 6,
+      "share_score": 5,
+      "information_value": 3,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 32,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Benefit Street Partners answers questions faster with Codex",
+        "url": "https://openai.com/index/benefit-street-partners",
+        "description": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+        "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+        "freshness_score": 6,
+        "relevance_score": 4,
+        "impact_score": 3,
+        "story_type": "BUSINESS",
+        "pre_filter_score": 13
+      }
+    },
+    {
+      "content_id": "cand-7d75815ffa2ff79c",
+      "topic": "How agents are transforming work",
+      "title": "How agents are transforming work",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/how-agents-are-transforming-work",
+      "published_at": "Thu, 25 Jun 2026 02:00:00 GMT",
+      "discovered_at": "2026-10-17T09:57:21.912407+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 7,
+      "share_score": 4,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 57,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "How agents are transforming work",
+        "url": "https://openai.com/index/how-agents-are-transforming-work",
+        "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+        "published": "Thu, 25 Jun 2026 02:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 17,
+        "impact_score": 2,
+        "story_type": "AI_AGENTS",
+        "pre_filter_score": 19
+      }
     }
   ],
-  "count": 119
+  "count": 121
 }
