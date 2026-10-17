@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "afternoon",
+      "content_id": "cand-82e8f5cec141d6f5",
+      "topic": "How Itaú is building generative AI for its entire customer base",
+      "category": "LAST_24H",
+      "score": 56,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 56/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/itau-generative-ai",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -44,7 +59,12 @@
       "status": "SELECTED",
       "content_id": "cand-313cfafbcb3cef6b",
       "label": "Curiosity + saves"
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-82e8f5cec141d6f5",
+      "label": "Freshness"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
