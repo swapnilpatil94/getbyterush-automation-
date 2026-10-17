@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-16T20:21:21.127873+00:00",
+  "generated_at": "2026-10-17T02:26:30.731143+00:00",
   "count": 80,
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 16
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "description": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "published": "Fri, 16 Oct 2026 19:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 11,
+      "impact_score": 5,
+      "story_type": "BUSINESS",
+      "pre_filter_score": 25
     },
     {
       "source": "NVIDIA Blog",
@@ -63,6 +63,18 @@
       "pre_filter_score": 16
     },
     {
+      "source": "OpenAI News",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 14
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
@@ -84,18 +96,6 @@
       "relevance_score": 4,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 10
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "description": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
       "pre_filter_score": 10
     },
     {
@@ -160,18 +160,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "The EU’s next chapter in AI is agentic",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "description": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "published": "Wed, 14 Oct 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 9,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
       "title": "How Block is building AI-powered security with OpenAI technology",
       "url": "https://openai.com/index/block-ai-powered-security",
       "description": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
@@ -181,6 +169,18 @@
       "impact_score": 2,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "description": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 9
     },
     {
       "source": "OpenAI News",
