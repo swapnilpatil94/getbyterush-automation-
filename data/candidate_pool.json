@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-17T09:57:21.912442+00:00",
+  "updated_at": "2026-10-17T14:45:27.560298+00:00",
   "candidates": [
     {
       "content_id": "cand-fdda6f787c8ab6e8",
@@ -5234,7 +5234,93 @@
         "story_type": "AI_AGENTS",
         "pre_filter_score": 19
       }
+    },
+    {
+      "content_id": "cand-b4afdcf9074d1519",
+      "topic": "How Endava is redesigning software delivery around AI agents",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/endava-frontiers",
+      "published_at": "Thu, 04 Jun 2026 12:00:00 GMT",
+      "discovered_at": "2026-10-17T14:45:27.558259+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 7,
+      "share_score": 4,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 59,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "How Endava is redesigning software delivery around AI agents",
+        "url": "https://openai.com/index/endava-frontiers",
+        "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+        "published": "Thu, 04 Jun 2026 12:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 17,
+        "impact_score": 2,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 19
+      }
+    },
+    {
+      "content_id": "cand-5dacc08d4e4bf70f",
+      "topic": "Inside Mirakl's agentic commerce vision",
+      "title": "Inside Mirakl's agentic commerce vision",
+      "summary": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/mirakl",
+      "published_at": "Mon, 01 Dec 2025 22:00:00 GMT",
+      "discovered_at": "2026-10-17T14:45:27.560271+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 7,
+      "share_score": 4,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 59,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Inside Mirakl's agentic commerce vision",
+        "url": "https://openai.com/index/mirakl",
+        "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+        "published": "Mon, 01 Dec 2025 22:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 17,
+        "impact_score": 2,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 19
+      }
     }
   ],
-  "count": 121
+  "count": 123
 }

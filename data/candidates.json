@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T09:57:21.468228+00:00",
+  "generated_at": "2026-10-17T14:45:27.473633+00:00",
   "count": 80,
   "stories": [
     {
@@ -13,18 +13,6 @@
       "impact_score": 5,
       "story_type": "BUSINESS",
       "pre_filter_score": 24
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
-      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
-      "description": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#8230;]",
-      "published": "Thu, 15 Oct 2026 10:00:12 +0000",
-      "freshness_score": 6,
-      "relevance_score": 13,
-      "impact_score": 7,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 26
     },
     {
       "source": "NVIDIA Blog",
@@ -75,18 +63,6 @@
       "pre_filter_score": 13
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
-      "description": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release, or let the bolts [&#8230;]",
-      "published": "Thu, 15 Oct 2026 13:00:59 +0000",
-      "freshness_score": 6,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 13
-    },
-    {
       "source": "OpenAI News",
       "title": "Bringing GPT-Rosalind to academic research labs",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
@@ -99,28 +75,16 @@
       "pre_filter_score": 10
     },
     {
-      "source": "OpenAI News",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "published": "Wed, 14 Oct 2026 12:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "description": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#8230;]",
+      "published": "Thu, 15 Oct 2026 10:00:12 +0000",
       "freshness_score": 5,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 24
-    },
-    {
-      "source": "OpenAI News",
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "url": "https://openai.com/index/sentinelone",
-      "description": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "published": "Wed, 14 Oct 2026 12:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 3,
-      "story_type": "SECURITY",
-      "pre_filter_score": 16
+      "relevance_score": 13,
+      "impact_score": 7,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 25
     },
     {
       "source": "NVIDIA Blog",
@@ -133,6 +97,18 @@
       "impact_score": 5,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 15
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+      "description": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release, or let the bolts [&#8230;]",
+      "published": "Thu, 15 Oct 2026 13:00:59 +0000",
+      "freshness_score": 5,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -960,6 +936,30 @@
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "url": "https://openai.com/index/endava-frontiers",
+      "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "published": "Thu, 04 Jun 2026 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Inside Mirakl's agentic commerce vision",
+      "url": "https://openai.com/index/mirakl",
+      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+      "published": "Mon, 01 Dec 2025 22:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]
