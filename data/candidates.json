@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-17T19:55:34.336663+00:00",
+  "generated_at": "2026-10-18T02:26:27.831306+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "description": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with [&#8230;]",
+      "published": "Sat, 17 Oct 2026 21:00:13 +0000",
+      "freshness_score": 10,
+      "relevance_score": 8,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 21
+    },
     {
       "source": "OpenAI News",
       "title": "How Itaú is building generative AI for its entire customer base",
@@ -13,30 +25,6 @@
       "impact_score": 5,
       "story_type": "BUSINESS",
       "pre_filter_score": 22
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "description": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 4,
-      "impact_score": 3,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 13
     },
     {
       "source": "NVIDIA Blog",
@@ -87,6 +75,30 @@
       "pre_filter_score": 15
     },
     {
+      "source": "OpenAI News",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "description": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 4,
+      "impact_score": 3,
+      "story_type": "BUSINESS",
+      "pre_filter_score": 12
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
@@ -108,18 +120,6 @@
       "relevance_score": 4,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 9
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "description": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
       "pre_filter_score": 9
     },
     {

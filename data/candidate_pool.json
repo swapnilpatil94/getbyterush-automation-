@@ -1,51 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T01:46:08.438214+00:00",
+  "updated_at": "2026-10-18T02:26:27.915327+00:00",
   "candidates": [
-    {
-      "content_id": "cand-fdda6f787c8ab6e8",
-      "topic": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
-      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
-      "summary": "The next wave of AI is placing new demands on infrastructure. As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory, storage, networking and software are designed together as a unified system. To help hyperscalers and AI innovators build the next generation [&#8230;]",
-      "content_type": "EVERGREEN_VALUE",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
-      "published_at": "Wed, 26 Aug 2026 21:05:30 +0000",
-      "discovered_at": "2026-09-03T02:23:33.364023+00:00",
-      "evidence_available": true,
-      "evergreen": true,
-      "timeliness": 3,
-      "novelty": 0,
-      "visual_potential": 3,
-      "curiosity_score": 8,
-      "save_score": 7,
-      "share_score": 7,
-      "information_value": 15,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "SELECTED",
-      "score": 66,
-      "raw": {
-        "source": "NVIDIA Blog",
-        "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
-        "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
-        "description": "The next wave of AI is placing new demands on infrastructure. As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory, storage, networking and software are designed together as a unified system. To help hyperscalers and AI innovators build the next generation [&#8230;]",
-        "published": "Wed, 26 Aug 2026 21:05:30 +0000",
-        "freshness_score": 0,
-        "relevance_score": 20,
-        "impact_score": 7,
-        "story_type": "AI_AGENTS",
-        "pre_filter_score": 27
-      },
-      "selected_at": "2026-09-04T14:47:31.234886+00:00"
-    },
     {
       "content_id": "cand-6dd86bfc62cf8118",
       "topic": "Safety overview: GPT-6 Astra",
@@ -5320,6 +5276,49 @@
         "impact_score": 2,
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 19
+      }
+    },
+    {
+      "content_id": "cand-01ba3797669e9655",
+      "topic": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with [&#8230;]",
+      "content_type": "LAST_24H",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "published_at": "Sat, 17 Oct 2026 21:00:13 +0000",
+      "discovered_at": "2026-10-18T02:26:27.914988+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 6,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 3,
+      "information_value": 8,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": true
+      },
+      "status": "POOLED",
+      "score": 48,
+      "raw": {
+        "source": "NVIDIA Blog",
+        "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+        "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+        "description": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with [&#8230;]",
+        "published": "Sat, 17 Oct 2026 21:00:13 +0000",
+        "freshness_score": 10,
+        "relevance_score": 8,
+        "impact_score": 3,
+        "story_type": "PRODUCT_UPDATE",
+        "pre_filter_score": 21
       }
     }
   ],
