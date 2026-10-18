@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T02:26:27.831306+00:00",
+  "generated_at": "2026-10-18T10:10:31.468968+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
       "description": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with [&#8230;]",
       "published": "Sat, 17 Oct 2026 21:00:13 +0000",
-      "freshness_score": 10,
+      "freshness_score": 8,
       "relevance_score": 8,
       "impact_score": 3,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 21
+      "pre_filter_score": 19
     },
     {
       "source": "OpenAI News",
@@ -25,18 +25,6 @@
       "impact_score": 5,
       "story_type": "BUSINESS",
       "pre_filter_score": 22
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
-      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
-      "description": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#8230;]",
-      "published": "Thu, 15 Oct 2026 10:00:12 +0000",
-      "freshness_score": 5,
-      "relevance_score": 13,
-      "impact_score": 7,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 25
     },
     {
       "source": "NVIDIA Blog",
@@ -61,18 +49,6 @@
       "impact_score": 0,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 19
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
-      "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
-      "description": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway [&#8230;]",
-      "published": "Thu, 15 Oct 2026 05:00:12 +0000",
-      "freshness_score": 5,
-      "relevance_score": 5,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -961,6 +937,30 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "description": "At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you [&#8230;]",
+      "published": "Wed, 07 Oct 2026 18:45:28 +0000",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
     }
   ]
 }
