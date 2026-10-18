@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-fe3e604578612cb9",
+      "topic": "Designing AI agents to resist prompt injection",
+      "category": "EVERGREEN_VALUE",
+      "score": 62,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -60,7 +75,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-fe3e604578612cb9",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
