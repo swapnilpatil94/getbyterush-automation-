@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "description": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "published": "Fri, 16 Oct 2026 19:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 11,
-      "impact_score": 5,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 25,
-      "content_id": "cand-82e8f5cec141d6f5",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "description": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "published": "Wed, 12 Aug 2026 06:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 18,
+      "impact_score": 4,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 22,
+      "content_id": "cand-e4ba58f9de407cd3",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 56,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 56/100)",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 62,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
         "source": "OpenAI News"
       }
     }
