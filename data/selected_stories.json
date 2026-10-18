@@ -2,26 +2,26 @@
   "date": "2026-10-18",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "description": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "published": "Wed, 12 Aug 2026 06:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 18,
-      "impact_score": 4,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 22,
-      "content_id": "cand-e4ba58f9de407cd3",
+      "source": "NVIDIA Blog",
+      "title": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+      "description": "Across industries, the U.K. is putting the full stack to work — and the scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety [&#8230;]",
+      "published": "Wed, 14 Oct 2026 06:04:15 +0000",
+      "freshness_score": 10,
+      "relevance_score": 15,
+      "impact_score": 8,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 33,
+      "content_id": "cand-b1ba67302d19545e",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 62,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 62/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 54,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 54/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
