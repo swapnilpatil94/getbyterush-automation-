@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T14:46:10.411707+00:00",
+  "updated_at": "2026-10-18T15:10:28.044428+00:00",
   "candidates": [
     {
       "content_id": "cand-6dd86bfc62cf8118",
@@ -5322,7 +5322,93 @@
         "story_type": "PRODUCT_UPDATE",
         "pre_filter_score": 21
       }
+    },
+    {
+      "content_id": "cand-6b7f73368191763d",
+      "topic": "Predicting model behavior before release by simulating deployment",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/deployment-simulation",
+      "published_at": "Tue, 16 Jun 2026 00:00:00 GMT",
+      "discovered_at": "2026-10-18T15:10:28.037592+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 7,
+      "share_score": 7,
+      "information_value": 10,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 47,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Predicting model behavior before release by simulating deployment",
+        "url": "https://openai.com/index/deployment-simulation",
+        "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+        "published": "Tue, 16 Jun 2026 00:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 12,
+        "impact_score": 6,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 18
+      }
+    },
+    {
+      "content_id": "cand-85cb7307f6200da7",
+      "topic": "OpenAI announces Frontier Alliance Partners",
+      "title": "OpenAI announces Frontier Alliance Partners",
+      "summary": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/frontier-alliance-partners",
+      "published_at": "Mon, 23 Feb 2026 05:30:00 GMT",
+      "discovered_at": "2026-10-18T15:10:28.044367+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 7,
+      "share_score": 7,
+      "information_value": 10,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 47,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "OpenAI announces Frontier Alliance Partners",
+        "url": "https://openai.com/index/frontier-alliance-partners",
+        "description": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+        "published": "Mon, 23 Feb 2026 05:30:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 12,
+        "impact_score": 6,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 18
+      }
     }
   ],
-  "count": 123
+  "count": 125
 }
