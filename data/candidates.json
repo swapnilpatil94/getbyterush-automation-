@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:10:27.502942+00:00",
+  "generated_at": "2026-10-18T19:55:21.844764+00:00",
   "count": 80,
   "stories": [
     {
@@ -20,23 +20,11 @@
       "url": "https://openai.com/index/itau-generative-ai",
       "description": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "published": "Fri, 16 Oct 2026 19:00:00 GMT",
-      "freshness_score": 6,
+      "freshness_score": 5,
       "relevance_score": 11,
       "impact_score": 5,
       "story_type": "BUSINESS",
-      "pre_filter_score": 22
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-      "description": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
-      "published": "Thu, 15 Oct 2026 17:00:23 +0000",
-      "freshness_score": 5,
-      "relevance_score": 14,
-      "impact_score": 3,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 22
+      "pre_filter_score": 21
     },
     {
       "source": "OpenAI News",
@@ -61,18 +49,6 @@
       "impact_score": 3,
       "story_type": "BUSINESS",
       "pre_filter_score": 12
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "published": "Thu, 15 Oct 2026 19:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 9
     },
     {
       "source": "NVIDIA Blog",
@@ -960,6 +936,30 @@
       "relevance_score": 12,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bringing ChatGPT to GenAI.mil",
+      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "description": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+      "published": "Mon, 09 Feb 2026 11:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+      "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+      "description": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
+      "published": "Thu, 05 Feb 2026 11:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     }
   ]

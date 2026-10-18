@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T15:10:28.044428+00:00",
+  "updated_at": "2026-10-18T19:55:21.933280+00:00",
   "candidates": [
     {
       "content_id": "cand-6dd86bfc62cf8118",
@@ -5408,7 +5408,93 @@
         "story_type": "TECH_NEWS",
         "pre_filter_score": 18
       }
+    },
+    {
+      "content_id": "cand-e630f6e8206ac127",
+      "topic": "Bringing ChatGPT to GenAI.mil",
+      "title": "Bringing ChatGPT to GenAI.mil",
+      "summary": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "published_at": "Mon, 09 Feb 2026 11:00:00 GMT",
+      "discovered_at": "2026-10-18T19:55:21.930736+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 7,
+      "share_score": 7,
+      "information_value": 10,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 47,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Bringing ChatGPT to GenAI.mil",
+        "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+        "description": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+        "published": "Mon, 09 Feb 2026 11:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 12,
+        "impact_score": 6,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 18
+      }
+    },
+    {
+      "content_id": "cand-c252bad8434e8012",
+      "topic": "GPT-5 lowers the cost of cell-free protein synthesis",
+      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+      "summary": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+      "published_at": "Thu, 05 Feb 2026 11:00:00 GMT",
+      "discovered_at": "2026-10-18T19:55:21.933234+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 6,
+      "curiosity_score": 0,
+      "save_score": 7,
+      "share_score": 5,
+      "information_value": 11,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": true
+      },
+      "status": "POOLED",
+      "score": 49,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+        "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+        "description": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
+        "published": "Thu, 05 Feb 2026 11:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 12,
+        "impact_score": 6,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 18
+      }
     }
   ],
-  "count": 125
+  "count": 127
 }
