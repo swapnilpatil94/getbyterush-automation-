@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T19:55:21.933280+00:00",
+  "updated_at": "2026-10-19T01:46:00.474997+00:00",
   "candidates": [
     {
       "content_id": "cand-6dd86bfc62cf8118",
@@ -2677,7 +2677,7 @@
         "website_demo_possible": false,
         "visual_demo_possible": true
       },
-      "status": "POOLED",
+      "status": "EDITORIAL_REJECTED",
       "score": 61,
       "raw": {
         "source": "OpenAI News",
@@ -2690,7 +2690,8 @@
         "impact_score": 9,
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 27
-      }
+      },
+      "rejected_at": "2026-10-19T01:46:00.474941+00:00"
     },
     {
       "content_id": "cand-94bd0c116c54a244",
