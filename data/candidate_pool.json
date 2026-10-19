@@ -1,50 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T01:46:00.474997+00:00",
+  "updated_at": "2026-10-19T02:40:34.326214+00:00",
   "candidates": [
-    {
-      "content_id": "cand-6dd86bfc62cf8118",
-      "topic": "Safety overview: GPT-6 Astra",
-      "title": "Safety overview: GPT-6 Astra",
-      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "content_type": "EVERGREEN_VALUE",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "published_at": "Thu, 03 Sep 2026 00:00:00 GMT",
-      "discovered_at": "2026-09-04T02:18:31.678683+00:00",
-      "evidence_available": true,
-      "evergreen": true,
-      "timeliness": 3,
-      "novelty": 4,
-      "visual_potential": 3,
-      "curiosity_score": 0,
-      "save_score": 7,
-      "share_score": 5,
-      "information_value": 9,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 49,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Safety overview: GPT-6 Astra",
-        "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-        "description": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-        "published": "Thu, 03 Sep 2026 00:00:00 GMT",
-        "freshness_score": 6,
-        "relevance_score": 10,
-        "impact_score": 3,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 19
-      }
-    },
     {
       "content_id": "cand-56e5ee662bb2736f",
       "topic": "GPT-6 Astra: A new generation of intelligence",
@@ -5495,7 +5452,93 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 18
       }
+    },
+    {
+      "content_id": "cand-b79ce8506363d49f",
+      "topic": "Cyber threat actors: AI-assisted intrusion research",
+      "title": "Cyber threat actors: AI-assisted intrusion research",
+      "summary": "OpenAI banned accounts potentially associated with publicly reported DPRK-affiliated threat actors using AI to research intrusion tooling, phishing, malware, and cryptocurrency targeting.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors",
+      "published_at": "Sat, 01 Feb 2025 00:00:00 GMT",
+      "discovered_at": "2026-10-19T02:40:34.322619+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 7,
+      "share_score": 7,
+      "information_value": 10,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 47,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Cyber threat actors: AI-assisted intrusion research",
+        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors",
+        "description": "OpenAI banned accounts potentially associated with publicly reported DPRK-affiliated threat actors using AI to research intrusion tooling, phishing, malware, and cryptocurrency targeting.",
+        "published": "Sat, 01 Feb 2025 00:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 12,
+        "impact_score": 6,
+        "story_type": "SECURITY",
+        "pre_filter_score": 18
+      }
+    },
+    {
+      "content_id": "cand-75df2f64eb385bfb",
+      "topic": "Hoax: Fake Russian “troll” error message",
+      "title": "Hoax: Fake Russian “troll” error message",
+      "summary": "OpenAI banned an account that likely originated in the US and used AI to create a fake ChatGPT error message claiming to detect “Russian troll” activity.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll",
+      "published_at": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "discovered_at": "2026-10-19T02:40:34.326180+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 7,
+      "share_score": 7,
+      "information_value": 10,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 47,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Hoax: Fake Russian “troll” error message",
+        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll",
+        "description": "OpenAI banned an account that likely originated in the US and used AI to create a fake ChatGPT error message claiming to detect “Russian troll” activity.",
+        "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 12,
+        "impact_score": 6,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 18
+      }
     }
   ],
-  "count": 127
+  "count": 128
 }
