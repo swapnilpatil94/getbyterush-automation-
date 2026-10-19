@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-19T11:44:12.011251+00:00",
+  "generated_at": "2026-10-19T18:05:15.091208+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+      "description": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration [&#8230;]",
+      "published": "Mon, 19 Oct 2026 15:00:31 +0000",
+      "freshness_score": 10,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 29
+    },
     {
       "source": "NVIDIA Blog",
       "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
@@ -312,18 +324,6 @@
       "relevance_score": 17,
       "impact_score": 5,
       "story_type": "RESEARCH",
-      "pre_filter_score": 22
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
-      "published": "Thu, 01 Oct 2026 23:44:13 +0000",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 22
     },
     {

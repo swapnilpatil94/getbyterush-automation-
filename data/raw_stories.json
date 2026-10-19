@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:44:11.755992+00:00",
+  "generated_at": "2026-10-19T18:05:14.815749+00:00",
   "count": 1337,
   "stories": [
     {
@@ -10556,6 +10556,14 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+      "description": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration [&#8230;]",
+      "published": "Mon, 19 Oct 2026 15:00:31 +0000",
+      "freshness_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
       "description": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with [&#8230;]",
@@ -10688,14 +10696,6 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
       "description": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
       "published": "Fri, 02 Oct 2026 13:00:39 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
-      "published": "Thu, 01 Oct 2026 23:44:13 +0000",
       "freshness_score": 0
     }
   ]
