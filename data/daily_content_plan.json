@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-e83897b8be32c578",
+      "topic": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "category": "LAST_24H",
+      "score": 50,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 50/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/third-moment-research",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -32,7 +47,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-e83897b8be32c578",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
