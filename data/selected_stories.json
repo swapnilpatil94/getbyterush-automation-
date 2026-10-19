@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "url": "https://openai.com/index/third-moment-research",
-      "description": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "published": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 15,
-      "impact_score": 2,
+      "title": "Measuring AI’s capability to accelerate biological research",
+      "url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
+      "description": "OpenAI introduces a real-world evaluation framework to measure how AI can accelerate biological research in the wet lab. Using GPT-5 to optimize a molecular cloning protocol, the work explores both the promise and risks of AI-assisted experimentation.",
+      "published": "Tue, 16 Dec 2025 08:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 10,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 26,
-      "content_id": "cand-e83897b8be32c578",
+      "content_id": "cand-b224ef45c46ec6aa",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 50,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 50/100)",
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 61,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
         "source": "OpenAI News"
       }
     }
