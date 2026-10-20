@@ -1,48 +1,18 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-b65d7c7c6af7de67",
-      "topic": "New funding to build towards AGI",
+      "content_id": "cand-513d0c00b23eb09e",
+      "topic": "How Balyasny Asset Management built an AI research engine",
       "category": "EVERGREEN_VALUE",
       "score": 61,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/march-funding-updates",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-e83897b8be32c578",
-      "topic": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "category": "LAST_24H",
-      "score": 50,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 50/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/third-moment-research",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-b224ef45c46ec6aa",
-      "topic": "Measuring AI’s capability to accelerate biological research",
-      "category": "EVERGREEN_VALUE",
-      "score": 61,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
+      "source_url": "https://openai.com/index/balyasny-asset-management",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-b65d7c7c6af7de67",
+      "content_id": "cand-513d0c00b23eb09e",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-e83897b8be32c578",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-b224ef45c46ec6aa",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
