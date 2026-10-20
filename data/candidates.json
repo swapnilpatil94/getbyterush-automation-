@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:45:01.519857+00:00",
+  "generated_at": "2026-10-20T16:07:39.175991+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,35 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
       "description": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some [&#8230;]",
       "published": "Tue, 20 Oct 2026 05:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 10,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Advancing coding in low‑resource programming languages",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "description": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "published": "Mon, 19 Oct 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 15,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 28
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-      "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
-      "description": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration [&#8230;]",
-      "published": "Mon, 19 Oct 2026 15:00:31 +0000",
-      "freshness_score": 8,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 27
+      "pre_filter_score": 19
     },
     {
       "source": "NVIDIA Blog",
@@ -49,6 +25,30 @@
       "impact_score": 2,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Advancing coding in low‑resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "description": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "published": "Mon, 19 Oct 2026 12:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 15,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 26
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+      "description": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration [&#8230;]",
+      "published": "Mon, 19 Oct 2026 15:00:31 +0000",
+      "freshness_score": 6,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 25
     },
     {
       "source": "NVIDIA Blog",
