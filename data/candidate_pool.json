@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T16:23:32.395944+00:00",
+  "updated_at": "2026-10-21T21:05:07.389561+00:00",
   "candidates": [
     {
       "content_id": "cand-b0d804bf5dc9cfee",
@@ -6014,7 +6014,93 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 20
       }
+    },
+    {
+      "content_id": "cand-9dfede44391f4c25",
+      "topic": "How AT&T is rethinking in-house legal work with OpenAI",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/att-legal",
+      "published_at": "Wed, 21 Oct 2026 17:00:00 GMT",
+      "discovered_at": "2026-10-21T21:05:07.379592+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 4,
+      "share_score": 4,
+      "information_value": 4,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 41,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "How AT&T is rethinking in-house legal work with OpenAI",
+        "url": "https://openai.com/index/att-legal",
+        "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+        "published": "Wed, 21 Oct 2026 17:00:00 GMT",
+        "freshness_score": 10,
+        "relevance_score": 5,
+        "impact_score": 2,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 17
+      }
+    },
+    {
+      "content_id": "cand-e82a122d95b606f2",
+      "topic": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/empowering-cyber-defenders",
+      "published_at": "Wed, 21 Oct 2026 00:00:00 GMT",
+      "discovered_at": "2026-10-21T21:05:07.388621+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 3,
+      "information_value": 8,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 42,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+        "url": "https://openai.com/index/empowering-cyber-defenders",
+        "description": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+        "published": "Wed, 21 Oct 2026 00:00:00 GMT",
+        "freshness_score": 8,
+        "relevance_score": 8,
+        "impact_score": 0,
+        "story_type": "SECURITY",
+        "pre_filter_score": 16
+      }
     }
   ],
-  "count": 139
+  "count": 141
 }

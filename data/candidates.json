@@ -1,18 +1,30 @@
 {
-  "generated_at": "2026-10-21T16:23:32.264087+00:00",
+  "generated_at": "2026-10-21T21:05:07.262210+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "published": "Wed, 21 Oct 2026 17:00:00 GMT",
+      "freshness_score": 10,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 17
+    },
     {
       "source": "NVIDIA Blog",
       "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
       "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
       "description": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe, the Nordics, Africa, and Central Asia are expanding regional compute capacity for [&#8230;]",
       "published": "Wed, 21 Oct 2026 10:30:41 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 16,
       "impact_score": 2,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 28
+      "pre_filter_score": 27
     },
     {
       "source": "NVIDIA Blog",
@@ -20,106 +32,10 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
       "description": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier workloads on Linux, with a Windows version arriving in December. Announcements include: [&#8230;]",
       "published": "Wed, 21 Oct 2026 10:50:37 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 15,
       "impact_score": 2,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 27
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "published": "Wed, 21 Oct 2026 12:00:00 GMT",
-      "freshness_score": 10,
-      "relevance_score": 14,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 24
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
-      "description": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling technology for demanding [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:45:17 +0000",
-      "freshness_score": 10,
-      "relevance_score": 14,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 24
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-      "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
-      "description": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict how designs will perform before they’re built. As designs become more complex, simulations [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:25 +0000",
-      "freshness_score": 10,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 23
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
-      "description": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. Bringing those capabilities together on the factory floor, the NVIDIA Factory Operations Blueprint (FOX) is now available in [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:40 +0000",
-      "freshness_score": 10,
-      "relevance_score": 10,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
-      "description": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infrastructure layer that protects the models and data those agents depend on while running. Today, NVIDIA [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:02 +0000",
-      "freshness_score": 10,
-      "relevance_score": 10,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "description": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "published": "Wed, 21 Oct 2026 13:00:00 GMT",
-      "freshness_score": 10,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "published": "Wed, 21 Oct 2026 04:50:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 16,
-      "impact_score": 4,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 29
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "description": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "published": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 14,
-      "impact_score": 3,
-      "story_type": "RESEARCH",
       "pre_filter_score": 26
     },
     {
@@ -160,15 +76,123 @@
     },
     {
       "source": "OpenAI News",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "published": "Wed, 21 Oct 2026 12:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 14,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 23
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+      "description": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling technology for demanding [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:45:17 +0000",
+      "freshness_score": 9,
+      "relevance_score": 14,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 23
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+      "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+      "description": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict how designs will perform before they’re built. As designs become more complex, simulations [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:30:25 +0000",
+      "freshness_score": 9,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 22
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
+      "description": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. Bringing those capabilities together on the factory floor, the NVIDIA Factory Operations Blueprint (FOX) is now available in [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:30:40 +0000",
+      "freshness_score": 9,
+      "relevance_score": 10,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+      "description": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infrastructure layer that protects the models and data those agents depend on while running. Today, NVIDIA [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:30:02 +0000",
+      "freshness_score": 9,
+      "relevance_score": 10,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "description": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "published": "Wed, 21 Oct 2026 13:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "published": "Wed, 21 Oct 2026 04:50:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 16,
+      "impact_score": 4,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 28
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "description": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "published": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 14,
+      "impact_score": 3,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 25
+    },
+    {
+      "source": "OpenAI News",
       "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
       "description": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "published": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 9,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "description": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "published": "Wed, 21 Oct 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "SECURITY",
+      "pre_filter_score": 16
     },
     {
       "source": "Google AI Blog",
@@ -231,18 +255,6 @@
       "pre_filter_score": 13
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-      "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-      "description": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial applications of AI. Huang opened by tracing NVIDIA’s longstanding relationship with German industry, beginning with gaming systems, workstations and automotive [&#8230;]",
-      "published": "Mon, 19 Oct 2026 19:27:08 +0000",
-      "freshness_score": 6,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 13
-    },
-    {
       "source": "OpenAI News",
       "title": "OpenAI acquires Orchestra Bio",
       "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
@@ -277,6 +289,18 @@
       "impact_score": 3,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 24
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
+      "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+      "description": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial applications of AI. Huang opened by tracing NVIDIA’s longstanding relationship with German industry, beginning with gaming systems, workstations and automotive [&#8230;]",
+      "published": "Mon, 19 Oct 2026 19:27:08 +0000",
+      "freshness_score": 5,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -936,30 +960,6 @@
       "relevance_score": 12,
       "impact_score": 7,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "published": "Mon, 20 Jul 2026 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 7,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Deep double descent",
-      "url": "https://openai.com/index/deep-double-descent",
-      "description": "We show that the double descent phenomenon occurs in CNNs, ResNets, and transformers: performance first improves, then gets worse, and then improves again with increasing model size, data size, or training time. This effect is often avoided through careful regularization. While this behavior appears to be fairly universal, we don’t yet fully understand why it happens, and view further study of this phenomenon as an important research direction.",
-      "published": "Thu, 05 Dec 2019 08:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 7,
-      "story_type": "RESEARCH",
       "pre_filter_score": 19
     }
   ]
