@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "NVIDIA Blog",
-      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-      "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
-      "description": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration [&#8230;]",
-      "published": "Mon, 19 Oct 2026 15:00:31 +0000",
+      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+      "description": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier workloads on Linux, with a Windows version arriving in December. Announcements include: [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:50:37 +0000",
       "freshness_score": 10,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 29,
-      "content_id": "cand-f0108e8cf69d7b06",
+      "relevance_score": 15,
+      "impact_score": 2,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 27,
+      "content_id": "cand-3d66b87c25d8255b",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "LAST_24H",
-        "quality_score": 55,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
+        "quality_score": 62,
+        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 62/100)",
         "source": "NVIDIA Blog"
       }
     }
