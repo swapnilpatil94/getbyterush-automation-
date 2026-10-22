@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Why language models hallucinate",
-      "url": "https://openai.com/index/why-language-models-hallucinate",
-      "description": "OpenAI’s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI reliability, honesty, and safety.",
-      "published": "Fri, 05 Sep 2025 10:00:00 GMT",
-      "freshness_score": 0,
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "published": "Wed, 21 Oct 2026 04:50:00 GMT",
+      "freshness_score": 9,
       "relevance_score": 16,
-      "impact_score": 7,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 23,
-      "content_id": "cand-12b3952eefef8738",
+      "impact_score": 4,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 29,
+      "content_id": "cand-76b3f4af43fd772a",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
         "quality_score": 60,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
         "source": "OpenAI News"
       }
     }

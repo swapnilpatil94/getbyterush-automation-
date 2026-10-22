@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-76b3f4af43fd772a",
+      "topic": "Using thousands of AI agents to uncover new leads in biological data",
+      "category": "LAST_24H",
+      "score": 60,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -32,7 +47,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-76b3f4af43fd772a",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
