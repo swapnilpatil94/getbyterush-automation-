@@ -1,48 +1,18 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-5e81d7e3cec1c911",
-      "topic": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "content_id": "cand-12b3952eefef8738",
+      "topic": "Why language models hallucinate",
       "category": "EVERGREEN_VALUE",
       "score": 60,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-f0108e8cf69d7b06",
-      "topic": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-      "category": "LAST_24H",
-      "score": 55,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-3d66b87c25d8255b",
-      "topic": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-      "category": "LAST_24H",
-      "score": 62,
-      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 62/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+      "source_url": "https://openai.com/index/why-language-models-hallucinate",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-5e81d7e3cec1c911",
+      "content_id": "cand-12b3952eefef8738",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-f0108e8cf69d7b06",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-3d66b87c25d8255b",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
