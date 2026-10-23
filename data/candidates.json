@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-22T21:03:05.914966+00:00",
+  "generated_at": "2026-10-23T02:49:07.015869+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "Kazakhstan Expands Compute for Its AI Future",
+      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+      "description": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below point to the nation’s increasing supply of accelerated computing — along with its growing demand for what comes next. Read All NVIDIA in Europe [&#8230;]",
+      "published": "Fri, 23 Oct 2026 02:00:13 +0000",
+      "freshness_score": 10,
+      "relevance_score": 12,
+      "impact_score": 3,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 25
+    },
     {
       "source": "NVIDIA Blog",
       "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
@@ -13,18 +25,6 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 22
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
-      "description": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in [&#8230;]",
-      "published": "Thu, 22 Oct 2026 13:00:20 +0000",
-      "freshness_score": 9,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 18
     },
     {
       "source": "NVIDIA Blog",
@@ -87,18 +87,6 @@
       "pre_filter_score": 27
     },
     {
-      "source": "OpenAI News",
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "published": "Thu, 22 Oct 2026 00:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 12,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 22
-    },
-    {
       "source": "NVIDIA Blog",
       "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
       "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
@@ -109,6 +97,18 @@
       "impact_score": 3,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 19
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+      "description": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in [&#8230;]",
+      "published": "Thu, 22 Oct 2026 13:00:20 +0000",
+      "freshness_score": 8,
+      "relevance_score": 6,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -159,18 +159,6 @@
       "pre_filter_score": 23
     },
     {
-      "source": "OpenAI News",
-      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "url": "https://openai.com/index/cloudflare-cyber",
-      "description": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-      "published": "Wed, 21 Oct 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 14,
-      "impact_score": 3,
-      "story_type": "SECURITY",
-      "pre_filter_score": 23
-    },
-    {
       "source": "NVIDIA Blog",
       "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
       "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
@@ -205,6 +193,18 @@
       "impact_score": 3,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "published": "Thu, 22 Oct 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 12,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 20
     },
     {
       "source": "NVIDIA Blog",
@@ -304,18 +304,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "url": "https://openai.com/index/empowering-cyber-defenders",
-      "description": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-      "published": "Wed, 21 Oct 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "SECURITY",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "OpenAI News",
       "title": "How AT&T is rethinking in-house legal work with OpenAI",
       "url": "https://openai.com/index/att-legal",
       "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
@@ -339,16 +327,16 @@
       "pre_filter_score": 12
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "European Leaders Turn to NVIDIA Vera CPUs to Build Local Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
-      "description": "Nebius and Nscale are among global technology partners looking to NVIDIA Vera CPUs to build the next wave of infrastructure. Their momentum reflects rapid advancements in agentic computing. Agents do more than generate answers: they retrieve information, run software tools, execute code and evaluate results. Each step depends on fast CPU processing. Vera accelerates that [&#8230;]",
-      "published": "Tue, 20 Oct 2026 10:30:11 +0000",
+      "source": "OpenAI News",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "description": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "published": "Wed, 21 Oct 2026 00:00:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 10,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 17
+      "relevance_score": 14,
+      "impact_score": 3,
+      "story_type": "SECURITY",
+      "pre_filter_score": 22
     },
     {
       "source": "OpenAI News",
@@ -364,6 +352,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "description": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "published": "Wed, 21 Oct 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "SECURITY",
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
       "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
       "url": "https://openai.com/index/ted-taylor-restaurant",
       "description": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
@@ -373,18 +373,6 @@
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 12
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI acquires Orchestra Bio",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "description": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "published": "Tue, 20 Oct 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 9
     },
     {
       "source": "OpenAI News",
@@ -868,18 +856,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Bet Bot: Gambling spam network",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
-      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "STORM-0817: Iran-linked malware and scraping activity",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
       "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
@@ -888,6 +864,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bet Bot: Gambling spam network",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -960,6 +948,18 @@
       "relevance_score": 16,
       "impact_score": 4,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "SafetyKit scales risk agents with OpenAI’s most capable models",
+      "url": "https://openai.com/index/safetykit",
+      "description": "Discover how SafetyKit leverages OpenAI GPT-5 to enhance content moderation, enforce compliance, and outpace legacy safety systems with greater accuracy .",
+      "published": "Tue, 09 Sep 2025 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 4,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 20
     }
   ]
