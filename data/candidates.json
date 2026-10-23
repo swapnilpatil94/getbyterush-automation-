@@ -1,18 +1,30 @@
 {
-  "generated_at": "2026-10-23T10:48:36.846031+00:00",
+  "generated_at": "2026-10-23T16:12:48.359198+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "published": "Fri, 23 Oct 2026 17:00:00 GMT",
+      "freshness_score": 10,
+      "relevance_score": 9,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 24
+    },
     {
       "source": "NVIDIA Blog",
       "title": "Kazakhstan Expands Compute for Its AI Future",
       "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
       "description": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — coinciding with a visit to Astana by NVIDIA founder and CEO Jensen Huang — point to the nation’s increasing supply of accelerated computing, along with [&#8230;]",
       "published": "Fri, 23 Oct 2026 02:00:13 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 12,
       "impact_score": 3,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 24
+      "pre_filter_score": 23
     },
     {
       "source": "OpenAI News",
@@ -20,35 +32,11 @@
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "description": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
       "published": "Fri, 23 Oct 2026 00:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 8,
       "impact_score": 0,
       "story_type": "RESEARCH",
-      "pre_filter_score": 17
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-      "description": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast [&#8230;]",
-      "published": "Thu, 22 Oct 2026 15:00:02 +0000",
-      "freshness_score": 8,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
-      "description": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in [&#8230;]",
-      "published": "Thu, 22 Oct 2026 13:00:20 +0000",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 17
+      "pre_filter_score": 16
     },
     {
       "source": "NVIDIA Blog",
@@ -111,18 +99,6 @@
       "pre_filter_score": 25
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
-      "description": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier workloads on Linux, with a Windows version arriving in December. Announcements include: [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:50:37 +0000",
-      "freshness_score": 6,
-      "relevance_score": 15,
-      "impact_score": 2,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 23
-    },
-    {
       "source": "OpenAI News",
       "title": "Uber brings ChatGPT Work to all employees with OpenAI",
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
@@ -135,16 +111,16 @@
       "pre_filter_score": 20
     },
     {
-      "source": "OpenAI News",
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "published": "Wed, 21 Oct 2026 12:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "description": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast [&#8230;]",
+      "published": "Thu, 22 Oct 2026 15:00:02 +0000",
       "freshness_score": 6,
-      "relevance_score": 14,
-      "impact_score": 0,
+      "relevance_score": 11,
+      "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20
+      "pre_filter_score": 19
     },
     {
       "source": "NVIDIA Blog",
@@ -171,6 +147,18 @@
       "pre_filter_score": 16
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+      "description": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in [&#8230;]",
+      "published": "Thu, 22 Oct 2026 13:00:20 +0000",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 15
+    },
+    {
       "source": "OpenAI News",
       "title": "How AT&T is rethinking in-house legal work with OpenAI",
       "url": "https://openai.com/index/att-legal",
@@ -181,18 +169,6 @@
       "impact_score": 2,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 13
-    },
-    {
-      "source": "OpenAI News",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "description": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "published": "Wed, 21 Oct 2026 13:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -256,6 +232,18 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+      "description": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier workloads on Linux, with a Windows version arriving in December. Announcements include: [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:50:37 +0000",
+      "freshness_score": 5,
+      "relevance_score": 15,
+      "impact_score": 2,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 22
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
       "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
       "description": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3.5 Super VL and Nemotron 3.5 Bolt models; new NVIDIA Nemotron Retriever models for embedding, reranking [&#8230;]",
@@ -288,6 +276,18 @@
       "relevance_score": 12,
       "impact_score": 2,
       "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "published": "Wed, 21 Oct 2026 12:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 14,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     },
     {
@@ -361,6 +361,18 @@
       "impact_score": 0,
       "story_type": "SECURITY",
       "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "description": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "published": "Wed, 21 Oct 2026 13:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 11
     },
     {
       "source": "OpenAI News",
@@ -844,18 +856,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Bet Bot: Gambling spam network",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
-      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "STORM-0817: Iran-linked malware and scraping activity",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
       "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
@@ -864,6 +864,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bet Bot: Gambling spam network",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -949,18 +961,6 @@
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
-      "published": "Sat, 01 Feb 2025 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 10,
-      "impact_score": 9,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
     }
   ]
 }
