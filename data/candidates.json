@@ -1,18 +1,30 @@
 {
-  "generated_at": "2026-10-23T02:49:07.015869+00:00",
+  "generated_at": "2026-10-23T10:48:36.846031+00:00",
   "count": 80,
   "stories": [
     {
       "source": "NVIDIA Blog",
       "title": "Kazakhstan Expands Compute for Its AI Future",
       "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-      "description": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below point to the nation’s increasing supply of accelerated computing — along with its growing demand for what comes next. Read All NVIDIA in Europe [&#8230;]",
+      "description": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — coinciding with a visit to Astana by NVIDIA founder and CEO Jensen Huang — point to the nation’s increasing supply of accelerated computing, along with [&#8230;]",
       "published": "Fri, 23 Oct 2026 02:00:13 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 12,
       "impact_score": 3,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 25
+      "pre_filter_score": 24
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "description": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "published": "Fri, 23 Oct 2026 00:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 17
     },
     {
       "source": "NVIDIA Blog",
@@ -20,83 +32,11 @@
       "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
       "description": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast [&#8230;]",
       "published": "Thu, 22 Oct 2026 15:00:02 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 11,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 22
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
-      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
-      "description": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:19 +0000",
-      "freshness_score": 8,
-      "relevance_score": 18,
-      "impact_score": 9,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 35
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
-      "url": "https://blogs.nvidia.com/blog/dsx-power/",
-      "description": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in infrastructure. More than $300 billion [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:25 +0000",
-      "freshness_score": 8,
-      "relevance_score": 10,
-      "impact_score": 12,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 30
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
-      "description": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:27 +0000",
-      "freshness_score": 8,
-      "relevance_score": 18,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 29
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-      "description": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:23 +0000",
-      "freshness_score": 8,
-      "relevance_score": 15,
-      "impact_score": 5,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 28
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
-      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
-      "description": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:56 +0000",
-      "freshness_score": 8,
-      "relevance_score": 11,
-      "impact_score": 8,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
-      "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
-      "description": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply their own safeguards and keep sensitive data within controlled environments. Some open models go further, [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:02 +0000",
-      "freshness_score": 8,
-      "relevance_score": 8,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
+      "pre_filter_score": 21
     },
     {
       "source": "NVIDIA Blog",
@@ -111,52 +51,64 @@
       "pre_filter_score": 17
     },
     {
-      "source": "OpenAI News",
-      "title": "What FDE means at OpenAI",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "description": "What forward deployed engineering means at OpenAI",
-      "published": "Thu, 22 Oct 2026 06:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
+      "source": "NVIDIA Blog",
+      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+      "description": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:19 +0000",
+      "freshness_score": 6,
+      "relevance_score": 18,
+      "impact_score": 9,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 33
     },
     {
-      "source": "OpenAI News",
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "published": "Wed, 21 Oct 2026 04:50:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+      "url": "https://blogs.nvidia.com/blog/dsx-power/",
+      "description": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in infrastructure. More than $300 billion [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:25 +0000",
       "freshness_score": 6,
-      "relevance_score": 16,
-      "impact_score": 4,
-      "story_type": "AI_AGENTS",
+      "relevance_score": 10,
+      "impact_score": 12,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 28
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "description": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:27 +0000",
+      "freshness_score": 6,
+      "relevance_score": 18,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 27
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+      "description": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:23 +0000",
+      "freshness_score": 6,
+      "relevance_score": 15,
+      "impact_score": 5,
+      "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 26
     },
     {
       "source": "NVIDIA Blog",
-      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-      "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
-      "description": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe, the Nordics, Africa, and Central Asia are expanding regional compute capacity for [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:41 +0000",
+      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+      "description": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:56 +0000",
       "freshness_score": 6,
-      "relevance_score": 16,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 24
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "description": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "published": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 14,
-      "impact_score": 3,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 23
+      "relevance_score": 11,
+      "impact_score": 8,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 25
     },
     {
       "source": "NVIDIA Blog",
@@ -171,30 +123,6 @@
       "pre_filter_score": 23
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
-      "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
-      "description": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3.5 Super VL and Nemotron 3.5 Bolt models; new NVIDIA Nemotron Retriever models for embedding, reranking [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:00:07 +0000",
-      "freshness_score": 6,
-      "relevance_score": 16,
-      "impact_score": 0,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 22
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-      "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
-      "description": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers and actions, monitor what they do and [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:10:01 +0000",
-      "freshness_score": 6,
-      "relevance_score": 12,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 21
-    },
-    {
       "source": "OpenAI News",
       "title": "Uber brings ChatGPT Work to all employees with OpenAI",
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
@@ -204,18 +132,6 @@
       "relevance_score": 12,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
-      "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
-      "description": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days, with more than 100 sessions on agentic AI, robotics, [&#8230;]",
-      "published": "Wed, 21 Oct 2026 09:30:16 +0000",
-      "freshness_score": 6,
-      "relevance_score": 12,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
       "pre_filter_score": 20
     },
     {
@@ -232,38 +148,14 @@
     },
     {
       "source": "NVIDIA Blog",
-      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
-      "description": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling technology for demanding [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:45:17 +0000",
+      "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+      "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+      "description": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply their own safeguards and keep sensitive data within controlled environments. Some open models go further, [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:02 +0000",
       "freshness_score": 6,
-      "relevance_score": 14,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-      "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
-      "description": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict how designs will perform before they’re built. As designs become more complex, simulations [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:25 +0000",
-      "freshness_score": 6,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "description": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "published": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 9,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
+      "relevance_score": 8,
+      "impact_score": 3,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 17
     },
     {
@@ -275,30 +167,6 @@
       "freshness_score": 6,
       "relevance_score": 6,
       "impact_score": 4,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
-      "description": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. Bringing those capabilities together on the factory floor, the NVIDIA Factory Operations Blueprint (FOX) is now available in [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:40 +0000",
-      "freshness_score": 6,
-      "relevance_score": 10,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
-      "description": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infrastructure layer that protects the models and data those agents depend on while running. Today, NVIDIA [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:02 +0000",
-      "freshness_score": 6,
-      "relevance_score": 10,
-      "impact_score": 0,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 16
     },
@@ -328,6 +196,54 @@
     },
     {
       "source": "OpenAI News",
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "description": "What forward deployed engineering means at OpenAI",
+      "published": "Thu, 22 Oct 2026 06:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 10
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "published": "Wed, 21 Oct 2026 04:50:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 16,
+      "impact_score": 4,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 25
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+      "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
+      "description": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe, the Nordics, Africa, and Central Asia are expanding regional compute capacity for [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:30:41 +0000",
+      "freshness_score": 5,
+      "relevance_score": 16,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 23
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "description": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "published": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 14,
+      "impact_score": 3,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 22
+    },
+    {
+      "source": "OpenAI News",
       "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
       "url": "https://openai.com/index/cloudflare-cyber",
       "description": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
@@ -339,16 +255,100 @@
       "pre_filter_score": 22
     },
     {
-      "source": "OpenAI News",
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "url": "https://openai.com/index/terminal-x",
-      "description": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "published": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+      "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+      "description": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3.5 Super VL and Nemotron 3.5 Bolt models; new NVIDIA Nemotron Retriever models for embedding, reranking [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:00:07 +0000",
       "freshness_score": 5,
-      "relevance_score": 6,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+      "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+      "description": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers and actions, monitor what they do and [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:10:01 +0000",
+      "freshness_score": 5,
+      "relevance_score": 12,
       "impact_score": 3,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+      "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+      "description": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days, with more than 100 sessions on agentic AI, robotics, [&#8230;]",
+      "published": "Wed, 21 Oct 2026 09:30:16 +0000",
+      "freshness_score": 5,
+      "relevance_score": 12,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+      "description": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling technology for demanding [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:45:17 +0000",
+      "freshness_score": 5,
+      "relevance_score": 14,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+      "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+      "description": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict how designs will perform before they’re built. As designs become more complex, simulations [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:30:25 +0000",
+      "freshness_score": 5,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "description": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "published": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 9,
+      "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
+      "pre_filter_score": 16
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
+      "description": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. Bringing those capabilities together on the factory floor, the NVIDIA Factory Operations Blueprint (FOX) is now available in [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:30:40 +0000",
+      "freshness_score": 5,
+      "relevance_score": 10,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+      "description": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infrastructure layer that protects the models and data those agents depend on while running. Today, NVIDIA [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:30:02 +0000",
+      "freshness_score": 5,
+      "relevance_score": 10,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -361,18 +361,6 @@
       "impact_score": 0,
       "story_type": "SECURITY",
       "pre_filter_score": 13
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "description": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "published": "Tue, 20 Oct 2026 10:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -856,18 +844,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "STORM-0817: Iran-linked malware and scraping activity",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "Bet Bot: Gambling spam network",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
       "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
@@ -876,6 +852,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "STORM-0817: Iran-linked malware and scraping activity",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "SECURITY",
       "pre_filter_score": 20
     },
     {
@@ -961,6 +949,18 @@
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "published": "Sat, 01 Feb 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 10,
+      "impact_score": 9,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 19
     }
   ]
 }
