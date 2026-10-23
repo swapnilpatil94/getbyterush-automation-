@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23T16:12:48.470372+00:00",
+  "updated_at": "2026-10-23T20:51:03.575607+00:00",
   "candidates": [
     {
       "content_id": "cand-b0d804bf5dc9cfee",
@@ -6231,7 +6231,50 @@
         "story_type": "RESEARCH",
         "pre_filter_score": 17
       }
+    },
+    {
+      "content_id": "cand-98058e20682c1da6",
+      "topic": "Securing our frontier model training environment",
+      "title": "Securing our frontier model training environment",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "published_at": "Fri, 23 Oct 2026 10:00:00 GMT",
+      "discovered_at": "2026-10-23T20:51:03.575077+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 5,
+      "share_score": 6,
+      "information_value": 13,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 62,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Securing our frontier model training environment",
+        "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+        "description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+        "published": "Fri, 23 Oct 2026 10:00:00 GMT",
+        "freshness_score": 9,
+        "relevance_score": 15,
+        "impact_score": 5,
+        "story_type": "BUSINESS",
+        "pre_filter_score": 29
+      }
     }
   ],
-  "count": 144
+  "count": 145
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T16:12:48.359198+00:00",
+  "generated_at": "2026-10-23T20:51:03.455661+00:00",
   "count": 80,
   "stories": [
     {
@@ -13,6 +13,18 @@
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 24
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "published": "Fri, 23 Oct 2026 10:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 15,
+      "impact_score": 5,
+      "story_type": "BUSINESS",
+      "pre_filter_score": 29
     },
     {
       "source": "NVIDIA Blog",
@@ -157,18 +169,6 @@
       "impact_score": 3,
       "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 15
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "url": "https://openai.com/index/att-legal",
-      "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "published": "Wed, 21 Oct 2026 17:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -361,6 +361,18 @@
       "impact_score": 0,
       "story_type": "SECURITY",
       "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "published": "Wed, 21 Oct 2026 17:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -948,18 +960,6 @@
       "relevance_score": 16,
       "impact_score": 4,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
-      "title": "SafetyKit scales risk agents with OpenAI’s most capable models",
-      "url": "https://openai.com/index/safetykit",
-      "description": "Discover how SafetyKit leverages OpenAI GPT-5 to enhance content moderation, enforce compliance, and outpace legacy safety systems with greater accuracy .",
-      "published": "Tue, 09 Sep 2025 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 4,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 20
     }
   ]
