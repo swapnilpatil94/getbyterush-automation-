@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-7abee401bea6a464",
+      "topic": "The builder’s guide to GPT‑5.6",
+      "category": "EVERGREEN_VALUE",
+      "score": 60,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -60,7 +75,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-7abee401bea6a464",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }

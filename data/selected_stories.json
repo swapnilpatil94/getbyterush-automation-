@@ -2,26 +2,26 @@
   "date": "2026-10-23",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-      "description": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:23 +0000",
-      "freshness_score": 10,
-      "relevance_score": 15,
-      "impact_score": 5,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 30,
-      "content_id": "cand-308cf8bbd62399c2",
+      "source": "OpenAI News",
+      "title": "The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19,
+      "content_id": "cand-7abee401bea6a464",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 58,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 58/100)",
-        "source": "NVIDIA Blog"
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 60,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
+        "source": "OpenAI News"
       }
     }
   ]
