@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-10-24T15:09:48.520365+00:00",
+  "generated_at": "2026-10-24T20:02:21.304120+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "OpenAI News",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "published": "Fri, 23 Oct 2026 17:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 9,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 22
-    },
     {
       "source": "OpenAI News",
       "title": "Securing our frontier model training environment",
@@ -37,6 +25,18 @@
       "impact_score": 3,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "published": "Fri, 23 Oct 2026 17:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 9,
+      "impact_score": 5,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 20
     },
     {
       "source": "OpenAI News",
@@ -169,18 +169,6 @@
       "impact_score": 3,
       "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 14
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "url": "https://openai.com/index/att-legal",
-      "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "published": "Wed, 21 Oct 2026 17:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -960,6 +948,18 @@
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]

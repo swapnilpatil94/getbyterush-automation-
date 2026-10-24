@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:09:48.260852+00:00",
+  "generated_at": "2026-10-24T20:02:21.041660+00:00",
   "count": 1356,
   "stories": [
     {
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "published": "Fri, 23 Oct 2026 17:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -192,7 +192,7 @@
       "url": "https://openai.com/index/decisions-api",
       "description": "Fast, focused, low-cost decisions for any application.",
       "published": "Thu, 22 Oct 2026 19:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -216,7 +216,7 @@
       "url": "https://openai.com/index/att-legal",
       "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "published": "Wed, 21 Oct 2026 17:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
