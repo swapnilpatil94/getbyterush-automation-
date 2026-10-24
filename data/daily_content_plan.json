@@ -1,48 +1,18 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-4eaa8825a78f3068",
-      "topic": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+      "content_id": "cand-3daa4866a75b85af",
+      "topic": "OpenAI and Anthropic share findings from a joint safety evaluation",
       "category": "EVERGREEN_VALUE",
-      "score": 60,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
+      "score": 59,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/buy-it-in-chatgpt",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-308cf8bbd62399c2",
-      "topic": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-      "category": "LAST_24H",
-      "score": 58,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 58/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-7abee401bea6a464",
-      "topic": "The builder’s guide to GPT‑5.6",
-      "category": "EVERGREEN_VALUE",
-      "score": 60,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 60/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source_url": "https://openai.com/index/openai-anthropic-safety-evaluation",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-4eaa8825a78f3068",
+      "content_id": "cand-3daa4866a75b85af",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-308cf8bbd62399c2",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-7abee401bea6a464",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
