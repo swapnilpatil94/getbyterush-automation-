@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T20:51:03.455661+00:00",
+  "generated_at": "2026-10-24T02:46:03.649835+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "published": "Fri, 23 Oct 2026 17:00:00 GMT",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 9,
       "impact_score": 5,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 24
+      "pre_filter_score": 23
     },
     {
       "source": "OpenAI News",
@@ -20,35 +20,11 @@
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "published": "Fri, 23 Oct 2026 10:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 15,
       "impact_score": 5,
       "story_type": "BUSINESS",
-      "pre_filter_score": 29
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Kazakhstan Expands Compute for Its AI Future",
-      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-      "description": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — coinciding with a visit to Astana by NVIDIA founder and CEO Jensen Huang — point to the nation’s increasing supply of accelerated computing, along with [&#8230;]",
-      "published": "Fri, 23 Oct 2026 02:00:13 +0000",
-      "freshness_score": 8,
-      "relevance_score": 12,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 23
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "description": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-      "published": "Fri, 23 Oct 2026 00:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 16
+      "pre_filter_score": 28
     },
     {
       "source": "NVIDIA Blog",
@@ -111,16 +87,16 @@
       "pre_filter_score": 25
     },
     {
-      "source": "OpenAI News",
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "published": "Thu, 22 Oct 2026 00:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "Kazakhstan Expands Compute for Its AI Future",
+      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+      "description": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — coinciding with a visit to Astana by NVIDIA founder and CEO Jensen Huang — point to the nation’s increasing supply of accelerated computing, along with [&#8230;]",
+      "published": "Fri, 23 Oct 2026 02:00:13 +0000",
       "freshness_score": 6,
       "relevance_score": 12,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20
+      "impact_score": 3,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 21
     },
     {
       "source": "NVIDIA Blog",
@@ -147,18 +123,6 @@
       "pre_filter_score": 17
     },
     {
-      "source": "OpenAI News",
-      "title": "Broad access through consistent standards",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "description": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "published": "Wed, 21 Oct 2026 21:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 4,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
-    },
-    {
       "source": "NVIDIA Blog",
       "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
@@ -169,6 +133,18 @@
       "impact_score": 3,
       "story_type": "PRODUCT_UPDATE",
       "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "description": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "published": "Fri, 23 Oct 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -219,18 +195,6 @@
       "pre_filter_score": 22
     },
     {
-      "source": "OpenAI News",
-      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "url": "https://openai.com/index/cloudflare-cyber",
-      "description": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-      "published": "Wed, 21 Oct 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 14,
-      "impact_score": 3,
-      "story_type": "SECURITY",
-      "pre_filter_score": 22
-    },
-    {
       "source": "NVIDIA Blog",
       "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
       "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
@@ -265,6 +229,18 @@
       "impact_score": 3,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "published": "Thu, 22 Oct 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 12,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
     },
     {
       "source": "NVIDIA Blog",
@@ -327,6 +303,18 @@
       "pre_filter_score": 16
     },
     {
+      "source": "OpenAI News",
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "description": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "published": "Wed, 21 Oct 2026 21:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 6,
+      "impact_score": 4,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
       "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
@@ -349,18 +337,6 @@
       "impact_score": 0,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 15
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "url": "https://openai.com/index/empowering-cyber-defenders",
-      "description": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-      "published": "Wed, 21 Oct 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "SECURITY",
-      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -961,6 +937,30 @@
       "impact_score": 4,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "SafetyKit scales risk agents with OpenAI’s most capable models",
+      "url": "https://openai.com/index/safetykit",
+      "description": "Discover how SafetyKit leverages OpenAI GPT-5 to enhance content moderation, enforce compliance, and outpace legacy safety systems with greater accuracy .",
+      "published": "Tue, 09 Sep 2025 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 4,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "published": "Sat, 01 Feb 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 10,
+      "impact_score": 9,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 19
     }
   ]
 }
