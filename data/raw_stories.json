@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T02:46:03.377965+00:00",
+  "generated_at": "2026-10-24T10:04:11.897094+00:00",
   "count": 1356,
   "stories": [
     {
@@ -8,7 +8,7 @@
       "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
       "description": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
       "published": "Wed, 21 Oct 2026 04:00:00 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "Google AI Blog",
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "published": "Fri, 23 Oct 2026 17:00:00 GMT",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "OpenAI News",
@@ -176,7 +176,7 @@
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "published": "Fri, 23 Oct 2026 10:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -200,7 +200,7 @@
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "description": "What forward deployed engineering means at OpenAI",
       "published": "Thu, 22 Oct 2026 06:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -240,7 +240,7 @@
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "description": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "published": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -256,7 +256,7 @@
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
       "published": "Wed, 21 Oct 2026 04:50:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -272,7 +272,7 @@
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
       "description": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "published": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -10736,7 +10736,7 @@
       "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
       "description": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF [&#8230;]",
       "published": "Thu, 22 Oct 2026 05:00:56 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -10744,7 +10744,7 @@
       "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
       "description": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open [&#8230;]",
       "published": "Thu, 22 Oct 2026 05:00:27 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -10752,7 +10752,7 @@
       "url": "https://blogs.nvidia.com/blog/dsx-power/",
       "description": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in infrastructure. More than $300 billion [&#8230;]",
       "published": "Thu, 22 Oct 2026 05:00:25 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -10760,7 +10760,7 @@
       "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
       "description": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open [&#8230;]",
       "published": "Thu, 22 Oct 2026 05:00:23 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -10768,7 +10768,7 @@
       "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
       "description": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a [&#8230;]",
       "published": "Thu, 22 Oct 2026 05:00:19 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -10776,7 +10776,7 @@
       "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
       "description": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply their own safeguards and keep sensitive data within controlled environments. Some open models go further, [&#8230;]",
       "published": "Thu, 22 Oct 2026 05:00:02 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -10840,7 +10840,7 @@
       "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
       "description": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3.5 Super VL and Nemotron 3.5 Bolt models; new NVIDIA Nemotron Retriever models for embedding, reranking [&#8230;]",
       "published": "Wed, 21 Oct 2026 10:00:07 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
@@ -10848,7 +10848,7 @@
       "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
       "description": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days, with more than 100 sessions on agentic AI, robotics, [&#8230;]",
       "published": "Wed, 21 Oct 2026 09:30:16 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     }
   ]
 }
