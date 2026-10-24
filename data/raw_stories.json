@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:04:11.897094+00:00",
+  "generated_at": "2026-10-24T15:09:48.260852+00:00",
   "count": 1356,
   "stories": [
     {
@@ -232,7 +232,7 @@
       "url": "https://openai.com/index/openai-models-google-cloud",
       "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "published": "Wed, 21 Oct 2026 12:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -248,7 +248,7 @@
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "description": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
       "published": "Wed, 21 Oct 2026 13:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -10720,7 +10720,7 @@
       "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
       "description": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast [&#8230;]",
       "published": "Thu, 22 Oct 2026 15:00:02 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -10728,7 +10728,7 @@
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
       "description": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in [&#8230;]",
       "published": "Thu, 22 Oct 2026 13:00:20 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -10784,7 +10784,7 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
       "description": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier workloads on Linux, with a Windows version arriving in December. Announcements include: [&#8230;]",
       "published": "Wed, 21 Oct 2026 10:50:37 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
@@ -10792,7 +10792,7 @@
       "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
       "description": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling technology for demanding [&#8230;]",
       "published": "Wed, 21 Oct 2026 10:45:17 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
@@ -10800,7 +10800,7 @@
       "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
       "description": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe, the Nordics, Africa, and Central Asia are expanding regional compute capacity for [&#8230;]",
       "published": "Wed, 21 Oct 2026 10:30:41 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
@@ -10808,7 +10808,7 @@
       "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
       "description": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. Bringing those capabilities together on the factory floor, the NVIDIA Factory Operations Blueprint (FOX) is now available in [&#8230;]",
       "published": "Wed, 21 Oct 2026 10:30:40 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
@@ -10816,7 +10816,7 @@
       "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
       "description": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict how designs will perform before they’re built. As designs become more complex, simulations [&#8230;]",
       "published": "Wed, 21 Oct 2026 10:30:25 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
@@ -10824,7 +10824,7 @@
       "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
       "description": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infrastructure layer that protects the models and data those agents depend on while running. Today, NVIDIA [&#8230;]",
       "published": "Wed, 21 Oct 2026 10:30:02 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
@@ -10832,7 +10832,7 @@
       "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
       "description": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers and actions, monitor what they do and [&#8230;]",
       "published": "Wed, 21 Oct 2026 10:10:01 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",

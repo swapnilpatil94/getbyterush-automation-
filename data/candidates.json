@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:04:12.158105+00:00",
+  "generated_at": "2026-10-24T15:09:48.520365+00:00",
   "count": 80,
   "stories": [
     {
@@ -37,30 +37,6 @@
       "impact_score": 3,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 21
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-      "description": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast [&#8230;]",
-      "published": "Thu, 22 Oct 2026 15:00:02 +0000",
-      "freshness_score": 6,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
-      "description": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in [&#8230;]",
-      "published": "Thu, 22 Oct 2026 13:00:20 +0000",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -135,42 +111,6 @@
       "pre_filter_score": 24
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-      "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
-      "description": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe, the Nordics, Africa, and Central Asia are expanding regional compute capacity for [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:41 +0000",
-      "freshness_score": 5,
-      "relevance_score": 16,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 23
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
-      "description": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier workloads on Linux, with a Windows version arriving in December. Announcements include: [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:50:37 +0000",
-      "freshness_score": 5,
-      "relevance_score": 15,
-      "impact_score": 2,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 22
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-      "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
-      "description": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers and actions, monitor what they do and [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:10:01 +0000",
-      "freshness_score": 5,
-      "relevance_score": 12,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
       "source": "OpenAI News",
       "title": "Uber brings ChatGPT Work to all employees with OpenAI",
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
@@ -183,39 +123,15 @@
       "pre_filter_score": 19
     },
     {
-      "source": "OpenAI News",
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "published": "Wed, 21 Oct 2026 12:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 14,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
       "source": "NVIDIA Blog",
-      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
-      "description": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling technology for demanding [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:45:17 +0000",
-      "freshness_score": 5,
-      "relevance_score": 14,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-      "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
-      "description": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict how designs will perform before they’re built. As designs become more complex, simulations [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:25 +0000",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "description": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast [&#8230;]",
+      "published": "Thu, 22 Oct 2026 15:00:02 +0000",
       "freshness_score": 5,
       "relevance_score": 11,
       "impact_score": 2,
-      "story_type": "PRODUCT_UPDATE",
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 18
     },
     {
@@ -244,27 +160,15 @@
     },
     {
       "source": "NVIDIA Blog",
-      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
-      "description": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. Bringing those capabilities together on the factory floor, the NVIDIA Factory Operations Blueprint (FOX) is now available in [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:40 +0000",
+      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+      "description": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in [&#8230;]",
+      "published": "Thu, 22 Oct 2026 13:00:20 +0000",
       "freshness_score": 5,
-      "relevance_score": 10,
-      "impact_score": 0,
+      "relevance_score": 6,
+      "impact_score": 3,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
-      "description": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infrastructure layer that protects the models and data those agents depend on while running. Today, NVIDIA [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:02 +0000",
-      "freshness_score": 5,
-      "relevance_score": 10,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 15
+      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -277,18 +181,6 @@
       "impact_score": 2,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 12
-    },
-    {
-      "source": "OpenAI News",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "description": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "published": "Wed, 21 Oct 2026 13:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 11
     },
     {
       "source": "OpenAI News",
@@ -960,6 +852,114 @@
       "relevance_score": 12,
       "impact_score": 7,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "published": "Mon, 20 Jul 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Deep double descent",
+      "url": "https://openai.com/index/deep-double-descent",
+      "description": "We show that the double descent phenomenon occurs in CNNs, ResNets, and transformers: performance first improves, then gets worse, and then improves again with increasing model size, data size, or training time. This effect is often avoided through careful regularization. While this behavior appears to be fairly universal, we don’t yet fully understand why it happens, and view further study of this phenomenon as an important research direction.",
+      "published": "Thu, 05 Dec 2019 08:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "published": "Tue, 04 Aug 2026 19:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing EVMbench",
+      "url": "https://openai.com/index/introducing-evmbench",
+      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "published": "Wed, 18 Feb 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Genmab launches “AI Everywhere”",
+      "url": "https://openai.com/index/genmab",
+      "description": "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy",
+      "published": "Thu, 19 Sep 2024 04:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Surging developer productivity with custom GPTs",
+      "url": "https://openai.com/index/paf",
+      "description": "Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Enterprise into the grit:lab coding academy (gritlab.ax), training the next generation of software developers using an AI-augmented, systems-architecture mindset from day one. In addition to the wide range of use cases for developers and grit:lab students, 70% of Paf employees actively use ChatGPT Enterprise, spanning business teams like finance, HR, marketing, and customer support.",
+      "published": "Tue, 18 Jun 2024 08:45:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "published": "Wed, 14 Oct 2026 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "published": "Tue, 06 Oct 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 19
     }
   ]
