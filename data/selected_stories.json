@@ -2,26 +2,26 @@
   "date": "2026-10-25",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-      "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
-      "description": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe, the Nordics, Africa, and Central Asia are expanding regional compute capacity for [&#8230;]",
-      "published": "Wed, 21 Oct 2026 10:30:41 +0000",
-      "freshness_score": 10,
-      "relevance_score": 16,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 28,
-      "content_id": "cand-76c2345478e28686",
+      "source": "OpenAI News",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "description": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 15,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 20,
+      "content_id": "cand-ae3a86cc1ead7d5f",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 52,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
-        "source": "NVIDIA Blog"
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 59,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
+        "source": "OpenAI News"
       }
     }
   ]
