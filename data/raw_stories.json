@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:21:35.938635+00:00",
+  "generated_at": "2026-10-25T20:13:37.948882+00:00",
   "count": 1356,
   "stories": [
     {
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "published": "Fri, 23 Oct 2026 17:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -192,7 +192,7 @@
       "url": "https://openai.com/index/decisions-api",
       "description": "Fast, focused, low-cost decisions for any application.",
       "published": "Thu, 22 Oct 2026 19:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
