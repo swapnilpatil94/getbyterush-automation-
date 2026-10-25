@@ -1,48 +1,18 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-3daa4866a75b85af",
-      "topic": "OpenAI and Anthropic share findings from a joint safety evaluation",
+      "content_id": "cand-0bf456e37e3bf6a2",
+      "topic": "SafetyKit scales risk agents with OpenAI’s most capable models",
       "category": "EVERGREEN_VALUE",
       "score": 59,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/openai-anthropic-safety-evaluation",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-98058e20682c1da6",
-      "topic": "Securing our frontier model training environment",
-      "category": "LAST_24H",
-      "score": 60,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-5f0e5c114ce76de3",
-      "topic": "How ChatGPT learns about the world while protecting privacy",
-      "category": "EVERGREEN_VALUE",
-      "score": 59,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/how-chatgpt-protects-privacy",
+      "source_url": "https://openai.com/index/safetykit",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-3daa4866a75b85af",
+      "content_id": "cand-0bf456e37e3bf6a2",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-98058e20682c1da6",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-5f0e5c114ce76de3",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
