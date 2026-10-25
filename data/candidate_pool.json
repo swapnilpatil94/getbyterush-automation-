@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-25T08:15:58.910568+00:00",
+  "updated_at": "2026-10-25T10:29:15.164251+00:00",
   "candidates": [
     {
       "content_id": "cand-b0d804bf5dc9cfee",
@@ -6235,7 +6235,50 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 23
       }
+    },
+    {
+      "content_id": "cand-53d4a08290373b43",
+      "topic": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/asana-browser-agent",
+      "published_at": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "discovered_at": "2026-10-25T10:29:15.164204+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 6,
+      "curiosity_score": 0,
+      "save_score": 7,
+      "share_score": 5,
+      "information_value": 11,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": true
+      },
+      "status": "POOLED",
+      "score": 49,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+        "url": "https://openai.com/index/asana-browser-agent",
+        "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+        "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 12,
+        "impact_score": 6,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 18
+      }
     }
   ],
-  "count": 144
+  "count": 145
 }
