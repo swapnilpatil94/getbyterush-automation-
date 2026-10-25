@@ -2,26 +2,26 @@
   "date": "2026-10-25",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "SafetyKit scales risk agents with OpenAI’s most capable models",
-      "url": "https://openai.com/index/safetykit",
-      "description": "Discover how SafetyKit leverages OpenAI GPT-5 to enhance content moderation, enforce compliance, and outpace legacy safety systems with greater accuracy .",
-      "published": "Tue, 09 Sep 2025 10:00:00 GMT",
-      "freshness_score": 0,
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+      "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
+      "description": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe, the Nordics, Africa, and Central Asia are expanding regional compute capacity for [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:30:41 +0000",
+      "freshness_score": 10,
       "relevance_score": 16,
-      "impact_score": 4,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20,
-      "content_id": "cand-0bf456e37e3bf6a2",
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 28,
+      "content_id": "cand-76c2345478e28686",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 59,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 52,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
