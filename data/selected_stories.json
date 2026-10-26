@@ -2,26 +2,26 @@
   "date": "2026-10-26",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "The full stack behind abundant intelligence",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "description": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "published": "Tue, 25 Aug 2026 07:05:00 GMT",
-      "freshness_score": 0,
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+      "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+      "description": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3.5 Super VL and Nemotron 3.5 Bolt models; new NVIDIA Nemotron Retriever models for embedding, reranking [&#8230;]",
+      "published": "Wed, 21 Oct 2026 10:00:07 +0000",
+      "freshness_score": 10,
       "relevance_score": 16,
-      "impact_score": 4,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20,
-      "content_id": "cand-383af3cb8a88f863",
+      "impact_score": 0,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 26,
+      "content_id": "cand-04e107745d5588ff",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 59,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 52,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
