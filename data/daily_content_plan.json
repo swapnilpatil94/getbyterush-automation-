@@ -62,6 +62,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 5,
+      "slot": "night",
+      "content_id": "cand-c6c5f0ac5a2d9e49",
+      "topic": "Warp’s big bet on building open source with GPT-5.5",
+      "category": "EVERGREEN_VALUE",
+      "score": 58,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 58/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/warp",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -84,7 +99,12 @@
       "status": "SELECTED",
       "content_id": "cand-d81bc6fa6f7b0682",
       "label": "High-attention window"
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-c6c5f0ac5a2d9e49",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 4
+  "selected_count": 5
 }
