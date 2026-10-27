@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T01:45:59.901699+00:00",
+  "updated_at": "2026-10-27T03:09:57.101983+00:00",
   "candidates": [
     {
       "content_id": "cand-b0d804bf5dc9cfee",
@@ -219,49 +219,6 @@
         "pre_filter_score": 21
       },
       "rejected_at": "2026-10-07T01:46:40.994181+00:00"
-    },
-    {
-      "content_id": "cand-49447e5beae370e8",
-      "topic": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-      "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at [&#8230;]",
-      "content_type": "LAST_24H",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-      "published_at": "Mon, 12 Oct 2026 15:00:25 +0000",
-      "discovered_at": "2026-10-13T00:00:11.953760+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 4,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 4,
-      "save_score": 5,
-      "share_score": 4,
-      "information_value": 6,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 45,
-      "raw": {
-        "source": "NVIDIA Blog",
-        "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-        "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-        "description": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at [&#8230;]",
-        "published": "Mon, 12 Oct 2026 15:00:25 +0000",
-        "freshness_score": 9,
-        "relevance_score": 7,
-        "impact_score": 4,
-        "story_type": "TECH_NEWS",
-        "pre_filter_score": 20
-      }
     },
     {
       "content_id": "cand-3bc9ee74f48a5430",
@@ -6536,6 +6493,49 @@
         "impact_score": 3,
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 19
+      }
+    },
+    {
+      "content_id": "cand-d7ce8c696eb8143b",
+      "topic": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "published_at": "Mon, 26 Oct 2026 22:00:00 GMT",
+      "discovered_at": "2026-10-27T03:09:57.097292+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 4,
+      "share_score": 4,
+      "information_value": 4,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 41,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+        "url": "https://openai.com/index/greptile-code-review-codex-astra",
+        "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+        "published": "Mon, 26 Oct 2026 22:00:00 GMT",
+        "freshness_score": 10,
+        "relevance_score": 5,
+        "impact_score": 2,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 17
       }
     }
   ],
