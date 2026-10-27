@@ -1,48 +1,18 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-383af3cb8a88f863",
-      "topic": "The full stack behind abundant intelligence",
+      "content_id": "cand-5dacc08d4e4bf70f",
+      "topic": "Inside Mirakl's agentic commerce vision",
       "category": "EVERGREEN_VALUE",
       "score": 59,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-04e107745d5588ff",
-      "topic": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
-      "category": "LAST_24H",
-      "score": 52,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-b4afdcf9074d1519",
-      "topic": "How Endava is redesigning software delivery around AI agents",
-      "category": "EVERGREEN_VALUE",
-      "score": 59,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/endava-frontiers",
+      "source_url": "https://openai.com/index/mirakl",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-383af3cb8a88f863",
+      "content_id": "cand-5dacc08d4e4bf70f",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-04e107745d5588ff",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-b4afdcf9074d1519",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
