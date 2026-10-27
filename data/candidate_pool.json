@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T17:09:17.887736+00:00",
+  "updated_at": "2026-10-27T21:40:01.970818+00:00",
   "candidates": [
     {
       "content_id": "cand-b0d804bf5dc9cfee",
@@ -219,93 +219,6 @@
         "pre_filter_score": 21
       },
       "rejected_at": "2026-10-07T01:46:40.994181+00:00"
-    },
-    {
-      "content_id": "cand-6ebf84a27c2bda78",
-      "topic": "Gemini 4 Argon: Built to solve your hardest problems",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "content_type": "LAST_24H",
-      "source": "Google AI Blog",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "published_at": "Tue, 13 Oct 2026 16:00:00 +0000",
-      "discovered_at": "2026-10-13T18:43:54.626596+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 5,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 4,
-      "save_score": 5,
-      "share_score": 4,
-      "information_value": 10,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "EDITORIAL_REJECTED",
-      "score": 54,
-      "raw": {
-        "source": "Google AI Blog",
-        "title": "Gemini 4 Argon: Built to solve your hardest problems",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-        "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-        "published": "Tue, 13 Oct 2026 16:00:00 +0000",
-        "freshness_score": 10,
-        "relevance_score": 11,
-        "impact_score": 2,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 23
-      },
-      "rejected_at": "2026-10-14T08:16:22.397520+00:00"
-    },
-    {
-      "content_id": "cand-805db7406e84af0d",
-      "topic": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-      "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and [&#8230;]",
-      "content_type": "LAST_24H",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-      "published_at": "Tue, 13 Oct 2026 12:00:49 +0000",
-      "discovered_at": "2026-10-13T18:43:54.631069+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 4,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 0,
-      "save_score": 5,
-      "share_score": 3,
-      "information_value": 8,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 44,
-      "raw": {
-        "source": "NVIDIA Blog",
-        "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-        "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-        "description": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and [&#8230;]",
-        "published": "Tue, 13 Oct 2026 12:00:49 +0000",
-        "freshness_score": 9,
-        "relevance_score": 8,
-        "impact_score": 0,
-        "story_type": "TECH_NEWS",
-        "pre_filter_score": 17
-      }
     },
     {
       "content_id": "cand-9d6b48d5574afb11",
@@ -6583,7 +6496,50 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 25
       }
+    },
+    {
+      "content_id": "cand-2865c849048d9521",
+      "topic": "How Check Point accelerates vulnerability research with Daybreak",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/check-point-daybreak",
+      "published_at": "Tue, 27 Oct 2026 00:00:00 GMT",
+      "discovered_at": "2026-10-27T21:40:01.966230+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 8,
+      "save_score": 5,
+      "share_score": 7,
+      "information_value": 11,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 61,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "How Check Point accelerates vulnerability research with Daybreak",
+        "url": "https://openai.com/index/check-point-daybreak",
+        "description": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+        "published": "Tue, 27 Oct 2026 00:00:00 GMT",
+        "freshness_score": 8,
+        "relevance_score": 14,
+        "impact_score": 7,
+        "story_type": "SECURITY",
+        "pre_filter_score": 29
+      }
     }
   ],
-  "count": 152
+  "count": 151
 }
