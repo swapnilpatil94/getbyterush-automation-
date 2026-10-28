@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-28T03:24:15.866076+00:00",
+  "generated_at": "2026-10-28T11:55:03.922684+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "published": "Wed, 28 Oct 2026 09:30:00 GMT",
+      "freshness_score": 10,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 29
+    },
     {
       "source": "OpenAI News",
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
@@ -13,18 +25,6 @@
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 30
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "published": "Tue, 27 Oct 2026 07:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 16,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 24
     },
     {
       "source": "NVIDIA Blog",
@@ -52,27 +52,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "description": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "published": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "published": "Tue, 27 Oct 2026 07:00:00 GMT",
       "freshness_score": 6,
-      "relevance_score": 9,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
-      "title": "ChatGPT’s expanding world of work",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "description": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "published": "Mon, 26 Oct 2026 10:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 10,
-      "impact_score": 4,
+      "relevance_score": 16,
+      "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20
+      "pre_filter_score": 22
     },
     {
       "source": "OpenAI News",
@@ -100,18 +88,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "description": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "published": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 5,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
       "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
@@ -133,6 +109,42 @@
       "impact_score": 0,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 10
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "description": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "published": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 9,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "description": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "published": "Mon, 26 Oct 2026 10:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 10,
+      "impact_score": 4,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "description": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "published": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 5,
+      "impact_score": 5,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -760,6 +772,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "published": "Wed, 21 Oct 2026 04:50:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 4,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
       "title": "The full stack behind abundant intelligence",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
       "description": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
@@ -935,30 +959,6 @@
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Surging developer productivity with custom GPTs",
-      "url": "https://openai.com/index/paf",
-      "description": "Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Enterprise into the grit:lab coding academy (gritlab.ax), training the next generation of software developers using an AI-augmented, systems-architecture mindset from day one. In addition to the wide range of use cases for developers and grit:lab students, 70% of Paf employees actively use ChatGPT Enterprise, spanning business teams like finance, HR, marketing, and customer support.",
-      "published": "Tue, 18 Jun 2024 08:45:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Localiza reorganized work around generative AI",
-      "url": "https://openai.com/index/localiza-generative-ai",
-      "description": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
