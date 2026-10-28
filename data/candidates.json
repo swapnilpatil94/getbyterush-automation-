@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:44:28.217279+00:00",
+  "generated_at": "2026-10-28T22:04:00.022465+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,23 +8,35 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
       "description": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified [&#8230;]",
       "published": "Wed, 28 Oct 2026 15:00:46 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 18,
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 31
+      "pre_filter_score": 30
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "published": "Wed, 28 Oct 2026 13:15:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 25
     },
     {
       "source": "OpenAI News",
       "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "url": "https://openai.com/index/legora",
       "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "published": "Wed, 28 Oct 2026 09:30:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 28
+      "pre_filter_score": 27
     },
     {
       "source": "OpenAI News",
@@ -32,11 +44,11 @@
       "url": "https://openai.com/index/the-future-of-the-firm",
       "description": "How AI might enter the org chart—beneath, beside, and between us.",
       "published": "Wed, 28 Oct 2026 10:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 3,
       "impact_score": 2,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
+      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -85,18 +97,6 @@
       "impact_score": 5,
       "story_type": "RESEARCH",
       "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "published": "Mon, 26 Oct 2026 22:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -157,6 +157,18 @@
       "impact_score": 5,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "published": "Mon, 26 Oct 2026 22:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 12
     },
     {
       "source": "Google AI Blog",
@@ -944,18 +956,6 @@
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
       "published": "Tue, 04 Aug 2026 19:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
