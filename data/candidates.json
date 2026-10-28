@@ -1,18 +1,42 @@
 {
-  "generated_at": "2026-10-28T11:55:03.922684+00:00",
+  "generated_at": "2026-10-28T17:44:28.217279+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "description": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified [&#8230;]",
+      "published": "Wed, 28 Oct 2026 15:00:46 +0000",
+      "freshness_score": 10,
+      "relevance_score": 18,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 31
+    },
     {
       "source": "OpenAI News",
       "title": "Legora is building the agentic operating system for legal work",
       "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
       "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "published": "Wed, 28 Oct 2026 09:30:00 GMT",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 29
+      "pre_filter_score": 28
+    },
+    {
+      "source": "OpenAI News",
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "description": "How AI might enter the org chart—beneath, beside, and between us.",
+      "published": "Wed, 28 Oct 2026 10:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 3,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -20,23 +44,11 @@
       "url": "https://openai.com/index/retell-ai",
       "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
       "published": "Tue, 27 Oct 2026 15:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 16,
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 30
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
-      "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
-      "description": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in [&#8230;]",
-      "published": "Tue, 27 Oct 2026 15:00:20 +0000",
-      "freshness_score": 8,
-      "relevance_score": 5,
-      "impact_score": 5,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 18
+      "pre_filter_score": 28
     },
     {
       "source": "OpenAI News",
@@ -63,28 +75,16 @@
       "pre_filter_score": 22
     },
     {
-      "source": "OpenAI News",
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "description": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "published": "Mon, 26 Oct 2026 13:45:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+      "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+      "description": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in [&#8230;]",
+      "published": "Tue, 27 Oct 2026 15:00:20 +0000",
       "freshness_score": 6,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Working with academic communities to build scientific understanding",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "description": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "published": "Mon, 26 Oct 2026 14:30:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 9,
-      "impact_score": 2,
+      "relevance_score": 5,
+      "impact_score": 5,
       "story_type": "RESEARCH",
-      "pre_filter_score": 17
+      "pre_filter_score": 16
     },
     {
       "source": "OpenAI News",
@@ -97,18 +97,6 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 13
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Our newest AI Quest: Mapping the human brain",
-      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "description": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
-      "published": "Mon, 26 Oct 2026 16:00:00 +0000",
-      "freshness_score": 6,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 10
     },
     {
       "source": "OpenAI News",
@@ -136,6 +124,30 @@
     },
     {
       "source": "OpenAI News",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "description": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "published": "Mon, 26 Oct 2026 13:45:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "description": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "published": "Mon, 26 Oct 2026 14:30:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 9,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 16
+    },
+    {
+      "source": "OpenAI News",
       "title": "How Fanatics and OpenAI streamline the fan experience",
       "url": "https://openai.com/index/fanatics-streamline-fan-experience",
       "description": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
@@ -145,6 +157,18 @@
       "impact_score": 5,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 15
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "description": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+      "published": "Mon, 26 Oct 2026 16:00:00 +0000",
+      "freshness_score": 5,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 9
     },
     {
       "source": "OpenAI News",
@@ -932,30 +956,6 @@
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
       "published": "Sun, 21 Jun 2026 23:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing EVMbench",
-      "url": "https://openai.com/index/introducing-evmbench",
-      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
-      "published": "Wed, 18 Feb 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Genmab launches “AI Everywhere”",
-      "url": "https://openai.com/index/genmab",
-      "description": "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy",
-      "published": "Thu, 19 Sep 2024 04:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
