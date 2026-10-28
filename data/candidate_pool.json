@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T01:45:52.420733+00:00",
+  "updated_at": "2026-10-28T03:24:15.978612+00:00",
   "candidates": [
     {
       "content_id": "cand-b0d804bf5dc9cfee",
@@ -219,49 +219,6 @@
         "pre_filter_score": 21
       },
       "rejected_at": "2026-10-07T01:46:40.994181+00:00"
-    },
-    {
-      "content_id": "cand-9d6b48d5574afb11",
-      "topic": "Higgsfield takes AI video from 1 minute to over 10",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "published_at": "Tue, 13 Oct 2026 12:00:00 GMT",
-      "discovered_at": "2026-10-14T02:58:47.880431+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 4,
-      "novelty": 0,
-      "visual_potential": 3,
-      "curiosity_score": 0,
-      "save_score": 4,
-      "share_score": 3,
-      "information_value": 4,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 33,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Higgsfield takes AI video from 1 minute to over 10",
-        "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-        "description": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-        "published": "Tue, 13 Oct 2026 12:00:00 GMT",
-        "freshness_score": 8,
-        "relevance_score": 4,
-        "impact_score": 0,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 12
-      }
     },
     {
       "content_id": "cand-b1ba67302d19545e",
@@ -6540,7 +6497,136 @@
         "story_type": "SECURITY",
         "pre_filter_score": 29
       }
+    },
+    {
+      "content_id": "cand-ce0a3aa4b3e1528d",
+      "topic": "Retell uses OpenAI models to help power 100M monthly calls",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/retell-ai",
+      "published_at": "Tue, 27 Oct 2026 15:00:00 GMT",
+      "discovered_at": "2026-10-28T03:24:15.968940+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 0,
+      "visual_potential": 6,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 5,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": true
+      },
+      "status": "POOLED",
+      "score": 60,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Retell uses OpenAI models to help power 100M monthly calls",
+        "url": "https://openai.com/index/retell-ai",
+        "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+        "published": "Tue, 27 Oct 2026 15:00:00 GMT",
+        "freshness_score": 8,
+        "relevance_score": 16,
+        "impact_score": 6,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 30
+      }
+    },
+    {
+      "content_id": "cand-a3cd70a523a044c7",
+      "topic": "How Grupo Boticário uses AI to strengthen human connections",
+      "title": "How Grupo Boticário uses AI to strengthen human connections",
+      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
+      "content_type": "DATA_RESEARCH",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/grupo-boticario",
+      "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "discovered_at": "2026-10-28T03:24:15.972724+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 0,
+      "novelty": 0,
+      "visual_potential": 6,
+      "curiosity_score": 4,
+      "save_score": 7,
+      "share_score": 6,
+      "information_value": 9,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": true
+      },
+      "status": "POOLED",
+      "score": 47,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "How Grupo Boticário uses AI to strengthen human connections",
+        "url": "https://openai.com/index/grupo-boticario",
+        "description": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
+        "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 11,
+        "impact_score": 8,
+        "story_type": "PRODUCT_UPDATE",
+        "pre_filter_score": 19
+      }
+    },
+    {
+      "content_id": "cand-5920d9f979833f17",
+      "topic": "How Localiza reorganized work around generative AI",
+      "title": "How Localiza reorganized work around generative AI",
+      "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/localiza-generative-ai",
+      "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "discovered_at": "2026-10-28T03:24:15.978559+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 7,
+      "share_score": 4,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 57,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "How Localiza reorganized work around generative AI",
+        "url": "https://openai.com/index/localiza-generative-ai",
+        "description": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+        "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 17,
+        "impact_score": 2,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 19
+      }
     }
   ],
-  "count": 151
+  "count": 153
 }
