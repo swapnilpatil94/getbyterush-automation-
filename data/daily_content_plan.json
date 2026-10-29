@@ -1,48 +1,18 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-fed3ac01a5971408",
-      "topic": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "content_id": "cand-94bd0c116c54a244",
+      "topic": "Vixen and Keyhole Panda: China-linked cyber operations",
       "category": "EVERGREEN_VALUE",
-      "score": 58,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 58/100)",
+      "score": 57,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/cloudflare-openai-agent-cloud",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-ce0a3aa4b3e1528d",
-      "topic": "Retell uses OpenAI models to help power 100M monthly calls",
-      "category": "LAST_24H",
-      "score": 60,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/retell-ai",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-2a53474bc321463c",
-      "topic": "Legora is building the agentic operating system for legal work",
-      "category": "LAST_24H",
-      "score": 63,
-      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 63/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-fed3ac01a5971408",
+      "content_id": "cand-94bd0c116c54a244",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-ce0a3aa4b3e1528d",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-2a53474bc321463c",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
