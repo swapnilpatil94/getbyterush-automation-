@@ -2,26 +2,26 @@
   "date": "2026-10-29",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
-      "description": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified [&#8230;]",
-      "published": "Wed, 28 Oct 2026 15:00:46 +0000",
-      "freshness_score": 10,
-      "relevance_score": 18,
-      "impact_score": 3,
+      "source": "OpenAI News",
+      "title": "Resolving digital threats 100x faster with OpenAI",
+      "url": "https://openai.com/index/outtake",
+      "description": "Discover how Outtake uses GPT-4.1 and OpenAI o3 to power AI agents that detect and resolve digital threats 100x faster than before.",
+      "published": "Thu, 24 Jul 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 15,
+      "impact_score": 7,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 31,
-      "content_id": "cand-ec6c9c8b29b5d9d2",
+      "pre_filter_score": 22,
+      "content_id": "cand-785ed80e4cd04cdf",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "EVERGREEN_VALUE",
         "quality_score": 57,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 57/100)",
-        "source": "NVIDIA Blog"
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
+        "source": "OpenAI News"
       }
     }
   ]
