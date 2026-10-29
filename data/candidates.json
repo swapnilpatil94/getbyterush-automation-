@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T03:46:22.203083+00:00",
+  "generated_at": "2026-10-29T12:03:20.442111+00:00",
   "count": 80,
   "stories": [
     {
@@ -16,18 +16,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora",
-      "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "published": "Wed, 28 Oct 2026 09:30:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27
-    },
-    {
-      "source": "OpenAI News",
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
@@ -37,18 +25,6 @@
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 24
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The future of the firm",
-      "url": "https://openai.com/index/the-future-of-the-firm",
-      "description": "How AI might enter the org chart—beneath, beside, and between us.",
-      "published": "Wed, 28 Oct 2026 10:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 3,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -64,15 +40,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "published": "Tue, 27 Oct 2026 07:00:00 GMT",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "published": "Wed, 28 Oct 2026 09:30:00 GMT",
       "freshness_score": 6,
-      "relevance_score": 16,
-      "impact_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 22
+      "pre_filter_score": 25
     },
     {
       "source": "NVIDIA Blog",
@@ -100,27 +76,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "description": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "published": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "published": "Tue, 27 Oct 2026 07:00:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 9,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "ChatGPT’s expanding world of work",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "description": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "published": "Mon, 26 Oct 2026 10:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 10,
-      "impact_score": 4,
+      "relevance_score": 16,
+      "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
+      "pre_filter_score": 21
     },
     {
       "source": "OpenAI News",
@@ -148,18 +112,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "description": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "published": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 5,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "OpenAI News",
       "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
@@ -183,42 +135,6 @@
       "pre_filter_score": 9
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
-      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
-      "description": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:19 +0000",
-      "freshness_score": 2,
-      "relevance_score": 18,
-      "impact_score": 9,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 29
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
-      "url": "https://blogs.nvidia.com/blog/dsx-power/",
-      "description": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in infrastructure. More than $300 billion [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:25 +0000",
-      "freshness_score": 2,
-      "relevance_score": 10,
-      "impact_score": 12,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 24
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
-      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
-      "description": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:56 +0000",
-      "freshness_score": 2,
-      "relevance_score": 11,
-      "impact_score": 8,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
-    },
-    {
       "source": "OpenAI News",
       "title": "New funding to build towards AGI",
       "url": "https://openai.com/index/march-funding-updates",
@@ -228,6 +144,18 @@
       "relevance_score": 18,
       "impact_score": 9,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 27
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+      "description": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:19 +0000",
+      "freshness_score": 0,
+      "relevance_score": 18,
+      "impact_score": 9,
+      "story_type": "RESEARCH",
       "pre_filter_score": 27
     },
     {
@@ -385,6 +313,18 @@
       "impact_score": 7,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 23
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+      "url": "https://blogs.nvidia.com/blog/dsx-power/",
+      "description": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in infrastructure. More than $300 billion [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:25 +0000",
+      "freshness_score": 0,
+      "relevance_score": 10,
+      "impact_score": 12,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 22
     },
     {
       "source": "OpenAI News",
@@ -639,6 +579,18 @@
       "pre_filter_score": 21
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "description": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:27 +0000",
+      "freshness_score": 0,
+      "relevance_score": 18,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 21
+    },
+    {
       "source": "OpenAI News",
       "title": "Intuit and OpenAI join forces on new AI-powered experiences",
       "url": "https://openai.com/index/intuit-partnership",
@@ -795,6 +747,18 @@
       "pre_filter_score": 20
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+      "description": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:23 +0000",
+      "freshness_score": 0,
+      "relevance_score": 15,
+      "impact_score": 5,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 20
+    },
+    {
       "source": "OpenAI News",
       "title": "Using thousands of AI agents to uncover new leads in biological data",
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
@@ -903,6 +867,18 @@
       "pre_filter_score": 19
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+      "description": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:56 +0000",
+      "freshness_score": 0,
+      "relevance_score": 11,
+      "impact_score": 8,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
       "source": "OpenAI News",
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
@@ -956,6 +932,30 @@
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
       "published": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing EVMbench",
+      "url": "https://openai.com/index/introducing-evmbench",
+      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "published": "Wed, 18 Feb 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Genmab launches “AI Everywhere”",
+      "url": "https://openai.com/index/genmab",
+      "description": "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy",
+      "published": "Thu, 19 Sep 2024 04:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
