@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:04:00.022465+00:00",
+  "generated_at": "2026-10-29T03:46:22.203083+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,23 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
       "description": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified [&#8230;]",
       "published": "Wed, 28 Oct 2026 15:00:46 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 18,
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 30
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "published": "Wed, 28 Oct 2026 13:15:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 16,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 25
+      "pre_filter_score": 29
     },
     {
       "source": "OpenAI News",
@@ -37,6 +25,18 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 27
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "published": "Wed, 28 Oct 2026 13:15:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 24
     },
     {
       "source": "OpenAI News",
@@ -64,18 +64,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "description": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "published": "Tue, 27 Oct 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 14,
-      "impact_score": 7,
-      "story_type": "SECURITY",
-      "pre_filter_score": 27
-    },
-    {
-      "source": "OpenAI News",
       "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
       "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
@@ -97,6 +85,18 @@
       "impact_score": 5,
       "story_type": "RESEARCH",
       "pre_filter_score": 16
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "description": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "published": "Tue, 27 Oct 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 14,
+      "impact_score": 7,
+      "story_type": "SECURITY",
+      "pre_filter_score": 26
     },
     {
       "source": "OpenAI News",
@@ -180,18 +180,6 @@
       "relevance_score": 4,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 9
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing GPT-6.1 Terra",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "description": "Bringing fast and capable computer use to everyone",
-      "published": "Mon, 26 Oct 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 9
     },
     {
@@ -956,6 +944,18 @@
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
       "published": "Tue, 04 Aug 2026 19:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
