@@ -2,26 +2,26 @@
   "date": "2026-10-29",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Vixen and Keyhole Panda: China-linked cyber operations",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
-      "description": "OpenAI banned accounts associated with threat actors publicly attributed to the PRC, using AI to support vulnerability research, scripting, translation, and operational troubleshooting.",
-      "published": "Sun, 01 Jun 2025 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 15,
-      "impact_score": 11,
-      "story_type": "SECURITY",
-      "pre_filter_score": 26,
-      "content_id": "cand-94bd0c116c54a244",
+      "source": "NVIDIA Blog",
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "description": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified [&#8230;]",
+      "published": "Wed, 28 Oct 2026 15:00:46 +0000",
+      "freshness_score": 10,
+      "relevance_score": 18,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 31,
+      "content_id": "cand-ec6c9c8b29b5d9d2",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
         "quality_score": 57,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
-        "source": "OpenAI News"
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 57/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
