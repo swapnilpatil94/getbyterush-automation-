@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T03:50:09.129054+00:00",
+  "generated_at": "2026-10-30T11:56:14.948850+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
       "published": "Thu, 29 Oct 2026 16:00:35 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 18,
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 31
+      "pre_filter_score": 30
     },
     {
       "source": "OpenAI News",
@@ -20,35 +20,11 @@
       "url": "https://openai.com/index/updated-model-spec",
       "description": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "published": "Thu, 29 Oct 2026 17:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "description": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "published": "Thu, 29 Oct 2026 09:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 9,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "description": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "published": "Thu, 29 Oct 2026 07:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 15
+      "pre_filter_score": 14
     },
     {
       "source": "NVIDIA Blog",
@@ -76,18 +52,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora",
-      "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "published": "Wed, 28 Oct 2026 09:30:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 25
-    },
-    {
-      "source": "OpenAI News",
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
@@ -97,6 +61,30 @@
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 22
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "description": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "published": "Thu, 29 Oct 2026 09:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 9,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "description": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "published": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -112,15 +100,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "published": "Tue, 27 Oct 2026 07:00:00 GMT",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "published": "Wed, 28 Oct 2026 09:30:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 16,
-      "impact_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
+      "pre_filter_score": 24
     },
     {
       "source": "NVIDIA Blog",
@@ -676,6 +664,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "published": "Fri, 23 Oct 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 15,
+      "impact_score": 5,
+      "story_type": "BUSINESS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
       "title": "Advancing coding in low‑resource programming languages",
       "url": "https://openai.com/index/low-resource-programming-languages",
       "description": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
@@ -796,9 +796,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -808,9 +808,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,

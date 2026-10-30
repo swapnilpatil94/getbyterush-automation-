@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30T08:16:10.535730+00:00",
+  "updated_at": "2026-10-30T11:56:15.057288+00:00",
   "candidates": [
     {
       "content_id": "cand-b0d804bf5dc9cfee",
@@ -2390,50 +2390,6 @@
         "story_type": "TECH_NEWS",
         "pre_filter_score": 10
       }
-    },
-    {
-      "content_id": "cand-313cfafbcb3cef6b",
-      "topic": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
-      "content_type": "PRODUCT_TOOL",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "published_at": "Thu, 01 Oct 2026 23:44:13 +0000",
-      "discovered_at": "2026-10-16T10:26:03.755563+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 0,
-      "novelty": 0,
-      "visual_potential": 6,
-      "curiosity_score": 4,
-      "save_score": 7,
-      "share_score": 4,
-      "information_value": 15,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": true,
-        "product_demo_possible": true,
-        "mobile_demo_possible": false,
-        "website_demo_possible": true,
-        "visual_demo_possible": true
-      },
-      "status": "EDITORIAL_REJECTED",
-      "score": 61,
-      "raw": {
-        "source": "NVIDIA Blog",
-        "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-        "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-        "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
-        "published": "Thu, 01 Oct 2026 23:44:13 +0000",
-        "freshness_score": 0,
-        "relevance_score": 17,
-        "impact_score": 5,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 22
-      },
-      "rejected_at": "2026-10-17T05:16:22.972133+00:00"
     },
     {
       "content_id": "cand-ae3a86cc1ead7d5f",
@@ -6414,5 +6370,5 @@
       }
     }
   ],
-  "count": 148
+  "count": 147
 }
