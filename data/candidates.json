@@ -1,64 +1,52 @@
 {
-  "generated_at": "2026-10-30T11:56:14.948850+00:00",
+  "generated_at": "2026-10-30T17:38:45.737387+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "description": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening for AI agents [&#8230;]",
+      "published": "Fri, 30 Oct 2026 15:00:10 +0000",
+      "freshness_score": 10,
+      "relevance_score": 14,
+      "impact_score": 0,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 24
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "description": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "published": "Fri, 30 Oct 2026 09:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 17
+    },
     {
       "source": "NVIDIA Blog",
       "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
       "published": "Thu, 29 Oct 2026 16:00:35 +0000",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 18,
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 30
+      "pre_filter_score": 28
     },
     {
       "source": "OpenAI News",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "url": "https://openai.com/index/updated-model-spec",
-      "description": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "published": "Thu, 29 Oct 2026 17:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
-      "description": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts and punk fantasy to the cloud. There’s also something on the horizon for adventurers: World of Warcraft: Forever arrives Wednesday, [&#8230;]",
-      "published": "Thu, 29 Oct 2026 13:00:16 +0000",
-      "freshness_score": 8,
-      "relevance_score": 2,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 10
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
-      "description": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified [&#8230;]",
-      "published": "Wed, 28 Oct 2026 15:00:46 +0000",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "description": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+      "published": "Thu, 29 Oct 2026 00:00:00 GMT",
       "freshness_score": 6,
-      "relevance_score": 18,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "published": "Wed, 28 Oct 2026 13:15:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 16,
-      "impact_score": 0,
+      "relevance_score": 11,
+      "impact_score": 5,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 22
     },
@@ -88,15 +76,27 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "url": "https://openai.com/index/retell-ai",
-      "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "published": "Tue, 27 Oct 2026 15:00:00 GMT",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "description": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "published": "Thu, 29 Oct 2026 17:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 12
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "description": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified [&#8230;]",
+      "published": "Wed, 28 Oct 2026 15:00:46 +0000",
       "freshness_score": 5,
-      "relevance_score": 16,
-      "impact_score": 6,
+      "relevance_score": 18,
+      "impact_score": 3,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27
+      "pre_filter_score": 26
     },
     {
       "source": "OpenAI News",
@@ -111,16 +111,16 @@
       "pre_filter_score": 24
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
-      "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
-      "description": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in [&#8230;]",
-      "published": "Tue, 27 Oct 2026 15:00:20 +0000",
+      "source": "OpenAI News",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "published": "Wed, 28 Oct 2026 13:15:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 5,
-      "impact_score": 5,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 15
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21
     },
     {
       "source": "OpenAI News",
