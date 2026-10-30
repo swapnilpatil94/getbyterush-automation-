@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30T17:38:45.835949+00:00",
+  "updated_at": "2026-10-30T21:50:35.998853+00:00",
   "candidates": [
     {
       "content_id": "cand-b0d804bf5dc9cfee",
@@ -2523,49 +2523,6 @@
         "pre_filter_score": 19
       },
       "rejected_at": "2026-10-23T14:46:11.054025+00:00"
-    },
-    {
-      "content_id": "cand-431c4839876e0ca1",
-      "topic": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "discovered_at": "2026-10-16T20:21:21.249562+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 4,
-      "novelty": 0,
-      "visual_potential": 3,
-      "curiosity_score": 0,
-      "save_score": 5,
-      "share_score": 3,
-      "information_value": 8,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 42,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-        "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-        "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-        "published": "Fri, 16 Oct 2026 00:00:00 GMT",
-        "freshness_score": 8,
-        "relevance_score": 8,
-        "impact_score": 0,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 16
-      }
     },
     {
       "content_id": "cand-82e8f5cec141d6f5",
@@ -6497,6 +6454,49 @@
         "impact_score": 5,
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 22
+      }
+    },
+    {
+      "content_id": "cand-33d6ce194c865c73",
+      "topic": "Making it easier for websites to express AI training preferences",
+      "title": "Making it easier for websites to express AI training preferences",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "published_at": "Fri, 30 Oct 2026 09:30:00 GMT",
+      "discovered_at": "2026-10-30T21:50:35.990582+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 3,
+      "information_value": 8,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": true,
+        "product_demo_possible": true,
+        "mobile_demo_possible": false,
+        "website_demo_possible": true,
+        "visual_demo_possible": true
+      },
+      "status": "POOLED",
+      "score": 42,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Making it easier for websites to express AI training preferences",
+        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+        "description": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+        "published": "Fri, 30 Oct 2026 09:30:00 GMT",
+        "freshness_score": 8,
+        "relevance_score": 8,
+        "impact_score": 0,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 16
       }
     }
   ],
