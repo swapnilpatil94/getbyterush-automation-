@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T01:46:21.065054+00:00",
+  "updated_at": "2026-10-31T03:33:25.748333+00:00",
   "candidates": [
     {
       "content_id": "cand-b0d804bf5dc9cfee",
@@ -2523,50 +2523,6 @@
         "pre_filter_score": 19
       },
       "rejected_at": "2026-10-23T14:46:11.054025+00:00"
-    },
-    {
-      "content_id": "cand-82e8f5cec141d6f5",
-      "topic": "How Itaú is building generative AI for its entire customer base",
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/itau-generative-ai",
-      "published_at": "Fri, 16 Oct 2026 19:00:00 GMT",
-      "discovered_at": "2026-10-17T02:26:30.860025+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 4,
-      "novelty": 6,
-      "visual_potential": 3,
-      "curiosity_score": 4,
-      "save_score": 5,
-      "share_score": 6,
-      "information_value": 9,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "EDITORIAL_REJECTED",
-      "score": 58,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "How Itaú is building generative AI for its entire customer base",
-        "url": "https://openai.com/index/itau-generative-ai",
-        "description": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-        "published": "Fri, 16 Oct 2026 19:00:00 GMT",
-        "freshness_score": 9,
-        "relevance_score": 11,
-        "impact_score": 5,
-        "story_type": "BUSINESS",
-        "pre_filter_score": 25
-      },
-      "rejected_at": "2026-10-17T08:16:38.688336+00:00"
     },
     {
       "content_id": "cand-25d7b047c047ae0f",
@@ -6498,6 +6454,49 @@
         "impact_score": 0,
         "story_type": "TECH_NEWS",
         "pre_filter_score": 16
+      }
+    },
+    {
+      "content_id": "cand-eb680b36574e8c14",
+      "topic": "Fair use benefits everyone",
+      "title": "Fair use benefits everyone",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/fair-use-benefits-everyone",
+      "published_at": "Fri, 30 Oct 2026 00:00:00 GMT",
+      "discovered_at": "2026-10-31T03:33:25.741769+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 7,
+      "share_score": 6,
+      "information_value": 7,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 46,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Fair use benefits everyone",
+        "url": "https://openai.com/index/fair-use-benefits-everyone",
+        "description": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+        "published": "Fri, 30 Oct 2026 00:00:00 GMT",
+        "freshness_score": 6,
+        "relevance_score": 9,
+        "impact_score": 5,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 20
       }
     }
   ],
