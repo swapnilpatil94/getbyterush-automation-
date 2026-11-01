@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-10-31T20:51:21.230310+00:00",
+  "generated_at": "2026-11-01T03:39:08.847114+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "OpenAI News",
-      "title": "Fair use benefits everyone",
-      "url": "https://openai.com/index/fair-use-benefits-everyone",
-      "description": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-      "published": "Fri, 30 Oct 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 9,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
     {
       "source": "NVIDIA Blog",
       "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
@@ -64,15 +52,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-      "url": "https://openai.com/index/credit-saison",
-      "description": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-      "published": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "description": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "published": "Fri, 30 Oct 2026 00:00:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 11,
+      "relevance_score": 9,
       "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 19
     },
     {
       "source": "OpenAI News",
@@ -959,6 +947,18 @@
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Localiza reorganized work around generative AI",
+      "url": "https://openai.com/index/localiza-generative-ai",
+      "description": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
