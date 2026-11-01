@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-2865c849048d9521",
+      "topic": "How Check Point accelerates vulnerability research with Daybreak",
+      "category": "LAST_24H",
+      "score": 52,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/check-point-daybreak",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -32,7 +47,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-2865c849048d9521",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
