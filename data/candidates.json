@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T03:39:08.847114+00:00",
+  "generated_at": "2026-11-01T12:27:02.255446+00:00",
   "count": 80,
   "stories": [
     {
@@ -13,30 +13,6 @@
       "impact_score": 0,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Making it easier for websites to express AI training preferences",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "description": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "published": "Fri, 30 Oct 2026 09:30:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "description": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "published": "Fri, 30 Oct 2026 09:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
     },
     {
       "source": "NVIDIA Blog",
@@ -64,27 +40,27 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "description": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "published": "Thu, 29 Oct 2026 09:00:00 GMT",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "description": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "published": "Fri, 30 Oct 2026 09:30:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 9,
-      "impact_score": 2,
+      "relevance_score": 8,
+      "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
+      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "description": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "published": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "description": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "published": "Fri, 30 Oct 2026 09:00:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -772,9 +748,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -784,9 +760,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -960,6 +936,30 @@
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "published": "Wed, 14 Oct 2026 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "published": "Tue, 06 Oct 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 19
     }
   ]
