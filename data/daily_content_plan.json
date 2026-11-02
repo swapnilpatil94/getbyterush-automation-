@@ -1,48 +1,18 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-5920d9f979833f17",
-      "topic": "How Localiza reorganized work around generative AI",
+      "content_id": "cand-1ade5660de22d90e",
+      "topic": "How we’re responding to The New York Times’ data demands in order to protect user privacy",
       "category": "EVERGREEN_VALUE",
-      "score": 57,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
+      "score": 56,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 56/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/localiza-generative-ai",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-2865c849048d9521",
-      "topic": "How Check Point accelerates vulnerability research with Daybreak",
-      "category": "LAST_24H",
-      "score": 52,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/check-point-daybreak",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-b2bc5c5490bc3f9c",
-      "topic": "Amp puts AI agents to work beyond code with OpenAI models",
-      "category": "EVERGREEN_VALUE",
-      "score": 61,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 61/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/amp-beyond-coding",
+      "source_url": "https://openai.com/index/response-to-nyt-data-demands",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-5920d9f979833f17",
+      "content_id": "cand-1ade5660de22d90e",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-2865c849048d9521",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-b2bc5c5490bc3f9c",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
