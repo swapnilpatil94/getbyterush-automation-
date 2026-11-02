@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T03:44:36.724741+00:00",
+  "generated_at": "2026-11-02T14:24:33.781450+00:00",
   "count": 80,
   "stories": [
     {
@@ -13,30 +13,6 @@
       "impact_score": 0,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Making it easier for websites to express AI training preferences",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "description": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "published": "Fri, 30 Oct 2026 09:30:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 13
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "description": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "published": "Fri, 30 Oct 2026 09:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -961,6 +937,30 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Inside Mirakl's agentic commerce vision",
+      "url": "https://openai.com/index/mirakl",
+      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+      "published": "Mon, 01 Dec 2025 22:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
     }
   ]
 }
