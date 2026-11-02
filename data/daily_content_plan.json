@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-99df1b03ed752910",
+      "topic": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "category": "LAST_24H",
+      "score": 50,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 50/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -32,7 +47,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-99df1b03ed752910",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
