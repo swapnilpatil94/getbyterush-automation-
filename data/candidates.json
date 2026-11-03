@@ -1,18 +1,30 @@
 {
-  "generated_at": "2026-11-03T13:23:11.114765+00:00",
+  "generated_at": "2026-11-03T22:44:56.410118+00:00",
   "count": 80,
   "stories": [
     {
+      "source": "NVIDIA Blog",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "description": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor [&#8230;]",
+      "published": "Tue, 03 Nov 2026 16:00:45 +0000",
+      "freshness_score": 9,
+      "relevance_score": 9,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
       "source": "OpenAI News",
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "url": "https://openai.com/index/heimstaden",
-      "description": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-      "published": "Tue, 03 Nov 2026 08:00:00 GMT",
-      "freshness_score": 10,
-      "relevance_score": 13,
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "description": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "published": "Tue, 03 Nov 2026 12:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 5,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 25
+      "pre_filter_score": 16
     },
     {
       "source": "NVIDIA Blog",
@@ -20,70 +32,46 @@
       "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
       "description": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments [&#8230;]",
       "published": "Tue, 03 Nov 2026 07:00:12 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 13,
       "impact_score": 5,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 27
+      "pre_filter_score": 26
     },
     {
       "source": "OpenAI News",
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "description": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "published": "Mon, 02 Nov 2026 18:00:00 GMT",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "description": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "published": "Tue, 03 Nov 2026 08:00:00 GMT",
       "freshness_score": 8,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Scaling Git at OpenAI",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "description": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "published": "Mon, 02 Nov 2026 15:30:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 5,
+      "relevance_score": 13,
       "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 15
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 23
     },
     {
       "source": "OpenAI News",
-      "title": "Introducing the Grid Protectors Program",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "description": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-      "published": "Mon, 02 Nov 2026 15:00:00 GMT",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "description": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "published": "Tue, 03 Nov 2026 08:00:00 GMT",
       "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 14
+      "relevance_score": 13,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 23
     },
     {
       "source": "OpenAI News",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "description": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "published": "Mon, 02 Nov 2026 18:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "The latest AI news we announced in October 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-      "description": "Here are Google’s latest AI updates from October 2026",
-      "published": "Mon, 02 Nov 2026 17:45:00 +0000",
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "description": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "published": "Tue, 03 Nov 2026 00:00:00 GMT",
       "freshness_score": 8,
       "relevance_score": 4,
       "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 12
     },
     {
@@ -100,10 +88,46 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "description": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "published": "Mon, 02 Nov 2026 00:00:00 GMT",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "description": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "published": "Mon, 02 Nov 2026 18:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "description": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "published": "Mon, 02 Nov 2026 15:30:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "description": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "published": "Mon, 02 Nov 2026 15:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 12
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "description": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "published": "Mon, 02 Nov 2026 18:00:00 GMT",
       "freshness_score": 6,
       "relevance_score": 6,
       "impact_score": 0,
@@ -121,6 +145,30 @@
       "impact_score": 0,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 12
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "description": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "published": "Mon, 02 Nov 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "description": "Here are Google’s latest AI updates from October 2026",
+      "published": "Mon, 02 Nov 2026 17:45:00 +0000",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 10
     },
     {
       "source": "OpenAI News",
@@ -335,6 +383,18 @@
       "freshness_score": 0,
       "relevance_score": 15,
       "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 22
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "published": "Tue, 27 Oct 2026 15:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 6,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 22
     },
@@ -652,18 +712,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "STORM-0817: Iran-linked malware and scraping activity",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "Bet Bot: Gambling spam network",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
       "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
@@ -672,6 +720,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "STORM-0817: Iran-linked malware and scraping activity",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "SECURITY",
       "pre_filter_score": 20
     },
     {
@@ -900,66 +960,6 @@
       "relevance_score": 12,
       "impact_score": 7,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "published": "Mon, 20 Jul 2026 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 7,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Deep double descent",
-      "url": "https://openai.com/index/deep-double-descent",
-      "description": "We show that the double descent phenomenon occurs in CNNs, ResNets, and transformers: performance first improves, then gets worse, and then improves again with increasing model size, data size, or training time. This effect is often avoided through careful regularization. While this behavior appears to be fairly universal, we don’t yet fully understand why it happens, and view further study of this phenomenon as an important research direction.",
-      "published": "Thu, 05 Dec 2019 08:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 7,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "published": "Tue, 04 Aug 2026 19:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing EVMbench",
-      "url": "https://openai.com/index/introducing-evmbench",
-      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
-      "published": "Wed, 18 Feb 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "AI_AGENTS",
       "pre_filter_score": 19
     }
   ]
