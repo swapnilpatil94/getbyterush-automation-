@@ -1,26 +1,26 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
-      "url": "https://openai.com/index/trustbank",
-      "description": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, enabling personalized conversational recommendations that simplify Furusato Nozei gift discovery.",
-      "published": "Tue, 27 Jan 2026 00:00:00 GMT",
+      "title": "Pioneering an AI clinical copilot with Penda Health",
+      "url": "https://openai.com/index/ai-clinical-copilot-penda-health",
+      "description": "OpenAI and Penda Health debut an AI clinical copilot that cuts diagnostic errors by 16% in real-world use—offering a new path for safe, effective AI in healthcare.",
+      "published": "Tue, 22 Jul 2025 10:00:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 18,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21,
-      "content_id": "cand-282c6641ce9776a2",
+      "relevance_score": 11,
+      "impact_score": 11,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 22,
+      "content_id": "cand-eeb658bab83cd57c",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
         "category": "EVERGREEN_VALUE",
-        "quality_score": 56,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 56/100)",
+        "quality_score": 55,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
         "source": "OpenAI News"
       }
     }
