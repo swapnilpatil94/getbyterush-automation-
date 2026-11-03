@@ -1,18 +1,66 @@
 {
-  "generated_at": "2026-11-02T14:24:33.781450+00:00",
+  "generated_at": "2026-11-03T00:15:39.054817+00:00",
   "count": 80,
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
-      "description": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening for AI agents [&#8230;]",
-      "published": "Fri, 30 Oct 2026 15:00:10 +0000",
-      "freshness_score": 5,
-      "relevance_score": 14,
+      "source": "OpenAI News",
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "description": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "published": "Mon, 02 Nov 2026 15:30:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 16
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "description": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "published": "Mon, 02 Nov 2026 15:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 6,
       "impact_score": 0,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "description": "Here are Google’s latest AI updates from October 2026",
+      "published": "Mon, 02 Nov 2026 17:45:00 +0000",
+      "freshness_score": 9,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "description": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "published": "Mon, 02 Nov 2026 09:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 5,
+      "impact_score": 5,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "description": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "published": "Mon, 02 Nov 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -376,6 +424,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "description": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "published": "Tue, 27 Oct 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 7,
+      "story_type": "SECURITY",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
       "title": "Building an early warning system for LLM-aided biological threat creation",
       "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
       "description": "We’re developing a blueprint for evaluating the risk that a large language model (LLM) could aid someone in creating a biological threat. In an evaluation involving both biology experts and students, we found that GPT-4 provides at most a mild uplift in biological threat creation accuracy. While this uplift is not large enough to be conclusive, our finding is a starting point for continued research and community deliberation.",
@@ -532,18 +592,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "STORM-0817: Iran-linked malware and scraping activity",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "Bet Bot: Gambling spam network",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
       "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
@@ -552,6 +600,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "STORM-0817: Iran-linked malware and scraping activity",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "SECURITY",
       "pre_filter_score": 20
     },
     {
@@ -901,66 +961,6 @@
       "impact_score": 2,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "published": "Thu, 25 Jun 2026 02:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "published": "Thu, 04 Jun 2026 12:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Inside Mirakl's agentic commerce vision",
-      "url": "https://openai.com/index/mirakl",
-      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
-      "published": "Mon, 01 Dec 2025 22:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
     }
   ]
 }
