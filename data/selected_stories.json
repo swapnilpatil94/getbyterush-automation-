@@ -2,26 +2,26 @@
   "date": "2026-11-03",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Pioneering an AI clinical copilot with Penda Health",
-      "url": "https://openai.com/index/ai-clinical-copilot-penda-health",
-      "description": "OpenAI and Penda Health debut an AI clinical copilot that cuts diagnostic errors by 16% in real-world use—offering a new path for safe, effective AI in healthcare.",
-      "published": "Tue, 22 Jul 2025 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 11,
-      "impact_score": 11,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 22,
-      "content_id": "cand-eeb658bab83cd57c",
+      "source": "NVIDIA Blog",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "description": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments [&#8230;]",
+      "published": "Tue, 03 Nov 2026 07:00:12 +0000",
+      "freshness_score": 9,
+      "relevance_score": 13,
+      "impact_score": 5,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 27,
+      "content_id": "cand-e70840a2552f01d1",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 55,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
-        "source": "OpenAI News"
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "LAST_24H",
+        "quality_score": 58,
+        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 58/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]

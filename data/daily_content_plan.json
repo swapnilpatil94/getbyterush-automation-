@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "night",
+      "content_id": "cand-e70840a2552f01d1",
+      "topic": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "category": "LAST_24H",
+      "score": 58,
+      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 58/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -47,7 +62,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-e70840a2552f01d1",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
