@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-bf86d760801a0254",
+      "topic": "Heimstaden is changing residential real estate management with AI",
+      "category": "LAST_24H",
+      "score": 51,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 51/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/heimstaden",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -32,7 +47,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-bf86d760801a0254",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
