@@ -1,27 +1,27 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
-      "description": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments [&#8230;]",
-      "published": "Tue, 03 Nov 2026 07:00:12 +0000",
-      "freshness_score": 9,
-      "relevance_score": 13,
-      "impact_score": 5,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 27,
-      "content_id": "cand-e70840a2552f01d1",
+      "source": "OpenAI News",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "description": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "published": "Mon, 01 Jun 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 6,
+      "story_type": "BUSINESS",
+      "pre_filter_score": 22,
+      "content_id": "cand-337f58b6431ead39",
       "selection_meta": {
-        "rank": 2,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "LAST_24H",
-        "quality_score": 58,
-        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 58/100)",
-        "source": "NVIDIA Blog"
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 55,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
+        "source": "OpenAI News"
       }
     }
   ]
