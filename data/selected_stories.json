@@ -2,26 +2,26 @@
   "date": "2026-11-05",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "How Cisco defends at machine speed with OpenAI",
-      "url": "https://openai.com/index/cisco-cyber",
-      "description": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-      "published": "Tue, 03 Nov 2026 08:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 13,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 23,
-      "content_id": "cand-06d138ec2464cc72",
+      "source": "NVIDIA Blog",
+      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+      "description": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:19 +0000",
+      "freshness_score": 0,
+      "relevance_score": 18,
+      "impact_score": 9,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 27,
+      "content_id": "cand-fdec6cdef3a15ff4",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
-        "quality_score": 50,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 50/100)",
-        "source": "OpenAI News"
+        "slot": "night",
+        "slot_label": "Maximum push",
+        "category": "DATA_RESEARCH",
+        "quality_score": 61,
+        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 61/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
