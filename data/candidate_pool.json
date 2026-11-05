@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T01:49:21.459640+00:00",
+  "updated_at": "2026-11-05T04:34:04.571757+00:00",
   "candidates": [
     {
       "content_id": "cand-48c2b241758cbad3",
@@ -3006,49 +3006,6 @@
       }
     },
     {
-      "content_id": "cand-b388a858b482fcab",
-      "topic": "Broad access through consistent standards",
-      "title": "Broad access through consistent standards",
-      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "published_at": "Wed, 21 Oct 2026 21:00:00 GMT",
-      "discovered_at": "2026-10-22T02:45:06.601043+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 5,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 8,
-      "save_score": 4,
-      "share_score": 5,
-      "information_value": 4,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 46,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Broad access through consistent standards",
-        "url": "https://openai.com/index/broad-access-through-consistent-standards",
-        "description": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-        "published": "Wed, 21 Oct 2026 21:00:00 GMT",
-        "freshness_score": 10,
-        "relevance_score": 6,
-        "impact_score": 4,
-        "story_type": "TECH_NEWS",
-        "pre_filter_score": 20
-      }
-    },
-    {
       "content_id": "cand-7263ed2b39f18173",
       "topic": "Cloudflare links vulnerability discovery to defense with OpenAI",
       "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
@@ -3089,49 +3046,6 @@
         "impact_score": 3,
         "story_type": "SECURITY",
         "pre_filter_score": 23
-      }
-    },
-    {
-      "content_id": "cand-b30505bcae631ed4",
-      "topic": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "content_type": "DATA_RESEARCH",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/ringg",
-      "published_at": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "discovered_at": "2026-10-22T02:45:06.610225+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 0,
-      "novelty": 0,
-      "visual_potential": 8,
-      "curiosity_score": 0,
-      "save_score": 7,
-      "share_score": 3,
-      "information_value": 15,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": true
-      },
-      "status": "POOLED",
-      "score": 54,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "url": "https://openai.com/index/ringg",
-        "description": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "published": "Wed, 23 Sep 2026 12:00:00 GMT",
-        "freshness_score": 0,
-        "relevance_score": 16,
-        "impact_score": 5,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 21
       }
     },
     {
@@ -6291,6 +6205,92 @@
         "pre_filter_score": 20
       },
       "rejected_at": "2026-11-05T01:49:21.459591+00:00"
+    },
+    {
+      "content_id": "cand-74d5d13c84ed871a",
+      "topic": "Introducing Images 2.6",
+      "title": "Introducing Images 2.6",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-images-2-6",
+      "published_at": "Wed, 04 Nov 2026 00:00:00 GMT",
+      "discovered_at": "2026-11-05T04:34:04.568029+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 6,
+      "share_score": 3,
+      "information_value": 4,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 31,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Introducing Images 2.6",
+        "url": "https://openai.com/index/introducing-images-2-6",
+        "description": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+        "published": "Wed, 04 Nov 2026 00:00:00 GMT",
+        "freshness_score": 6,
+        "relevance_score": 4,
+        "impact_score": 0,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 10
+      }
+    },
+    {
+      "content_id": "cand-b30505bcae631ed4",
+      "topic": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "content_type": "DATA_RESEARCH",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/ringg",
+      "published_at": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "discovered_at": "2026-11-05T04:34:04.571587+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 0,
+      "novelty": 0,
+      "visual_potential": 8,
+      "curiosity_score": 0,
+      "save_score": 7,
+      "share_score": 3,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": true
+      },
+      "status": "POOLED",
+      "score": 54,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "url": "https://openai.com/index/ringg",
+        "description": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "published": "Wed, 23 Sep 2026 12:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 16,
+        "impact_score": 5,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 21
+      }
     }
   ],
   "count": 145
