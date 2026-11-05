@@ -1,48 +1,18 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-337f58b6431ead39",
-      "topic": "OpenAI frontier models and Codex are now available on AWS",
+      "content_id": "cand-76b3f4af43fd772a",
+      "topic": "Using thousands of AI agents to uncover new leads in biological data",
       "category": "EVERGREEN_VALUE",
-      "score": 55,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
+      "score": 59,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 59/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-bf86d760801a0254",
-      "topic": "Heimstaden is changing residential real estate management with AI",
-      "category": "LAST_24H",
-      "score": 51,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 51/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/heimstaden",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-b0ae0f985eb1d4a2",
-      "topic": "Understanding prompt injections: a frontier security challenge",
-      "category": "DATA_RESEARCH",
-      "score": 56,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/prompt-injections",
+      "source_url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-337f58b6431ead39",
+      "content_id": "cand-76b3f4af43fd772a",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-bf86d760801a0254",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-b0ae0f985eb1d4a2",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
