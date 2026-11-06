@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "afternoon",
+      "content_id": "cand-a8a695ebf6be93a9",
+      "topic": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "category": "LAST_24H",
+      "score": 66,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 66/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -44,7 +59,12 @@
       "status": "SELECTED",
       "content_id": "cand-308cf8bbd62399c2",
       "label": "Curiosity + saves"
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-a8a695ebf6be93a9",
+      "label": "Freshness"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
