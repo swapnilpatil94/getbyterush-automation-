@@ -1,18 +1,54 @@
 {
-  "generated_at": "2026-11-06T13:32:16.308720+00:00",
+  "generated_at": "2026-11-06T22:36:31.462438+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "description": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless [&#8230;]",
+      "published": "Fri, 06 Nov 2026 16:00:35 +0000",
+      "freshness_score": 9,
+      "relevance_score": 15,
+      "impact_score": 5,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 29
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "description": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "published": "Fri, 06 Nov 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 13,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 23
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "description": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "published": "Fri, 06 Nov 2026 08:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 8,
+      "impact_score": 3,
+      "story_type": "SECURITY",
+      "pre_filter_score": 19
+    },
     {
       "source": "NVIDIA Blog",
       "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
       "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
       "description": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack. [&#8230;]",
       "published": "Thu, 05 Nov 2026 16:00:00 +0000",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 17,
       "impact_score": 5,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 30
+      "pre_filter_score": 28
     },
     {
       "source": "NVIDIA Blog",
@@ -20,71 +56,11 @@
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
       "published": "Thu, 05 Nov 2026 17:00:35 +0000",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 18,
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 30
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
-      "description": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers. [&#8230;]",
-      "published": "Thu, 05 Nov 2026 16:00:05 +0000",
-      "freshness_score": 8,
-      "relevance_score": 18,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 29
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-      "description": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those [&#8230;]",
-      "published": "Thu, 05 Nov 2026 20:00:41 +0000",
-      "freshness_score": 8,
-      "relevance_score": 16,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 26
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Australian universities are creating AI-native graduates",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "description": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "published": "Thu, 05 Nov 2026 17:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
-      "published": "Thu, 05 Nov 2026 17:00:00 +0000",
-      "freshness_score": 8,
-      "relevance_score": 2,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
-      "description": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available for GeForce NOW members. Meanwhile, Ubisoft brings fresh challenges with expansions [&#8230;]",
-      "published": "Thu, 05 Nov 2026 14:00:34 +0000",
-      "freshness_score": 8,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 12
+      "pre_filter_score": 28
     },
     {
       "source": "OpenAI News",
@@ -97,6 +73,30 @@
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 27
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+      "description": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers. [&#8230;]",
+      "published": "Thu, 05 Nov 2026 16:00:05 +0000",
+      "freshness_score": 6,
+      "relevance_score": 18,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 27
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "description": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those [&#8230;]",
+      "published": "Thu, 05 Nov 2026 20:00:41 +0000",
+      "freshness_score": 6,
+      "relevance_score": 16,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 24
     },
     {
       "source": "OpenAI News",
@@ -124,6 +124,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "description": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "published": "Thu, 05 Nov 2026 17:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
       "title": "Merge builds product and business tools with OpenAI technology",
       "url": "https://openai.com/index/merge-builds-with-openai",
       "description": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
@@ -147,16 +159,16 @@
       "pre_filter_score": 12
     },
     {
-      "source": "OpenAI News",
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "description": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "published": "Wed, 04 Nov 2026 14:30:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
+      "description": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available for GeForce NOW members. Meanwhile, Ubisoft brings fresh challenges with expansions [&#8230;]",
+      "published": "Thu, 05 Nov 2026 14:00:34 +0000",
       "freshness_score": 6,
-      "relevance_score": 6,
+      "relevance_score": 4,
       "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 10
     },
     {
       "source": "OpenAI News",
@@ -195,16 +207,16 @@
       "pre_filter_score": 16
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
-      "description": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor [&#8230;]",
-      "published": "Tue, 03 Nov 2026 16:00:45 +0000",
+      "source": "OpenAI News",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "description": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "published": "Wed, 04 Nov 2026 14:30:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 9,
-      "impact_score": 2,
+      "relevance_score": 6,
+      "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
+      "pre_filter_score": 11
     },
     {
       "source": "OpenAI News",
@@ -760,18 +772,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Bet Bot: Gambling spam network",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
-      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "STORM-0817: Iran-linked malware and scraping activity",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
       "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
@@ -780,6 +780,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bet Bot: Gambling spam network",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -867,18 +879,6 @@
       "pre_filter_score": 20
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-      "description": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:23 +0000",
-      "freshness_score": 0,
-      "relevance_score": 15,
-      "impact_score": 5,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 20
-    },
-    {
       "source": "OpenAI News",
       "title": "Using thousands of AI agents to uncover new leads in biological data",
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
@@ -916,9 +916,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -928,9 +928,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
