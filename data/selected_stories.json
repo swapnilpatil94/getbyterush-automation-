@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "NVIDIA Blog",
-      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-      "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-      "description": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack. [&#8230;]",
-      "published": "Thu, 05 Nov 2026 16:00:00 +0000",
+      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+      "description": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers. [&#8230;]",
+      "published": "Thu, 05 Nov 2026 16:00:05 +0000",
       "freshness_score": 9,
-      "relevance_score": 17,
-      "impact_score": 5,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 31,
-      "content_id": "cand-a8a695ebf6be93a9",
+      "relevance_score": 18,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 30,
+      "content_id": "cand-07beecbe07f431d4",
       "selection_meta": {
-        "rank": 3,
+        "rank": 4,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "LAST_24H",
-        "quality_score": 66,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 66/100)",
+        "quality_score": 57,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 57/100)",
         "source": "NVIDIA Blog"
       }
     }

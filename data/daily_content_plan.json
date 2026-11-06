@@ -47,6 +47,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 4,
+      "slot": "night",
+      "content_id": "cand-07beecbe07f431d4",
+      "topic": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+      "category": "LAST_24H",
+      "score": 57,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 57/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -72,7 +87,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-07beecbe07f431d4",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 4
 }
