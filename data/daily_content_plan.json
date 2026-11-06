@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "midmorning",
+      "content_id": "cand-308cf8bbd62399c2",
+      "topic": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "category": "PRODUCT_TOOL",
+      "score": 54,
+      "reason": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 54/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -24,7 +39,12 @@
       "status": "SELECTED",
       "content_id": "cand-d8f7977f20097c65",
       "label": "Morning discovery"
+    },
+    "midmorning": {
+      "status": "SELECTED",
+      "content_id": "cand-308cf8bbd62399c2",
+      "label": "Curiosity + saves"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
