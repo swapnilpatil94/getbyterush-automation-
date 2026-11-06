@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T04:32:18.195167+00:00",
+  "generated_at": "2026-11-06T13:32:16.052532+00:00",
   "count": 1402,
   "stories": [
     {
@@ -8,7 +8,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
       "published": "Thu, 05 Nov 2026 17:00:00 +0000",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "Google AI Blog",
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
       "description": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "published": "Thu, 05 Nov 2026 17:00:00 GMT",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "OpenAI News",
@@ -176,7 +176,7 @@
       "url": "https://openai.com/index/cultfit-builds-with-codex",
       "description": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "published": "Thu, 05 Nov 2026 20:00:00 GMT",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "OpenAI News",
@@ -184,7 +184,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "description": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "published": "Thu, 05 Nov 2026 09:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -192,7 +192,7 @@
       "url": "https://openai.com/index/merge-builds-with-openai",
       "description": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "published": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -232,7 +232,7 @@
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "description": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
       "published": "Wed, 04 Nov 2026 07:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -240,7 +240,7 @@
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "description": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "published": "Wed, 04 Nov 2026 08:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -264,7 +264,7 @@
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "description": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "published": "Tue, 03 Nov 2026 12:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -272,7 +272,7 @@
       "url": "https://openai.com/index/cisco-cyber",
       "description": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "published": "Tue, 03 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -280,7 +280,7 @@
       "url": "https://openai.com/index/heimstaden",
       "description": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "published": "Tue, 03 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -11080,7 +11080,7 @@
       "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
       "description": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those [&#8230;]",
       "published": "Thu, 05 Nov 2026 20:00:41 +0000",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "NVIDIA Blog",
@@ -11088,7 +11088,7 @@
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
       "published": "Thu, 05 Nov 2026 17:00:35 +0000",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "NVIDIA Blog",
@@ -11128,7 +11128,7 @@
       "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
       "description": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments [&#8230;]",
       "published": "Tue, 03 Nov 2026 07:00:12 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
