@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T03:58:08.706682+00:00",
+  "generated_at": "2026-11-07T12:12:54.540401+00:00",
   "count": 1404,
   "stories": [
     {
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/partnering-with-hacktron",
       "description": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "published": "Fri, 06 Nov 2026 08:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -200,7 +200,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "description": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "published": "Thu, 05 Nov 2026 09:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -208,7 +208,7 @@
       "url": "https://openai.com/index/merge-builds-with-openai",
       "description": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "published": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -248,7 +248,7 @@
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "description": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
       "published": "Wed, 04 Nov 2026 07:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -256,7 +256,7 @@
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "description": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "published": "Wed, 04 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -11096,7 +11096,7 @@
       "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
       "description": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless [&#8230;]",
       "published": "Fri, 06 Nov 2026 16:00:35 +0000",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "NVIDIA Blog",
