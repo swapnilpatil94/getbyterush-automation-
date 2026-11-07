@@ -1,63 +1,18 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-d8f7977f20097c65",
-      "topic": "Operator System Card",
+      "content_id": "cand-8da77085e24abf46",
+      "topic": "BBVA puts AI at the core of banking with OpenAI",
       "category": "EVERGREEN_VALUE",
       "score": 55,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/operator-system-card",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "midmorning",
-      "content_id": "cand-308cf8bbd62399c2",
-      "topic": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-      "category": "PRODUCT_TOOL",
-      "score": 54,
-      "reason": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 54/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "afternoon",
-      "content_id": "cand-a8a695ebf6be93a9",
-      "topic": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-      "category": "LAST_24H",
-      "score": 66,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 66/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 4,
-      "slot": "night",
-      "content_id": "cand-07beecbe07f431d4",
-      "topic": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-      "category": "LAST_24H",
-      "score": 57,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 57/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+      "source_url": "https://openai.com/index/bbva",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -67,32 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-d8f7977f20097c65",
+      "content_id": "cand-8da77085e24abf46",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "SELECTED",
-      "content_id": "cand-308cf8bbd62399c2",
-      "label": "Curiosity + saves"
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-a8a695ebf6be93a9",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-07beecbe07f431d4",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 4
+  "selected_count": 1
 }

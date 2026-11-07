@@ -1,27 +1,27 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
-      "description": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers. [&#8230;]",
-      "published": "Thu, 05 Nov 2026 16:00:05 +0000",
-      "freshness_score": 9,
-      "relevance_score": 18,
-      "impact_score": 3,
+      "source": "OpenAI News",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "url": "https://openai.com/index/bbva",
+      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 15,
+      "impact_score": 5,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 30,
-      "content_id": "cand-07beecbe07f431d4",
+      "pre_filter_score": 20,
+      "content_id": "cand-8da77085e24abf46",
       "selection_meta": {
-        "rank": 4,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "LAST_24H",
-        "quality_score": 57,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 57/100)",
-        "source": "NVIDIA Blog"
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 55,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
+        "source": "OpenAI News"
       }
     }
   ]
