@@ -2,26 +2,26 @@
   "date": "2026-11-07",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "url": "https://openai.com/index/bbva",
-      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "description": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open [&#8230;]",
+      "published": "Thu, 22 Oct 2026 05:00:27 +0000",
       "freshness_score": 0,
-      "relevance_score": 15,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20,
-      "content_id": "cand-8da77085e24abf46",
+      "relevance_score": 18,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 21,
+      "content_id": "cand-b04877844d45389c",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 55,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 55/100)",
-        "source": "OpenAI News"
+        "slot": "midmorning",
+        "slot_label": "Curiosity + saves",
+        "category": "PRODUCT_TOOL",
+        "quality_score": 53,
+        "why_selected": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 53/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
