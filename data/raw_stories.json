@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T12:12:54.540401+00:00",
+  "generated_at": "2026-11-07T21:16:46.641201+00:00",
   "count": 1404,
   "stories": [
     {
@@ -8,7 +8,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
       "published": "Thu, 05 Nov 2026 17:00:00 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "Google AI Blog",
@@ -184,7 +184,7 @@
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
       "description": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "published": "Thu, 05 Nov 2026 17:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -192,7 +192,7 @@
       "url": "https://openai.com/index/cultfit-builds-with-codex",
       "description": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "published": "Thu, 05 Nov 2026 20:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -240,7 +240,7 @@
       "url": "https://openai.com/index/openai-to-acquire-pierre",
       "description": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "published": "Wed, 04 Nov 2026 14:30:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -11096,7 +11096,7 @@
       "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
       "description": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless [&#8230;]",
       "published": "Fri, 06 Nov 2026 16:00:35 +0000",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "NVIDIA Blog",
@@ -11104,7 +11104,7 @@
       "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
       "description": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those [&#8230;]",
       "published": "Thu, 05 Nov 2026 20:00:41 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -11112,7 +11112,7 @@
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
       "published": "Thu, 05 Nov 2026 17:00:35 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -11120,7 +11120,7 @@
       "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
       "description": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers. [&#8230;]",
       "published": "Thu, 05 Nov 2026 16:00:05 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -11128,7 +11128,7 @@
       "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
       "description": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack. [&#8230;]",
       "published": "Thu, 05 Nov 2026 16:00:00 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -11136,7 +11136,7 @@
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
       "description": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available for GeForce NOW members. Meanwhile, Ubisoft brings fresh challenges with expansions [&#8230;]",
       "published": "Thu, 05 Nov 2026 14:00:34 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
