@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T21:16:46.836320+00:00",
+  "generated_at": "2026-11-08T03:43:34.656243+00:00",
   "count": 80,
   "stories": [
     {
@@ -13,18 +13,6 @@
       "impact_score": 5,
       "story_type": "RESEARCH",
       "pre_filter_score": 26
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "description": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-      "published": "Fri, 06 Nov 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 13,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 21
     },
     {
       "source": "OpenAI News",
@@ -100,27 +88,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "description": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "published": "Thu, 05 Nov 2026 02:00:00 GMT",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "description": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "published": "Fri, 06 Nov 2026 00:00:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Franklin Templeton uses OpenAI to support investment research",
-      "url": "https://openai.com/index/franklin-templeton",
-      "description": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-      "published": "Thu, 05 Nov 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 9,
+      "relevance_score": 13,
       "impact_score": 2,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 16
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 20
     },
     {
       "source": "OpenAI News",
@@ -145,18 +121,6 @@
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 13
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Flipsnack grows product signups with conversion optimization",
-      "url": "https://openai.com/ads/customers/flipsnack",
-      "description": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-      "published": "Thu, 05 Nov 2026 00:45:15 GMT",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 11
     },
     {
       "source": "NVIDIA Blog",
@@ -959,6 +923,42 @@
       "freshness_score": 0,
       "relevance_score": 12,
       "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Deep double descent",
+      "url": "https://openai.com/index/deep-double-descent",
+      "description": "We show that the double descent phenomenon occurs in CNNs, ResNets, and transformers: performance first improves, then gets worse, and then improves again with increasing model size, data size, or training time. This effect is often avoided through careful regularization. While this behavior appears to be fairly universal, we don’t yet fully understand why it happens, and view further study of this phenomenon as an important research direction.",
+      "published": "Thu, 05 Dec 2019 08:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "published": "Tue, 04 Aug 2026 19:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
