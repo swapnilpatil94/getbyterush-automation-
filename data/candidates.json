@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T21:31:22.518537+00:00",
+  "generated_at": "2026-11-09T03:56:31.567141+00:00",
   "count": 80,
   "stories": [
     {
@@ -13,18 +13,6 @@
       "impact_score": 5,
       "story_type": "RESEARCH",
       "pre_filter_score": 25
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "description": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-      "published": "Fri, 06 Nov 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 13,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 20
     },
     {
       "source": "OpenAI News",
@@ -960,6 +948,18 @@
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "published": "Thu, 25 Jun 2026 02:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 19
     }
   ]
