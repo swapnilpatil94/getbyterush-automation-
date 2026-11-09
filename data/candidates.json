@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-11-09T03:56:31.567141+00:00",
+  "generated_at": "2026-11-09T14:50:22.921296+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "description": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in [&#8230;]",
+      "published": "Mon, 09 Nov 2026 14:00:01 +0000",
+      "freshness_score": 10,
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+      "description": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production. Samsung Advances Semiconductor Engineering With [&#8230;]",
+      "published": "Mon, 09 Nov 2026 05:00:40 +0000",
+      "freshness_score": 9,
+      "relevance_score": 20,
+      "impact_score": 9,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 38
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+      "description": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key [&#8230;]",
+      "published": "Mon, 09 Nov 2026 05:00:39 +0000",
+      "freshness_score": 9,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 25
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "description": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes [&#8230;]",
+      "published": "Mon, 09 Nov 2026 05:00:04 +0000",
+      "freshness_score": 9,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 25
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+      "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+      "description": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2, with [&#8230;]",
+      "published": "Mon, 09 Nov 2026 08:00:53 +0000",
+      "freshness_score": 9,
+      "relevance_score": 14,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 23
+    },
     {
       "source": "NVIDIA Blog",
       "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
@@ -13,18 +73,6 @@
       "impact_score": 5,
       "story_type": "RESEARCH",
       "pre_filter_score": 25
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "description": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "published": "Fri, 06 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 3,
-      "story_type": "SECURITY",
-      "pre_filter_score": 16
     },
     {
       "source": "OpenAI News",
@@ -193,18 +241,6 @@
       "impact_score": 7,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 23
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
-      "url": "https://blogs.nvidia.com/blog/dsx-power/",
-      "description": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in infrastructure. More than $300 billion [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:25 +0000",
-      "freshness_score": 0,
-      "relevance_score": 10,
-      "impact_score": 12,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 22
     },
     {
       "source": "OpenAI News",
@@ -495,18 +531,6 @@
       "pre_filter_score": 21
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
-      "description": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:27 +0000",
-      "freshness_score": 0,
-      "relevance_score": 18,
-      "impact_score": 3,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 21
-    },
-    {
       "source": "OpenAI News",
       "title": "Intuit and OpenAI join forces on new AI-powered experiences",
       "url": "https://openai.com/index/intuit-partnership",
@@ -783,18 +807,6 @@
       "pre_filter_score": 19
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
-      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
-      "description": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF [&#8230;]",
-      "published": "Thu, 22 Oct 2026 05:00:56 +0000",
-      "freshness_score": 0,
-      "relevance_score": 11,
-      "impact_score": 8,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
       "source": "OpenAI News",
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
@@ -948,18 +960,6 @@
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "published": "Thu, 25 Jun 2026 02:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
       "pre_filter_score": 19
     }
   ]
