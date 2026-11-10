@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "afternoon",
+      "content_id": "cand-5f720519ed2d9f75",
+      "topic": "Korea Advances Physical AI Across Industries With NVIDIA",
+      "category": "LAST_24H",
+      "score": 60,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -44,7 +59,12 @@
       "status": "SELECTED",
       "content_id": "cand-90c464fd6629c470",
       "label": "Curiosity + saves"
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-5f720519ed2d9f75",
+      "label": "Freshness"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
