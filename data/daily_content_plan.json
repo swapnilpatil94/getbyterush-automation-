@@ -62,6 +62,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 5,
+      "slot": "night",
+      "content_id": "cand-b0ae0f985eb1d4a2",
+      "topic": "Understanding prompt injections: a frontier security challenge",
+      "category": "DATA_RESEARCH",
+      "score": 56,
+      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/prompt-injections",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -84,7 +99,12 @@
       "status": "SELECTED",
       "content_id": "cand-d81bc6fa6f7b0682",
       "label": "High-attention window"
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-b0ae0f985eb1d4a2",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 4
+  "selected_count": 5
 }
