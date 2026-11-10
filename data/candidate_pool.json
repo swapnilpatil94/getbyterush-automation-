@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T12:21:28.824183+00:00",
+  "updated_at": "2026-11-10T14:03:23.804576+00:00",
   "candidates": [
     {
       "content_id": "cand-f67eb3ce535f905c",
@@ -3007,49 +3007,6 @@
         "impact_score": 6,
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 18
-      }
-    },
-    {
-      "content_id": "cand-d7ce8c696eb8143b",
-      "topic": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "published_at": "Mon, 26 Oct 2026 22:00:00 GMT",
-      "discovered_at": "2026-10-27T03:09:57.097292+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 5,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 4,
-      "save_score": 4,
-      "share_score": 4,
-      "information_value": 4,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 41,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-        "url": "https://openai.com/index/greptile-code-review-codex-astra",
-        "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-        "published": "Mon, 26 Oct 2026 22:00:00 GMT",
-        "freshness_score": 10,
-        "relevance_score": 5,
-        "impact_score": 2,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 17
       }
     },
     {
@@ -6645,7 +6602,136 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 19
       }
+    },
+    {
+      "content_id": "cand-21cb6728b537f9e7",
+      "topic": "Google Cloud launches Gemini for healthcare.",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "summary": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "content_type": "LAST_24H",
+      "source": "Google AI Blog",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "published_at": "Tue, 10 Nov 2026 13:00:00 +0000",
+      "discovered_at": "2026-11-10T14:03:23.795549+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 5,
+      "share_score": 4,
+      "information_value": 6,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 46,
+      "raw": {
+        "source": "Google AI Blog",
+        "title": "Google Cloud launches Gemini for healthcare.",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+        "description": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+        "published": "Tue, 10 Nov 2026 13:00:00 +0000",
+        "freshness_score": 10,
+        "relevance_score": 7,
+        "impact_score": 2,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 19
+      }
+    },
+    {
+      "content_id": "cand-fdd9f2a80b327dee",
+      "topic": "Helping caregivers use AI in everyday life",
+      "title": "Helping caregivers use AI in everyday life",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "content_type": "EXPERIMENT",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "published_at": "Tue, 10 Nov 2026 12:00:00 GMT",
+      "discovered_at": "2026-11-10T14:03:23.799828+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 5,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 3,
+      "information_value": 8,
+      "credibility": 5,
+      "experiment_possible": true,
+      "reel_readiness": {
+        "screen_recording_possible": true,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": true
+      },
+      "status": "POOLED",
+      "score": 55,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Helping caregivers use AI in everyday life",
+        "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+        "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+        "published": "Tue, 10 Nov 2026 12:00:00 GMT",
+        "freshness_score": 10,
+        "relevance_score": 8,
+        "impact_score": 0,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 18
+      }
+    },
+    {
+      "content_id": "cand-958110f33488fa85",
+      "topic": "Closing the AI guidance gap in education",
+      "title": "Closing the AI guidance gap in education",
+      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "published_at": "Tue, 10 Nov 2026 09:00:00 GMT",
+      "discovered_at": "2026-11-10T14:03:23.804052+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 3,
+      "information_value": 6,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 41,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Closing the AI guidance gap in education",
+        "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+        "description": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+        "published": "Tue, 10 Nov 2026 09:00:00 GMT",
+        "freshness_score": 10,
+        "relevance_score": 6,
+        "impact_score": 0,
+        "story_type": "RESEARCH",
+        "pre_filter_score": 16
+      }
     }
   ],
-  "count": 153
+  "count": 155
 }
