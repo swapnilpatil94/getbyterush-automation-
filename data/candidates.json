@@ -1,18 +1,54 @@
 {
-  "generated_at": "2026-11-10T14:03:23.693526+00:00",
+  "generated_at": "2026-11-10T22:42:04.729195+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "Google AI Blog",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "description": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
+      "published": "Tue, 10 Nov 2026 19:00:00 +0000",
+      "freshness_score": 10,
+      "relevance_score": 3,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "description": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA [&#8230;]",
+      "published": "Tue, 10 Nov 2026 16:00:03 +0000",
+      "freshness_score": 9,
+      "relevance_score": 13,
+      "impact_score": 8,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 30
+    },
     {
       "source": "Google AI Blog",
       "title": "Google Cloud launches Gemini for healthcare.",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
       "description": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
       "published": "Tue, 10 Nov 2026 13:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 7,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
+      "pre_filter_score": 18
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "description": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "published": "Tue, 10 Nov 2026 14:00:00 +0000",
+      "freshness_score": 9,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -20,11 +56,23 @@
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "published": "Tue, 10 Nov 2026 12:00:00 GMT",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 8,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
+      "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "description": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "published": "Tue, 10 Nov 2026 10:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -32,23 +80,23 @@
       "url": "https://openai.com/index/closing-ai-guidance-gap-education",
       "description": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
       "published": "Tue, 10 Nov 2026 09:00:00 GMT",
-      "freshness_score": 10,
+      "freshness_score": 8,
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "RESEARCH",
-      "pre_filter_score": 16
+      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "description": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-      "published": "Mon, 09 Nov 2026 19:00:00 GMT",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "description": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "published": "Tue, 10 Nov 2026 07:00:00 GMT",
       "freshness_score": 8,
-      "relevance_score": 8,
+      "relevance_score": 6,
       "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 16
+      "story_type": "RESEARCH",
+      "pre_filter_score": 14
     },
     {
       "source": "NVIDIA Blog",
@@ -133,6 +181,18 @@
       "impact_score": 2,
       "story_type": "RESEARCH",
       "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "description": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "published": "Mon, 09 Nov 2026 19:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -808,9 +868,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Task scam: AI-assisted fake review jobs",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
-      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -820,9 +880,9 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "title": "Task scam: AI-assisted fake review jobs",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
       "published": "Sat, 01 Feb 2025 00:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 10,
@@ -899,66 +959,6 @@
       "freshness_score": 0,
       "relevance_score": 12,
       "impact_score": 7,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Deep double descent",
-      "url": "https://openai.com/index/deep-double-descent",
-      "description": "We show that the double descent phenomenon occurs in CNNs, ResNets, and transformers: performance first improves, then gets worse, and then improves again with increasing model size, data size, or training time. This effect is often avoided through careful regularization. While this behavior appears to be fairly universal, we don’t yet fully understand why it happens, and view further study of this phenomenon as an important research direction.",
-      "published": "Thu, 05 Dec 2019 08:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 12,
-      "impact_score": 7,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "published": "Tue, 04 Aug 2026 19:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing EVMbench",
-      "url": "https://openai.com/index/introducing-evmbench",
-      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
-      "published": "Wed, 18 Feb 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Genmab launches “AI Everywhere”",
-      "url": "https://openai.com/index/genmab",
-      "description": "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy",
-      "published": "Thu, 19 Sep 2024 04:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
