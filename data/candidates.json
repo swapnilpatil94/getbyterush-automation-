@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:50:22.921296+00:00",
+  "generated_at": "2026-11-10T01:01:41.445315+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,23 @@
       "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
       "description": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in [&#8230;]",
       "published": "Mon, 09 Nov 2026 14:00:01 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 7,
       "impact_score": 2,
       "story_type": "RESEARCH",
-      "pre_filter_score": 19
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "description": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "published": "Mon, 09 Nov 2026 19:00:00 GMT",
+      "freshness_score": 9,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 17
     },
     {
       "source": "NVIDIA Blog",
@@ -20,11 +32,23 @@
       "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
       "description": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production. Samsung Advances Semiconductor Engineering With [&#8230;]",
       "published": "Mon, 09 Nov 2026 05:00:40 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 20,
       "impact_score": 9,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 38
+      "pre_filter_score": 37
+    },
+    {
+      "source": "OpenAI News",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "description": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "published": "Mon, 09 Nov 2026 08:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 14,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 25
     },
     {
       "source": "NVIDIA Blog",
@@ -32,11 +56,11 @@
       "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
       "description": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key [&#8230;]",
       "published": "Mon, 09 Nov 2026 05:00:39 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 16,
       "impact_score": 0,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 25
+      "pre_filter_score": 24
     },
     {
       "source": "NVIDIA Blog",
@@ -44,35 +68,47 @@
       "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
       "description": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes [&#8230;]",
       "published": "Mon, 09 Nov 2026 05:00:04 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 16,
       "impact_score": 0,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 25
+      "pre_filter_score": 24
     },
     {
       "source": "NVIDIA Blog",
       "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
       "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
-      "description": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2, with [&#8230;]",
+      "description": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2, with additional investments [&#8230;]",
       "published": "Mon, 09 Nov 2026 08:00:53 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 14,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 23
+      "pre_filter_score": 22
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-      "description": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless [&#8230;]",
-      "published": "Fri, 06 Nov 2026 16:00:35 +0000",
-      "freshness_score": 5,
-      "relevance_score": 15,
-      "impact_score": 5,
+      "source": "OpenAI News",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "description": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "published": "Mon, 09 Nov 2026 13:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 11,
+      "impact_score": 2,
       "story_type": "RESEARCH",
-      "pre_filter_score": 25
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "description": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "published": "Mon, 09 Nov 2026 08:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -920,42 +956,6 @@
       "url": "https://openai.com/index/localiza-generative-ai",
       "description": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
       "published": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "published": "Wed, 14 Oct 2026 12:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "published": "Tue, 06 Oct 2026 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 17,
       "impact_score": 2,
