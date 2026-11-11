@@ -1,26 +1,26 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Understanding prompt injections: a frontier security challenge",
-      "url": "https://openai.com/index/prompt-injections",
-      "description": "Prompt injections are a frontier security challenge for AI systems. Learn how these attacks work and how OpenAI is advancing research, training models, and building safeguards for users.",
-      "published": "Fri, 07 Nov 2025 11:30:00 GMT",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "description": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "published": "Tue, 27 Oct 2026 00:00:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 5,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 22,
-      "content_id": "cand-b0ae0f985eb1d4a2",
+      "relevance_score": 14,
+      "impact_score": 7,
+      "story_type": "SECURITY",
+      "pre_filter_score": 21,
+      "content_id": "cand-2865c849048d9521",
       "selection_meta": {
-        "rank": 5,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "DATA_RESEARCH",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
         "quality_score": 56,
-        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 56/100)",
         "source": "OpenAI News"
       }
     }

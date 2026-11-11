@@ -1,78 +1,18 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-d1971fed5eed2710",
-      "topic": "Scaling AI for everyone",
+      "content_id": "cand-2865c849048d9521",
+      "topic": "How Check Point accelerates vulnerability research with Daybreak",
       "category": "EVERGREEN_VALUE",
-      "score": 54,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/scaling-ai-for-everyone",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "midmorning",
-      "content_id": "cand-90c464fd6629c470",
-      "topic": "Introducing Aardvark: OpenAI’s agentic security researcher",
-      "category": "PRODUCT_TOOL",
-      "score": 53,
-      "reason": "PRODUCT_TOOL — SURPRISING, USEFUL, PROVABLE (score 53/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/introducing-aardvark",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "afternoon",
-      "content_id": "cand-5f720519ed2d9f75",
-      "topic": "Korea Advances Physical AI Across Industries With NVIDIA",
-      "category": "LAST_24H",
-      "score": 60,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 4,
-      "slot": "evening",
-      "content_id": "cand-d81bc6fa6f7b0682",
-      "topic": "Building an early warning system for LLM-aided biological threat creation",
-      "category": "INTERNET_HUMAN_TECH_BEHAVIOR",
-      "score": 54,
-      "reason": "INTERNET_HUMAN_TECH_BEHAVIOR — SURPRISING, PROVABLE (score 54/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 5,
-      "slot": "night",
-      "content_id": "cand-b0ae0f985eb1d4a2",
-      "topic": "Understanding prompt injections: a frontier security challenge",
-      "category": "DATA_RESEARCH",
       "score": 56,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 56/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/prompt-injections",
+      "source_url": "https://openai.com/index/check-point-daybreak",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -82,29 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-d1971fed5eed2710",
+      "content_id": "cand-2865c849048d9521",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "SELECTED",
-      "content_id": "cand-90c464fd6629c470",
-      "label": "Curiosity + saves"
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-5f720519ed2d9f75",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "SELECTED",
-      "content_id": "cand-d81bc6fa6f7b0682",
-      "label": "High-attention window"
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-b0ae0f985eb1d4a2",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 5
+  "selected_count": 1
 }
