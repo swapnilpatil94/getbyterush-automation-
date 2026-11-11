@@ -2,26 +2,26 @@
   "date": "2026-11-11",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Helping caregivers use AI in everyday life",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "published": "Tue, 10 Nov 2026 12:00:00 GMT",
-      "freshness_score": 10,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18,
-      "content_id": "cand-fdd9f2a80b327dee",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "description": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA [&#8230;]",
+      "published": "Tue, 10 Nov 2026 16:00:03 +0000",
+      "freshness_score": 9,
+      "relevance_score": 13,
+      "impact_score": 8,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 30,
+      "content_id": "cand-ca6788a4ce62ee8c",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "midmorning",
-        "slot_label": "Curiosity + saves",
-        "category": "EXPERIMENT",
-        "quality_score": 52,
-        "why_selected": "EXPERIMENT — SURPRISING, PROVABLE, DEMONSTRABLE (score 52/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 57,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 57/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
