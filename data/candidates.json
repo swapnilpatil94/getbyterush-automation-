@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-11T13:20:24.940891+00:00",
+  "generated_at": "2026-11-11T23:54:55.637624+00:00",
   "count": 80,
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "description": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "published": "Wed, 11 Nov 2026 08:00:00 GMT",
+      "source": "Google AI Blog",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "description": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "published": "Wed, 11 Nov 2026 18:00:00 +0000",
       "freshness_score": 10,
-      "relevance_score": 7,
-      "impact_score": 4,
+      "relevance_score": 6,
+      "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
+      "pre_filter_score": 16
     },
     {
-      "source": "Google AI Blog",
-      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-      "description": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
-      "published": "Wed, 11 Nov 2026 09:00:00 +0000",
+      "source": "OpenAI News",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "description": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "published": "Thu, 12 Nov 2026 00:00:00 GMT",
       "freshness_score": 10,
       "relevance_score": 2,
       "impact_score": 0,
@@ -27,16 +27,64 @@
       "pre_filter_score": 12
     },
     {
+      "source": "Google AI Blog",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "description": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "published": "Wed, 11 Nov 2026 16:00:00 +0000",
+      "freshness_score": 9,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "description": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "published": "Wed, 11 Nov 2026 08:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 7,
+      "impact_score": 4,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
       "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
       "description": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
       "published": "Wed, 11 Nov 2026 03:00:20 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 7,
       "impact_score": 2,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 18
+      "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "description": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "published": "Wed, 11 Nov 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 4,
+      "impact_score": 3,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "description": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
+      "published": "Wed, 11 Nov 2026 09:00:00 +0000",
+      "freshness_score": 8,
+      "relevance_score": 2,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 10
     },
     {
       "source": "NVIDIA Blog",
@@ -44,35 +92,11 @@
       "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
       "description": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA [&#8230;]",
       "published": "Tue, 10 Nov 2026 16:00:03 +0000",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 13,
       "impact_score": 8,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 29
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "description": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
-      "published": "Tue, 10 Nov 2026 14:00:00 +0000",
-      "freshness_score": 8,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Gemini Intelligence: New features, on more devices",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-      "description": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
-      "published": "Tue, 10 Nov 2026 19:00:00 +0000",
-      "freshness_score": 8,
-      "relevance_score": 3,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
+      "pre_filter_score": 27
     },
     {
       "source": "OpenAI News",
@@ -111,23 +135,11 @@
       "pre_filter_score": 15
     },
     {
-      "source": "NVIDIA Blog",
-      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
-      "description": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in [&#8230;]",
-      "published": "Mon, 09 Nov 2026 14:00:01 +0000",
-      "freshness_score": 6,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Helping caregivers use AI in everyday life",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "published": "Tue, 10 Nov 2026 12:00:00 GMT",
+      "source": "Google AI Blog",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "description": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "published": "Tue, 10 Nov 2026 14:00:00 +0000",
       "freshness_score": 6,
       "relevance_score": 8,
       "impact_score": 0,
@@ -136,10 +148,10 @@
     },
     {
       "source": "OpenAI News",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "description": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-      "published": "Mon, 09 Nov 2026 19:00:00 GMT",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "published": "Tue, 10 Nov 2026 12:00:00 GMT",
       "freshness_score": 6,
       "relevance_score": 8,
       "impact_score": 0,
@@ -253,6 +265,30 @@
       "impact_score": 2,
       "story_type": "RESEARCH",
       "pre_filter_score": 18
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "description": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in [&#8230;]",
+      "published": "Mon, 09 Nov 2026 14:00:01 +0000",
+      "freshness_score": 5,
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "description": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "published": "Mon, 09 Nov 2026 19:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -772,18 +808,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "STORM-0817: Iran-linked malware and scraping activity",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "Bet Bot: Gambling spam network",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
       "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
@@ -792,6 +816,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "STORM-0817: Iran-linked malware and scraping activity",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "SECURITY",
       "pre_filter_score": 20
     },
     {
@@ -916,18 +952,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
-      "published": "Sat, 01 Feb 2025 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 10,
-      "impact_score": 9,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
       "title": "Task scam: AI-assisted fake review jobs",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
       "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
@@ -936,30 +960,6 @@
       "relevance_score": 10,
       "impact_score": 9,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Grupo Boticário uses AI to strengthen human connections",
-      "url": "https://openai.com/index/grupo-boticario",
-      "description": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
-      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 11,
-      "impact_score": 8,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "AI is becoming a first hire for small businesses",
-      "url": "https://openai.com/index/ai-first-hire-small-business",
-      "description": "New research shows how 4 million Americans use ChatGPT to start, run, and grow small businesses, lowering the cost of entrepreneurship with AI.",
-      "published": "Mon, 25 May 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 11,
-      "impact_score": 8,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]
