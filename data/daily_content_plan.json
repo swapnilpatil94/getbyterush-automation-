@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "midmorning",
+      "content_id": "cand-fdd9f2a80b327dee",
+      "topic": "Helping caregivers use AI in everyday life",
+      "category": "EXPERIMENT",
+      "score": 52,
+      "reason": "EXPERIMENT — SURPRISING, PROVABLE, DEMONSTRABLE (score 52/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -24,7 +39,12 @@
       "status": "SELECTED",
       "content_id": "cand-2865c849048d9521",
       "label": "Morning discovery"
+    },
+    "midmorning": {
+      "status": "SELECTED",
+      "content_id": "cand-fdd9f2a80b327dee",
+      "label": "Curiosity + saves"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
