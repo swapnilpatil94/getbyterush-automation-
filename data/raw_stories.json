@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T23:54:55.441515+00:00",
+  "generated_at": "2026-11-12T05:12:07.968243+00:00",
   "count": 1417,
   "stories": [
     {
@@ -8,7 +8,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
       "description": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
       "published": "Wed, 11 Nov 2026 18:00:00 +0000",
-      "freshness_score": 10
+      "freshness_score": 9
     },
     {
       "source": "Google AI Blog",
@@ -16,7 +16,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
       "description": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
       "published": "Wed, 11 Nov 2026 16:00:00 +0000",
-      "freshness_score": 9
+      "freshness_score": 8
     },
     {
       "source": "Google AI Blog",
@@ -184,7 +184,7 @@
       "url": "https://openai.com/index/jiostar-vijay-seshadri",
       "description": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
       "published": "Wed, 11 Nov 2026 00:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -232,7 +232,7 @@
       "url": "https://openai.com/index/cogent-security",
       "description": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
       "published": "Tue, 10 Nov 2026 00:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -11200,7 +11200,7 @@
       "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
       "description": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
       "published": "Wed, 11 Nov 2026 03:00:20 +0000",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "NVIDIA Blog",
@@ -11232,7 +11232,7 @@
       "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
       "description": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production. Samsung Advances Semiconductor Engineering With [&#8230;]",
       "published": "Mon, 09 Nov 2026 05:00:40 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
@@ -11240,7 +11240,7 @@
       "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
       "description": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key [&#8230;]",
       "published": "Mon, 09 Nov 2026 05:00:39 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
@@ -11248,7 +11248,7 @@
       "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
       "description": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes [&#8230;]",
       "published": "Mon, 09 Nov 2026 05:00:04 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
@@ -11256,7 +11256,7 @@
       "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
       "description": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. As models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing [&#8230;]",
       "published": "Mon, 09 Nov 2026 05:00:00 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "NVIDIA Blog",
