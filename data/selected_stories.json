@@ -2,26 +2,26 @@
   "date": "2026-11-12",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "url": "https://openai.com/index/retell-ai",
-      "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "published": "Tue, 27 Oct 2026 15:00:00 GMT",
-      "freshness_score": 0,
+      "source": "NVIDIA Blog",
+      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+      "description": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key [&#8230;]",
+      "published": "Mon, 09 Nov 2026 05:00:39 +0000",
+      "freshness_score": 9,
       "relevance_score": 16,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 22,
-      "content_id": "cand-ce0a3aa4b3e1528d",
+      "impact_score": 0,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 25,
+      "content_id": "cand-6ce88450eb83998b",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 57,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 52,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
