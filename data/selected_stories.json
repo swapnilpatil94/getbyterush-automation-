@@ -1,27 +1,27 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
-      "description": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA [&#8230;]",
-      "published": "Tue, 10 Nov 2026 16:00:03 +0000",
-      "freshness_score": 9,
-      "relevance_score": 13,
-      "impact_score": 8,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 30,
-      "content_id": "cand-ca6788a4ce62ee8c",
+      "source": "OpenAI News",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "published": "Tue, 27 Oct 2026 15:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 22,
+      "content_id": "cand-ce0a3aa4b3e1528d",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
-        "category": "LAST_24H",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
         "quality_score": 57,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 57/100)",
-        "source": "NVIDIA Blog"
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
+        "source": "OpenAI News"
       }
     }
   ]
