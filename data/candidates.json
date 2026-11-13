@@ -1,18 +1,30 @@
 {
-  "generated_at": "2026-11-13T04:27:57.257874+00:00",
+  "generated_at": "2026-11-13T13:43:29.641244+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "NVIDIA Blog",
+      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+      "description": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI [&#8230;]",
+      "published": "Fri, 13 Nov 2026 13:00:42 +0000",
+      "freshness_score": 10,
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 19
+    },
     {
       "source": "OpenAI News",
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
       "url": "https://openai.com/business/customer-stories/amplitude",
       "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
       "published": "Thu, 12 Nov 2026 20:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 14,
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27
+      "pre_filter_score": 26
     },
     {
       "source": "Google AI Blog",
@@ -20,23 +32,11 @@
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "description": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
       "published": "Thu, 12 Nov 2026 18:00:00 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "url": "https://openai.com/business/customer-stories/gondola",
-      "description": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "published": "Thu, 12 Nov 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 10,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 24
+      "pre_filter_score": 14
     },
     {
       "source": "NVIDIA Blog",
@@ -52,6 +52,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "description": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "published": "Thu, 12 Nov 2026 12:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 10,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 22
+    },
+    {
+      "source": "OpenAI News",
       "title": "Supporting research on AI and children’s safety",
       "url": "https://openai.com/index/children-first-declaration",
       "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
@@ -61,18 +73,6 @@
       "impact_score": 5,
       "story_type": "RESEARCH",
       "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "description": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "published": "Wed, 11 Nov 2026 08:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 7,
-      "impact_score": 4,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 17
     },
     {
       "source": "Google AI Blog",
@@ -112,27 +112,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
-      "url": "https://openai.com/index/singapore-airlines-travel-work",
-      "description": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
-      "published": "Tue, 10 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Google Cloud launches Gemini for healthcare.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "description": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
-      "published": "Tue, 10 Nov 2026 13:00:00 +0000",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "description": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "published": "Wed, 11 Nov 2026 08:00:00 GMT",
       "freshness_score": 5,
       "relevance_score": 7,
-      "impact_score": 2,
+      "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
+      "pre_filter_score": 16
     },
     {
       "source": "NVIDIA Blog",
@@ -160,18 +148,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Helping caregivers use AI in everyday life",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "published": "Tue, 10 Nov 2026 12:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
-    },
-    {
-      "source": "OpenAI News",
       "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
       "url": "https://openai.com/index/jiostar-vijay-seshadri",
       "description": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
@@ -181,42 +157,6 @@
       "impact_score": 3,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 12
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing Businesses in ChatGPT",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "description": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-      "published": "Tue, 10 Nov 2026 10:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Closing the AI guidance gap in education",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "description": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "published": "Tue, 10 Nov 2026 09:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 11
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Work at the Frontier: AI’s effect on freelance work",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "description": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-      "published": "Tue, 10 Nov 2026 07:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 11
     },
     {
       "source": "NVIDIA Blog",
@@ -960,6 +900,66 @@
       "relevance_score": 11,
       "impact_score": 8,
       "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "AI is becoming a first hire for small businesses",
+      "url": "https://openai.com/index/ai-first-hire-small-business",
+      "description": "New research shows how 4 million Americans use ChatGPT to start, run, and grow small businesses, lowering the cost of entrepreneurship with AI.",
+      "published": "Mon, 25 May 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 11,
+      "impact_score": 8,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Strengthening ChatGPT’s responses in sensitive conversations",
+      "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations",
+      "description": "OpenAI collaborated with 170+ mental health experts to improve ChatGPT’s ability to recognize distress, respond empathetically, and guide users toward real-world support—reducing unsafe responses by up to 80%. Learn how we’re making ChatGPT safer and more supportive in sensitive moments.",
+      "published": "Mon, 27 Oct 2025 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 11,
+      "impact_score": 8,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Romance-baiting scam: AI-assisted pig butchering workflows",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate and generate romance, investment scam conversations.",
+      "published": "Sat, 01 Feb 2025 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 11,
+      "impact_score": 8,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "published": "Fri, 11 Sep 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "published": "Mon, 20 Jul 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]
