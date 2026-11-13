@@ -2,26 +2,26 @@
   "date": "2026-11-13",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
-      "published": "Thu, 05 Nov 2026 17:00:35 +0000",
-      "freshness_score": 0,
-      "relevance_score": 18,
+      "source": "OpenAI News",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/index/amplitude",
+      "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "published": "Thu, 12 Nov 2026 20:00:00 GMT",
+      "freshness_score": 10,
+      "relevance_score": 14,
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 22,
-      "content_id": "cand-c1c80e32139842cb",
+      "pre_filter_score": 28,
+      "content_id": "cand-7b4f27672aa8742e",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 66,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 66/100)",
-        "source": "NVIDIA Blog"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 60,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
+        "source": "OpenAI News"
       }
     }
   ]
