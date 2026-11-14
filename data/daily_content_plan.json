@@ -1,48 +1,18 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-c1c80e32139842cb",
-      "topic": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "category": "EVERGREEN_VALUE",
-      "score": 66,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 66/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-7b4f27672aa8742e",
-      "topic": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "category": "LAST_24H",
-      "score": 60,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 60/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/amplitude",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-de3484460a42a303",
-      "topic": "Third-party cyber evaluations involving OpenAI models",
+      "content_id": "cand-0f050215665408a2",
+      "topic": "Samsung Electronics brings ChatGPT and Codex to employees",
       "category": "EVERGREEN_VALUE",
       "score": 54,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "source_url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-c1c80e32139842cb",
+      "content_id": "cand-0f050215665408a2",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-7b4f27672aa8742e",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-de3484460a42a303",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
