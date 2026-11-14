@@ -1,51 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T14:45:54.171156+00:00",
+  "updated_at": "2026-11-14T21:52:46.318566+00:00",
   "candidates": [
-    {
-      "content_id": "cand-f67eb3ce535f905c",
-      "topic": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
-      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
-      "summary": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. [&#8230;]",
-      "content_type": "EVERGREEN_VALUE",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-      "published_at": "Wed, 16 Sep 2026 15:00:48 +0000",
-      "discovered_at": "2026-09-30T17:22:03.677594+00:00",
-      "evidence_available": true,
-      "evergreen": true,
-      "timeliness": 3,
-      "novelty": 4,
-      "visual_potential": 3,
-      "curiosity_score": 4,
-      "save_score": 7,
-      "share_score": 6,
-      "information_value": 13,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "EDITORIAL_REJECTED",
-      "score": 59,
-      "raw": {
-        "source": "NVIDIA Blog",
-        "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
-        "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-        "description": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. [&#8230;]",
-        "published": "Wed, 16 Sep 2026 15:00:48 +0000",
-        "freshness_score": 0,
-        "relevance_score": 15,
-        "impact_score": 5,
-        "story_type": "BUSINESS",
-        "pre_filter_score": 20
-      },
-      "rejected_at": "2026-10-01T01:47:19.734781+00:00"
-    },
     {
       "content_id": "cand-fc5befd2bacce4c4",
       "topic": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
@@ -7126,5 +7082,5 @@
       }
     }
   ],
-  "count": 164
+  "count": 163
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T12:47:40.125673+00:00",
+  "generated_at": "2026-11-14T21:52:46.241182+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
       "description": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI [&#8230;]",
       "published": "Fri, 13 Nov 2026 13:00:42 +0000",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 7,
       "impact_score": 2,
       "story_type": "RESEARCH",
-      "pre_filter_score": 17
+      "pre_filter_score": 15
     },
     {
       "source": "OpenAI News",
@@ -20,23 +20,11 @@
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
       "published": "Fri, 13 Nov 2026 15:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 8,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "url": "https://openai.com/business/customer-stories/amplitude",
-      "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "published": "Thu, 12 Nov 2026 20:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 14,
-      "impact_score": 4,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 24
+      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -51,28 +39,16 @@
       "pre_filter_score": 14
     },
     {
-      "source": "Google AI Blog",
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "description": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
-      "published": "Thu, 12 Nov 2026 18:00:00 +0000",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 0,
+      "source": "OpenAI News",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "published": "Thu, 12 Nov 2026 20:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 14,
+      "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
-      "description": "Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW, allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet. Meanwhile, Dragon’s Dogma 2: Dark Arisen brings new tales [&#8230;]",
-      "published": "Thu, 12 Nov 2026 14:00:59 +0000",
-      "freshness_score": 6,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 10
+      "pre_filter_score": 23
     },
     {
       "source": "OpenAI News",
@@ -100,10 +76,10 @@
     },
     {
       "source": "Google AI Blog",
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "description": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-      "published": "Wed, 11 Nov 2026 18:00:00 +0000",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "description": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+      "published": "Thu, 12 Nov 2026 18:00:00 +0000",
       "freshness_score": 5,
       "relevance_score": 6,
       "impact_score": 0,
@@ -111,15 +87,15 @@
       "pre_filter_score": 11
     },
     {
-      "source": "Google AI Blog",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "description": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-      "published": "Wed, 11 Nov 2026 16:00:00 +0000",
+      "source": "NVIDIA Blog",
+      "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
+      "description": "Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW, allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet. Meanwhile, Dragon’s Dogma 2: Dark Arisen brings new tales [&#8230;]",
+      "published": "Thu, 12 Nov 2026 14:00:59 +0000",
       "freshness_score": 5,
       "relevance_score": 4,
       "impact_score": 0,
-      "story_type": "RESEARCH",
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 9
     },
     {
@@ -960,6 +936,30 @@
       "relevance_score": 12,
       "impact_score": 7,
       "story_type": "RESEARCH",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "published": "Tue, 04 Aug 2026 19:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]
