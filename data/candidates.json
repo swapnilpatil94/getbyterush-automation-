@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T23:05:42.698298+00:00",
+  "generated_at": "2026-11-14T04:23:51.193199+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,11 +8,11 @@
       "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
       "description": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI [&#8230;]",
       "published": "Fri, 13 Nov 2026 13:00:42 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 7,
       "impact_score": 2,
       "story_type": "RESEARCH",
-      "pre_filter_score": 18
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -20,11 +20,23 @@
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
       "published": "Fri, 13 Nov 2026 15:00:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 8,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 17
+      "pre_filter_score": 16
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "published": "Fri, 13 Nov 2026 08:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 16
     },
     {
       "source": "OpenAI News",
@@ -49,18 +61,6 @@
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 22
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Supporting research on AI and children’s safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "published": "Thu, 12 Nov 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 7,
-      "impact_score": 5,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 18
     },
     {
       "source": "Google AI Blog",
@@ -88,6 +88,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "published": "Thu, 12 Nov 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 7,
+      "impact_score": 5,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
       "title": "ChatGPT Plus for veterans and servicemembers",
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
       "description": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
@@ -97,30 +109,6 @@
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 16
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-      "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
-      "description": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
-      "published": "Wed, 11 Nov 2026 03:00:20 +0000",
-      "freshness_score": 5,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "OpenAI News",
-      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "url": "https://openai.com/index/jiostar-vijay-seshadri",
-      "description": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
-      "published": "Wed, 11 Nov 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
     },
     {
       "source": "Google AI Blog",
@@ -956,6 +944,18 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
       "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
       "published": "Fri, 11 Sep 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "published": "Mon, 20 Jul 2026 10:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 12,
       "impact_score": 7,

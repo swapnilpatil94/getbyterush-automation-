@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T01:46:35.311274+00:00",
+  "updated_at": "2026-11-14T04:23:51.284220+00:00",
   "candidates": [
     {
       "content_id": "cand-f67eb3ce535f905c",
@@ -7079,7 +7079,50 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 17
       }
+    },
+    {
+      "content_id": "cand-6a36b9f1c84aade0",
+      "topic": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/business/customer-stories/shield",
+      "published_at": "Fri, 13 Nov 2026 08:00:00 GMT",
+      "discovered_at": "2026-11-14T04:23:51.280421+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 3,
+      "information_value": 8,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 42,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+        "url": "https://openai.com/business/customer-stories/shield",
+        "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+        "published": "Fri, 13 Nov 2026 08:00:00 GMT",
+        "freshness_score": 8,
+        "relevance_score": 8,
+        "impact_score": 0,
+        "story_type": "TECH_NEWS",
+        "pre_filter_score": 16
+      }
     }
   ],
-  "count": 163
+  "count": 164
 }
