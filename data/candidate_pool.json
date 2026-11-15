@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T14:46:19.747705+00:00",
+  "updated_at": "2026-11-15T22:20:47.664338+00:00",
   "candidates": [
     {
       "content_id": "cand-fc5befd2bacce4c4",
@@ -7082,7 +7082,50 @@
         "story_type": "TECH_NEWS",
         "pre_filter_score": 16
       }
+    },
+    {
+      "content_id": "cand-fbd7b0c5f0c8fc36",
+      "topic": "Legora is building the agentic operating system for legal work",
+      "title": "Legora is building the agentic operating system for legal work",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "content_type": "EVERGREEN_VALUE",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/legora",
+      "published_at": "Wed, 28 Oct 2026 09:30:00 GMT",
+      "discovered_at": "2026-11-15T22:20:47.664299+00:00",
+      "evidence_available": true,
+      "evergreen": true,
+      "timeliness": 3,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 7,
+      "share_score": 4,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 57,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Legora is building the agentic operating system for legal work",
+        "url": "https://openai.com/index/legora",
+        "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+        "published": "Wed, 28 Oct 2026 09:30:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 17,
+        "impact_score": 2,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 19
+      }
     }
   ],
-  "count": 163
+  "count": 164
 }
