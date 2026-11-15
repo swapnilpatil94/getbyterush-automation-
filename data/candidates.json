@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-11-15T04:08:22.267745+00:00",
+  "generated_at": "2026-11-15T13:15:20.126067+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
-      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
-      "description": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI [&#8230;]",
-      "published": "Fri, 13 Nov 2026 13:00:42 +0000",
-      "freshness_score": 6,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 15
-    },
     {
       "source": "OpenAI News",
       "title": "Introducing ChatGPT Wallet",
@@ -24,18 +12,6 @@
       "relevance_score": 8,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "published": "Fri, 13 Nov 2026 08:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
       "pre_filter_score": 14
     },
     {
@@ -51,16 +27,28 @@
       "pre_filter_score": 23
     },
     {
-      "source": "OpenAI News",
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "url": "https://openai.com/business/customer-stories/gondola",
-      "description": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "published": "Thu, 12 Nov 2026 12:00:00 GMT",
+      "source": "NVIDIA Blog",
+      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+      "description": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI [&#8230;]",
+      "published": "Fri, 13 Nov 2026 13:00:42 +0000",
       "freshness_score": 5,
-      "relevance_score": 10,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "published": "Fri, 13 Nov 2026 08:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 13
     },
     {
       "source": "Google AI Blog",
@@ -960,6 +948,18 @@
       "relevance_score": 16,
       "impact_score": 3,
       "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Genmab launches “AI Everywhere”",
+      "url": "https://openai.com/index/genmab",
+      "description": "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy",
+      "published": "Thu, 19 Sep 2024 04:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]
