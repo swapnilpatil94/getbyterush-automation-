@@ -1,48 +1,18 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-0f050215665408a2",
-      "topic": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "content_id": "cand-4353dff6d13f378b",
+      "topic": "Genmab launches “AI Everywhere”",
       "category": "EVERGREEN_VALUE",
       "score": 54,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-a239ddc1a3dd5b92",
-      "topic": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
-      "category": "LAST_24H",
-      "score": 52,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-6a2395dbd857868a",
-      "topic": "Introducing EVMbench",
-      "category": "EVERGREEN_VALUE",
-      "score": 54,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/introducing-evmbench",
+      "source_url": "https://openai.com/index/genmab",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-0f050215665408a2",
+      "content_id": "cand-4353dff6d13f378b",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-a239ddc1a3dd5b92",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-6a2395dbd857868a",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }
