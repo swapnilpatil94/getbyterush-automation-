@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T21:52:46.241182+00:00",
+  "generated_at": "2026-11-15T04:08:22.267745+00:00",
   "count": 80,
   "stories": [
     {
@@ -61,18 +61,6 @@
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 21
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Supporting research on AI and children’s safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "published": "Thu, 12 Nov 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 7,
-      "impact_score": 5,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 17
     },
     {
       "source": "Google AI Blog",
@@ -960,6 +948,18 @@
       "relevance_score": 16,
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing EVMbench",
+      "url": "https://openai.com/index/introducing-evmbench",
+      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "published": "Wed, 18 Feb 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 19
     }
   ]
