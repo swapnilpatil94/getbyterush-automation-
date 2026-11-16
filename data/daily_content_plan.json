@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-48c2b241758cbad3",
+      "topic": "Funding grants for new research into AI and teen development",
+      "category": "EVERGREEN_VALUE",
+      "score": 54,
+      "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/teen-development-research-grants",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -60,7 +75,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-48c2b241758cbad3",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
