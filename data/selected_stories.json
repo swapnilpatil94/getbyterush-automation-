@@ -1,26 +1,26 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "Funding grants for new research into AI and teen development",
-      "url": "https://openai.com/index/teen-development-research-grants",
-      "description": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "published": "Tue, 08 Sep 2026 09:00:00 GMT",
+      "title": "Intuit and OpenAI join forces on new AI-powered experiences",
+      "url": "https://openai.com/index/intuit-partnership",
+      "description": "OpenAI and Intuit have entered a $100M+ multi-year partnership to launch Intuit app experiences in ChatGPT and expand Intuit’s use of OpenAI’s frontier models to power personalized financial tools.",
+      "published": "Tue, 18 Nov 2025 05:00:00 GMT",
       "freshness_score": 0,
-      "relevance_score": 13,
-      "impact_score": 8,
-      "story_type": "BUSINESS",
-      "pre_filter_score": 21,
-      "content_id": "cand-48c2b241758cbad3",
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 20,
+      "content_id": "cand-02b4d2fece403d0e",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
         "category": "EVERGREEN_VALUE",
-        "quality_score": 54,
-        "why_selected": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
+        "quality_score": 53,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 53/100)",
         "source": "OpenAI News"
       }
     }
