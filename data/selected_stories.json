@@ -3,24 +3,24 @@
   "stories": [
     {
       "source": "NVIDIA Blog",
-      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
-      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
-      "description": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic [&#8230;]",
-      "published": "Mon, 16 Nov 2026 16:00:25 +0000",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
+      "description": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect across computing eras, from the people who wrote the very first CUDA programs to the AI developers [&#8230;]",
+      "published": "Mon, 16 Nov 2026 16:00:11 +0000",
       "freshness_score": 9,
-      "relevance_score": 18,
-      "impact_score": 12,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 39,
-      "content_id": "cand-1ed98f7206fdf993",
+      "relevance_score": 17,
+      "impact_score": 5,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 31,
+      "content_id": "cand-af60250adb38b2d6",
       "selection_meta": {
-        "rank": 2,
+        "rank": 3,
         "total": null,
-        "slot": "afternoon",
-        "slot_label": "Freshness",
+        "slot": "night",
+        "slot_label": "Maximum push",
         "category": "LAST_24H",
-        "quality_score": 78,
-        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 78/100)",
+        "quality_score": 66,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 66/100)",
         "source": "NVIDIA Blog"
       }
     }
