@@ -1,42 +1,18 @@
 {
-  "generated_at": "2026-11-17T01:23:15.368969+00:00",
+  "generated_at": "2026-11-17T15:18:45.173372+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-      "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-      "description": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the [&#8230;]",
-      "published": "Mon, 16 Nov 2026 20:00:37 +0000",
-      "freshness_score": 10,
-      "relevance_score": 9,
-      "impact_score": 6,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 25
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-      "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-      "description": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming [&#8230;]",
-      "published": "Mon, 16 Nov 2026 23:00:05 +0000",
-      "freshness_score": 10,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 18
-    },
     {
       "source": "NVIDIA Blog",
       "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
       "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
       "description": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic [&#8230;]",
       "published": "Mon, 16 Nov 2026 16:00:25 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 18,
       "impact_score": 12,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 39
+      "pre_filter_score": 38
     },
     {
       "source": "NVIDIA Blog",
@@ -44,11 +20,11 @@
       "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
       "description": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect across computing eras, from the people who wrote the very first CUDA programs to the AI developers [&#8230;]",
       "published": "Mon, 16 Nov 2026 16:00:11 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 17,
       "impact_score": 5,
       "story_type": "RESEARCH",
-      "pre_filter_score": 31
+      "pre_filter_score": 30
     },
     {
       "source": "NVIDIA Blog",
@@ -56,11 +32,23 @@
       "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
       "description": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries [&#8230;]",
       "published": "Mon, 16 Nov 2026 16:00:16 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 16,
       "impact_score": 0,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 25
+      "pre_filter_score": 24
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+      "description": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the [&#8230;]",
+      "published": "Mon, 16 Nov 2026 20:00:37 +0000",
+      "freshness_score": 8,
+      "relevance_score": 9,
+      "impact_score": 6,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 23
     },
     {
       "source": "NVIDIA Blog",
@@ -68,11 +56,11 @@
       "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
       "description": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering [&#8230;]",
       "published": "Mon, 16 Nov 2026 16:00:51 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 10,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
+      "pre_filter_score": 20
     },
     {
       "source": "OpenAI News",
@@ -80,78 +68,6 @@
       "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "description": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
       "published": "Mon, 16 Nov 2026 17:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 12,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-      "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
-      "description": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next [&#8230;]",
-      "published": "Mon, 16 Nov 2026 16:00:01 +0000",
-      "freshness_score": 9,
-      "relevance_score": 10,
-      "impact_score": 0,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "description": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-      "published": "Mon, 16 Nov 2026 17:00:00 GMT",
-      "freshness_score": 9,
-      "relevance_score": 6,
-      "impact_score": 3,
-      "story_type": "SECURITY",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
-      "url": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
-      "description": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the past five years, with nearly 30 supercomputing centers around the world now in the process of deploying over 50 quantum processors. Many of these centers use Slurm to run scientific supercomputing workloads, so expanding its support for quantum processors builds on familiar workflows [&#8230;]",
-      "published": "Mon, 16 Nov 2026 16:00:47 +0000",
-      "freshness_score": 9,
-      "relevance_score": 4,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "published": "Mon, 16 Nov 2026 12:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 11,
-      "impact_score": 4,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 23
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Our first phase of embedded assessments",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "description": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-      "published": "Mon, 16 Nov 2026 08:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 10,
-      "impact_score": 3,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "OpenAI News",
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "description": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "published": "Mon, 16 Nov 2026 06:00:00 GMT",
       "freshness_score": 8,
       "relevance_score": 12,
       "impact_score": 0,
@@ -160,27 +76,87 @@
     },
     {
       "source": "OpenAI News",
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "description": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "published": "Mon, 16 Nov 2026 09:00:00 GMT",
+      "title": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "description": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "published": "Tue, 17 Nov 2026 00:00:00 GMT",
       "freshness_score": 8,
       "relevance_score": 8,
+      "impact_score": 3,
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+      "description": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next [&#8230;]",
+      "published": "Mon, 16 Nov 2026 16:00:01 +0000",
+      "freshness_score": 8,
+      "relevance_score": 10,
       "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 16
+      "story_type": "PRODUCT_UPDATE",
+      "pre_filter_score": 18
     },
     {
       "source": "OpenAI News",
-      "title": "Advancing computer-use agents for healthcare teams",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "description": "",
-      "published": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "description": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "published": "Mon, 16 Nov 2026 17:00:00 GMT",
       "freshness_score": 8,
       "relevance_score": 6,
+      "impact_score": 3,
+      "story_type": "SECURITY",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+      "description": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming [&#8230;]",
+      "published": "Mon, 16 Nov 2026 23:00:05 +0000",
+      "freshness_score": 8,
+      "relevance_score": 8,
       "impact_score": 0,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 16
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
+      "url": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
+      "description": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the past five years, with nearly 30 supercomputing centers around the world now in the process of deploying over 50 quantum processors. Many of these centers use Slurm to run scientific supercomputing workloads, so expanding its support for quantum processors builds on familiar workflows [&#8230;]",
+      "published": "Mon, 16 Nov 2026 16:00:47 +0000",
+      "freshness_score": 8,
+      "relevance_score": 4,
+      "impact_score": 3,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
+      "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "description": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "published": "Tue, 17 Nov 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "published": "Mon, 16 Nov 2026 09:30:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 13,
+      "impact_score": 8,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 27
     },
     {
       "source": "NVIDIA Blog",
@@ -193,6 +169,42 @@
       "impact_score": 2,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 24
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "published": "Mon, 16 Nov 2026 12:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 11,
+      "impact_score": 4,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "description": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "published": "Mon, 16 Nov 2026 08:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 10,
+      "impact_score": 3,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "description": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "published": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 12,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
     },
     {
       "source": "OpenAI News",
@@ -217,6 +229,30 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 15
+    },
+    {
+      "source": "OpenAI News",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "description": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "published": "Mon, 16 Nov 2026 09:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "description": "",
+      "published": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -916,18 +952,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
-      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
-      "published": "Sat, 01 Feb 2025 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 10,
-      "impact_score": 9,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
       "title": "Task scam: AI-assisted fake review jobs",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
       "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
@@ -936,30 +960,6 @@
       "relevance_score": 10,
       "impact_score": 9,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Grupo Boticário uses AI to strengthen human connections",
-      "url": "https://openai.com/index/grupo-boticario",
-      "description": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
-      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 11,
-      "impact_score": 8,
-      "story_type": "PRODUCT_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "AI is becoming a first hire for small businesses",
-      "url": "https://openai.com/index/ai-first-hire-small-business",
-      "description": "New research shows how 4 million Americans use ChatGPT to start, run, and grow small businesses, lowering the cost of entrepreneurship with AI.",
-      "published": "Mon, 25 May 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 11,
-      "impact_score": 8,
-      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]
