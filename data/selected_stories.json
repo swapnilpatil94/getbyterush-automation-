@@ -2,26 +2,26 @@
   "date": "2026-11-17",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "Intuit and OpenAI join forces on new AI-powered experiences",
-      "url": "https://openai.com/index/intuit-partnership",
-      "description": "OpenAI and Intuit have entered a $100M+ multi-year partnership to launch Intuit app experiences in ChatGPT and expand Intuit’s use of OpenAI’s frontier models to power personalized financial tools.",
-      "published": "Tue, 18 Nov 2025 05:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20,
-      "content_id": "cand-02b4d2fece403d0e",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "description": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic [&#8230;]",
+      "published": "Mon, 16 Nov 2026 16:00:25 +0000",
+      "freshness_score": 9,
+      "relevance_score": 18,
+      "impact_score": 12,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 39,
+      "content_id": "cand-1ed98f7206fdf993",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 53,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 53/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 78,
+        "why_selected": "LAST_24H — SURPRISING, NEW, PROVABLE (score 78/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]

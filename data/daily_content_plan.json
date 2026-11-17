@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-1ed98f7206fdf993",
+      "topic": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "category": "LAST_24H",
+      "score": 78,
+      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 78/100)",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -32,7 +47,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-1ed98f7206fdf993",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
