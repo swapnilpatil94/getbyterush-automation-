@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T14:47:02.479253+00:00",
+  "updated_at": "2026-11-18T14:53:50.534261+00:00",
   "candidates": [
     {
       "content_id": "cand-fc5befd2bacce4c4",
@@ -7776,7 +7776,93 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 24
       }
+    },
+    {
+      "content_id": "cand-d149b4b6cd67112a",
+      "topic": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development [&#8230;]",
+      "content_type": "LAST_24H",
+      "source": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "published_at": "Wed, 18 Nov 2026 14:00:31 +0000",
+      "discovered_at": "2026-11-18T14:53:50.530727+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 5,
+      "novelty": 2,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 3,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 58,
+      "raw": {
+        "source": "NVIDIA Blog",
+        "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+        "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+        "description": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development [&#8230;]",
+        "published": "Wed, 18 Nov 2026 14:00:31 +0000",
+        "freshness_score": 10,
+        "relevance_score": 16,
+        "impact_score": 0,
+        "story_type": "AI_AGENTS",
+        "pre_filter_score": 26
+      }
+    },
+    {
+      "content_id": "cand-b90abbb78f1db1c9",
+      "topic": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "published_at": "Wed, 18 Nov 2026 00:00:00 GMT",
+      "discovered_at": "2026-11-18T14:53:50.533960+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 0,
+      "save_score": 5,
+      "share_score": 3,
+      "information_value": 8,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 42,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+        "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+        "description": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+        "published": "Wed, 18 Nov 2026 00:00:00 GMT",
+        "freshness_score": 8,
+        "relevance_score": 8,
+        "impact_score": 0,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 16
+      }
     }
   ],
-  "count": 179
+  "count": 181
 }

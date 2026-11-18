@@ -1,18 +1,30 @@
 {
-  "generated_at": "2026-11-18T00:19:15.411923+00:00",
+  "generated_at": "2026-11-18T14:53:50.442337+00:00",
   "count": 80,
   "stories": [
     {
       "source": "NVIDIA Blog",
-      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-      "description": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance [&#8230;]",
-      "published": "Tue, 17 Nov 2026 14:00:10 +0000",
-      "freshness_score": 9,
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "description": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development [&#8230;]",
+      "published": "Wed, 18 Nov 2026 14:00:31 +0000",
+      "freshness_score": 10,
       "relevance_score": 16,
       "impact_score": 0,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 25
+      "pre_filter_score": 26
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "description": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "published": "Wed, 18 Nov 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 16
     },
     {
       "source": "OpenAI News",
@@ -20,11 +32,11 @@
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "description": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
       "published": "Tue, 17 Nov 2026 17:45:00 GMT",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 15
+      "pre_filter_score": 14
     },
     {
       "source": "Google AI Blog",
@@ -32,23 +44,11 @@
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
       "description": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
       "published": "Tue, 17 Nov 2026 17:00:00 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 4,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing ChatGPT for Sales",
-      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "description": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-      "published": "Tue, 17 Nov 2026 08:00:00 GMT",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
+      "pre_filter_score": 12
     },
     {
       "source": "NVIDIA Blog",
@@ -76,18 +76,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How Revolut raises ambition without lowering the bar",
-      "url": "https://openai.com/business/customer-stories/revolut",
-      "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
-      "published": "Mon, 16 Nov 2026 09:30:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 13,
-      "impact_score": 8,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27
-    },
-    {
-      "source": "OpenAI News",
       "title": "Astra for Law leads in legal intelligence",
       "url": "https://openai.com/index/astra-law-6-2",
       "description": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
@@ -97,6 +85,18 @@
       "impact_score": 6,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 24
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+      "description": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance [&#8230;]",
+      "published": "Tue, 17 Nov 2026 14:00:10 +0000",
+      "freshness_score": 6,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 22
     },
     {
       "source": "NVIDIA Blog",
@@ -123,30 +123,6 @@
       "pre_filter_score": 21
     },
     {
-      "source": "OpenAI News",
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "published": "Mon, 16 Nov 2026 12:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 11,
-      "impact_score": 4,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 21
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Our first phase of embedded assessments",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "description": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-      "published": "Mon, 16 Nov 2026 08:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 10,
-      "impact_score": 3,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 19
-    },
-    {
       "source": "NVIDIA Blog",
       "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
       "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
@@ -164,18 +140,6 @@
       "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "description": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
       "published": "Mon, 16 Nov 2026 17:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 12,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "OpenAI News",
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "description": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "published": "Mon, 16 Nov 2026 06:00:00 GMT",
       "freshness_score": 6,
       "relevance_score": 12,
       "impact_score": 0,
@@ -219,18 +183,6 @@
       "pre_filter_score": 15
     },
     {
-      "source": "OpenAI News",
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "description": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "published": "Mon, 16 Nov 2026 09:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
-    },
-    {
       "source": "NVIDIA Blog",
       "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
       "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
@@ -268,15 +220,27 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Advancing computer-use agents for healthcare teams",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "description": "",
-      "published": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "description": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "published": "Tue, 17 Nov 2026 08:00:00 GMT",
       "freshness_score": 6,
       "relevance_score": 6,
       "impact_score": 0,
-      "story_type": "TECH_NEWS",
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 12
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "published": "Mon, 16 Nov 2026 09:30:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 13,
+      "impact_score": 8,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 26
     },
     {
       "source": "NVIDIA Blog",
@@ -289,6 +253,42 @@
       "impact_score": 2,
       "story_type": "AI_AGENTS",
       "pre_filter_score": 23
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "published": "Mon, 16 Nov 2026 12:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 11,
+      "impact_score": 4,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "description": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "published": "Mon, 16 Nov 2026 08:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 10,
+      "impact_score": 3,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "description": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "published": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 12,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -313,6 +313,30 @@
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "description": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "published": "Mon, 16 Nov 2026 09:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "description": "",
+      "published": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 11
     },
     {
       "source": "OpenAI News",
@@ -932,30 +956,6 @@
       "url": "https://openai.com/index/bbva",
       "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
       "published": "Thu, 11 Jun 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 15,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Podium is arming 10,000+ SMBs with AI agents",
-      "url": "https://openai.com/index/podium",
-      "description": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers.",
-      "published": "Thu, 11 Dec 2025 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 15,
-      "impact_score": 5,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
-      "title": "HiBob turns 2,500 GPTs into product and team growth",
-      "url": "https://openai.com/index/hibob",
-      "description": "Discover how HiBob uses ChatGPT Enterprise and custom GPTs to scale AI adoption, boost revenue, streamline HR workflows, and deliver AI-powered features in the Bob platform.",
-      "published": "Wed, 08 Oct 2025 08:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 15,
       "impact_score": 5,
