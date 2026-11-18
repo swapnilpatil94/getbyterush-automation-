@@ -2,26 +2,26 @@
   "date": "2026-11-18",
   "stories": [
     {
-      "source": "OpenAI News",
-      "title": "How Revolut raises ambition without lowering the bar",
-      "url": "https://openai.com/business/customer-stories/revolut",
-      "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
-      "published": "Mon, 16 Nov 2026 09:30:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 13,
-      "impact_score": 8,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27,
-      "content_id": "cand-9e8c2fabdabcb5d5",
+      "source": "NVIDIA Blog",
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+      "description": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance [&#8230;]",
+      "published": "Tue, 17 Nov 2026 14:00:10 +0000",
+      "freshness_score": 9,
+      "relevance_score": 16,
+      "impact_score": 0,
+      "story_type": "AI_AGENTS",
+      "pre_filter_score": 25,
+      "content_id": "cand-eb0cec9bf88616d1",
       "selection_meta": {
-        "rank": 1,
+        "rank": 2,
         "total": null,
-        "slot": "morning",
-        "slot_label": "Morning discovery",
-        "category": "EVERGREEN_VALUE",
-        "quality_score": 57,
-        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
-        "source": "OpenAI News"
+        "slot": "afternoon",
+        "slot_label": "Freshness",
+        "category": "LAST_24H",
+        "quality_score": 55,
+        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
+        "source": "NVIDIA Blog"
       }
     }
   ]
