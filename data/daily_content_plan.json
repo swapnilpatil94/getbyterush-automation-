@@ -1,48 +1,18 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-02b4d2fece403d0e",
-      "topic": "Intuit and OpenAI join forces on new AI-powered experiences",
+      "content_id": "cand-9e8c2fabdabcb5d5",
+      "topic": "How Revolut raises ambition without lowering the bar",
       "category": "EVERGREEN_VALUE",
-      "score": 53,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 53/100)",
+      "score": 57,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/intuit-partnership",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-1ed98f7206fdf993",
-      "topic": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
-      "category": "LAST_24H",
-      "score": 78,
-      "reason": "LAST_24H — SURPRISING, NEW, PROVABLE (score 78/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-af60250adb38b2d6",
-      "topic": "CUDA at 20: How the Platform Transformed Scientific Computing",
-      "category": "LAST_24H",
-      "score": 66,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 66/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/20-years-cuda/",
+      "source_url": "https://openai.com/business/customer-stories/revolut",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-02b4d2fece403d0e",
+      "content_id": "cand-9e8c2fabdabcb5d5",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-1ed98f7206fdf993",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-af60250adb38b2d6",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }

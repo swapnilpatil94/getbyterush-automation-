@@ -1,27 +1,27 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
-      "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
-      "description": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect across computing eras, from the people who wrote the very first CUDA programs to the AI developers [&#8230;]",
-      "published": "Mon, 16 Nov 2026 16:00:11 +0000",
-      "freshness_score": 9,
-      "relevance_score": 17,
-      "impact_score": 5,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 31,
-      "content_id": "cand-af60250adb38b2d6",
+      "source": "OpenAI News",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "published": "Mon, 16 Nov 2026 09:30:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 13,
+      "impact_score": 8,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 27,
+      "content_id": "cand-9e8c2fabdabcb5d5",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "LAST_24H",
-        "quality_score": 66,
-        "why_selected": "LAST_24H — SURPRISING, PROVABLE (score 66/100)",
-        "source": "NVIDIA Blog"
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
+        "quality_score": 57,
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
+        "source": "OpenAI News"
       }
     }
   ]
