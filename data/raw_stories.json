@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T05:21:43.592240+00:00",
+  "generated_at": "2026-11-19T14:59:35.715606+00:00",
   "count": 1449,
   "stories": [
     {
@@ -24,7 +24,7 @@
       "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
       "description": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
       "published": "Mon, 16 Nov 2026 14:00:00 +0000",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "Google AI Blog",
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/the-silent-consensus",
       "description": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
       "published": "Wed, 18 Nov 2026 10:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -176,7 +176,7 @@
       "url": "https://openai.com/index/research-acceleration-jagged-frontier",
       "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
       "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -184,7 +184,7 @@
       "url": "https://openai.com/business/customer-stories/sumitomo-life",
       "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
       "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -192,7 +192,7 @@
       "url": "https://openai.com/index/inside-the-codex-sandbox",
       "description": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
       "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -200,7 +200,7 @@
       "url": "https://openai.com/index/managing-frontier-ai-risk",
       "description": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
       "published": "Wed, 18 Nov 2026 06:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -240,7 +240,7 @@
       "url": "https://openai.com/index/introducing-chatgpt-for-sales",
       "description": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
       "published": "Tue, 17 Nov 2026 08:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -280,7 +280,7 @@
       "url": "https://openai.com/index/science-at-the-frontier",
       "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
       "published": "Mon, 16 Nov 2026 12:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -288,7 +288,7 @@
       "url": "https://openai.com/business/customer-stories/revolut",
       "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
       "published": "Mon, 16 Nov 2026 09:30:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -296,7 +296,7 @@
       "url": "https://openai.com/index/lvmh-media-division-partnership",
       "description": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
       "published": "Mon, 16 Nov 2026 09:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -304,7 +304,7 @@
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
       "description": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
       "published": "Mon, 16 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -312,7 +312,7 @@
       "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "description": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
       "published": "Mon, 16 Nov 2026 06:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -320,7 +320,7 @@
       "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "description": "",
       "published": "Mon, 16 Nov 2026 06:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -11452,11 +11452,19 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+      "description": "GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership. Big gaming plans, smaller price tag. Keep the holiday savings going: Check out more NVIDIA holiday deals for gamers, [&#8230;]",
+      "published": "Thu, 19 Nov 2026 14:00:12 +0000",
+      "freshness_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "NVIDIA RTX Spark Compact Desktops Out Now",
       "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
       "description": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development [&#8230;]",
       "published": "Wed, 18 Nov 2026 14:00:31 +0000",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "NVIDIA Blog",
@@ -11464,7 +11472,7 @@
       "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
       "description": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance [&#8230;]",
       "published": "Tue, 17 Nov 2026 14:00:10 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "NVIDIA Blog",
@@ -11584,14 +11592,6 @@
       "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
       "description": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2, with additional investments [&#8230;]",
       "published": "Mon, 09 Nov 2026 08:00:53 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Korea Advances Physical AI Across Industries With NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
-      "description": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production. Samsung Advances Semiconductor Engineering With [&#8230;]",
-      "published": "Mon, 09 Nov 2026 05:00:40 +0000",
       "freshness_score": 0
     }
   ]
