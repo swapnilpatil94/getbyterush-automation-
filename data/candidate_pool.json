@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T08:15:56.173962+00:00",
+  "updated_at": "2026-11-19T14:51:02.361100+00:00",
   "candidates": [
     {
       "content_id": "cand-fc5befd2bacce4c4",
@@ -7978,7 +7978,7 @@
         "website_demo_possible": false,
         "visual_demo_possible": true
       },
-      "status": "POOLED",
+      "status": "EDITORIAL_REJECTED",
       "score": 54,
       "raw": {
         "source": "OpenAI News",
@@ -7991,7 +7991,8 @@
         "impact_score": 5,
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 21
-      }
+      },
+      "rejected_at": "2026-11-19T14:51:02.361038+00:00"
     }
   ],
   "count": 184
