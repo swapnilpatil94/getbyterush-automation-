@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T01:50:18.887290+00:00",
+  "updated_at": "2026-11-19T05:21:43.894290+00:00",
   "candidates": [
     {
       "content_id": "cand-fc5befd2bacce4c4",
@@ -3360,50 +3360,6 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 10
       }
-    },
-    {
-      "content_id": "cand-b30505bcae631ed4",
-      "topic": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "content_type": "DATA_RESEARCH",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/ringg",
-      "published_at": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "discovered_at": "2026-11-05T04:34:04.571587+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 0,
-      "novelty": 0,
-      "visual_potential": 8,
-      "curiosity_score": 0,
-      "save_score": 7,
-      "share_score": 3,
-      "information_value": 15,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": true
-      },
-      "status": "EDITORIAL_REJECTED",
-      "score": 54,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "url": "https://openai.com/index/ringg",
-        "description": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "published": "Wed, 23 Sep 2026 12:00:00 GMT",
-        "freshness_score": 0,
-        "relevance_score": 16,
-        "impact_score": 5,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 21
-      },
-      "rejected_at": "2026-11-15T14:46:19.747652+00:00"
     },
     {
       "content_id": "cand-409624e4e55e5882",
@@ -7949,7 +7905,93 @@
         "story_type": "TECH_NEWS",
         "pre_filter_score": 14
       }
+    },
+    {
+      "content_id": "cand-e52f6bd0a1fa28a8",
+      "topic": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "published_at": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "discovered_at": "2026-11-19T05:21:43.889709+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 4,
+      "save_score": 5,
+      "share_score": 4,
+      "information_value": 10,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 51,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+        "url": "https://openai.com/business/customer-stories/sumitomo-life",
+        "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+        "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+        "freshness_score": 8,
+        "relevance_score": 11,
+        "impact_score": 2,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 21
+      }
+    },
+    {
+      "content_id": "cand-b30505bcae631ed4",
+      "topic": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "content_type": "DATA_RESEARCH",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/ringg",
+      "published_at": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "discovered_at": "2026-11-19T05:21:43.894195+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 0,
+      "novelty": 0,
+      "visual_potential": 8,
+      "curiosity_score": 0,
+      "save_score": 7,
+      "share_score": 3,
+      "information_value": 15,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": true
+      },
+      "status": "POOLED",
+      "score": 54,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "url": "https://openai.com/index/ringg",
+        "description": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "published": "Wed, 23 Sep 2026 12:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 16,
+        "impact_score": 5,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 21
+      }
     }
   ],
-  "count": 183
+  "count": 184
 }
