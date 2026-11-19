@@ -1,48 +1,18 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-9e8c2fabdabcb5d5",
-      "topic": "How Revolut raises ambition without lowering the bar",
+      "content_id": "cand-e10860dbc8873279",
+      "topic": "Astra for Law leads in legal intelligence",
       "category": "EVERGREEN_VALUE",
-      "score": 57,
-      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 57/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/business/customer-stories/revolut",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "afternoon",
-      "content_id": "cand-eb0cec9bf88616d1",
-      "topic": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-      "category": "LAST_24H",
-      "score": 55,
-      "reason": "LAST_24H — SURPRISING, PROVABLE (score 55/100)",
-      "source": "NVIDIA Blog",
-      "source_url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 3,
-      "slot": "night",
-      "content_id": "cand-31d7176b0fe37cac",
-      "topic": "How we monitor internal coding agents for misalignment",
-      "category": "DATA_RESEARCH",
       "score": 54,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 54/100)",
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "source_url": "https://openai.com/index/astra-law-6-2",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -52,35 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-9e8c2fabdabcb5d5",
+      "content_id": "cand-e10860dbc8873279",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "SELECTED",
-      "content_id": "cand-eb0cec9bf88616d1",
-      "label": "Freshness"
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-31d7176b0fe37cac",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 3
+  "selected_count": 1
 }

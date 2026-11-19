@@ -1,26 +1,26 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "stories": [
     {
       "source": "OpenAI News",
-      "title": "How we monitor internal coding agents for misalignment",
-      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-      "description": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
-      "published": "Thu, 19 Mar 2026 10:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 10,
-      "story_type": "RESEARCH",
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "description": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "published": "Tue, 17 Nov 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 12,
+      "impact_score": 6,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 24,
-      "content_id": "cand-31d7176b0fe37cac",
+      "content_id": "cand-e10860dbc8873279",
       "selection_meta": {
-        "rank": 3,
+        "rank": 1,
         "total": null,
-        "slot": "night",
-        "slot_label": "Maximum push",
-        "category": "DATA_RESEARCH",
+        "slot": "morning",
+        "slot_label": "Morning discovery",
+        "category": "EVERGREEN_VALUE",
         "quality_score": 54,
-        "why_selected": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 54/100)",
+        "why_selected": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 54/100)",
         "source": "OpenAI News"
       }
     }
