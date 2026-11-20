@@ -32,6 +32,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 3,
+      "slot": "night",
+      "content_id": "cand-d6f7d400e9a15eb9",
+      "topic": "Strengthening ChatGPT’s responses in sensitive conversations",
+      "category": "EVERGREEN_VALUE",
+      "score": 53,
+      "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 53/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -60,7 +75,12 @@
         "CURIOSITY",
         "INTERNET_HUMAN_TECH_BEHAVIOR"
       ]
+    },
+    "night": {
+      "status": "SELECTED",
+      "content_id": "cand-d6f7d400e9a15eb9",
+      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 3
 }
