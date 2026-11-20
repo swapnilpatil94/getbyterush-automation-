@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-11-20T14:41:53.410983+00:00",
+  "generated_at": "2026-11-20T23:32:08.386233+00:00",
   "count": 80,
   "stories": [
+    {
+      "source": "OpenAI News",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "published": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 10,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "published": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 17
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "published": "Fri, 20 Nov 2026 10:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 16
+    },
     {
       "source": "NVIDIA Blog",
       "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
       "published": "Thu, 19 Nov 2026 17:00:35 +0000",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 18,
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 30
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
-      "description": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
-      "published": "Thu, 19 Nov 2026 17:00:00 +0000",
-      "freshness_score": 8,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-      "published": "Thu, 19 Nov 2026 18:00:00 +0000",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
-      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
-      "description": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to [&#8230;]",
-      "published": "Thu, 19 Nov 2026 20:00:15 +0000",
-      "freshness_score": 8,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 14
+      "pre_filter_score": 28
     },
     {
       "source": "OpenAI News",
@@ -75,18 +75,6 @@
       "pre_filter_score": 16
     },
     {
-      "source": "Google AI Blog",
-      "title": "The Gemini app is now available on lower-memory Android devices.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "description": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-      "published": "Wed, 18 Nov 2026 17:00:00 +0000",
-      "freshness_score": 6,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
-    },
-    {
       "source": "OpenAI News",
       "title": "Deploying Daybreak Red",
       "url": "https://openai.com/business/learn/deploying-daybreak-red",
@@ -97,6 +85,42 @@
       "impact_score": 3,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 13
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "description": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "published": "Thu, 19 Nov 2026 17:00:00 +0000",
+      "freshness_score": 6,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 13
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "published": "Thu, 19 Nov 2026 18:00:00 +0000",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 12
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "description": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to [&#8230;]",
+      "published": "Thu, 19 Nov 2026 20:00:15 +0000",
+      "freshness_score": 6,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
     },
     {
       "source": "OpenAI News",
@@ -136,6 +160,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
       "title": "Research acceleration: The jagged frontier",
       "url": "https://openai.com/index/research-acceleration-jagged-frontier",
       "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
@@ -147,16 +183,16 @@
       "pre_filter_score": 18
     },
     {
-      "source": "OpenAI News",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "source": "Google AI Blog",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "description": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "published": "Wed, 18 Nov 2026 17:00:00 +0000",
       "freshness_score": 5,
-      "relevance_score": 11,
-      "impact_score": 2,
+      "relevance_score": 8,
+      "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
+      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -181,30 +217,6 @@
       "impact_score": 2,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 12
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "description": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-      "published": "Tue, 17 Nov 2026 17:45:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 11
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Put Gemini to work for you",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-      "description": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
-      "published": "Tue, 17 Nov 2026 17:00:00 +0000",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 9
     },
     {
       "source": "NVIDIA Blog",
@@ -944,18 +956,6 @@
       "url": "https://openai.com/index/ai-first-hire-small-business",
       "description": "New research shows how 4 million Americans use ChatGPT to start, run, and grow small businesses, lowering the cost of entrepreneurship with AI.",
       "published": "Mon, 25 May 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 11,
-      "impact_score": 8,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Strengthening ChatGPT’s responses in sensitive conversations",
-      "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations",
-      "description": "OpenAI collaborated with 170+ mental health experts to improve ChatGPT’s ability to recognize distress, respond empathetically, and guide users toward real-world support—reducing unsafe responses by up to 80%. Learn how we’re making ChatGPT safer and more supportive in sensitive moments.",
-      "published": "Mon, 27 Oct 2025 10:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 11,
       "impact_score": 8,
