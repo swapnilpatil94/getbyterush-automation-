@@ -17,6 +17,21 @@
       "render_status": "PENDING",
       "telegram_status": "PENDING",
       "publish_status": "PENDING"
+    },
+    {
+      "rank": 2,
+      "slot": "afternoon",
+      "content_id": "cand-4e39b354ccc94649",
+      "topic": "Managing frontier AI risk: From training to deployment",
+      "category": "LAST_24H",
+      "score": 52,
+      "reason": "LAST_24H — SURPRISING, PROVABLE (score 52/100)",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/managing-frontier-ai-risk",
+      "editorial_status": "FAILED",
+      "render_status": "PENDING",
+      "telegram_status": "PENDING",
+      "publish_status": "PENDING"
     }
   ],
   "slots": {
@@ -32,7 +47,12 @@
         "EXPERIMENT",
         "PRODUCT_TOOL"
       ]
+    },
+    "afternoon": {
+      "status": "SELECTED",
+      "content_id": "cand-4e39b354ccc94649",
+      "label": "Freshness"
     }
   },
-  "selected_count": 1
+  "selected_count": 2
 }
