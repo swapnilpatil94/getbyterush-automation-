@@ -1,30 +1,18 @@
 {
-  "generated_at": "2026-11-20T00:05:59.412935+00:00",
+  "generated_at": "2026-11-20T14:41:53.410983+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
-      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
-      "description": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to [&#8230;]",
-      "published": "Thu, 19 Nov 2026 20:00:15 +0000",
-      "freshness_score": 10,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
-    },
     {
       "source": "NVIDIA Blog",
       "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
       "published": "Thu, 19 Nov 2026 17:00:35 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 18,
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 31
+      "pre_filter_score": 30
     },
     {
       "source": "Google AI Blog",
@@ -32,11 +20,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
       "description": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
       "published": "Thu, 19 Nov 2026 17:00:00 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 5,
       "impact_score": 2,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 16
+      "pre_filter_score": 15
     },
     {
       "source": "Google AI Blog",
@@ -44,11 +32,23 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
       "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
       "published": "Thu, 19 Nov 2026 18:00:00 +0000",
-      "freshness_score": 9,
+      "freshness_score": 8,
       "relevance_score": 6,
       "impact_score": 0,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 15
+      "pre_filter_score": 14
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "description": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to [&#8230;]",
+      "published": "Thu, 19 Nov 2026 20:00:15 +0000",
+      "freshness_score": 8,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 14
     },
     {
       "source": "OpenAI News",
@@ -56,59 +56,11 @@
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "description": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "published": "Thu, 19 Nov 2026 08:00:00 GMT",
-      "freshness_score": 8,
+      "freshness_score": 6,
       "relevance_score": 9,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Managing frontier AI risk: From training to deployment",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "description": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "published": "Wed, 18 Nov 2026 06:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 12,
-      "impact_score": 7,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 25
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
-      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
-      "description": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development [&#8230;]",
-      "published": "Wed, 18 Nov 2026 14:00:31 +0000",
-      "freshness_score": 6,
-      "relevance_score": 16,
-      "impact_score": 0,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 22
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Research acceleration: The jagged frontier",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 11,
-      "impact_score": 2,
-      "story_type": "RESEARCH",
-      "pre_filter_score": 19
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -136,22 +88,34 @@
     },
     {
       "source": "OpenAI News",
-      "title": "The Silent Consensus",
-      "url": "https://openai.com/index/the-silent-consensus",
-      "description": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "published": "Wed, 18 Nov 2026 10:00:00 GMT",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "description": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "published": "Thu, 19 Nov 2026 00:00:00 GMT",
       "freshness_score": 6,
-      "relevance_score": 5,
-      "impact_score": 2,
+      "relevance_score": 4,
+      "impact_score": 3,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 13
     },
     {
+      "source": "OpenAI News",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "description": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "published": "Wed, 18 Nov 2026 06:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 12,
+      "impact_score": 7,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 24
+    },
+    {
       "source": "NVIDIA Blog",
-      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-      "description": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance [&#8230;]",
-      "published": "Tue, 17 Nov 2026 14:00:10 +0000",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "description": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development [&#8230;]",
+      "published": "Wed, 18 Nov 2026 14:00:31 +0000",
       "freshness_score": 5,
       "relevance_score": 16,
       "impact_score": 0,
@@ -172,6 +136,30 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 11,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
       "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
       "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
       "description": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
@@ -184,22 +172,22 @@
     },
     {
       "source": "OpenAI News",
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "description": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "published": "Wed, 18 Nov 2026 10:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
+    },
+    {
+      "source": "OpenAI News",
       "title": "Introducing GPT-6.2 Astra and Sol",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "description": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
       "published": "Tue, 17 Nov 2026 17:45:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 11
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing ChatGPT for Sales",
-      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "description": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-      "published": "Tue, 17 Nov 2026 08:00:00 GMT",
       "freshness_score": 5,
       "relevance_score": 6,
       "impact_score": 0,
@@ -772,18 +760,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Bet Bot: Gambling spam network",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
-      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "STORM-0817: Iran-linked malware and scraping activity",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
       "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
@@ -792,6 +768,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bet Bot: Gambling spam network",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -956,6 +944,18 @@
       "url": "https://openai.com/index/ai-first-hire-small-business",
       "description": "New research shows how 4 million Americans use ChatGPT to start, run, and grow small businesses, lowering the cost of entrepreneurship with AI.",
       "published": "Mon, 25 May 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 11,
+      "impact_score": 8,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Strengthening ChatGPT’s responses in sensitive conversations",
+      "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations",
+      "description": "OpenAI collaborated with 170+ mental health experts to improve ChatGPT’s ability to recognize distress, respond empathetically, and guide users toward real-world support—reducing unsafe responses by up to 80%. Learn how we’re making ChatGPT safer and more supportive in sensitive moments.",
+      "published": "Mon, 27 Oct 2025 10:00:00 GMT",
       "freshness_score": 0,
       "relevance_score": 11,
       "impact_score": 8,
