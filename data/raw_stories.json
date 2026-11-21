@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T23:32:08.182175+00:00",
+  "generated_at": "2026-11-21T05:01:22.611797+00:00",
   "count": 1457,
   "stories": [
     {
@@ -176,7 +176,7 @@
       "url": "https://openai.com/business/customer-stories/hebbia",
       "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
       "published": "Fri, 20 Nov 2026 00:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -184,7 +184,7 @@
       "url": "https://openai.com/index/introducing-medchembench",
       "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
       "published": "Fri, 20 Nov 2026 00:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -200,7 +200,7 @@
       "url": "https://openai.com/business/learn/codex-security-plugin-demo",
       "description": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
       "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -208,7 +208,7 @@
       "url": "https://openai.com/business/learn/pr-scans-demo",
       "description": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
       "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -216,7 +216,7 @@
       "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
       "description": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
       "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -224,7 +224,7 @@
       "url": "https://openai.com/business/learn/deploying-daybreak-red",
       "description": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -272,7 +272,7 @@
       "url": "https://openai.com/index/advancing-chip-design-with-our-models",
       "description": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
       "published": "Wed, 18 Nov 2026 00:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -280,7 +280,7 @@
       "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
       "description": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
       "published": "Wed, 18 Nov 2026 00:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
