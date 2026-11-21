@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T05:01:22.611797+00:00",
+  "generated_at": "2026-11-21T13:58:12.505212+00:00",
   "count": 1457,
   "stories": [
     {
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/combatting-adversarial-distillation",
       "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "published": "Fri, 20 Nov 2026 10:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -192,7 +192,7 @@
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "description": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "published": "Thu, 19 Nov 2026 08:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -232,7 +232,7 @@
       "url": "https://openai.com/index/the-silent-consensus",
       "description": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
       "published": "Wed, 18 Nov 2026 10:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -240,7 +240,7 @@
       "url": "https://openai.com/business/customer-stories/sumitomo-life",
       "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
       "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -248,7 +248,7 @@
       "url": "https://openai.com/index/research-acceleration-jagged-frontier",
       "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
       "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -256,7 +256,7 @@
       "url": "https://openai.com/index/inside-the-codex-sandbox",
       "description": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
       "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -264,7 +264,7 @@
       "url": "https://openai.com/index/managing-frontier-ai-risk",
       "description": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
       "published": "Wed, 18 Nov 2026 06:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",

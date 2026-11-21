@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21T05:01:22.899109+00:00",
+  "updated_at": "2026-11-21T13:58:12.824002+00:00",
   "candidates": [
     {
       "content_id": "cand-f1a45e139651ea95",
@@ -3489,49 +3489,6 @@
         "freshness_score": 0,
         "relevance_score": 11,
         "impact_score": 8,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 19
-      }
-    },
-    {
-      "content_id": "cand-594fa247e20769b0",
-      "topic": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-      "content_type": "INTERNET_HUMAN_TECH_BEHAVIOR",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "published_at": "Fri, 11 Sep 2026 10:00:00 GMT",
-      "discovered_at": "2026-11-07T12:12:54.919366+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 0,
-      "novelty": 0,
-      "visual_potential": 3,
-      "curiosity_score": 8,
-      "save_score": 5,
-      "share_score": 8,
-      "information_value": 10,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 49,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-        "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-        "published": "Fri, 11 Sep 2026 10:00:00 GMT",
-        "freshness_score": 0,
-        "relevance_score": 12,
-        "impact_score": 7,
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 19
       }
@@ -7644,6 +7601,49 @@
         "impact_score": 0,
         "story_type": "TECH_NEWS",
         "pre_filter_score": 16
+      }
+    },
+    {
+      "content_id": "cand-594fa247e20769b0",
+      "topic": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "content_type": "INTERNET_HUMAN_TECH_BEHAVIOR",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "published_at": "Fri, 11 Sep 2026 10:00:00 GMT",
+      "discovered_at": "2026-11-21T13:58:12.823947+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 0,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 8,
+      "save_score": 5,
+      "share_score": 8,
+      "information_value": 10,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 49,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+        "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+        "published": "Fri, 11 Sep 2026 10:00:00 GMT",
+        "freshness_score": 0,
+        "relevance_score": 12,
+        "impact_score": 7,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 19
       }
     }
   ],
