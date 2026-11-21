@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-11-21T13:58:12.740712+00:00",
+  "generated_at": "2026-11-21T22:39:21.830984+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "NVIDIA Blog",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
-      "published": "Thu, 19 Nov 2026 17:00:35 +0000",
-      "freshness_score": 6,
-      "relevance_score": 18,
-      "impact_score": 4,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 28
-    },
     {
       "source": "OpenAI News",
       "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
@@ -51,52 +39,16 @@
       "pre_filter_score": 14
     },
     {
-      "source": "Google AI Blog",
-      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
-      "description": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
-      "published": "Thu, 19 Nov 2026 17:00:00 +0000",
-      "freshness_score": 6,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 13
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-      "published": "Thu, 19 Nov 2026 18:00:00 +0000",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 12
-    },
-    {
       "source": "NVIDIA Blog",
-      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
-      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
-      "description": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to [&#8230;]",
-      "published": "Thu, 19 Nov 2026 20:00:15 +0000",
-      "freshness_score": 6,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
-      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
-      "description": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development [&#8230;]",
-      "published": "Wed, 18 Nov 2026 14:00:31 +0000",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
+      "published": "Thu, 19 Nov 2026 17:00:35 +0000",
       "freshness_score": 5,
-      "relevance_score": 16,
-      "impact_score": 0,
-      "story_type": "AI_AGENTS",
-      "pre_filter_score": 21
+      "relevance_score": 18,
+      "impact_score": 4,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 27
     },
     {
       "source": "OpenAI News",
@@ -123,18 +75,6 @@
       "pre_filter_score": 15
     },
     {
-      "source": "Google AI Blog",
-      "title": "The Gemini app is now available on lower-memory Android devices.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "description": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-      "published": "Wed, 18 Nov 2026 17:00:00 +0000",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 13
-    },
-    {
       "source": "OpenAI News",
       "title": "Deploying Daybreak Red",
       "url": "https://openai.com/business/learn/deploying-daybreak-red",
@@ -145,6 +85,42 @@
       "impact_score": 3,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 12
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "description": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "published": "Thu, 19 Nov 2026 17:00:00 +0000",
+      "freshness_score": 5,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "published": "Thu, 19 Nov 2026 18:00:00 +0000",
+      "freshness_score": 5,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 11
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "description": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to [&#8230;]",
+      "published": "Thu, 19 Nov 2026 20:00:15 +0000",
+      "freshness_score": 5,
+      "relevance_score": 6,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 11
     },
     {
       "source": "NVIDIA Blog",
@@ -960,6 +936,30 @@
       "relevance_score": 16,
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing EVMbench",
+      "url": "https://openai.com/index/introducing-evmbench",
+      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "published": "Wed, 18 Feb 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 19
     }
   ]
