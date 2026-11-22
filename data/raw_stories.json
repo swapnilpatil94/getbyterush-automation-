@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T04:25:54.968012+00:00",
+  "generated_at": "2026-11-22T13:51:51.329412+00:00",
   "count": 1457,
   "stories": [
     {
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/combatting-adversarial-distillation",
       "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "published": "Fri, 20 Nov 2026 10:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -192,7 +192,7 @@
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "description": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "published": "Thu, 19 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
