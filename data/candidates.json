@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-11-21T22:39:21.830984+00:00",
+  "generated_at": "2026-11-22T04:25:55.233491+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "OpenAI News",
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "published": "Fri, 20 Nov 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 10,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "published": "Fri, 20 Nov 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 7,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 15
-    },
     {
       "source": "OpenAI News",
       "title": "Combatting adversarial distillation",
@@ -52,6 +28,18 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "published": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 10,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
+    },
+    {
+      "source": "OpenAI News",
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "description": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
@@ -64,27 +52,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "description": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "published": "Thu, 19 Nov 2026 00:00:00 GMT",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "published": "Fri, 20 Nov 2026 00:00:00 GMT",
       "freshness_score": 5,
-      "relevance_score": 5,
-      "impact_score": 5,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 15
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "description": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 4,
-      "impact_score": 3,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
+      "relevance_score": 7,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 14
     },
     {
       "source": "Google AI Blog",
@@ -960,6 +936,30 @@
       "relevance_score": 16,
       "impact_score": 3,
       "story_type": "AI_AGENTS",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Genmab launches “AI Everywhere”",
+      "url": "https://openai.com/index/genmab",
+      "description": "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy",
+      "published": "Thu, 19 Sep 2024 04:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Surging developer productivity with custom GPTs",
+      "url": "https://openai.com/index/paf",
+      "description": "Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Enterprise into the grit:lab coding academy (gritlab.ax), training the next generation of software developers using an AI-augmented, systems-architecture mindset from day one. In addition to the wide range of use cases for developers and grit:lab students, 70% of Paf employees actively use ChatGPT Enterprise, spanning business teams like finance, HR, marketing, and customer support.",
+      "published": "Tue, 18 Jun 2024 08:45:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 16,
+      "impact_score": 3,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
   ]
