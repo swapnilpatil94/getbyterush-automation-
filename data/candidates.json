@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-22T13:51:51.613667+00:00",
+  "generated_at": "2026-11-22T23:02:44.499065+00:00",
   "count": 80,
   "stories": [
     {
-      "source": "NVIDIA Blog",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "description": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
-      "published": "Thu, 19 Nov 2026 17:00:35 +0000",
-      "freshness_score": 5,
-      "relevance_score": 18,
+      "source": "OpenAI News",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "published": "Sun, 22 Nov 2026 00:00:00 GMT",
+      "freshness_score": 8,
+      "relevance_score": 14,
       "impact_score": 4,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 27
+      "pre_filter_score": 26
     },
     {
       "source": "OpenAI News",
@@ -49,42 +49,6 @@
       "impact_score": 0,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 13
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
-      "description": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
-      "published": "Thu, 19 Nov 2026 17:00:00 +0000",
-      "freshness_score": 5,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-      "published": "Thu, 19 Nov 2026 18:00:00 +0000",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 11
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
-      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
-      "description": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to [&#8230;]",
-      "published": "Thu, 19 Nov 2026 20:00:15 +0000",
-      "freshness_score": 5,
-      "relevance_score": 6,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 11
     },
     {
       "source": "NVIDIA Blog",
@@ -640,18 +604,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "STORM-0817: Iran-linked malware and scraping activity",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "SECURITY",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "Bet Bot: Gambling spam network",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
       "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
@@ -660,6 +612,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "TECH_NEWS",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "STORM-0817: Iran-linked malware and scraping activity",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "SECURITY",
       "pre_filter_score": 20
     },
     {
@@ -960,6 +924,42 @@
       "relevance_score": 17,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Localiza reorganized work around generative AI",
+      "url": "https://openai.com/index/localiza-generative-ai",
+      "description": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "published": "Wed, 14 Oct 2026 12:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 19
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "published": "Tue, 06 Oct 2026 10:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 2,
+      "story_type": "AI_AGENTS",
       "pre_filter_score": 19
     }
   ]

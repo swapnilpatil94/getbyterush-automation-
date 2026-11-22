@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T14:46:30.228727+00:00",
+  "updated_at": "2026-11-22T23:02:44.578044+00:00",
   "candidates": [
     {
       "content_id": "cand-f1a45e139651ea95",
@@ -7648,7 +7648,50 @@
         "story_type": "MODEL_UPDATE",
         "pre_filter_score": 19
       }
+    },
+    {
+      "content_id": "cand-4723f916ca3b55cb",
+      "topic": "Perplexity and Intelligence",
+      "title": "Perplexity and Intelligence",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "content_type": "LAST_24H",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/perplexity-and-intelligence",
+      "published_at": "Sun, 22 Nov 2026 00:00:00 GMT",
+      "discovered_at": "2026-11-22T23:02:44.577693+00:00",
+      "evidence_available": true,
+      "evergreen": false,
+      "timeliness": 4,
+      "novelty": 0,
+      "visual_potential": 3,
+      "curiosity_score": 8,
+      "save_score": 5,
+      "share_score": 5,
+      "information_value": 12,
+      "credibility": 5,
+      "experiment_possible": false,
+      "reel_readiness": {
+        "screen_recording_possible": false,
+        "product_demo_possible": false,
+        "mobile_demo_possible": false,
+        "website_demo_possible": false,
+        "visual_demo_possible": false
+      },
+      "status": "POOLED",
+      "score": 60,
+      "raw": {
+        "source": "OpenAI News",
+        "title": "Perplexity and Intelligence",
+        "url": "https://openai.com/index/perplexity-and-intelligence",
+        "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+        "published": "Sun, 22 Nov 2026 00:00:00 GMT",
+        "freshness_score": 8,
+        "relevance_score": 14,
+        "impact_score": 4,
+        "story_type": "MODEL_UPDATE",
+        "pre_filter_score": 26
+      }
     }
   ],
-  "count": 176
+  "count": 177
 }
