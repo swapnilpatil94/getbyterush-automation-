@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T23:02:44.292027+00:00",
+  "generated_at": "2026-11-23T05:01:45.049906+00:00",
   "count": 1458,
   "stories": [
     {
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/perplexity-and-intelligence",
       "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
       "published": "Sun, 22 Nov 2026 00:00:00 GMT",
-      "freshness_score": 8
+      "freshness_score": 6
     },
     {
       "source": "OpenAI News",
@@ -184,7 +184,7 @@
       "url": "https://openai.com/business/customer-stories/hebbia",
       "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
       "published": "Fri, 20 Nov 2026 00:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -192,7 +192,7 @@
       "url": "https://openai.com/index/introducing-medchembench",
       "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
       "published": "Fri, 20 Nov 2026 00:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
