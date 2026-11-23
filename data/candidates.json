@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T05:01:45.308885+00:00",
+  "generated_at": "2026-11-23T16:59:45.097537+00:00",
   "count": 80,
   "stories": [
     {
@@ -15,40 +15,16 @@
       "pre_filter_score": 24
     },
     {
-      "source": "OpenAI News",
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "published": "Fri, 20 Nov 2026 10:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 13
-    },
-    {
       "source": "NVIDIA Blog",
       "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
       "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
       "description": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic [&#8230;]",
       "published": "Mon, 16 Nov 2026 16:00:25 +0000",
-      "freshness_score": 2,
+      "freshness_score": 0,
       "relevance_score": 18,
       "impact_score": 12,
       "story_type": "AI_AGENTS",
-      "pre_filter_score": 32
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Revolut raises ambition without lowering the bar",
-      "url": "https://openai.com/business/customer-stories/revolut",
-      "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
-      "published": "Mon, 16 Nov 2026 09:30:00 GMT",
-      "freshness_score": 2,
-      "relevance_score": 13,
-      "impact_score": 8,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 23
+      "pre_filter_score": 30
     },
     {
       "source": "OpenAI News",
@@ -351,6 +327,18 @@
       "pre_filter_score": 22
     },
     {
+      "source": "NVIDIA Blog",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
+      "description": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect across computing eras, from the people who wrote the very first CUDA programs to the AI developers [&#8230;]",
+      "published": "Mon, 16 Nov 2026 16:00:11 +0000",
+      "freshness_score": 0,
+      "relevance_score": 17,
+      "impact_score": 5,
+      "story_type": "RESEARCH",
+      "pre_filter_score": 22
+    },
+    {
       "source": "OpenAI News",
       "title": "From assistance to execution: How enterprises put AI to work",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
@@ -396,6 +384,18 @@
       "relevance_score": 12,
       "impact_score": 9,
       "story_type": "RESEARCH",
+      "pre_filter_score": 21
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "published": "Mon, 16 Nov 2026 09:30:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 13,
+      "impact_score": 8,
+      "story_type": "MODEL_UPDATE",
       "pre_filter_score": 21
     },
     {
