@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:47:40.523172+00:00",
+  "generated_at": "2026-11-25T01:47:33.573474+00:00",
   "count": 80,
   "stories": [
     {
@@ -8,18 +8,18 @@
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
       "description": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
       "published": "Tue, 24 Nov 2026 16:00:00 +0000",
-      "freshness_score": 10,
+      "freshness_score": 9,
       "relevance_score": 5,
       "impact_score": 2,
       "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 17
+      "pre_filter_score": 16
     },
     {
-      "source": "Google AI Blog",
-      "title": "A more tailored Google Search that’s uniquely yours",
-      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-      "description": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
-      "published": "Mon, 23 Nov 2026 17:00:00 +0000",
+      "source": "OpenAI News",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "description": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "published": "Tue, 24 Nov 2026 13:00:00 GMT",
       "freshness_score": 8,
       "relevance_score": 8,
       "impact_score": 0,
@@ -28,15 +28,27 @@
     },
     {
       "source": "OpenAI News",
-      "title": "OpenAI and Cisco introduce Shirudo",
-      "url": "https://openai.com/index/introducing-shirudo",
-      "description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-      "published": "Mon, 23 Nov 2026 21:20:00 GMT",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "description": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "published": "Tue, 24 Nov 2026 11:00:00 GMT",
       "freshness_score": 8,
-      "relevance_score": 4,
-      "impact_score": 0,
+      "relevance_score": 3,
+      "impact_score": 2,
       "story_type": "TECH_NEWS",
-      "pre_filter_score": 12
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "description": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "published": "Tue, 24 Nov 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 12,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 18
     },
     {
       "source": "OpenAI News",
@@ -49,6 +61,30 @@
       "impact_score": 3,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 17
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "description": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "published": "Mon, 23 Nov 2026 17:00:00 +0000",
+      "freshness_score": 6,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 14
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "description": "",
+      "published": "Tue, 24 Nov 2026 00:00:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 13
     },
     {
       "source": "OpenAI News",
@@ -64,15 +100,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "published": "Sun, 22 Nov 2026 00:00:00 GMT",
-      "freshness_score": 5,
-      "relevance_score": 14,
-      "impact_score": 4,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 23
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "published": "Mon, 23 Nov 2026 21:20:00 GMT",
+      "freshness_score": 6,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 10
     },
     {
       "source": "NVIDIA Blog",
@@ -628,18 +664,6 @@
     },
     {
       "source": "OpenAI News",
-      "title": "Bet Bot: Gambling spam network",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
-      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
-      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 14,
-      "impact_score": 6,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 20
-    },
-    {
-      "source": "OpenAI News",
       "title": "STORM-0817: Iran-linked malware and scraping activity",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
       "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
@@ -648,6 +672,18 @@
       "relevance_score": 14,
       "impact_score": 6,
       "story_type": "SECURITY",
+      "pre_filter_score": 20
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Bet Bot: Gambling spam network",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+      "published": "Tue, 01 Oct 2024 00:00:00 GMT",
+      "freshness_score": 0,
+      "relevance_score": 14,
+      "impact_score": 6,
+      "story_type": "TECH_NEWS",
       "pre_filter_score": 20
     },
     {
@@ -923,42 +959,6 @@
       "freshness_score": 0,
       "relevance_score": 16,
       "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Surging developer productivity with custom GPTs",
-      "url": "https://openai.com/index/paf",
-      "description": "Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Enterprise into the grit:lab coding academy (gritlab.ax), training the next generation of software developers using an AI-augmented, systems-architecture mindset from day one. In addition to the wide range of use cases for developers and grit:lab students, 70% of Paf employees actively use ChatGPT Enterprise, spanning business teams like finance, HR, marketing, and customer support.",
-      "published": "Tue, 18 Jun 2024 08:45:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 16,
-      "impact_score": 3,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora",
-      "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "published": "Wed, 28 Oct 2026 09:30:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 19
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Localiza reorganized work around generative AI",
-      "url": "https://openai.com/index/localiza-generative-ai",
-      "description": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "freshness_score": 0,
-      "relevance_score": 17,
-      "impact_score": 2,
       "story_type": "MODEL_UPDATE",
       "pre_filter_score": 19
     }
