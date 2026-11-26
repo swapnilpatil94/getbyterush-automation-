@@ -1,33 +1,18 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-45d1459c108c272e",
-      "topic": "Bet Bot: Gambling spam network",
+      "content_id": "cand-478d26a69a9ea5ea",
+      "topic": "STORM-0817: Iran-linked malware and scraping activity",
       "category": "EVERGREEN_VALUE",
       "score": 51,
       "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-907419e0a1073baf",
-      "topic": "Surging developer productivity with custom GPTs",
-      "category": "DATA_RESEARCH",
-      "score": 56,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 56/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/paf",
+      "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -37,37 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-45d1459c108c272e",
+      "content_id": "cand-478d26a69a9ea5ea",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-907419e0a1073baf",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }
