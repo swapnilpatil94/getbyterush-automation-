@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T01:23:45.613385+00:00",
+  "generated_at": "2026-11-26T16:08:13.484382+00:00",
   "count": 1466,
   "stories": [
     {
@@ -8,7 +8,7 @@
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
       "description": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
       "published": "Tue, 24 Nov 2026 16:00:00 +0000",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "Google AI Blog",
@@ -168,7 +168,7 @@
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "description": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "published": "Tue, 24 Nov 2026 13:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -176,7 +176,7 @@
       "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
       "description": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
       "published": "Tue, 24 Nov 2026 11:00:00 GMT",
-      "freshness_score": 6
+      "freshness_score": 5
     },
     {
       "source": "OpenAI News",
@@ -216,7 +216,7 @@
       "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "description": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
       "published": "Mon, 23 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -224,7 +224,7 @@
       "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "description": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
       "published": "Mon, 23 Nov 2026 08:00:00 GMT",
-      "freshness_score": 5
+      "freshness_score": 0
     },
     {
       "source": "OpenAI News",
@@ -11588,6 +11588,14 @@
     },
     {
       "source": "NVIDIA Blog",
+      "title": "Come for the Games, Stay for the Community With GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+      "description": "Good games bring people together. This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing. From friendships formed in online lobbies to new worlds explored on everyday devices, GeForce NOW Ambassadors share their reasons to love cloud gaming. Those ready to find their own [&#8230;]",
+      "published": "Thu, 26 Nov 2026 14:00:22 +0000",
+      "freshness_score": 10
+    },
+    {
+      "source": "NVIDIA Blog",
       "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
       "url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
       "description": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. [&#8230;]",
@@ -11720,14 +11728,6 @@
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
       "description": "Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW, allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet. Meanwhile, Dragon’s Dogma 2: Dark Arisen brings new tales [&#8230;]",
       "published": "Thu, 12 Nov 2026 14:00:59 +0000",
-      "freshness_score": 0
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-      "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
-      "description": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
-      "published": "Wed, 11 Nov 2026 03:00:20 +0000",
       "freshness_score": 0
     }
   ]
