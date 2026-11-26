@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-11-25T16:35:43.273825+00:00",
+  "generated_at": "2026-11-26T01:23:45.879912+00:00",
   "count": 80,
   "stories": [
-    {
-      "source": "OpenAI News",
-      "title": "Clay helps sales teams win with Codex and ChatGPT",
-      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
-      "description": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
-      "published": "Tue, 24 Nov 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 12,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 18
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "A more tailored Google Search that’s uniquely yours",
-      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-      "description": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
-      "published": "Mon, 23 Nov 2026 17:00:00 +0000",
-      "freshness_score": 6,
-      "relevance_score": 8,
-      "impact_score": 0,
-      "story_type": "MODEL_UPDATE",
-      "pre_filter_score": 14
-    },
     {
       "source": "OpenAI News",
       "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
@@ -52,27 +28,15 @@
     },
     {
       "source": "OpenAI News",
-      "title": "How iFood scales coding agents across 15,000 repositories",
-      "url": "https://openai.com/business/customer-stories/ifood",
-      "description": "",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "description": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
       "published": "Tue, 24 Nov 2026 00:00:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 5,
-      "impact_score": 2,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 13
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI and Cisco introduce Shirudo",
-      "url": "https://openai.com/index/introducing-shirudo",
-      "description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-      "published": "Mon, 23 Nov 2026 21:20:00 GMT",
-      "freshness_score": 6,
-      "relevance_score": 4,
+      "freshness_score": 5,
+      "relevance_score": 12,
       "impact_score": 0,
-      "story_type": "TECH_NEWS",
-      "pre_filter_score": 10
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 17
     },
     {
       "source": "OpenAI News",
@@ -87,6 +51,30 @@
       "pre_filter_score": 16
     },
     {
+      "source": "Google AI Blog",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "description": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "published": "Mon, 23 Nov 2026 17:00:00 +0000",
+      "freshness_score": 5,
+      "relevance_score": 8,
+      "impact_score": 0,
+      "story_type": "MODEL_UPDATE",
+      "pre_filter_score": 13
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "description": "",
+      "published": "Tue, 24 Nov 2026 00:00:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 5,
+      "impact_score": 2,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 12
+    },
+    {
       "source": "OpenAI News",
       "title": "Connected intelligence for in-house legal",
       "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
@@ -97,6 +85,18 @@
       "impact_score": 2,
       "story_type": "TECH_NEWS",
       "pre_filter_score": 12
+    },
+    {
+      "source": "OpenAI News",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "published": "Mon, 23 Nov 2026 21:20:00 GMT",
+      "freshness_score": 5,
+      "relevance_score": 4,
+      "impact_score": 0,
+      "story_type": "TECH_NEWS",
+      "pre_filter_score": 9
     },
     {
       "source": "NVIDIA Blog",
