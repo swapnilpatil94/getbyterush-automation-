@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-26T16:08:13.788761+00:00",
+  "updated_at": "2026-11-27T01:21:38.499196+00:00",
   "candidates": [
     {
       "content_id": "cand-f1a45e139651ea95",
@@ -3674,93 +3674,6 @@
       }
     },
     {
-      "content_id": "cand-7b4f27672aa8742e",
-      "topic": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/amplitude",
-      "published_at": "Thu, 12 Nov 2026 20:00:00 GMT",
-      "discovered_at": "2026-11-12T23:02:12.441612+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 5,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 8,
-      "save_score": 5,
-      "share_score": 5,
-      "information_value": 12,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "EDITORIAL_REJECTED",
-      "score": 63,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-        "url": "https://openai.com/index/amplitude",
-        "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-        "published": "Thu, 12 Nov 2026 20:00:00 GMT",
-        "freshness_score": 10,
-        "relevance_score": 14,
-        "impact_score": 4,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 28
-      },
-      "rejected_at": "2026-11-13T08:15:50.390640+00:00"
-    },
-    {
-      "content_id": "cand-e0a4e3ff3c5a2f94",
-      "topic": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
-      "content_type": "LAST_24H",
-      "source": "Google AI Blog",
-      "source_url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "published_at": "Thu, 12 Nov 2026 18:00:00 +0000",
-      "discovered_at": "2026-11-12T23:02:12.446339+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 5,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 0,
-      "save_score": 5,
-      "share_score": 3,
-      "information_value": 6,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 41,
-      "raw": {
-        "source": "Google AI Blog",
-        "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-        "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-        "description": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
-        "published": "Thu, 12 Nov 2026 18:00:00 +0000",
-        "freshness_score": 10,
-        "relevance_score": 6,
-        "impact_score": 0,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 16
-      }
-    },
-    {
       "content_id": "cand-c1c80e32139842cb",
       "topic": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
       "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
@@ -7004,5 +6917,5 @@
       }
     }
   ],
-  "count": 161
+  "count": 159
 }
