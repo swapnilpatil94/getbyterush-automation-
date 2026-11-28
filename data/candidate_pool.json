@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-27T15:55:14.550973+00:00",
+  "updated_at": "2026-11-28T00:55:43.510345+00:00",
   "candidates": [
     {
       "content_id": "cand-f1a45e139651ea95",
@@ -3719,49 +3719,6 @@
       "rejected_at": "2026-11-13T01:47:03.408923+00:00"
     },
     {
-      "content_id": "cand-eb06ae7ae02099e8",
-      "topic": "Introducing ChatGPT Wallet",
-      "title": "Introducing ChatGPT Wallet",
-      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "content_type": "LAST_24H",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "published_at": "Fri, 13 Nov 2026 15:00:00 GMT",
-      "discovered_at": "2026-11-13T23:05:42.775251+00:00",
-      "evidence_available": true,
-      "evergreen": false,
-      "timeliness": 4,
-      "novelty": 2,
-      "visual_potential": 3,
-      "curiosity_score": 0,
-      "save_score": 5,
-      "share_score": 3,
-      "information_value": 8,
-      "credibility": 5,
-      "experiment_possible": false,
-      "reel_readiness": {
-        "screen_recording_possible": false,
-        "product_demo_possible": false,
-        "mobile_demo_possible": false,
-        "website_demo_possible": false,
-        "visual_demo_possible": false
-      },
-      "status": "POOLED",
-      "score": 44,
-      "raw": {
-        "source": "OpenAI News",
-        "title": "Introducing ChatGPT Wallet",
-        "url": "https://openai.com/index/introducing-chatgpt-wallet",
-        "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-        "published": "Fri, 13 Nov 2026 15:00:00 GMT",
-        "freshness_score": 9,
-        "relevance_score": 8,
-        "impact_score": 0,
-        "story_type": "MODEL_UPDATE",
-        "pre_filter_score": 17
-      }
-    },
-    {
       "content_id": "cand-6a36b9f1c84aade0",
       "topic": "Shield helps technicians hand off legacy portal work with OpenAI",
       "title": "Shield helps technicians hand off legacy portal work with OpenAI",
@@ -6833,5 +6790,5 @@
       }
     }
   ],
-  "count": 157
+  "count": 156
 }
