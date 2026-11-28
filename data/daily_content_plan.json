@@ -1,33 +1,18 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "mode": "slotted",
   "quality_floor": 50,
   "posts": [
     {
       "rank": 1,
       "slot": "morning",
-      "content_id": "cand-3f990a07dbff1c5d",
-      "topic": "AI is becoming a first hire for small businesses",
+      "content_id": "cand-4282253fa127c65b",
+      "topic": "Fighting the New York Times’ invasion of user privacy",
       "category": "EVERGREEN_VALUE",
-      "score": 51,
-      "reason": "EVERGREEN_VALUE — USEFUL, PROVABLE, EXPLAINABLE (score 51/100)",
+      "score": 50,
+      "reason": "EVERGREEN_VALUE — SURPRISING, USEFUL, PROVABLE, EXPLAINABLE (score 50/100)",
       "source": "OpenAI News",
-      "source_url": "https://openai.com/index/ai-first-hire-small-business",
-      "editorial_status": "FAILED",
-      "render_status": "PENDING",
-      "telegram_status": "PENDING",
-      "publish_status": "PENDING"
-    },
-    {
-      "rank": 2,
-      "slot": "night",
-      "content_id": "cand-c8ce72e76c7b15db",
-      "topic": "Deep double descent",
-      "category": "DATA_RESEARCH",
-      "score": 53,
-      "reason": "DATA_RESEARCH — SURPRISING, USEFUL, PROVABLE (score 53/100)",
-      "source": "OpenAI News",
-      "source_url": "https://openai.com/index/deep-double-descent",
+      "source_url": "https://openai.com/index/fighting-nyt-user-privacy-invasion",
       "editorial_status": "FAILED",
       "render_status": "PENDING",
       "telegram_status": "PENDING",
@@ -37,37 +22,9 @@
   "slots": {
     "morning": {
       "status": "SELECTED",
-      "content_id": "cand-3f990a07dbff1c5d",
+      "content_id": "cand-4282253fa127c65b",
       "label": "Morning discovery"
-    },
-    "midmorning": {
-      "status": "NO_QUALITY_POST",
-      "label": "Curiosity + saves",
-      "categories": [
-        "EXPERIMENT",
-        "PRODUCT_TOOL"
-      ]
-    },
-    "afternoon": {
-      "status": "NO_QUALITY_POST",
-      "label": "Freshness",
-      "categories": [
-        "LAST_24H"
-      ]
-    },
-    "evening": {
-      "status": "NO_QUALITY_POST",
-      "label": "High-attention window",
-      "categories": [
-        "CURIOSITY",
-        "INTERNET_HUMAN_TECH_BEHAVIOR"
-      ]
-    },
-    "night": {
-      "status": "SELECTED",
-      "content_id": "cand-c8ce72e76c7b15db",
-      "label": "Maximum push"
     }
   },
-  "selected_count": 2
+  "selected_count": 1
 }
